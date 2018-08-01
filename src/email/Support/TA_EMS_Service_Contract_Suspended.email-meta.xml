@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EMS alert trigger for notification of suspended service contract status</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - EMS Service Contract Suspended</name>
+    <style>none</style>
+    <subject>Suspended Service Contract Notification: {!ServiceContract.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

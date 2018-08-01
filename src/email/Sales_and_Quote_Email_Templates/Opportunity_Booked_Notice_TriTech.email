@@ -1,0 +1,15 @@
+The following Opportunity has been closed and booked:
+
+Opportunity Owner:  {!Opportunity.OwnerFullName}
+
+Account Name:  {!Account.Name}
+Opportunity Name:  {!Opportunity.Name}
+Product Family:  {!Opportunity.Product_Family_WMP__c}
+State:  {!Account.Mailing_Billing_State_WMP__c}
+Opportunity Type: {!Opportunity.RecordType} 
+
+Booked Date:  {!Opportunity.Booked_Date__c}  
+Booked Value:  {!Opportunity.Booked_Value__c}
+SO #:  {!Opportunity.Sales_Order_Number__c}
+
+Click this link to view the opportunity:  {!Opportunity.Link}

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_APCO_Hospitality_EntertoWin</name>
+    <style>none</style>
+    <subject>APCO - Hospitality Suite / Enter to Win iPAD Invitation</subject>
+    <textOnly>APC0 2011 - Hospitality Suite 
+Monday, August 8 l  Philadelphia Marriott
+
+APCO attendees and special guests are cordially invited to the TriTech Hospitality Suite.  Enjoy hosted beverages, hors d&apos;ouevres and door prizes. For details and to pick up your exclusive invitation, visit TriTech Booth #1025 or contact Phil.
+
+
+Date:  Monday, August 8
+
+
+Time:  4:00 p.m. to 7:00 p.m. 
+
+
+Location:  Philadelphia Marriott
+
+LOOKING FORWARD TO A GREAT CONFERENCE:
+
+Phil Sisk
+phil.sisk@tritech.com
+Phone: (774) 242-5505
+
+
+ ENTER TO WIN 
+
+
+Tell us what you think the future of public safety will look like and you will be entered to win an iPad 2. 
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

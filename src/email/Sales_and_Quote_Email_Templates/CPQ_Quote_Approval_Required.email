@@ -1,0 +1,29 @@
+Hello,<br><br>
+
+The following quote needs approval:<br><br>
+
+<b>Product Family</b>: {!Opportunity.Product_Family_WMP__c}<br><br>
+<b>Proposal #</b>: {!Opportunity.Quote_Number__c}<br>
+<b>Opportunity</b>: {!Opportunity.Name}
+<br>
+<b>Account</b>: {!Opportunity.Account}
+<br>
+<b>Primary Contact</b>: {!Opportunity.Contact__c}
+<br>
+<b>New or Existing Business?</b>  {!Opportunity.Deal_Type__c}<br><br>
+
+<B>Total Quote Price w/tax:</B>  {!Opportunity.Quote_Total__c}<br><br>
+
+<b>Total Discount</b>: {!Opportunity.Discount__c} %
+<br>
+<b>Gross Margin</b>: {!Opportunity.Gross_Margin__c} %
+<br><br>
+<B><I>ADDITIONAL NOTES</B></I>:  {!Opportunity.INTERNAL_Note_to_Approvers__c}<br><br>
+Please approve it by clicking on the approval link below:
+ <br>
+{!ApprovalRequest.Internal_URL}
+ <br><br>
+Thank you,
+<br>{!Opportunity.OwnerFullName}<br><br>
+<br>
+To review the quote detail, click here: {!Opportunity.Link}

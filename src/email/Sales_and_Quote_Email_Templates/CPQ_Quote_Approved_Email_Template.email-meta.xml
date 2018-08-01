@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email  notification to quote owner when quote approval is complete.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CPQ Quote Approved Email Template</name>
+    <style>none</style>
+    <subject>Quote {!Opportunity.Quote_Number__c} has been Approved</subject>
+    <textOnly>Hello {!Opportunity.OwnerFirstName},
+
+The following quote has been Approved.
+
+Quote#: {!Opportunity.Quote_Number__c}
+Opportunity: {!Opportunity.Name}
+Account: {!Opportunity.Account}
+Primary Contact: {!Opportunity.Contact__c}
+Total Quote Price: {!Opportunity.Quote_Total__c}
+Total Discount: {!Opportunity.Discount__c} %
+Gross Margin: {!Opportunity.Gross_Margin__c} %
+
+Please review your quote by clicking on the link below:
+
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

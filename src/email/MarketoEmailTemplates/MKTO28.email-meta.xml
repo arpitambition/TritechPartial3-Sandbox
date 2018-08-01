@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_CustomerAdvisoryBoardInvite_Aug12</name>
+    <style>none</style>
+    <subject>TriTech EMS Customer Advisory Board Applications Being Accepted</subject>
+    <textOnly>August 12, 2011
+TriTech EMS Customer Advisory Board Applications Being Accepted
+
+TriTech EMS is forming a Customer Advisory Board, and you have an opportunity to participate! The Customer Advisory Board will have the opportunity to provide input on TriTech products and services throughout the year. 
+
+Current plans for the Customer Advisory Board include:
+- Opportunities to review products and features under development
+- Opportunities to discuss service offerings
+- Bi-monthly meetings via web conference
+- Annual meeting to be conducted at the TriCON User conference
+
+The Customer Advisory Board members will be selected from a pool of interested customers who submit applications to participate in the group. Please copy and paste this link into a web browser window to download the application: http://www.tritechems.com/documents/TriTech_EMS_CAB_Application.doc
+
+To apply for group membership, fax your completed application to 563-387-9333 by August 18.
+
+TriTech Software System | EMS Solutions
+www.TriTech.com – www.TriTechEMS.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

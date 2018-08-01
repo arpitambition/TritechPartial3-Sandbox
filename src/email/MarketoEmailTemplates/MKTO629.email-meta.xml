@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Illinois_DuPageDemo_May2013.Reminder - 1 week</name>
+    <style>none</style>
+    <subject>Registration Reminder:  DuPage County TriTech Demonstration</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Reminder:  DuPage County TriTech Demonstration
+NEXT WEEK:  You are registered to attend
+Hello {{lead.First Name:default=Public Safety Professional}},
+ 
+ This is your confirmation that you are registered for the DuPage County TriTech Demonstration.  We look forward to seeing you at the seminar.  If there are other colleagues who may benefit from attending, there is still time to join us.  Click here to register &lt;http://offers.tritech.com/DuPageCountyDemo.html&gt; and save their space at this informative event.
+
+Date:
+ Thursday, May 9, 2013
+Agenda:
+9AM - 10AM:  Registration 
+
+10 AM - 12 PM: CAD and Mobile demonstration
+
+12 PM - 1 PM: Complimentary lunch will be provided
+
+1 PM - 3 PM: Records Management, Field Based Reporting, and IQ (data warehouse, reports and analytics) demonstration:  
+
+Address:
+ Jack T. Knueppfer Administration Building 
+421 North County Farm Road
+Wheaton, IL 60187
+
+ 
+
+Questions?
+ Phillip Everhart
+ TriTech Software Systems
+ (910) 352-5684
+ phillip.everhart@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS Changes, Challenges and Opportunities under Healthcare Reform.Reminder 1 Day</name>
+    <style>none</style>
+    <subject>Tomorrow&apos;s Webinar Reminder: EMS Changes, Challenges and Opportunities under Healthcare Reform</subject>
+    <textOnly>TriTech Reminder: Complimentary Live Webinar Tomorrow - EMS Changes, Challenges and Opportunities under Healthcare Reform
+
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+The complimentary live webinar &quot;Is Web-Based EMS Software the Way of the Future?&quot; starts tomorrow. We look forward to your questions and input for our speakers who will provide both the business and user perspectives of the web-based trend in EMS Software.
+
+Webinar attendees receive a promotional code for $25 off their Pinnacle 2012 EMS Leadership Forum Registration.
+
+SPEAKERS:
+Jay FitchJay Fitch, PhD, Fitch &amp; Associates
+Dan Voss, TriTech Product Manager
+
+Thursday, April 26, 2012
+2:00PM ET l 1:00PM CT l Noon MT l 11:00AM PT
+
+
+
+LOGIN DETAILS
+JOIN LINK: http://tritech.ilinc.com/join/yzcxpkv
+AUDIO: Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+
+Trouble logging in?
+Call 800.799.4510 to reach the iLinc support team for help
+
+Questions?
+Cheri Lane
+Marketing Communications Manager
+cheri.lane@tritech.com 
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

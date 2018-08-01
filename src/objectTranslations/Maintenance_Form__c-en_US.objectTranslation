@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Maintenance Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Maintenance Forms</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+        <relationshipLabel><!-- Maintenance Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Active = Paid Maintenance under current service contract --></help>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Beginning Date --></label>
+        <name>Beginning_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Solution --></label>
+        <name>Custom_Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ending Date --></label>
+        <name>Ending_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- GeoComm --></label>
+        <name>GeoComm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inform IQ (on premise) --></label>
+        <name>Inform_IQ_on_premise__c</name>
+    </fields>
+    <fields>
+        <label><!-- MNHS --></label>
+        <name>MNHS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance Total --></label>
+        <name>Maintenance_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Misc --></label>
+        <name>Misc__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other 3rd Party --></label>
+        <name>Other_3rd_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner --></label>
+        <name>Owner__c</name>
+        <relationshipLabel><!-- Maintenance Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Remote Access --></label>
+        <name>Remote_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax --></label>
+        <name>Sales_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com IQ --></label>
+        <name>TriTech_com_IQ__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionCAD --></label>
+        <name>VisionCAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionDATAVAULT --></label>
+        <name>VisionDATAVAULT__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionFBR --></label>
+        <name>VisionFBR__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionFIRE --></label>
+        <name>VisionFIRE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionFORCE --></label>
+        <name>VisionFORCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionINFORM --></label>
+        <name>VisionINFORM__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionJAIL --></label>
+        <name>VisionJAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionLMS --></label>
+        <name>VisionLMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionMOBILE --></label>
+        <name>VisionMOBILE__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionRMS --></label>
+        <name>VisionRMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- XChange --></label>
+        <name>XChange__c</name>
+    </fields>
+    <layouts>
+        <layout>Maitenance Form Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Software Maintenance --></label>
+            <section>Software Maintenance</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

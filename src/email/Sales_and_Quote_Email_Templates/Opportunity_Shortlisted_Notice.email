@@ -1,0 +1,10 @@
+Account Name:  {!Account.Name}
+Opportunity Name:  {!Opportunity.Name}
+Opportunity Owner:  {!Opportunity.OwnerFullName}
+Product Family:  {!Opportunity.Product_Family_WMP__c}
+State:  {!Account.Mailing_Billing_State_WMP__c}
+
+Close Date:  {!Opportunity.CloseDate}
+Opportunity Amount:  {!Opportunity.Actual_Opportunity_Value__c}
+
+Click this link to view the opportunity:  {!Opportunity.Link}

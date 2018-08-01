@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for support ticket notification updates to client contact when a public comment is added.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Zuercher_combined_letterhead</letterhead>
+    <name>EA - Ticket Update Notification Public Comment Added</name>
+    <style>freeForm</style>
+    <subject>UPDATE: {!Case.CaseNumber} - {!Case.Status}</subject>
+    <textOnly>A comment has been made on the following ticket:
+
+Ticket #: {!Case.CaseNumber}
+
+Subject: {!Case.Subject}
+
+Short Issue Summary: {!Case.Short_Issue_Summary_WMP__c}
+
+Comment added by: {!Case.LastModifiedBy}
+
+Comment: {!Case.Last_Case_Comment}
+
+Please visit the Customer Service Center portal to review your ticket: https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D0n0000008cCb&amp;portalId=06080000000QwMW</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

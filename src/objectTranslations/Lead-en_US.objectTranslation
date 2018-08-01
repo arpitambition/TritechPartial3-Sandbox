@@ -1,0 +1,1009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Account</value>
+        </caseValues>
+        <name>company_lead</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- AFR Installed Year --></label>
+        <name>AFR_Installed_Year2__c</name>
+    </fields>
+    <fields>
+        <label><!-- AFR Installed Year --></label>
+        <name>AFR_Installed_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- AFR Vendor --></label>
+        <name>AFR_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- AFR --></label>
+        <name>AFR_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Service Type --></label>
+        <name>Account_Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>Corrections</masterLabel>
+            <translation><!-- Corrections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Agency</masterLabel>
+            <translation><!-- Multi-Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSAP</masterLabel>
+            <translation><!-- PSAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police</masterLabel>
+            <translation><!-- Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheriff</masterLabel>
+            <translation><!-- Sheriff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University Police</masterLabel>
+            <translation><!-- University Police --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Act On Lead Score --></label>
+        <name>Act_On_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Type --></label>
+        <name>Agency_Type__c</name>
+        <picklistValues>
+            <masterLabel>Corrections</masterLabel>
+            <translation><!-- Corrections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire/EMS</masterLabel>
+            <translation><!-- Fire/EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Agency</masterLabel>
+            <translation><!-- Multi-Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSAP</masterLabel>
+            <translation><!-- PSAP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police</masterLabel>
+            <translation><!-- Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheriff</masterLabel>
+            <translation><!-- Sheriff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>University Police</masterLabel>
+            <translation><!-- University Police --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Area Served (Sq. Miles) --></label>
+        <name>Area_Served_Sq_Miles__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Vendor --></label>
+        <name>Billing_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Amount --></label>
+        <name>Budget_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Dispatcher/Call Taker Seats --></label>
+        <name>CAD_Dispatcher_Call_Taker_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Install Date --></label>
+        <name>CAD_Install_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Installed Year --></label>
+        <name>CAD_Installed_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Vendor --></label>
+        <name>CAD_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD --></label>
+        <name>CAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD-to-CAD --></label>
+        <name>CAD_to_CAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Call Volume (Annual) --></label>
+        <name>Call_Volume_Annual__c</name>
+    </fields>
+    <fields>
+        <label><!-- Career Fire EMS --></label>
+        <name>Career_Fire_EMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Civil Process --></label>
+        <name>Civil_Process__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comm Center --></label>
+        <name>Comm_Center2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comm Center --></label>
+        <name>Comm_Center__c</name>
+    </fields>
+    <fields>
+        <label><!-- Consolidation --></label>
+        <name>Consolidation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cross Agency Data Sharing --></label>
+        <name>Cross_Agency_Data_Sharing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Vendor --></label>
+        <name>Current_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Created Date without Time --></label>
+        <name>DB_Created_Date_without_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Lead Age --></label>
+        <name>DB_Lead_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMS Billing --></label>
+        <name>EMS_Billing__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMS CAD --></label>
+        <name>EMS_CAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMS ePCR --></label>
+        <name>EMS_ePCR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected Date of Purchase --></label>
+        <name>Expected_Date_of_Purchase__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fire RMS --></label>
+        <name>Fire_RMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast Purchase --></label>
+        <name>Forecast_Purchase__c</name>
+        <picklistValues>
+            <masterLabel>1-3 months</masterLabel>
+            <translation><!-- 1-3 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4-6 months</masterLabel>
+            <translation><!-- 4-6 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7-8 months</masterLabel>
+            <translation><!-- 7-8 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9-12 months</masterLabel>
+            <translation><!-- 9-12 months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt; 12 months</masterLabel>
+            <translation><!-- &gt; 12 months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AFR Installed --></label>
+        <name>Has_AFR__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMC Products --></label>
+        <name>IMC_Products__c</name>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD-Calls for Service</masterLabel>
+            <translation><!-- CAD-Calls for Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD-Full Dispatch</masterLabel>
+            <translation><!-- CAD-Full Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Process</masterLabel>
+            <translation><!-- Civil Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cross Agency Data Sharing</masterLabel>
+            <translation><!-- Cross Agency Data Sharing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Dispatch</masterLabel>
+            <translation><!-- Fire Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC Mobile Switch</masterLabel>
+            <translation><!-- IMC Mobile Switch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC State Interface</masterLabel>
+            <translation><!-- IMC State Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC Wireless Client</masterLabel>
+            <translation><!-- IMC Wireless Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Imaging</masterLabel>
+            <translation><!-- Imaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigative</masterLabel>
+            <translation><!-- Investigative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapping</masterLabel>
+            <translation><!-- Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pervasive</masterLabel>
+            <translation><!-- Pervasive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Records</masterLabel>
+            <translation><!-- Police Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quest Contact Manager</masterLabel>
+            <translation><!-- Quest Contact Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Monthly --></help>
+        <label><!-- Incident Volume --></label>
+        <name>Incident_Volume__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jail Beds --></label>
+        <name>Jail_Beds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jail --></label>
+        <name>Jail__c</name>
+    </fields>
+    <fields>
+        <label><!-- Law - Civilian Personnel --></label>
+        <name>Law_Civilian_Personnel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Law RMS --></label>
+        <name>Law_RMS__c</name>
+    </fields>
+    <fields>
+        <help><!-- Syncs from ActOn hidden field called &quot;Lead Details&quot; --></help>
+        <label><!-- Lead Details --></label>
+        <name>Lead_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Syncs from a lead form with the text of the campaign name --></help>
+        <label><!-- Lead Form Campaign Name --></label>
+        <name>Lead_Form_Campaign_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Tier --></label>
+        <name>Market_Tier__c</name>
+        <picklistValues>
+            <masterLabel>0</masterLabel>
+            <translation><!-- 0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile Install Date --></label>
+        <name>Mobile_Install_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Installed Year --></label>
+        <name>Mobile_Installed_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Units --></label>
+        <name>Mobile_Units__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Vendor --></label>
+        <name>Mobile_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Sworn Personnel --></label>
+        <name>Number_of_Sworn_Personnel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Company, Client &amp; Product News --></label>
+        <name>Opt_Out_Company_Client_Product_News__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Technical &amp; Product Bulletins --></label>
+        <name>Opt_Out_Technical_and_Product_Bulletins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Tradeshows and Demos --></label>
+        <name>Opt_Out_Tradeshows_and_Demos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Training Information --></label>
+        <name>Opt_Out_Training_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Budget --></label>
+        <name>Original_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Individual Contacts --></label>
+        <name>Other_Individual_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner ID --></label>
+        <name>Owner_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Population of Area Served --></label>
+        <name>Population_of_Area_Served__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Request --></label>
+        <name>Portal_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product(s) of Interest --></label>
+        <name>Product_s_of_Interest__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBR</masterLabel>
+            <translation><!-- FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ/Analytics</masterLabel>
+            <translation><!-- IQ/Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS</masterLabel>
+            <translation><!-- RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Enforcement</masterLabel>
+            <translation><!-- Total Enforcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand</masterLabel>
+            <translation><!-- TotalCommand --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RMS Install Date --></label>
+        <name>RMS_Install_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS Installed Year --></label>
+        <name>RMS_Installed_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS Users --></label>
+        <name>RMS_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS Vendor --></label>
+        <name>RMS_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reason for Portal Access --></label>
+        <name>Reason_for_Portal_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Authorized User</masterLabel>
+            <translation><!-- Authorized User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Staff</masterLabel>
+            <translation><!-- Customer Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/Chief/Owner</masterLabel>
+            <translation><!-- Director/Chief/Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS Contact</masterLabel>
+            <translation><!-- GIS Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Contact</masterLabel>
+            <translation><!-- IT Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation><!-- Project Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Contact</masterLabel>
+            <translation><!-- Secondary Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Contact</masterLabel>
+            <translation><!-- Upgrade Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CorrelationID --></label>
+        <name>SFGA__CorrelationID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Correlation Data --></label>
+        <name>SFGA__Correlation_Data__c</name>
+    </fields>
+    <fields>
+        <label><!-- Web Source --></label>
+        <name>SFGA__Web_Source__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Sales_Group__c</name>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ</masterLabel>
+            <translation><!-- IQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher</masterLabel>
+            <translation><!-- Zuercher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Services</masterLabel>
+            <translation><!-- Billing Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor</masterLabel>
+            <translation><!-- Competitor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal/Military</masterLabel>
+            <translation><!-- Federal/Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law</masterLabel>
+            <translation><!-- Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner/Vendor</masterLabel>
+            <translation><!-- Partner/Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TSS Products --></label>
+        <name>TSS_Products__c</name>
+        <picklistValues>
+            <masterLabel>CAD - Law</masterLabel>
+            <translation><!-- CAD - Law --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Add-On</masterLabel>
+            <translation><!-- CAD – Add-On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Add-On &amp; Interface</masterLabel>
+            <translation><!-- CAD – Add-On &amp; Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Fire/Law/RMS/Mobile</masterLabel>
+            <translation><!-- CAD – Fire/Law/RMS/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Fire/RMS</masterLabel>
+            <translation><!-- CAD – Fire/RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Fire/RMS/Mobile</masterLabel>
+            <translation><!-- CAD – Fire/RMS/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Law/RMS</masterLabel>
+            <translation><!-- CAD – Law/RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Law/RMS/Mobile</masterLabel>
+            <translation><!-- CAD – Law/RMS/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Mobile</masterLabel>
+            <translation><!-- CAD – Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Modification</masterLabel>
+            <translation><!-- CAD – Modification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD – Refresh</masterLabel>
+            <translation><!-- CAD – Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface</masterLabel>
+            <translation><!-- Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Regional Training Seminar</masterLabel>
+            <translation><!-- Regional Training Seminar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Add-On</masterLabel>
+            <translation><!-- Services Add-On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stratus</masterLabel>
+            <translation><!-- Stratus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stratus Upgrade</masterLabel>
+            <translation><!-- Stratus Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technology Refresh</masterLabel>
+            <translation><!-- Technology Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training Services</masterLabel>
+            <translation><!-- Training Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet Law/RMS</masterLabel>
+            <translation><!-- VisiNet Law/RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet Mobile</masterLabel>
+            <translation><!-- VisiNet Mobile --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Total Fire EMS --></label>
+        <name>Total_Fire_EMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Sworn Officers --></label>
+        <name>Total_Sworn_Officers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trade Show --></label>
+        <name>Trade_Show__c</name>
+        <picklistValues>
+            <masterLabel>AAA</masterLabel>
+            <translation><!-- AAA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APCO</masterLabel>
+            <translation><!-- APCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>APCO Atlantic Chapter</masterLabel>
+            <translation><!-- APCO Atlantic Chapter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR APCO/NENA</masterLabel>
+            <translation><!-- AR APCO/NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ APCO/NENA</masterLabel>
+            <translation><!-- AZ APCO/NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO APCO</masterLabel>
+            <translation><!-- CO APCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CPCA</masterLabel>
+            <translation><!-- CPCA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT Chiefs of Police</masterLabel>
+            <translation><!-- CT Chiefs of Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cal NENA</masterLabel>
+            <translation><!-- Cal NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Canada APCO</masterLabel>
+            <translation><!-- Canada APCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Expo</masterLabel>
+            <translation><!-- EMS Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Today</masterLabel>
+            <translation><!-- EMS Today --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FRI</masterLabel>
+            <translation><!-- FRI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IACP</masterLabel>
+            <translation><!-- IACP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICC</masterLabel>
+            <translation><!-- ICC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LEIM</masterLabel>
+            <translation><!-- LEIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA (Western) Chiefs of Police</masterLabel>
+            <translation><!-- MA (Western) Chiefs of Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME Chiefs of Police Assoc</masterLabel>
+            <translation><!-- ME Chiefs of Police Assoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metro Fire Chiefs</masterLabel>
+            <translation><!-- Metro Fire Chiefs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEACOP</masterLabel>
+            <translation><!-- NEACOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NECUSA</masterLabel>
+            <translation><!-- NECUSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NENA</masterLabel>
+            <translation><!-- NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NHEDA</masterLabel>
+            <translation><!-- NHEDA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NOBLE</masterLabel>
+            <translation><!-- NOBLE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NYSACOP</masterLabel>
+            <translation><!-- NYSACOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Navigator</masterLabel>
+            <translation><!-- Navigator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New England Assoc of Fire Chiefs</masterLabel>
+            <translation><!-- New England Assoc of Fire Chiefs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH - Chiefs of Police</masterLabel>
+            <translation><!-- OH - Chiefs of Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH APCO/NENA</masterLabel>
+            <translation><!-- OH APCO/NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH Law Enforcement Expo</masterLabel>
+            <translation><!-- OH Law Enforcement Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK Chiefs of Police</masterLabel>
+            <translation><!-- OK Chiefs of Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK Public Safety Conference</masterLabel>
+            <translation><!-- OK Public Safety Conference --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK Sheriffs&apos; Association</masterLabel>
+            <translation><!-- OK Sheriffs&apos; Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pinnacle</masterLabel>
+            <translation><!-- Pinnacle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Security Expo</masterLabel>
+            <translation><!-- Police Security Expo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI Chiefs of Police</masterLabel>
+            <translation><!-- RI Chiefs of Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN NENA</masterLabel>
+            <translation><!-- TN NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX Chiefs of Police</masterLabel>
+            <translation><!-- TX Chiefs of Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX Sheriffs&apos; Association</masterLabel>
+            <translation><!-- TX Sheriffs&apos; Association --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Texas APCO</masterLabel>
+            <translation><!-- Texas APCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA APCO</masterLabel>
+            <translation><!-- WA APCO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI NENA</masterLabel>
+            <translation><!-- WI NENA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WR APCO</masterLabel>
+            <translation><!-- WR APCO --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Tritech EMS Products --></label>
+        <name>Tritech_EMS_Products__c</name>
+        <picklistValues>
+            <masterLabel>EMS Billing</masterLabel>
+            <translation><!-- EMS Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS CAD</masterLabel>
+            <translation><!-- EMS CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS ePCR</masterLabel>
+            <translation><!-- EMS ePCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Volunteer Fire EMS --></label>
+        <name>Volunteer_Fire_EMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- ePCR Installed Year --></label>
+        <name>ePCR_Installed_Year2__c</name>
+    </fields>
+    <fields>
+        <label><!-- ePCR Installed Year --></label>
+        <name>ePCR_Installed_Year__c</name>
+    </fields>
+    <fields>
+        <label><!-- ePCR Vendor --></label>
+        <name>ePCR_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Survey Invitation --></label>
+        <name>qualtrics__Last_Survey_Invitation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Survey Response --></label>
+        <name>qualtrics__Last_Survey_Response__c</name>
+    </fields>
+    <layouts>
+        <layout>Lead Layout</layout>
+        <sections>
+            <label><!-- Act On Activity History --></label>
+            <section>Act On Activity History</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Preferences --></label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Vital Statistics --></label>
+            <section>Vital Statistics</section>
+        </sections>
+    </layouts>
+    <webLinks>
+        <label><!-- Acton_Activity_History --></label>
+        <name>ActOn__Acton_Activity_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Act_On_Email --></label>
+        <name>ActOn__Send_Act_On_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Act_On_Mass_Email --></label>
+        <name>ActOn__Send_Act_On_Mass_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- AltavistaNews --></label>
+        <name>AltavistaNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleNews --></label>
+        <name>GoogleNews</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- HooversProfile --></label>
+        <name>HooversProfile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Qualtrics_Survey --></label>
+        <name>qualtrics__Send_Qualtrics_Survey</name>
+    </webLinks>
+</CustomObjectTranslation>

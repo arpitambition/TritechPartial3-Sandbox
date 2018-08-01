@@ -1,0 +1,1662 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Projects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account State --></label>
+        <name>Account_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer 1 Name --></label>
+        <name>Admin_Designer_1_Name__c</name>
+        <relationshipLabel><!-- Projects (Admin/Designer 1 Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer 2 Name --></label>
+        <name>Admin_Designer_2_Name__c</name>
+        <relationshipLabel><!-- Projects (Admin/Designer 2 Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer 3 Name --></label>
+        <name>Admin_Designer_3_Name__c</name>
+        <relationshipLabel><!-- Projects (Admin/Designer 3 Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer 4 Name --></label>
+        <name>Admin_Designer_4_Name__c</name>
+        <relationshipLabel><!-- Projects (Admin/Designer 4 Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer 5 Name --></label>
+        <name>Admin_Designer_5_Name__c</name>
+        <relationshipLabel><!-- Projects (Admin/Designer 5 Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer 6 Name --></label>
+        <name>Admin_Designer_6_Name__c</name>
+        <relationshipLabel><!-- Projects (Admin/Designer 6 Name) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Admin/Designer Training Completed On --></label>
+        <name>Admin_Designer_Training_Completed_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Price --></label>
+        <name>Asset_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Vendor --></label>
+        <name>CAD_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>ADSI</masterLabel>
+            <translation><!-- ADSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AS400</masterLabel>
+            <translation><!-- AS400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Access</masterLabel>
+            <translation><!-- Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anteon</masterLabel>
+            <translation><!-- Anteon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS</masterLabel>
+            <translation><!-- CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CODY Systems</masterLabel>
+            <translation><!-- CODY Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRISNET</masterLabel>
+            <translation><!-- CRISNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CompuDyne</masterLabel>
+            <translation><!-- CompuDyne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constellation</masterLabel>
+            <translation><!-- Constellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crimes</masterLabel>
+            <translation><!-- Crimes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DM Data</masterLabel>
+            <translation><!-- DM Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSD</masterLabel>
+            <translation><!-- DSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Pursuit</masterLabel>
+            <translation><!-- Data Pursuit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enforsys</masterLabel>
+            <translation><!-- Enforsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM</masterLabel>
+            <translation><!-- FDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEAC</masterLabel>
+            <translation><!-- GEAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geo911</masterLabel>
+            <translation><!-- Geo911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Software</masterLabel>
+            <translation><!-- Global Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTE</masterLabel>
+            <translation><!-- HTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiTech</masterLabel>
+            <translation><!-- HiTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Networks</masterLabel>
+            <translation><!-- ID Networks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITI</masterLabel>
+            <translation><!-- ITI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infor</masterLabel>
+            <translation><!-- Infor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informant</masterLabel>
+            <translation><!-- Informant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interact</masterLabel>
+            <translation><!-- Interact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergraph</masterLabel>
+            <translation><!-- Intergraph --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone</masterLabel>
+            <translation><!-- Keystone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larimore</masterLabel>
+            <translation><!-- Larimore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logisys</masterLabel>
+            <translation><!-- Logisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucent</masterLabel>
+            <translation><!-- Lucent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASI</masterLabel>
+            <translation><!-- MASI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metro</masterLabel>
+            <translation><!-- Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorola</masterLabel>
+            <translation><!-- Motorola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New World</masterLabel>
+            <translation><!-- New World --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSSI</masterLabel>
+            <translation><!-- OSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSSI</masterLabel>
+            <translation><!-- PSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS Solutions</masterLabel>
+            <translation><!-- PTS Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pamet</masterLabel>
+            <translation><!-- Pamet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positron</masterLabel>
+            <translation><!-- Positron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printrak</masterLabel>
+            <translation><!-- Printrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QED</masterLabel>
+            <translation><!-- QED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SQL Server</masterLabel>
+            <translation><!-- SQL Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartCop</masterLabel>
+            <translation><!-- SmartCop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Software</masterLabel>
+            <translation><!-- Southern Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spillman</masterLabel>
+            <translation><!-- Spillman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SunPro</masterLabel>
+            <translation><!-- SunPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Enforcement</masterLabel>
+            <translation><!-- Total Enforcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tritech</masterLabel>
+            <translation><!-- Tritech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyler</masterLabel>
+            <translation><!-- Tyler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA Software</masterLabel>
+            <translation><!-- USA Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valor Systems</masterLabel>
+            <translation><!-- Valor Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versaterm</masterLabel>
+            <translation><!-- Versaterm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Covina User</masterLabel>
+            <translation><!-- West Covina User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dBase</masterLabel>
+            <translation><!-- dBase --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completion Date --></label>
+        <name>Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Name 1 --></label>
+        <name>Contact_Name_1__c</name>
+        <relationshipLabel><!-- Projects (Contact Name 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Name 2 --></label>
+        <name>Contact_Name_2__c</name>
+        <relationshipLabel><!-- Projects (Contact Name 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact Name 3 --></label>
+        <name>Contact_Name_3__c</name>
+        <relationshipLabel><!-- Projects (Contact Name 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Cost Matrix Updates (FV Desktop Only) --></label>
+        <name>Cost_Matrix_Updates_FV_Desktop_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dashboard Version --></label>
+        <name>Dashboard_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Omega staff member responsible for the deployment of Omega server based applications, such as configuring IIS and setting up the website --></help>
+        <label><!-- Deployment Lead --></label>
+        <name>Deployment_Lead__c</name>
+        <picklistValues>
+            <masterLabel>Bob Henry</masterLabel>
+            <translation><!-- Bob Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandon Stam</masterLabel>
+            <translation><!-- Brandon Stam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Silva</masterLabel>
+            <translation><!-- Bruce Silva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean Daniels</masterLabel>
+            <translation><!-- Dean Daniels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeremy Duval</masterLabel>
+            <translation><!-- Jeremy Duval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Mazurkivich</masterLabel>
+            <translation><!-- Matt Mazurkivich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mike Fowler</masterLabel>
+            <translation><!-- Mike Fowler --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Disable Triggers --></label>
+        <name>Disable_Triggers__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESRI Products --></label>
+        <name>ESRI_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- End-User Training Completed On --></label>
+        <name>End_User_Training_Completed_On__c</name>
+    </fields>
+    <fields>
+        <label><!-- End-User Training Scheduled For --></label>
+        <name>End_User_Training_Scheduled_For__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Price --></label>
+        <name>Fixed_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fixed Price or Hourly Rate? --></label>
+        <name>Fixed_Price_or_Hourly_Rate__c</name>
+        <picklistValues>
+            <masterLabel>Fixed</masterLabel>
+            <translation><!-- Fixed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hourly</masterLabel>
+            <translation><!-- Hourly --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Geography Layer Updates --></label>
+        <name>Geography_Layer_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- &quot;Go Live&quot; Date --></label>
+        <name>Go_Live_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hosted or On-Premise --></label>
+        <name>Hosted_or_On_Premise__c</name>
+        <picklistValues>
+            <masterLabel>Hosted</masterLabel>
+            <translation><!-- Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Premise</masterLabel>
+            <translation><!-- On-Premise --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hourly Rate --></label>
+        <name>Hourly_Rate__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of hours spent on project --></help>
+        <label><!-- Hours --></label>
+        <name>Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Import Profile Updated --></label>
+        <name>Import_Profile_Updated__c</name>
+    </fields>
+    <fields>
+        <label><!-- Install Date --></label>
+        <name>Install_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kickoff Date --></label>
+        <name>Kickoff_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Project Number --></label>
+        <name>Legacy_Project_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Lookup Table Updates --></label>
+        <name>Lookup_Table_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Map Cache Updates --></label>
+        <name>Map_Cache_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Omega Products --></label>
+        <name>Omega_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Omega Software Delivery Type --></label>
+        <name>Omega_Software_Delivery_Type__c</name>
+        <picklistValues>
+            <masterLabel>Client Will Obtain Software From Project Lead</masterLabel>
+            <translation><!-- Client Will Obtain Software From Project Lead --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Send Software to Software Recipient</masterLabel>
+            <translation><!-- Send Software to Software Recipient --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Project Team Members --></label>
+        <name>Other_Project_Team_Members__c</name>
+        <picklistValues>
+            <masterLabel>Andrew Hart</masterLabel>
+            <translation><!-- Andrew Hart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blake Brown</masterLabel>
+            <translation><!-- Blake Brown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bob Henry</masterLabel>
+            <translation><!-- Bob Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandon Stam</masterLabel>
+            <translation><!-- Brandon Stam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Burson</masterLabel>
+            <translation><!-- Brittany Burson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Thies</masterLabel>
+            <translation><!-- Brittany Thies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Silva</masterLabel>
+            <translation><!-- Bruce Silva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase Jones</masterLabel>
+            <translation><!-- Chase Jones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colby Schofield</masterLabel>
+            <translation><!-- Colby Schofield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean Daniels</masterLabel>
+            <translation><!-- Dean Daniels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeremy Duval</masterLabel>
+            <translation><!-- Jeremy Duval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juan Franquez</masterLabel>
+            <translation><!-- Juan Franquez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kendall Schrodt</masterLabel>
+            <translation><!-- Kendall Schrodt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LaTricia White</masterLabel>
+            <translation><!-- LaTricia White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liza Wright</masterLabel>
+            <translation><!-- Liza Wright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Jenkins</masterLabel>
+            <translation><!-- Mark Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Bouvet</masterLabel>
+            <translation><!-- Michael Bouvet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicholas Dunigan</masterLabel>
+            <translation><!-- Nicholas Dunigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quentin Gregg</masterLabel>
+            <translation><!-- Quentin Gregg --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment terms (if not 50/40/10) --></label>
+        <name>Payment_terms_if_not_50_40_10__c</name>
+    </fields>
+    <fields>
+        <help><!-- Implementation staff member who reviewed the application prior to deployment &amp; the date that review occurred on. --></help>
+        <label><!-- Peer Reviewer &amp; Date --></label>
+        <name>Peer_Reviewer_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Percent of Work Completed --></label>
+        <name>Percent_of_Work_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning Comments --></label>
+        <name>Planning_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Post Installation Action Items --></label>
+        <name>Post_Installation_Action_Items__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Asset TriTech Sales Order # --></label>
+        <name>Project_Asset_TriTech_Sales_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Asset --></label>
+        <name>Project_Asset__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Assignment Date --></label>
+        <name>Project_Assignment_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Details --></label>
+        <name>Project_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- Staff member serving as primary contact for the project --></help>
+        <label><!-- Project Lead --></label>
+        <name>Project_Lead__c</name>
+        <picklistValues>
+            <masterLabel>Andrew Hart</masterLabel>
+            <translation><!-- Andrew Hart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Awaiting Project Builder</masterLabel>
+            <translation><!-- Awaiting Project Builder --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blake Brown</masterLabel>
+            <translation><!-- Blake Brown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bob Henry</masterLabel>
+            <translation><!-- Bob Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandon Stam</masterLabel>
+            <translation><!-- Brandon Stam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Burson</masterLabel>
+            <translation><!-- Brittany Burson --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Thies</masterLabel>
+            <translation><!-- Brittany Thies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Silva</masterLabel>
+            <translation><!-- Bruce Silva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase Jones</masterLabel>
+            <translation><!-- Chase Jones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colby Schofield</masterLabel>
+            <translation><!-- Colby Schofield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean Daniels</masterLabel>
+            <translation><!-- Dean Daniels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeremy Duval</masterLabel>
+            <translation><!-- Jeremy Duval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Juan Franquez</masterLabel>
+            <translation><!-- Juan Franquez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kendall Schrodt</masterLabel>
+            <translation><!-- Kendall Schrodt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LaTricia White</masterLabel>
+            <translation><!-- LaTricia White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liza Wright</masterLabel>
+            <translation><!-- Liza Wright --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Jenkins</masterLabel>
+            <translation><!-- Mark Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Mazurkivich</masterLabel>
+            <translation><!-- Matt Mazurkivich --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Bouvet</masterLabel>
+            <translation><!-- Michael Bouvet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mike Fowler</masterLabel>
+            <translation><!-- Mike Fowler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicholas Dunigan</masterLabel>
+            <translation><!-- Nicholas Dunigan --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quentin Gregg</masterLabel>
+            <translation><!-- Quentin Gregg --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Name --></label>
+        <name>Project_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Brief description explaining status of project --></help>
+        <label><!-- Project Status Comments --></label>
+        <name>Project_Status_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Status --></label>
+        <name>Project_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archived</masterLabel>
+            <translation><!-- Archived --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installed</masterLabel>
+            <translation><!-- Installed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Live</masterLabel>
+            <translation><!-- Live --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold - Client</masterLabel>
+            <translation><!-- On Hold - Client --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold - Omega</masterLabel>
+            <translation><!-- On Hold - Omega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Staging</masterLabel>
+            <translation><!-- Staging --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Title --></label>
+        <name>Project_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Projected # of Hours --></label>
+        <name>Projected_of_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- RDBMS --></label>
+        <name>RDBMS__c</name>
+        <picklistValues>
+            <masterLabel>AS400</masterLabel>
+            <translation><!-- AS400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DB2</masterLabel>
+            <translation><!-- DB2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informix</masterLabel>
+            <translation><!-- Informix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS Access</masterLabel>
+            <translation><!-- MS Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS Excel</masterLabel>
+            <translation><!-- MS Excel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS Fox Pro</masterLabel>
+            <translation><!-- MS Fox Pro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS SQL Server</masterLabel>
+            <translation><!-- MS SQL Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pervasive</masterLabel>
+            <translation><!-- Pervasive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>c-tree</masterLabel>
+            <translation><!-- c-tree --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RMS Vendor --></label>
+        <name>RMS_Vendor__c</name>
+        <picklistValues>
+            <masterLabel>4D Fire</masterLabel>
+            <translation><!-- 4D Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADSI</masterLabel>
+            <translation><!-- ADSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARJIS</masterLabel>
+            <translation><!-- ARJIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AS400</masterLabel>
+            <translation><!-- AS400 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Access</masterLabel>
+            <translation><!-- Access --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Aether</masterLabel>
+            <translation><!-- Aether --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Anteon</masterLabel>
+            <translation><!-- Anteon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archonix</masterLabel>
+            <translation><!-- Archonix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BioKey</masterLabel>
+            <translation><!-- BioKey --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C.H.A.I.R.S.</masterLabel>
+            <translation><!-- C.H.A.I.R.S. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS</masterLabel>
+            <translation><!-- CIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CODY Systems</masterLabel>
+            <translation><!-- CODY Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRISNET</masterLabel>
+            <translation><!-- CRISNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citrix</masterLabel>
+            <translation><!-- Citrix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CityScape</masterLabel>
+            <translation><!-- CityScape --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CompuDyne</masterLabel>
+            <translation><!-- CompuDyne --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Constellation</masterLabel>
+            <translation><!-- Constellation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crimes</masterLabel>
+            <translation><!-- Crimes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crimestar</masterLabel>
+            <translation><!-- Crimestar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DM Data</masterLabel>
+            <translation><!-- DM Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSD</masterLabel>
+            <translation><!-- DSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Pursuit</masterLabel>
+            <translation><!-- Data Pursuit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denali</masterLabel>
+            <translation><!-- Denali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIS</masterLabel>
+            <translation><!-- EIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETI</masterLabel>
+            <translation><!-- ETI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enforsys</masterLabel>
+            <translation><!-- Enforsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM</masterLabel>
+            <translation><!-- FDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Manager</masterLabel>
+            <translation><!-- Fire Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireHouse</masterLabel>
+            <translation><!-- FireHouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireInfo</masterLabel>
+            <translation><!-- FireInfo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEAC</masterLabel>
+            <translation><!-- GEAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geo911</masterLabel>
+            <translation><!-- Geo911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Software</masterLabel>
+            <translation><!-- Global Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HTE</masterLabel>
+            <translation><!-- HTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiTech</masterLabel>
+            <translation><!-- HiTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Plains</masterLabel>
+            <translation><!-- High Plains --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>I.R.I.S.</masterLabel>
+            <translation><!-- I.R.I.S. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBRS</masterLabel>
+            <translation><!-- IBRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Networks</masterLabel>
+            <translation><!-- ID Networks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITI</masterLabel>
+            <translation><!-- ITI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House</masterLabel>
+            <translation><!-- In-House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infor</masterLabel>
+            <translation><!-- Infor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Informant</masterLabel>
+            <translation><!-- Informant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interact</masterLabel>
+            <translation><!-- Interact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergraph</masterLabel>
+            <translation><!-- Intergraph --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone</masterLabel>
+            <translation><!-- Keystone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landtrak</masterLabel>
+            <translation><!-- Landtrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Larimore</masterLabel>
+            <translation><!-- Larimore --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logics</masterLabel>
+            <translation><!-- Logics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logisys</masterLabel>
+            <translation><!-- Logisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lucent</masterLabel>
+            <translation><!-- Lucent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASI</masterLabel>
+            <translation><!-- MASI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Metro</masterLabel>
+            <translation><!-- Metro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Microsystems</masterLabel>
+            <translation><!-- Microsystems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorola</masterLabel>
+            <translation><!-- Motorola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New World</masterLabel>
+            <translation><!-- New World --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSSI</masterLabel>
+            <translation><!-- OSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Oracle</masterLabel>
+            <translation><!-- Oracle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSSI</masterLabel>
+            <translation><!-- PSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS Solutions</masterLabel>
+            <translation><!-- PTS Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pamet</masterLabel>
+            <translation><!-- Pamet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paragon</masterLabel>
+            <translation><!-- Paragon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pistol</masterLabel>
+            <translation><!-- Pistol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positron</masterLabel>
+            <translation><!-- Positron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Printrak</masterLabel>
+            <translation><!-- Printrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QED</masterLabel>
+            <translation><!-- QED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>S*RMS</masterLabel>
+            <translation><!-- S*RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SHIELD</masterLabel>
+            <translation><!-- SHIELD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SQL Server</masterLabel>
+            <translation><!-- SQL Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartCop</masterLabel>
+            <translation><!-- SmartCop --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Software</masterLabel>
+            <translation><!-- Southern Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spillman</masterLabel>
+            <translation><!-- Spillman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SunGard</masterLabel>
+            <translation><!-- SunGard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SunPro</masterLabel>
+            <translation><!-- SunPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sunridge</masterLabel>
+            <translation><!-- Sunridge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SuperCLEM</masterLabel>
+            <translation><!-- SuperCLEM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSG</masterLabel>
+            <translation><!-- TSG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Text</masterLabel>
+            <translation><!-- Text --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Enforcement</masterLabel>
+            <translation><!-- Total Enforcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tritech</masterLabel>
+            <translation><!-- Tritech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyler</masterLabel>
+            <translation><!-- Tyler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA Software</masterLabel>
+            <translation><!-- USA Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valor Systems</masterLabel>
+            <translation><!-- Valor Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versaterm</masterLabel>
+            <translation><!-- Versaterm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warehouse</masterLabel>
+            <translation><!-- Warehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Covina User</masterLabel>
+            <translation><!-- West Covina User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Xpediter</masterLabel>
+            <translation><!-- Xpediter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zoll Data</masterLabel>
+            <translation><!-- Zoll Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>dBase</masterLabel>
+            <translation><!-- dBase --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Saved Query Updates --></label>
+        <name>Saved_Query_Updates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Type --></label>
+        <name>Service_Type__c</name>
+        <picklistValues>
+            <masterLabel>Adding New Fields to an Existing Dataset</masterLabel>
+            <translation><!-- Adding New Fields to an Existing Dataset --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Boundary Redistricting</masterLabel>
+            <translation><!-- Boundary Redistricting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crystal Reports</masterLabel>
+            <translation><!-- Crystal Reports --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dashboard - Professional Service</masterLabel>
+            <translation><!-- Dashboard - Professional Service --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivery of Purchased Licenses</masterLabel>
+            <translation><!-- Delivery of Purchased Licenses --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Study - Citygate</masterLabel>
+            <translation><!-- Fire Study - Citygate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireView - Street Tuning</masterLabel>
+            <translation><!-- FireView - Street Tuning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS Data Editing</masterLabel>
+            <translation><!-- GIS Data Editing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Geocoding</masterLabel>
+            <translation><!-- Geocoding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Import Profile</masterLabel>
+            <translation><!-- Import Profile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omega Project Migration (New PC/Server)</masterLabel>
+            <translation><!-- Omega Project Migration (New PC/Server) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Saved Queries Update</masterLabel>
+            <translation><!-- Saved Queries Update --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School District Consulting - General</masterLabel>
+            <translation><!-- School District Consulting - General --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SchoolPlanner Yearly Geocoding</masterLabel>
+            <translation><!-- SchoolPlanner Yearly Geocoding --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TeleAtlas Streets</masterLabel>
+            <translation><!-- TeleAtlas Streets --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Software products to be mailed on first shipment request --></help>
+        <label><!-- Software --></label>
+        <name>Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Staging Date --></label>
+        <name>Staging_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Confidence in prediction considering:
+*Project lead&apos;s workload and travel schedule
+*Amount of work yet to be done
+*Training schedule/status
+*Web deployment delay
+*Responsiveness of client
+*Review periods and updates
+*10 bus. day comp letter period --></help>
+        <label><!-- Target Closure Date Confidence --></label>
+        <name>Target_Closure_Date_Confidence__c</name>
+        <picklistValues>
+            <masterLabel>100% - Project Is Complete</masterLabel>
+            <translation><!-- 100% - Project Is Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50% - Might close as predicted. Substantial risk.</masterLabel>
+            <translation><!-- 50% - Might close as predicted. Substantial risk. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>60% - Will close by this date only if circumstances and workload are favorable.</masterLabel>
+            <translation><!-- 60% - Will close by this date only if circumstances and workload are favorable. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>75% - Good chance, but circumstances and/or workload will need to be favorable to complete in time.</masterLabel>
+            <translation><!-- 75% - Good chance, but circumstances and/or workload will need to be favorable to complete in time. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>85% - Very good chance. Small risk of delay, and workload allows necessary time.</masterLabel>
+            <translation><!-- 85% - Very good chance. Small risk of delay, and workload allows necessary time. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>90% - Pretty certain. Almost no risk of delay, and workload allows necessary time.</masterLabel>
+            <translation><!-- 90% - Pretty certain. Almost no risk of delay, and workload allows necessary time. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>95% - Very certain. Timeline is planned including completion letter period.</masterLabel>
+            <translation><!-- 95% - Very certain. Timeline is planned including completion letter period. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;10% - Project is perpetually stalled</masterLabel>
+            <translation><!-- &lt;10% - Project is perpetually stalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&lt;50% - Too early to set firm dates.</masterLabel>
+            <translation><!-- &lt;50% - Too early to set firm dates. --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Project lead&apos;s best estimate of when the project will be completed --></help>
+        <label><!-- Target Closure Date --></label>
+        <name>Target_Closure_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost (Hours) --></label>
+        <name>Total_Cost_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trainer --></label>
+        <name>Trainer__c</name>
+        <picklistValues>
+            <masterLabel>Andrew Hart</masterLabel>
+            <translation><!-- Andrew Hart --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blake Brown</masterLabel>
+            <translation><!-- Blake Brown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bob Henry</masterLabel>
+            <translation><!-- Bob Henry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandon Stam</masterLabel>
+            <translation><!-- Brandon Stam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brittany Thies</masterLabel>
+            <translation><!-- Brittany Thies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Silva</masterLabel>
+            <translation><!-- Bruce Silva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chase Jones</masterLabel>
+            <translation><!-- Chase Jones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Colby Schofield</masterLabel>
+            <translation><!-- Colby Schofield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dean Daniels</masterLabel>
+            <translation><!-- Dean Daniels --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeremy Duval</masterLabel>
+            <translation><!-- Jeremy Duval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kendall Schrodt</masterLabel>
+            <translation><!-- Kendall Schrodt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LaTricia White</masterLabel>
+            <translation><!-- LaTricia White --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lee Munizza</masterLabel>
+            <translation><!-- Lee Munizza --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Jenkins</masterLabel>
+            <translation><!-- Mark Jenkins --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mike Fowler</masterLabel>
+            <translation><!-- Mike Fowler --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quentin Gregg</masterLabel>
+            <translation><!-- Quentin Gregg --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Training Comments --></label>
+        <name>Training_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training End Date --></label>
+        <name>Training_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Start Date --></label>
+        <name>Training_Start_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- List the name of the TriTech project manager for this project. If no PM is involved, enter &quot;NA&quot; or something to indicate that. --></help>
+        <label><!-- TriTech Project Manager --></label>
+        <name>TriTech_Project_Manager__c</name>
+        <relationshipLabel><!-- Projects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- TriTech Sales Order # --></label>
+        <name>TriTech_Sales_Order__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Layout - Advanced Reporting Module</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- POST IMPLEMENTATION ACTION ITEMS --></label>
+            <section>POST IMPLEMENTATION ACTION ITEMS</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT PLANNING --></label>
+            <section>PROJECT PLANNING</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT TRAINING --></label>
+            <section>PROJECT TRAINING</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - CrimeMapping Solution</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- DATA SOURCES --></label>
+            <section>DATA SOURCES</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT PLANNING AND DEPLOYMENT --></label>
+            <section>PROJECT PLANNING AND DEPLOYMENT</section>
+        </sections>
+        <sections>
+            <label><!-- SOFTWARE PRODUCTS --></label>
+            <section>SOFTWARE PRODUCTS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - Desktop Solution</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MAINTENANCE REQUESTS (Provide date and details of update requested) --></label>
+            <section>MAINTENANCE REQUESTS (Provide date and details of update requested)</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- POST IMPLEMENTATION ACTION ITEMS --></label>
+            <section>POST IMPLEMENTATION ACTION ITEMS</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT PLANNING --></label>
+            <section>PROJECT PLANNING</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT TRAINING --></label>
+            <section>PROJECT TRAINING</section>
+        </sections>
+        <sections>
+            <label><!-- SOFTWARE PRODUCTS --></label>
+            <section>SOFTWARE PRODUCTS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - NEARme Solution</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MAINTENANCE REQUESTS (Provide date and details of update requested) --></label>
+            <section>MAINTENANCE REQUESTS (Provide date and details of update requested)</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- POST IMPLEMENTATION ACTION ITEMS --></label>
+            <section>POST IMPLEMENTATION ACTION ITEMS</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT PLANNING --></label>
+            <section>PROJECT PLANNING</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT TRAINING --></label>
+            <section>PROJECT TRAINING</section>
+        </sections>
+        <sections>
+            <label><!-- SOFTWARE SHIPMENTS --></label>
+            <section>SOFTWARE SHIPMENTS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - Omega Dashboard Solution</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MAINTENANCE REQUESTS (Provide date and details of update requested) --></label>
+            <section>MAINTENANCE REQUESTS (Provide date and details of update requested)</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- POST IMPLEMENTATION ACTION ITEMS --></label>
+            <section>POST IMPLEMENTATION ACTION ITEMS</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT DEPLOYMENT --></label>
+            <section>PROJECT DEPLOYMENT</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT PLANNING --></label>
+            <section>PROJECT PLANNING</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT TRAINING --></label>
+            <section>PROJECT TRAINING</section>
+        </sections>
+        <sections>
+            <label><!-- SOFTWARE SHIPMENTS --></label>
+            <section>SOFTWARE SHIPMENTS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - Omega Enterrpise with Dashboard</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MAINTENANCE REQUESTS (Provide date and details of update requested) --></label>
+            <section>MAINTENANCE REQUESTS (Provide date and details of update requested)</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- POST IMPLEMENTATION ACTION ITEMS --></label>
+            <section>POST IMPLEMENTATION ACTION ITEMS</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT DEPLOYMENT --></label>
+            <section>PROJECT DEPLOYMENT</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT PLANNING --></label>
+            <section>PROJECT PLANNING</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT TRAINING --></label>
+            <section>PROJECT TRAINING</section>
+        </sections>
+        <sections>
+            <label><!-- SOFTWARE SHIPMENTS --></label>
+            <section>SOFTWARE SHIPMENTS</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Layout - Professional Services</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- MILESTONES --></label>
+            <section>MILESTONES</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- PRICING --></label>
+            <section>PRICING</section>
+        </sections>
+        <sections>
+            <label><!-- PROJECT DETAILS --></label>
+            <section>PROJECT DETAILS</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Advanced Reporting Module --></label>
+        <name>Advanced_Reporting_Module</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- CrimeMapping/ResponseMapping Hosting --></label>
+        <name>CrimeMapping_ResponseMapping_Hosting</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Desktop Solutions --></label>
+        <name>Desktop_Solutions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Mobile Solutions --></label>
+        <name>Mobile_Solutions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Omega Dashboard Solutions --></label>
+        <name>Omega_Dashboard_Solutions</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Omega Enterprise Solution (multiple products) --></label>
+        <name>Omega_Enterprise_Solution_multiple_products</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Professional Services --></label>
+        <name>Professional_Services</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

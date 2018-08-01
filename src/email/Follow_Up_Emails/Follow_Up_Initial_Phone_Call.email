@@ -1,0 +1,6 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[Dear {!Contact.FirstName}, <BR><BR>Thank you for taking the time to speaking with me about the needs and goals of your agency. I think that TriTech's products and services can benefit your operations, and I look forward to demonstrating our solutions. <BR><BR>If you need more information about TriTech's product and services, please feel free to contact me directly or visit our website at <A href="http://www.tritech.com/" target=_BLANK><FONT color=#000000>www.tritech.com</FONT></A>. <BR><BR>Regards, {!User.FirstName}]]></td>
+</tr>
+</table>

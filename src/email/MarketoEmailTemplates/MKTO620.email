@@ -1,0 +1,65 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>TriTech</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="middle" src="http://offers.tritech.com/rs/tritech/images/TSS_Logo_Banner_660x165.png" alt="TriTech Software Systems"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:rgb(223, 31, 38); vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="13" height="28" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div class="mktEditable" id="volume_title" ><strong><span style="font-size: 12px;">STAY CONNECTED</span> <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Facebook.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Twitter.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/LinkedIn.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/youtube-logo.jpg" alt="" width="23" height="16"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png" alt=""><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:rgb(223, 31, 38); font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ><span style="font-size: 28px;"><span style="color: #df1f26;">Client Announcement</span><br></span></div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" >April 30, 2013</div>
+</div>
+<br>
+<div id="main_text" class="mktEditable" ><p>Dear {{lead.First Name:default=TriTech.com ePCR Customer}},<br /><br />On <strong>Saturday, May 4th at 12AM CT (1AM ET, 10PM PT), Operations will be performing an update of the TriTech.com ePCR Application</strong>. The Update is scheduled to be completed by 6AM CT (7AM ET, 4AM PT).<br /><br />For a complete list of the changes accompanying the latest version of TriTech.com ePCR, please read our release notes online by clicking <a href="https://myems.tritech.com/documents/Release%20Notes/Respond%20ePCR%20Release%20Notes%206.2.1.pdf" target="_blank">here</a>.</p>
+<p>During the maintenance period, access to TriTech.com ePCR for LAN Clients will be unavailable; also you will be unable to Datalink your TriTech.com ePCR Mobile Clients. You may continue to use your TriTech.com ePCR Mobile Clients, with the exception of the Datalink process.<br /><br />Please note, once the update is applied to the server, the update will be pushed to your TriTech.com ePCR Mobile Clients. It is recommended that the update be applied as soon as it is available on your TriTech.com ePCR Mobile Clients.<br /><br />Please download the instructions <a href="http://offers.tritech.com/rs/tritech/images/TriTech-com_ePCR_v6-2-1_Update.pdf" target="_blank">here</a>.</p>
+<p>TriTech Software Systems| www.tritech.com</p></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9477 Waples Street, Suite 100, San Diego, CA 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br></body>
+</html>

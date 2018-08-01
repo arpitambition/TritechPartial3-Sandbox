@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q3_2012_IA.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 3rd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Third Quarterly TriTech Customer Newsletter.
+
+In the last issue &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Main.html&gt;, we highlighted a new logo, the Version 5.9 Billing release, a new brand name, various training options offered for the EMS products, industry news/webinars, and new customers joining the TriTech team. In this edition, you will find important product updates, current user group trainings, monthly customer service webinars, information about the new tritech.com website to be unveiled this month, and more. 
+
+I’ve enjoyed the first-hand insight and professional information about our industry that I’ve been able to gain through customer visits and the recent Pinnacle Conference in Colorado. The one thing I think everyone can agree on is that change in our industry is inevitable. (See Jay Fitch’s comments on this topic here &lt;http://recordings.tritech.co/2012-04-26&gt; in our joint webinar that we offered in April.) You can rest assured that our software will be ready for these changes to provide you with the compliant, up-to-date applications that you rely on in your operations.
+
+We strongly recommend that customers continue to expand their software skills (see all the options outlined the last newsletter &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Support.html&gt;) through training and education opportunities. Becoming more proficient with the TriTech software will result in a positive impact on your operational efficiency, effectiveness, and bottom line. We have two upcoming user groups this fall: one in Washington on October 16-17 &lt;http://offers.tritech.com/SGT-WA037_October16-17_2012_EventRegistration.html&gt;, and one in Pennsylvania on September 18-19. &lt;http://offers.tritech.com/SGTPA030_September18-19_2012.html&gt; Please take a moment to review the details, or contact your Client Account Manager if you’d like to host a training in your area.
+
+The staff in our Decorah, IA office continues to grow as we build the National Support Center, cross-train support techs, and improve processes. Ann Bodensteiner leads the EMS team as the Supervisor of Technical Services, while Kelly (Rothlisberger) Wachal is your primary support contact as the Supervisor of Customer Service and Education for the EMS division. My position as the Vice President of Customer Support involves ensuring that all of our support teams provide the best customer service in the industry - utilizing best practices, common processes, and performance benchmarks.
+
+Thank you for the opportunity to let TriTech serve as your public safety and EMS technology provider.
+
+
+
+
+Terri Barry, Vice President of Customer Services 
+TriTech Software Systems 
+
+
+
+
+
+
+Product Updates
+Read about Version 6.0 ePCR and the &apos;Golden Rule of Change&apos; from your TriTech Product Managers. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_Products.html&gt;
+
+
+
+Upcoming Webinar - How to Get Your Crews to Document Effectively
+Join Doug Wolfberg of Page, Wolberg, and Wirth and TriTech&apos;s Kelly Watchal for PWW&apos;s most requested presentation. 
+REGISTER NOW &lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_NewsandEvents.html&gt;
+
+
+
+Should You Consider a Cloud-Based Billing or ePCR Solution?
+Do you know the online benefits?
+[READ MORE]
+
+
+
+Upcoming Group Trainings in PA and WA
+
+Earn 11 CEUs and sharpen your billing software skills in these two-day, hands-on trainings. 
+[LEARN MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_NewsandEvents.html&gt;
+
+
+
+
+Training = Better use of your TriTech Software
+Are you aware of all the training options available to you? From group trainings, to the Billing Boot Camp to remote training options to the Billing Checkup…which is right for you?
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_Support.html&gt;
+&gt; Main Page
+&lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_Main.html&gt;
+
+&gt; Products
+&lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_Products.html&gt;
+
+&gt; Support
+&lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_Support.html&gt;
+
+&gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q3_2012_IA_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call
+(563) 387-9338
+
+
+
+To Access the Client Login
+
+
+&lt;http://www.tritechems.com/Support/Support.asp&gt;
+
+
+
+ACCOUNT MANAGERS
+
+
+Brenda Taylor
+(800) 537-3927 x6233
+brenda.taylor@tritech.com
+
+Michele Duwe
+(800) 537-3927 x6261
+michele.duwe@tritech.com
+
+Tyler Harman
+(800) 537-3927 x6280
+tyler.harman@tritech.com
+
+
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+&lt;http://www.youtube.com/user/tritechsoftware&gt;
+Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

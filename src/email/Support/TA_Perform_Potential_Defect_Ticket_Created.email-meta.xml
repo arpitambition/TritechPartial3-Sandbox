@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Perform alert trigger when a Potential Defect ticket is created</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - Perform Potential Defect Ticket Created</name>
+    <style>none</style>
+    <subject>Potential Defect Ticket Created: {!Potential_Defect__c.Defect_Ticket_ID__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

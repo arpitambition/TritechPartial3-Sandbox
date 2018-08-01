@@ -1,0 +1,9 @@
+*** A CASE HAS BEEN CREATED FOR YOU ***  
+
+The following case has been opened for you.  
+Company:  {!Case.Account}
+Contact Name:  {!Contact.Name}
+Case #:  {!Case.CaseNumber} 
+Short Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}
+
+Click on the link to access the case:  {!Case.Link}

@@ -1,0 +1,12 @@
+In order to further assist you with your requested, we need some additional information.  Please see the notes below for information needed.<br> <br> 
+
+<b>Additional Information Required:<br><br>
+{!SalesForce_Helpdesk__c.Additional_Information_Required__c}<br><br>
+
+---------------------------------------------------------------------------------------<br><br>
+
+{!SalesForce_Helpdesk__c.Link}<br> <br> 
+
+<b>Ticket Number:</b> {!SalesForce_Helpdesk__c.Name}<br>  
+<b>Request Type:</b> {!SalesForce_Helpdesk__c.Request_Type__c}<br> <br> 
+<b>Ticket Details:</b> {!SalesForce_Helpdesk__c.Request_Details__c}<br> <br>

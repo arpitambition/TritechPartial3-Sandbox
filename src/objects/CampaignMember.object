@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>AddCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ConvertLead</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CreateOpportunity</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Budget_Approved__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Budget Approved</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Calls_Made__c</fullName>
+        <description>Tracking number of calls made for campaigns</description>
+        <externalId>false</externalId>
+        <label>Calls Made (Attempts)</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1</fullName>
+                    <default>true</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Campaign_Involvement__c</fullName>
+        <externalId>false</externalId>
+        <label>Campaign Involvement</label>
+        <required>false</required>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Email Sent</fullName>
+                    <default>false</default>
+                    <label>Email Sent</label>
+                </value>
+                <value>
+                    <fullName>Email Opened</fullName>
+                    <default>false</default>
+                    <label>Email Opened</label>
+                </value>
+                <value>
+                    <fullName>Email Link Clicked</fullName>
+                    <default>false</default>
+                    <label>Email Link Clicked</label>
+                </value>
+                <value>
+                    <fullName>Follow Up Email Opened</fullName>
+                    <default>false</default>
+                    <label>Follow Up Email Opened</label>
+                </value>
+                <value>
+                    <fullName>Follow Up Email Clicked</fullName>
+                    <default>false</default>
+                    <label>Follow Up Email Clicked</label>
+                </value>
+                <value>
+                    <fullName>Attended Conference</fullName>
+                    <default>false</default>
+                    <label>Attended Conference</label>
+                </value>
+                <value>
+                    <fullName>Spoke to at Conference</fullName>
+                    <default>false</default>
+                    <label>Spoke to at Conference</label>
+                </value>
+                <value>
+                    <fullName>Filled Out Door Prize Survey</fullName>
+                    <default>false</default>
+                    <label>Filled Out Door Prize Survey</label>
+                </value>
+                <value>
+                    <fullName>Business Card Left</fullName>
+                    <default>false</default>
+                    <label>Business Card Left</label>
+                </value>
+                <value>
+                    <fullName>Door Prize Winner</fullName>
+                    <default>false</default>
+                    <label>Door Prize Winner</label>
+                </value>
+                <value>
+                    <fullName>Plans to Attend Conference</fullName>
+                    <default>false</default>
+                    <label>Plans to Attend Conference</label>
+                </value>
+                <value>
+                    <fullName>Meeting Scheduled at Conference</fullName>
+                    <default>false</default>
+                    <label>Meeting Scheduled at Conference</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>8</visibleLines>
+    </fields>
+    <fields>
+        <fullName>City</fullName>
+    </fields>
+    <fields>
+        <fullName>CompanyOrAccount</fullName>
+    </fields>
+    <fields>
+        <fullName>ContactId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Country</fullName>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+    </fields>
+    <fields>
+        <fullName>Estimated_Purchase_Timeframe__c</fullName>
+        <externalId>false</externalId>
+        <label>Estimated Purchase Timeframe</label>
+        <required>false</required>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Evaluating_Systems__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Looking for CAD, RMS or Mobile</description>
+        <externalId>false</externalId>
+        <label>Evaluating Systems</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Event_Selection__c</fullName>
+        <description>Sync field from ActOn to SF for event selection option on registration forms</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Sync field from ActOn to SF for event selection option on registration forms</inlineHelpText>
+        <label>Event Selection</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstName</fullName>
+    </fields>
+    <fields>
+        <fullName>FirstRespondedDate</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+    </fields>
+    <fields>
+        <fullName>HasResponded</fullName>
+    </fields>
+    <fields>
+        <fullName>LastName</fullName>
+    </fields>
+    <fields>
+        <fullName>LeadId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+    </fields>
+    <fields>
+        <fullName>Name_Decision_Maker__c</fullName>
+        <externalId>false</externalId>
+        <label>Name: Decision Maker</label>
+        <length>20</length>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Budget__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>No Budget</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+    </fields>
+    <fields>
+        <fullName>Population_of_Area_Served__c</fullName>
+        <externalId>false</externalId>
+        <label>Population of Area Served</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>PostalCode</fullName>
+    </fields>
+    <fields>
+        <fullName>Salutation</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>State</fullName>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Street</fullName>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+    </fields>
+    <fields>
+        <fullName>Total_Sworn_Officer__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Sworn Officer</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Unhappy_w_existing_Vendor__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Unhappy w/existing Vendor</label>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Website_Message__c</fullName>
+        <externalId>false</externalId>
+        <label>Website - Message</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Website_Product_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Website - Product Interest</label>
+        <length>32768</length>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <sharingModel>ControlledByCampaign</sharingModel>
+</CustomObject>

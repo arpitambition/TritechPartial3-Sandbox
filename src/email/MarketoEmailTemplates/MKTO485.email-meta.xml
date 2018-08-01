@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PTI-Fall2012Summit_PostSurvey.Email</name>
+    <style>none</style>
+    <subject>Thank You for Attending the PTI Fall 2012 Training Summit</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Thank You!
+November 14, 2012
+&lt;https://survey.qualtrics.com/SE/?SID=SV_bE1zGkJYLAj5hel&gt;
+
+ Thank you for attending the Perform Training Institute (PTI) Fall 2012 Training Summit! Over 180 attendees from over 90 agencies participated, and we&apos;d love to hear what you thought so that we can make the next training event even better!
+
+Tell Us What You Thought &lt;https://survey.qualtrics.com/SE/?SID=SV_bE1zGkJYLAj5hel&gt;
+
+
+
+Phil Sisk
+VP of Operations and National Sales Director
+TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,15 @@
+The following ticket has been flagged as a known issue: 
+
+Ticket Number: {!Case.CaseNumber}
+Subject:  {!Case.Subject}
+Known Issue Description:  {!Case.Known_Issue_Description__c}
+
+Defect Number:  {!Case.Defect_Number__c}
+Reported Major Version:  {!Case.Reported_Major_Version_WMP__c}
+Reported Patch:  {!Case.Reported_Patch_WMP__c}
+Released In:  {!Case.Released_In__c}
+
+Account: {!Account.Name} 
+Customer Number:  {!Account.EMS_Customer_Number_WMP__c}
+
+Click on the link to access the ticket for review: {!Case.Link}

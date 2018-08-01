@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_CC_Nov11.VNS_CC_Nov11</name>
+    <style>none</style>
+    <subject>VisiNet CAM Connection - November Newsletter</subject>
+    <textOnly>November 2011 Edition (http://offers.tritech.com/VNS_CC_Nov11_Main.html)
+
+Welcome to our monthly edition of TriTech Software Systems: CAM Connection for VisiNet Solutions. CAM stands for “Client Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our VisiNet Solutions group. Feel free to let us know if you have suggestions on topics you would like to hear about.
+ 
+ 
+Product Highlights (http://offers.tritech.com/VNS_CC_Nov11_Product.html)
+
+Stratus Technologies Automated Uptime Layer
+Leveraging more than 30 years of technology innovations, Stratus Technologies Automated Uptime Layer for ftServer Systems creates an availability-supporting ecosystem that detects, isolates and resolves faults before they cause downtime. Click here to learn more and register&gt;&gt;
+ 
+
+System Health Monitor
+Building further on our theme to improve work flow, the System Health Monitor was added to VisiCAD 5.0.3 to simplify monitoring of system events and provide a standardized way to report and distribute error or warning conditions. Click here to view the recording&gt;&gt;
+ 
+ 
+Fusion e-PCR
+In Spring 2010, TriTech acquired Ortivus North America located in Decorah, Iowa to complement our EMS offerings. It is great partnership allowing the opportunity to increase our product offerings with Sweet-Billing EMS billing software and Fusion ePCR electronic patient care reporting under the TriTech umbrella. Click here to view the recording&gt;&gt;       VisiNet Product Demonstration Recordings [VIDEO]
+    
+
+Service Update (http://offers.tritech.com/VNS_CC_Nov11_Service.html)
+ 
+Grab and Go with Greg
+We’ve just passed the one year anniversary of our Grab and Go with Greg webinars.
+
+Tech Tip – Sharing Confidential Comments
+With the new CJIS requirements, it is critical that certain comments are not shared with other agencies. When configuring the confidential comment sharing it is helpful for the agencies to be able to review an easy to read matrix. Click here to see the matrix&gt;&gt; 
+  
+
+TriCON News (http://offers.tritech.com/VNS_CC_Nov11_TriCON.html)
+
+TriCON Advisory Council
+We will be re-starting a TriCON Advisory Council to help us in our planning activities and program development for TriCON. As we re-energize our conference with sessions based on industry general trends and longer training workshops, your guidance and input is critical in helping us to determine noteworthy topics and items for discussion in our program. Click here to read about how you can help us plan for 2012&gt;&gt;
+ 
+TriCON 2012
+We&apos;re happy to announce details for TriCON 2012 at the Hilton Bayfront Hotel in San Diego&apos;s Gaslamp Quarter. Opened in 2008, the Hilton Bayfront is San Diego’s newest downtown hotel featuring a vibrant waterfront location just minutes from Gaslamp Quarter, San Diego Convention Center, and PETCO Park. Click here to read more about what to expect from TriCON 2012.&gt;&gt;
+ 
+   
+Customer Feature (http://offers.tritech.com/VNS_CC_Nov11_Client.html)
+ 
+TriTech and Medic Partner on Technology Initiatives to Improve Emergency Response
+TriTech Software Systems and Medic, Mecklenburg County’s [North Carolina] Emergency Medical Service Agency, proudly partner on important technology initiatives designed to improve emergency response. TriTech will provide its VisiNet Mobile data solution in Medic vehicles and install a VisiCAD Disaster Recovery solution for an off-site emergency backup dispatch center. By using TriTech’s solutions to improve field communications and ensure continuity of operations, these important technology initiatives reaffirm with Medic’s mission to deliver the highest quality pre-hospital care possible. Click here to read the full press release&gt;&gt; 
+                 
+
+
+ &gt; Main Page (http://offers.tritech.com/VNS_CC_Nov11_Main.html)
+ 
+ &gt; Product Highlights (http://offers.tritech.com/VNS_CC_Nov11_Product.html)
+
+ &gt; Service Update (http://offers.tritech.com/VNS_CC_Nov11_Service.html)
+
+ &gt; TriCON News (http://offers.tritech.com/VNS_CC_Nov11_TriCON.html)
+
+ &gt; Customer Feature (http://offers.tritech.com/VNS_CC_Nov11_Client.html)
+
+ &gt; www.tritech.com (http://www.tritech.com)
+
+ 
+CAM CONTACTS
+Ken Schulte(
+858) 799-7316
+ken.schulte@tritech.com
+ 
+Sally Olson-Nelson
+858) 799-7358
+sally.olson-nelson@tritech.com
+ 
+ 
+   
+ 
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

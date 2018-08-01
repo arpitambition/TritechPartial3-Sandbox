@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UserGroups_2012.Reminder-Portsmouth-NH_May-7</name>
+    <style>none</style>
+    <subject>REMINDER: User Group Meeting | Portsmouth, NH on May 7</subject>
+    <textOnly>Monday - May 7, 2012 | Portsmouth PD | Portsmouth, NH
+REMINDER: 2012 User Group Meeting
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+Just sending a reminder about the follow User Group Meeting that you are registered for:
+ 
+
+Name: {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}
+Attendee #2: {{lead.Contact 1:default=edit me}}
+Attendee #3: {{lead.Contact 2:default=edit me}}
+Attendee #4: {{lead.Contact 3:default=edit me}}
+Attendee #5: {{lead.Contact 4:default=edit me}}
+Service Name: {{company.Company Name:default=edit me}}
+
+Registered for: Portsmouth, NH User Group
+Date: Monday - May 7, 2012
+Time: 9:00 AM to Noon
+Address: Portsmouth PD: 1 Junkins Ave (City Hall), Portsmouth NH  03801 
+
+We look forward to seeing you soon!
+
+
+Your User Group Meeting is almost here. Please review the information and let us know if there is anything we can do to make this user group more valuable or covenient for you.
+Cheri Lane
+Marketing Communications Manager
+cheri.lane@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

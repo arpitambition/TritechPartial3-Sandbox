@@ -1,0 +1,127 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TriTech</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="middle" src="http://offers.tritech.com/rs/tritech/images/TSS_Logo_Banner_660x165.png" alt="TriTech Software Systems"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:#0071BC; vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="12" height="28" alt="" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png"><br></td>
+<td style="vertical-align:middle; text-align:right; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div id="volume_title" class="mktEditable" ><strong><span style="font-size: 12px;">STAY CONNECTED</span>&nbsp; <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Facebook.jpg" alt="" height="16" width="16"></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Twitter.jpg" alt="" height="16" width="16"></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/LinkedIn.jpg" alt="" height="16" width="16"></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/youtube-logo.jpg" alt="" height="16" width="23"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" alt="" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png"><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:#0071BC; font-size:23px; font-weight:bold; line-height:26px; " ><div id="main_title" class="mktEditable" ><span style="font-family: helvetica; font-size: 22px;"><strong><span style="font-family: arial,helvetica,sans-serif;">Stop by for a Visit</span></strong></span></div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" ><span style="color: #ff0000;"><br></span></div>
+</div>
+<br>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="vertical-align:top; font-size:12px; font-family:Tahoma,Helvetica; color:rgb(69, 85, 95); line-height:19px; " ><div id="main_text" class="mktEditable" >
+<p><span style="font-family: helvetica; font-size: 12px;">Hello {{lead.First Name:default=Customer}},</span></p>
+<div><span style="font-size: 12px;">The <strong>Page, Wolfberg, &amp; Wirth's <a href="http://www.pwwemslaw.com/content.aspx?id=476" target="_blank">XI (Executive Institute</a>) on March 19 and&nbsp; <a href="http://www.pwwemslaw.com/content.aspx?id=582" target="_blank">ABC3 Conference</a> on 
+March 20-21 in  Las Vegas</strong> is right around the corner.
+     TriTech will be  exhibiting at the PWW conference at the Tropicana and we invite you to  please stop by our booth and visit with our Client Account Manager,  Brenda Taylor and our Industry Education Coordinator, Kathy Ransom.</span><br /><br /><span style="font-size: 12px;">Stop  by to see a  
+   sneak preview of what&rsquo;s coming in our <strong>Respond Billing  Version 5.9.</strong> Some exciting new features include<strong> Real-time Eligibility  and </strong><strong>Virtual Multi-Leg</strong>, along with many revisions to the Remittance Processing module.</span><br /><br /><span 
+style="font-size: 12px;">Also  talk with Brenda and Kathy about how you can maximize the use of your  Respond Billing product through continuing education, Billing Check Up,  migrating  to the Cloud, or just simple tweaks to your billing system.</span><br /><br /><span style="font-size: 12px;">See 
+   you in Vegas!<br /></span></div>
+<p><span style="font-family: helvetica;"><strong><span style="font-size: 11px;"><br /></span>Questions?</strong></span><br /><span style="font-family: helvetica;"> Contact your TriTech Account Manager for more information.</span><br /><span style="font-family: helvetica;"> 
+sales@tritech.com</span><br /><span style="font-family: helvetica;"> 800-537-3927</span><br /> <span style="font-size: 11px;">&nbsp;</span></p>
+</div>
+</td>
+<td style="vertical-align:top; " ><table cellspacing="0" cellpadding="0" border="0" align="right" style="width:100px; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 14px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color: rgb(130, 130, 130); vertical-align: top;"><img width="9" height="21" alt="" src="https://app.marketo.com/images/public-site/email/colCornerNW.png"><br>
+<br></td>
+<td style="padding-left:5px; background-color:rgb(130, 130, 130); font-family:'trebuchet ms'; font-size:17px; font-weight:bold; color:rgb(255, 255, 255); " ><div id="column_title" class="mktEditable" ><p style="text-align: center;"><span style="font-size: 14px;">2013 Events</span></p></div>
+</td>
+<td style="background-color: rgb(130, 130, 130); vertical-align: top; text-align: right;"><img width="9" height="21" alt="" src="https://app.marketo.com/images/public-site/email/colCornerNE.png"><br></td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 14px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="padding:14px; background-color:rgb(255, 255, 255); font-size:12px; font-family:Tahoma,Helvetica; color:#828282; line-height:19px; " colspan="3" ><div style="font-weight:bold; color:#0071BC; " ><div id="column_subtitle" class="mktEditable" ><p style="text-align: center;"><span style="font-size: 12px; color: #4c4c4c;">We'll also be at the <br />following events in 2013:</span><span style="font-family: helvetica; font-size: 12px;"><strong><br /></strong></span></p></div>
+</div>
+<br>
+<div id="column_text" class="mktEditable" ><div>
+<ul>
+</ul>
+<span style="font-size: 10px;"><span style="font-family: 'Arial','sans-serif';">April 16-17: </span><span style="font-family: 'Arial','sans-serif';"><a href="http://offers.tritech.com/2013SGTRegistration.html"><span style="color: blue;">Respond Billing User Group</span></a> (Madison, WI)</span></span>
+<p><span style="font-size: 10px; font-family: 'Arial','sans-serif';">May 21-22: <a href="http://www.pwwemslaw.com/content.aspx?id=582"><span style="color: blue;">PWW&rsquo;s ABC3 Conference</span></a> (St.  Louis, MO)</span></p>
+<p><span style="font-size: 10px; font-family: 'Arial','sans-serif';">June 25-26: <a href="http://offers.tritech.com/2013SGTRegistration.html"><span style="color: blue;">Respond Billing User Group</span></a> (Evergreen, CO)</span></p>
+<p><span style="font-size: 10px; font-family: 'Arial','sans-serif';">August 5-9: <a href="http://pinnacle-ems.com/"><span style="color: blue;">Pinnacle</span></a> (Jacksonville, FL)</span></p>
+<p><span style="font-size: 10px; font-family: 'Arial','sans-serif';">September 4-5: <a href="http://offers.tritech.com/2013SGTRegistration.html"><span style="color: blue;">Respond Billing User Group</span></a> (West Columbia, TX)</span></p>
+<p><span style="font-size: 10px; font-family: 'Arial','sans-serif';">October: <a href="http://www.pwwemslaw.com/content.aspx?id=582"><span style="color: blue;">PWW&rsquo;s ABC3 Conference</span></a> (Hershey, PA)</span></p>
+<p><span style="font-size: 10px; font-family: 'Arial','sans-serif';">November 6-7: <a href="http://offers.tritech.com/2013SGTRegistration.html"><span style="color: blue;">Respond Billing User Group</span></a> (Shelton, CT)</span></p>
+<span style="font-size: 10px; font-family: 'Arial','sans-serif';">November 15-22: <a href="http://www.the-aaa.org/"><span style="color: blue;">AAA Annual Conference</span></a> (Las  Vegas, NV)</span>
+<ul>
+</ul>
+</div>
+<div></div></div>
+</td>
+</tr>
+<tr>
+<td style="background-color: rgb(241, 241, 241);" colspan="5"><img width="244" height="37" src="https://app.marketo.com/images/public-site/email/colShadow.png"><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9477 Waples Street, Suite 100, San Diego, CA 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

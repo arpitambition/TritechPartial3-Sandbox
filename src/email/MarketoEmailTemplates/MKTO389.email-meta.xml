@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-PA030_September18-19_2012.ConfirmationReminder</name>
+    <style>none</style>
+    <subject>SEE YOU NEXT WEEK: Billing Software Group Training in Indiana, PA on September 18-19, 2012</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+We&apos;re Looking Forward to Seeing You Next Week
+REMINDER: Billing Software Group Training in Indiana, PA Next Week
+Hello {{lead.First Name:default=Billing Customer}},
+
+We&apos;re looking forward to seeing you next week for our Billing Software Group Training. If you have questions or if there is anything we can do to make this a better experience for you, please contact us at:
+
+CONTACT FOR MORE INFORMATION: 
+
+Kim Walk, AmbCoach
+kwalk@ambcoach.com |   888-463-3488
+
+Tyler Harman, TriTech Software Systems
+tyler.harman@tritech.com |  800-537-3927 ext 6290
+
+Here is a link to download a sample copy of the agenda, if you&apos;d like: Training Agenda &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt;. Registration will begin on the first day at 7:45 a.m. We sincerely hope that these two days of education will allow everyone to gain knowledge in the areas desired. Although this is classroom-style training, feel free to bring a laptop if you have access to one and you will be able to participate in some “hands-on” activities. 
+ 
+We invite you to dress casually and comfortably for the session. Since room temperatures and preferences vary from person to person, please bring a sweater or sweatshirt to wear if needed.  
+
+See you next week!
+
+________________________________________
+
+Billing Software Group Training in Indiana, PA on September 18-19, 2012
+
+TRAINING LOCATION: 
+Rustic Lodge, 2199 Oakland Avenue, Indiana, PA 15701 &lt;http://maps.google.com/maps?oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;um=1&amp;ie=UTF-8&amp;q=Rustic+Lodge,+2199+Oakland+Avenue,+Indiana,+PA+15701&amp;fb=1&amp;gl=us&amp;hq=Rustic+Lodge,+2199+Oakland+Avenue,+Indiana,+PA+15701&amp;cid=0,0,14345032003045000306&amp;sa=X&amp;ei=T5D8T7L6O4fxqQHywfWLCQ&amp;ved=0CIABEPwSMAA&amp;oi=local_group&amp;ct=image&gt;
+
+RECOMMENDED HOTEL: 
+Holiday Inn Indiana
+1395 Wayne Ave., Indiana, PA 15701
+Website: http://www.holidayinn.com/hotels/us/en/indiana/idipa/hoteldetail &lt;http://www.holidayinn.com/hotels/us/en/indiana/idipa/hoteldetail&gt;
+Telephone:  724-463-3561</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

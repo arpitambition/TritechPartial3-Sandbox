@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTech.com IQ Demonstration.Invitation (VisiNet)</name>
+    <style>none</style>
+    <subject>Webinar:  Discover the Power of IQ in the Cloud</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Discover the Power of TriTech.com IQ
+Cloud-based public safety search and analytics
+In 2012, TriTech released Inform IQ, an innovative public safety search and analytics suite, and it instantly became an APCO Hot Product. &lt;http://psc.apcointl.org/2012/10/26/2012-hot-products/&gt; IQ gives communications center personnel the power of free-text search, real-time notifications, and ad hoc reporting and analysis capabilities to deliver information quickly and securely. In 2013, we&apos;re taking IQ to the next step by packaging it into a secure, cloud-based solution hosted at the Nlets  &lt;http://www.nlets.org&gt;facility with affordable subscription-model pricing.   
+
+Please join us for an upcoming webinar to learn how TriTech.com IQ will benefit your agency. In this webinar, you&apos;ll discover:
+
+
+ - The power of the Public Safety Search Engine and real-time notifications
+ - The intelligence from centralized reporting and analytics
+ - The ease of access from any location and any device 
+ - The cost benefits of operating on a cloud-based platform
+ - The security of Nlets hosting services
+
+
+
+Click here  &lt;http://offers.tritech.com/TriTech.comIQDemonstration_Registration.html&gt;to register: 
+http://offers.tritech.com/TriTech.comIQDemonstration_Registration.html &lt;http://offers.tritech.com/TriTech.comIQDemonstration_Registration.html&gt;
+
+
+Join us for a demonstration
+Webinar Details
+Date:  Thursday, April 11
+
+Time:  2:00 PM Eastern Time (1 PM CT | Noon MT | 11 AM PT)
+
+Presenters:  Wendy Gilbert, Director of Product Management and Charlie Barry, Senior Product Manager</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

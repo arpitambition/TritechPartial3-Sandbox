@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConference_July_Imc</name>
+    <style>none</style>
+    <subject>TriCON Agenda Now Available</subject>
+    <textOnly>Detailed Agenda Now Available
+September 13 - 16  l  Boston, Massachusetts
+
+There&apos;s still time to register for TriCON.  You can take a closer look at what sessions are being offered in our detailed agenda, which is now available online.  Some Imc sessions you can attend include:   
+
+
+CAD Modules to Improve Dispatcher Productivity
+Using DDF Queries to Enhance the Imc Experience
+Troubleshooting Tips
+Crime Analysis
+Using the Fire Journal and Fire Calendar
+
+
+With the Detailed Agenda and our ROI Letter, we&apos;ve made it easier to receive approval to this important educational event. 
+
+www.tritech.com/tricon 
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

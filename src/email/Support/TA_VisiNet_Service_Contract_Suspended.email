@@ -1,0 +1,8 @@
+The following service contract is now in a suspended status:
+
+Account:  {!ServiceContract.Account}
+Service Contract Name:  {!ServiceContract.Name}
+Customer Number:  {!ServiceContract.Customer_Number_WMP__c}
+Service Contract Type:  {!ServiceContract.Contract_Type__c}
+
+Click on the link to access the contract:  {!ServiceContract.Link}

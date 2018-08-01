@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013SGTs.Confirmation_April-WI</name>
+    <style>none</style>
+    <subject>REGISTRATION CONFIRMATION: 2013 Billing Software Group Training</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Registration Confirmation
+Thank you for registering for the  Madison, WI 2013 Billing Software Group Training.
+Hello {{lead.First Name:default=Billing Customer}},
+
+Thank you for registering for the April 16-17, 2013 Billing Software Group Training in Madison, WI. If you selected credit card payment, a TriTech representative will contact you for your payment information. The $500 fee can be paid via check or credit card. 
+
+The training is located at: 922 S Park St, Madison, WI 53715.
+
+If you need a hotel room, we recommend the following: 
+HotelRED: 1501 Monroe St, Madison, WI 53711
+http://www.hotelred.com/
+Phone: 608-819-8228
+Block of rooms held under &quot;Ryan Brothers&quot; at rate of $109 per night plus tax, which will be held until March 
+15, 2013
+
+Super 8 – Madison South: 1602 West Beltline Highway, Madison, WI 53713
+http://www.super8madison.com/
+Phone: 608-258-8882
+Block of rooms held under &quot;Ryan Brothers&quot; at rate of $62.99 per night plus tax, which will be held until March 15, 2013
+
+If you have questions or if there is anything we can do to make this a better experience for you, please contact us:
+
+Patrick Ryan, Ryan Brothers Ambulance Service 
+608-310-7922 or pryan@ryanbros.net
+
+Tyler Harman, TriTech Software Systems 
+800-537-3927 ext 4830 or Tyler.Harman@tritech.com
+
+Here is a link &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt; to download a sample copy of the agenda.
+ 
+Registration will begin on 
+the first day at 7:45 a.m. We sincerely hope that these two days of education will allow everyone to gain knowledge in the areas desired.  
+ 
+We invite you to dress casually and comfortably for the session. Since room temperatures and preferences vary from person to person, please bring a sweater or sweatshirt to wear if needed.  
+
+See you in April!
+
+
+
+**TriTech retains the right to cancel training events 30 days prior to the event date if registrations are below the minimum 
+required.**</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

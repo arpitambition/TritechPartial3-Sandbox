@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Web-based EMS Software_0313.Confirmation</name>
+    <style>none</style>
+    <subject>Confirmation: Is Web-Based EMS Software the Way of the Future?</subject>
+    <textOnly>Thank you {{lead.First Name:default=EMS Professional}} for registering for this complimentary live webinar.
+
+TriTech Senior Product Manager, Charlie Barry and AmbCoach, Inc. President, Kimberly Walk look forward to sharing both the business and user perspectives of the web-based trend in EMS Software. 
+
+You will receive a reminder email one week and one day prior to the live webinar. 
+
+WEBINAR DETAILS
+
+JOIN LINK:
+http://tritech.ilinc.com/join/cjfsxxm
+
+DATE: Tuesday, March 13, 2012
+TIME: 2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+
+SPEAKERS: Charlie Barry, Sr Product Manager and Kimberly Walk, AmbCoach, Inc. President
+
+AUDIO: Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+
+Trouble logging in? Call 800.799.4510 to reach the iLinc support team for help
+
+
+ 
+
+See online on March 13!
+
+
+Thanks for Registering for the Complimentary Live Webinar
+Is Web-Based EMS Software the Way of the Future?
+
+JOIN LINK:
+http://tritech.ilinc.com/join/cjfsxxm
+
+Thank you {{lead.First Name:default=EMS Professional}} for registering for this complimentary live webinar.
+
+TriTech Senior Product Manager, Charlie Barry and AmbCoach, Inc. President, Kimberly Walk look forward to sharing both the business and user perspectives of the web-based trend in EMS Software. 
+
+You will receive a reminder email one week and one day prior to the live webinar. Your webinar information is list to the right.
+
+See online on March 13!
+
+
+WEBINAR DETAILS
+DATE: Tuesday, March 13, 2012
+TIME: 2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+SPEAKERS: Charlie Barry, Sr Product Manager and Kimberly Walk, AmbCoach, Inc. President
+JOIN LINK: http://tritech.ilinc.com/join/cjfsxxm
+AUDIO: Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+
+Trouble logging in? Call 800.799.4510 to reach the iLinc support team for help
+
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

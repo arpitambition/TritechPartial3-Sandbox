@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS-Webinars_Paper-to-ePCR_Nov10.Confirmation</name>
+    <style>none</style>
+    <subject>Registration Confirmation for Webinar: Transitioning from Paper to Electronic Patient Care Reporting</subject>
+    <textOnly>Registration Confirmation   
+Webinar: Transitioning from Paper to Electronic Patient Care Reporting
+ 
+ 
+This is your confirmation that you are registered for the complimentary webinar on Transitioning from Paper to Electronic Patient Care Reporting.
+
+This presentation will touch on the following aspects of transitioning from paper to electronic patient care reporting:
+-Benefits
+-Project Scope
+-Equipment
+-Hardware
+-Software
+-Training
+-Budget
+-Results
+
+You will receive a reminder one day before the live event, as well as a reminder within the hour before the begining of the webinar. 
+ 
+We look forward to having you attend!
+
+JOIN LINK: http://tritech.ilinc.com/join/vkyzkhv
+DATE: November 10, 2011
+TIME: 2 PM Eastern| 1 PM Central
+      Noon Mountain | 11 AM Pacific
+PRESENTER: PRESENTER: Larry Cole, EMT-P, Former Director of Finance and Corporate Compliance
+AUDIO: Listen through your computer speakers or dial the toll free number on your screen when you login
+
+
+Trouble Logging In? Call 800.799.4510 for the iLinc Support Team Help
+
+Questions?
+Cheri Lane, Marketing Communications Manager
+800-537-3927, ext. #6278
+cheri.lane@tritech.com
+
+
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 | PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ABC3_Vegas.Invitation</name>
+    <style>none</style>
+    <subject>Going to the Vegas ABC3 Conference? Stop by and Checkout Our Online Billing and ePCR Software</subject>
+    <textOnly>Hello {{lead.First Name:default=EMS Professional}},
+ 
+ Stop by and see us at PWW&apos;s ABC3 conference meet Product Manager, Dan Voss, and Customer Account Managers, Brenda Taylor and Tyler Harman.
+
+See a demonstration of our online Sweet Billing and Fusion ePCR solutions, or our VisiCAD for EMS application. 
+
+Take 5 minutes to view a short video &lt;http://www.youtube.com/watch?v=-CdXqYEvP00&quot; target=&quot;_blank&gt; of EMS1 Chris Montero&apos;s discussion with TriTech Senior Product Manager, Charlie Barry, about the Future of EMS Software.
+
+
+Can&apos;t make the conference? Call us at 800.537.3927</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

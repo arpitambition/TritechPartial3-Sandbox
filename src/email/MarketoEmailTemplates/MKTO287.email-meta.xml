@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Protecting Your QA Documents from Legal Discovery.Reminder Starting Now</name>
+    <style>none</style>
+    <subject>Webinar Starting Now: Protecting Your QA Documents from Legal Discovery - Steve Wirth Presenting</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Webinar Starting Now
+Anything you Write Will be Used Against You: Protecting Your QA Documents from Legal Discovery
+Hello {{lead.First Name:default=EMS Professional}},
+The complimentary live webinar &quot;Anything you Write Will be Used Against You: Protecting Your QA Documents from Legal Discovery&quot; with Steve Wirth presenting is starting, please login in now so you don&apos;t miss a thing.
+Questions?
+
+Login Issues: iLinc Support: 800-799-4510
+
+
+
+Other Questions:
+
+Cheri Lane, TriTech Marketing Communications Manager
+
+cheri.lane@tritech.com 
+LOGIN DETAILS
+Login in now with the information below.
+JOIN LINK:
+http://tritech.ilinc.com/join/fxzrbrk 
+
+HANDOUTS: http://www.tritechems.com/documents/May31WebinarHandouts.pdf
+
+AUDIO:
+Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+Trouble logging in?
+
+Call 800.799.4510 to reach the iLinc support team for help</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

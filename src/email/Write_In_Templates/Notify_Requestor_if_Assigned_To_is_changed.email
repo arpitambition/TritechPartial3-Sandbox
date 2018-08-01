@@ -1,0 +1,3 @@
+{!Write_In__c.Assigned_To__c} has been assigned to Custom Write-In {!Write_In__c.Title__c} for opportunity {!Write_In__c.Opportunity_Name__c}.
+
+Click this link to access the Write-In: {!Write_In__c.Link}.

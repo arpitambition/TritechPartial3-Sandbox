@@ -1,0 +1,14 @@
+The {!Write_In__c.RecordType} Write-In has been completed for the following:
+
+Write-In # {!Write_In__c.Name}
+Title:  {!Write_In__c.Title__c}
+Agency:  {!Write_In__c.Agency__c}
+Opportunity:  {!Write_In__c.Opportunity__c}
+
+Third Party List Price:  {!Write_In__c.Third_Party_Write_In_List_Price__c}
+Third Party Cost: {!Write_In__c.Third_Party_Write_In_Cost__c}
+System Integration Fee:  {!Write_In__c.System_Integration_Fee__c}
+
+Write-In Description:  {!Write_In__c.Write_In_Description__c}
+
+You may review the completed CWI here:  {!Write_In__c.Link}

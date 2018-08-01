@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.PhotoContestExtended</name>
+    <style>none</style>
+    <subject>Showcase Your Successes and Win Two TriCON 2013 Registrations</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+TriTech Wants to Showcase Your Agency
+Photo/Video Contest; Win Two Registrations to TriCON 2013
+Hello {{lead.First Name:default=Client}}, 
+TriTech would like to feature photos and videos of our clients to share their successes! 
+Please submit your files in two easy steps by October 31, 2012:
+
+1) Send in your favorite agency photos* and videos* - whether of your teams (in the field or in the office) or toys (trucks, antique collection of emergency vehicles, etc.). 
+2) Sign and return the release form. 
+
+One lucky winner will be drawn on November 1st from all the submissions and receive two TriCON 2013 registrations to next year&apos;s annual conference.  
+
+SUBMIT YOUR PHOTOS AND VIDEOS HERE: http://offers.tritech.com/TriCON2012_ProtoContestExtended.html
+
+Proud to be your technology provider and share your dedicated work! 
+
+*All photos or videos submitted may be used in TriTech marketing material.
+Contest Details
+Photos/Videos Contest
+
+Deadline October 31, 2012
+What:
+
+Submit your agency photos/videos and download, sign, and return the release form.
+
+
+
+Why:
+
+To showcase your agency successes
+
+
+
+WIN:
+All entries will be entered into a drawing to win two free registrations to the 2013 TriCON Annual Users Conference.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

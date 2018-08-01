@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AIR_IL_0512.Reminder - Day Before</name>
+    <style>none</style>
+    <subject>Registration Reminder:  Tomorrow&apos;s Public Safety Tech Seminar - Friday, May 11</subject>
+    <textOnly>Reminder:  12th Annual Public Safety Technology Seminar - Tomorrow
+You are registered to attend
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ This is your confirmation that you are registered to attend the 12th Annual Public Safety Technology Seminar.  We look forward to seeing you tomorrow at the seminar. 
+
+Date:
+ Friday, May 11
+Agenda:
+ 10:00 AM - 12:00 NOON
+Presentation: Achieve goals of data sharing and building an integrated justice system through: 
+
+
+ -  Sharing crime data with the public through online crime map and analytics dashboards 
+ - Systems and network administration services 
+ - CJIS access solutions 
+ - Improving connectivity with your wireless solution 
+ - GIS Solutions for Public Safety 
+
+
+
+12:00 NOON - 1:00 PM 
+Lunch and Learn
+
+1:00 PM - 3:00 PM 
+Interactive Product Demonstrations and Door Prizes
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+Address:
+ 3025 Highland Parkway, Suite 300
+ Downers Grove, IL 60515
+ Phone: 630.725.4000
+ Fax: 630.769.9312
+ 
+ Parking at Microsoft Downers Grove Facility:
+ There is free parking available at the Downers Grove facility. However, do not park on the lower level of the parking garage. Guests will enter through the Main Entrance on 2nd floor and pass by Building Security before proceeding to Suite 300.  Click here for a map to the facility.   &lt;http://g.co/maps/u8hcr&gt;
+
+ 
+
+Questions?
+Michelle McClellan
+TriTech Software Systems
+(858)799-7900
+michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,40 @@
+Hello,
+<br><br>
+
+The following has been <B><font color="Green">Approved.</font></B>
+<br><br>
+
+<b>Opportunity Product Family</b>: {!Opportunity.Product_Family_WMP__c}<br>
+<b>Opportunity Name</b>: {!Opportunity.Name}
+<br>
+<b>Account</b>: {!Opportunity.Account}
+<br>
+<b>Primary Contact</b>: {!Opportunity.Contact__c}
+<br>
+<b>New or Existing Business?</b>  {!Opportunity.Deal_Type__c}<br><br>
+
+<I>To review your quote or opportunity detail, click here: <br>{!Opportunity.Link}</I>
+ <br> <br> <br><br>
+
+<font size="3" color="Blue">*** <b>Inform, GSA, Rapid Implementation or IMC Quote Information</b> ***</font><br> <br>
+
+<b>Price Book</b>:  {!Opportunity.Price_Book__c}<br>
+<b>Quote #</b>: {!Opportunity.Quote_Number__c}<br>
+<B>Total Quote Price w/tax:</B>  {!Opportunity.Quote_Total__c}<br>
+<b>Total Discount</b>: {!Opportunity.Discount__c} %<br>
+<b>Gross Margin</b>: {!Opportunity.Gross_Margin__c} %
+<br><br><br>
+
+
+
+<font size="3" color="Blue">*** <b>Zuercher Opportunity Information</b> ***</font><br> <br>
+
+<b>Actual Opportunity Value</b>: {!Opportunity.Actual_Opportunity_Value__c}<br>
+<b>Software Discount</b>: {!Opportunity.Z_Software_Discount__c}%
+<br>
+<b>Maintenance Discount</b>: {!Opportunity.Z_Maintenance_Discount__c}%
+<br>
+<b>Special Payment Terms</b>: {!Opportunity.Z_Special_Payment_Terms__c}
+<br>
+<b>Special Maintenance Terms</b>: {!Opportunity.Z_Special_Maintenance_Terms__c}
+<br><br>

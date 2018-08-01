@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Preupgrade Checklist - to be sent prior to upgrade</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Upgrade: Client PreUpgrade Checklist</name>
+    <style>freeForm</style>
+    <subject>VisiNet Upgrade: Client Pre Upgrade Checklist</subject>
+    <textOnly>{!Contact.FirstName}{!Contact.LastName};
+
+
+
+
+
+Client Pre Upgrade Checklist&lt;?xml:namespace prefix = o ns = &quot;urn:schemas-microsoft-com:office:office&quot; /&gt;
+
+Below is a list of what are the client’s responsibilities for upgrading the VisiCAD system. If any of these items are not completed it could cause either a delay or cancellation of the upgrade.
+
+All Upgrades
+
+Prior to the Day of the Upgrade
+
+1. Review the release notes for the version upgrading to and verify that the hardware and software requirements have been met (RAM, OS and SQL Versions).
+
+
+2. Most upgrades require prerequisites to be installed on the workstations and servers. Please see the grid below for what versions need what prerequisite CDs. These must be completed prior to the morning of the upgrade.
+
+
+
+Upgrading From
+
+Upgrading To
+
+Pre Req Needed
+
+Which CD?
+
+4.2.3
+
+4.3.8
+
+Yes
+
+Consult the Release notes for what Pre Reqs to install
+
+4.3.8
+
+4.4.6
+
+Yes
+
+Consult the Release notes for what Pre Reqs to install
+
+4.4.6
+
+4.5.8-4.5.10
+
+Yes
+
+4.5.8 Pre Req CD
+
+4.5.1-4.5.6
+
+4.5.8-4.5.10
+
+Yes
+
+4.5.8 Pre Req CD
+
+4.5.8-4.5.9
+
+4.5.9-4.5.10
+
+No
+
+
+4.5.9-4.5.10
+
+5.1.2
+
+Yes
+
+5.1.2 Pre Req CD
+
+4.5.10
+
+5.2
+
+Yes
+
+5.2 Pre Req CD
+
+5.0.2 – 5.1.1
+
+5.1.2
+
+Yes
+
+5.1.2 Pre Req CD
+
+5.0.2 – 5.1.2
+
+5.2
+
+Yes
+
+5.2 Pre Req CD
+
+
+3. Mobile server must have enough drive space to back up the entire Mobile directory (...\Program Files\TriTech Software Systems\VisiNet Mobile ). This includes the mdf and ldf files.
+
+
+Day of Upgrade
+
+1. Verify backup of DB and file structure has been completed prior to the upgrade engineer performing the upgrade.
+
+
+2. If custom replication is installed – remove prior to the upgrade. This can be reinstalled post upgrade.
+
+
+
+3. Reports running against the reporting and production servers should be suspended for the duration of the upgrade as this will conflict with what the upgrade engineer is trying to do and cause a delay in the upgrade.
+
+
+4. Copy contents of Upgrade DVDs to all applicable servers.
+
+a. Production Server
+
+b. Reporting Servers if replication is installed (this includes all legs of replication but does not include any custom replication servers).
+
+c. Mobile Servers
+
+
+5. All Mobile upgrades including patches require the Mobile server to be offline (Mobile Down), approximately 1 hour per mobile server; may vary depending of database size (30 minutes for patches).
+
+
+6. If Mobile servers exist in Disaster Recovery environment, a separate installation appointment needs to be scheduled. DR Mobile upgrades require split brain.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

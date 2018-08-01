@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Colorado_May2013.Invitation</name>
+    <style>none</style>
+    <subject>Register:  Tech Seminar on Next Generation Public Safety Technology</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Public Safety Technology Seminar:
+ The Future of Public Safety Software
+Wednesday, May 15, 2013  l  Longmont, CO
+
+
+Hello Public Safety Professional,
+ 
+NG911 and Texting, Google, Cloud Software, Apps - we know how all these are a part of our personal lives. How can these applications become part of the future of our public safety operations? We hope that you will join us and fellow leaders in Public Safety where will discuss the future of public safety software:
+
+
+ - Next Generation ready end-to-end solution (CAD, Mobile, RMS, FBR, Analytics)
+ - Cloud-based public safety search engine and analytics 
+ - Records management solution featuring intelligent key driver record entry, electronic pinboard and other exciting new innovations
+ - Continuous availabilty solutions for maximum uptime
+ - Crime tracking and a broad array of trend, pattern and other crime analytics
+ - Streamline false alarm administration and increase fee and fine collections
+ - Reduce overheard IT costs with web-based fire records management
+
+
+
+Register here:  http://offers.tritech.com/PublicSafetyFuture_CO.html &lt;http://offers.tritech.com/publicsafetyfuture_Co.html&gt;
+
+Hope to see you there!
+
+ 
+
+ 
+
+Questions?
+ Michelle McClellan
+ TriTech Software Systems
+ (858) 799-7900
+ info@tritech.com
+EVENT DETAILS
+Don&apos;t want to miss this informative technology seminar? See details below and register today.
+Date:
+ Wednesday, May 15
+
+Time:
+ 10:00 AM to 3:00 PM
+
+Location:
+ Longmont Emergency Communications Center
+ 225 Kimbark Street
+Longmont, CO  80501  
+
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+ &lt;http://offers.tritech.com/PublicSafetyFuture_CO.html&gt;
+ 
+
+Also Participating:
+ 
+Stratus Technologies
+The Omega Group
+Crywolf False Alarm Solutions
+Emergency Technologies, Inc.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

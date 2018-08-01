@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Imc_CC_Oct11.Imc CC Oct11 Email</name>
+    <style>none</style>
+    <subject>Your Imc CAM Connection - October Newsletter</subject>
+    <textOnly>October 2011 Edition (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_Main.html)
+
+Welcome to the October issue of the Imc Solution CAM Connection newsletter. The main page of the newsletter will give you an overall glance at what this month&apos;s newsletter has to offer.  We hope you enjoy the newsletter.
+ 
+ 
+Important Alerts &amp; Updates (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_AlertUpdates.html)
+ 
+&gt; TriTech Acquires VisionAIR
+
+&gt; TriCON 2011 - What Did You Miss?
+
+&gt; Planning for TriCON 2012
+
+&gt; TriTech Vision for 2012 and Beyond [VIDEO]
+   CEO Chris Maloney&apos;s Customer Address at TriCON
+
+&gt; Customer Satisfaction Assurance
+ 
+ 
+ 
+ 
+Products &amp; Services (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_ProductsServices.html)
+
+Submit Your Product Enhancement Requests On-Line
+Have a great idea for a new feature within the Imc software? Think the software would function better with a modification? Now you can submit your requests for Imc product enhancements via the brand new, &quot;Product Enhancement Request&quot; portal on the MyImc website. Learn more.
+ 
+Fusion ePCR with Imc CAD Demo [VIDEO] 
+
+CAD Modules to Improve Dispatcher Productivity Demo [VIDEO] 
+ 
+Fix It with Felicia - Next Session Thursday, October 13 
+ 
+   
+ 
+Technical Support Hot Topics (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_TechnicalSupportHotTopics.html) 
+ 
+Imc Solutions Tips
+Questions and Answers Section
+ 
+
+
+Client News &amp; GoLives (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_ClientNews.html)
+ 
+New Installs for August and September
+             
+
+
+
+&gt; Main Page (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_Main.html)
+
+&gt; Important Alerts &amp; Updates (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_AlertUpdates.html)
+
+&gt; Products &amp; Services (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_ProductsServices.html)
+
+&gt; Technical Support Hot Topics (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_TechnicalSupportHotTopics.html)
+
+&gt; Client News &amp; GoLives (http://offers.tritech.com/Imc_CC_Oct11_ImcCAMConnection_ClientNews.html)
+
+&gt; www.tritech.com (http://www.tritech.com)
+ 
+ 
+
+
+CAM CONTACTS
+David Bell
+508.839.6445 x104
+david.bell@tritech.com
+ 
+Mark Baranowski
+508.839.6445 x180
+mark.baranowski@tritech.com 
+ 
+   
+ 
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<apex:component controller="IdeaUserLinkController">
+    <apex:attribute name="userId" type="String" required="true" assignTo="{!userId}" description="userId"/>
+    <apex:attribute name="communityNickname" type="String" required="true" assignTo="{!conCommunityNickname}" description="communityNickname"/>
+    <apex:attribute name="contactAccountName" type="String" assignTo="{!conAccountName}" description="Contact Account Name"/>
+    <span class="author">{!communityNickname}</span>
+    <apex:outputPanel rendered="{!IF(contactAccountName != null && contactAccountName != '', true, false)}" >
+    <br/>
+    <span class="author" style="font-weight:normal">{!contactAccountName}</span>
+    </apex:outputPanel>
+    
+</apex:component>

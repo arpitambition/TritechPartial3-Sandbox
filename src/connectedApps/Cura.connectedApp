@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ConnectedApp xmlns="http://soap.sforce.com/2006/04/metadata">
+    <contactEmail>Scott.Key@tritech.com</contactEmail>
+    <contactPhone>910-602-4080</contactPhone>
+    <label>Cura</label>
+    <oauthConfig>
+        <callbackUrl>Https://24.111.12.87</callbackUrl>
+        <consumerKey>3MVG99E3Ry5mh4zqNsp6HovAR3v121518Tc0ycXXRLa2Xkj1bzg7F.bTF8Xb_gAwW3XPKVAb7gwNP3HpaNKOb</consumerKey>
+        <scopes>Api</scopes>
+    </oauthConfig>
+</ConnectedApp>

@@ -1,0 +1,10 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P>Hi {!Contact.FirstName}, </P>
+<P>&nbsp;</P>
+<P>It has been a while since we last spoke, but I wanted to reconnect and see if any progress has been made on your {XXXX} project. <BR><BR>We have had a busy couple of months here, highlighted by a few particulars: </P>
+<P>{Highlight relevant TriTech / customer news}</P>
+<P><BR>TriTech&nbsp;is helping agencies of similar size and scope to increase efficiency and improve overall operations.&nbsp;&nbsp;May I ask if you have moved forward with another industry solution? If another person would be more appropriate for this discussion, please refer me to him or her. <BR><BR>Thanks, <BR><BR>{!User.Name} <BR>{!User.Title} <BR>{!User.CompanyName} <BR>{!User.Phone} <BR></P>]]></td>
+</tr>
+</table>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_GA12-003.020212</name>
+    <style>none</style>
+    <subject>GA12-003 - Further updates to SQL Server 2008 Lock ups</subject>
+    <textOnly>Technical Advisory
+
+GA12-003 - Further updates to SQL Server 2008 Lock ups
+
+POSTED: 02-02-12
+
+Hello {{lead.First Name:default=Clients}},
+
+In July of 2011, we released an update to Tech Advisory GA10-042. This update was based on a group of TriTech clients reporting CAD system down events where Microsoft SQL Server 2008 on the VisiCAD Production Database Server becomes unresponsive. 
+
+Microsoft has provided further updates to this problem, which are discussed in detail in Technical Advisory GA12-003 - Further updates to SQL Server 2008 Lock ups.  You may access this advisory via the MyVisiNet Support site under Documentation | Tech Advisories | Technical Advisories | 2012.
+
+
+Sincerely,
+
+
+Tony Vardiman
+Technical Services Frontline Supervisor l VisiNet Solutions
+Direct: 858.799.7441 l Mobile: 619.816.7100
+Fax: 858.799.7010 l Support: 800.847.4223
+
+
+Support Website: myvisinet.tritech.com
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

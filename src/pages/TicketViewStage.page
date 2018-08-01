@@ -1,0 +1,32 @@
+<apex:page standardController="Case" extensions="TicketViewController" action="{!autoRun}">
+    <script type="text/javascript">
+        document.body.style.visibility = 'hidden';
+        var interval = setInterval(hideButton, 500);
+        
+        function hideButton() {
+        if(document.readyState == 'complete'){
+            var buttonEles =  document.getElementsByTagName("input");
+            for(var i=0; i < (buttonEles.length); i++) {
+                if(buttonEles[i].type == 'button') {
+                    buttonEles[i].style.display = "none";
+                }
+                
+            }
+        clearInterval(interval);
+        document.body.style.visibility = 'visible';
+        }
+        }
+    </script>
+    <apex:detail subject="{!case.Id}" relatedList="true" title="true"/> 
+    
+    <apex:pageBlock title="Bomgar Sessions">
+        <apex:pageBlockTable value="{!bomgarSessions}" var="index">
+            <apex:column value="{!index.name}"/> 
+            <apex:column value="{!index.Primary_Customer}"/> 
+            <apex:column value="{!index.Primary_Representative}"/> 
+            <apex:column value="{!index.Start_Time}"/> 
+            <apex:column value="{!index.End_Time}"/> 
+            <apex:column value="{!index.Duration}"/> 
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification for approval requested for Change Management SF Help Desk tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Change Management Approval Required</name>
+    <style>none</style>
+    <subject>Change Management Approval: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>Hello,
+
+The following request has been submitted and reviewed by the SF Admins.  The Admin Recommendation needs your approval:
+
+Original Requestor: {!SalesForce_Helpdesk__c.OwnerFullName}
+Original Request Details:
+{!SalesForce_Helpdesk__c.Request_Details__c}
+
+Admin Recommendation:
+{!SalesForce_Helpdesk__c.Admin_Recommendation__c}
+
+Please submit approval via the following link:
+{!ApprovalRequest.Internal_URL}
+
+
+Thank you,
+{!SalesForce_Helpdesk__c.Assigned_To__c}
+
+To review the request detail, click here: {!SalesForce_Helpdesk__c.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

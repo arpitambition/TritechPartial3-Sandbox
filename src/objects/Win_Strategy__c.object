@@ -1,0 +1,1394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.Name</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Account</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Actual_Opportunity_Value__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Actual_Opportunity_Value__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Actual Opportunity Value</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Agency_s_Current_Budget__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Budget_Total__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Agency&apos;s Current Budget</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Brief_History_of_TriTech_s_Involvement__c</fullName>
+        <externalId>false</externalId>
+        <label>Brief History of TriTech&apos;s Involvement</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>COMPLETE_SEND__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to complete the current Win Strategy form and email it to the team</inlineHelpText>
+        <label>COMPLETE &amp; SEND</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_Strengths_Weaknesses__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor Strengths &amp; Weaknesses</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Competitors__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitors</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>911 EMS Software, LLC</fullName>
+                    <default>false</default>
+                    <label>911 EMS Software, LLC</label>
+                </value>
+                <value>
+                    <fullName>ACS-Firehouse</fullName>
+                    <default>false</default>
+                    <label>ACS-Firehouse</label>
+                </value>
+                <value>
+                    <fullName>ADSI</fullName>
+                    <default>false</default>
+                    <label>ADSI</label>
+                </value>
+                <value>
+                    <fullName>AeroMed Software</fullName>
+                    <default>false</default>
+                    <label>AeroMed Software</label>
+                </value>
+                <value>
+                    <fullName>Allegheny R&amp;D</fullName>
+                    <default>false</default>
+                    <label>Allegheny R&amp;D</label>
+                </value>
+                <value>
+                    <fullName>Alpine Software</fullName>
+                    <default>false</default>
+                    <label>Alpine Software</label>
+                </value>
+                <value>
+                    <fullName>AmbuPro</fullName>
+                    <default>false</default>
+                    <label>AmbuPro</label>
+                </value>
+                <value>
+                    <fullName>AMCAD</fullName>
+                    <default>false</default>
+                    <label>AMCAD</label>
+                </value>
+                <value>
+                    <fullName>Application Data Systems Inc. (ADSi)</fullName>
+                    <default>false</default>
+                    <label>Application Data Systems Inc. (ADSi)</label>
+                </value>
+                <value>
+                    <fullName>Archonix</fullName>
+                    <default>false</default>
+                    <label>Archonix</label>
+                </value>
+                <value>
+                    <fullName>Astra</fullName>
+                    <default>false</default>
+                    <label>Astra</label>
+                </value>
+                <value>
+                    <fullName>Bighorn Systems</fullName>
+                    <default>false</default>
+                    <label>Bighorn Systems</label>
+                </value>
+                <value>
+                    <fullName>BIO-Key</fullName>
+                    <default>false</default>
+                    <label>BIO-Key</label>
+                </value>
+                <value>
+                    <fullName>Bradshaw Consulting</fullName>
+                    <default>false</default>
+                    <label>Bradshaw Consulting</label>
+                </value>
+                <value>
+                    <fullName>Cassidian</fullName>
+                    <default>false</default>
+                    <label>Cassidian</label>
+                </value>
+                <value>
+                    <fullName>CIS Systems</fullName>
+                    <default>false</default>
+                    <label>CIS Systems</label>
+                </value>
+                <value>
+                    <fullName>Code 3 Software</fullName>
+                    <default>false</default>
+                    <label>Code 3 Software</label>
+                </value>
+                <value>
+                    <fullName>Code Red</fullName>
+                    <default>false</default>
+                    <label>Code Red</label>
+                </value>
+                <value>
+                    <fullName>Cody</fullName>
+                    <default>false</default>
+                    <label>Cody</label>
+                </value>
+                <value>
+                    <fullName>Commerx Corporation</fullName>
+                    <default>false</default>
+                    <label>Commerx Corporation</label>
+                </value>
+                <value>
+                    <fullName>ComnetiX</fullName>
+                    <default>false</default>
+                    <label>ComnetiX</label>
+                </value>
+                <value>
+                    <fullName>Computer Investment Advice, Inc.</fullName>
+                    <default>false</default>
+                    <label>Computer Investment Advice, Inc.</label>
+                </value>
+                <value>
+                    <fullName>CORE 911</fullName>
+                    <default>false</default>
+                    <label>CORE 911</label>
+                </value>
+                <value>
+                    <fullName>Corporate Technologies, LLC</fullName>
+                    <default>false</default>
+                    <label>Corporate Technologies, LLC</label>
+                </value>
+                <value>
+                    <fullName>Crime Gog Technologies</fullName>
+                    <default>false</default>
+                    <label>Crime Gog Technologies</label>
+                </value>
+                <value>
+                    <fullName>CRIMES</fullName>
+                    <default>false</default>
+                    <label>CRIMES</label>
+                </value>
+                <value>
+                    <fullName>CrimeStar</fullName>
+                    <default>false</default>
+                    <label>CrimeStar</label>
+                </value>
+                <value>
+                    <fullName>CR Management, Inc.</fullName>
+                    <default>false</default>
+                    <label>CR Management, Inc.</label>
+                </value>
+                <value>
+                    <fullName>CTS</fullName>
+                    <default>false</default>
+                    <label>CTS</label>
+                </value>
+                <value>
+                    <fullName>Cyrun</fullName>
+                    <default>false</default>
+                    <label>Cyrun</label>
+                </value>
+                <value>
+                    <fullName>Data 911</fullName>
+                    <default>false</default>
+                    <label>Data 911</label>
+                </value>
+                <value>
+                    <fullName>Denali</fullName>
+                    <default>false</default>
+                    <label>Denali</label>
+                </value>
+                <value>
+                    <fullName>Digital Innovations</fullName>
+                    <default>false</default>
+                    <label>Digital Innovations</label>
+                </value>
+                <value>
+                    <fullName>Digital Planet</fullName>
+                    <default>false</default>
+                    <label>Digital Planet</label>
+                </value>
+                <value>
+                    <fullName>Docu/Med</fullName>
+                    <default>false</default>
+                    <label>Docu/Med</label>
+                </value>
+                <value>
+                    <fullName>Documed Systems Intl. Inc.</fullName>
+                    <default>false</default>
+                    <label>Documed Systems Intl. Inc.</label>
+                </value>
+                <value>
+                    <fullName>DSSI</fullName>
+                    <default>false</default>
+                    <label>DSSI</label>
+                </value>
+                <value>
+                    <fullName>ECS Inc.</fullName>
+                    <default>false</default>
+                    <label>ECS Inc.</label>
+                </value>
+                <value>
+                    <fullName>eForce</fullName>
+                    <default>false</default>
+                    <label>eForce</label>
+                </value>
+                <value>
+                    <fullName>EIS</fullName>
+                    <default>false</default>
+                    <label>EIS</label>
+                </value>
+                <value>
+                    <fullName>Emergency Callworks</fullName>
+                    <default>false</default>
+                    <label>Emergency Callworks</label>
+                </value>
+                <value>
+                    <fullName>Emergency Reporting</fullName>
+                    <default>false</default>
+                    <label>Emergency Reporting</label>
+                </value>
+                <value>
+                    <fullName>Emergency Technologies, Inc</fullName>
+                    <default>false</default>
+                    <label>Emergency Technologies, Inc</label>
+                </value>
+                <value>
+                    <fullName>EmergiData</fullName>
+                    <default>false</default>
+                    <label>EmergiData</label>
+                </value>
+                <value>
+                    <fullName>Emergitech</fullName>
+                    <default>false</default>
+                    <label>Emergitech</label>
+                </value>
+                <value>
+                    <fullName>EMSCharts</fullName>
+                    <default>false</default>
+                    <label>EMSCharts</label>
+                </value>
+                <value>
+                    <fullName>EMS Consultants, Ltd.</fullName>
+                    <default>false</default>
+                    <label>EMS Consultants, Ltd.</label>
+                </value>
+                <value>
+                    <fullName>EMS Data Systems, Inc.</fullName>
+                    <default>false</default>
+                    <label>EMS Data Systems, Inc.</label>
+                </value>
+                <value>
+                    <fullName>Enforsys</fullName>
+                    <default>false</default>
+                    <label>Enforsys</label>
+                </value>
+                <value>
+                    <fullName>EnRoute</fullName>
+                    <default>false</default>
+                    <label>EnRoute</label>
+                </value>
+                <value>
+                    <fullName>ESO Solutions</fullName>
+                    <default>false</default>
+                    <label>ESO Solutions</label>
+                </value>
+                <value>
+                    <fullName>ETI</fullName>
+                    <default>false</default>
+                    <label>ETI</label>
+                </value>
+                <value>
+                    <fullName>Experiant</fullName>
+                    <default>false</default>
+                    <label>Experiant</label>
+                </value>
+                <value>
+                    <fullName>FDM</fullName>
+                    <default>false</default>
+                    <label>FDM</label>
+                </value>
+                <value>
+                    <fullName>Firehouse</fullName>
+                    <default>false</default>
+                    <label>Firehouse</label>
+                </value>
+                <value>
+                    <fullName>FirePrograms Software</fullName>
+                    <default>false</default>
+                    <label>FirePrograms Software</label>
+                </value>
+                <value>
+                    <fullName>Fortek (UK)</fullName>
+                    <default>false</default>
+                    <label>Fortek (UK)</label>
+                </value>
+                <value>
+                    <fullName>GEAC</fullName>
+                    <default>false</default>
+                    <label>GEAC</label>
+                </value>
+                <value>
+                    <fullName>Global Software Corp</fullName>
+                    <default>false</default>
+                    <label>Global Software Corp</label>
+                </value>
+                <value>
+                    <fullName>Golden Hour Data Systems</fullName>
+                    <default>false</default>
+                    <label>Golden Hour Data Systems</label>
+                </value>
+                <value>
+                    <fullName>Gold Systems, Inc</fullName>
+                    <default>false</default>
+                    <label>Gold Systems, Inc</label>
+                </value>
+                <value>
+                    <fullName>Grayco Systems</fullName>
+                    <default>false</default>
+                    <label>Grayco Systems</label>
+                </value>
+                <value>
+                    <fullName>Harrison</fullName>
+                    <default>false</default>
+                    <label>Harrison</label>
+                </value>
+                <value>
+                    <fullName>Healthware Solutions, LLC</fullName>
+                    <default>false</default>
+                    <label>Healthware Solutions, LLC</label>
+                </value>
+                <value>
+                    <fullName>High Plains Information Systems, Inc.</fullName>
+                    <default>false</default>
+                    <label>High Plains Information Systems, Inc.</label>
+                </value>
+                <value>
+                    <fullName>HiTech</fullName>
+                    <default>false</default>
+                    <label>HiTech</label>
+                </value>
+                <value>
+                    <fullName>Hyland Software</fullName>
+                    <default>false</default>
+                    <label>Hyland Software</label>
+                </value>
+                <value>
+                    <fullName>Iatroware</fullName>
+                    <default>false</default>
+                    <label>Iatroware</label>
+                </value>
+                <value>
+                    <fullName>ICS</fullName>
+                    <default>false</default>
+                    <label>ICS</label>
+                </value>
+                <value>
+                    <fullName>ImageTrend</fullName>
+                    <default>false</default>
+                    <label>ImageTrend</label>
+                </value>
+                <value>
+                    <fullName>In House</fullName>
+                    <default>false</default>
+                    <label>In House</label>
+                </value>
+                <value>
+                    <fullName>Inspironix, Inc</fullName>
+                    <default>false</default>
+                    <label>Inspironix, Inc</label>
+                </value>
+                <value>
+                    <fullName>InterAct</fullName>
+                    <default>false</default>
+                    <label>InterAct</label>
+                </value>
+                <value>
+                    <fullName>Intergraph</fullName>
+                    <default>false</default>
+                    <label>Intergraph</label>
+                </value>
+                <value>
+                    <fullName>Intermedix Technologies, Inc</fullName>
+                    <default>false</default>
+                    <label>Intermedix Technologies, Inc</label>
+                </value>
+                <value>
+                    <fullName>Intrado (Formerly Positron)</fullName>
+                    <default>false</default>
+                    <label>Intrado (Formerly Positron)</label>
+                </value>
+                <value>
+                    <fullName>IPC</fullName>
+                    <default>false</default>
+                    <label>IPC</label>
+                </value>
+                <value>
+                    <fullName>iPCR</fullName>
+                    <default>false</default>
+                    <label>iPCR</label>
+                </value>
+                <value>
+                    <fullName>ITI</fullName>
+                    <default>false</default>
+                    <label>ITI</label>
+                </value>
+                <value>
+                    <fullName>JefBar</fullName>
+                    <default>false</default>
+                    <label>JefBar</label>
+                </value>
+                <value>
+                    <fullName>Keystone</fullName>
+                    <default>false</default>
+                    <label>Keystone</label>
+                </value>
+                <value>
+                    <fullName>Logistic Systems</fullName>
+                    <default>false</default>
+                    <label>Logistic Systems</label>
+                </value>
+                <value>
+                    <fullName>Logisys</fullName>
+                    <default>false</default>
+                    <label>Logisys</label>
+                </value>
+                <value>
+                    <fullName>Macrologic Inc.</fullName>
+                    <default>false</default>
+                    <label>Macrologic Inc.</label>
+                </value>
+                <value>
+                    <fullName>Mark43</fullName>
+                    <default>false</default>
+                    <label>Mark43</label>
+                </value>
+                <value>
+                    <fullName>MedaPoint</fullName>
+                    <default>false</default>
+                    <label>MedaPoint</label>
+                </value>
+                <value>
+                    <fullName>Medical Claims Assistance, Inc.</fullName>
+                    <default>false</default>
+                    <label>Medical Claims Assistance, Inc.</label>
+                </value>
+                <value>
+                    <fullName>Med Media</fullName>
+                    <default>false</default>
+                    <label>Med Media</label>
+                </value>
+                <value>
+                    <fullName>Medusa Medical Technologies, Inc.</fullName>
+                    <default>false</default>
+                    <label>Medusa Medical Technologies, Inc.</label>
+                </value>
+                <value>
+                    <fullName>MicroData</fullName>
+                    <default>false</default>
+                    <label>MicroData</label>
+                </value>
+                <value>
+                    <fullName>Motorola</fullName>
+                    <default>false</default>
+                    <label>Motorola</label>
+                </value>
+                <value>
+                    <fullName>NEC</fullName>
+                    <default>false</default>
+                    <label>NEC</label>
+                </value>
+                <value>
+                    <fullName>NET Data</fullName>
+                    <default>false</default>
+                    <label>NET Data</label>
+                </value>
+                <value>
+                    <fullName>New World Systems</fullName>
+                    <default>false</default>
+                    <label>New World Systems</label>
+                </value>
+                <value>
+                    <fullName>Niche</fullName>
+                    <default>false</default>
+                    <label>Niche</label>
+                </value>
+                <value>
+                    <fullName>Northrop Grumman</fullName>
+                    <default>false</default>
+                    <label>Northrop Grumman</label>
+                </value>
+                <value>
+                    <fullName>OPEN Incorporated</fullName>
+                    <default>false</default>
+                    <label>OPEN Incorporated</label>
+                </value>
+                <value>
+                    <fullName>OSSI</fullName>
+                    <default>false</default>
+                    <label>OSSI</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Pamet Systems</fullName>
+                    <default>false</default>
+                    <label>Pamet Systems</label>
+                </value>
+                <value>
+                    <fullName>PoliceWorks</fullName>
+                    <default>false</default>
+                    <label>PoliceWorks</label>
+                </value>
+                <value>
+                    <fullName>ProPhoenix Corp</fullName>
+                    <default>false</default>
+                    <label>ProPhoenix Corp</label>
+                </value>
+                <value>
+                    <fullName>PSNET</fullName>
+                    <default>false</default>
+                    <label>PSNET</label>
+                </value>
+                <value>
+                    <fullName>PSSI</fullName>
+                    <default>false</default>
+                    <label>PSSI</label>
+                </value>
+                <value>
+                    <fullName>PTS</fullName>
+                    <default>false</default>
+                    <label>PTS</label>
+                </value>
+                <value>
+                    <fullName>PTS Solutions</fullName>
+                    <default>false</default>
+                    <label>PTS Solutions</label>
+                </value>
+                <value>
+                    <fullName>Purvis</fullName>
+                    <default>false</default>
+                    <label>Purvis</label>
+                </value>
+                <value>
+                    <fullName>QED</fullName>
+                    <default>false</default>
+                    <label>QED</label>
+                </value>
+                <value>
+                    <fullName>RAM Software Systems, Inc.</fullName>
+                    <default>false</default>
+                    <label>RAM Software Systems, Inc.</label>
+                </value>
+                <value>
+                    <fullName>Remsdaq (UK)</fullName>
+                    <default>false</default>
+                    <label>Remsdaq (UK)</label>
+                </value>
+                <value>
+                    <fullName>Response Data Engineering</fullName>
+                    <default>false</default>
+                    <label>Response Data Engineering</label>
+                </value>
+                <value>
+                    <fullName>Sansio (Formerly ScanHealth)</fullName>
+                    <default>false</default>
+                    <label>Sansio (Formerly ScanHealth)</label>
+                </value>
+                <value>
+                    <fullName>Sertia</fullName>
+                    <default>false</default>
+                    <label>Sertia</label>
+                </value>
+                <value>
+                    <fullName>Shield</fullName>
+                    <default>false</default>
+                    <label>Shield</label>
+                </value>
+                <value>
+                    <fullName>Sierra Systems Consultants</fullName>
+                    <default>false</default>
+                    <label>Sierra Systems Consultants</label>
+                </value>
+                <value>
+                    <fullName>SMART</fullName>
+                    <default>false</default>
+                    <label>SMART</label>
+                </value>
+                <value>
+                    <fullName>SmartCOP</fullName>
+                    <default>false</default>
+                    <label>SmartCOP</label>
+                </value>
+                <value>
+                    <fullName>Solacom</fullName>
+                    <default>false</default>
+                    <label>Solacom</label>
+                </value>
+                <value>
+                    <fullName>Southern Software</fullName>
+                    <default>false</default>
+                    <label>Southern Software</label>
+                </value>
+                <value>
+                    <fullName>Spillman</fullName>
+                    <default>false</default>
+                    <label>Spillman</label>
+                </value>
+                <value>
+                    <fullName>Sungard HTE</fullName>
+                    <default>false</default>
+                    <label>Sungard HTE</label>
+                </value>
+                <value>
+                    <fullName>Sungard OSSI</fullName>
+                    <default>false</default>
+                    <label>Sungard OSSI</label>
+                </value>
+                <value>
+                    <fullName>Sun Ridge - RIMS</fullName>
+                    <default>false</default>
+                    <label>Sun Ridge - RIMS</label>
+                </value>
+                <value>
+                    <fullName>Thales (UK)</fullName>
+                    <default>false</default>
+                    <label>Thales (UK)</label>
+                </value>
+                <value>
+                    <fullName>TracNet</fullName>
+                    <default>false</default>
+                    <label>TracNet</label>
+                </value>
+                <value>
+                    <fullName>Traumasoft</fullName>
+                    <default>false</default>
+                    <label>Traumasoft</label>
+                </value>
+                <value>
+                    <fullName>Tritier Corporation</fullName>
+                    <default>false</default>
+                    <label>Tritier Corporation</label>
+                </value>
+                <value>
+                    <fullName>TSG</fullName>
+                    <default>false</default>
+                    <label>TSG</label>
+                </value>
+                <value>
+                    <fullName>Tyler Technologies</fullName>
+                    <default>false</default>
+                    <label>Tyler Technologies</label>
+                </value>
+                <value>
+                    <fullName>Unisys</fullName>
+                    <default>false</default>
+                    <label>Unisys</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+                <value>
+                    <fullName>Valor</fullName>
+                    <default>false</default>
+                    <label>Valor</label>
+                </value>
+                <value>
+                    <fullName>Versaterm</fullName>
+                    <default>false</default>
+                    <label>Versaterm</label>
+                </value>
+                <value>
+                    <fullName>Visual Fire</fullName>
+                    <default>false</default>
+                    <label>Visual Fire</label>
+                </value>
+                <value>
+                    <fullName>West Covina Service Group</fullName>
+                    <default>false</default>
+                    <label>West Covina Service Group</label>
+                </value>
+                <value>
+                    <fullName>Zoll</fullName>
+                    <default>false</default>
+                    <label>Zoll</label>
+                </value>
+                <value>
+                    <fullName>ZOLL Data Systems</fullName>
+                    <default>false</default>
+                    <label>ZOLL Data Systems</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Evaluation_Criteria__c</fullName>
+        <externalId>false</externalId>
+        <label>Evaluation Criteria</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Executive_Summary__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>If this field is left blank, the information provided in the Executive Summary field on the associated Opportunity will fill in.</inlineHelpText>
+        <label>Executive Summary</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>General_Overview_of_Project_Scope__c</fullName>
+        <externalId>false</externalId>
+        <label>General Overview of Project Scope</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_1_Hot_Buttons_Biases__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Decision Maker 1 Hot Buttons/Biases</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Champion</fullName>
+                    <default>false</default>
+                    <label>Champion</label>
+                </value>
+                <value>
+                    <fullName>Coach</fullName>
+                    <default>false</default>
+                    <label>Coach</label>
+                </value>
+                <value>
+                    <fullName>Ultimate Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Ultimate Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Evaluation Committee Member</fullName>
+                    <default>false</default>
+                    <label>Evaluation Committee Member</label>
+                </value>
+                <value>
+                    <fullName>Everyday User</fullName>
+                    <default>false</default>
+                    <label>Everyday User</label>
+                </value>
+                <value>
+                    <fullName>Gate Keeper</fullName>
+                    <default>false</default>
+                    <label>Gate Keeper</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Inside Coach</fullName>
+                    <default>false</default>
+                    <label>Inside Coach</label>
+                </value>
+                <value>
+                    <fullName>Introduction Maker</fullName>
+                    <default>false</default>
+                    <label>Introduction Maker</label>
+                </value>
+                <value>
+                    <fullName>Not Involved</fullName>
+                    <default>false</default>
+                    <label>Not Involved</label>
+                </value>
+                <value>
+                    <fullName>Obstructionist</fullName>
+                    <default>false</default>
+                    <label>Obstructionist</label>
+                </value>
+                <value>
+                    <fullName>Participant</fullName>
+                    <default>false</default>
+                    <label>Participant</label>
+                </value>
+                <value>
+                    <fullName>Political Influencer</fullName>
+                    <default>false</default>
+                    <label>Political Influencer</label>
+                </value>
+                <value>
+                    <fullName>Recommender</fullName>
+                    <default>false</default>
+                    <label>Recommender</label>
+                </value>
+                <value>
+                    <fullName>Responsible for Money</fullName>
+                    <default>false</default>
+                    <label>Responsible for Money</label>
+                </value>
+                <value>
+                    <fullName>Signature on Agreement</fullName>
+                    <default>false</default>
+                    <label>Signature on Agreement</label>
+                </value>
+                <value>
+                    <fullName>Technical Evaluator</fullName>
+                    <default>false</default>
+                    <label>Technical Evaluator</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_1_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>Key_Decision_Maker_1__r.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Key Decision Maker 1 Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_1__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Key Decision Maker 1</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Win Strategy</relationshipLabel>
+        <relationshipName>Win_Strategy</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_2_Hot_Buttons_Biases__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Decision Maker 2 Hot Buttons/Biases</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Champion</fullName>
+                    <default>false</default>
+                    <label>Champion</label>
+                </value>
+                <value>
+                    <fullName>Coach</fullName>
+                    <default>false</default>
+                    <label>Coach</label>
+                </value>
+                <value>
+                    <fullName>Ultimate Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Ultimate Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Evaluation Committee Member</fullName>
+                    <default>false</default>
+                    <label>Evaluation Committee Member</label>
+                </value>
+                <value>
+                    <fullName>Everyday User</fullName>
+                    <default>false</default>
+                    <label>Everyday User</label>
+                </value>
+                <value>
+                    <fullName>Gate Keeper</fullName>
+                    <default>false</default>
+                    <label>Gate Keeper</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Inside Coach</fullName>
+                    <default>false</default>
+                    <label>Inside Coach</label>
+                </value>
+                <value>
+                    <fullName>Introduction Maker</fullName>
+                    <default>false</default>
+                    <label>Introduction Maker</label>
+                </value>
+                <value>
+                    <fullName>Not Involved</fullName>
+                    <default>false</default>
+                    <label>Not Involved</label>
+                </value>
+                <value>
+                    <fullName>Obstructionist</fullName>
+                    <default>false</default>
+                    <label>Obstructionist</label>
+                </value>
+                <value>
+                    <fullName>Participant</fullName>
+                    <default>false</default>
+                    <label>Participant</label>
+                </value>
+                <value>
+                    <fullName>Political Influencer</fullName>
+                    <default>false</default>
+                    <label>Political Influencer</label>
+                </value>
+                <value>
+                    <fullName>Recommender</fullName>
+                    <default>false</default>
+                    <label>Recommender</label>
+                </value>
+                <value>
+                    <fullName>Responsible for Money</fullName>
+                    <default>false</default>
+                    <label>Responsible for Money</label>
+                </value>
+                <value>
+                    <fullName>Signature on Agreement</fullName>
+                    <default>false</default>
+                    <label>Signature on Agreement</label>
+                </value>
+                <value>
+                    <fullName>Technical Evaluator</fullName>
+                    <default>false</default>
+                    <label>Technical Evaluator</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_2_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>Key_Decision_Maker_2__r.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Key Decision Maker 2 Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_2__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Key Decision Maker 2</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Win Strategy (Key Decision Maker 2)</relationshipLabel>
+        <relationshipName>Win_Strategy1</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_3_Hot_Buttons_Biases__c</fullName>
+        <externalId>false</externalId>
+        <label>Key Decision Maker 3 Hot Buttons/Biases</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Champion</fullName>
+                    <default>false</default>
+                    <label>Champion</label>
+                </value>
+                <value>
+                    <fullName>Coach</fullName>
+                    <default>false</default>
+                    <label>Coach</label>
+                </value>
+                <value>
+                    <fullName>Ultimate Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Ultimate Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Evaluation Committee Member</fullName>
+                    <default>false</default>
+                    <label>Evaluation Committee Member</label>
+                </value>
+                <value>
+                    <fullName>Everyday User</fullName>
+                    <default>false</default>
+                    <label>Everyday User</label>
+                </value>
+                <value>
+                    <fullName>Gate Keeper</fullName>
+                    <default>false</default>
+                    <label>Gate Keeper</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Inside Coach</fullName>
+                    <default>false</default>
+                    <label>Inside Coach</label>
+                </value>
+                <value>
+                    <fullName>Introduction Maker</fullName>
+                    <default>false</default>
+                    <label>Introduction Maker</label>
+                </value>
+                <value>
+                    <fullName>Not Involved</fullName>
+                    <default>false</default>
+                    <label>Not Involved</label>
+                </value>
+                <value>
+                    <fullName>Obstructionist</fullName>
+                    <default>false</default>
+                    <label>Obstructionist</label>
+                </value>
+                <value>
+                    <fullName>Participant</fullName>
+                    <default>false</default>
+                    <label>Participant</label>
+                </value>
+                <value>
+                    <fullName>Political Influencer</fullName>
+                    <default>false</default>
+                    <label>Political Influencer</label>
+                </value>
+                <value>
+                    <fullName>Recommender</fullName>
+                    <default>false</default>
+                    <label>Recommender</label>
+                </value>
+                <value>
+                    <fullName>Responsible for Money</fullName>
+                    <default>false</default>
+                    <label>Responsible for Money</label>
+                </value>
+                <value>
+                    <fullName>Signature on Agreement</fullName>
+                    <default>false</default>
+                    <label>Signature on Agreement</label>
+                </value>
+                <value>
+                    <fullName>Technical Evaluator</fullName>
+                    <default>false</default>
+                    <label>Technical Evaluator</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_3_Title__c</fullName>
+        <externalId>false</externalId>
+        <formula>Key_Decision_Maker_3__r.Title</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Key Decision Maker 3 Title</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Key_Decision_Maker_3__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Key Decision Maker 3</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Win Strategy (Key Decision Maker 3)</relationshipLabel>
+        <relationshipName>Win_Strategy2</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Official_RFP_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Official RFP Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity_Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( Opportunity__r.IsClosed ,( Opportunity__r.CloseDate - DATEVALUE( Opportunity__r.CreatedDate )), 
+TODAY() - DATEVALUE(Opportunity__r.CreatedDate))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Opportunity Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Win Strategy</relationshipLabel>
+        <relationshipName>Win_Strategy</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Pricing_and_Funding_Issues__c</fullName>
+        <externalId>false</externalId>
+        <label>Pricing and Funding Issues</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Price</fullName>
+                    <default>false</default>
+                    <label>Price</label>
+                </value>
+                <value>
+                    <fullName>Compliancy</fullName>
+                    <default>false</default>
+                    <label>Compliancy</label>
+                </value>
+                <value>
+                    <fullName>Price and Compliancy</fullName>
+                    <default>false</default>
+                    <label>Price and Compliancy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Strategy_Statement__c</fullName>
+        <externalId>false</externalId>
+        <label>Strategy Statement</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Strategy_to_Maximize_TriTech_s_Scoring__c</fullName>
+        <externalId>false</externalId>
+        <label>Strategy to Maximize TriTech&apos;s Scoring</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Top_3_or_More_Differentiators__c</fullName>
+        <externalId>false</externalId>
+        <label>Top 3 or More Differentiators</label>
+        <length>5000</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>TriTech_Strengths__c</fullName>
+        <externalId>false</externalId>
+        <label>TriTech Strengths</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>TriTech_Weaknesses__c</fullName>
+        <externalId>false</externalId>
+        <label>TriTech Weaknesses</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <label>Win Strategy</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <displayFormat>Win Strategy-{00000000}</displayFormat>
+        <label>Win Strategy Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Win Strategy</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+    <webLinks>
+        <fullName>Winning_Dimensions</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Winning Dimensions</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://na6.salesforce.com/01580000002ZNrg</url>
+    </webLinks>
+</CustomObject>

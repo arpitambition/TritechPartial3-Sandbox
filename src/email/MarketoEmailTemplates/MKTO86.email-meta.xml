@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Increase ROI with Billing Programs.Invitation</name>
+    <style>none</style>
+    <subject>Last Chance to Register - Increase ROI with Your EMS Billing Program</subject>
+    <textOnly>LAST CHANCE TO REGISTER   
+Increase Return on Investment (ROI) with your EMS Billing Programs   
+ 
+
+Join us for a complimentary webinar on Increasing Your Return on Investment with Your EMS Billing Programs. This webinar will discuss how Larry Cole and TJ Irby, both EMS Billing experts, used their EMS Billing Programs to increase revenues in their respective services.
+
+Learn how to use your EMS Billing system to:
+
+
+- Help determine what your billing staff does each day or which crews/units have the longest on-scene/at-destination times
+
+- Measure your KPIs
+
+- Balance medication administered against supply requests
+
+- Find areas of down-coding that can increase revenue
+ 
+- Audit your calls for increased revenue (% of calls billed with a decimal mile) and decreased expenses (holding unnecessary emergency claims for a PCS)
+ 
+ 
+DATE: October 20, 2011
+TIME: 1 PM Central / 2 PM Eastern 
+PRESENTER: Larry Cole and TJ Irby -  EMS Billing Experts
+
+Register Now: http://offers.tritech.com/IncreaseROIwithBillingPrograms_Registration.html
+
+
+Questions?
+Cheri Lane, Marketing Communications Manager
+800-537-3927, ext. #6278
+cheri.lane@tritech.com
+
+
+ 
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

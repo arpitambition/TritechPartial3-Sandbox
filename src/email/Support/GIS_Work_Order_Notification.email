@@ -1,0 +1,14 @@
+Account:  {!Case.Account}
+Customer Number:  {!Case.EMS_Customer_Number__c}
+
+Created By:  {!Case.CreatedBy}
+
+GIS Services Work Type:  {!Case.GIS_Services_Work_Type__c}
+
+GIS Services Requested Due Date:  {!Case.GIS_Services_Requested_Due_Date__c}
+
+GIS Internal Work Queue:  {!Case.GIS_Internal_Work_Queue__c}
+
+GIS Progress Notes:  {!Case.GIS_Progress_Notes__c}
+
+Click here to review the new ticket:  {!Case.Link}

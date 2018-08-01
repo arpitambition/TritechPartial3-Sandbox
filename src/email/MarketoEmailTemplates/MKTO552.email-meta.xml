@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013-ABC3-Tradeshow-Vegas.Email-Blast</name>
+    <style>none</style>
+    <subject>Stop by for a visit in Vegas!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Stop by for a Visit
+
+Hello {{lead.First Name:default=Customer}},
+The Page, Wolfberg, &amp; Wirth&apos;s XI (Executive Institute &lt;http://www.pwwemslaw.com/content.aspx?id=476&gt;) on March 19 and  ABC3 Conference &lt;http://www.pwwemslaw.com/content.aspx?id=582&gt; on 
+March 20-21 in Las Vegas is right around the corner. TriTech will be exhibiting at the PWW conference at the Tropicana and we invite you to please stop by our booth and visit with our Client Account Manager, Brenda Taylor and our Industry Education Coordinator, Kathy Ransom.
+
+Stop by to see a sneak preview of what’s coming in our Respond Billing Version 5.9. Some exciting new features include Real-time Eligibility and Virtual Multi-Leg, along with many revisions to the Remittance Processing module.
+
+Also talk with Brenda and Kathy about how you can maximize the use of your Respond Billing product through continuing education, Billing Check Up, migrating to the Cloud, or just simple tweaks to your billing system.
+
+See you in Vegas!
+
+
+
+Questions?
+ Contact your TriTech Account Manager for more information.
+ 
+sales@tritech.com
+ 800-537-3927
+
+2013 Events
+We&apos;ll also be at the following events in 2013:
+- April 16-17: Respond Billing User Group &lt;http://offers.tritech.com/2013SGTRegistration.html&gt; (Madison, WI)\
+ - May 21-22: PWW’s ABC3 Conference &lt;http://www.pwwemslaw.com/content.aspx?id=582&gt; (St. Louis, MO)
+ - June 25-26: Respond Billing User Group &lt;http://offers.tritech.com/2013SGTRegistration.html&gt; (Evergreen, CO)
+ - August 5-9: Pinnacle &lt;http://pinnacle-ems.com/&gt; (Jacksonville, FL)
+ - September 4-5: Respond Billing User Group &lt;http://offers.tritech.com/2013SGTRegistration.html&gt; (West Columbia, TX)
+ - October: PWW’s ABC3 Conference &lt;http://www.pwwemslaw.com/content.aspx?id=582&gt; (Hershey, PA)
+ - November 6-7: Respond Billing User Group &lt;http://offers.tritech.com/2013SGTRegistration.html&gt; (Shelton, CT)
+ - November 15-22: AAA Annual Conference &lt;http://www.the-aaa.org/&gt; (Las Vegas, NV)</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

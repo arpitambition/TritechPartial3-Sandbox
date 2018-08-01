@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-IA007_April24-25_2012.Confirmation Reminder</name>
+    <style>none</style>
+    <subject>REMINDER: Sweet Software Group Training in Ankeny, IA Next Week</subject>
+    <textOnly>REMINDER: Sweet Software Group Training in Ankeny, IA Next Week
+
+
+We&apos;re looking forward to seeing you next week for our Sweet Software Group Training. If you have questions or if there is anything we can do to make this a better experience for you, please contact us at: 
+
+Kathy Swanson, Ankeny Fire Department: 
+(515) 965-6476 | kswanson@ankenyiowa.gov 
+
+Brenda Taylor, TriTech Sales Representative: (800) 537-3927 ext. 6233 | brenda.taylor@tritech.com
+
+Here is a link to download a copy of the agenda, if you&apos;d like: &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&quot; target=&quot;_blank&gt;. 
+
+Registration will begin on the first day at 7:45 a.m. We sincerely hope that these two days of education will allow everyone to gain knowledge in the areas desired. Although this is classroom-style training, feel free to bring a laptop if you have access to one and you will be able to participate in some “hands-on” activities. 
+
+We invite you to dress casually and comfortably for the session. Since room temperatures and preferences vary from person to person, please bring a sweater or sweatshirt to wear if needed.  
+
+See you next week!
+
+________________________________________
+Sweet Software Group Training in Ankeny, IA on April 24-25, 2012
+
+TRAINING  LOCATION: Ankeny Fire Station #1 (120 NW Ash Dr., Ankeny, IA  50023) 
+
+RECOMMENDED HOTEL:  
+Courtyard by Marriott 
+2405 Southeast Creekview Drive, Ankeny, IA 50021) Phone: (515) 422-555 | $139-189 per night plus tax</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

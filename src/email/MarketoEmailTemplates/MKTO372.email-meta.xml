@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New-TriTech.com-Website-General.General Announcement</name>
+    <style>none</style>
+    <subject>TriTech Software Systems Announces New Website!</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+TriTech Proudly Announces New Website!
+&lt;http://www.tritech.com&gt;
+
+We are excited about the release of our new website and invite you to check us out online. Now easier to navigate and find the product that&apos;s right for you.
+Proud to serve over 2,500 Public Safety client installations across 7 countries</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

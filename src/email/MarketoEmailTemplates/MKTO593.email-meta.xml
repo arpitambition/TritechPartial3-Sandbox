@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTech.com IQ Demonstration.Followup_Non-Registrants</name>
+    <style>none</style>
+    <subject>TriTech.com IQ - Links to Demo Recording and Brochure</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Discover the Power of TriTech.com IQ
+Link to April 11th Webinar Recording
+
+{{lead.First Name:default=Client}} -
+Sorry we missed you! We wanted to share the link to the April 11th webinar recording with you about TriTech.com IQ, which includes information about the following:
+
+ - The power of the Public Safety Search Engine and real-time notifications
+ - The intelligence from centralized reporting and analytics
+ - The cost benefits of operating on a cloud-based platform
+ - The security of Nlets hosting services
+
+For information about TriTech.com IQ please contact your Client Account Manager or email sales@tritech.com. &lt;mailto:sales@tritech.com&gt;
+LINKS:
+
+PRESENTER: Wendy Gilbert, Director of Product Management, and Charlie Barry, Senior Product Manager
+
+RECORDING DATE: Thursday, April 11, 2013
+
+TRITECH.COM IQ BROCHURE:  Click to Download &lt;http://www.tritech.com/resources/TriTecDotCom_IQ_Brochure.pdf&gt;
+
+LINK TO RECORDING &lt;recordings.tritech.co/TriTechcom_IQ_Demonstration_April11-2013.wmv&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

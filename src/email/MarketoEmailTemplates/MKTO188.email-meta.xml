@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Restructuring_March14-2012.VisionAIR-email</name>
+    <style>none</style>
+    <subject>TriTech Customer Update</subject>
+    <textOnly>Customer Update
+March 16, 2012
+
+Dear {{lead.First Name:default=Customer}},
+
+Since TriTech Software Systems formally welcomed VisionAIR software customers to the TriTech team in September 2011, a lot of planning and discussions have taken place to lay the ground work for a smooth transition. We would like to keep you, our customers, well informed on our progress of bringing the leading public safety software providers under one roof. By unifying the best people and products in the industry under the TriTech brand, we have become the largest and most trusted leader with resources to deliver the most innovative enterprise-wide solutions in 911 Dispatch, Law, Fire and EMS. 
+
+Many of the names and faces at TriTech will already be familiar to VisionAIR software users (see the TriTech Management Team here: www.tritech.com/Company/Management-Team) as the company continues to operate from existing office locations in Castle Hayne, NC; North Grafton, MA; Denver, CO; Decorah, IA; and San Diego, CA – but under a single structure, team and company. With the rich collection of knowledge brought into a single public safety software solution – developed, sold and supported under one company – TriTech is able to offer a complete, integrated, end-to-end enterprise-wide solution from a single company that’s large enough to withstand economic swings, but not so large that customers don’t get the attention they deserve.
+
+Look for information coming soon on some exciting TriTech events created especially for you:
+
+ - TriTech&apos;s Annual User Conference | September 26 - 28, 2012 – Save the Date: Hosted at the beautiful Hilton San Diego Bayfront, this year’s annual user’s conference combines the joint forces of all TriTech products. Look for registration      information coming soon!
+ - TriTech Customer Service Webinars: complimentary, monthly webinars designed to increase knowledge and efficiency of your VisionAIR software; join an unlimited number of fellow VisionAIR software users each month to share tips and tricks to make the most of your software!
+ - TriTech Customer Newsletters: each quarter you will receive information specific to the VisionAIR products you use; look for the same helpful product information, updates, technical tips, upcoming events and so forth that you’re used to seeing each quarter, plus additional TriTech information that will keep you on the leading edge of technology and advancements in public safety software.
+
+We are committed to serving your needs today and in the future. The goal of the TriTech support team is to partner with you to provide responsive, seamless and excellent resolution to issues as quickly as possible with courtesy and quality. In addition, TriTech support delivers updates and upgrades for licensed software to our valued annual support clients. Keeping your agency current with the most up-to-date solutions is our mission. If you need us, we are here.
+
+Customer Support is available to you in three ways:  
+1. Call 800-756-8324
+2. Login to your customer support portal at this website address: http://cscportal.visionair.com/_layouts/login.aspx?ReturnUrl=/_layouts/Authenticate.aspx?Source=%2f&amp;Source=/
+3. Or, access customer support on TriTech.com by selecting “Client Login” and then clicking on “VisionAIR”
+
+Thank you for your continued business and the opportunity to serve your software needs,
+
+Sincerely,
+Mike Lyons
+ Vice President of Operations | Castle Hayne, North Carolina
+ TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

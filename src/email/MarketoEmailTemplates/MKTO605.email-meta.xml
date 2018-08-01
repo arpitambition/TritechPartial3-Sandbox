@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Nlets.Email</name>
+    <style>none</style>
+    <subject>Press Release: TriTech Partners with Nlets to Introduce a Cloud-based Public Safety Intelligence Application</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Press Release
+TriTech Software Systems Partners with Nlets to Introduce a Cloud-based Public Safety Intelligence Application
+
+
+
+Leveraging Nlets hosting services, TriTech.com IQ delivers a powerful, cost-efficient, public safety search engine and analytics suite
+
+
+
+April 19, 2013
+San Diego, CA -- (April 19, 2013) TriTech Software Systems is excited to announce its strategic partnership with Nlets as its hosting services provider for TriTech.com IQ, the cloud-based version of its award-winning Inform IQ public safety intelligence solution. As the premier, trusted interstate justice and public safety data transmission network, Nlets provides a highly secure and reliable hosting facility for TriTech.com cloud-based services. Leveraging the reliability and security of Nlets, IQ is the first hosted system of its kind to aggregate multi-agency data from CAD, RMS, Jail, and 911 telephony systems to deliver powerful, intelligent search and reporting capabilities.
+
+
+
+As a cloud-based, multi-tenant solution, IQ empowers agencies with the ability to collect data from multiple sources in real time and leverages the power of a free-text search engine to deliver results quickly and securely. As more and more agencies contribute data to the hosted system at Nlets, each will benefit from an interagency sharing model to search aggregated data in neighboring jurisdictions while preserving control over their information. Accessible from any location and any device with an internet connection, including tablets and smartphones, IQ provides an information lifeline for police officers, firefighters, and emergency medical personnel to fight crime and protect citizens in a cost-effective and secure manner.
+
+
+
+Key Facts:
+
+•    TriTech Software Systems has entered into a strategic partnership with Nlets to host TriTech’s first public safety cloud service – TriTech.com IQ. The company’s partnership with Nlets exemplifies TriTech’s commitment to provide public safety agencies with cloud-based services in a highly secure, reliable manner. 
+
+
+
+•    With over 40 years of connecting state, local, and federal law enforcement with justice and public safety agencies to exchange critical information, Nlets is one of the most trusted and secure hosting facilities in the nation. By leveraging Nlets’ unique capabilities, TriTech.com IQ ensures that storage and access to agency data is with unrivaled reliability and continual 24/7/365 monitoring.
+
+
+
+•    TriTech.com IQ is the first hosted system of its kind to aggregate multi-agency data from CAD, RMS, Jail, and 9-1-1 telephony systems to provide powerful, intelligent search and reporting capabilities. As a cloud-based solution, TriTech.com IQ eliminates the needs for expensive on-site hardware and resource-intensive maintenance; TriTech staff manages all hardware, operating system, database, and software updates.
+
+
+
+Supporting Quotes:
+
+
+
+Frank Minice, Deputy Executive Director, Nlets:
+
+“To be selected as an Nlets partner, companies must undergo a rigorous vetting process. We are most impressed with TriTech and their commitment to the public safety and justice community. By combining the Nlets network and hosting services with TriTech’s innovative public safety intelligence applications, we are providing a new type of service that is on the forefront of a move towards cloud-based computing in public safety.”
+
+
+
+Chris Maloney, CEO and President, TriTech Software Systems:
+
+“Nlets is a highly respected and trusted organization in the public safety community, and a perfect partner for TriTech in providing innovative technology for collaboration and information sharing. Just as individuals use Google in their own personal search queries, it is our aim that someday TriTech.com IQ and Nlets will be the ’go-to‘ source for public safety. This nation-wide intelligence solution will provide groundbreaking capabilities for investigation and reporting. We are honored and excited to be an Nlets partner.” 
+
+
+
+Supporting Resources
+
+Website:  TriTech Software System &lt;http://www.tritech.com/&gt;s
+
+Website:  Nlets &lt;https://www.nlets.org/host-with-us&gt;
+
+
+
+About Nlets
+
+Nlets is the premiere interstate justice and public safety network in the nation for the exchange of law enforcement, criminal justice, and public safety-related information. Nlets, which is owned by the States, is a 501(c)(3) nonprofit organization, which was created by principal law enforcement agencies of the states 40 years ago. The user population is composed of all of the States/territories, all Federal agencies with a justice component, and selected international agencies, all cooperatively exchanging data. The types of data being exchanged vary from motor vehicle and drivers’ data, Canadian “Hot File” records, and INS databases to state criminal history records. Over 90 million messages are transacted each month.
+
+
+
+The mission of Nlets is to provide, within a secure environment, an international justice telecommunications capability and information services that will benefit to the highest degree, the safety, the security, and the preservation of human life and the protection of property. Nlets will assist those national and international government agencies and other organizations with similar missions that enforce or aid in enforcing local, state, or international laws or ordinances.
+
+
+
+For more information about Nlets, please visit http://www.nlets.org/ or contact Bonnie Locke, Director of Program Management at (623) 308-3526 or press@nlets.org.
+
+
+
+About TriTech Software Systems
+
+TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – PSAP, Law, Fire, or EMS.
+
+
+
+TriTech Software Systems’ sole focus is public safety software. The company’s experienced team contributes on average, 13 years of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide cloud-based and on-premise solutions for 911, computer aided dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting, and ambulance billing software.
+
+
+
+For the best end-to-end integrated solution with unparalleled workflow, join the 2,700+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

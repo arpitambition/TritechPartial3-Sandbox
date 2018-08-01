@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_DocumentationSurvey_112011</name>
+    <style>none</style>
+    <subject>VisiNet Solutions Documentation Survey</subject>
+    <textOnly>November 7, 2011
+VisiNet Solutions Documentation Survey
+
+Dear {{lead.First Name:default=Customer}},
+
+TriTech is continuously looking for ways to strengthen the quality of our products and services.  The  Customer Satisfaction Survey completed in early September indicated that  improving documentation is one of your main  concerns. We are contacting you today because we would like your valuable feedback in an effort to make our documentation more accessible and useful. 
+
+Please click this link to complete a quick 5-minute documentation survey.  Thank you in advance for taking the time to provide us with your candid input. The survey will close Monday, November 21.  
+
+If there is someone more appropriate at your site who should be responding to this survey, please contact Jenny Clavero from our Marketing Department at (858) 799-7362 or email her at jenny.clavero@tritech.com. If you have any questions or encounter any difficulties with this survey link, Jenny is available to assist you with that too.
+
+Sincerely,
+
+Yvonne Stringer
+Quality Assurance Manager
+TriTech Software Systems | VisiNet Solutions
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

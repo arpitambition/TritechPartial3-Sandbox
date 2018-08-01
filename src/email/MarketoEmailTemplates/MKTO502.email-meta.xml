@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2013.Save The Date</name>
+    <style>none</style>
+    <subject>2013 TriCON Annual Training - Save the Date</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Save the Date and Plan Ahead for
+2013 TriCON Annual Training
+
+Hello {{lead.First Name:default=Client}},
+
+TriCON 2013 = Training, Training, and more Training. TriTech&apos;s annual event, TriCON Annual Training, provides attendees with the experience of developing powerful CONnections with fellow users, valued business partners and TriTech staff while offering an expanded program for three full days of training.
+
+
+To guarantee your attendance, you can include the event&apos;s registration, hotel and airfare into your Support Maintenance Agreement (SMA).  If interested in more information or to include the event fees in SMA please contact Jenny Clavero at (858) 799-7362 or email tricon@tritech.com. &lt;mailto:tricon@tritech.com&gt;
+
+ 
+Like the TriCON Facebook Page &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt; for event photos and updates on 2013 TriCON Annual Training plans.
+Training Details
+Dates (9/30-10/2): 
+Make your travel plans to participate in all the sessions and networking events. 
+Click here for the schedule &lt;http://www.tritech.com/news/tricon/tricon-agenda&gt;
+
+
+Location:
+ Hilton San Diego Bayfront &lt;http://www.hiltonsandiegobayfront.com&gt;
+ San Diego, CA 92101
+ $199 / night discounted rate
+
+Registration:
+ $695: Early bird registration (Before Aug. 1)
+Additional discounts available</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

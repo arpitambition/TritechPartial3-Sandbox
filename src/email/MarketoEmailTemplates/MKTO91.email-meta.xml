@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Increase ROI with Billing Programs.Reminder</name>
+    <style>none</style>
+    <subject>Tomorrow&apos;s Webinar Reminder: Increasing Your ROI Using Your EMS Billing Programs</subject>
+    <textOnly> 
+Upcoming Webinar Reminder   
+Increasing your ROI Using your EMS Billing Programs   
+ 
+
+This is a reminder that you have registered for the complimentary webinar on Increasing Your Return on Investment Using Your EMS Billing Programs. This webinar will discuss how Larry Cole and TJ Irby, both EMS Billing Experts, used their EMS Billing Programs to increase revenues in their respective services.
+
+Another reminder email with your join link (below), will be sent out tomorrow - 20 minutes before we start.
+ 
+We look forward to having you attend!
+ 
+JOIN LINK: http://tritech.ilinc.com/join/ccmcvmt
+DATE: October 20, 2011
+TIME: 2 PM Eastern  | 1 PM Central  l  Noon Mountain | 11 AM Pacific
+PRESENTER: Larry Cole and TJ Irby - both EMS Billing Service Experts
+AUDIO: Listen through your computer speakers or dial the toll free number on your screen when you login
+
+
+Trouble Logging In? Call 800.799.4510 for the iLinc Support Team Help
+
+
+Questions?
+Cheri Lane, Marketing Communications Manager
+800-537-3927, ext. #6278
+cheri.lane@tritech.com
+
+
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

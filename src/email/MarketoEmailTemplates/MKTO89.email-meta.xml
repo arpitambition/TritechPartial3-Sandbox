@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConference_SurveyReminder</name>
+    <style>none</style>
+    <subject>TriCON Survey Reminder</subject>
+    <textOnly>Don&apos;t Forget
+2011 TriCON Survey Reminder
+
+
+We strongly value your feedback.  In fact, we RELY on your feedback in developing our program and agenda for TriCON.  Please help us continue to make TriCON a valuable investment for your 
+agency and an enjoyable experience for you.   
+
+
+To complete our TriCON 2011 Attendee Survey
+Visit:  http://www.surveymonkey.com/s/TriCON2011
+
+
+All of us at TriTech Software Systems thank you for your continued participation in this important event, and we look forward to seeing you next year at TriCON 2012 in San Diego.
+
+
+Regards, 
+Jenny V. Clavero 
+Associate Marketing Manager
+TriTech Software Systems | www.tritech.com 
+
+Direct: 858.799.7362 | jenny.clavero@tritech.com
+
+   
+
+
+Save the Date and Budget for TriCON 2012
+Dates:  Wednesday, September 26 - Friday, September 28
+Location:  Hilton San Diego Bayfront
+Discounted hotel rate:  $199/night
+
+Support:  Contact Jenny or Accounting to add TriCON registration to your support agreement.  
+ 
+ 
+ 
+
+Share this message with colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

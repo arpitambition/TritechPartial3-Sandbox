@@ -1,0 +1,374 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>true</sorted>
+    <standardValue>
+        <fullName>1st attempt</fullName>
+        <default>false</default>
+        <label>1st attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>2nd attempt</fullName>
+        <default>false</default>
+        <label>2nd attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>3rd attempt</fullName>
+        <default>false</default>
+        <label>3rd attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Accessed Recording</fullName>
+        <default>false</default>
+        <label>Accessed Recording</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned</fullName>
+        <default>false</default>
+        <label>Assigned</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned to RSM or CAM</fullName>
+        <default>false</default>
+        <label>Assigned to RSM or CAM</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assigned to Sales Rep</fullName>
+        <default>false</default>
+        <label>Assigned to Sales Rep</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended</fullName>
+        <default>false</default>
+        <label>Attended</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended demo</fullName>
+        <default>false</default>
+        <label>Attended demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Attended On-demand</fullName>
+        <default>false</default>
+        <label>Attended On-demand</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Booth Appointment</fullName>
+        <default>false</default>
+        <label>Booth Appointment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call back</fullName>
+        <default>false</default>
+        <label>Call back</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Called</fullName>
+        <default>false</default>
+        <label>Called</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CAM to follow-up</fullName>
+        <default>false</default>
+        <label>CAM to follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed Task</fullName>
+        <default>false</default>
+        <label>Completed Task</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contacted</fullName>
+        <default>false</default>
+        <label>Contacted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create an Opportunity</fullName>
+        <default>false</default>
+        <label>Create an Opportunity</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Current customer</fullName>
+        <default>false</default>
+        <label>Current customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Appreciation Dinner RSVP</fullName>
+        <default>false</default>
+        <label>Customer Appreciation Dinner RSVP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Defer to Call Campaign (Q2)</fullName>
+        <default>false</default>
+        <label>Defer to Call Campaign (Q2)</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Defer to next quarter</fullName>
+        <default>false</default>
+        <label>Defer to next quarter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo</fullName>
+        <default>false</default>
+        <label>Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Downloaded</fullName>
+        <default>false</default>
+        <label>Downloaded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email Sent</fullName>
+        <default>false</default>
+        <label>Email Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Exisiting Client</fullName>
+        <default>false</default>
+        <label>Exisiting Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Client</fullName>
+        <default>false</default>
+        <label>Existing Client</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Filled Out Form-Z Website</fullName>
+        <default>false</default>
+        <label>Filled Out Form-Z Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up</fullName>
+        <default>false</default>
+        <label>Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up task created</fullName>
+        <default>false</default>
+        <label>Follow-up task created</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Have RSM-CAM follow up</fullName>
+        <default>false</default>
+        <label>Have RSM-CAM follow up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inquiry</fullName>
+        <default>false</default>
+        <label>Inquiry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested</fullName>
+        <default>false</default>
+        <label>Interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested in demo</fullName>
+        <default>false</default>
+        <label>Interested in demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested in more info-Sales followup</fullName>
+        <default>false</default>
+        <label>Interested in more info-Sales followup</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested in Product Info-AM follow-up</fullName>
+        <default>false</default>
+        <label>Interested in Product Info-AM follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested - long term</fullName>
+        <default>false</default>
+        <label>Interested - long term</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Interested -  long term</fullName>
+        <default>false</default>
+        <label>Interested -  long term</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Invited</fullName>
+        <default>false</default>
+        <label>Invited</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Left Message</fullName>
+        <default>false</default>
+        <label>Left Message</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Interest level - Cold</fullName>
+        <default>false</default>
+        <label>No Interest level - Cold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>No Show</fullName>
+        <default>false</default>
+        <label>No Show</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not called</fullName>
+        <default>false</default>
+        <label>Not called</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Contacted</fullName>
+        <default>false</default>
+        <label>Not Contacted</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not interested</fullName>
+        <default>false</default>
+        <label>Not interested</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Not interested - cold</fullName>
+        <default>false</default>
+        <label>Not interested - cold</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened Email</fullName>
+        <default>false</default>
+        <label>Opened Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Opportunity created</fullName>
+        <default>false</default>
+        <label>Opportunity created</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Approval</fullName>
+        <default>false</default>
+        <label>Pending Approval</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered</fullName>
+        <default>false</default>
+        <label>Registered</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered for Demo</fullName>
+        <default>false</default>
+        <label>Registered for Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered for Webina</fullName>
+        <default>false</default>
+        <label>Registered for Webina</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registered for Webinar</fullName>
+        <default>false</default>
+        <label>Registered for Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Registration Error</fullName>
+        <default>false</default>
+        <label>Registration Error</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rejected</fullName>
+        <default>false</default>
+        <label>Rejected</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Rep to contact</fullName>
+        <default>false</default>
+        <label>Rep to contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Responded</fullName>
+        <default>false</default>
+        <label>Responded</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSM or CAM to follow up</fullName>
+        <default>false</default>
+        <label>RSM or CAM to follow up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSM or CAM to follow-up</fullName>
+        <default>false</default>
+        <label>RSM or CAM to follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RSM to follow-up</fullName>
+        <default>false</default>
+        <label>RSM to follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send quote</fullName>
+        <default>false</default>
+        <label>Send quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent</fullName>
+        <default>false</default>
+        <label>Sent</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Email</fullName>
+        <default>false</default>
+        <label>Sent Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Email Invite</fullName>
+        <default>false</default>
+        <label>Sent Email Invite</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sent Follow Up</fullName>
+        <default>false</default>
+        <label>Sent Follow Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Signed Up</fullName>
+        <default>false</default>
+        <label>Signed Up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Task completed</fullName>
+        <default>false</default>
+        <label>Task completed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Viewed Recording</fullName>
+        <default>false</default>
+        <label>Viewed Recording</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Visited Booth</fullName>
+        <default>false</default>
+        <label>Visited Booth</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wait Listed</fullName>
+        <default>false</default>
+        <label>Wait Listed</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched Demo</fullName>
+        <default>false</default>
+        <label>Watched Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watched Recording</fullName>
+        <default>false</default>
+        <label>Watched Recording</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Watch Recording</fullName>
+        <default>false</default>
+        <label>Watch Recording</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Will attend</fullName>
+        <default>false</default>
+        <label>Will attend</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Will Attend Demo</fullName>
+        <default>false</default>
+        <label>Will Attend Demo</label>
+    </standardValue>
+</StandardValueSet>

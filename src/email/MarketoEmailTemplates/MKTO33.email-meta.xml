@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConference_August_VNS</name>
+    <style>none</style>
+    <subject>TriCON - Client Presentations and Custom Reports Workshop</subject>
+    <textOnly>Countdown to TriCON
+September 13 - 16  l  Boston, Massachusetts
+
+There&apos;s still time to register for TriCON: TriTech&apos;s Annual User Conference, taking place September 13-16 at the Boston Park Plaza Hotel in Boston, Massachusetts.  This year&apos;s event will once again showcase over 12 hours of innovative solutions and best practices from your fellow peers.  
+
+
+Some of the client presentations include:
+
+- Hennepin County EMS and Dallas PD:  Social Media Strategies in Public Safety
+- EMSA:  EMS Data Interoperability
+- Charleston County Consolidated Dispatch Center:  A Behind- the-Scenes look at the Consolidation Process
+- Ventura County Fire:  VisiNet Mobile - Where the Rubber Meets the Road
+- Columbia-Richland County:  Geo Best Practices
+
+Visit the TriCON website and Blog for all the latest conference updates.   Don&apos;t miss this must-see event!
+
+Pre-Conference Workshop: Builiding Ad-Hoc Custom Reports
+ 
+Date:  Tuesday, Sept. 13 from 2 p.m. to 5 p.m.
+ 
+Cost:  $200 (Hands on workshop limited to 12 individuals.)
+ 
+Abstract:  With a growing importance placed on accountability and efficiency, management is tasked with building reports and dashboards to improve operations.This hands-on workshop will help you turn your VisiCAD data into easy-to-read, interactive reports through Crystal Reports.
+Click here to view the workshop agenda. 
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

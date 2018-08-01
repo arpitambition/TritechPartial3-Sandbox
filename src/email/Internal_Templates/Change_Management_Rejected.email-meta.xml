@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification for rejection of Change Management SF Help Desk tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Change Management Rejected</name>
+    <style>none</style>
+    <subject>Change Management REJECTED: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>Hello,
+
+The Admin Recommendation on the following request has been REJECTED.
+
+Original Requestor: {!SalesForce_Helpdesk__c.OwnerFullName}
+Original Request Details:
+{!SalesForce_Helpdesk__c.Request_Details__c}
+
+Admin Recommendation:
+{!SalesForce_Helpdesk__c.Admin_Recommendation__c} To review the request detail and resubmit, click here: {!SalesForce_Helpdesk__c.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

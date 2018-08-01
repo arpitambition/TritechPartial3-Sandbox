@@ -1,0 +1,7 @@
+Additional Information is needed for {!Write_In__c.Name}:
+
+{!Write_In__c.Additional_Information_Required__c}
+
+
+Please see the link below to provide the additional information.
+{!Write_In__c.Link}

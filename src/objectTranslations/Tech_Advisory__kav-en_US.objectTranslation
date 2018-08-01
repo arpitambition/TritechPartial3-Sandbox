@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Tech Advisory</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Tech Advisories</value>
+    </caseValues>
+    <fields>
+        <label><!-- Article Attachment --></label>
+        <name>Attachments_Tech_Advisory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Article Body --></label>
+        <name>Tech_Advisory_Article_Body__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Portal Notice</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Portal Notices</value>
+    </caseValues>
+    <fields>
+        <label><!-- Body Short --></label>
+        <name>Body_Short__c</name>
+    </fields>
+    <fields>
+        <label><!-- Body --></label>
+        <name>Body__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Notices --></label>
+        <name>General_Notices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Notices --></label>
+        <name>Manager_Notices__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETI</masterLabel>
+            <translation><!-- ETI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LETG</masterLabel>
+            <translation><!-- LETG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher</masterLabel>
+            <translation><!-- Zuercher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <layouts>
+        <layout>Portal Notice Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Display --></label>
+            <section>Display</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

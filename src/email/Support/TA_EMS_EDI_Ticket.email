@@ -1,0 +1,8 @@
+An EDI Work Order Ticket has been created for your review.
+
+Account: {!Account.Name} 
+Customer Number: {!Account.EMS_Customer_Number_WMP__c}
+Ticket Number: {!Case.CaseNumber} 
+Ticket Owner: {!CaseOwner.FullName} 
+
+Click on the link to access the ticket: {!Case.Link}

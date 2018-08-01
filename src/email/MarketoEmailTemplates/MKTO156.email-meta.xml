@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Missouri Tech Seminar.Attended</name>
+    <style>none</style>
+    <subject>Leadership Seminar:  Thank You for Attending</subject>
+    <textOnly>Thanks for Attending
+Missouri Communications Leadership and Technology Seminar
+
+We would like to extend a sincere thank you for attending TriTech&apos;s Leadership Seminar.  It was great to be able to meet with you and share leadership insight and technology advancements in the field of public safety communications.  
+
+For reference, below is a link to download a case study from our Leadership Seminar hosts, St. Charles County Department of Dispatch and Alarm.  In the case study, Executive Director Bob Watts shares how their  computer-aided dispatch and mobile data solution from TriTech delivers the following benefits:
+
+Easy IT administration and assured uptime
+Cross-jurisdictional dispatch for quickest reponse
+Instant access to real-time incident information for field personnel   
+
+Click here to download the case study and read more: http://offers.tritech.com/rs/ortivusna/images/VNS_CS_StCharlesCounty.pdf  
+
+If you have further questions or woold like to request more information, please feel free to contact your Regional Sales Manager Pam Irons.
+
+Pam Irons, Regional Sales Manager                         
+Mobile: (507) 254-9979
+Email:  pam.irons@tritech.com 
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

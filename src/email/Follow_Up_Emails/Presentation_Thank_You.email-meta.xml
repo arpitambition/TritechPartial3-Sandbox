@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Thank You email right after concluding a presentation</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Newsletter_Banner</letterhead>
+    <name>Presentation Thank You</name>
+    <style>freeForm</style>
+    <subject>TriTech Presentation Thank You</subject>
+    <textOnly>Hi 
+
+Thank you to you and your team for taking the time to join us in the TriTech {XXXX_Product} presentation today. We learned a great deal about your goals, and I hope you saw how our solution helps you achieve them. 
+
+Please let me know if you have any concerns or general feedback related to matching your business processes and the compatibility of our products. I would be happy to schedule a follow-up session with anyone that has additional or more involved questions. 
+
+Thanks again for your time -- As always, I am here to help with your evaluation in any way I can.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

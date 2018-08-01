@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Imc_CC_Nov11.Imc CC Nov11 Email</name>
+    <style>none</style>
+    <subject>Your Imc CAM Connection - November Newsletter</subject>
+    <textOnly>          
+November 2011 Edition (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_Main.html)
+Welcome to the November issue of the Imc Solutions&apos; CAM Connection newsletter. The main page of will give you an overall glance at what this month&apos;s newsletter has to offer. We hope you enjoy the newsletter.
+ 
+ 
+ 
+ Important Alerts &amp; Updates (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_AlertUpdates.html)
+ 
+ &gt; Prepare for New Massachusetts EMD Mandate
+
+ &gt; Hot Fix for New Hampshire Court Complaint Form
+   Change and Maine OUI Intoxication Form Changes
+
+ &gt; Responding to Your Input – Technician Software
+   Knowledge In-Service Thursdays
+
+ &gt; Current Version Page Now Linked to Client Issues Reports  
+ 
+   
+ 
+ Products &amp; Services (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_ProductsServices.html)
+ 
+ &gt; Imc Solutions Fire RMS DEMO [VIDEO]
+
+ &gt; Best Practices for Building Comprehensive Records [DEMO] 
+
+ &gt; Imc Solutions Crime Analysis [DEMO]
+ 
+ &gt; Fix It with Felicia – Next session Thursday, November 10th  
+ 
+   
+  Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_TechnicalSupportHotTopics.html)
+ &gt; Submit Your Product Enhancement Requests On-Line
+ 
+ &gt; Technical Q&amp;As ﻿ 
+  
+  
+ Client News &amp; GoLives (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_ClientNews.html)
+ 
+ &gt; New Installs for September and October
+ 
+ &gt; Commissioners Sign Contracts for New Dispatch, Records System 
+               
+
+
+ &gt; Main Page (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_Main.html)
+
+ &gt; Important Alerts &amp; Updates  (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_AlertUpdates.html)
+
+ &gt; Products &amp; Services  (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; GoLives  (http://offers.tritech.com/Imc_CC_Nov11_ImcCAMConnection_ClientNews.html)
+
+ &gt; www.tritech.com  (http://www.tritech.com)
+ 
+ 
+CAM CONTACTS
+David Bell
+508.839.6445 x104
+david.bell@tritech.com
+ 
+Mark Baranowski
+508.839.6445 x180
+mark.baranowski@tritech.com 
+ 
+   
+ 
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

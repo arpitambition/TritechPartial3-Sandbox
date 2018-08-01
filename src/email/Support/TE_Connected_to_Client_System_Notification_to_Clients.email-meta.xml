@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used to send clients the notification that we have connected to their system</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Zuercher_Letterhead</letterhead>
+    <name>TE - Connected To Client System Notification to Clients</name>
+    <style>freeForm</style>
+    <subject>{!Account.Name} - {!User.Name} Connected To System - {!Case.CaseNumber}</subject>
+    <textOnly>EVENT DETAILS:
+
+Event Name:  Connected To Client System
+
+Event Status:  Connected
+
+Event Owner:  {!User.Name}
+
+End Date:  {!Today}
+
+Event Description: 
+
+
+ 
+TICKET DETAILS
+
+Ticket #: {!Case.CaseNumber}
+
+Title: {!Case.Subject}
+
+Current Owner: {!Case.OwnerFullName}
+
+Progress Status: {!Case.Status}
+
+Client:  {!Case.Account}
+
+Description:  {!Case.Description}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IMC alert trigger when a draft knowledge base article is created from a ticket</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - IMC Draft Ticket Article Created</name>
+    <style>none</style>
+    <subject>Draft Article from Ticket Created for Review</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

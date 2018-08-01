@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Illinois_DuPageDemo_May2013.Confirmation</name>
+    <style>none</style>
+    <subject>TriTech Demonstration Registration Confirmation</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+The Next Generation of Public Safety Technology
+Registration Confirmation
+Hello {{lead.First Name:default=Public Safety Professional}},
+ 
+ This is your confirmation that you are registered for the TriTech Software Systems Product Demonstration.  We look forward to seeing you at the demonstration.
+
+Date:
+ Thursday, May 9, 2013
+
+Time:
+ 10:00 AM to 12:00 PM - CAD / Mobile Demonstration
+12:00 PM to 1:00 PM - Compliimentary lunch will be provided
+1:00 PM to 3:00 PM - RMS/FBR and IQ Analytics Demonstration
+
+Address:
+ Jack T. Knueppfer Administration Building
+421 North County Farm Road
+Wheaton, IL  60187
+Click here to view map &lt;http://goo.gl/maps/LshqH&gt;
+
+Question?
+ Michelle McClellan
+ TriTech Software Systems
+ (858)799-7900
+ michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

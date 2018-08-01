@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>June-2013_GolfTournament.SaveTheDateEmail</name>
+    <style>none</style>
+    <subject>SAVE THE DATE: June 20 - TriTech&apos;s Charity Golf Tournament</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+2013 TriTech Charity Golf Tournament
+
+
+
+All proceeds will benefit COPS (Concerns of Police Survivors)
+SAVE THE DATE!
+Dates: June 20, 2013
+
+Location:
+ Highfields Golf and Country Club
+42 Magill Drive (off Route 122)
+Grafton, MA (Map Link &lt;https://maps.google.com/maps?hl=en&amp;client=firefox-a&amp;channel=fflb&amp;ie=UTF-8&amp;q=Highfields+Golf+and+Country+Club,+42+Magill+Drive,+grafton,+ma&amp;fb=1&amp;gl=us&amp;hq=Highfields+Golf+and+Country+Club,&amp;hnear=0x89e40e8f4d72a1cd:0x2ea8c0a191e111a2,42+Magill+Dr,+Grafton,+MA+01519&amp;cid=0,0,10769453152569673333&amp;ei=dDhbUdGsIuPl4AOoz4DoBw&amp;sqi=2&amp;ved=0CJQBEPwSMAA&gt;)
+
+Time:
+ 9 AM - Registration
+10 AM - Shotgun Start
+3 PM - Prizes / Raffle
+ Cost Per Person:
+ $100/ person (includes green fees, car, lunch 
+)
+
+Dress:
+ Soft spikes required, collared shirts preferred; no blue 
+jeans, tank tops, t-shirts, or cut-offs
+
+Questions:
+David Bell  |  (774) 239-3722  |  david.bell@tritech.com &lt;mailto:david.bell@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+The "SAR Meeting Required" field has been checked on the following Opportunity:<BR><BR>
+
+Opportunity:  <B>{!Opportunity.Name}</B>
+<BR>
+<BR>
+
+Account:  {!Opportunity.Account}<BR>
+Opportunity Owner:  {!Opportunity.OwnerFullName}<BR><BR>
+
+Please setup the SAR meeting with any applicable attendees.
+
+You can review the opportunity here:<BR>
+<I>{!Opportunity.Link}</I>

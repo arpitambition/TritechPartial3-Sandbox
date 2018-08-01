@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS Changes, Challenges and Opportunities under Healthcare Reform.Attended</name>
+    <style>none</style>
+    <subject>Recording Link and Handouts for &quot;EMS Changes, Challenges and Opportunities under Healthcare Reform&quot; Webinar</subject>
+    <textOnly>Thanks for Your Interest
+EMS Changes, Challenges and Opportunities under Healthcare Reform
+
+Thank you {{lead.First Name:default=EMS Professional}} for joining us for our webinar: EMS Changes, Challenges and Opportunities under Healthcare Reform
+
+We hope you found the information useful and would love to  hear additional ideas on topics that you would be interested in hearing. Simply email cheri.lane@tritech.com with your ideas.            
+
+You can access the recording and presentation slides from the webinar using these links: 
+
+ Recorded Link: http://tritech.ilinc.com/join/bfjswyc
+
+PDF Handout link: http://www.tritechems.com/documents/April26Webinar.pdf
+
+
+Thank you,
+TriTech Software Systems
+
+
+MORE INFORMATION
+Your time is valuable, thanks for attending:
+
+NAAC CEU  Certificate Link: 
+
+Want to see more? Check out other  educational webinars here: http://www.tritechems.com/TriTech-University/Webinars.asp
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,75 @@
+﻿<apex:page showHeader="false" standardStylesheets="false">
+
+	<apex:stylesheet value="{!URLFOR($Resource.Css960Gs, 'css/960.css')}" />
+	
+	<apex:outputPanel layout="block" styleClass="container_12">
+
+		<apex:outputPanel layout="block" styleClass="grid_12 header">
+			
+			<apex:outputPanel layout="block" styleClass="grid_4 alpha logo_container">
+			
+				LOGO
+			
+			</apex:outputPanel>
+			<apex:outputPanel layout="block" styleClass="grid_4 push_4 omega nav_container">
+		
+				Nav
+		
+			</apex:outputPanel>
+		</apex:outputPanel>
+		
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_1 grid-unit">
+			1 column
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_4 grid-unit">
+			4 columns wide
+		</apex:outputPanel>
+	
+		<apex:outputPanel layout="block" styleClass="grid_8 grid-unit">
+			Srsly?
+		</apex:outputPanel>
+
+</apex:outputPanel>
+
+</apex:page>

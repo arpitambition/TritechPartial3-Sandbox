@@ -1,0 +1,80 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>TriTech</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="middle" src="http://offers.tritech.com/rs/tritech/images/TSS_Logo_Banner_660x165.png" alt="TriTech Software Systems"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:rgb(223, 31, 38); vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="13" height="28" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div class="mktEditable" id="volume_title" ><strong><span style="font-size: 12px;">STAY CONNECTED</span> <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Facebook.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Twitter.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/LinkedIn.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/youtube-logo.jpg" alt="" width="23" height="16"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png" alt=""><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:rgb(223, 31, 38); font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ><span style="font-size: 28px;"><span style="color: #df1f26;">Client Announcement</span><br></span></div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" >April 22, 2013</div>
+</div>
+<br>
+<div id="main_text" class="mktEditable" >
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;">Dear {{lead.First Name:default=Perform Customer}},</span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;">TriTech&rsquo;s <strong>Perform software version 6.1.12 is now available</strong> for download from our Customer Service Center portal.
+    You may access this by logging in from <a href="http://www.tritech.com" target="_blank">www.TriTech.com</a>.
+ </span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;">If you do not yet have access to the Customer Service Center portal you may request this by emailing our Customer Service Team at <a href="mailto:performsupport@tritech.com" 
+target="_blank">PerformSupport@TriTech.com</a> or calling our new phone number at 800-987-0911 (Option #4) to request portal access.</span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><strong>Please note:</strong> Before installing  Version 6.1 you must first 
+  ensure that you have done the following: updated to Version 6.0 (either 6.0.18 or 6.0.19) for your server and all mobiles and logged into <strong>each Perform module</strong> (i.e., Perform RMS, Perform CAD, Perform Fire RMS, etc.) on at least <strong>one </strong>in-house workstation that is   
+connected  to the server, as well as log into each module on every mobile unit.
+    You may need to repeat the login multiple times until the software loads and you get to the main screen.
+    Once this is done, you may proceed with download and installing Version 6.1.</span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><strong>And don&rsquo;t forget about our monthly webinars!</strong></span><br /><br /><span style="font-size: 12px;"><u><span 
+style="font-family: arial,helvetica,sans-serif;"><strong>Fix It With Felicia</strong></span></u></span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><strong>DATE</strong>: Every Second Thursday of the Month</span><br /><span style="font-family: 
+arial,helvetica,sans-serif; font-size: 11px;"><strong>TIME:</strong> 11:00 AM ET l 10:00 AM CT l 9:00 AM MT l 8:00 AM  PT</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><strong>PRESENTER:</strong> Felicia Donovan, TriTech Client Services</span><br /><span 
+style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><strong>INVITE OTHER PERFORM SOFTWARE USERS: </strong></span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><a href="http://offers.tritech.com/FwF_Registration.html" 
+target="_blank">http://offers.tritech.com/FwF_Registration.html</a></span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"><strong><a href="recordings.tritech.co/MA/Customer/FwF/04-11-13.wmv" target="_blank">LINK </a>TO LAST MONTH'S RECORDING</strong></span><br 
+/><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;">If you have any questions or need additional information, please feel free to contact  our Customer Service Team at 800-987-0911.</span><br /><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 
+11px;"> Sincerely,</span><br /> <br /><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"> Ellen Manning</span><br /><span style="color: #58595b; font-size: 11px; font-family: arial,helvetica,sans-serif;"> Technical Support Supervisor &ndash; Perform (IMC)</span><br /><span 
+style="font-family: arial,helvetica,sans-serif; font-size: 11px;"> TriTech  Software Systems| www.tritech.com</span></p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9477 Waples Street, Suite 100, San Diego, CA 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br></body>
+</html>

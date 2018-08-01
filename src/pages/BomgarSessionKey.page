@@ -1,0 +1,38 @@
+<apex:page id="BomgarSessionKey" action="{!generateSessionKey}"
+        applyBodyTag="false" 
+        cache="false"
+        controller="BomgarSessionKeyController"
+        label="BomgarSessionKey" 
+        name="BomgarSessionKey"
+        showHeader="false"
+        sidebar="false"
+        standardStylesheets="true"
+        title="Generate Bomgar Session Key">
+    <apex:sectionHeader title="Generate Bomgar Session Key" />
+    <apex:pageBlock >
+        
+        <apex:pageMessages ></apex:pageMessages>
+        <dl>
+            <dt style="line-height:1.7;width:200px;float:left;text-align:right;">Session Key</dt>
+            <dd style="line-height:1.7;margin-left:220px;">
+                <apex:outputText rendered="{!sessionKey==null}" value="unavailable" />
+                <apex:outputText rendered="{!sessionKey!=null}" value="{!sessionKey}" />
+            </dd>
+            <dt style="line-height:1.7;width:200px;float:left;text-align:right;">Session Key URL</dt>
+            <dd style="line-height:1.7;margin-left:220px;">
+                <apex:outputText rendered="{!sessionKey==null}" value="unavailable" />
+                <apex:outputText rendered="{!sessionKey!=null}" value="{!sessionKeyUrl}" />
+            </dd>
+            <dt style="line-height:1.7;width:200px;float:left;text-align:right;">Email Session Key</dt>
+            <dd style="line-height:1.7;margin-left:220px;">
+                <apex:form ><apex:commandButton rendered="{!sessionKey!=null}" action="{!emailSessionKey}" value="Email Session Key" id="emailSessionKeyBtn"/></apex:form>
+                <apex:outputText rendered="{!sessionKey==null}">unavailable</apex:outputText>
+            </dd>
+        </dl>
+        <apex:pageBlockButtons >
+            <apex:form >
+                <apex:commandButton value="Close" immediate="true" onclick="javascript:window.close();" />     
+            </apex:form>
+        </apex:pageBlockButtons>
+    </apex:pageBlock>
+</apex:page>

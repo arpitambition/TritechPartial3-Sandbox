@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Come Prepared (VisiNet)</name>
+    <style>none</style>
+    <subject>TriCON - Questions for our experts?</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Interactive Sessions from TriTech Experts and Peers
+Come prepared with your questions!
+Hello {{lead.First Name:default=Client}},
+
+The value of a user conference comes from quality face time with TriTech staff and fellow clients.  This year&apos;s TriCON agenda features roundtable discussions and forums for an interactive experience.  In order to gain the most value in the discussions and share from each other&apos;s insight, we ask that you come prepared with your questions or ready to share your experience.
+
+To gain the most and fully engage in our roundtables, here are your action items for TriCON:
+
+
+
+ - Write down a list of questions you&apos;ve always wanted to ask our Business Analysts  (BAs).  Business Analysts Wendy Cotton, Jamie Simpkins and Chuck Alexander will be leading the &quot;QA the BAs&quot; open session to help you with configuration questions or &quot;how do we&quot; issues that you are having.
+
+
+ - Bring your response plans or your response plan questions.  We will be conducting a Response Plan roundtable in which a few of your peers will share their own response plans. We invite you to bring your questions or share your own response plans for collaboration and discussion.
+
+
+
+
+Also, if you would like to pre-submit your questions to address in any of the following roundtable discussions, please email them to tricon@tritech.com &lt;https://na-a.marketodesigner.com/mail%20to:%20%20tricon@tritech.com&gt;.
+
+
+ - Virtualization
+ - QA the BAs
+ - Response Plan Workshop
+ - Geo Roundtable
+
+
+
+Looking forward to seeing you soon!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

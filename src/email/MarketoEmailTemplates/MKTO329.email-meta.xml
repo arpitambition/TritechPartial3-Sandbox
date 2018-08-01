@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VisionFIRE 3 Platform – End of Updates.Email</name>
+    <style>none</style>
+    <subject>TECHNICAL ADVISORY: VisionFIRE 3 Platform – End of Updates</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+VisionFIRE 3 Platform - End of Updates
+Date:                July 11, 2012
+
+Advisory #:          VF001
+
+Subject:             VisionFIRE
+
+Affected Versions:    All
+
+Click here for PDF download of this email &lt;http://www.tritechems.com/documents/VisionFIRE_Final_Update_07-10-12.pdf&gt;
+At the 2010 and 2011 User Conferences, VisionAIR announced plans to release the final update to the VisionFIRE 3.x product. The final update included the 2012 NFIRS changes to support NFIRS reporting compliance through 2012. VisionFIRE 3.6 update 5 was declared Generally Available on February 15, 2012 and is currently available for all VisionFIRE clients with an active maintenance contract. While TriTech will continue to offer telephone support for VisionFIRE, there will be no new scheduled updates to the VisionFIRE product now or in the future.
+
+
+In anticipation of the retirement of the VisionFIRE product, current VisionFIRE RMS agencies should begin evaluating Fire Records alternatives. TriTech has built a relationship with a leading Fire RMS provider.  This product is well positioned to meet the functional expectations of existing VisionFIRE customers and provide modern technology solutions to serve our Fire agencies in the future. TriTech has partnered with Emergency Technologies, Inc. (ETI) to offer a proven Fire RMS option that provides comparable capabilities to VisionFIRE and introduces new separately licensed capabilities such as NEMSIS reporting, TeleStaff integration and a robust inspection and violation module. The latest releases of VisionCAD and VisionMOBILE provide the ability to query and display site and pre-plan information from ETI’s Visual Fire RMS. Emergency Technologies offers both an on premise and hosted offering. Please contact your Client Account Manager to learn more about the Visual Fire product and pricing details.
+
+
+TriTech also has interfaces for both VisionCAD and VisionMOBILE to interact with other Fire RMS systems should your agency elect to go in another direction. Your Client Account Manager can also assist you with interface questions.
+
+Thank you for your support of TriTech products. If you have any questions, please feel free to contact your Client Account Manager.
+
+
+http://www.emergencytechnologies.com/ &lt;http://www.emergencytechnologies.com/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NewSupportNumber.Email-IMC_April5</name>
+    <style>none</style>
+    <subject>COMING SOON! One New Number – Still Three Easy Ways to Contact TriTech Customer Service</subject>
+    <textOnly>One New Number - Still Three Easy Ways to Contact TriTech Customer Service
+COMING SOON!
+Hello {{lead.First Name:default=Valued Customer},
+
+The Customer Service Team is excited to announce the upcoming consolidation of our Customer Service 800 phone number. Once implemented, customers will have one number that will connect you to the Customer Service Representatives who support you and your products. 
+
+Remember, you can reach TriTech Customer Service in three easy ways:
+
+ - By Phone (new 800 number to be announced on April 15)
+
+ - By email &lt;mailto:performsupport@tritech.com&gt;
+ - Through the Customer Service Center (support portal) on the TriTech &lt;http://www.tritech.com/&gt; website
+
+
+
+TriTech will keep you posted as we approach new phone number switchover date, as well as provide updated information on  the TriTech website. 
+
+Proudly serving our customers,
+TriTech Customer Service</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

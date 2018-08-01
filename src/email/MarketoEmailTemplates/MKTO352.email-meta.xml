@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q3_2012_CO.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 3rd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Third Quarterly TriTech Customer Newsletter.
+
+In the last issue, &lt;http://offers.tritech.com/TriTechNews_Q2_2012_CO_Main.html&gt; we highlighted a new logo, the version 3.1 release of QuickResponse, a new brand name, the TriCON annual conference agenda sneak peak, industry news and webinars, and client go-lives.
+In this edition, you will find important updates on products, documentation, technology, monthly customer service webinars, the tritech.com website, and TriCON. I encourage you to take a few minutes to review this information, and I’ll start off with a couple timely and important topics.
+
+PMO (Project Management Office) Organization
+
+Right after the acquisition of 911 Inc. by TriTech Software Systems, a number of 911 clients pointed out that the organization needed additional staffing focused on delivery and service. Efforts were taken during the first quarter of 2012 which took that advice and put it into action. Over the last few months, I’m pleased to say that we have added four new resources to the team, several of whom you will recall from the past. Leading the group is Jerry Pope, serving as the Sr. Manager of Implementations. In this role Jerry is responsible for organizing and coordinating all of the resources involved in delivery and support of the 911 products.
+
+Supporting Jerry is Billy Bobian, a returning employee who is filling an Installation Support Engineering role. Tom Hendrix, another new member to the implementation team, is serving as a second Installation Support Engineer. A third Installation Support Engineer is Scott Simms who joined the team recently, bringing with him notable Avaya certifications and a great deal of technical telephony experience. Rounding out the team is Janene Luders who provides support to all of the company’s projects and delivery efforts. The team has been doing a great job coming up to speed and getting to the business of providing world class installation and support services.
+
+Thank you for the opportunity to let TriTech serve as your public safety technology provider.
+
+
+Mike Lyons, VP of Operations 
+TriTech Software Systems 
+
+
+
+
+
+
+
+From the desk of Jerry Pope, Senior Manager of Implementation Services
+As Team Leader, I am proud to serve with such a knowledge and skilled group of professionals.
+[MEET YOUR IMPLEMENTATIONS TEAM]
+http://offers.tritech.com/TriTechNews_Q3_2012_CO_Products.html
+
+
+
+Top 10 Reasons to Attend TriCON
+
+Don&apos;t wait any longer! Save money and register by August 15th to take advantage of the early-bird discount. While there may be many more than 10 reasons to attend TriCON, here&apos;s some of the top ones.
+[TOP 10] http://offers.tritech.com/TriTechNews_Q3_2012_CO_NewsandEvents.html
+
+
+
+Client in the News
+A few years ago, Voice Over Internet Protocol (VoIP) presented issues when calls were routed to 911. Read about how that has changed with new technology and TriTech Software.
+[READ MORE]
+http://offers.tritech.com/TriTechNews_Q3_2012_CO_NewsandEvents.html
+
+
+
+See Us at APCO and IACP 
+There is a revolution going on that you will want to be a part of! Stop by and learn more at APCO or IACP. 
+[FIND OUT MORE] http://offers.tritech.com/TriTechNews_Q3_2012_CO_NewsandEvents.html
+ 
+
+
+Tritech.com - Newly Designed Website – Coming Soon!
+TriTech Software Systems will be unveiling their newly designed website this month. A fresh, crisp design with simplified navigation and TriTech&apos;s complete product offerings, aligned under four new product suites...
+[LEARN MORE] http://offers.tritech.com/TriTechNews_Q3_2012_CO_NewsandEvents.html
+
+
+
+Upcoming Holiday Closings
+View our holiday schedule.
+[VIEW HERE] http://offers.tritech.com/TriTechNews_Q3_2012_CO_Support.html
+
+&gt; Main
+
+&gt; Products
+
+&gt; Support
+
+&gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q3_2012_CO_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call Toll Free
+(800) 987-0911
+
+
+
+To Access the Client Login
+
+
+ &lt;https://na3.salesforce.com/sserv/login.jsp?orgId=00D300000000if7&gt;
+
+
+
+
+ ACCOUNT MANAGER
+ 
+
+Jennifer Swaney
+(303) 487-5474
+jennifer.swaney@tritech.com
+
+
+
+
+
+
+ &lt;http://www.tritech.com/tricon&gt;**Early bird registration has been extended to August 15th. Register Today! &lt;http://www.tritech.com/tricon&gt;
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

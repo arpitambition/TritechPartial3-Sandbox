@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sweet-Billing5.8_RemittanceFiles.Email</name>
+    <style>none</style>
+    <subject>Upgrade to Sweet-Billing 5.8 to Continue Processing Remittance Files</subject>
+    <textOnly>December 14, 2011
+Upgrade to Sweet-Billing 5.8 to Continue Processing Remittance Files
+
+
+Good Afternoon {{lead.First Name:default=Sweet-Billing Remittance Advice User}},
+
+As you are aware, we are fast approaching the January 1, 2012 deadline to switch all health care electronic data transactions to the HIPAA 5010 standard.  
+
+You may not be aware that this change affects your Medicare Remittance 
+Advice utility. The current Medicare Remittance Advice utility is not compatible with HIPAA 5010 remittance files. To process HIPAA 5010 remittance files, you must use the new Remittance Processing utility that is part of Sweet-Billing 5.8.
+
+While the Remittance Processing utility serves the same basic function as the Medicare Remittance Advice utility, the new utility has been 
+completely redesigned to make it easier to setup and easier to use. It has also been designed to work with HIPAA 5010 compliant remittance files from any payer – not just Medicare. (Note: The new Remittance Processing utility does not work with 4010 version files, or any other non HIPAA-compliant file type).
+
+All customers who have licensed the Medicare Remittance Advice utility will automatically receive the replacement Remittance Processing utility when 
+Sweet-Billing 5.8 is installed.
+
+Configuration of the Remittance Processing utility will take most billing administrators about 15 minutes.
+
+User training for day-to-day users will take about 20 minutes.
+
+Classes for setup and use of Remittance Processing are now 
+available at  http://www.tritechems.com/My-Account/Download-Center/Support_HIPAA5010ResourceCenter.asp. 
+
+Sweet-Billing 5.8 is now available for download at http://www.tritechems.com/My-Account/Download-Center/Downloads_Other.asp.
+
+In summary, to continue processing remittance 
+files once your payor migrates you to HIPAA 5010 compliant files, you must use the new Remittance Processing utility that is now available in Sweet-Billing 5.8. To avoid interruption to your processing of remittance files, you should upgrade to Sweet-Billing 5.8 as soon as possible (prior to January 1) and complete the two recorded classes about the new Remittance Processing utility.
+
+Finally, we have sent this message to all contacts with an 
+email address in our database for each customer that has licensed Medicare Remittance Processing in an effort to make sure that the message gets through to every customer. If you have received this message, but it doesn’t specifically apply to you, please make sure that your billing manager has received this message.
+
+Thank you for your continued patronage, and Happy Holidays!
+
+Dan Voss
+Product Manager | Emergency 
+Medical Systems
+
+
+
+
+
+
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

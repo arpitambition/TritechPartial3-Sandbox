@@ -1,0 +1,230 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Generic Template - Left Sidebar</title>
+
+<style type="text/css" media="screen">
+      body {
+         background-color: #ffffff;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #ffffff;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #ffffff;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('footer-bg.gif');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #ffffff;
+         height: 66px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #FFFFFF;
+         line-height: 16px;
+         margin: 0;
+         padding: 5px;
+      }
+</style>
+</head>
+<body >
+<table width="100%">
+<tbody>
+<tr>
+<td>
+<table width="600" align="center">
+<tbody>
+<tr>
+<td class="permission" align="center">
+<p>You're receiving this communication because of your relationship with TriTech Software Systems.</p>
+</td>
+</tr>
+<tr>
+<td class="header" align="left">
+<p><img src="http://offers.tritech.com/rs/ortivusna/images/TSS_HolidayCard_2011.jpg" alt="" align="middle" /></p>
+<p>&nbsp;</p>
+</td>
+</tr>
+<tr>
+<td class="footer" height="61" align="left" valign="center">
+<div style="font-size: 10px;"><br /> <br /> Share this message with your colleagues or visit us at <a href="http://www.tritech.com/default.aspx" target="_blank">www.tritech.com</a><br /> <img style="vertical-align: bottom;" title="TriTech logo" dir="ltr" 
+src="http://offers.tritech.com/rs/ortivusna/images/logo_TriTech_150px.gif" alt="TriTech logo" width="150" height="60" align="right" /><br /> <a href="http://www.facebook.com/pages/TriTech-Software-Systems/89416081839" target="_blank"><img 
+src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg" alt="" /></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg" alt="" /></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" 
+target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg" alt="" /></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo_sm.jpg" alt="" /></a><br /> This email was sent by TriTech  
+ Software Systems<br /> 9860 Mesa Rim Road | San Diego | CA | 92121<br /> <br /> <br /></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

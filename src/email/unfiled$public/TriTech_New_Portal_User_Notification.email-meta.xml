@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TriTech New Portal User Notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TriTech New Portal User Notification</name>
+    <style>none</style>
+    <subject>Your TriTech Customer Service Center (CSC) username and password</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

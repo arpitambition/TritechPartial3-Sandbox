@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTalk_2011_Q4.Email</name>
+    <style>none</style>
+    <subject>TriTalk Q4 Newsletter,  Insight and News for Public Safety and Medical Transport Industries</subject>
+    <textOnly>In This Issue: Fourth Quarter 2011
+(http://offers.tritech.com/TriTalk_2011_Q4_Main.html)
+  
+ 
+Special Feature (http://offers.tritech.com/TriTalk_2011_Q4_Main.html)
+
+TriTech Software Systems Announces Acquisition of Leading Public Safety Solution Provider, VisionAIR Inc. 
+ 
+TriTech Software Systems, a leading provider of Public Safety and Medical Transportation software solutions, today announced its acquisition of VisionAIR, a privately held company that specializes in providing mission-critical Computer-Aided Dispatch, Law and Fire-EMS Records Management, Mobile, Jail Management, Civil Processing and multi-agency data sharing solutions to public safety agencies primarily for the mid-tier market.
+ 
+The partnership strengthens TriTech’s market share leadership by adding more than 500 VisionAIR clients to the TriTech family, bringing the total of agencies served to more than 2,500 agencies worldwide. With expanded presence and more than 300 employees dedicated to public safety, both companies can leverage their leadership, resources, and capabilities to support the increasing demands placed on public safety services through consolidation, regionalization, information sharing, limited budgets, and the convergence of technology. 
+ 
+[READ THE FULL PRESS RELEASE] 
+ 
+   
+ 
+Product and Service Updates (http://offers.tritech.com/TriTalk_2011_Q4_ProductsServices.html)
+
+VisiNet Solutions l Product Highlights
+VisiCAD Rotation Provider Named Hot Product by APCO. TriTech Software Systems is pleased to announce that Rotation Provider, a module within its VisiCAD computer-aided dispatch solution, has been selected by Public Safety Communications as a 2011 APCO Hot Product. Public Safety Communications is a monthly publication published by Elsevier Public Safety on behalf of the Association of Public Safety Communications Officials (APCO) International. This is the second year in a row that a VisiCAD Module was selected as an APCO HOT Product.
+Read More... 
+ 
+ 
+EMS Solutions l Product Highlights
+VisiCAD for EMS Offers Streamlined Integration from Dispatch Through Patient Care and Billing
+TriTech’s VisiCAD for EMS is a feature-rich, Computer-Aided Dispatch (CAD) solution developed exclusively for EMS agencies to manage emergency and non-emergency call-taking and dispatching operations. This highly reliable, innovative product captures all major data points throughout each call to provide comprehensive data immediately to enable rapid decisions in situations when every second counts. Read More...
+ ﻿
+Online EMS Billing and ePCR Solutions – The Way of the Future? Will all applications be accessed online in the future, rather than installing them on our computers? A quick survey of the trend in how software applications are being delivered may seem convincing that this might indeed be the way of the future. Have you considered the advantages of online applications, like your EMS billing and ePCR programs? Read More...
+ 
+Imc Solutions l Product Highlights
+Prepare for New Massachusetts EMD Mandate  
+With the new MA EMD mandate scheduled for July 1, 2012, let PowerPhone Total Response and TriTech Imc Solutions CAD get you where you need to be - all without spending a dime!* Read More... 
+ 
+ 
+ 
+ 
+Featured Customers (http://offers.tritech.com/TriTalk_2011_Q4_CustomerFeature.html)
+ 
+VisiNet Solutions Highlight l  TriTech and Medic Partner on Technology Initiatives to Improve Emergency Response
+TriTech Software Systems and Medic, Mecklenburg County’s [North Carolina] Emergency Medical Service Agency, proudly partner on important technology initiatives designed to improve emergency response.  TriTech will provide its VisiNet Mobile data solution in Medic vehicles and install a VisiCAD Disaster Recovery solution for an off-site emergency backup dispatch center.  By using TriTech’s solutions to improve field communications and ensure continuity of operations, these important technology initiatives reaffirm with Medic’s mission to deliver the highest quality pre-hospital care possible.  Read More... 
+   
+ 
+EMS Solutions Highlight l Logan County “Loves, Loves, Loves Fusion ePCR”
+Jeremy Barrow, a 13-year-veteran paramedic with IT responsibilities for his EMS service, said he “loves, loves, loves Fusion ePCR and would not use any other ePCR product.” Jeremy, who has worked for seven years with Logan County (located about half way between Peoria and Springfield in Illinois) just updated to the 6.2 version of Fusion ePCR and said that they specifically love the ability to make comments on the anatomical view and the ability to clone medications. Read More... 
+ 
+ 
+Imc Solutions Highlight l Commissioners Sign Contracts for New Dispatch, Records System
+Commissioners signed off on a new dispatch and record keeping system today which will unite most of the county, utilizing a grant to pay for the county&apos;s portion of the software installation and licenses. An interoperability emergency communication grant through the Department of Homeland Security will provide nearly $100,000 to pay for most of the initial start up costs, installing the Imc software system for use by both dispatchers and officers conducting record keeping for the Franklin County Sheriff&apos;s Department. The Farmington Police Department is being offered a chance to utilize the same record keeping system for $32,000, roughly half of the typical cost were the department to apply alone, according to [TriTech Software System’s] Imc Solutions representative Dennis Noe. Read More... 
+ 
+ 
+ 
+Upcoming Events (http://offers.tritech.com/TriTalk_2011_Q4_UpcomingEvents.html)
+  
+-  Webinars (Recorded)
+ 
+-  Upcoming Tradeshows (October-November) 
+             
+
+
+
+
+
+-  Main Page (http://offers.tritech.com/TriTalk_2011_Q4_Main.html)
+ 
+-  Product &amp; Service Updates (http://offers.tritech.com/TriTalk_2011_Q4_ProductsServices.html)
+ 
+-  Featured Customers (http://offers.tritech.com/TriTalk_2011_Q4_CustomerFeature.html)
+ 
+-  Upcoming Events (http://offers.tritech.com/TriTalk_2011_Q4_UpcomingEvents.html)
+ 
+-  Company News (http://www.tritech.com/news-and-events/press-releases)
+ 
+-  Visit www.TriTech.com (http://www.tritech.com)
+ 
+ 
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,14 @@
+Name: {!Contact.Name}
+Company: {!Account.Name}
+Product Family: {!Account.Product_Family_WMP__c}
+Account Owner: {!Account.OwnerFullName}
+Is Account a Client? {!Contact.Is_Account_a_Client__c}
+Customer Number:  {!Account.EMS_Customer_Number_WMP__c}
+Email:  {!Contact.Email}
+
+Date Requested: {!Contact.LastModifiedDate}
+Access Level Requested: {!Contact.CSC_Portal_Access_Request__c}
+
+Time Zone:  {!Account.Time_Zone__c}
+
+{!Contact.Link}

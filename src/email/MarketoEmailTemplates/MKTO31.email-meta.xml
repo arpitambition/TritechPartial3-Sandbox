@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_GolfOutting-Save-the-date_Aug15</name>
+    <style>none</style>
+    <subject>Save the Date! TriTechs&apos; Imc Solutions - Customer Golf Tournament</subject>
+    <textOnly>Save the Date!
+TriTechs&apos; Imc Solutions - Customer Golf Tournament
+
+
+
+
+Dear {{lead.First Name:default=Customer}}, 
+
+The IMC Golf Tournament has been revived! Be sure to mark your calendars and plan to attend this fun-filled event; contest and prizes to be announced.
+
+Wednesday, October 5, 2011
+12:00 PM - Shotgun  l  Dinner - 6:00 PM
+Highfields Golf Course, Grafton MA
+
+More information to come!
+Contact: David Bell &lt;David.Bell2@TriTech.com&gt; | 774-239-3722
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  -  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

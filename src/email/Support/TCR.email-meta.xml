@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TCR Email to Customer</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IMC TCR</name>
+    <style>none</style>
+    <subject>TCR for Sales Order {!Case.Sales_Order_Number__c}, {!Case.Subject}</subject>
+    <textOnly>Hello {!Case.Contact},
+
+I have attached the Task Completion Report for the project completed on your system at {!Account.Name}. If you have any questions, please give us a call.
+
+Thank you.
+
+IMC Support
+Support: 800-987-0911 | www.zuerchertech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

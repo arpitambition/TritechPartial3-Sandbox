@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Inform FBR</label>
+            <name>VisionFBR</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Inform JAIL</label>
+            <name>VisionJAIL</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Inform RMS</label>
+            <name>VisionRMS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Interfaces</label>
+            <name>Interfaces</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Internal Procedures</label>
+            <name>Internal_Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <label>IQ Search and Analytics</label>
+            <name>IQ_Search</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Manuals/User Guides</label>
+            <name>Manuals_User_Guides</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Other</label>
+            <name>Other</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Product Announcements</label>
+            <name>Product_Announcements</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Technical Advisories</label>
+            <name>Technical_Advisories</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Third Party</label>
+            <name>Third_Party</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TriCON/PTI/User Groups</label>
+            <name>TriCON_PTI_User_Groups</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionCAD</label>
+            <name>VisionCAD</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionDATA Vault</label>
+            <name>VisionDATA_Vault</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionINFORM</label>
+            <name>VisionINFORM</name>
+        </dataCategory>
+        <dataCategory>
+            <label>VisionMOBILE</label>
+            <name>VisionMOBILE</name>
+        </dataCategory>
+        <label>VisionAIR Only Filter</label>
+        <name>All</name>
+    </dataCategory>
+    <label>VisionAIR</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>J-One Availability.J-One Availability (UPdated Phone)</name>
+    <style>none</style>
+    <subject>Updated Phone:  J-ONE Functionality Available in Version 6.1.12</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Updated (5/1/13):
+ J-ONE Functionality Available in Perform Version 6.1.12
+Revised Announcement reflecting corrected contact information for J-ONE Program Manager
+Hello {{lead.First Name:default=Valued Client}},
+
+TriTech is pleased to announce Version 6.1.12 of the Perform software now has J-ONE functionality available to all New Hampshire departments.
+
+J-ONE will allow you to electronically send complaint information for arrests to the court system. Departments participating in the J-ONE program will have all court disposition information automatically update for the arrests they submitted to J-ONE.
+
+The J-ONE program will allow you to also issue eCitations. Printers are available from the state for use with the J-ONE eCitation program.
+
+ 
+
+Leo Hisoire
+
+Senior Product Manager
+
+TriTech Software Systems | www.tritech.com &lt;http://direct.tritech.com/track?type=click&amp;enid=bWFpbGluZ2lkPW9ydGl2dXNuYUJldGFjdXN0LS0tLTUwMTMtcHJvZC02MDAyJm1lc3NhZ2VpZD0wJmRhdGFiYXNlaWQ9NjAwMiZzZXJpYWw9MTMwMDA2MzgwNyZlbWFpbGlkPUpFTk5ZLkNMQVZFUk9AVFJJVEVDSC5DT00mdXNlcmlkPTAmZXh0cmE9JiYm&amp;&amp;&amp;http://www.tritech.com?mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hB0uI7%2BJK1TtuMFUGpsqOOaMFQsGBoNvwQ%3D%3D&gt;
+Resources
+Ready to move forward with J-ONE and Version 6.1.12?
+For information on how to participate in J-ONE program, please contact J-ONE Program Manager Keith Lohmann at (603) 223-3389 or email keith.lohmann@dos.nh.gov &lt;mailto:keith.lohmann@dos.nh.gov&gt;.
+
+For information on obtaining printers for eCitation, please contact the New Hampshire Highway Safety Agency at (603) 271-2131 or email hwysafety@nhhsa.nh.us &lt;mailto:hwysafety@nhhsa.nh.us&gt;. 
+
+To download the latest version of the Perform software please login to your Customer Service Center (portal) at www.tritech.com &lt;http://www.tritech.com&gt;. For software update questions you may contact TriTech Technical Support at 800-987-0911 (option #4) or email performsupport@tritech.com &lt;mailto:performsupport@tritech.com&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

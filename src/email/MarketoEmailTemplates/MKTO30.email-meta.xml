@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMSWorldEXPO_Email1</name>
+    <style>none</style>
+    <subject>EMS World EXPO iPad2 Drawing - Reshaping Your Future</subject>
+    <textOnly>Reshaping Your Future
+EMS World Expo 2011 - Las Vegas, NV
+
+When healthcare changes, new regulations, shrinking budgets and employee turnover are affecting your number one priority – excellence in patient care – we get it. Making sense of the future is our business. We’re helping EMS Services around the country reshape the way they manage information to allow them to focus on what’s most important. Do you think your EMS Service needs to be reshaped? To learn more, go to www.tritech.com/future.
+
+TriTech Software Systems invites you to reshape the way you manage information with our online or installed solutions for EMS Billing, ePCR, CAD or Mobile. 
+
+ENTER TO WIN AN iPAD2 &gt;&gt; http://www.tritech.com/Future
+
+Please contact us at 800-537-3927 or Sales@TriTech.com.
+
+
+See It .  Believe It.  Experience It. 
+Booth #816.           
+
+
+About &gt;&gt; TriTech Software Systems is leading the EMS industry with its billing application that more than 2,600 users around the country depend on, the integrated ePCR program that has won recent product awards, and the CAD and mobile systems that are the best in the industry. Installed and online options are available. Learn more at www.TriTech.com. 
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

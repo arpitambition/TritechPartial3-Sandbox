@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this template to respond to customers who would like additional training option information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Customers Requesting More Info on Training Options</name>
+    <style>freeForm</style>
+    <subject>Information on Additional EMS Training Options</subject>
+    <textOnly> 
+TriTech knows how important quality training is to get the most out of your TriTech software. We offer several options to fit your needs and preferences for the manner in which you learn best:
+
+
+Onsite Training:  
+http://www.tritechems.com/TriTech-University/Education.asp
+
+- Download literature piece here:  http://www.tritechems.com/documents/EMS_Value_OnSiteTraining_091511.pdf
+
+Hosted User Group Training:
+http://www.tritechems.com/TriTech-University/Education.asp
+
+Recorded classes:
+http://www.tritechems.com/My-Account/Recorded-Classes/SupportRecordedClassCenter.asp
+
+Recorded webinars:
+http://www.tritechems.com/TriTech-University/Webinars.asp
+
+Knowledge Library:
+http://www.tritechems.com/My-Account/Knowledge-Library/SupportKnowledgeLibrary.asp
+
+Billing Boot Camp (URL on website?)
+
+Billing Checkup:
+http://www.tritechems.com/Services/billingcheckup.asp
+
+ 
+Thank you,
+ 
+TriTech EMS Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IMC alert trigger for status changes to &quot;Closed - Fix ready for Release&quot; on Defect Tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - IMC Closed Fix Ready</name>
+    <style>none</style>
+    <subject>Closed - Fix Ready for Release Status Notification: Defect Number {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

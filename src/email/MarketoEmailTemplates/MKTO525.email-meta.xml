@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>March-2013_Fire-Law-Training.RegistrationThankYou</name>
+    <style>none</style>
+    <subject>TriTech&apos;s 2013 Perform Training Institute - Thank you for your registration!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+2013 Perform Training Institute
+Thank you for your registration
+ 
+
+An official quote from TriTech will be sent and your registration will be completed once it is returned to us with the proper signatures. Thank you!
+
+
+ 
+
+We look forward to an educational and enjoyable training. Please contact your respective Client Account Manager for questions.
+
+David Bell
+
+(774) 239-3722
+
+david.bell@tritech.com &lt;mailto:david.bell@tritech.com&gt;
+
+Mark Baranowski
+
+(978) 215-2270
+
+mark.baranowski@tritech.com &lt;mailto:mark.baranowski@tritech.com&gt;
+Training Details
+
+DOWNLOAD INFORMATION &lt;http://offers.tritech.com/rs/ortivusna/images/Invite_Agenda_March13-14_3013.pdf&gt;
+
+Dates: 
+ March 13-14, 2013
+
+Location:
+ CCRI Knight Campus -
+ 400 East Ave., Room 4080
+ Warwick, RI 02886-1807
+ Click here for map &lt;https://maps.google.com/maps?ie=UTF-8&amp;q=CCRI+Knight+Campus+-+400+East+Ave.+Room+4080,+Warwick,+RI+02886-1807&amp;fb=1&amp;gl=us&amp;hq=CCRI+Knight+Campus+-&amp;hnear=0x89e44b8ba41f92dd:0xe0c5e0b9d784eb9e,400+East+Ave+%234080,+Warwick,+RI+02886&amp;cid=0,0,1616561205729161238&amp;ei=jDsIUcGdFoma9QSQ1oGoDw&amp;ved=0CI8BEPwSMAE&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

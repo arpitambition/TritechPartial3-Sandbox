@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_Texas-Medicaid-Submitters_June.EmailBlast</name>
+    <style>none</style>
+    <subject>ATTENTION Texas Medicaid Submitters - July 1, 2012 Deadline for EDI 5010 Compliancy</subject>
+    <textOnly>ATTENTION Texas Medicaid Submitters
+
+June 7, 2012
+Texas Medicaid submitters must be EDI 5010 compliant by July 1, 2012. To become compliant, you must request a 5010 submitter ID from TMHP AND must complete the required setup in Sweet-Billing to begin creating 5010 compliant claim files. 
+
+To request a 5010 submitter ID, e-mail the following information to edi5010support@tmhp.com &lt;mailto:edi5010support@tmhp.com&gt; and/or Stephanie.kinnison@tmhp.com &lt;mailto:Stephanie.kinnison@tmhp.com&gt;:
+
+1.    Company Name: 
+2.    Physical address:
+3.    Phone number:
+4.    Email contact:
+5.    Software vendor: Tritech 
+6.    4010 ID (if you currently have one):
+7.    TPI #:
+8.    Let TMHP know whether or not you plan to receive an 835 X12 file, or if you will receive the .pdf version of the R&amp;S.
+ - If so, we will need a form to link the 5010 submitter ID and TPIs used for billing. 
+9.     Let TMHP know which transactions you will be submitting to TMHP. Transaction type must be chosen or process will be delayed.
+ - Long term care or acute - Acute
+ - Transaction type (i.e. 270; 837I; 837P etc…) 837P
+
+
+To complete the required setup in Sweet-Billing (recently rebranded as Respond Billing) to begin creating 5010 compliant claim files, please review the information in the HIPAA 5010 Resource Center http://www.tritechems.com/My-Account/Download-Center/Support_HIPAA5010ResourceCenter.asp &lt;http://www.tritechems.com/My-Account/Download-Center/Support_HIPAA5010ResourceCenter.asp&gt; - specifically the HIPAA 5010 Migration to Production Billing document in the Resource section of this page.
+
+Please act now to prevent any interruption to your revenue from Texas Medicaid.
+
+
+Dan Voss
+Product Manager
+TriTech Software Systems | www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

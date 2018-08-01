@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Custom write-in request assigned for SA Assistance requests</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Custom Write-In SA Request Assigned</name>
+    <style>none</style>
+    <subject>Solutions Architect Assigned for your request: {!Write_In__c.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

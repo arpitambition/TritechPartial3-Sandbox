@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CwK.Follow-up</name>
+    <style>none</style>
+    <subject>LINK TO RECORDING: Coffee With Kelly - Billing</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Coffee with Kelly - Billing
+ Link to January 8th Recording
+The January 8th topic was: Dangers of Single Print
+DATE: Every Second Tuesday of the Month
+ TIME: 11:30 AM ET l 10:30 AM CT l 9:30 AM MT l 8:30 AM PT
+ PRESENTER: Kelly Wachal - TriTech Supervisor of Customer Service and Education
+INVITE OTHER RESPOND SOFTWARE USERS: Forward this link: 
+&lt;http://offers.tritech.com/CwK-Billing_Registration.html&gt;
+
+ See you next month!
+WEBINAR RECORDING
+RECORDING LINK &lt;recordings.tritech.co/IA/Customer/CwK/Billing/01-08-13.wmv&gt;
+
+NOTE: We apologize that the reminder emails were not sent this month; we have fixed the issue and you will receive reminder emails in the future.
+
+
+﻿</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Audio Visual request form information</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>AV Request</name>
+    <style>freeForm</style>
+    <subject>AV Request: {!Opportunity.Name}</subject>
+    <textOnly>AV Screen Rental Request
+
+
+Prospect Name: {!Opportunity.Account}
+
+Account Exec: {!Demo_Request__c.TriTech_Requestor__c}
+
+Number of screens: {!Demo_Request__c.Number_of_Screens_Needed__c}
+
+Size: {!Demo_Request__c.Screen_Size__c}
+
+Projector Stands Needed:  {!Demo_Request__c.Projector_Stands_Needed__c}
+
+Drop off Address:
+
+{!Demo_Request__c.Drop_Off_Address__c}
+
+Attention: {!Demo_Request__c.Demo_Contact__c}
+
+Phone: {!Demo_Request__c.Demo_Contact_Phone__c}
+
+Date\Time Needed: {!Demo_Request__c.AV_Needed_Date__c} {!Demo_Request__c.AV_Needed_Time__c} {!Demo_Request__c.AV_Needed_Time_Zone__c}
+
+Will the AV company put the screens together or just drop off? {!Demo_Request__c.Will_AV_Company_Setup__c}
+
+Date\Time for pickup: {!Demo_Request__c.AV_Pickup_Date__c} {!Demo_Request__c.AV_Pickup_Time__c} {!Demo_Request__c.AV_Pickup_Time_Zone__c}
+
+Will the AV company tear down the screens or will they be down and ready for pickup? {!Demo_Request__c.Will_AV_Company_tear_down_screens__c}
+
+
+
+**Internal Only** Link to Demo Request Form: {!Demo_Request__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

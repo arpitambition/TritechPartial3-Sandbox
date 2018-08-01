@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>On-Site GIS Link Training_09_22_2011.Invite</name>
+    <style>none</style>
+    <subject>Webinar:  On-Site GISLink Training</subject>
+    <textOnly>September 22, 2011 Webinar
+On-Site GISLink Training
+
+
+Please join us for the upcoming webinar: On-Site GISLink Training on Thursday, September 22nd at 10 AM Pacific Time (12 NOON Central  | 1 PM Eastern).  
+
+
+Given the critical importance of GIS in VisiCAD and VisiNet Mobile, when was the last time your team had any formal training in GISLink? TriTech offers on-site GISLink training in which TriTech’s GISLink expert guides your GIS team with step-by-step hands-on instruction to refine your workflow and processes for performing GIS updates in TriTech products. The comprehensive two day class includes a thorough overview of GISLink and Flat File Maker with an agenda customized to your system configuration and problem areas.
+
+
+In this upcoming webinar, you&apos;ll learn about:
+-Overview of GISLink
+-Sample GISLink Training Agenda
+-Benefits of On-Site GISLink Training
+
+*If you are having difficultly viewing the &quot;Register Now&quot; button above, please copy and paste the below URL into your internet browser: http://offers.tritech.com/OnSiteGISLinkTraining_09_22_2011_Registration.html
+
+
+
+
+Questions?
+Contact Jenny Clavero in the TriTech Marketing Department
+(858) 799-7362 or email jenny.clavero@tritech.com 
+
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

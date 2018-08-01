@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Registration is open - Vision/911</name>
+    <style>none</style>
+    <subject>TriCON - Registration is now open</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot; target=&quot;_blank&quot;&gt;   &lt;img src=&quot;http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg&quot; alt=&quot;&quot; height=&quot;16&quot; width=&quot;23&gt;
+Registration is Open
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+
+Hello {{lead.First Name:default=Client}},
+
+We hope that you will make plans to attend TriCON:  TriTech&apos;s Annual User Conference &lt;http://www.tritech.com/tricon&gt; in San Diego, California, where you&apos;ll receive in depth product training, while also learning more TriTech Software Systems. 
+
+We are committed to addressing your needs and are planning an exciting conference focused on &quot;Training for Today.  Preparing for Tomorrow.&quot;  TriCON 2012 will provide you the opportunity to:  
+
+
+
+ - Hear the future vision of the public safety industry and TriTech&apos;s direction
+ - Discover the latest product advancements on solutions you use today
+ - Receive product training to learn new techniques and enhance current skills
+ - Network with peers to gain insights across the 911 Dispatch, Law, Fire and EMS markets
+ - Build new partnership alliances with key vendors in the expanded exhibit hall 
+ - Discuss your agency&apos;s needs through face-to-face access to the TriTech team
+
+
+
+Don&apos;t miss out.  Be part of this AMAZING event developed with one goal - customer success now and into the future.
+
+For more information about TriCON, visit www.tritech.com/tricon &lt;http://www.tritech.com/tricon&gt;.
+Conference Details
+
+Dates: 
+
+
+Wednesday, September 26 - Friday, September 28
+
+Location: 
+
+
+Hilton San Diego Bayfront
+
+San Diego, CA  92101
+
+www.hiltonsandiegobayfront.com &lt;http://www.hiltonsandiegobayfront.com&gt;
+
+Registration: 
+
+
+$695 (Early bird registration)
+
+Additional discounts available to first time attendees and groups of four (4) or more attendees from the same organization.
+
+
+
+
+
+ &lt;http://www.cvent.com/d/8cqly7/4W&quot;&gt;&lt;img title=&quot;Register Now&quot; src=&quot;http://offers.tritech.com/rs/ortivusna/images/Imc_Register_Button.jpg&quot; alt=&quot;Register Now&quot; width=&quot;125&quot; height=&quot;42&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

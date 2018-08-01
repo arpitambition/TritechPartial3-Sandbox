@@ -1,0 +1,4814 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estimated Opportunity Amount</value>
+        </caseValues>
+        <name>amount_opportunity</name>
+        <startsWith>Vowel</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Estimated Close Date</value>
+        </caseValues>
+        <name>close_date_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Executive Summary</value>
+        </caseValues>
+        <name>description_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Next Steps/Synopsis</value>
+        </caseValues>
+        <name>next_step_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Client Type</value>
+        </caseValues>
+        <name>type_opportunity</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- (AE) is it a ZT Spec? --></label>
+        <name>AE_is_it_a_ZT_Spec__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Accident Report Interface --></label>
+        <name>Accident_Report_Interface__c</name>
+    </fields>
+    <fields>
+        <label><!-- Accident Reports --></label>
+        <name>Accident_Reports__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account ID --></label>
+        <name>Account_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Actual Opportunity Value is the actual value of this opportunity based on the quote.
+
+NOTE:  For Inform or GSA opportunities, Actual Opportunity Value for new business will not include maintenance; existing business will include it. --></help>
+        <label><!-- Actual Opportunity Value --></label>
+        <name>Actual_Opportunity_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agencies being served --></label>
+        <name>Agencies_being_served__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Types Being Served --></label>
+        <name>Agency_Types_Being_Served__c</name>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law</masterLabel>
+            <translation><!-- Law --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Assigned approval manager for opportunity owner --></help>
+        <label><!-- Approval Manager --></label>
+        <name>Approval_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approved Budget --></label>
+        <name>Approved_Budget__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Associate Account Manager Email --></label>
+        <name>Associate_Account_Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Associate Account Manager --></label>
+        <name>Associate_Account_Manager__c</name>
+        <relationshipLabel><!-- Opportunities (Associate Account Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Associated Opportunity --></label>
+        <name>Associated_Opportunity__c</name>
+        <relationshipLabel><!-- Associated Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- BANT Approved --></label>
+        <name>BANT_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- BANT Complete --></label>
+        <name>BANT_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- BANT Completed Date --></label>
+        <name>BANT_Completed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- BANT Paid --></label>
+        <name>BANT_Paid__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Amount --></label>
+        <name>Bid_Bond_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Issued --></label>
+        <name>Bid_Bond_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Percentage --></label>
+        <name>Bid_Bond_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Required --></label>
+        <name>Bid_Bond_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Returned --></label>
+        <name>Bid_Bond_Returned__c</name>
+    </fields>
+    <fields>
+        <help><!-- Date that the Bid/No Bid decision was approved. --></help>
+        <label><!-- Bid/No Bid Decision Date --></label>
+        <name>Bid_No_Bid_Decision_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bidder&apos;s Conference Date --></label>
+        <name>Bidder_s_Conference_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bidder&apos;s Conference Required --></label>
+        <name>Bidders_Conference_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To City --></label>
+        <name>Bill_To_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Country --></label>
+        <name>Bill_To_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To State --></label>
+        <name>Bill_To_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Street --></label>
+        <name>Bill_To_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bill To Zip --></label>
+        <name>Bill_To_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked &amp; Actual Value Not Equal --></label>
+        <name>Booked_Actual_Value_Not_Equal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked Date --></label>
+        <name>Booked_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Booked Value --></label>
+        <name>Booked_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Budget Total --></label>
+        <name>Budget_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Issues --></label>
+        <name>Business_Issues_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Dispatcher/Call Taker Seats --></label>
+        <name>CAD_Dispatcher_Call_Taker_Seats__c</name>
+    </fields>
+    <fields>
+        <label><!-- CPQ Quote Number --></label>
+        <name>CPQ_Quote_Number__c</name>
+    </fields>
+    <fields>
+        <help><!-- Syncs over from Endeavor for Change Order Opportunities only --></help>
+        <label><!-- Change Order Additions Total --></label>
+        <name>Change_Order_Additions_Total__c</name>
+    </fields>
+    <fields>
+        <help><!-- Syncs over from Endeavor for Change Order Opps only --></help>
+        <label><!-- Change Order Deletions Total --></label>
+        <name>Change_Order_Deletions_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charge Types --></label>
+        <name>Charge_Types__c</name>
+    </fields>
+    <fields>
+        <label><!-- Citation Interface --></label>
+        <name>Citation_Interface__c</name>
+    </fields>
+    <fields>
+        <label><!-- Citations --></label>
+        <name>Citations__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary Quote Contact&apos;s email address --></help>
+        <label><!-- Client Email --></label>
+        <name>Client_Email__c</name>
+    </fields>
+    <fields>
+        <help><!-- Primary Quote Contact&apos;s phone number --></help>
+        <label><!-- Client Phone --></label>
+        <name>Client_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date Certainty --></label>
+        <name>Close_Date_Certainty__c</name>
+        <picklistValues>
+            <masterLabel>At Risk</masterLabel>
+            <translation><!-- At Risk --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pull In</masterLabel>
+            <translation><!-- Pull In --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Close Date Confidence-Current Close Date --></label>
+        <name>Close_Date_Confidence_Current_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date Confidence-Following Month --></label>
+        <name>Close_Date_Confidence_Following_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date Confidence-Next Month --></label>
+        <name>Close_Date_Confidence_Next_Month__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date Confidence-Total --></label>
+        <name>Close_Date_Confidence_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Time - Selection to Close --></label>
+        <name>Close_Time_Selection_to_Close__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commissionable Value --></label>
+        <name>Comm_Value_Sync__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments - Reason TriTech Lost --></label>
+        <name>Comments_Reason_TriTech_Lost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments - Reason TriTech Won --></label>
+        <name>Comments_Reason_TriTech_Won__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commisionable? --></label>
+        <name>Commisionable__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Internal commissionable GM% --></help>
+        <label><!-- Commissionable GM% --></label>
+        <name>Commissionable_GM__c</name>
+    </fields>
+    <fields>
+        <help><!-- Businesses/People with pre-existing relationships with the current prospect --></help>
+        <label><!-- Common Partners --></label>
+        <name>Common_Partners__c</name>
+    </fields>
+    <fields>
+        <label><!-- Compelling Event --></label>
+        <name>Compelling_Event__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Selection Approved --></label>
+        <name>Competitive_Selection_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitors --></label>
+        <name>Competitors_WMP__c</name>
+        <picklistValues>
+            <masterLabel>911 EMS Software, LLC</masterLabel>
+            <translation><!-- 911 EMS Software, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911-Inc.</masterLabel>
+            <translation><!-- 911-Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACS-Firehouse</masterLabel>
+            <translation><!-- ACS-Firehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADSI</masterLabel>
+            <translation><!-- ADSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCAD</masterLabel>
+            <translation><!-- AMCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARMMS</masterLabel>
+            <translation><!-- ARMMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT&amp;T</masterLabel>
+            <translation><!-- AT&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AeroMed Software</masterLabel>
+            <translation><!-- AeroMed Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agisent</masterLabel>
+            <translation><!-- Agisent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert Public Safety Solutions (APSS)</masterLabel>
+            <translation><!-- Alert Public Safety Solutions (APSS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allegheny R&amp;D</masterLabel>
+            <translation><!-- Allegheny R&amp;D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alpine Software</masterLabel>
+            <translation><!-- Alpine Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AmbuPro</masterLabel>
+            <translation><!-- AmbuPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AngelTrack</masterLabel>
+            <translation><!-- AngelTrack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Data Systems Inc. (ADSi)</masterLabel>
+            <translation><!-- Application Data Systems Inc. (ADSi) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archonix</masterLabel>
+            <translation><!-- Archonix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Astra</masterLabel>
+            <translation><!-- Astra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIO-Key</masterLabel>
+            <translation><!-- BIO-Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIS</masterLabel>
+            <translation><!-- BIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beyond Lucid Technologies</masterLabel>
+            <translation><!-- Beyond Lucid Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bighorn Systems</masterLabel>
+            <translation><!-- Bighorn Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Diamond</masterLabel>
+            <translation><!-- Blue Diamond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bradshaw Consulting</masterLabel>
+            <translation><!-- Bradshaw Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS Systems</masterLabel>
+            <translation><!-- CIS Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLEMIS</masterLabel>
+            <translation><!-- CLEMIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMED</masterLabel>
+            <translation><!-- CMED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORE 911</masterLabel>
+            <translation><!-- CORE 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Management, Inc.</masterLabel>
+            <translation><!-- CR Management, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRIMES</masterLabel>
+            <translation><!-- CRIMES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSI</masterLabel>
+            <translation><!-- CSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CTS</masterLabel>
+            <translation><!-- CTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/Global</masterLabel>
+            <translation><!-- Caliber/Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/InterAct</masterLabel>
+            <translation><!-- Caliber/InterAct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/Sleuth</masterLabel>
+            <translation><!-- Caliber/Sleuth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/TAC.10</masterLabel>
+            <translation><!-- Caliber/TAC.10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CallWorx</masterLabel>
+            <translation><!-- CallWorx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capers</masterLabel>
+            <translation><!-- Capers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardinal</masterLabel>
+            <translation><!-- Cardinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cassidian</masterLabel>
+            <translation><!-- Cassidian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CenturyLink</masterLabel>
+            <translation><!-- CenturyLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3 Software</masterLabel>
+            <translation><!-- Code 3 Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Red</masterLabel>
+            <translation><!-- Code Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cody</masterLabel>
+            <translation><!-- Cody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commerx Corporation</masterLabel>
+            <translation><!-- Commerx Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComnetiX</masterLabel>
+            <translation><!-- ComnetiX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Arts</masterLabel>
+            <translation><!-- Computer Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Investment Advice, Inc.</masterLabel>
+            <translation><!-- Computer Investment Advice, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comtech</masterLabel>
+            <translation><!-- Comtech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copsync</masterLabel>
+            <translation><!-- Copsync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Technologies, LLC</masterLabel>
+            <translation><!-- Corporate Technologies, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cottrell</masterLabel>
+            <translation><!-- Cottrell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crime Gog Technologies</masterLabel>
+            <translation><!-- Crime Gog Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeSoft</masterLabel>
+            <translation><!-- CrimeSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeStar</masterLabel>
+            <translation><!-- CrimeStar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyrun</masterLabel>
+            <translation><!-- Cyrun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSSI</masterLabel>
+            <translation><!-- DSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DaPro</masterLabel>
+            <translation><!-- DaPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data 911</masterLabel>
+            <translation><!-- Data 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denali</masterLabel>
+            <translation><!-- Denali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Innovations</masterLabel>
+            <translation><!-- Digital Innovations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Planet</masterLabel>
+            <translation><!-- Digital Planet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Works</masterLabel>
+            <translation><!-- Dispatch Works --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Docu/Med</masterLabel>
+            <translation><!-- Docu/Med --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documed Systems Intl. Inc.</masterLabel>
+            <translation><!-- Documed Systems Intl. Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECS Inc.</masterLabel>
+            <translation><!-- ECS Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIS</masterLabel>
+            <translation><!-- EIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Consultants, Ltd.</masterLabel>
+            <translation><!-- EMS Consultants, Ltd. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Data Systems, Inc.</masterLabel>
+            <translation><!-- EMS Data Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMSCharts</masterLabel>
+            <translation><!-- EMSCharts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESO Solutions</masterLabel>
+            <translation><!-- ESO Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETI</masterLabel>
+            <translation><!-- ETI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EZ911</masterLabel>
+            <translation><!-- EZ911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eagle</masterLabel>
+            <translation><!-- Eagle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edoc</masterLabel>
+            <translation><!-- Edoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Callworks</masterLabel>
+            <translation><!-- Emergency Callworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Reporting</masterLabel>
+            <translation><!-- Emergency Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Technologies, Inc</masterLabel>
+            <translation><!-- Emergency Technologies, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergent</masterLabel>
+            <translation><!-- Emergent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EmergiData</masterLabel>
+            <translation><!-- EmergiData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergitech</masterLabel>
+            <translation><!-- Emergitech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EnRoute</masterLabel>
+            <translation><!-- EnRoute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enforsys</masterLabel>
+            <translation><!-- Enforsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterpol</masterLabel>
+            <translation><!-- Enterpol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experiant</masterLabel>
+            <translation><!-- Experiant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM</masterLabel>
+            <translation><!-- FDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FirePrograms Software</masterLabel>
+            <translation><!-- FirePrograms Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firehouse</masterLabel>
+            <translation><!-- Firehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forge</masterLabel>
+            <translation><!-- Forge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fortek (UK)</masterLabel>
+            <translation><!-- Fortek (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frontier</masterLabel>
+            <translation><!-- Frontier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEAC</masterLabel>
+            <translation><!-- GEAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GeoConnex</masterLabel>
+            <translation><!-- GeoConnex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Dispatch</masterLabel>
+            <translation><!-- Global Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Software Corp</masterLabel>
+            <translation><!-- Global Software Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Systems, Inc</masterLabel>
+            <translation><!-- Gold Systems, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Hour Data Systems</masterLabel>
+            <translation><!-- Golden Hour Data Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grayco Systems</masterLabel>
+            <translation><!-- Grayco Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harris/Caliber</masterLabel>
+            <translation><!-- Harris/Caliber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harrison</masterLabel>
+            <translation><!-- Harrison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthware Solutions, LLC</masterLabel>
+            <translation><!-- Healthware Solutions, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiTech</masterLabel>
+            <translation><!-- HiTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Plains Information Systems, Inc.</masterLabel>
+            <translation><!-- High Plains Information Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hill Country Software</masterLabel>
+            <translation><!-- Hill Country Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hunt</masterLabel>
+            <translation><!-- Hunt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyland Software</masterLabel>
+            <translation><!-- Hyland Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICS</masterLabel>
+            <translation><!-- ICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Networks</masterLabel>
+            <translation><!-- ID Networks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMARS</masterLabel>
+            <translation><!-- IMARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPC</masterLabel>
+            <translation><!-- IPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iatroware</masterLabel>
+            <translation><!-- Iatroware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ImageTrend</masterLabel>
+            <translation><!-- ImageTrend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact</masterLabel>
+            <translation><!-- Impact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In House</masterLabel>
+            <translation><!-- In House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infor</masterLabel>
+            <translation><!-- Infor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspironix, Inc</masterLabel>
+            <translation><!-- Inspironix, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InterAct</masterLabel>
+            <translation><!-- InterAct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergraph</masterLabel>
+            <translation><!-- Intergraph --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermedix Technologies, Inc</masterLabel>
+            <translation><!-- Intermedix Technologies, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrado (Formerly Positron)</masterLabel>
+            <translation><!-- Intrado (Formerly Positron) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail Tracker</masterLabel>
+            <translation><!-- Jail Tracker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JefBar</masterLabel>
+            <translation><!-- JefBar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Justice Solutions</masterLabel>
+            <translation><!-- Justice Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Justice Systems</masterLabel>
+            <translation><!-- Justice Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KML</masterLabel>
+            <translation><!-- KML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone</masterLabel>
+            <translation><!-- Keystone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Track</masterLabel>
+            <translation><!-- Law Track --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LawSoft</masterLabel>
+            <translation><!-- LawSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistic Systems</masterLabel>
+            <translation><!-- Logistic Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logisys</masterLabel>
+            <translation><!-- Logisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Micro Systems</masterLabel>
+            <translation><!-- M&amp;M Micro Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASI</masterLabel>
+            <translation><!-- MASI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIS</masterLabel>
+            <translation><!-- MIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macrologic Inc.</masterLabel>
+            <translation><!-- Macrologic Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark43</masterLabel>
+            <translation><!-- Mark43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med Media</masterLabel>
+            <translation><!-- Med Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MedaPoint</masterLabel>
+            <translation><!-- MedaPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Claims Assistance, Inc.</masterLabel>
+            <translation><!-- Medical Claims Assistance, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medusa Medical Technologies, Inc.</masterLabel>
+            <translation><!-- Medusa Medical Technologies, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micro Systems</masterLabel>
+            <translation><!-- Micro Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MicroData</masterLabel>
+            <translation><!-- MicroData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moducom</masterLabel>
+            <translation><!-- Moducom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorola</masterLabel>
+            <translation><!-- Motorola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEC</masterLabel>
+            <translation><!-- NEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET Data</masterLabel>
+            <translation><!-- NET Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NICE</masterLabel>
+            <translation><!-- NICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New World Systems</masterLabel>
+            <translation><!-- New World Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Gen</masterLabel>
+            <translation><!-- Next Gen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niche</masterLabel>
+            <translation><!-- Niche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicholson Business Systems</masterLabel>
+            <translation><!-- Nicholson Business Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No System</masterLabel>
+            <translation><!-- No System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nortel</masterLabel>
+            <translation><!-- Nortel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONESolution</masterLabel>
+            <translation><!-- ONESolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPEN Incorporated</masterLabel>
+            <translation><!-- OPEN Incorporated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSSI</masterLabel>
+            <translation><!-- OSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OffenderTrak</masterLabel>
+            <translation><!-- OffenderTrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omnigo/ITI</masterLabel>
+            <translation><!-- Omnigo/ITI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSNET</masterLabel>
+            <translation><!-- PSNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSSI</masterLabel>
+            <translation><!-- PSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS</masterLabel>
+            <translation><!-- PTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS Solutions</masterLabel>
+            <translation><!-- PTS Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pamet</masterLabel>
+            <translation><!-- Pamet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PoliceWorks</masterLabel>
+            <translation><!-- PoliceWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positron</masterLabel>
+            <translation><!-- Positron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power DMS</masterLabel>
+            <translation><!-- Power DMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presynct</masterLabel>
+            <translation><!-- Presynct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProPhoenix Corp</masterLabel>
+            <translation><!-- ProPhoenix Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pursuit Database</masterLabel>
+            <translation><!-- Pursuit Database --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purvis</masterLabel>
+            <translation><!-- Purvis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QED</masterLabel>
+            <translation><!-- QED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAM Software Systems, Inc.</masterLabel>
+            <translation><!-- RAM Software Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RPS</masterLabel>
+            <translation><!-- RPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RapidDeploy</masterLabel>
+            <translation><!-- RapidDeploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remsdaq (UK)</masterLabel>
+            <translation><!-- Remsdaq (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Data Engineering</masterLabel>
+            <translation><!-- Response Data Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SJS</masterLabel>
+            <translation><!-- SJS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMART</masterLabel>
+            <translation><!-- SMART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSI (Synergistics)</masterLabel>
+            <translation><!-- SSI (Synergistics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sansio (Formerly ScanHealth)</masterLabel>
+            <translation><!-- Sansio (Formerly ScanHealth) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securus/Archonix</masterLabel>
+            <translation><!-- Securus/Archonix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sertia</masterLabel>
+            <translation><!-- Sertia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shieldware Technology</masterLabel>
+            <translation><!-- Shieldware Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Systems Consultants</masterLabel>
+            <translation><!-- Sierra Systems Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sleuth</masterLabel>
+            <translation><!-- Sleuth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small Regional Vendor</masterLabel>
+            <translation><!-- Small Regional Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartCOP</masterLabel>
+            <translation><!-- SmartCOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solacom</masterLabel>
+            <translation><!-- Solacom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Software</masterLabel>
+            <translation><!-- Southern Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest General Services of Dallas, LLC</masterLabel>
+            <translation><!-- Southwest General Services of Dallas, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spillman</masterLabel>
+            <translation><!-- Spillman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun Ridge - RIMS</masterLabel>
+            <translation><!-- Sun Ridge - RIMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SunGard HTE</masterLabel>
+            <translation><!-- SunGard HTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SunGard OSSI - Superion</masterLabel>
+            <translation><!-- SunGard OSSI - Superion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sundance Systems</masterLabel>
+            <translation><!-- Sundance Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swift Justice</masterLabel>
+            <translation><!-- Swift Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synergem</masterLabel>
+            <translation><!-- Synergem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synergistics</masterLabel>
+            <translation><!-- Synergistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syscon</masterLabel>
+            <translation><!-- Syscon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAC</masterLabel>
+            <translation><!-- TAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSG</masterLabel>
+            <translation><!-- TSG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thales (UK)</masterLabel>
+            <translation><!-- Thales (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TracNet</masterLabel>
+            <translation><!-- TracNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumasoft</masterLabel>
+            <translation><!-- Traumasoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech</masterLabel>
+            <translation><!-- TriTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tritier Corporation</masterLabel>
+            <translation><!-- Tritier Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyler Technologies</masterLabel>
+            <translation><!-- Tyler Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valor</masterLabel>
+            <translation><!-- Valor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verint</masterLabel>
+            <translation><!-- Verint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verizon</masterLabel>
+            <translation><!-- Verizon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versadex</masterLabel>
+            <translation><!-- Versadex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versaterm</masterLabel>
+            <translation><!-- Versaterm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vesta</masterLabel>
+            <translation><!-- Vesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionTek</masterLabel>
+            <translation><!-- VisionTek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual Fire</masterLabel>
+            <translation><!-- Visual Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Covina Service Group</masterLabel>
+            <translation><!-- West Covina Service Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westtel</masterLabel>
+            <translation><!-- Westtel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZOLL Data Systems</masterLabel>
+            <translation><!-- ZOLL Data Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zetron</masterLabel>
+            <translation><!-- Zetron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher Tech</masterLabel>
+            <translation><!-- Zuercher Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eForce</masterLabel>
+            <translation><!-- eForce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPCR</masterLabel>
+            <translation><!-- iPCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Person who represented TTS at conference --></help>
+        <label><!-- Conference Attendee --></label>
+        <name>Conference_Attendee__c</name>
+        <relationshipLabel><!-- Opportunities (Conference Attendee) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Click the icon to associate a contact from this account to the opportunity --></help>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Capture Manager --></label>
+        <lookupFilter>
+            <errorMessage><!-- You must choose an active TriTech user --></errorMessage>
+        </lookupFilter>
+        <name>Contract_Capture_Manager__c</name>
+        <relationshipLabel><!-- Opportunities (Contract Capture Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contract Required --></label>
+        <name>Contract_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Sent to Client --></label>
+        <name>Contract_Sent_to_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Count of Contacts --></label>
+        <name>Count_of_Contacts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Annual Support --></label>
+        <name>Current_Annual_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Stage --></label>
+        <name>Current_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Number --></label>
+        <name>Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- DB Competitor --></label>
+        <name>DB_Competitor__c</name>
+        <picklistValues>
+            <masterLabel>Competitor A</masterLabel>
+            <translation><!-- Competitor A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor B</masterLabel>
+            <translation><!-- Competitor B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Competitor C</masterLabel>
+            <translation><!-- Competitor C --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Daily Fee --></label>
+        <name>Daily_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Grant Funds Expire --></label>
+        <name>Date_Grant_Funds_Expire__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deadline for Vendor Questions --></label>
+        <name>Deadline_for_Vendor_Questions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add-On/Extension/Upgrade: Any add-on/extension/upgrade to existing system already installed and under maintenance
+New Major System: Any new major system (ie Inform CAD, Inform RMS, etc.) whether account is new or existing
+911 System: Any standalone deal --></help>
+        <label><!-- Opportunity Type --></label>
+        <name>Deal_Type__c</name>
+        <picklistValues>
+            <masterLabel>911 System</masterLabel>
+            <translation><!-- 911 System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add-On/Extension/Upgrade</masterLabel>
+            <translation><!-- Add-On/Extension/Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Change Order</masterLabel>
+            <translation><!-- Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration</masterLabel>
+            <translation><!-- Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Major System</masterLabel>
+            <translation><!-- New Major System --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Discount Amount --></label>
+        <name>Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount  % --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery results attached? --></label>
+        <name>Discovery_results_attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do we know how much is budgeted? --></label>
+        <name>Do_we_know_how_much_is_budgeted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummyrecordtouchfield --></label>
+        <name>Dummyrecordtouchfield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Edited Last 30 days --></label>
+        <name>Edited_Last_30_days__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>End_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Estimated per officer cost = Actual Opportunity Value / CAD Parent Total Sworn Officers --></help>
+        <label><!-- Estimated Cost per Sworn Officer --></label>
+        <name>Estimated_Cost_per_Sworn_Officer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executive Summary Modified Date --></label>
+        <name>Executive_Summary_Modifed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>Extension_Requested__c</name>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granted</masterLabel>
+            <translation><!-- Granted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Forecast Value --></label>
+        <name>Forecast_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forecast? --></label>
+        <name>Forecast__c</name>
+    </fields>
+    <fields>
+        <label><!-- Funding Comments --></label>
+        <name>Funding_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM Target Acheived --></label>
+        <name>GM_Target_Acheived__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grant Amount --></label>
+        <name>Grant_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Green Team Date --></label>
+        <name>Green_Team_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- GrossMargin --></label>
+        <name>GrossMargin__c</name>
+    </fields>
+    <fields>
+        <help><!-- Overall quote Gross Margin calculation --></help>
+        <label><!-- Gross Margin % --></label>
+        <name>Gross_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Have we engaged the committee? --></label>
+        <name>Have_we_engaged_the_committee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host Acknowledgement Form Complete --></label>
+        <name>Host_Agency_Acknowledgement_Form_Complet__c</name>
+    </fields>
+    <fields>
+        <label><!-- Host Acknowledgement Form --></label>
+        <name>Host_Agency_Acknowledgement_Form__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter any applicable notes to approvers to assist them in approving your quote. --></help>
+        <label><!-- INTERNAL Note to Approvers --></label>
+        <name>INTERNAL_Note_to_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identified Pre-Go Live --></label>
+        <name>Identified_Pre_Go_Live__c</name>
+    </fields>
+    <fields>
+        <label><!-- Identify Committee Members --></label>
+        <name>Identify_Committee_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Closed Other - State Reason --></label>
+        <name>If_Closed_Other_State_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Budgetary Only</masterLabel>
+            <translation><!-- Budgetary Only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consolidation</masterLabel>
+            <translation><!-- Consolidation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate Quote</masterLabel>
+            <translation><!-- Duplicate Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lost Budget</masterLabel>
+            <translation><!-- Lost Budget --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Interest</masterLabel>
+            <translation><!-- No Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Real Opportunity</masterLabel>
+            <translation><!-- No Real Opportunity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Cancelled</masterLabel>
+            <translation><!-- Project Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade with Current Vendor</masterLabel>
+            <translation><!-- Upgrade with Current Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- If No Bid - Primary Reason --></label>
+        <name>If_No_Bid_Primary_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competitive Spec</masterLabel>
+            <translation><!-- Competitive Spec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliancy</masterLabel>
+            <translation><!-- Compliancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fit</masterLabel>
+            <translation><!-- Fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presales</masterLabel>
+            <translation><!-- Presales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Implementation Definition Review Date --></label>
+        <name>Implementation_Definition_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Fees --></label>
+        <name>Implementation_Fees__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the current competitor&apos;s company name that we are replacing. --></help>
+        <label><!-- Incumbent to be Replaced --></label>
+        <name>Incumbent_to_be_Replaced__c</name>
+        <picklistValues>
+            <masterLabel>911 EMS Software, LLC</masterLabel>
+            <translation><!-- 911 EMS Software, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911-Inc.</masterLabel>
+            <translation><!-- 911-Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACS-Firehouse</masterLabel>
+            <translation><!-- ACS-Firehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADSI</masterLabel>
+            <translation><!-- ADSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCAD</masterLabel>
+            <translation><!-- AMCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ARMMS</masterLabel>
+            <translation><!-- ARMMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AT&amp;T</masterLabel>
+            <translation><!-- AT&amp;T --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AeroMed Software</masterLabel>
+            <translation><!-- AeroMed Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Agisent</masterLabel>
+            <translation><!-- Agisent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alert Public Safety Solutions (APSS)</masterLabel>
+            <translation><!-- Alert Public Safety Solutions (APSS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allegheny R&amp;D</masterLabel>
+            <translation><!-- Allegheny R&amp;D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alpine Software</masterLabel>
+            <translation><!-- Alpine Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AmbuPro</masterLabel>
+            <translation><!-- AmbuPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AngelTrack</masterLabel>
+            <translation><!-- AngelTrack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Data Systems Inc. (ADSi)</masterLabel>
+            <translation><!-- Application Data Systems Inc. (ADSi) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archonix</masterLabel>
+            <translation><!-- Archonix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Astra</masterLabel>
+            <translation><!-- Astra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIO-Key</masterLabel>
+            <translation><!-- BIO-Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIS</masterLabel>
+            <translation><!-- BIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Beyond Lucid Technologies</masterLabel>
+            <translation><!-- Beyond Lucid Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bighorn Systems</masterLabel>
+            <translation><!-- Bighorn Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Blue Diamond</masterLabel>
+            <translation><!-- Blue Diamond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bradshaw Consulting</masterLabel>
+            <translation><!-- Bradshaw Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS Systems</masterLabel>
+            <translation><!-- CIS Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CLEMIS</masterLabel>
+            <translation><!-- CLEMIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CMED</masterLabel>
+            <translation><!-- CMED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORE 911</masterLabel>
+            <translation><!-- CORE 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Management, Inc.</masterLabel>
+            <translation><!-- CR Management, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRIMES</masterLabel>
+            <translation><!-- CRIMES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSI</masterLabel>
+            <translation><!-- CSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CTS</masterLabel>
+            <translation><!-- CTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/Global</masterLabel>
+            <translation><!-- Caliber/Global --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/InterAct</masterLabel>
+            <translation><!-- Caliber/InterAct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/Sleuth</masterLabel>
+            <translation><!-- Caliber/Sleuth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Caliber/TAC.10</masterLabel>
+            <translation><!-- Caliber/TAC.10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CallWorx</masterLabel>
+            <translation><!-- CallWorx --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Capers</masterLabel>
+            <translation><!-- Capers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cardinal</masterLabel>
+            <translation><!-- Cardinal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cassidian</masterLabel>
+            <translation><!-- Cassidian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CenturyLink</masterLabel>
+            <translation><!-- CenturyLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3 Software</masterLabel>
+            <translation><!-- Code 3 Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Red</masterLabel>
+            <translation><!-- Code Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cody</masterLabel>
+            <translation><!-- Cody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commerx Corporation</masterLabel>
+            <translation><!-- Commerx Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComnetiX</masterLabel>
+            <translation><!-- ComnetiX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Arts</masterLabel>
+            <translation><!-- Computer Arts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Investment Advice, Inc.</masterLabel>
+            <translation><!-- Computer Investment Advice, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Comtech</masterLabel>
+            <translation><!-- Comtech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copsync</masterLabel>
+            <translation><!-- Copsync --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Technologies, LLC</masterLabel>
+            <translation><!-- Corporate Technologies, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cottrell</masterLabel>
+            <translation><!-- Cottrell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crime Gog Technologies</masterLabel>
+            <translation><!-- Crime Gog Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeSoft</masterLabel>
+            <translation><!-- CrimeSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeStar</masterLabel>
+            <translation><!-- CrimeStar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyrun</masterLabel>
+            <translation><!-- Cyrun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSSI</masterLabel>
+            <translation><!-- DSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DaPro</masterLabel>
+            <translation><!-- DaPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data 911</masterLabel>
+            <translation><!-- Data 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denali</masterLabel>
+            <translation><!-- Denali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Innovations</masterLabel>
+            <translation><!-- Digital Innovations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Planet</masterLabel>
+            <translation><!-- Digital Planet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch Works</masterLabel>
+            <translation><!-- Dispatch Works --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Docu/Med</masterLabel>
+            <translation><!-- Docu/Med --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documed Systems Intl. Inc.</masterLabel>
+            <translation><!-- Documed Systems Intl. Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECS Inc.</masterLabel>
+            <translation><!-- ECS Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIS</masterLabel>
+            <translation><!-- EIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Consultants, Ltd.</masterLabel>
+            <translation><!-- EMS Consultants, Ltd. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Data Systems, Inc.</masterLabel>
+            <translation><!-- EMS Data Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMSCharts</masterLabel>
+            <translation><!-- EMSCharts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESO Solutions</masterLabel>
+            <translation><!-- ESO Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETI</masterLabel>
+            <translation><!-- ETI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EZ911</masterLabel>
+            <translation><!-- EZ911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eagle</masterLabel>
+            <translation><!-- Eagle --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Edoc</masterLabel>
+            <translation><!-- Edoc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Callworks</masterLabel>
+            <translation><!-- Emergency Callworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Reporting</masterLabel>
+            <translation><!-- Emergency Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Technologies, Inc</masterLabel>
+            <translation><!-- Emergency Technologies, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergent</masterLabel>
+            <translation><!-- Emergent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EmergiData</masterLabel>
+            <translation><!-- EmergiData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergitech</masterLabel>
+            <translation><!-- Emergitech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EnRoute</masterLabel>
+            <translation><!-- EnRoute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enforsys</masterLabel>
+            <translation><!-- Enforsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enterpol</masterLabel>
+            <translation><!-- Enterpol --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experiant</masterLabel>
+            <translation><!-- Experiant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM</masterLabel>
+            <translation><!-- FDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FirePrograms Software</masterLabel>
+            <translation><!-- FirePrograms Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firehouse</masterLabel>
+            <translation><!-- Firehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Forge</masterLabel>
+            <translation><!-- Forge --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fortek (UK)</masterLabel>
+            <translation><!-- Fortek (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frontier</masterLabel>
+            <translation><!-- Frontier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEAC</masterLabel>
+            <translation><!-- GEAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GeoConnex</masterLabel>
+            <translation><!-- GeoConnex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Dispatch</masterLabel>
+            <translation><!-- Global Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Software Corp</masterLabel>
+            <translation><!-- Global Software Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Systems, Inc</masterLabel>
+            <translation><!-- Gold Systems, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Hour Data Systems</masterLabel>
+            <translation><!-- Golden Hour Data Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grayco Systems</masterLabel>
+            <translation><!-- Grayco Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harris/Caliber</masterLabel>
+            <translation><!-- Harris/Caliber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harrison</masterLabel>
+            <translation><!-- Harrison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthware Solutions, LLC</masterLabel>
+            <translation><!-- Healthware Solutions, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiTech</masterLabel>
+            <translation><!-- HiTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Plains Information Systems, Inc.</masterLabel>
+            <translation><!-- High Plains Information Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hill Country Software</masterLabel>
+            <translation><!-- Hill Country Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hunt</masterLabel>
+            <translation><!-- Hunt --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyland Software</masterLabel>
+            <translation><!-- Hyland Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICS</masterLabel>
+            <translation><!-- ICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID Networks</masterLabel>
+            <translation><!-- ID Networks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMARS</masterLabel>
+            <translation><!-- IMARS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPC</masterLabel>
+            <translation><!-- IPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iatroware</masterLabel>
+            <translation><!-- Iatroware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ImageTrend</masterLabel>
+            <translation><!-- ImageTrend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact</masterLabel>
+            <translation><!-- Impact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In House</masterLabel>
+            <translation><!-- In House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Infor</masterLabel>
+            <translation><!-- Infor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspironix, Inc</masterLabel>
+            <translation><!-- Inspironix, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InterAct</masterLabel>
+            <translation><!-- InterAct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergraph</masterLabel>
+            <translation><!-- Intergraph --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermedix Technologies, Inc</masterLabel>
+            <translation><!-- Intermedix Technologies, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrado (Formerly Positron)</masterLabel>
+            <translation><!-- Intrado (Formerly Positron) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail Tracker</masterLabel>
+            <translation><!-- Jail Tracker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JefBar</masterLabel>
+            <translation><!-- JefBar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Justice Solutions</masterLabel>
+            <translation><!-- Justice Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Justice Systems</masterLabel>
+            <translation><!-- Justice Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KML</masterLabel>
+            <translation><!-- KML --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone</masterLabel>
+            <translation><!-- Keystone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Track</masterLabel>
+            <translation><!-- Law Track --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LawSoft</masterLabel>
+            <translation><!-- LawSoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistic Systems</masterLabel>
+            <translation><!-- Logistic Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logisys</masterLabel>
+            <translation><!-- Logisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M&amp;M Micro Systems</masterLabel>
+            <translation><!-- M&amp;M Micro Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MASI</masterLabel>
+            <translation><!-- MASI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MIS</masterLabel>
+            <translation><!-- MIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macrologic Inc.</masterLabel>
+            <translation><!-- Macrologic Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark43</masterLabel>
+            <translation><!-- Mark43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med Media</masterLabel>
+            <translation><!-- Med Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MedaPoint</masterLabel>
+            <translation><!-- MedaPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Claims Assistance, Inc.</masterLabel>
+            <translation><!-- Medical Claims Assistance, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medusa Medical Technologies, Inc.</masterLabel>
+            <translation><!-- Medusa Medical Technologies, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Micro Systems</masterLabel>
+            <translation><!-- Micro Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MicroData</masterLabel>
+            <translation><!-- MicroData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Moducom</masterLabel>
+            <translation><!-- Moducom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorola</masterLabel>
+            <translation><!-- Motorola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEC</masterLabel>
+            <translation><!-- NEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET Data</masterLabel>
+            <translation><!-- NET Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NICE</masterLabel>
+            <translation><!-- NICE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New World Systems</masterLabel>
+            <translation><!-- New World Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Next Gen</masterLabel>
+            <translation><!-- Next Gen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niche</masterLabel>
+            <translation><!-- Niche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nicholson Business Systems</masterLabel>
+            <translation><!-- Nicholson Business Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No System</masterLabel>
+            <translation><!-- No System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nortel</masterLabel>
+            <translation><!-- Nortel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ONESolution</masterLabel>
+            <translation><!-- ONESolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPEN Incorporated</masterLabel>
+            <translation><!-- OPEN Incorporated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSSI</masterLabel>
+            <translation><!-- OSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OffenderTrak</masterLabel>
+            <translation><!-- OffenderTrak --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omnigo/ITI</masterLabel>
+            <translation><!-- Omnigo/ITI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSNET</masterLabel>
+            <translation><!-- PSNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSSI</masterLabel>
+            <translation><!-- PSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS</masterLabel>
+            <translation><!-- PTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS Solutions</masterLabel>
+            <translation><!-- PTS Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pamet</masterLabel>
+            <translation><!-- Pamet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PoliceWorks</masterLabel>
+            <translation><!-- PoliceWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Positron</masterLabel>
+            <translation><!-- Positron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Power DMS</masterLabel>
+            <translation><!-- Power DMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presynct</masterLabel>
+            <translation><!-- Presynct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProPhoenix Corp</masterLabel>
+            <translation><!-- ProPhoenix Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pursuit Database</masterLabel>
+            <translation><!-- Pursuit Database --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purvis</masterLabel>
+            <translation><!-- Purvis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QED</masterLabel>
+            <translation><!-- QED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAM Software Systems, Inc.</masterLabel>
+            <translation><!-- RAM Software Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RPS</masterLabel>
+            <translation><!-- RPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RapidDeploy</masterLabel>
+            <translation><!-- RapidDeploy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remsdaq (UK)</masterLabel>
+            <translation><!-- Remsdaq (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Data Engineering</masterLabel>
+            <translation><!-- Response Data Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SJS</masterLabel>
+            <translation><!-- SJS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMART</masterLabel>
+            <translation><!-- SMART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SSI (Synergistics)</masterLabel>
+            <translation><!-- SSI (Synergistics) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sansio (Formerly ScanHealth)</masterLabel>
+            <translation><!-- Sansio (Formerly ScanHealth) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Securus/Archonix</masterLabel>
+            <translation><!-- Securus/Archonix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sertia</masterLabel>
+            <translation><!-- Sertia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shieldware Technology</masterLabel>
+            <translation><!-- Shieldware Technology --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Systems Consultants</masterLabel>
+            <translation><!-- Sierra Systems Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sleuth</masterLabel>
+            <translation><!-- Sleuth --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartCOP</masterLabel>
+            <translation><!-- SmartCOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solacom</masterLabel>
+            <translation><!-- Solacom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Software</masterLabel>
+            <translation><!-- Southern Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southwest General Services of Dallas, LLC</masterLabel>
+            <translation><!-- Southwest General Services of Dallas, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spillman</masterLabel>
+            <translation><!-- Spillman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun Ridge - RIMS</masterLabel>
+            <translation><!-- Sun Ridge - RIMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SunGard OSSI - Superion</masterLabel>
+            <translation><!-- SunGard OSSI - Superion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sundance Systems</masterLabel>
+            <translation><!-- Sundance Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sungard HTE</masterLabel>
+            <translation><!-- Sungard HTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Swift Justice</masterLabel>
+            <translation><!-- Swift Justice --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synergem</masterLabel>
+            <translation><!-- Synergem --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Synergistics</masterLabel>
+            <translation><!-- Synergistics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Syscon</masterLabel>
+            <translation><!-- Syscon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TAC</masterLabel>
+            <translation><!-- TAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSG</masterLabel>
+            <translation><!-- TSG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thales (UK)</masterLabel>
+            <translation><!-- Thales (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TracNet</masterLabel>
+            <translation><!-- TracNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumasoft</masterLabel>
+            <translation><!-- Traumasoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech</masterLabel>
+            <translation><!-- TriTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tritier Corporation</masterLabel>
+            <translation><!-- Tritier Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyler Technologies</masterLabel>
+            <translation><!-- Tyler Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USA</masterLabel>
+            <translation><!-- USA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valor</masterLabel>
+            <translation><!-- Valor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verint</masterLabel>
+            <translation><!-- Verint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verizon</masterLabel>
+            <translation><!-- Verizon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versadex</masterLabel>
+            <translation><!-- Versadex --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versaterm</masterLabel>
+            <translation><!-- Versaterm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vesta</masterLabel>
+            <translation><!-- Vesta --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionTek</masterLabel>
+            <translation><!-- VisionTek --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual Fire</masterLabel>
+            <translation><!-- Visual Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Covina Service Group</masterLabel>
+            <translation><!-- West Covina Service Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Westtel</masterLabel>
+            <translation><!-- Westtel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZOLL Data Systems</masterLabel>
+            <translation><!-- ZOLL Data Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zetron</masterLabel>
+            <translation><!-- Zetron --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher Tech</masterLabel>
+            <translation><!-- Zuercher Tech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eForce</masterLabel>
+            <translation><!-- eForce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPCR</masterLabel>
+            <translation><!-- iPCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal RFP Link_1 --></label>
+        <name>Internal_RFP_Link_1__c</name>
+    </fields>
+    <fields>
+        <help><!-- Internal only link to the proposal folder containing the RFP files --></help>
+        <label><!-- Internal RFP Link --></label>
+        <name>Internal_RFP_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal RFP Location Link --></label>
+        <name>Internal_RFP_Location_Link__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal RFP Location --></label>
+        <name>Internal_RFP_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jail Beds --></label>
+        <name>Jail_Beds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Approval Date --></label>
+        <name>Last_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Modified (Target Opportunity) --></label>
+        <name>Last_Modified_Target_Opportunity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Rejection Date --></label>
+        <name>Last_Rejection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Stage --></label>
+        <name>Legacy_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Zuercher Created By --></label>
+        <name>Legacy_Zuercher_Created_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Zuercher Created Date/Time --></label>
+        <name>Legacy_Zuercher_Created_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter of Intent Due Date --></label>
+        <name>Letter_of_Intent_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter of Intent Required --></label>
+        <name>Letter_of_Intent_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Monthly Fee --></label>
+        <name>Monthly_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Approval Level --></label>
+        <name>Most_Recent_Approval_Level__c</name>
+        <picklistValues>
+            <masterLabel>CFO/CEO Approved</masterLabel>
+            <translation><!-- CFO/CEO Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COO Approved</masterLabel>
+            <translation><!-- COO Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COO/CFO/CEO Approved</masterLabel>
+            <translation><!-- COO/CFO/CEO Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Approved</masterLabel>
+            <translation><!-- Finance Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Team Approved</masterLabel>
+            <translation><!-- Green Team Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware and 3rd Party Approved</masterLabel>
+            <translation><!-- Hardware and 3rd Party Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Approved</masterLabel>
+            <translation><!-- Operations Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PdM Approved</masterLabel>
+            <translation><!-- PdM Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Professional Services</masterLabel>
+            <translation><!-- Professional Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Approved - Final</masterLabel>
+            <translation><!-- Quote Approved - Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Rejected</masterLabel>
+            <translation><!-- Quote Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Director Approved</masterLabel>
+            <translation><!-- Sales Director Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Support Approved</masterLabel>
+            <translation><!-- Sales Support Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sr. VP of Sales Approved</masterLabel>
+            <translation><!-- Sr. VP of Sales Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VP of Sales Approved</masterLabel>
+            <translation><!-- VP of Sales Approved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Name of Grant Program(s) --></label>
+        <name>Name_of_Grant_Program_s__c</name>
+    </fields>
+    <fields>
+        <label><!-- New Contract Required? --></label>
+        <name>New_Contract_Required__c</name>
+        <picklistValues>
+            <masterLabel>Existing Customer - New/Additional System</masterLabel>
+            <translation><!-- Existing Customer - New/Additional System --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Existing Customer - Upgrade</masterLabel>
+            <translation><!-- Existing Customer - Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration</masterLabel>
+            <translation><!-- Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Child Account</masterLabel>
+            <translation><!-- New Child Account --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New Customer</masterLabel>
+            <translation><!-- New Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Subscription</masterLabel>
+            <translation><!-- Subscription --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New INTERNAL Notes to Approvers --></label>
+        <name>New_INTERNAL_Notes_to_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Steps/Synopsis Modified By --></label>
+        <name>Next_Steps_Synopsis_Modified_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Steps/Synopsis Modified Date --></label>
+        <name>Next_Steps_Synopsis_Modified_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Bid Letter Required Date --></label>
+        <name>No_Bid_Letter_Required_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Bid Letter Required --></label>
+        <name>No_Bid_Letter_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Electronic Copies Required --></label>
+        <name>Number_of_Electronic_Copies_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Hard Copies Required --></label>
+        <name>Number_of_Hard_Copies_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Sworn Officers --></label>
+        <name>Number_of_Sworn_Officers__c</name>
+    </fields>
+    <fields>
+        <label><!-- On-Site Discovery Date --></label>
+        <name>On_Site_Discovery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Owner Email --></label>
+        <name>Opp_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opp Owner Phone --></label>
+        <name>Opp_Owner_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- OpportunityURL --></label>
+        <name>OpportunityURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Long ID --></label>
+        <name>Opportunity_Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Name --></label>
+        <name>Opportunity_Owner_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Percent --></label>
+        <name>Opportunity_Owner_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reached Forecast --></label>
+        <name>Opportunity_Reached_Forcast__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity URL --></label>
+        <name>Opportunity_URL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Original Budget --></label>
+        <name>Original_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performance Bond Percentage --></label>
+        <name>Performance_Bond_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performance Bond Required --></label>
+        <name>Performance_Bond_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performed On-Site Demo --></label>
+        <name>Performed_On_Site_Demo__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performed On-Site Discovery --></label>
+        <name>Performed_On_Site_Discovery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prepaid Subscriptions --></label>
+        <name>Prepaid_Subscriptions__c</name>
+    </fields>
+    <fields>
+        <help><!-- Choose the appropriate price book for the quote associated with this opportunity. --></help>
+        <label><!-- Price Book --></label>
+        <name>Price_Book__c</name>
+        <picklistValues>
+            <masterLabel>GSA</masterLabel>
+            <translation><!-- GSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rapid Implementation</masterLabel>
+            <translation><!-- Rapid Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher</masterLabel>
+            <translation><!-- Zuercher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pricing Manager --></label>
+        <name>Pricing_Manager__c</name>
+        <relationshipLabel><!-- Opportunities (Pricing Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Primary Quote Contact Name --></label>
+        <name>Primary_Quote_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter primary contact for your quote. This contact will be referenced on quote template output. --></help>
+        <label><!-- Primary Quote Contact --></label>
+        <name>Primary_Quote_Contact__c</name>
+        <relationshipLabel><!-- Opportunities (Primary Quote Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Procurement Plans --></label>
+        <name>Procurement_Plans__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procurement Type --></label>
+        <name>Procurement_Type__c</name>
+        <picklistValues>
+            <masterLabel>GSA</masterLabel>
+            <translation><!-- GSA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sole-Source</masterLabel>
+            <translation><!-- Sole-Source --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Please enter the product family being proposed in the opportunity. --></help>
+        <label><!-- Product Family --></label>
+        <name>Product_Family_WMP__c</name>
+        <picklistValues>
+            <masterLabel>ETI Hosted</masterLabel>
+            <translation><!-- ETI Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETI On Premise</masterLabel>
+            <translation><!-- ETI On Premise --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IP911</masterLabel>
+            <translation><!-- IP911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Impact</masterLabel>
+            <translation><!-- Impact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight</masterLabel>
+            <translation><!-- Insight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LETG</masterLabel>
+            <translation><!-- LETG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TT911</masterLabel>
+            <translation><!-- TT911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher</masterLabel>
+            <translation><!-- Zuercher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For Inform quotes, please choose all products that apply to this Opportunity --></help>
+        <label><!-- Product(s) Required --></label>
+        <name>Products_Required__c</name>
+        <picklistValues>
+            <masterLabel>3rd Party</masterLabel>
+            <translation><!-- 3rd Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911 Consulting</masterLabel>
+            <translation><!-- 911 Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accident Reporting (Extend)</masterLabel>
+            <translation><!-- Accident Reporting (Extend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDP</masterLabel>
+            <translation><!-- CDP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Vault</masterLabel>
+            <translation><!-- Data Vault --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DispatchNow</masterLabel>
+            <translation><!-- DispatchNow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBR</masterLabel>
+            <translation><!-- FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBR (Extend)</masterLabel>
+            <translation><!-- FBR (Extend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Ops</masterLabel>
+            <translation><!-- Field Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation><!-- Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS Services</masterLabel>
+            <translation><!-- GIS Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ/Analytics</masterLabel>
+            <translation><!-- IQ/Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQResponse</masterLabel>
+            <translation><!-- IQResponse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight AVL</masterLabel>
+            <translation><!-- Insight AVL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight Dispatch</masterLabel>
+            <translation><!-- Insight Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight Mobile</masterLabel>
+            <translation><!-- Insight Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail Extend</masterLabel>
+            <translation><!-- Jail Extend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LETG Add On</masterLabel>
+            <translation><!-- LETG Add On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LETG eCitations</masterLabel>
+            <translation><!-- LETG eCitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapping (Zuercher)</masterLabel>
+            <translation><!-- Mapping (Zuercher) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Courts</masterLabel>
+            <translation><!-- Municipal Courts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Personnel</masterLabel>
+            <translation><!-- Personnel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal</masterLabel>
+            <translation><!-- Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property &amp; Evidence (Extend)</masterLabel>
+            <translation><!-- Property &amp; Evidence (Extend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prosecution</masterLabel>
+            <translation><!-- Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS</masterLabel>
+            <translation><!-- RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Records</masterLabel>
+            <translation><!-- Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond Billing</masterLabel>
+            <translation><!-- Respond Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond CAD</masterLabel>
+            <translation><!-- Respond CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support</masterLabel>
+            <translation><!-- Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon Analytics</masterLabel>
+            <translation><!-- Tiburon Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Enforcement</masterLabel>
+            <translation><!-- Total Enforcement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand</masterLabel>
+            <translation><!-- TotalCommand --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech.com Billing</masterLabel>
+            <translation><!-- TriTech.com Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCitations (Extend)</masterLabel>
+            <translation><!-- eCitations (Extend) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project Related Fees --></label>
+        <name>Project_Related_Fees__c</name>
+    </fields>
+    <fields>
+        <help><!-- This person owns the opportunity at the organization --></help>
+        <label><!-- Project Sponsor --></label>
+        <name>Project_Sponsor__c</name>
+        <relationshipLabel><!-- Opportunities (Project Sponsor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proposal Due Date --></label>
+        <name>Proposal_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Request Received --></label>
+        <name>Proposal_Request_Received_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Ship Date --></label>
+        <name>Proposal_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Manager --></label>
+        <name>Proposal_Writer__c</name>
+        <relationshipLabel><!-- Opportunities (Proposal Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proposal Submitted --></label>
+        <name>Proposl_Submitted_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Date --></label>
+        <name>Purchase_Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Number --></label>
+        <name>Purchase_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qty of Local References --></label>
+        <name>Qty_of_Local_References__c</name>
+    </fields>
+    <fields>
+        <label><!-- Qty of Negative Local References --></label>
+        <name>Qty_of_Negative_Local_References__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Number --></label>
+        <name>Quote_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Subtotal --></label>
+        <name>Quote_Subtotal__c</name>
+    </fields>
+    <fields>
+        <help><!-- Overall quote total with tax after any adjustments --></help>
+        <label><!-- Quote Total --></label>
+        <name>Quote_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Contact Address --></label>
+        <name>RFP_Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Contact Email --></label>
+        <name>RFP_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Contact Number --></label>
+        <name>RFP_Contact_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Contact --></label>
+        <name>RFP_Contact__c</name>
+        <relationshipLabel><!-- Opportunities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- RFP Team - CAD/Mobile/911 --></label>
+        <name>RFP_Team_CAD_Mobile_911__c</name>
+        <picklistValues>
+            <masterLabel>Liz Byers</masterLabel>
+            <translation><!-- Liz Byers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebecca Webb</masterLabel>
+            <translation><!-- Rebecca Webb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruth Cruz</masterLabel>
+            <translation><!-- Ruth Cruz --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFP Team - RMS/FBR/Jail/IQ --></label>
+        <name>RFP_Team_RMS_FBR_Jail_IQ__c</name>
+        <picklistValues>
+            <masterLabel>David Amaya</masterLabel>
+            <translation><!-- David Amaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karen Southerland</masterLabel>
+            <translation><!-- Karen Southerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Klein</masterLabel>
+            <translation><!-- Matt Klein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC Thomas</masterLabel>
+            <translation><!-- TC Thomas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFP Team - Solutions Architect --></label>
+        <name>RFP_Team_Solutions_Architect__c</name>
+        <picklistValues>
+            <masterLabel>Darrell Richards</masterLabel>
+            <translation><!-- Darrell Richards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>David Tima</masterLabel>
+            <translation><!-- David Tima --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Del Pullen</masterLabel>
+            <translation><!-- Del Pullen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keith Singleton</masterLabel>
+            <translation><!-- Keith Singleton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kurt Hallmeyer</masterLabel>
+            <translation><!-- Kurt Hallmeyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Manzano</masterLabel>
+            <translation><!-- Matt Manzano --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Select the type of reporting system the customer wants implemented. --></help>
+        <label><!-- RMS Type --></label>
+        <name>RMS_Type__c</name>
+        <picklistValues>
+            <masterLabel>NIBRS</masterLabel>
+            <translation><!-- NIBRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UCR</masterLabel>
+            <translation><!-- UCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason TriTech Lost --></label>
+        <name>Reason_TriTech_Lost__c</name>
+        <picklistValues>
+            <masterLabel>Feature/Function</masterLabel>
+            <translation><!-- Feature/Function --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of PreSales</masterLabel>
+            <translation><!-- Lack of PreSales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out-Sold</masterLabel>
+            <translation><!-- Out-Sold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>References</masterLabel>
+            <translation><!-- References --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reason TriTech Won --></label>
+        <name>Reason_TriTech_Won__c</name>
+        <picklistValues>
+            <masterLabel>Add-On Order</masterLabel>
+            <translation><!-- Add-On Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Feature/Function</masterLabel>
+            <translation><!-- Feature/Function --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>References</masterLabel>
+            <translation><!-- References --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Recurring Fees --></label>
+        <name>Recurring_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assignments Due Date --></label>
+        <name>Red_Team_Assignments_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Red Team Date --></label>
+        <name>Red_Team_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Registered Affiliates --></label>
+        <name>Registered_Affiliates__c</name>
+        <picklistValues>
+            <masterLabel>Ben Whitley</masterLabel>
+            <translation><!-- Ben Whitley --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Craig Noel</masterLabel>
+            <translation><!-- Craig Noel --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dick Buss</masterLabel>
+            <translation><!-- Dick Buss --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Doug Jones</masterLabel>
+            <translation><!-- Doug Jones --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frontier</masterLabel>
+            <translation><!-- Frontier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICS/Keefe</masterLabel>
+            <translation><!-- ICS/Keefe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IES</masterLabel>
+            <translation><!-- IES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Indigital</masterLabel>
+            <translation><!-- Indigital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JMB</masterLabel>
+            <translation><!-- JMB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jerry Skinner</masterLabel>
+            <translation><!-- Jerry Skinner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>King Carter</masterLabel>
+            <translation><!-- King Carter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Michael Davis</masterLabel>
+            <translation><!-- Michael Davis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NONE</masterLabel>
+            <translation><!-- NONE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Salesgroup</masterLabel>
+            <translation><!-- Salesgroup --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spok</masterLabel>
+            <translation><!-- Spok --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tommie Lopez</masterLabel>
+            <translation><!-- Tommie Lopez --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valence</masterLabel>
+            <translation><!-- Valence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vsigner</masterLabel>
+            <translation><!-- Vsigner --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- xRelationship Quality w/the Key contact? --></label>
+        <name>Relationship_Quality_w_the_Key_contact__c</name>
+        <picklistValues>
+            <masterLabel>No Relationship</masterLabel>
+            <translation><!-- No Relationship --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not in Good Standing</masterLabel>
+            <translation><!-- Not in Good Standing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seen as Partner/Trusted Advisor</masterLabel>
+            <translation><!-- Seen as Partner/Trusted Advisor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seen as Preferred Supplier</masterLabel>
+            <translation><!-- Seen as Preferred Supplier --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Seen as a Viable Option</masterLabel>
+            <translation><!-- Seen as a Viable Option --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Required Products --></label>
+        <name>Required_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Return to Approval Step --></label>
+        <name>Return_to_Approval_Step__c</name>
+        <picklistValues>
+            <masterLabel>Return to Step 1</masterLabel>
+            <translation><!-- Return to Step 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 10</masterLabel>
+            <translation><!-- Return to Step 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 11</masterLabel>
+            <translation><!-- Return to Step 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 12</masterLabel>
+            <translation><!-- Return to Step 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 13</masterLabel>
+            <translation><!-- Return to Step 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 14</masterLabel>
+            <translation><!-- Return to Step 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 15</masterLabel>
+            <translation><!-- Return to Step 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 16</masterLabel>
+            <translation><!-- Return to Step 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 17</masterLabel>
+            <translation><!-- Return to Step 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 18</masterLabel>
+            <translation><!-- Return to Step 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 19</masterLabel>
+            <translation><!-- Return to Step 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 2</masterLabel>
+            <translation><!-- Return to Step 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 20</masterLabel>
+            <translation><!-- Return to Step 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 21</masterLabel>
+            <translation><!-- Return to Step 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 22</masterLabel>
+            <translation><!-- Return to Step 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 23</masterLabel>
+            <translation><!-- Return to Step 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 24</masterLabel>
+            <translation><!-- Return to Step 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 25</masterLabel>
+            <translation><!-- Return to Step 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 26</masterLabel>
+            <translation><!-- Return to Step 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 27</masterLabel>
+            <translation><!-- Return to Step 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 28</masterLabel>
+            <translation><!-- Return to Step 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 29</masterLabel>
+            <translation><!-- Return to Step 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 3</masterLabel>
+            <translation><!-- Return to Step 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 30</masterLabel>
+            <translation><!-- Return to Step 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 4</masterLabel>
+            <translation><!-- Return to Step 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 5</masterLabel>
+            <translation><!-- Return to Step 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 6</masterLabel>
+            <translation><!-- Return to Step 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 7</masterLabel>
+            <translation><!-- Return to Step 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 8</masterLabel>
+            <translation><!-- Return to Step 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Return to Step 9</masterLabel>
+            <translation><!-- Return to Step 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- SAR Meeting Required --></label>
+        <name>SAR_Meeting_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Number --></label>
+        <name>Sales_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected - Director Approved --></label>
+        <name>Selected_Director_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected - VP Approved --></label>
+        <name>Selected_VP_Approved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selection Date --></label>
+        <name>Selection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Population Tier --></label>
+        <name>Service_Population_Tier__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To City --></label>
+        <name>Ship_To_City__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Country --></label>
+        <name>Ship_To_Country__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To State --></label>
+        <name>Ship_To_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Street --></label>
+        <name>Ship_To_Street__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Zip --></label>
+        <name>Ship_To_Zip__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shortlisted Date --></label>
+        <name>Shortlisted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Definition Review Date --></label>
+        <name>Solutions_Definition_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Source of Shortlist Announcement --></label>
+        <name>Source_of_Shortlist_Announcement__c</name>
+        <picklistValues>
+            <masterLabel>E-mail</masterLabel>
+            <translation><!-- E-mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter</masterLabel>
+            <translation><!-- Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verbal</masterLabel>
+            <translation><!-- Verbal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source of budget information --></label>
+        <name>Source_of_budget_information__c</name>
+        <picklistValues>
+            <masterLabel>CJIS</masterLabel>
+            <translation><!-- CJIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation><!-- Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Published</masterLabel>
+            <translation><!-- Published --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Split Opportunity Owner --></label>
+        <name>Split_Opportunity_Owner__c</name>
+        <relationshipLabel><!-- Opportunities (Split Opportunity Owner) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Stalled --></label>
+        <name>Stalled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription Term (Years) --></label>
+        <name>Subscription_Term_Years__c</name>
+    </fields>
+    <fields>
+        <help><!-- Account Plan Created = 2 Points for Target Opportunity Scoring --></help>
+        <label><!-- Target Opp Scoring: Account Plan Created --></label>
+        <name>Target_Opp_Scoring_Account_Plan_Created__c</name>
+    </fields>
+    <fields>
+        <help><!-- Demo = 4 Points for Target Opportunity Scoring --></help>
+        <label><!-- Target Opp Scoring: Demo --></label>
+        <name>Target_Opp_Scoring_Demo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Meeting In Person = 2 Points for Target Opportunity Scoring --></help>
+        <label><!-- Target Opp Scoring: Meeting In Person --></label>
+        <name>Target_Opp_Scoring_Meeting_In_Person__c</name>
+    </fields>
+    <fields>
+        <help><!-- Quote Created = 2 Points for Target Opportunity Scoring --></help>
+        <label><!-- Target Opp Scoring: Quote Created --></label>
+        <name>Target_Opp_Scoring_Quote_Created__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Opportunity Paid --></label>
+        <name>Target_Opportunity_Paid__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculates the score based on the four Target Opp Scoring checkbox fields --></help>
+        <label><!-- Target Opportunity Score --></label>
+        <name>Target_Opportunity_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box if opportunity/account has been deemed a target by Management. --></help>
+        <label><!-- Target Opportunity --></label>
+        <name>Target_Opportunity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Calculated tax amount from the associated quote for this opportunity. --></help>
+        <label><!-- Tax --></label>
+        <name>Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party GM --></label>
+        <name>Third_Party_GM__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Custom Solution --></label>
+        <name>Total_Custom_Solution__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hardware --></label>
+        <name>Total_Hardware__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Implementation Service Fees --></label>
+        <name>Total_Implementation_Service_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Maintenance --></label>
+        <name>Total_Maintenance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Project Related Fees --></label>
+        <name>Total_Project_Related_Fees__c</name>
+    </fields>
+    <fields>
+        <help><!-- After quote sync, the Total Quoted Amount listed includes SW, HW, Services, Custom Products, Third Party Products or Services, Recurring Fees, Shipping and Fixed Fee Travel Costs if applicable.  Maintenance is included for Existing Business quotes. --></help>
+        <label><!-- Total Quoted Amount --></label>
+        <name>Total_Quoted_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Recurring Fees --></label>
+        <name>Total_Recurring_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Software --></label>
+        <name>Total_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total T and E Amount --></label>
+        <name>Total_T_and_E_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Third Party --></label>
+        <name>Total_Third_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Selected? --></label>
+        <name>TriTech_Selected__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TriTech Shortlisted? --></label>
+        <name>TriTech_Shortlisted__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Source of Selection Announcement --></label>
+        <name>Type_of_Selection__c</name>
+        <picklistValues>
+            <masterLabel>E-mail</masterLabel>
+            <translation><!-- E-mail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Letter</masterLabel>
+            <translation><!-- Letter --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Verbal</masterLabel>
+            <translation><!-- Verbal --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Weighted amount =Actual Opportunity Value x Probability --></help>
+        <label><!-- Weighted Opportunity Value --></label>
+        <name>Weighted_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- xWhat is TriTech’s competitive position? --></label>
+        <name>What_is_TriTech_s_competitive_position__c</name>
+        <picklistValues>
+            <masterLabel>It’s an Open Market</masterLabel>
+            <translation><!-- It’s an Open Market --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech Can Compete but Must Defend Position</masterLabel>
+            <translation><!-- TriTech Can Compete but Must Defend Position --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech Can Compete but They Need to Displace Competition</masterLabel>
+            <translation><!-- TriTech Can Compete but They Need to Displace Competition --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech Will Be Locked Out</masterLabel>
+            <translation><!-- TriTech Will Be Locked Out --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- xWhat is the potential deal size? --></label>
+        <name>What_is_the_potential_deal_size__c</name>
+        <picklistValues>
+            <masterLabel>$0 - $500K</masterLabel>
+            <translation><!-- $0 - $500K --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>$500K - $1 Million</masterLabel>
+            <translation><!-- $500K - $1 Million --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;$1 Million</masterLabel>
+            <translation><!-- &gt;$1 Million --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- xWhat is the purchasing structure? --></label>
+        <name>What_is_the_purchasing_structure__c</name>
+        <picklistValues>
+            <masterLabel>Committee</masterLabel>
+            <translation><!-- Committee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Individual Contributor</masterLabel>
+            <translation><!-- Individual Contributor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Procurement</masterLabel>
+            <translation><!-- Procurement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Kickoff Date --></label>
+        <name>Win_Strategy_PDP_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the deal was lost, list who TriTech lost the deal to --></help>
+        <label><!-- Winning Competitor --></label>
+        <name>Winning_Competitor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Expiration date = Quote Approved Final Date + 180 days. --></help>
+        <label><!-- 180 Day Expiration Date --></label>
+        <name>X180_Day_Expiration_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Yearly Fee --></label>
+        <name>Yearly_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- (AE) Have they seen the product? --></label>
+        <name>Z_AE_Have_they_seen_the_product__c</name>
+    </fields>
+    <fields>
+        <label><!-- (AE) What are our win themes? --></label>
+        <name>Z_AE_What_are_our_win_themes__c</name>
+    </fields>
+    <fields>
+        <label><!-- (AE) Who are the decision makers? --></label>
+        <name>Z_AE_Who_are_the_decision_makers__c</name>
+    </fields>
+    <fields>
+        <label><!-- (AE) # of visits --></label>
+        <name>Z_AE_of_visits__c</name>
+    </fields>
+    <fields>
+        <label><!-- Annual Hosting Fee --></label>
+        <name>Z_Annual_Hosting_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Date --></label>
+        <name>Z_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Are there product gaps? --></label>
+        <name>Z_Are_there_product_gaps__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD + 911 --></label>
+        <name>Z_CAD_911__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Advanced --></label>
+        <name>Z_CAD_Advanced__c</name>
+    </fields>
+    <fields>
+        <label><!-- COGS --></label>
+        <name>Z_COGS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Civil Advanced --></label>
+        <name>Z_Civil_Advanced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Close Date Notes --></label>
+        <name>Z_Close_Date_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Concurrent Users --></label>
+        <name>Z_Concurrent_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- Content creation notes --></label>
+        <name>Z_Content_creation_notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract concerns --></label>
+        <name>Z_Contract_concerns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Core State --></label>
+        <name>Z_Core_State__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Data Conversion --></label>
+        <name>Z_Data_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Affiliate Form Signed --></label>
+        <name>Z_Date_Affiliate_Form_Signed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision Comments --></label>
+        <name>Z_Decision_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Decision? --></label>
+        <name>Z_Decision__c</name>
+        <picklistValues>
+            <masterLabel>Go</masterLabel>
+            <translation><!-- Go --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Go</masterLabel>
+            <translation><!-- No Go --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If the discount is more complicated than just a straight percentage, make notes to explain here. --></help>
+        <label><!-- Discount Notes --></label>
+        <name>Z_Discount_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do we have to be on state contract? --></label>
+        <name>Z_Do_we_have_to_be_on_state_contract__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Due Date --></label>
+        <name>Z_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Expected RFP Release Date --></label>
+        <name>Z_Expected_RFP_Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Financial Advanced --></label>
+        <name>Z_Financial_Advanced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Z Forecast Category --></label>
+        <name>Z_Forecast_Category__c</name>
+        <picklistValues>
+            <masterLabel>Best Case</masterLabel>
+            <translation><!-- Best Case --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commit</masterLabel>
+            <translation><!-- Commit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omitted</masterLabel>
+            <translation><!-- Omitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pipeline</masterLabel>
+            <translation><!-- Pipeline --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GIS Conversion --></label>
+        <name>Z_GIS_Conversion__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware --></label>
+        <name>Z_Hardware__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interface Hours --></label>
+        <name>Z_Interface_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interfaces Required --></label>
+        <name>Z_Interfaces_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interfaces (#) --></label>
+        <name>Z_Interfaces__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jail Advanced --></label>
+        <name>Z_Jail_Advanced__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter maintenance percentage discount here --></help>
+        <label><!-- Maintenance Discount --></label>
+        <name>Z_Maintenance_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Meet reference requirements? --></label>
+        <name>Z_Meet_reference_requirements__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Migration Discount --></label>
+        <name>Z_Migration_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Modules --></label>
+        <name>Z_Modules__c</name>
+        <picklistValues>
+            <masterLabel>911 Consulting</masterLabel>
+            <translation><!-- 911 Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Accident Reporting (Extend)</masterLabel>
+            <translation><!-- Accident Reporting (Extend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administration</masterLabel>
+            <translation><!-- Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBR (Extend)</masterLabel>
+            <translation><!-- FBR (Extend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Financial</masterLabel>
+            <translation><!-- Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS Services</masterLabel>
+            <translation><!-- GIS Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight AVL</masterLabel>
+            <translation><!-- Insight AVL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight Dispatch</masterLabel>
+            <translation><!-- Insight Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Insight Mobile</masterLabel>
+            <translation><!-- Insight Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail Extend</masterLabel>
+            <translation><!-- Jail Extend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LETG Add On</masterLabel>
+            <translation><!-- LETG Add On --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LETG eCitations</masterLabel>
+            <translation><!-- LETG eCitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapping (Zuercher)</masterLabel>
+            <translation><!-- Mapping (Zuercher) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Courts</masterLabel>
+            <translation><!-- Municipal Courts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal</masterLabel>
+            <translation><!-- Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property &amp; Evidence (Extend)</masterLabel>
+            <translation><!-- Property &amp; Evidence (Extend) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prosecution</masterLabel>
+            <translation><!-- Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Records</masterLabel>
+            <translation><!-- Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eCitations (Extend)</masterLabel>
+            <translation><!-- eCitations (Extend) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Municipal Courts Advanced --></label>
+        <name>Z_Municipal_Courts_Advanced__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCIC Notes --></label>
+        <name>Z_NCIC_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCIC Quote Requested --></label>
+        <name>Z_NCIC_Quote_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- NCIC? --></label>
+        <name>Z_NCIC__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Agencies --></label>
+        <name>Z_Other_Agencies__c</name>
+    </fields>
+    <fields>
+        <label><!-- Personnel Advanced --></label>
+        <name>Z_Personnel_Advanced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prepaid Maintenance --></label>
+        <name>Z_Pre_Paid_Maintenance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Enhancement Hours --></label>
+        <name>Z_Product_Enhancement_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Enhancements Required --></label>
+        <name>Z_Product_Enhancements_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Experts --></label>
+        <name>Z_Product_Experts__c</name>
+        <picklistValues>
+            <masterLabel>Adam Ormesher</masterLabel>
+            <translation><!-- Adam Ormesher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bob Woodraska</masterLabel>
+            <translation><!-- Bob Woodraska --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Baartman</masterLabel>
+            <translation><!-- Bruce Baartman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corey Blauwet</masterLabel>
+            <translation><!-- Corey Blauwet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eric Wisherd</masterLabel>
+            <translation><!-- Eric Wisherd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gary Loflin</masterLabel>
+            <translation><!-- Gary Loflin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greg Hannah</masterLabel>
+            <translation><!-- Greg Hannah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kristin Clark</masterLabel>
+            <translation><!-- Kristin Clark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Marcus Edington</masterLabel>
+            <translation><!-- Marcus Edington --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Peder Lunde</masterLabel>
+            <translation><!-- Peder Lunde --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perri McPhee</masterLabel>
+            <translation><!-- Perri McPhee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trevor Kjellsen</masterLabel>
+            <translation><!-- Trevor Kjellsen --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Project timeline concerns --></label>
+        <name>Z_Project_timeline_concerns__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Notes --></label>
+        <name>Z_RFP_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Required --></label>
+        <name>Z_RFP_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFP timeline concerns --></label>
+        <name>Z_RFP_timeline_concerns__c</name>
+    </fields>
+    <fields>
+        <label><!-- Records Advanced --></label>
+        <name>Z_Records_Advanced__c</name>
+    </fields>
+    <fields>
+        <label><!-- Recurring COGS --></label>
+        <name>Z_Recurring_COGS__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOW Complete --></label>
+        <name>Z_SOW_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Server Cost --></label>
+        <name>Z_Server_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Server Type --></label>
+        <name>Z_Server_Type__c</name>
+        <picklistValues>
+            <masterLabel>Rack</masterLabel>
+            <translation><!-- Rack --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tower</masterLabel>
+            <translation><!-- Tower --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Services --></label>
+        <name>Z_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Short Term Holding Only --></label>
+        <name>Z_Short_Term_Holding_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Signatory --></label>
+        <name>Z_Signatory__c</name>
+        <relationshipLabel><!-- Opportunities (Signatory) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Enter discount percentage here --></help>
+        <label><!-- Software Discount --></label>
+        <name>Z_Software_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software --></label>
+        <name>Z_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Maintenance Terms --></label>
+        <name>Z_Special_Maintenance_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Payment Terms --></label>
+        <name>Z_Special_Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- State-Specific things needed? --></label>
+        <name>Z_State_Specific_things_needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscriptions (Year 1) --></label>
+        <name>Z_Subscription_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary --></label>
+        <name>Z_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sys Ops Notes --></label>
+        <name>Z_Sys_Ops_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total --></label>
+        <name>Z_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Days (#) --></label>
+        <name>Z_Training_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance (Year 1) --></label>
+        <name>Z_Year_1_Maintenance__c</name>
+    </fields>
+    <fields>
+        <label><!-- ZT Spec Provided --></label>
+        <name>Z_ZT_Spec_Provided__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Syncs from Endeavor as a replacement actual opportunity value on specific Respond Quotes only. --></help>
+        <label><!-- Alternate Opp Value --></label>
+        <name>alternate_opp_value__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Authorized Users --></label>
+        <name>of_Authorized_Users__c</name>
+    </fields>
+    <fields>
+        <label><!-- step --></label>
+        <name>step__c</name>
+    </fields>
+    <layouts>
+        <layout>ADMIN Sales Opportunity wQuote Info Page Layout</layout>
+        <sections>
+            <label><!-- Active Opportunity --></label>
+            <section>Active Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Admin Only - Merge Fields for Templates --></label>
+            <section>Admin Only - Merge Fields for Templates</section>
+        </sections>
+        <sections>
+            <label><!-- Close Date Validation --></label>
+            <section>Close Date Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Identified --></label>
+            <section>Opportunity Identified</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Information --></label>
+            <section>Quote Information</section>
+        </sections>
+        <sections>
+            <label><!-- Selected --></label>
+            <section>Selected</section>
+        </sections>
+        <sections>
+            <label><!-- Shortlisted --></label>
+            <section>Shortlisted</section>
+        </sections>
+        <sections>
+            <label><!-- Subscription Agreements --></label>
+            <section>Subscription Agreements</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Record Type - TriTech Change Order Opportunity</layout>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- QUOTE Information --></label>
+            <section>QUOTE Information</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Record Type - TriTech Competitive Sales Opportunity</layout>
+        <sections>
+            <label><!-- Active Opportunity --></label>
+            <section>Active Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Executive Summary --></label>
+            <section>Executive Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Identified --></label>
+            <section>Opportunity Identified</section>
+        </sections>
+        <sections>
+            <label><!-- QUOTE Information --></label>
+            <section>QUOTE Information</section>
+        </sections>
+        <sections>
+            <label><!-- Selected --></label>
+            <section>Selected</section>
+        </sections>
+        <sections>
+            <label><!-- Shortlisted --></label>
+            <section>Shortlisted</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Record Type - TriTech Non-Competitive Sales Opportunity</layout>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Executive Summary --></label>
+            <section>Executive Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Identified --></label>
+            <section>Opportunity Identified</section>
+        </sections>
+        <sections>
+            <label><!-- QUOTE Information --></label>
+            <section>QUOTE Information</section>
+        </sections>
+        <sections>
+            <label><!-- Selected --></label>
+            <section>Selected</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Record Type - Zuercher Change Order Opportunity</layout>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Executive Summary --></label>
+            <section>Executive Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Product Details --></label>
+            <section>Product Details</section>
+        </sections>
+        <sections>
+            <label><!-- Projection Details --></label>
+            <section>Projection Details</section>
+        </sections>
+        <sections>
+            <label><!-- QUOTE Information --></label>
+            <section>QUOTE Information</section>
+        </sections>
+        <sections>
+            <label><!-- Services &amp; NCIC --></label>
+            <section>Services &amp; NCIC</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Record Type - Zuercher Competitive Sales Opportunity</layout>
+        <sections>
+            <label><!-- Active Opportunity --></label>
+            <section>Active Opportunity</section>
+        </sections>
+        <sections>
+            <label><!-- Close Date Validation --></label>
+            <section>Close Date Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Executive Summary --></label>
+            <section>Executive Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Identified --></label>
+            <section>Opportunity Identified</section>
+        </sections>
+        <sections>
+            <label><!-- Procurement --></label>
+            <section>Procurement</section>
+        </sections>
+        <sections>
+            <label><!-- Product Details --></label>
+            <section>Product Details</section>
+        </sections>
+        <sections>
+            <label><!-- Projection Details --></label>
+            <section>Projection Details</section>
+        </sections>
+        <sections>
+            <label><!-- QUOTE Information --></label>
+            <section>QUOTE Information</section>
+        </sections>
+        <sections>
+            <label><!-- RFP Go/No Go --></label>
+            <section>RFP Go/No Go</section>
+        </sections>
+        <sections>
+            <label><!-- Services &amp; NCIC --></label>
+            <section>Services &amp; NCIC</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Record Type - Zuercher Non-Competitive Sales Opportunity</layout>
+        <sections>
+            <label><!-- Close Date Validation --></label>
+            <section>Close Date Validation</section>
+        </sections>
+        <sections>
+            <label><!-- Closed --></label>
+            <section>Closed</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Executive Summary --></label>
+            <section>Executive Summary</section>
+        </sections>
+        <sections>
+            <label><!-- Funding --></label>
+            <section>Funding</section>
+        </sections>
+        <sections>
+            <label><!-- Product Details --></label>
+            <section>Product Details</section>
+        </sections>
+        <sections>
+            <label><!-- Projection Details --></label>
+            <section>Projection Details</section>
+        </sections>
+        <sections>
+            <label><!-- QUOTE Information --></label>
+            <section>QUOTE Information</section>
+        </sections>
+        <sections>
+            <label><!-- Services &amp; NCIC --></label>
+            <section>Services &amp; NCIC</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- TriTech Change Order --></label>
+        <name>TriTech_Change_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TriTech Competitive --></label>
+        <name>TriTech_Competitive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- TriTech Non-Competitive --></label>
+        <name>TriTech_Non_Competitive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zuercher Change Order --></label>
+        <name>Zuercher_Change_Order</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zuercher Competitive --></label>
+        <name>Zuercher_Competitive</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zuercher Non-Competitive --></label>
+        <name>Zuercher_Non_Competitive</name>
+    </recordTypes>
+    <validationRules>
+        <errorMessage><!-- Only members of the Accounting Team can move an Opportunity into the Booked stage.  Please contact Accounting if you need assistance. --></errorMessage>
+        <name>Alter_Booked_Date</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Booked, Booked Value must be completed --></errorMessage>
+        <name>Booked_Value_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The sum of &quot;Close Date Confidence-Current Close Date,&quot; &quot;Close Date Confidence-Next Month,&quot; and &quot;Close Date Confidence-Following Month&quot; must equal 100%. --></errorMessage>
+        <name>Close_Date_Confidence_Total_Must_Equal_1</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Closed Won, Comments - Reason TriTech Won must be completed. --></errorMessage>
+        <name>Comments_Reason_TriTech_Won_Must_Be_Comp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- This field can only be updated from the Quoting Tool. --></errorMessage>
+        <name>Commisionable_Value_Update</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Closed Won or Closed Lost, then Competitors must be completed. --></errorMessage>
+        <name>Competitors_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Closed Won or Closed Lost, then Incumbent to be Replaced must be completed. --></errorMessage>
+        <name>Incumbent_to_be_Replaced_Must_Be_Complet</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inform Only:  When the Opportunity stage = &quot;Closed Lost&quot; then the &quot;Lost Reason Comments&quot; field must be filled out. --></errorMessage>
+        <name>Lost_Reason_Comments_Must_be_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When the Opportunity stage = &quot;Closed Lost&quot; then the &quot;Lost Reason&quot; field must be filled out. --></errorMessage>
+        <name>Lost_Reason_Must_be_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Active Opportunity, then Max Probability % entered cannot be &gt; 50% or less than 5% --></errorMessage>
+        <name>Opportunity_Probability_Active_Opp</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Evaluation, then Max Probability % entered cannot be &gt;70% or less than 5% --></errorMessage>
+        <name>Opportunity_Probability_Evaluation</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Opportunity Identified, then Max Probability % entered cannot be &gt; 30% and cannot be less than 5% --></errorMessage>
+        <name>Opportunity_Probability_OppIdent</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Procurement, then Max Probability % entered cannot be &gt;60% or less than 5% --></errorMessage>
+        <name>Opportunity_Probability_Procurement</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Selected, then Max Probability % entered must be 95% --></errorMessage>
+        <name>Opportunity_Probability_Selected</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stage = Shortlisted, then Max Probability % entered cannot be &gt;80% or less than 5% --></errorMessage>
+        <name>Opportunity_Probability_Shortlisted</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Inform Only:  When Stage = Active or beyond, then Product(s) Required must be completed. --></errorMessage>
+        <name>Products_Required_Must_be_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Closed Won, Reason TriTech Won must be completed --></errorMessage>
+        <name>Reason_TriTech_Won_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When the Opportunity stage = &quot;Closed Lost - No Bid&quot; then the &quot;No Bid Reason&quot; field must be filled out. --></errorMessage>
+        <name>Required_for_Stage_Closed_Lost_No_Bid</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When the Opportunity stage = &quot;Closed Lost - Other&quot; then the &quot;Closed - Other Reason&quot; field must be filled out. --></errorMessage>
+        <name>Required_for_Stage_Closed_Lost_Other</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Opportunity ownership transfer is restricted; please review the ownership change with your manager. --></errorMessage>
+        <name>Restriction_from_transfering_ownership</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selected - Director Approved field can only be entered by Sales Management --></errorMessage>
+        <name>Sales_Management_Dir_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Contract Capture Manager field can only be entered by Sales Management --></errorMessage>
+        <name>Sales_Management_Entry_Contract_Capture</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Selected - VP Approved field can only be entered by Sales Management --></errorMessage>
+        <name>Sales_Management_VP_Approved</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When RMS is selected in the &quot;Product(s) Required&quot; field, this question must be completed. --></errorMessage>
+        <name>Select_if_RMS_is_included_in_Opportunity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Selected, Selection Date must be completed --></errorMessage>
+        <name>Selected_Date_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Closed Lost after being Shortlisted, Selection Date must be completed --></errorMessage>
+        <name>Selected_Date_Must_Be_Completed_After_SL</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Shortlisted, Shortlisted Date must be completed --></errorMessage>
+        <name>Shortlisted_Date_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Closed Lost, TriTech Selected must be &quot;No.&quot; --></errorMessage>
+        <name>TriTech_Selected_Must_Be_No</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When Stage = Selected, TriTech Selected must be &quot;Yes.&quot; --></errorMessage>
+        <name>TriTech_Selected_Must_Be_Yes</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- When the Opportunity stage = &quot;Closed Lost&quot; then the &quot;Winning Competitor&quot; field must be filled out. --></errorMessage>
+        <name>Winning_Competitor_Must_be_completed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Agency_Profile --></label>
+        <name>Agency_Profile</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Assets --></label>
+        <name>Create_Assets</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Create_Change_Order --></label>
+        <name>Create_Change_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EndeavorCPQ_Generate_Proposal_Dev --></label>
+        <name>EndeavorCPQ_Generate_Proposal_Dev</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- EndeavorCPQ_UT --></label>
+        <name>EndeavorCPQ_UT</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export_Excel_DEV --></label>
+        <name>Export_Excel_DEV</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export_Excel_Stage --></label>
+        <name>Export_Excel_Stage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Export_Excel_UT --></label>
+        <name>Export_Excel_UT</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Exportxls --></label>
+        <name>Exportxls</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Proposal_UT --></label>
+        <name>Generate_Proposal_UT</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Proposal_workaround_11_25 --></label>
+        <name>Generate_Proposal_workaround_11_25</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Sales_Order --></label>
+        <name>Generate_Sales_Order</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Sales_Order_Stage --></label>
+        <name>Generate_Sales_Order_Stage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Proposal --></label>
+        <name>GuidedSelling__Generate_Proposal</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Proposal_Dev --></label>
+        <name>GuidedSelling__Generate_Proposal_Dev</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Generate_Proposal_Stage --></label>
+        <name>GuidedSelling__Generate_Proposal_Stage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Guided_Selling --></label>
+        <name>GuidedSelling__Guided_Selling</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Guided_Selling_Dev --></label>
+        <name>GuidedSelling__Guided_Selling_Dev</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Guided_Selling_Stage --></label>
+        <name>GuidedSelling__Guided_Selling_Stage</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Guided_Selling_Dev --></label>
+        <name>Guided_Selling_Dev</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- IQ_Subscription_Service_License_Use_Agreement --></label>
+        <name>IQ_Subscription_Service_License_Use_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- IQ_Subscription_Service_License_and_Use_Agreement_included_with_Purchase_Agreement --></label>
+        <name>IQ_Subscription_Service_License_and_Use_Agreement_included_with_Purchase_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Jose_CPQ_Special_Button --></label>
+        <name>Jose_CPQ_Special_Button</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_Export_Excel --></label>
+        <name>Test_Export_Excel</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Test_GenerateSalesOrder --></label>
+        <name>Test_GenerateSalesOrder</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- TriTech_com_Billing_ePCR_Online_Subscription_Agreement --></label>
+        <name>TriTech_com_Billing_ePCR_Online_Subscription_Agreement</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Winning_Dimensions --></label>
+        <name>Winning_Dimensions</name>
+    </webLinks>
+</CustomObjectTranslation>

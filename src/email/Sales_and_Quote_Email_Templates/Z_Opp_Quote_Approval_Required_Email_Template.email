@@ -1,0 +1,29 @@
+Hello,
+<br><br>
+
+The following quote requires your approval:
+<br><br>
+<b>Opportunity</b>: {!Opportunity.Name}
+<br>
+<b>Account</b>: {!Opportunity.Account}
+<br>
+<b>Primary Contact</b>: {!Opportunity.Contact__c}
+<br>
+<b>Total</b>: {!Opportunity.Z_Total__c}
+<br><br>
+<b>Software Discount</b>: {!Opportunity.Z_Software_Discount__c}%
+<br>
+<b>Maintenance Discount</b>: {!Opportunity.Z_Maintenance_Discount__c}%
+<br><br>
+<b>Special Payment Terms</b>: {!Opportunity.Z_Special_Payment_Terms__c}
+<br>
+<b>Special Maintenance Terms</b>: {!Opportunity.Z_Special_Maintenance_Terms__c}
+<br><br>
+Please approve it by clicking on the approval link below:
+ <br>
+{!ApprovalRequest.Internal_URL}
+ <br><br>
+Thank you,
+<br>{!Opportunity.OwnerFullName}<br><br>
+<br>
+To review the quote detail, click here: {!Opportunity.Link}

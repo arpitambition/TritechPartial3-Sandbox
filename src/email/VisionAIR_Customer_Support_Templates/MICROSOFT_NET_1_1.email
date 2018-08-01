@@ -1,0 +1,19 @@
+Dear {!Contact.Title} {!Contact.Name},
+<br/><br/>
+We are following-up on the error you receive when trying to navigate to records on a newly installed RMS workstation. Please check to see if .NET 1.1.4322 is installed on the workstation. The best way to do this is to make sure you see many files in the folder C:\WINDOWS\Microsoft.NET\Framework\v1.1.4322\ (should be over 100 files in there). .NET 1.1.4322 is a prerequisite for RMS 4.x and its absence can cause this error. 
+<br/>
+.NET 1.1.4322 can be downloaded using the link below: 
+<br/>
+http://download.microsoft.com/download/a/a/c/aac39226-8825-44ce-90e3-bf8203e74006/dotnetfx.exe
+<br/><br/>
+AGENCY: {!Account.Name}<br/>
+CUSTOMER: {!Contact.Name}<br/>
+PRODUCT: {!Case.Product} {!Case.Reported_Major_Version_WMP__c}<br/>
+ISSUE SUMMARY: {!Case.Subject}
+<br/><br/>
+Please contact TriTech Customer Service at 1-800-987-0911  option 2, referencing your ticket number, to let us know if these steps resolve the error or if we can be of further assistance on this issue.
+<br/><br/>
+ Sincere Regards,
+<br/>
+TriTech Customer Service<br/>
+800-987-0911 Option 2

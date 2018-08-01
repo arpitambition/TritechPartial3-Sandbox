@@ -1,0 +1,20 @@
+Please process the necessary information and complete the proposal request form for the following:
+
+Proposal Request #: {!Pricing_Request_Form__c.Name}
+Requested By:  {!Pricing_Request_Form__c.OwnerFullName}
+
+Agency: {!Pricing_Request_Form__c.Account__c}
+Contact: {!Pricing_Request_Form__c.Contact__c}
+
+Date of Request: {!Pricing_Request_Form__c.Date_of_Request__c}
+Needed By Date: {!Pricing_Request_Form__c.Needed_by_Date__c}
+
+What is Needed? {!Pricing_Request_Form__c.Z_What_is_Needed__c}
+
+Letter Information: {!Pricing_Request_Form__c.Z_Letter_Information__c}
+
+References Required: {!Pricing_Request_Form__c.Z_References_Required__c}
+
+Other Instructions: {!Pricing_Request_Form__c.Other_Details_Special_Instructions__c}
+
+Click this link to access the pricing request information: {!Pricing_Request_Form__c.Link}

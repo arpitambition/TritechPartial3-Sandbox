@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_Holiday-Greeting.Email</name>
+    <style>none</style>
+    <subject>Happy Holidays!</subject>
+    <textOnly>Warmest Holiday Wishes!
+Dear {{lead.First Name:default=Customer}},
+
+
+To view your e-card, please copy and paste this link into a browser window: http://my.customecards.net/tritech/index.php?cache=0</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

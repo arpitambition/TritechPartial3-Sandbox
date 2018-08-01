@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Allow Reset - Tech Tip.Invitation</name>
+    <style>none</style>
+    <subject>Imc Solutions Software Adjustment - Allow Reset of Case Numbers</subject>
+    <textOnly>December 13, 2011
+
+Imc Software End-of-Year Adjustment
+Allow Reset of Case Numbers
+
+Imc Software Users MUST make the following adjustments in their application prior to the New Year; this adjustment needs to be completed by someone who has Security rights to Department File Maintenance. With Allow Reset checked off, on December 31st at midnight, all case numbers will automatically reset back to the number “1” prefaced with the New Year. In other words, the next case number after 11-2245-AR on Dec. 31 at midnight will be 12-1-AR with no user intervention. After the New Year, go back into each module and uncheck Allow Reset.
+
+Please download the step-by-step instructions here: http://www.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=100
+
+If you have questions, please contact your Imc Support Team at 800-788-0015 or IMCsupport@tritech.com
+
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS_CAMConnection_2011_August</name>
+    <style>none</style>
+    <subject>Introducing the New EMS CAM Connection August Newsletter</subject>
+    <textOnly>August 2011 Edition
+ 
+Welcome to our first edition of the TriTech Software Systems: CAM Connection for EMS Solutions. CAM stands for “Customer Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our EMS Solutions group. To keep current customers up-to-date with the most relevant information, we will be sending you this monthly newsletter. While your respective sales rep has not changed, their title has. Your CAM will continue to manage your account and communicate with you via email, phone and through this CAM Connection newsletter.   Feel free to let us know if you have suggestions on topics you would like to hear about.
+ 
+ 
+Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CAMConnection_2011_August_AlertsUpdates)
+ 
+ &gt; Power-Packed Fusion ePCR Version 6.1
+ &gt; Sneak Peak at Fusion ePCR Version 6.2
+ &gt; National HIPPA 5010 Testing Week
+ &gt; TriTech EMS Solutions Welcomes Larry Cole to the Sales Team
+ 
+ 
+Products &amp; Services (http://offers.tritech.com/EMS_CAMConnection_2011_August_ProductsServices)
+
+Free Monthly EMS Solutions Tips &apos;n Sips
+If you’ve never signed up for our online dialog sessions with “Coffee with Kelly,” do it now and help maximize the use of your Sweet-Billing and Fusion ePCR products.
+ 
+ 
+Technical Support Hot Topics (http://offers.tritech.com/EMS_CAMConnection_2011_August_TechnicalSupportHotTopics)
+ 
+ &gt; Upcoming Sweet-Billing Software Group Trainings
+ 
+ &gt; TriCON: Top 3 Reasons to Come to TriCON
+
+We understand that many travel and training budgets have been slashed; which means that regardless of the merits of a conference, you’ll probably need to justify the expense.  We’ve gathered the top three value/benefits for attending TriCON. Read More...
+ 
+ &gt; Handy Tools              
+ 
+ &gt; Main Page (http://offers.tritech.com/EMS_CAMConnection_2011_August_Main)
+ 
+ &gt; Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CAMConnection_2011_August_AlertsUpdates)
+ 
+ &gt; Products &amp; Services (http://offers.tritech.com/EMS_CAMConnection_2011_August_ProductsServices)
+ 
+ &gt; Technical Support Hot Topics (http://offers.tritech.com/EMS_CAMConnection_2011_August_TechinicalSupportHotTopics)
+ 
+ &gt; www.tritech.com
+ 
+ 
+ CAM CONTACTS
+Brenda Taylor
+ 800.537.3927 x6233
+ brenda.taylor@tritech.com
+ 
+Meredith Murphy
+ 800.537.3927 x6280
+ meredith.murphy@tritech.com
+ 
+Michele Duwe
+ 800.537.3927 x6261
+ michele.duwe@tritech.com
+    
+ 
+   
+ 
+ 
+ Register now for TriCON: 
+ TriTech&apos;s Annual User Conference
+
+ 
+ 
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

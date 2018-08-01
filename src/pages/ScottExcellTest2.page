@@ -1,0 +1,453 @@
+<apex:page id="pg" standardStylesheets="false" controller="ExcelExportController" readonly="true"
+    contenttype="application/vnd.ms-excel#TestExport_ScottTest.xls">
+{!xmlheader}
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Scott Key</Author>
+  <LastAuthor>Scott Key</LastAuthor>
+  <Created>2017-08-23T13:35:08Z</Created>
+  <LastSaved>2017-08-24T11:02:50Z</LastSaved>
+  <Version>15.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12420</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>0</WindowTopX>
+  <WindowTopY>0</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:Family="Swiss" ss:Size="11" ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s16">
+   <Interior ss:Color="#B7DEE8" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17">
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s17s">
+   <Alignment ss:Horizontal="Center"/>
+   <Interior ss:Color="#FFFF99" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s18">
+   <Interior ss:Color="#DDD9C4" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s23">
+   <Alignment ss:Vertical="Bottom"/>
+   <Interior ss:Color="#E6B8B7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s24">
+   <Alignment ss:Vertical="Bottom"/>
+   <Interior ss:Color="#8DB4E2" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s25">
+   <Alignment ss:Vertical="Bottom"/>
+   <Interior ss:Color="#B1A0C7" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s26">
+   <Alignment ss:Vertical="Bottom"/>
+   <Interior ss:Color="#C0504D" ss:Pattern="Solid"/>
+  </Style>
+  <Style ss:ID="s73">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+  </Style>
+ </Styles>
+ 
+ <Worksheet ss:Name="Sheet1">
+ <Names>
+    <NamedRange ss:Name="Director" ss:RefersTo="=Sheet1!R4C1:R{!SOlogsize}C1" />
+    <NamedRange ss:Name="Quote" ss:RefersTo="=Sheet1!R4C2:R{!SOlogsize}C2" />
+    <NamedRange ss:Name="SO" ss:RefersTo="=Sheet1!R4C3:R{!SOlogsize}C3" />
+    <NamedRange ss:Name="CO" ss:RefersTo="=Sheet1!R4C4:R{!SOlogsize}C4" />
+    <NamedRange ss:Name="Client" ss:RefersTo="=Sheet1!R4C5:R{!SOlogsize}C5" />
+    <NamedRange ss:Name="GPID" ss:RefersTo="=Sheet1!R4C6:R{!SOlogsize}C6" />
+    <NamedRange ss:Name="ProdType" ss:RefersTo="=Sheet1!R4C7:R{!SOlogsize}C7" />
+    <NamedRange ss:Name="NE" ss:RefersTo="=Sheet1!R4C8:R{!SOlogsize}C8" />
+    <NamedRange ss:Name="GSA" ss:RefersTo="=Sheet1!R4C9:R{!SOlogsize}C9" />
+    <NamedRange ss:Name="BookDate" ss:RefersTo="=Sheet1!R4C10:R{!SOlogsize}C10" />
+    <NamedRange ss:Name="SalesRep" ss:RefersTo="=Sheet1!R4C11:R{!SOlogsize}C11" />
+    <NamedRange ss:Name="CSL" ss:RefersTo="=Sheet1!R4C12:R{!SOlogsize}C12" />
+    <NamedRange ss:Name="PM" ss:RefersTo="=Sheet1!R4C13:R{!SOlogsize}C13" />
+    <NamedRange ss:Name="BookAmt" ss:RefersTo="=Sheet1!R4C14:R{!SOlogsize}C14" />
+    <NamedRange ss:Name="ContAmt" ss:RefersTo="=Sheet1!R4C15:R{!SOlogsize}C15" />
+    <NamedRange ss:Name="CAD" ss:RefersTo="=Sheet1!R4C16:R{!SOlogsize}C16" />
+    <NamedRange ss:Name="CADInt" ss:RefersTo="=Sheet1!R4C17:R{!SOlogsize}C17" />
+    <NamedRange ss:Name="RMSInt" ss:RefersTo="=Sheet1!R4C18:R{!SOlogsize}C18" />
+    <NamedRange ss:Name="Mobile" ss:RefersTo="=Sheet1!R4C19:R{!SOlogsize}C19" />
+    <NamedRange ss:Name="RMS" ss:RefersTo="=Sheet1!R4C20:R{!SOlogsize}C20" />
+    <NamedRange ss:Name="FBR" ss:RefersTo="=Sheet1!R4C21:R{!SOlogsize}C21" />
+    <NamedRange ss:Name="Jail" ss:RefersTo="=Sheet1!R4C22:R{!SOlogsize}C22" />
+    <NamedRange ss:Name="Fire" ss:RefersTo="=Sheet1!R4C23:R{!SOlogsize}C23" />
+    <NamedRange ss:Name="SoftSub" ss:RefersTo="=Sheet1!R4C24:R{!SOlogsize}C24" />
+    <NamedRange ss:Name="IQLic" ss:RefersTo="=Sheet1!R4C25:R{!SOlogsize}C25" />
+    <NamedRange ss:Name="Tele911" ss:RefersTo="=Sheet1!R4C26:R{!SOlogsize}C26" />
+    <NamedRange ss:Name="RMSSub" ss:RefersTo="=Sheet1!R4C27:R{!SOlogsize}C27" />
+    <NamedRange ss:Name="SoftSubtotal" ss:RefersTo="=Sheet1!R4C28:R{!SOlogsize}C28" />
+    <NamedRange ss:Name="SoftDis" ss:RefersTo="=Sheet1!R4C29:R{!SOlogsize}C29" />
+    <NamedRange ss:Name="SoftTotal" ss:RefersTo="=Sheet1!R4C30:R{!SOlogsize}C30" />
+    <NamedRange ss:Name="PandIServ" ss:RefersTo="=Sheet1!R4C31:R{!SOlogsize}C31" />
+    <NamedRange ss:Name="ISServ" ss:RefersTo="=Sheet1!R4C32:R{!SOlogsize}C32" />
+    <NamedRange ss:Name="TrainServ" ss:RefersTo="=Sheet1!R4C33:R{!SOlogsize}C33" />
+    <NamedRange ss:Name="PMServ" ss:RefersTo="=Sheet1!R4C34:R{!SOlogsize}C34" />
+    <NamedRange ss:Name="OtherServ" ss:RefersTo="=Sheet1!R4C35:R{!SOlogsize}C35" />
+    <NamedRange ss:Name="ServSub" ss:RefersTo="=Sheet1!R4C36:R{!SOlogsize}C36" />
+    <NamedRange ss:Name="ServDis" ss:RefersTo="=Sheet1!R4C37:R{!SOlogsize}C37" />
+    <NamedRange ss:Name="ServTotal" ss:RefersTo="=Sheet1!R4C38:R{!SOlogsize}C38" />
+    <NamedRange ss:Name="Hardware" ss:RefersTo="=Sheet1!R4C39:R{!SOlogsize}C39" />
+    <NamedRange ss:Name="HardSup" ss:RefersTo="=Sheet1!R4C40:R{!SOlogsize}C40" />
+    <NamedRange ss:Name="ThirdSoft" ss:RefersTo="=Sheet1!R4C41:R{!SOlogsize}C41" />
+    <NamedRange ss:Name="ThirdSup" ss:RefersTo="=Sheet1!R4C42:R{!SOlogsize}C42" />
+    <NamedRange ss:Name="Sub" ss:RefersTo="=Sheet1!R4C43:R{!SOlogsize}C43" />
+    <NamedRange ss:Name="SubSup" ss:RefersTo="=Sheet1!R4C44:R{!SOlogsize}C44" />
+    <NamedRange ss:Name="DV" ss:RefersTo="=Sheet1!R4C45:R{!SOlogsize}C45" />
+    <NamedRange ss:Name="SI" ss:RefersTo="=Sheet1!R4C46:R{!SOlogsize}C46" />
+    <NamedRange ss:Name="HardSub" ss:RefersTo="=Sheet1!R4C47:R{!SOlogsize}C47" />
+    <NamedRange ss:Name="HardDis" ss:RefersTo="=Sheet1!R4C48:R{!SOlogsize}C48" />
+    <NamedRange ss:Name="HardTotal" ss:RefersTo="=Sheet1!R4C49:R{!SOlogsize}C49" />
+    <NamedRange ss:Name="Shipping" ss:RefersTo="=Sheet1!R4C50:R{!SOlogsize}C50" />
+    <NamedRange ss:Name="Escrow" ss:RefersTo="=Sheet1!R4C51:R{!SOlogsize}C51" />
+    <NamedRange ss:Name="TriCon" ss:RefersTo="=Sheet1!R4C52:R{!SOlogsize}C52" />
+    <NamedRange ss:Name="Bonds" ss:RefersTo="=Sheet1!R4C53:R{!SOlogsize}C53" />
+    <NamedRange ss:Name="TravelFixed" ss:RefersTo="=Sheet1!R4C54:R{!SOlogsize}C54" />
+    <NamedRange ss:Name="TravelBAI" ss:RefersTo="=Sheet1!R4C55:R{!SOlogsize}C55" />
+    <NamedRange ss:Name="Other" ss:RefersTo="=Sheet1!R4C56:R{!SOlogsize}C56" />
+    <NamedRange ss:Name="DisOther" ss:RefersTo="=Sheet1!R4C57:R{!SOlogsize}C57" />
+    <NamedRange ss:Name="TotalOther" ss:RefersTo="=Sheet1!R4C58:R{!SOlogsize}C58" />
+    <NamedRange ss:Name="SoftSupport" ss:RefersTo="=Sheet1!R4C59:R{!SOlogsize}C59" />
+    <NamedRange ss:Name="PreMaint" ss:RefersTo="=Sheet1!R4C60:R{!SOlogsize}C60" />
+    <NamedRange ss:Name="Tax" ss:RefersTo="=Sheet1!R4C61:R{!SOlogsize}C61" />
+    <NamedRange ss:Name="OthDef" ss:RefersTo="=Sheet1!R4C62:R{!SOlogsize}C62" />
+    <NamedRange ss:Name="TriTechIQ" ss:RefersTo="=Sheet1!R4C63:R{!SOlogsize}C63" />
+    <NamedRange ss:Name="TriTechCont" ss:RefersTo="=Sheet1!R4C64:R{!SOlogsize}C64" />
+    <NamedRange ss:Name="TriTechCom" ss:RefersTo="=Sheet1!R4C65:R{!SOlogsize}C65" />
+    <NamedRange ss:Name="TriTechInst" ss:RefersTo="=Sheet1!R4C66:R{!SOlogsize}C66" />
+    <NamedRange ss:Name="TriTechTrain" ss:RefersTo="=Sheet1!R4C67:R{!SOlogsize}C67" />
+    <NamedRange ss:Name="TriTechDis" ss:RefersTo="=Sheet1!R4C68:R{!SOlogsize}C68" />
+    <NamedRange ss:Name="TriTechTotal" ss:RefersTo="=Sheet1!R4C69:R{!SOlogsize}C69" />
+    <NamedRange ss:Name="Retail" ss:RefersTo="=Sheet1!R4C70:R{!SOlogsize}C70" />
+    <NamedRange ss:Name="MO" ss:RefersTo="=Sheet1!R4C71:R{!SOlogsize}C71" />
+    <NamedRange ss:Name="ArcGISRT" ss:RefersTo="=Sheet1!R4C72:R{!SOlogsize}C72" />
+    <NamedRange ss:Name="MOUpgrade" ss:RefersTo="=Sheet1!R4C73:R{!SOlogsize}C73" />
+    <NamedRange ss:Name="NEField" ss:RefersTo="=Sheet1!R4C74:R{!SOlogsize}C74" />
+    <NamedRange ss:Name="ArcGISEng" ss:RefersTo="=Sheet1!R4C75:R{!SOlogsize}C75" />
+    <NamedRange ss:Name="ArcGISServ" ss:RefersTo="=Sheet1!R4C76:R{!SOlogsize}C76" />
+    <NamedRange ss:Name="Dundas" ss:RefersTo="=Sheet1!R4C77:R{!SOlogsize}C77" />
+    <NamedRange ss:Name="PossAss" ss:RefersTo="=Sheet1!R4C78:R{!SOlogsize}C78" />
+    <NamedRange ss:Name="ESRI" ss:RefersTo="=Sheet1!R4C79:R{!SOlogsize}C79" />
+    <NamedRange ss:Name="CostWSOther" ss:RefersTo="=Sheet1!R4C80:R{!SOlogsize}C80" />
+    <NamedRange ss:Name="TotalCost" ss:RefersTo="=Sheet1!R4C81:R{!SOlogsize}C81" />
+    <NamedRange ss:Name="Notes" ss:RefersTo="=Sheet1!R4C82:R{!SOlogsize}C82" />
+    <NamedRange ss:Name="Comm" ss:RefersTo="=Sheet1!R4C83:R{!SOlogsize}C83" />
+    <NamedRange ss:Name="Compete" ss:RefersTo="=Sheet1!R4C84:R{!SOlogsize}C84" /> 
+ </Names>
+  <Table ss:ExpandedColumnCount="88" ss:ExpandedRowCount="{!SOlogsize + 20}" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:Index="6" ss:AutoFitWidth="0" ss:Width="123.75"/>
+   <Column ss:Index="8" ss:AutoFitWidth="0" ss:Width="69"/>
+   <Row>
+    <Cell ss:Index="29"><Data ss:Type="String">SW - 80%</Data></Cell>
+   </Row>
+   <Row>
+    <Cell ss:Index="16" ss:MergeAcross="14" ss:StyleID="s24"><Data ss:Type="String">Software Licenses (perpetual)</Data></Cell>
+    <Cell ss:MergeAcross="7" ss:StyleID="s23"><Data ss:Type="String">Services</Data></Cell>
+    <Cell ss:MergeAcross="19" ss:StyleID="s25"><Data ss:Type="String">Other</Data></Cell>
+    <Cell ss:StyleID="s16"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s26"><Data ss:Type="String">Non Booking Items</Data></Cell>
+    <Cell ss:MergeAcross="6" ss:StyleID="s25"><Data ss:Type="String">TriTech.Com Hosting</Data></Cell>
+    <Cell ss:StyleID="s17"/>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">40</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">71</Data></Cell>
+    <Cell ss:StyleID="s18"><Data ss:Type="Number">80</Data></Cell>
+    <Cell ss:StyleID="s18"/>
+    <Cell ss:MergeAcross="2" ss:StyleID="s23"><Data ss:Type="String">Embedded Costs</Data></Cell>
+   </Row>
+   <Row ss:Height="90" ss:StyleID="s73">
+    <Cell><Data ss:Type="String">Director</Data></Cell>
+    <Cell><Data ss:Type="String">Quote #</Data></Cell>
+    <Cell><Data ss:Type="String">S/O</Data></Cell>
+    <Cell><Data ss:Type="String">C/O</Data></Cell>
+    <Cell><Data ss:Type="String">Client</Data></Cell>
+    <Cell><Data ss:Type="String">GP Cust ID</Data></Cell>
+    <Cell><Data ss:Type="String">Product Type</Data></Cell>
+    <Cell><Data ss:Type="String">N/E</Data></Cell>
+    <Cell><Data ss:Type="String">GSA CA State</Data></Cell>
+    <Cell><Data ss:Type="String">Bookings Date</Data></Cell>
+    <Cell><Data ss:Type="String">Sales Rep</Data></Cell>
+    <Cell><Data ss:Type="String">CSL</Data></Cell>
+    <Cell><Data ss:Type="String">Project Manager</Data></Cell>
+    <Cell><Data ss:Type="String">Inform Bookings Amount</Data></Cell>
+    <Cell><Data ss:Type="String">Total Contract Amount</Data></Cell>
+    <Cell><Data ss:Type="String">CAD</Data></Cell>
+    <Cell><Data ss:Type="String">Interface CAD/Mobile</Data></Cell>
+    <Cell><Data ss:Type="String">Interface RMS/FBR/Jail</Data></Cell>
+    <Cell><Data ss:Type="String">Mobile</Data></Cell>
+    <Cell><Data ss:Type="String">RMS</Data></Cell>
+    <Cell><Data ss:Type="String">FBR</Data></Cell>
+    <Cell><Data ss:Type="String">Jail</Data></Cell>
+    <Cell><Data ss:Type="String">Fire</Data></Cell>
+    <Cell><Data ss:Type="String">Software Subscription (On Prem)</Data></Cell>
+    <Cell><Data ss:Type="String">IQ Licenses</Data></Cell>
+    <Cell><Data ss:Type="String">Telephony 911</Data></Cell>
+    <Cell><Data ss:Type="String">Subscr RMS/FBR</Data></Cell>
+    <Cell><Data ss:Type="String">Software Subtotal</Data></Cell>
+    <Cell><Data ss:Type="String">Software Discounts</Data></Cell>
+    <Cell><Data ss:Type="String">Software Total</Data></Cell>
+    <Cell><Data ss:Type="String">Project and Installation Services</Data></Cell>
+    <Cell><Data ss:Type="String">Integrated Solutions Services</Data></Cell>
+    <Cell><Data ss:Type="String">Training Services</Data></Cell>
+    <Cell><Data ss:Type="String">PM Services</Data></Cell>
+    <Cell><Data ss:Type="String">Other Service Revenue</Data></Cell>
+    <Cell><Data ss:Type="String">Services Subtotal</Data></Cell>
+    <Cell><Data ss:Type="String">Tritech Services Discounts</Data></Cell>
+    <Cell><Data ss:Type="String">Tritech Services Total</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware/3rd Party</Data></Cell>
+    <Cell><Data ss:Type="String">Hardware/3rd Party Support</Data></Cell>
+    <Cell><Data ss:Type="String">3rd Party Software</Data></Cell>
+    <Cell><Data ss:Type="String">3rd Party Support</Data></Cell>
+    <Cell><Data ss:Type="String">Subcontract</Data></Cell>
+    <Cell><Data ss:Type="String">Subcontract Support</Data></Cell>
+    <Cell><Data ss:Type="String">DataVault Subscription</Data></Cell>
+    <Cell><Data ss:Type="String">System Integration</Data></Cell>
+    <Cell><Data ss:Type="String">HW/ 3rd Party Subtotal</Data></Cell>
+    <Cell><Data ss:Type="String">HW/ 3rd Party Discounts</Data></Cell>
+    <Cell><Data ss:Type="String">HW/ 3rd Party Total</Data></Cell>
+    <Cell><Data ss:Type="String">Shipping</Data></Cell>
+    <Cell><Data ss:Type="String">Escrow</Data></Cell>
+    <Cell><Data ss:Type="String">TriCon fees</Data></Cell>
+    <Cell><Data ss:Type="String">Bonds &amp; L/C</Data></Cell>
+    <Cell><Data ss:Type="String">Travel - Fixed</Data></Cell>
+    <Cell><Data ss:Type="String">Travel - BAI</Data></Cell>
+    <Cell><Data ss:Type="String">Other</Data></Cell>
+    <Cell><Data ss:Type="String">Discount Other</Data></Cell>
+    <Cell><Data ss:Type="String">Total Other</Data></Cell>
+    <Cell><Data ss:Type="String">Software Support</Data></Cell>
+    <Cell><Data ss:Type="String">Prepaid Maintenace Pool</Data></Cell>
+    <Cell><Data ss:Type="String">Sales Tax</Data></Cell>
+    <Cell><Data ss:Type="String">Other Deferred Revenue</Data></Cell>
+    <Cell><Data ss:Type="String">tritech.Com IQ-Hosting</Data></Cell>
+    <Cell><Data ss:Type="String">Multi-Year Contract &gt; 2 Years</Data></Cell>
+    <Cell><Data ss:Type="String">tritech.com Other</Data></Cell>
+    <Cell><Data ss:Type="String">tritech.Com Project and Installation</Data></Cell>
+    <Cell><Data ss:Type="String">Tritech.com training</Data></Cell>
+    <Cell><Data ss:Type="String">Tritech.Com discount</Data></Cell>
+    <Cell><Data ss:Type="String">Total Tritech.Com</Data></Cell>
+    <Cell><Data ss:Type="String">Retail</Data></Cell>
+    <Cell><Data ss:Type="String">MO</Data></Cell>
+    <Cell><Data ss:Type="String">ArcGis Runtime</Data></Cell>
+    <Cell><Data ss:Type="String">MO Upgrade</Data></Cell>
+    <Cell><Data ss:Type="String">NE</Data></Cell>
+    <Cell><Data ss:Type="String">ArcGIS Engine 10X</Data></Cell>
+    <Cell><Data ss:Type="String">ArcGIS Server 12750</Data></Cell>
+    <Cell><Data ss:Type="String">Dundas Inform Analytics</Data></Cell>
+    <Cell><Data ss:Type="String">Possitive Access</Data></Cell>
+    <Cell><Data ss:Type="String">Esri</Data></Cell>
+    <Cell><Data ss:Type="String">Cost WorkSheet Other</Data></Cell>
+    <Cell><Data ss:Type="String">Total Costs</Data></Cell>
+    <Cell><Data ss:Type="String">Notes</Data></Cell>
+    <Cell><Data ss:Type="String">Comm Value</Data></Cell>
+    <Cell><Data ss:Type="String">Comp/Non-Comp</Data></Cell>
+    <Cell><Data ss:Type="String">GM%</Data></Cell>
+    <Cell><Data ss:Type="String">GP Entry</Data></Cell>
+    <Cell><Data ss:Type="Number">911</Data></Cell>
+   </Row>
+  <apex:repeat value="{!soc}" var="opp">
+    <Row>
+        <Cell><Data ss:Type="String">{!opp.Director__c}</Data><NamedCell ss:Name="Director"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Quote_Number__c}</Data><NamedCell ss:Name="Quote"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Sales_Order_Number__c}</Data><NamedCell ss:Name="SO"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Change_Order_Number__c}</Data><NamedCell ss:Name="CO"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Client__c}</Data><NamedCell ss:Name="Client"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.GP_Customer_ID__c}</Data><NamedCell ss:Name="GPID"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Product_Type__c}</Data><NamedCell ss:Name="ProdType"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.N_E__c}</Data><NamedCell ss:Name="NE"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.G_or_C__c}</Data><NamedCell ss:Name="GSA"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Bookings_Date__c}</Data><NamedCell ss:Name="BookDate"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Sales_Rep__c}</Data><NamedCell ss:Name="SalesRep"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.CSL__c}</Data><NamedCell ss:Name="CSL"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Project_Manager__c}</Data><NamedCell ss:Name="PM"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Inform_Bookings_Amount__c}</Data><NamedCell ss:Name="BookAmt"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Total_Contract_Amount__c}</Data><NamedCell ss:Name="ContAmt"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.CAD_Software_List__c}</Data><NamedCell ss:Name="CAD"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Interface_CAD_Mobile_Software__c}</Data><NamedCell ss:Name="CADInt"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Interface_RMS_FBR_Jail_Software__c}</Data><NamedCell ss:Name="RMSInt"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Mobile_List__c}</Data><NamedCell ss:Name="Mobile"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.RMS_List__c}</Data><NamedCell ss:Name="RMS"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.FBR_List__c}</Data><NamedCell ss:Name="FBR"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Jail_List__c}</Data><NamedCell ss:Name="Jail"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Fire_List__c}</Data><NamedCell ss:Name="Fire"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Software_Subscription_On_Prem__c}</Data><NamedCell ss:Name="SoftSub"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.IQ_List__c}</Data><NamedCell ss:Name="IQLic"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Telephony_List__c}</Data><NamedCell ss:Name="Tele911"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Subscription_List__c}</Data><NamedCell ss:Name="RMSSub"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Software_List__c}</Data><NamedCell ss:Name="SoftSubtotal"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Software_Discounts__c}</Data><NamedCell ss:Name="SoftDis"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Software_Total__c}</Data><NamedCell ss:Name="SoftTotal"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.P_I_List__c}</Data><NamedCell ss:Name="PandIServ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.IS_Services_List__c}</Data><NamedCell ss:Name="ISServ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Training_Services_List__c}</Data><NamedCell ss:Name="TrainServ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.PM_Services__c}</Data><NamedCell ss:Name="PMServ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Other_Services__c}</Data><NamedCell ss:Name="OtherServ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Services_List__c}</Data><NamedCell ss:Name="ServSub"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Services_Discount__c}</Data><NamedCell ss:Name="ServDis"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Services_Total__c}</Data><NamedCell ss:Name="ServTotal"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Hardware_3rd_Party__c}</Data><NamedCell ss:Name="Hardware"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Hardware_Support_List__c}</Data><NamedCell ss:Name="HardSup"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.X3rd_Party_Soft_List__c}</Data><NamedCell ss:Name="ThirdSoft"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.X3rd_Party_Support__c}</Data><NamedCell ss:Name="ThirdSup"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Subcontract__c}</Data><NamedCell ss:Name="Sub"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Subcontract_Support_List__c}</Data><NamedCell ss:Name="SubSup"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Datavault_List__c}</Data><NamedCell ss:Name="DV"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.System_Integration__c}</Data><NamedCell ss:Name="SI"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.HW_3rd_Paty_List__c}</Data><NamedCell ss:Name="HardSub"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Hardware_3rd_party_Discount__c}</Data><NamedCell ss:Name="HardDis"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.HW_3rd_party_SW_Subtotal__c}</Data><NamedCell ss:Name="HardTotal"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Shipping__c}</Data><NamedCell ss:Name="Shipping"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Escrow__c}</Data><NamedCell ss:Name="Escrow"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.TriCon_Fees__c}</Data><NamedCell ss:Name="TriCon"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Bonds__c}</Data><NamedCell ss:Name="Bonds"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Travel_Fixed__c}</Data><NamedCell ss:Name="TravelFixed"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Travel_BAI__c}</Data><NamedCell ss:Name="TravelBAI"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Other__c}</Data><NamedCell ss:Name="Other"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Discount_Other__c}</Data><NamedCell ss:Name="DisOther"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Total_Other__c}</Data><NamedCell ss:Name="TotalOther"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Software_Support__c}</Data><NamedCell ss:Name="SoftSupport"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Prepain_maintenance_Pool__c}</Data><NamedCell ss:Name="PreMaint"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tax__c}</Data><NamedCell ss:Name="Tax"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Other_Deferred_Rev__c}</Data><NamedCell ss:Name="OthDef"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_IQ_Hosting_List__c}</Data><NamedCell ss:Name="TriTechIQ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_Cont_2_Yrs_List__c}</Data><NamedCell ss:Name="TriTechCont"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_Other_List__c}</Data><NamedCell ss:Name="TriTechCom"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_Install_List__c}</Data><NamedCell ss:Name="TriTechInst"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_Training_List__c}</Data><NamedCell ss:Name="TriTechTrain"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_Discount__c}</Data><NamedCell ss:Name="TriTechDis"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Tritech_Com_Net__c}</Data><NamedCell ss:Name="TriTechTotal"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Total_Contract_Amount__c}</Data><NamedCell ss:Name="Retail"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.MO__c}</Data><NamedCell ss:Name="MO"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.ArcGIS_Run_Time__c}</Data><NamedCell ss:Name="ArcGISRT"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.MO_Upgrade__c}</Data><NamedCell ss:Name="MOUpgrade"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.NE__c}</Data><NamedCell ss:Name="NEField"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.ArcGIS_Engine_10X__c}</Data><NamedCell ss:Name="ArcGISEng"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.ArcGIS_Server_Network_Analyst__c}</Data><NamedCell ss:Name="ArcGISServ"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Dundas_Analytics__c}</Data><NamedCell ss:Name="Dundas"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Possitive_Access__c}</Data><NamedCell ss:Name="PossAss"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.ESRI__c}</Data><NamedCell ss:Name="ESRI"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Cost_Worksheet_Other__c}</Data><NamedCell ss:Name="CostWSOther"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Total_Cost__c}</Data><NamedCell ss:Name="TotalCost"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.Notes__c}</Data><NamedCell ss:Name="Notes"/></Cell>
+        <Cell><Data ss:Type="Number">{!opp.Commissionable_Value__c}</Data><NamedCell ss:Name="Comm"/></Cell>
+        <Cell><Data ss:Type="String">{!opp.C_or_N__c}</Data><NamedCell ss:Name="Compete"/></Cell>
+    </Row> 
+  </apex:repeat>
+  <Row></Row> 
+  <Row ss:Height="19">
+    <Cell ss:StyleID="s17s" ss:Index="12" ss:mergeacross="2"><Data ss:Type="String">TOTALS</Data></Cell>  
+    <Cell ss:StyleID="s17" ss:Index="14" ss:Formula="=SUM(BookAmt)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ContAmt)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(CAD)"><Data ss:Type="Number"></Data></Cell>         
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(CADInt)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(RMSInt)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Mobile)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(RMS)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(FBR)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Jail)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Fire)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SoftSub)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(IQLic)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Tele911)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(RMSSub)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SoftSubtotal)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SoftDis)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SoftTotal)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(PandIServ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ISServ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TrainServ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(PMServ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(OtherServ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ServSub)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ServDis)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ServTotal)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Hardware)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(HardSup)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ThirdSoft)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ThirdSup)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Sub)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SubSup)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(DV)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SI)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(HardSub)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(HardDis)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(HardTotal)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Shipping)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Escrow)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriCon)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Bonds)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TravelFixed)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TravelBAI)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Other)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(DisOther)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TotalOther)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(SoftSupport)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(PreMaint)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Tax)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(OthDef)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechIQ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechCont)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechCom)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechInst)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechTrain)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechDis)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TriTechTotal)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Retail)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(MO)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ArcGISRT)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(MOUpgrade)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(NEField)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ArcGISEng)"><Data ss:Type="Number"></Data></Cell> 
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ArcGISServ)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Dundas)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(PossAss)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(ESRI)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(CostWSOther)"><Data ss:Type="Number"></Data></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(TotalCost)"><Data ss:Type="Number"></Data></Cell>
+    <Cell></Cell>
+    <Cell ss:StyleID="s17" ss:Formula="=SUM(Comm)"><Data ss:Type="Number"></Data></Cell>
+   </Row> 
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Header x:Margin="0.3"/>
+    <Footer x:Margin="0.3"/>
+    <PageMargins x:Bottom="0.75" x:Left="0.7" x:Right="0.7" x:Top="0.75"/>
+   </PageSetup>
+   <Print>
+    <ValidPrinterInfo/>
+    <HorizontalResolution>600</HorizontalResolution>
+    <VerticalResolution>600</VerticalResolution>
+   </Print>
+   <Selected/>
+   <Panes>
+   
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  
+ </Worksheet>
+</Workbook>
+</apex:page>

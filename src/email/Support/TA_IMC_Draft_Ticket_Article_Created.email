@@ -1,0 +1,6 @@
+The following draft knowledge base article has been created from a support ticket:
+
+Title:  {!Solution.SolutionName}
+Created by:  {!Solution.CreatedBy}
+
+Click here to review the draft article for assignment or publishing:  {!Solution.Link}

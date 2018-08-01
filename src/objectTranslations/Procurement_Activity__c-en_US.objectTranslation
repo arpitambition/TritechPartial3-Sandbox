@@ -1,0 +1,436 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Procurement Activity</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Procurement Activities</value>
+    </caseValues>
+    <fields>
+        <label><!-- Assignments Due Date --></label>
+        <name>Assignments_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Backup Proposal Manager --></label>
+        <name>Backup_Proposal_Manager__c</name>
+        <relationshipLabel><!-- Procurement Activities (Backup Proposal Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Amount --></label>
+        <name>Bid_Bond_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Issued --></label>
+        <name>Bid_Bond_Issued__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Percentage --></label>
+        <name>Bid_Bond_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Required --></label>
+        <name>Bid_Bond_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid Bond Returned --></label>
+        <name>Bid_Bond_Returned__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bidder&apos;s Conference Date --></label>
+        <name>Bidder_s_Conference_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bidder&apos;s Conference Required --></label>
+        <name>Bidder_s_Conference_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Closed Date --></label>
+        <name>Closed_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Businesses/People with pre-existing relationships with the current prospect --></help>
+        <label><!-- Common Partners --></label>
+        <name>Common_Partners__c</name>
+    </fields>
+    <fields>
+        <help><!-- Person who represented TTS at conference --></help>
+        <label><!-- Conference Attendee --></label>
+        <name>Conference_Attendee__c</name>
+        <relationshipLabel><!-- Procurement Activities (Conference Attendee) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Consultant --></label>
+        <name>Consultant__c</name>
+        <picklistValues>
+            <masterLabel>DELATWRX</masterLabel>
+            <translation><!-- DELATWRX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>L.R. Kimball</masterLabel>
+            <translation><!-- L.R. Kimball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mission Critical</masterLabel>
+            <translation><!-- Mission Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winbourne</masterLabel>
+            <translation><!-- Winbourne --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Current Opportunity Stage --></label>
+        <name>Current_Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Deadline for Vendor Questions --></label>
+        <name>Deadline_for_Vendor_Questions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>Extension__c</name>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Granted</masterLabel>
+            <translation><!-- Granted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Functional Respondent - CAD/Mobile/911 --></label>
+        <name>Functional_Respondent_CAD_Mobile_911__c</name>
+        <picklistValues>
+            <masterLabel>Liz Byers</masterLabel>
+            <translation><!-- Liz Byers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rebecca Webb</masterLabel>
+            <translation><!-- Rebecca Webb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>William Gray</masterLabel>
+            <translation><!-- William Gray --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Functional Respondent - RMS/FBR/JAIL/IQ --></label>
+        <name>Functional_Respondent_RMS_FBR_Jail_IQ__c</name>
+        <picklistValues>
+            <masterLabel>David Amaya</masterLabel>
+            <translation><!-- David Amaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karen Southerland</masterLabel>
+            <translation><!-- Karen Southerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Klein</masterLabel>
+            <translation><!-- Matt Klein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintus Hampton</masterLabel>
+            <translation><!-- Quintus Hampton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC Thomas</masterLabel>
+            <translation><!-- TC Thomas --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Green Team Date --></label>
+        <name>Green_Team_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Consultant &quot;Other&quot; --></label>
+        <name>If_Consultant_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Implementation Definition Review Date --></label>
+        <name>Implementation_Definition_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal RFx Location --></label>
+        <name>Internal_RFx_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Kickoff Date --></label>
+        <name>Kickoff_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter of Intent Due Date --></label>
+        <name>Letter_of_Intent_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Letter of Intent Required --></label>
+        <name>Letter_of_Intent_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Bid Letter Due Date --></label>
+        <name>No_Bid_Letter_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Bid Letter Required --></label>
+        <name>No_Bid_Letter_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Electronic Copies Required --></label>
+        <name>Number_of_Electronic_Copies_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Hard Copies Required --></label>
+        <name>Number_of_Hard_Copies_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Procurement Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Performance Bond Percentage --></label>
+        <name>Performance_Bond_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performance Bond Required --></label>
+        <name>Performance_Bond_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pre-Green Team Meeting --></label>
+        <name>Pre_Green_Team_Meeting__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Manager --></label>
+        <name>Pricing_Manager__c</name>
+        <relationshipLabel><!-- Procurement Activities (Pricing Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Procurement Type --></label>
+        <name>Procurement_Type__c</name>
+        <picklistValues>
+            <masterLabel>BAFO</masterLabel>
+            <translation><!-- BAFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal Follow-up</masterLabel>
+            <translation><!-- Proposal Follow-up --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFI</masterLabel>
+            <translation><!-- RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP</masterLabel>
+            <translation><!-- RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFQ</masterLabel>
+            <translation><!-- RFQ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 5=high level of effort, 1= low level of effort --></help>
+        <label><!-- Project Size --></label>
+        <name>Project_Size__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Type --></label>
+        <name>Project_Type__c</name>
+        <picklistValues>
+            <masterLabel>RIM</masterLabel>
+            <translation><!-- RIM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard</masterLabel>
+            <translation><!-- Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tier One</masterLabel>
+            <translation><!-- Tier One --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proposal Manager --></label>
+        <name>Proposal_Manager__c</name>
+        <relationshipLabel><!-- Procurement Activities (Proposal Manager) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Proposal Stage --></label>
+        <name>Proposal_Stage__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Bid</masterLabel>
+            <translation><!-- No Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Planning</masterLabel>
+            <translation><!-- Planning --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quality Assurance</masterLabel>
+            <translation><!-- Quality Assurance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solution Development</masterLabel>
+            <translation><!-- Solution Development --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Proposal Status --></label>
+        <name>Proposal_Status__c</name>
+        <picklistValues>
+            <masterLabel>Bid Review</masterLabel>
+            <translation><!-- Bid Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed/Cancelled</masterLabel>
+            <translation><!-- Closed/Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed/Lost</masterLabel>
+            <translation><!-- Closed/Lost --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Closed/Won</masterLabel>
+            <translation><!-- Closed/Won --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Development</masterLabel>
+            <translation><!-- Development --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Selected</masterLabel>
+            <translation><!-- Selected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shortlisted</masterLabel>
+            <translation><!-- Shortlisted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- RFx Contact Address --></label>
+        <name>RFx_Contact_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFx Contact Email --></label>
+        <name>RFx_Contact_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFx Contact Number --></label>
+        <name>RFx_Contact_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFx Contact --></label>
+        <name>RFx_Contact__c</name>
+        <relationshipLabel><!-- Procurement Activities --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Red Team Date --></label>
+        <name>Red_Team_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Received --></label>
+        <name>Request_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Due Date --></label>
+        <name>Response_Due_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Ship Date --></label>
+        <name>Response_Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Response Submitted --></label>
+        <name>Response_Submitted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selected Date --></label>
+        <name>Selected_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shortlisted Date --></label>
+        <name>Shortlisted_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solution Definition Review Date --></label>
+        <name>Solution_Definition_Review_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Solutions Architect --></label>
+        <name>Solutions_Architect__c</name>
+        <picklistValues>
+            <masterLabel>Darrell Richards</masterLabel>
+            <translation><!-- Darrell Richards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Del Pullen</masterLabel>
+            <translation><!-- Del Pullen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeff Thau</masterLabel>
+            <translation><!-- Jeff Thau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keith Singleton</masterLabel>
+            <translation><!-- Keith Singleton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kurt Hallmeyer</masterLabel>
+            <translation><!-- Kurt Hallmeyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Catone</masterLabel>
+            <translation><!-- Mark Catone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Manzano</masterLabel>
+            <translation><!-- Matt Manzano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noemi Aguiar</masterLabel>
+            <translation><!-- Noemi Aguiar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scott Nemetz</masterLabel>
+            <translation><!-- Scott Nemetz --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Procurement Activity Layout</layout>
+        <sections>
+            <label><!-- Assigned Resources --></label>
+            <section>Assigned Resources</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

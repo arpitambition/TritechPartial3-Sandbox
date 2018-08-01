@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_VNS_PA12-005.Email</name>
+    <style>none</style>
+    <subject>PA12-005 - TriTech ARCserve Product for Disaster Recovery</subject>
+    <textOnly>STAY CONNECTED        &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Product Announcement
+PA12-005 – ARCserve Product for Disaster Recovery
+POSTED: 08-06-12
+
+Dear {{lead.First Name:default=edit me}} Clients,
+The Product Announcement, PA12-05 – ARCserve Product for Disaster Recovery has been released.
+
+TriTech has completed the assessment and evaluation of several software solutions to replace RepliStor, as this product approaches its end-of-service life in June of 2013. Based on our assessment and successful QA testing, we are happy to announce the approval of ARCserve High Availability by Computer Associates as our new Disaster Recovery synchronization software for the Hot Standby and Disaster Recovery implementations.
+
+Download Information Here &lt;https://login.salesforce.com/?ec=302&amp;startURL=%2FkAC800000008OS0&gt;
+
+
+Sincerely,
+
+Shane Birch
+Technical Support Supervisor – 911/IMC/VisiNet | Decorah, IA
+TriTech Software Systems | www.tritech.com
+
+Support Website: myvisinet.com &lt;https://myvisinet.tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

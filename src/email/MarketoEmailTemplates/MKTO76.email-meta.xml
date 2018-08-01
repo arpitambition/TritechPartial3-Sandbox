@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_CC_Oct11.VNS CC Oct11</name>
+    <style>none</style>
+    <subject>VisiNet CAM Connection - October Newsletter</subject>
+    <textOnly>          September 2011 Edition
+ 
+ Welcome to our monthly edition of TriTech Software Systems: CAM Connection for VisiNet Solutions. CAM stands for “Client Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our VisiNet Solutions group.  Feel free to let us know if you have suggestions on topics you would like to hear about.
+ 
+ 
+Corporate News
+
+ TriTech Acquires VisionAIR
+ TriTech&apos;s Vision for 2012 and Beyond
+         
+Product Highlights
+
+ Webinar:  TriTech&apos;s Fusion ePCR 6.2 Featuring Interface with VisiCAD
+ Rotation Provider Selected as APCO 2011 HOT Product
+ 
+
+Service Update
+ 
+ Customer Service Assurance - Survey Results
+Service Process Improvements:  Engineering Level Support and Customer Support Thursdays 
+Tech Tip:  Updating Sectors After a Refresh of Your Non-Production CAD System
+  Grab and Go with Greg (Next Session on Monday, October 10) - Topic:  Internet Integration in Streetfinder
+ 
+  
+TriCON News
+
+ TriCON 2011 Recap
+ Planning Now for TriCON 2012
+ 
+Customer Feature
+ 
+ Rural Metro Orlando and Sumter County (FL) Goes Live
+
+ 
+ 
+               
+ &gt; Main Page 
+ 
+ &gt; Corporate News
+
+ &gt; Product Highlights
+
+ &gt; Service Update
+
+ &gt; TriCON News
+
+ &gt; Customer Feature
+
+ &gt; www.tritech.com
+
+ 
+ CAM CONTACTS
+Ken Schulte
+ (858) 799-7316
+ ken.schulte@tritech.com
+ 
+ Sally Olson-Nelson
+ (858) 799-7358
+ sally.olson-nelson@tritech.com
+ 
+ 
+   
+ 
+ 
+  
+ 
+ 
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+ 
+   
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

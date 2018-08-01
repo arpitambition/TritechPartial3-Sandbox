@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Custom write-in request notification to &quot;Assigned To&quot; team member</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Custom Write-In Request_Assigned To</name>
+    <style>none</style>
+    <subject>ASSIGNED: {!Write_In__c.RecordType} Write-In Request: {!Write_In__c.Agency__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

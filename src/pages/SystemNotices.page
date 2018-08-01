@@ -1,0 +1,13 @@
+<apex:page controller="SystemNoticesController" showHeader="false" sidebar="false" >
+  <div style="background-color:#EEEEEE;">
+  <apex:dataList value="{!notices}" var="notice" id="noticesList" style="background-color:#EEEEEE;" type="circle" rendered="{!notices.size != 0}">
+    <apex:outputText style="font-style:italic" value="[{0,date,MM/dd/yyyy} - {1,date,MM/dd/yyyy}]">
+      <apex:param value="{!notice.Start_Date__c}" />
+      <apex:param value="{!notice.End_Date__c}" />
+    </apex:outputText>
+    <apex:outputText style="font-weight:bold" value=" - {!notice.Title__c}"/><br/>
+    <apex:outputText value="{!notice.Body__c}" /><br/>
+  </apex:dataList>
+  <apex:outputText value="No Notices" rendered="{!notices.size == 0}"/>
+  </div>
+</apex:page>

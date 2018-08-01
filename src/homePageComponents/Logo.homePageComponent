@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;img style=&quot;width: 180px; height: 33px;&quot; alt=&quot;&quot; src=&quot;https://c.na6.content.force.com/servlet/servlet.FileDownload?file=Images/TriTech_Logo_Transparent_Background_250x46.png&quot; align=&quot;left&quot; border=&quot;0&quot;&gt;&lt;br&gt;</body>
+    <pageComponentType>imageOrNote</pageComponentType>
+</HomePageComponent>

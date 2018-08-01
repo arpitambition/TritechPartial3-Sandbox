@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>One-Company-Announcement.Email</name>
+    <style>none</style>
+    <subject>TriTech Aligns Resources</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+TriTech Aligns Resources
+One Company Annoucement
+Five years ago, TriTech Software Systems embarked on a plan to expand its product and service offerings. This expansion started with the acquisition of Information Management Corporation (IMC); next came Ortivus/Sweet Computers, VisionAIR in 2011, and most recently the acquisition of a 911 telephone system, with more announcements yet to come. TriTech has been assembling the leading public safety software providers together with one single focus – to provide the best public safety software solutions. That effort has unified the best people and products in the industry today, resulting in the most trusted and innovative enterprise-wide solutions in, Law, Fire, 911 Dispatch and EMS.
+
+While the company will continue to operate from the existing locations in San Diego, CA, North Grafton, MA; Centennial, CO; Decorah, IA and Wilmington, NC – the 2012 focus is to strategically align all resources under a single structure, team and company to provide the greatest advantages to our customers. Here are some highlights:
+
+Leading Edge Technology
+TriTech is able to share developmental innovations and resources to advance solutions and bring leading edge technology to market faster. TriTech’s technology expertise, development processes and best practices will be shared across all product lines.
+
+Employee Expertise
+Did you know that TriTech’s 350+ employees average more than a decade of public safety industry experience? This means a stronger industry presence (i.e. iCERT, APCO, IJIS, IACP, NENA, etc.), shared field experience and better communication with our 2,500 customer agencies.
+
+Customer Service Excellence
+Excellence in customer service is being standardized across the company utilizing best practices, common processes and performance benchmarks. TriTech’s National Support Center will continue to monitor customer satisfaction and listen and respond to your needs to deliver the best customer support experience in the industry. Courtesy, quality, excellent service – our promise to you.
+
+New Logo
+As of May 1, 2012, all former brands are now “TriTech Software Systems.” To celebrate our strength and cohesiveness as one company, a new TriTech logo will be introduced (upper right-hand corner of this email) that emphasizes our identity as one company, built upon the strengths of the best and most experienced minds in public safety software. 
+
+All of these changes mean TriTech is able to offer the most complete, integrated, end-to-end, enterprise-wide public safety software solution – more so than any other company in the industry. We’re large enough to withstand economic swings, but not so large that you, our customers, won’t get the personal service you need and deserve.  
+Thank you for the opportunity to let TriTech serve as your public safety technology provider. One company…many solutions…
+
+Michael D. Nabors, Senior Vice President of Operations
+TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

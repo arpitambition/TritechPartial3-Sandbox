@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS-Webinars_Paper-to-ePCR_Nov10.StartingNOW</name>
+    <style>none</style>
+    <subject>STARTING NOW: Transitioning from Paper to Electronic Patient Care Reporting</subject>
+    <textOnly>Starting Now 
+Complimentary Live Webinar: Transitioning from Paper to Electronic Patient Care Reporting
+
+JOIN LINK: http://tritech.ilinc.com/join/vkyzkhv
+
+AUDIO: Listen through your computer speakers or dial the toll free number on your screen when you login
+
+DATE: November 10, 2011
+TIME: 2 PM Eastern  | 1 PM Central  l  Noon Mountain | 11 AM Pacific
+PRESENTER: Larry Cole, EMT-P, Former Director of Finance and Corporate Compliance
+Trouble Logging In? Call 800.799.4510 for the iLinc Support Team Help
+
+We hope you can attend!
+
+
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VB Public Safety Expo.Pre-Show Email</name>
+    <style>none</style>
+    <subject>See Us at the Free Public Safety Software Expo in Virginia Beach</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Revolutionize Public Safety Workflow
+Join us at Free Public Safety Software Expo
+TriTech’s Inform Public Safety Suite  &lt;http://www.tritech.com/products/inform&gt;centers on the workflow of information across the public safety enterprise to deliver powerful new capabilities that span from the PSAP to the field, from on scene coordination to records and inmate management and from an intelligent response to post incident analysis.
+
+Get a demonstration of how our 9-1-1 &lt;http://www.tritech.com/products/inform/inform-9-1-1&gt;, CAD &lt;http://www.tritech.com/products/inform/inform-cad&gt;, Mobile &lt;http://www.tritech.com/products/inform/inform-mobile&gt;, Field-based Reporting &lt;http://www.tritech.com/products/inform/inform-fbr&gt;, Records Management &lt;http://www.tritech.com/products/inform/inform-rms&gt;, Jail &lt;http://www.tritech.com/products/inform/inform-jail&gt;, Data Sharing and Analytics  &lt;http://www.tritech.com/products/inform/inform-iq&gt;products improve your agency&apos;s workflow at the Virginia Beach Public Safety Software Expo. 
+
+
+Date:  
+Wednesday, March 6, 2013 from Noon to 8:00 PM
+Thursday, March 7, 2013 from 9:00 AM to 2:00 PM
+
+Location:  
+Virginia Beach Convention Center
+1000 19th Street
+Virginia Beach, VA  23451
+Click here for map &lt;http://goo.gl/maps/B2lh3&gt;
+
+Cost:  
+None.  Free admission to all first responders and IT representatives from local Virginia Public Safety agencies
+
+ &lt;http://vabeachpublicsafetyexpo.eventbrite.com/&gt;
+See You in Virginia Beach!
+
+Can&apos;t make it to the Virginia Beach Public Safety Expo? Call us at (858) 799-7900 or email info@tritech.com &lt;mailto:info@tritech.com&gt; to learn more about TriTech&apos;s Inform Public Safety Suite.
+
+Would you like a TriTech Sales Manager to contact you? Please let us know that you&apos;d appreciate a phone call!
+ &lt;http://offers.tritech.com/VBPublicSafetyExpo_RequestCall.html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

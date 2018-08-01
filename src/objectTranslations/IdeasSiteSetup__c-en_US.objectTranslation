@@ -1,0 +1,235 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Ideas Site Setup</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Ideas Site Setup</value>
+    </caseValues>
+    <fields>
+        <label><!-- About - Banner Image URL --></label>
+        <name>AboutBannerImageUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- About - Body --></label>
+        <name>AboutBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- About - Heading --></label>
+        <name>AboutHeading__c</name>
+    </fields>
+    <fields>
+        <help><!-- The amount of time (in seconds) the content distribution network (CDN) server caches the pages of your Ideas site. A value of zero (0) disables caching. CDN caching is automatically enabled on  sites. We recommend setting this to 300 seconds (5 minutes). --></help>
+        <label><!-- Cache Max Age --></label>
+        <name>CacheMaxAge__c</name>
+    </fields>
+    <fields>
+        <help><!-- The picklist values for the Categories field. You must enter the picklist values exactly as they have been specified for the community when the Ideas site was set up (or a validation error appears). Enter one picklist value per line. --></help>
+        <label><!-- Categories --></label>
+        <name>Categories__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the community that you want to use the base theme. You can only apply the base theme to one community in your organization. --></help>
+        <label><!-- Community ID --></label>
+        <name>CommunityId__c</name>
+    </fields>
+    <fields>
+        <help><!-- The URL of your custom Cascading Style Sheet (CSS) if one exists. Your custom CSS overrides the styles specified in the CSS that comes with the base theme. --></help>
+        <label><!-- Custom CSS URL --></label>
+        <name>CustomCssUrl__c</name>
+    </fields>
+    <fields>
+        <help><!-- The ID of the experts group that is responsible for monitoring and responding to ideas and comments in the community. --></help>
+        <label><!-- Experts Group ID --></label>
+        <name>ExpertsGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Footer - Text --></label>
+        <name>FooterText__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forgot Password - Body --></label>
+        <name>ForgotPasswordBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- Forgot Password - Heading --></label>
+        <name>ForgotPasswordHeading__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Banner Image URL --></label>
+        <name>HomeBannerImageUrl__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Body 1 --></label>
+        <name>HomeBody1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Body 2 --></label>
+        <name>HomeBody2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Body 3 --></label>
+        <name>HomeBody3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Body 4 --></label>
+        <name>HomeBody4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Body 5 --></label>
+        <name>HomeBody5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Heading 1 --></label>
+        <name>HomeHeading1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Heading 2 --></label>
+        <name>HomeHeading2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Heading 3 --></label>
+        <name>HomeHeading3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Heading 4 --></label>
+        <name>HomeHeading4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Heading 5 --></label>
+        <name>HomeHeading5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Home - Recent Ideas Heading --></label>
+        <name>HomeRecentIdeasHeading__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login - Body --></label>
+        <name>LoginBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- Login - Heading --></label>
+        <name>LoginHeading__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaAbout --></label>
+        <name>OverrideIdeaAbout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaAccountDetails --></label>
+        <name>OverrideIdeaAccountDetails__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaForgotPasswordConfirm --></label>
+        <name>OverrideIdeaForgotPasswordConfirm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaForgotPassword --></label>
+        <name>OverrideIdeaForgotPassword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaHome --></label>
+        <name>OverrideIdeaHome__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaLayout --></label>
+        <name>OverrideIdeaLayout__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaList --></label>
+        <name>OverrideIdeaList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaPost --></label>
+        <name>OverrideIdeaPost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaProfileActivity --></label>
+        <name>OverrideIdeaProfileActivity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaProfileList --></label>
+        <name>OverrideIdeaProfileList__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaSearchResults --></label>
+        <name>OverrideIdeaSearchResults__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaSiteLogin --></label>
+        <name>OverrideIdeaSiteLogin__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaSiteRegister --></label>
+        <name>OverrideIdeaSiteRegister__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override - ideaView --></label>
+        <name>OverrideIdeaView__c</name>
+    </fields>
+    <fields>
+        <help><!-- The account that is associated with new users then they self-register on your Ideas site. When a new user self-registers, the user appears in the Contacts related list for this account. --></help>
+        <label><!-- Portal Self-Registration Account --></label>
+        <name>PortalAccount__c</name>
+        <relationshipLabel><!-- Ideas Site Setups --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Register - Body --></label>
+        <name>RegisterBody__c</name>
+    </fields>
+    <fields>
+        <label><!-- Register - Heading --></label>
+        <name>RegisterHeading__c</name>
+    </fields>
+    <fields>
+        <help><!-- The picklist values for the Status field. You must enter the picklist values exactly as they have been specified for the community when the Ideas site was set up (or a validation error appears). Enter one picklist value per line. --></help>
+        <label><!-- Statuses --></label>
+        <name>Statuses__c</name>
+    </fields>
+    <layouts>
+        <layout>Ideas Site Setup Layout</layout>
+        <sections>
+            <label><!-- About --></label>
+            <section>About</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Footer --></label>
+            <section>Footer</section>
+        </sections>
+        <sections>
+            <label><!-- Forgot Password --></label>
+            <section>Forgot Password</section>
+        </sections>
+        <sections>
+            <label><!-- Home --></label>
+            <section>Home</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- Login --></label>
+            <section>Login</section>
+        </sections>
+        <sections>
+            <label><!-- Page Overrides --></label>
+            <section>Page Overrides</section>
+        </sections>
+        <sections>
+            <label><!-- Register --></label>
+            <section>Register</section>
+        </sections>
+        <sections>
+            <label><!-- System Information --></label>
+            <section>System Information</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

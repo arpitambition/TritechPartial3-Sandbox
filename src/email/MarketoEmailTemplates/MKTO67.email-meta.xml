@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMSWorldEXPO_Winner</name>
+    <style>none</style>
+    <subject>Thanks for Stopping - EMS World EXPO</subject>
+    <textOnly> 
+Winner Announcement   
+Thanks for Attending EMS World EXPO
+ 
+Congratulations Marsha Heckler of Mario County EMS
+She was the lucky winner of our Apple iPad 2 drawing!
+
+A big thanks to everyone who stopped by our booth at the recent EMS World EXPO in Las Vegas. We hope you enjoyed the show!
+
+
+We get it - you have too many calls, not enough staff and too much pressure. Making sense of the future is our business. We&apos;re helping medical transportation agencies reshape the way they manage information to help them focus on what&apos;s important. Do you think your agency needs to be reshaped? 
+
+If you were unable to make it to the booth during the show, no problem. See how our ePCR (http://www.tritech.com/products/ems-solutions/fusion-epcr) and Billing (http://www.tritech.com/products/ems-solutions/sweet-billing) solutions are helping our clients reshape the way they manage information right now.
+
+See It . Believe It. Experience It.
+
+For more information or to speak with a representative please contact us via email sales@tritech.com or by calling 800.537.3927
+
+
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

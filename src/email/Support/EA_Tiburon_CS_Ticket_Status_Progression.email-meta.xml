@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Tiburon email alert for notification of CS Ticket Status Change</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>EA - Tiburon CS Ticket Status Progression</name>
+    <style>freeForm</style>
+    <subject>{!Case.Account } - {!Case.CaseNumber} - Ticket Status Update</subject>
+    <textOnly>This is an issue update notification from TriTech Software Systems. 
+
+Incident Details:
+
+Incident ID:  {!Case.CaseNumber}
+
+Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}
+
+Issue Details: {!Case.Description}
+ 
+
+Current Owner: {!Case.OwnerFullName}
+
+Product: {!Case.Product}
+
+Status: {!Case.Status}
+
+Priority: {!Case.Priority}
+ 
+Please log into the TriTech Technical Service Web site to submit new incidents, check incident status, or review the Knowledge Base:
+https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D0n0000008cCb&amp;portalId=06080000000QwMW
+
+Thank you,
+
+TriTech Software Systems Support
+1-800-987-0911 Option 6
+Email: customerservice@tritech.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

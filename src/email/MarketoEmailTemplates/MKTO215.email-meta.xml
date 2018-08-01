@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UserGroups_2012.Invitation</name>
+    <style>none</style>
+    <subject>2012 Spring User Group Meetings - Register Now</subject>
+    <textOnly>2012 Spring User Group Meetings
+
+Dear {{lead.First Name:default=Customer}},
+
+This is our 5th year under the TriTech umbrella, and our top priority continues to be customer service and satisfaction! Please mark your calendars for one of  the 2012 Spring User Group Meetings near you. We look forward to face-to-face discussions about how we can help meet your agency&apos;s needs. 
+
+ This is your opportunity to learn about:
+
+ - New features available within Build 19
+ - Product roadmap for Build 20      
+ &gt;Including the Google Mapping Integration
+ - National Support Center and customer service initiatives
+ 
+Your attendance at a User Group Meeting is important, not only for receiving updates on the software, services and company direction, but also to continually help our team better understand your business needs. 
+
+DATES AND LOCATIONS:
+April 24: New Bedford, MA
+April 25: Dennis, MA
+April 26: Norwood, MA
+April 30: Grafton, MA
+May 1: Agawam, MA
+May 2: Warwick, RI
+May 3: New Haven, CT
+May 7: Portsmouth, NH
+May 8: North Haverhill, NH
+May 10: Augusta, ME 
+June 6: Trenton, NJ
+
+REGISTER NOW  http://offers.tritech.com/UserGroups_2012_Register.html
+
+We hope to see you soon,
+
+Phil Sisk, Vice President of Operations
+Leo Hisoire, Senior Product Manager
+TriTech Software Systems | North Grafton, MA</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

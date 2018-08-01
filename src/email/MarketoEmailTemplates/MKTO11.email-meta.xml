@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_VNS_UnitSwap_Email3_Recording</name>
+    <style>none</style>
+    <subject>Recording Available:  Unit Swap Product Demonstration</subject>
+    <textOnly>Recording Now Available
+Product Demo:  VisiCAD Unit Swap Module
+
+Thank you for your interest in VisiCAD&apos;s Unit Swap Module product demonstration.  With immediate notification of newly available and closer units, your agency will experience improved response times and resource management.  
+
+If you were not able to join the live event or wanted to share the information with someone else, please reference the links below for the recording and datasheet.  
+
+
+Click here for the Recording Link. http://tritech.ilinc.com/join/ppzsbss 
+Click here for the Handout Link.  http://www.tritech.com/component/k2/item/download/39
+
+
+If you have further questions or need more information please contact your Customer Account Managers Ken Schulte or Sally Olson-Nelson.  
+
+﻿
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

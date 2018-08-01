@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Ideas Site Setup</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>false</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>AboutBannerImageUrl__c</fullName>
+        <externalId>false</externalId>
+        <label>About - Banner Image URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>AboutBody__c</fullName>
+        <externalId>false</externalId>
+        <label>About - Body</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>AboutHeading__c</fullName>
+        <externalId>false</externalId>
+        <label>About - Heading</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CacheMaxAge__c</fullName>
+        <defaultValue>0</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>The amount of time (in seconds) the content distribution network (CDN) server caches the pages of your Ideas site. A value of zero (0) disables caching. CDN caching is automatically enabled on  sites. We recommend setting this to 300 seconds (5 minutes).</inlineHelpText>
+        <label>Cache Max Age</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Categories__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The picklist values for the Categories field. You must enter the picklist values exactly as they have been specified for the community when the Ideas site was set up (or a validation error appears). Enter one picklist value per line.</inlineHelpText>
+        <label>Categories</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CommunityId__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the community that you want to use the base theme. You can only apply the base theme to one community in your organization.</inlineHelpText>
+        <label>Community ID</label>
+        <length>15</length>
+        <required>true</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>CustomCssUrl__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The URL of your custom Cascading Style Sheet (CSS) if one exists. Your custom CSS overrides the styles specified in the CSS that comes with the base theme.</inlineHelpText>
+        <label>Custom CSS URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>ExpertsGroupId__c</fullName>
+        <caseSensitive>true</caseSensitive>
+        <externalId>false</externalId>
+        <inlineHelpText>The ID of the experts group that is responsible for monitoring and responding to ideas and comments in the community.</inlineHelpText>
+        <label>Experts Group ID</label>
+        <length>15</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>true</unique>
+    </fields>
+    <fields>
+        <fullName>FooterText__c</fullName>
+        <externalId>false</externalId>
+        <label>Footer - Text</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ForgotPasswordBody__c</fullName>
+        <externalId>false</externalId>
+        <label>Forgot Password - Body</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>ForgotPasswordHeading__c</fullName>
+        <externalId>false</externalId>
+        <label>Forgot Password - Heading</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HomeBannerImageUrl__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Banner Image URL</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Url</type>
+    </fields>
+    <fields>
+        <fullName>HomeBody1__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Body 1</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HomeBody2__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Body 2</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HomeBody3__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Body 3</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HomeBody4__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Body 4</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HomeBody5__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Body 5</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>HomeHeading1__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Heading 1</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HomeHeading2__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Heading 2</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HomeHeading3__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Heading 3</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HomeHeading4__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Heading 4</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HomeHeading5__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Heading 5</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>HomeRecentIdeasHeading__c</fullName>
+        <externalId>false</externalId>
+        <label>Home - Recent Ideas Heading</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>LoginBody__c</fullName>
+        <externalId>false</externalId>
+        <label>Login - Body</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>LoginHeading__c</fullName>
+        <externalId>false</externalId>
+        <label>Login - Heading</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaAbout__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaAbout</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaAccountDetails__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaAccountDetails</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaForgotPasswordConfirm__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaForgotPasswordConfirm</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaForgotPassword__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaForgotPassword</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaHome__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaHome</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaLayout__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaLayout</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaList__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaList</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaPost__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaPost</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaProfileActivity__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaProfileActivity</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaProfileList__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaProfileList</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaSearchResults__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaSearchResults</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaSiteLogin__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaSiteLogin</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaSiteRegister__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaSiteRegister</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideIdeaView__c</fullName>
+        <externalId>false</externalId>
+        <label>Override - ideaView</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>PortalAccount__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>The account that is associated with new users then they self-register on your Ideas site. When a new user self-registers, the user appears in the Contacts related list for this account.</inlineHelpText>
+        <label>Portal Self-Registration Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Ideas Site Setups</relationshipLabel>
+        <relationshipName>Ideas_Site_Setups</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>RegisterBody__c</fullName>
+        <externalId>false</externalId>
+        <label>Register - Body</label>
+        <length>32000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RegisterHeading__c</fullName>
+        <externalId>false</externalId>
+        <label>Register - Heading</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Statuses__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The picklist values for the Status field. You must enter the picklist values exactly as they have been specified for the community when the Ideas site was set up (or a validation error appears). Enter one picklist value per line.</inlineHelpText>
+        <label>Statuses</label>
+        <length>4000</length>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <label>Ideas Site Setup</label>
+    <listViews>
+        <fullName>All</fullName>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <nameField>
+        <label>Ideas Site Setup Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Ideas Site Setup</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

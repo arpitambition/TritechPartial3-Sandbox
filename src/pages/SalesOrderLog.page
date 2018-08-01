@@ -1,0 +1,69 @@
+<apex:page Controller="SalesOrderCont" readOnly="true">
+<script>
+
+var returnURL;
+
+window.onload =  function(){
+returnURL = gup('retURL');
+//alert('Set retURL = ' + returnURL);
+
+};
+
+function gup( name ){  //this function just grabs HTTP params by name
+
+name = name.replace(/[\[]/,"\\\[").replace(/[\]]/,"\\\]"); 
+var regexS = "[\\?&]"+name+"=([^&#]*)"; 
+var regex = new RegExp( regexS ); 
+var results = regex.exec( window.location.href );
+ if( results == null )    return ""; 
+else    return results[1];}
+
+function redirectBack(){
+//alert('Sending you back to ' + returnURL);
+window.location.href = '/' + returnURL;
+}
+
+</script>
+    <apex:form >
+        <apex:pageBlock title="Sales Order Logs">
+            <apex:pageBlockButtons >
+            <apex:commandButton value="Sales Order Logs for This Year" action="{!redirectcurrent}" oncomplete="redirectBack()"/>
+            <apex:commandButton value="Sales Order Logs for Last Year" action="{!redirectlast}" oncomplete="redirectBack()"/>
+            <apex:commandButton value="Search Quotes" action="{!searchSalesOrders}" reRender="SalesLogs"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection id="input">
+                <apex:pageBlockSectionItem >
+                    <apex:OutputLabel value="Quote Number"/>
+                    <apex:inputText value="{!quote}"/>
+                </apex:pageBlockSectionItem>
+            </apex:pageBlockSection>
+            
+            
+            
+            <apex:pageBlockSection id="SalesLogs">
+            <apex:pageBlockTable value="{!soc}" var="s">
+                 <apex:pageBlockSectionItem >
+                <apex:outputLabel value="Quote Number - Click to View Sales Log" />
+                    <apex:inputText value="{!quote}" />
+                 </apex:pageBlockSectionItem>    
+                <apex:column headervalue="Sales Order Log"> 
+                    <apex:outputLink id="link" value="/{!s.Name}">
+                        <apex:outputText value="{!s.Quote_Number__c}">
+                        </apex:outputText> 
+                    </apex:outputLink>
+                </apex:column>
+                <apex:column value="{!s.Sales_Order_Number__c}" headervalue="Sales Order Number" />
+                <apex:column value="{!s.Bookings_Date__c}" headervalue="Booked Date"/>
+                <apex:column value="{!s.Client__c}" headervalue="Account Name"/>
+                <apex:column value="{!s.GP_Customer_ID__c}" headervalue="GP Customer ID"/>
+                <apex:column value="{!s.Opportunity_Owner__c}" headervalue="Opportunity Owner"/>
+                <apex:column value="{!s.Inform_Bookings_Amount__c}" headervalue="Inform Booking Amount"/>
+                <apex:column style="width:500px" value="{!s.Related_Opportunity__c}" headervalue="Related Quote"/>
+                    
+                    
+           </apex:pageBlockTable>     
+            </apex:pageBlockSection>
+           
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

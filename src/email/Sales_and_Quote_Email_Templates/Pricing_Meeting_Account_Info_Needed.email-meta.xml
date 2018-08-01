@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Pricing Meeting Account Info Needed</name>
+    <style>freeForm</style>
+    <subject>Pricing Preparation Reminder: {!Opportunity.Name}</subject>
+    <textOnly>Hi {!Opportunity.OwnerFirstName},
+
+The RFP for {!Opportunity.Name} is being bid on and you have until {!TODAY() +3} to make sure the below is filled out and accurate:
+
+Hierarchy Correct
+Agency Profile
+Fully Completed Win Strategy
+
+If any of this is missing, Your Green Team will be rejected.</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

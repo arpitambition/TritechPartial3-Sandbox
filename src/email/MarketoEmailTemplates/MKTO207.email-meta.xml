@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Consolidation-NCDJPA_0329.Reminder Starting Now</name>
+    <style>none</style>
+    <subject>Webinar Starting Now: Breaking Down Barriers to Build Regional Partnerships</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot; target=&quot;_blank&quot;&gt;   &lt;img src=&quot;http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg&quot; alt=&quot;&quot; height=&quot;16&quot; width=&quot;23&gt;
+Webinar Starting Now
+Breaking Down Barriers to Build Regional Partnerships
+Hello {{lead.First Name:default=Public Safety Professional}},
+
+The complimentary live webinar &quot;Breaking Down Barriers to Build Regional Partnerships&quot; is starting, please login in now so you don&apos;t miss a thing.
+
+Login Issues?
+ iLinc Support: 800-799-4510
+ 
+ Questions:
+ Jenny Clavero, TriTech Marketing
+ jenny.clavero@tritech.com
+LOGIN DETAILS
+Login in now with the information below.
+JOIN LINK:
+ http://tritech.ilinc.com/join/rbkmkvb &lt;http://tritech.ilinc.com/join/rbkmkvb&gt;
+
+AUDIO:
+ Listen through your computer speakers or dial in toll free (866) 502-8312; passcode:  859646.
+
+Trouble logging in?
+ Call 800.799.4510 to reach the iLinc support team for help</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>iCert-Tritech_Webinar.Invitation</name>
+    <style>none</style>
+    <subject>Complimentary Webinar: Crafting a Nationwide Model for Funding Emergency Calling in the Mobile Digital Age</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Crafting a Nationwide Model for Funding Emergency Calling in the Mobile Digital Age
+Complimentary Webinar
+Please join us for an upcoming webinar to learn insights and recommendations regarding a nationwide model for emergency calling funding assurance throughout the country.
+
+
+The resources needed to construct, maintain, staff, and update 911 communications centers and field operations are significant, particularly given the need to move to Next Generation 911, which includes Internet-based emergency calling.
+
+
+
+However, due to funding cuts, 911 centers face inadequate staffing levels and outdated equipment, at times leaving callers to face dangerous delays. As public sector budgets are now stretched in ways not seen in recent history, advancements in emergency calling — and even baseline maintenance — seem a daunting task.  
+
+
+
+Our nation&apos;s public safety professionals make technology investment decisions every day. Available funding resources help guide these decisions as agencies look to improve their systems and ensure effective deployment of emergency services. Without the requisite resources, no emergency communications agency, center, program, or plan can reach its potential or position itself effectively for the future. Join us in this complimentary webinar to learn more! 
+
+Register: http://offers.tritech.com/iCertTritech_Webinar_Registration.html
+
+ 
+Complimentary Webinar
+.
+
+    &lt;http://offers.tritech.com/iCertTritech_Webinar_Registration.html&gt;
+Date:  May 8, 2013
+
+Time:  2:00 PM Eastern Time (1 PM CT | Noon MT | 11 AM PT)
+Presenters:
+
+&gt;&gt;Darrin Reilly, TriTech Chief Operating Officer
+&gt;&gt;Craig Dollar, Founder and President, Emergency CallWorks
+
+&gt;&gt;Scott MacDonald, TriTech Senior Director of Product Management
+
+&gt;&gt;Glenn A Roach, Winbourne Consulting Vice President, NG9-1-1</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

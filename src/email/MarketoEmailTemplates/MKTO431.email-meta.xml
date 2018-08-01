@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CwK.Invite</name>
+    <style>none</style>
+    <subject>Don&apos;t Miss This - REGISTER NOW FOR COFFEE WITH KELLY - BILLING!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Monthly Customer Service Webinar Series
+Coffee with Kelly - Billing
+Every Second Tuesday of the Month
+
+{{lead.First Name:default=EMS Billing Customer}} -
+
+Register now for complimentary, monthly training on your Respond Billing or TriTech.com Billing (formerly Sweet-Billing) software. By registering now, you&apos;ll automatically receive invites to the live monthly trainings, as well as links to the recordings if you miss the live event. 
+These half-hour tips and sips will help you keep your software skills and industry knowledge fresh!
+
+Don’t miss the next session – register now to make sure you’re signed up for the live monthly sessions where you can ask questions and get your specific questions answered. 
+
+November 13: Batch Credits
+December 11: Contract Write-off poster
+January 8: Customer Portal Knowledge Base
+
+
+ &lt;http://offers.tritech.com/CwK-Billing_Registration.html&gt;
+
+If you cannot view the button above, please copy and paste this link into a browser window: http://offers.tritech.com/CwK-Billing_Registration.html
+
+
+For information about TriTech&apos;s EMS Billing or ePCR cloud-based software - or other integrated EMS applications - please contact us at sales@tritech.com &lt;mailto:sales@tritech.com&gt; or 800-537-3927.
+Training Information:
+Complimentary Monthly Customer Service Webinar Series
+Every Second Tuesday of the Month
+11:30 AM Eastern | 10:30 AM Central | 9:30 AM Mountain | 8:30 AM Pacific
+
+All you need is an internet connection to join. Listen through your computer speakers, or dial in through a telephone. Every live session includes a question-answer session where you get your specific questions answered.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

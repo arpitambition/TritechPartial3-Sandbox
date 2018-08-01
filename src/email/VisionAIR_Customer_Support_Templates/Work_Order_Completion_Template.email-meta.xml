@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used to assist in work order ticket completion</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Work Order Completion Template</name>
+    <style>freeForm</style>
+    <subject>{!Case.Product} {!Case.Reported_Major_Version_WMP__c} Upgrade Completed</subject>
+    <textOnly>The following upgrade for {!Case.Product} {!Case.Reported_Major_Version_WMP__c} has been completed:
+
+Agency Name: {!Case.Account}
+Contact Name: {!Case.Contact}
+
+
+Work Completed:  (details need to be added by technician)
+
+Server Name: (details need to be added by technician)
+
+Workstations Upgraded: (details need to be added by technician)
+
+Issues Encountered: (details need to be added by technician)
+Issues Outstanding:  (details need to be added by technician)
+
+Job Number: (details need to be added by technician)
+Job Code: (details need to be added by technician)
+
+
+Date and Time completed: (details need to be added by technician)</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

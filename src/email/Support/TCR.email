@@ -1,0 +1,8 @@
+<p>Hello {!Case.Contact}, </p>
+ 
+<p>I have attached the Task Completion Report for the project completed on your system at {!Account.Name}. If you have any questions, please give us a call.
+</p>
+<p>Thank you. <br />
+<br />
+IMC Support<br />
+Support: 800-987-0911 | www.zuerchertech.com</p>

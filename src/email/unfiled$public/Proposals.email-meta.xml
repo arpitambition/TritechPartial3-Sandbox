@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sending Quotes to Customers E-Mail</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Proposals</name>
+    <style>none</style>
+    <subject>Quote Request</subject>
+    <textOnly>{!Contact.FirstName}
+
+Attached to this email, please find the quote you recently requested.  If you are interested in proceeding, please be sure to complete the bottom of the last page and return to me, scanned in an email, or via fax to 978-215-2299.
+
+1. Indicate whether or not a PO is required for invoicing.
+
+a. If a PO is required for invoicing, please note the number on the quote and return a copy with the signed quote.
+
+2. Indicate if your agency is tax exempt.
+
+a. If you are, include a copy of the exemption certificate when you return the signed quote
+
+3. Print, Sign, and Date the quote.
+
+
+Sincerely,</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

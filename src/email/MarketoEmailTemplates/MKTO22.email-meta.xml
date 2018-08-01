@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTalk_Q2_2011_Email1</name>
+    <style>none</style>
+    <subject>TriTalk Q3 Newsletter,  Insight and News for Public Safety and Medical Transport Industries</subject>
+    <textOnly>In This Issue: Second Quarter, 2011
+  
+Special Feature
+
+Reshaping Your Future
+If you have too many calls, not enough staff and too much pressure, we get it. Making sense of the future is our business. We’re helping public safety and medical transport agencies reshape the way they manage information to help them focus on what’s important. Take a closer look at how we&apos;re helping some of our clients reshape their future: Read more...(http://offers.tritech.com/TriTalk_2011_Q2_Main)
+ 
+ 
+   
+Product and Service Updates
+
+VisiNet Solutions l Product Highlights
+VisiCAD’s Unit Swap module improves response time and resource management by immediately providing dispatchers with additional vehicle recommendations that become newly available and closer than originally dispatched units. With Unit Swap, responders will be able to arrive on scene quicker potentially saving lives and safeguarding property. Read More...(http://offers.tritech.com/TriTalk_2011_Q2_ProductServiceUpdates) 
+ 
+   
+EMS Solutions l Product Highlights
+In the Q1 2011 Issue of TriTalk we announced that Sweet-Online Billing was expanding to include the full complement of features and functionality of installed version of Sweet-Billing, as well as Fusion ePCR moving into a Web-Based Computing Model. Read More... (http://offers.tritech.com/TriTalk_2011_Q2_ProductServiceUpdates)
+ ﻿
+
+Featured Customers
+ 
+VisiNet Solutions Highlight l Dane County Public Safety Communications Center 
+Dane County has signed a contract for TriTech’s VisiCAD computer-aided dispatch and VisiNet Mobile data solutions.  According to Dane County Public Safety Communications Director John Dejung, “The user acceptability of VisiCAD solution was a key component in our selection process. With the large number and variety of agencies that our communicators serve, our review team was able to see how the new system, which features dynamic unit recommendations and advanced dispatch logic, would help them do things better and make their jobs easier.” Read More...(http://offers.tritech.com/TriTalk_2011_Q2_CustomerFeature)  
+ 
+Imc Solutions Highlight l Maumelle Police Department
+The Police Department of the City of Maumelle, located in Central Arkansas and a neighboring town to Little Rock, went live with their new TriTech Software System’s Imc Computer Aided Dispatch (CAD), Records Management System (RMS), Mobile, Administrative and Bar Coding applications at 1900 hours on June 29, 2011. The department is anticipating huge improvements in the administrative and operational workflow with the new system, saving their staff thousands of hours over the old paper and Microsoft Access database system which had been used for managing reports and communications previously. Read More...(http://offers.tritech.com/TriTalk_2011_Q2_CustomerFeature)
+   
+ 
+Upcoming Events (http://offers.tritech.com/TriTalk_2011_Q2_UpcomingEvents)
+ 
+-  TriCON 2011 Update
+
+-  Upcoming Webinars (Complimentary Live &amp; Recorded)
+ 
+-  Upcoming Tradeshows (July-Sept) 
+             
+-  Main Page
+ 
+-  Product &amp; Service Updates 
+ 
+-  Featured Customers
+ 
+-  Upcoming Events
+       
+-  Company News
+
+-  Visit www.TriTech.com
+ 
+ 
+   
+ 
+ 
+ Register now for TriCON: 
+ TriTech&apos;s Annual User Conference
+
+  
+ 
+   
+ 
+   
+ 
+ 
+ 
+ 
+  
+  
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

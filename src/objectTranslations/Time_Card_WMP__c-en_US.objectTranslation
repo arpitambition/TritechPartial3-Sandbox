@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Time Card</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Time Cards</value>
+    </caseValues>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Time --></label>
+        <name>End_Time_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Time --></label>
+        <name>Start_Time_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subject --></label>
+        <name>Subject_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Duration (Minutes) --></label>
+        <name>Ticket_Duration_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket --></label>
+        <name>Ticket_WMP__c</name>
+        <relationshipLabel><!-- Time Cards --></relationshipLabel>
+    </fields>
+    <layouts>
+        <layout>Time Card Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-IA007_April24-25_2012.Invitation</name>
+    <style>none</style>
+    <subject>Sweet Software Group Training in Your Area on April 24-25, 2012</subject>
+    <textOnly>Ankeny, Iowa |  April 24-25, 2012
+Sweet Software Group Training in Your Area
+ 
+One of the best ways to improve your knowledge and skills of your Sweet Billing Software is through hands-on group training. Regular training not only helps your billers learn how to use the software more effectively and efficiently, but often also helps your service become more profitable. 
+
+
+&quot;Kathy’s [Sweet Billing Trainer] very first question to the room was a great one. She said, “Raise your  hand if you have  ever had any formal training in Sweet Billing.” Not one person  raised their  hand. It was obvious then that the next two days would pay for themselves. The training was extremely thorough, and very user oriented. 
+
+I  have to tell you, I think the “ahas” were truly rolling for people who may have been accomplishing the same task, but adding many unnecessary steps. Our  billing department is now functioning much more efficiently. 
+
+I would recommend this training to anyone or at the very least get your checkup. We have decided to have a  checkup every few months now to assure everything is staying in line like it should.&quot;
+Steven Vincent of Gold Cross EMS, Martinez, GA
+
+DATE: April 24-25, 2012 (2  full days of training)
+HOSTS: Ankeny Fire Department (Ankeny, IA)
+COSTS: $500
+
+REGISTER:
+http://offers.tritech.com/SGTIA007_April24-25_2012_Registration.html
+
+
+This course has been approved  by the National Academy of Ambulance Coding (NAAC™) for 11.0 continuing  education units
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

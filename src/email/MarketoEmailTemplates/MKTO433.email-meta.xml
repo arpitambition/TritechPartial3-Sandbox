@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Post - Thank You</name>
+    <style>none</style>
+    <subject>TriCON 2012 Recap</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+A Truly AMAZING Experience
+
+Hello {{lead.First Name:default=Client}},
+
+Thank you to our customers, sponsors, and staff for making TriCON 2012 an amazing experience. We hope that you found the new products innovative, the training informative, and the networking valuable.  
+
+The feedback received from the surveys is serving as an excellent resource in our initial planning. In 2013, the TriTech User Conference will evolve into a TriTech Industry and Training Summit featuring an expanded program with a primary focus on training.  The event will be held in San Diego, and you can expect registration fees to remain the same. 
+
+To guarantee your attendance, you can include the event&apos;s registration, hotel and airfare into your Support Maintenance Agreement (SMA).  If interested in more information or to include the event fees in SMA please contact Jenny Clavero at (858) 799-7362 or email tricon@tritech.com &lt;mail to: tricon@tritech.com&gt;.
+
+ 
+Like the TriCON Facebook Page &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt; for event photos and updates on TriCON 2013 plans.
+Additional Resources
+Below are links to presentations that were not included in the TriCON USB drive for your reference:
+Stratus Technologies:
+Your CAD / RMS Application Just Crashed!
+
+REMSA Reno Air Races:
+Responding to &quot;A Plane in the Stands&quot;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

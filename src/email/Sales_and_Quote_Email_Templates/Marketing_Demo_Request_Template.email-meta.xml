@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Marketing Demo Request template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Marketing Demo Request Template</name>
+    <style>freeForm</style>
+    <subject>{!Demo_Request__c.Demo_Type__c} Marketing Request: {!Demo_Request__c.Opportunity__c}</subject>
+    <textOnly>Marketing Request Form
+
+Demo Request Date
+{!Demo_Request__c.CreatedDate}
+
+Demo Request Number
+{!Demo_Request__c.Name}
+
+Demo Type
+{!Demo_Request__c.Demo_Type__c}
+
+Opportunity
+{!Demo_Request__c.Opportunity__c}
+
+Client/Organization Name
+{!Demo_Request__c.Client_Organization_Name__c}
+
+TriTech Requestor
+{!Demo_Request__c.TriTech_Requestor__c}
+{!Demo_Request__c.Requestor_Mobile_Phone__c}
+
+Products to be Demo’d
+{!Demo_Request__c.Products_to_be_Demo_d__c}
+
+Third Party Vendor
+{!Demo_Request__c.Third_Party_Vendor__c}
+
+Total Number of Attendees
+{!Demo_Request__c.Total_Number_of_Attendees__c}
+
+Agency Types Involved
+{!Demo_Request__c.Agency_Types_Involved__c}
+
+Demo Location
+{!Demo_Request__c.Demo_Location__c}
+
+Demo Contact
+{!Demo_Request__c.Demo_Contact__c}
+{!Demo_Request__c.Demo_Contact_Phone__c}
+
+Demo Objective/Project Background
+{!Demo_Request__c.Demo_Objective__c}
+
+Demo Set-up Date/Time
+{!Demo_Request__c.Demo_Set_up_Date__c} {!Demo_Request__c.Demo_Set_up_Time__c} {!Demo_Request__c.Demo_Set_up_Time_Zone__c}
+
+Demo Start Date/Time
+{!Demo_Request__c.Demo_Start_Date__c} {!Demo_Request__c.Demo_Start_Time__c} {!Demo_Request__c.Demo_Start_Time_Zone__c}
+
+Demo End Date/Time
+{!Demo_Request__c.Demo_End_Date__c} {!Demo_Request__c.Demo_End_Time__c} {!Demo_Request__c.Demo_End_Time_Zone__c}
+
+Marketing Needs/Quantity
+{!Demo_Request__c.Marketing_Needs_Quantity__c}
+
+TriTech Log Stand Needed?
+{!Demo_Request__c.TriTech_Logo_Stand_Needed__c}
+
+Tablecloth(s) Needed?
+{!Demo_Request__c.Tablecloth_s_Needed__c}
+
+Nameplate Cards Needed?
+{!Demo_Request__c.Nameplate_Cards_Needed__c}
+
+Sharpies Needed?
+{!Demo_Request__c.Sharpies_Needed__c}
+
+Logistics Team Hotel
+{!Demo_Request__c.Logistics_Team_Hotel__c}
+
+Nearest Airport
+{!Demo_Request__c.Nearest_Airport__c}
+
+Dress Code Expected
+{!Demo_Request__c.Dress_Code_Expected__c}
+
+Food/Drinks Needed
+{!Demo_Request__c.Food_Drinks_Needed__c}
+
+Demo Team
+{!Demo_Request__c.Demo_Team__c}
+
+Solution Architect(s)
+{!Demo_Request__c.Solution_Architect_s__c}
+
+Link to Marketing/Demo Request:  {!Demo_Request__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

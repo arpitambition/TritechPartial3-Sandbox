@@ -1,0 +1,130 @@
+<apex:page standardController="Case" Extensions="CaseCloseControllerExtension">
+    <apex:form >
+        <div id="z_pnl_Old" style="display:none">
+        <apex:outputPanel >
+            <apex:pageBlock title="Case Closure" mode="edit">
+                <apex:pageBlockButtons >
+                    <apex:commandButton value="Save" action="{!save}"/>
+                    <apex:commandButton value="Cancel" action="{!cancel}"/>
+                </apex:pageBlockButtons>
+ 
+            </apex:pageBlock>
+        </apex:outputPanel>
+        </div>
+        
+        <div id="z_pnl" style="display:none"> 
+        <apex:outputPanel rendered="{!IF(Case.RecordType.Name == 'Zuercher Customer Support Ticket', true, false)}">
+            <apex:pageBlock title="Case Closure" mode="edit">
+                
+                <div style="text-align: center">
+                    <apex:commandButton value="Close Ticket" action="{!save}"/>
+                    <apex:commandButton value="Cancel" action="{!cancel}"/>
+                </div>
+                
+                <apex:pageBlockSection title="Resolution Information" collapsible="false" columns="1">
+                    <apex:inputField value="{!case.Customer_Initiated_Closure_Notes__c}" style="height:200px;width:1000px" required="true"/>
+                </apex:pageBlockSection>
+                
+                <apex:pageBlockSection showHeader="false" columns="2">
+                    <apex:outputField value="{!case.CaseNumber}"/>
+                    <apex:outputText value="Customer Initiated Closure" label="Ticket Status"/>
+                </apex:pageBlockSection>
+                
+                <apex:pageBlockSection title="subject" showHeader="false" columns="1">
+                    <apex:outputField value="{!case.Subject}"/>                     
+                </apex:pageBlockSection>
+                           
+            </apex:pageBlock>
+        </apex:outputPanel>
+        </div>        
+        
+        <div id="t_pnl" style="display:none">
+        <apex:outputPanel rendered="{!IF(Case.RecordType.Name == 'Customer Support Ticket', true, false)}">
+        
+            <div style="text-align: center">
+                <apex:commandButton value="Close Ticket" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+            </div>
+
+            <apex:pageBlock title="Case Closure" mode="edit">
+                <apex:pageBlockSection title="Fields" showHeader="false">
+                    <apex:outputField value="{!Case.CaseNumber}"/>
+                    
+                    <apex:panelGrid columns="2">
+                    <apex:outputLabel value="Ticket Status" for="statusList"/>
+                    <apex:selectList id="statusList" size="1" value="{!Status}">
+                        <apex:selectOptions value="{!statusList}"/>
+                    </apex:selectList>
+                    </apex:panelGrid>
+                    
+                   
+                    <apex:outputField value="{!Case.Subject}"/>
+                   
+                    
+                    
+                    
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:outputPanel>
+        </div>
+        
+        <div id="crossTicketPanel" style="display:none">
+        <apex:outputPanel rendered="{!IF(Case.RecordType.Name == 'Cross Support Ticket', true, false)}">
+        
+            <div style="text-align: center">
+                <apex:commandButton value="Close Ticket" action="{!save}"/>
+                <apex:commandButton value="Cancel" action="{!cancel}"/>
+            </div>
+
+            <apex:pageBlock title="Case Closure" mode="edit">
+                <apex:pageBlockSection title="Fields" showHeader="false">
+                    <apex:outputField value="{!Case.CaseNumber}"/>
+                    
+                    <apex:panelGrid columns="2">
+                        <apex:outputLabel value="Ticket Status" for="statusList"/>
+                        <apex:selectList id="statusList" size="1" value="{!Status}">
+                            <apex:selectOptions value="{!statusList}"/>
+                        </apex:selectList>
+                    </apex:panelGrid>
+                    <apex:outputField value="{!Case.Subject}"/>
+                </apex:pageBlockSection>
+                <apex:pageBlockSection title="Cross Support - Response and Resolution Information">
+                    <apex:inputField value="{!Case.Customer_Initiated_Closure_Notes__c}" style="height:200px;width:1000px" required="true"/>
+                </apex:pageBlockSection>
+            </apex:pageBlock>
+        </apex:outputPanel>
+        </div>
+     </apex:form>
+     
+<script>
+    (function init(){
+        var z = document.getElementById("z_pnl");
+        var t = document.getElementById("t_pnl");
+        var crossTicket = document.getElementById("crossTicketPanel");
+        
+        if("{!Case.RecordType.Name}" == "Zuercher Customer Support Ticket"){
+            z.style.display = "block";
+            t.style.display = "none";
+            crossTicket.style.display = "none";
+        }
+        
+        if("{!Case.RecordType.Name}" == "Customer Support Ticket"){
+            z.style.display = "none";
+            t_pnl.style.display = "block";
+            crossTicket.style.display = "none";
+        }
+        
+        if("{!Case.RecordType.Name}" == "Cross Support Ticket"){
+            z.style.display = "none";
+            t_pnl.style.display = "none";
+            crossTicket.style.display = "block";
+        }
+     })();
+     
+    // window.onload=init;
+    (function(){
+        //init();
+    })();
+</script>
+
+</apex:page>

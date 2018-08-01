@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sept2011.Imc CC Sept11 Email</name>
+    <style>none</style>
+    <subject>Your Imc CAM Connection - September Newsletter</subject>
+    <textOnly>September 2011 Edition
+
+Welcome to the September issue of the Imc Solutions CAM Connection newsletter. The main page of the newsletter will give you an overall glance at what this month&apos;s newsletter has to offer; click on the top left hand titles in the grey box to navigate to the stories that interest you most. We hope you enjoy the newsletter.
+ 
+ 
+Important Alerts &amp; Updates (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+ 
+ &gt; There’s Still time to Join us – Discover the value of a TriCON Day Pass (https://www.signup4.net/Public/ap.aspx?EID=TRIC17E)
+
+ &gt; The Imc Golf Tournament has been revived! (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+
+ &gt; Changes to Client Services Phone Queue (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+
+ &gt; Build 18 now available on line (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+
+ &gt; Bi-Annual Customer Feedback Surveys (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+
+ &gt; Join us at the Gahanna (Ohio) Division of Police Open House (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+ 
+ 
+Products &amp; Services (http://offers.tritech.com/Sept2011_ImcCAMConnection_ProductsServices.html)
+
+Complimentary Webinar: Getting the Budget You Need By Proving Value and Return on Investment (http://offers.tritech.com/Sept2011_ImcCAMConnection_ProductsServices.html)
+In this recorded webinar, learn how to get the budget you need for time-saving and efficiency-building technology by proving the value and return on the investment for your agency.
+ 
+Fix It with Felicia: Dictionary Files (DDFs) (http://offers.tritech.com/Sept2011_ImcCAMConnection_ProductsServices.html)
+In this webinar, see a live demo of how DDFs can enhance your department’s Imc software for Crime Analysis, Investigations, Officer Productivity, etc. Harness the power of DDFs to get all the information you want out of the Imc software.
+
+2011 ONLINE IMC SOLUTIONS&apos; USER GROUP MEETING (http://offers.tritech.com/Sept2011_ImcCAMConnection_ProductsServices.html)
+
+ 
+Technical Support Hot Topics (http://offers.tritech.com/Sept2011_ImcCAMConnection_TechnicalSupportHotTopics.html)
+ 
+Imc Solutions Tips 
+Questions and Answers Section
+ 
+
+Client News &amp; GoLives (http://offers.tritech.com/Sept2011_ImcCAMConnection_ClientNews.html)
+ 
+In the News: Counties to Combine Emergency Dispatch Services
+Two central Maine counties reached a deal to share an emergency dispatch and law enforcement technology, showing how taxpayers can benefit when communities merge certain services, according to county officials. Franklin County taxpayers will pay about $68,000 per year to Somerset County, where taxpayers have invested more than $1 million in recent years to install the infrastructure needed to support the technology. 
+             
+
+ &gt; Main Page (http://offers.tritech.com/Sept2011_ImcCAMConnection_Main.html)
+
+ &gt; Important Alerts &amp; Updates (http://offers.tritech.com/Sept2011_ImcCAMConnection_AlertUpdates.html)
+
+ &gt; Products &amp; Services (http://offers.tritech.com/Sept2011_ImcCAMConnection_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics (http://offers.tritech.com/Sept2011_ImcCAMConnection_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; GoLives (http://offers.tritech.com/Sept2011_ImcCAMConnection_ClientNews.html)
+
+ &gt; www.tritech.com (https://www.signup4.net/Public/ap.aspx?EID=TRIC17E)
+ 
+ 
+CAM CONTACTS
+David Bell
+ 508.839.6445 x104
+ david.bell@tritech.com
+ 
+Mark Baranowski
+ 508.839.6445 x180
+ mark.baranowski@tritech.com 
+ 
+  
+Register now for TriCON: (https://www.signup4.net/Public/ap.aspx?EID=TRIC17E)
+TriTech&apos;s Annual User Conference
+
+ 
+ 
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com             
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

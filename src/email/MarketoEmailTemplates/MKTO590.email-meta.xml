@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTech.com IQ Demonstration.Registration Confirmation</name>
+    <style>none</style>
+    <subject>Webinar Confirmation:  Discover the Power of TriTech.com IQ</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Discover the Power of TriTech.com IQ
+COMPLIMENTARY LIVE WEBINAR
+Approved for 1 NAAC CEU
+Thank you for registering for our TriTech.com IQ product demonstration. You will receive a reminder email one day prior to the live webinar. Your webinar information is listed to the right.
+
+JOIN LINK: {{member.webinar url:default=Login Link}}
+
+DATE: Thursday, April 11, 2013
+ 
+ TIME: 2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+ 
+ SPEAKERS:
+ Wendy Gilbert, Director of 
+Product Management
+
+Charlie Barry, Senior Product Manager
+
+
+AUDIO: Listen through your computer speakers or dial in over the telephone to the number shown on your screen after login
+ 
+
+ Wendy and Charlie look forward to showcasing our exciting new product on Thursday, April 11 and are glad you&apos;ve decided to join.
+
+See you online on April 11th!
+
+
+Questions?
+ Cheri Lane, Marketing Communication Manager
+ 800-537-3927, ext. #6278
+ cheri.lane@tritech.com &lt;http://direct.tritech.com/track?type=click&amp;enid=bWFpbGluZ2lkPXByb2QtYS00OTcmbWVzc2FnZWlkPTQ5NyZkYXRhYmFzZWlkPTEzNTg0ODY1MjUmc2VyaWFsPTEzMDAyMDM5OTUmZW1haWxpZD1qZW5ueS5jbGF2ZXJvQHRyaXRlY2guY29tJnVzZXJpZD1hLTgwLTM5OTkyLTE2MTcyNS0xJmV4dHJhPSYmJg==&amp;&amp;&amp;mailto:cheri.lane@tritech.com?mkt_tok=3RkMMJWWfF9wsRolv6rBZKXonjHpfsX57e0qW6Kg38431UFwdcjKPmjr1YYCTMN0dvycMRAVFZl5nRhKE%2FSQf4g%3D&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

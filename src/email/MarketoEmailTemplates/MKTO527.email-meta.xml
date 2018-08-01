@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CAM-Change.TylerHarman</name>
+    <style>none</style>
+    <subject>Meet Your New TriTech Client Account Manager</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Message from your Client Account Manager
+
+Hello {{lead.First Name:default=Valued Client}},
+
+With the new year came a few changes in the EMS Sales Department - but all good ones! Michele Duwe, your Client Account Manager (CAM) has spread her wings and taken an opportunity to become a CAM for our TriTech Inform clients. Though she will be truly missed, we wish her nothing but success in her new challenge.
+
+With that said, I am excited to announce that I am your new account manager. If any of you are considering looking at enhancing your software for 2013 or have questions in regard to your account, please feel free to call or email me. I may be new to your state, but am not new to TriTech.
+
+As your new CAM, I want to make sure that you are aware of our 2013 Billing User Group trainings, which you can get more information on here &lt;http://offers.tritech.com/2013SGTRegistration.html&gt;. If you have ever wondered what else your billing system could be doing for you or wished for a refresher on the billing system, this is a great event to attend. 
+
+Please update your records with my contact information. Happy 2013 and I hope to talk to you soon!
+
+
+Tyler Harman, Client Account Manager
+TriTech Software Systems | www.tritech.com &lt;http://direct.tritech.com/track?type=click&amp;enid=bWFpbGluZ2lkPW9ydGl2dXNuYUJldGFjdXN0LS0tLTUwMTMtcHJvZC02MDAyJm1lc3NhZ2VpZD0wJmRhdGFiYXNlaWQ9NjAwMiZzZXJpYWw9MTMwMDA2MzgwNyZlbWFpbGlkPUpFTk5ZLkNMQVZFUk9AVFJJVEVDSC5DT00mdXNlcmlkPTAmZXh0cmE9JiYm&amp;&amp;&amp;http://www.tritech.com?mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hB0uI7%2BJK1TtuMFUGpsqOOaMFQsGBoNvwQ%3D%3D&gt;
+
+Your Client Account Manager
+Tyler Harman
+ Phone:  (563) 387-4830
+tyler.harman@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

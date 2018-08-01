@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification to director when account score is completed and requires approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Account Score Approval</name>
+    <style>none</style>
+    <subject>Account Score Approval Needed: {!Account.Name}</subject>
+    <textOnly>{!Account.OwnerFullName} has completed the account scoring section for: {!Account.Name} 
+
+Account Score = {!Account.Account_Score__c} 
+
+Please review the account and check the &quot;Account Score - Director Approved&quot; checkbox when complete.  
+
+You can view the account here: {!Account.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

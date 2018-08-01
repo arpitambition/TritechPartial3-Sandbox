@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EMS alert trigger for creation of an Enhancement Ticket originating from On-Call/Paging</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - EMS Enhancement Ticket On-Call Paging</name>
+    <style>none</style>
+    <subject>On-Call/Paging Enhancement Ticket: Ticket Number {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

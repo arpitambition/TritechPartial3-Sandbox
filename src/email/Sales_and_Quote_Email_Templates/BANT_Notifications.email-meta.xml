@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for Inform BANT notifications when BANT is checked in an opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>BANT Notifications</name>
+    <style>none</style>
+    <subject>BANT Opportunity Notice for {!Opportunity.Name}</subject>
+    <textOnly>BANT has been checked on the following Opportunity: 
+{!Opportunity.Name}  
+BANT Completed By:  {!Opportunity.BANT_Completed_Date__c}
+
+Account:  {!Opportunity.Account} 
+Opportunity Owner:  {!Opportunity.OwnerFullName}  
+
+You can review the opportunity here: 
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

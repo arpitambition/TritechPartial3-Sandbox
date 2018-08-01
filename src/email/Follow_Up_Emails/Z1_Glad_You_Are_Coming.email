@@ -1,0 +1,13 @@
+Hi {!Contact.FirstName},
+
+Glad to see that you are coming to Z1! I want to make myself available as a resource to help you in your planning for this important training and networking event. 
+
+The program is still being developed, but we are making sure that Z1 is of great value of your time. If you have any questions, any product demonstrations you would like to see, or any resources to introduce you to either on the user side or Zuercher side, I will be happy to be of assistance.
+
+See you in Sioux Falls! 
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.CompanyName}
+{!User.Phone}  I  {!User.Email}

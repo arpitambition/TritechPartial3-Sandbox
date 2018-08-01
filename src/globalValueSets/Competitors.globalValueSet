@@ -1,0 +1,801 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GlobalValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customValue>
+        <fullName>911 EMS Software, LLC</fullName>
+        <default>false</default>
+        <label>911 EMS Software, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>ACS-Firehouse</fullName>
+        <default>false</default>
+        <label>ACS-Firehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>ADSI</fullName>
+        <default>false</default>
+        <label>ADSI</label>
+    </customValue>
+    <customValue>
+        <fullName>AeroMed Software</fullName>
+        <default>false</default>
+        <label>AeroMed Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Agisent</fullName>
+        <default>false</default>
+        <label>Agisent</label>
+    </customValue>
+    <customValue>
+        <fullName>Allegheny R&amp;D</fullName>
+        <default>false</default>
+        <label>Allegheny R&amp;D</label>
+    </customValue>
+    <customValue>
+        <fullName>Alpine Software</fullName>
+        <default>false</default>
+        <label>Alpine Software</label>
+    </customValue>
+    <customValue>
+        <fullName>AmbuPro</fullName>
+        <default>false</default>
+        <label>AmbuPro</label>
+    </customValue>
+    <customValue>
+        <fullName>AMCAD</fullName>
+        <default>false</default>
+        <label>AMCAD</label>
+    </customValue>
+    <customValue>
+        <fullName>Application Data Systems Inc. (ADSi)</fullName>
+        <default>false</default>
+        <label>Application Data Systems Inc. (ADSi)</label>
+    </customValue>
+    <customValue>
+        <fullName>Archonix</fullName>
+        <default>false</default>
+        <label>Archonix</label>
+    </customValue>
+    <customValue>
+        <fullName>Astra</fullName>
+        <default>false</default>
+        <label>Astra</label>
+    </customValue>
+    <customValue>
+        <fullName>Bighorn Systems</fullName>
+        <default>false</default>
+        <label>Bighorn Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>BIO-Key</fullName>
+        <default>false</default>
+        <label>BIO-Key</label>
+    </customValue>
+    <customValue>
+        <fullName>Bradshaw Consulting</fullName>
+        <default>false</default>
+        <label>Bradshaw Consulting</label>
+    </customValue>
+    <customValue>
+        <fullName>Caliber/Global</fullName>
+        <default>false</default>
+        <label>Caliber/Global</label>
+    </customValue>
+    <customValue>
+        <fullName>Caliber/InterAct</fullName>
+        <default>false</default>
+        <label>Caliber/InterAct</label>
+    </customValue>
+    <customValue>
+        <fullName>Caliber/Sleuth</fullName>
+        <default>false</default>
+        <label>Caliber/Sleuth</label>
+    </customValue>
+    <customValue>
+        <fullName>Caliber/TAC.10</fullName>
+        <default>false</default>
+        <label>Caliber/TAC.10</label>
+    </customValue>
+    <customValue>
+        <fullName>Capers</fullName>
+        <default>false</default>
+        <label>Capers</label>
+    </customValue>
+    <customValue>
+        <fullName>Cardinal</fullName>
+        <default>false</default>
+        <label>Cardinal</label>
+    </customValue>
+    <customValue>
+        <fullName>Cassidian</fullName>
+        <default>false</default>
+        <label>Cassidian</label>
+    </customValue>
+    <customValue>
+        <fullName>CIS Systems</fullName>
+        <default>false</default>
+        <label>CIS Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Code 3 Software</fullName>
+        <default>false</default>
+        <label>Code 3 Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Code Red</fullName>
+        <default>false</default>
+        <label>Code Red</label>
+    </customValue>
+    <customValue>
+        <fullName>Cody</fullName>
+        <default>false</default>
+        <label>Cody</label>
+    </customValue>
+    <customValue>
+        <fullName>Commerx Corporation</fullName>
+        <default>false</default>
+        <label>Commerx Corporation</label>
+    </customValue>
+    <customValue>
+        <fullName>ComnetiX</fullName>
+        <default>false</default>
+        <label>ComnetiX</label>
+    </customValue>
+    <customValue>
+        <fullName>Computer Investment Advice, Inc.</fullName>
+        <default>false</default>
+        <label>Computer Investment Advice, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>CORE 911</fullName>
+        <default>false</default>
+        <label>CORE 911</label>
+    </customValue>
+    <customValue>
+        <fullName>Corporate Technologies, LLC</fullName>
+        <default>false</default>
+        <label>Corporate Technologies, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>Crime Gog Technologies</fullName>
+        <default>false</default>
+        <label>Crime Gog Technologies</label>
+    </customValue>
+    <customValue>
+        <fullName>CRIMES</fullName>
+        <default>false</default>
+        <label>CRIMES</label>
+    </customValue>
+    <customValue>
+        <fullName>CrimeStar</fullName>
+        <default>false</default>
+        <label>CrimeStar</label>
+    </customValue>
+    <customValue>
+        <fullName>CR Management, Inc.</fullName>
+        <default>false</default>
+        <label>CR Management, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>CSI</fullName>
+        <default>false</default>
+        <label>CSI</label>
+    </customValue>
+    <customValue>
+        <fullName>CTS</fullName>
+        <default>false</default>
+        <label>CTS</label>
+    </customValue>
+    <customValue>
+        <fullName>Cyrun</fullName>
+        <default>false</default>
+        <label>Cyrun</label>
+    </customValue>
+    <customValue>
+        <fullName>Data 911</fullName>
+        <default>false</default>
+        <label>Data 911</label>
+    </customValue>
+    <customValue>
+        <fullName>Denali</fullName>
+        <default>false</default>
+        <label>Denali</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Innovations</fullName>
+        <default>false</default>
+        <label>Digital Innovations</label>
+    </customValue>
+    <customValue>
+        <fullName>Digital Planet</fullName>
+        <default>false</default>
+        <label>Digital Planet</label>
+    </customValue>
+    <customValue>
+        <fullName>Docu/Med</fullName>
+        <default>false</default>
+        <label>Docu/Med</label>
+    </customValue>
+    <customValue>
+        <fullName>Documed Systems Intl. Inc.</fullName>
+        <default>false</default>
+        <label>Documed Systems Intl. Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>DSSI</fullName>
+        <default>false</default>
+        <label>DSSI</label>
+    </customValue>
+    <customValue>
+        <fullName>ECS Inc.</fullName>
+        <default>false</default>
+        <label>ECS Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>eForce</fullName>
+        <default>false</default>
+        <label>eForce</label>
+    </customValue>
+    <customValue>
+        <fullName>EIS</fullName>
+        <default>false</default>
+        <label>EIS</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Callworks</fullName>
+        <default>false</default>
+        <label>Emergency Callworks</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Reporting</fullName>
+        <default>false</default>
+        <label>Emergency Reporting</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergency Technologies, Inc</fullName>
+        <default>false</default>
+        <label>Emergency Technologies, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>EmergiData</fullName>
+        <default>false</default>
+        <label>EmergiData</label>
+    </customValue>
+    <customValue>
+        <fullName>Emergitech</fullName>
+        <default>false</default>
+        <label>Emergitech</label>
+    </customValue>
+    <customValue>
+        <fullName>EMS</fullName>
+        <default>false</default>
+        <label>EMS</label>
+    </customValue>
+    <customValue>
+        <fullName>EMSCharts</fullName>
+        <default>false</default>
+        <label>EMSCharts</label>
+    </customValue>
+    <customValue>
+        <fullName>EMS Consultants, Ltd.</fullName>
+        <default>false</default>
+        <label>EMS Consultants, Ltd.</label>
+    </customValue>
+    <customValue>
+        <fullName>EMS Data Systems, Inc.</fullName>
+        <default>false</default>
+        <label>EMS Data Systems, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Enforsys</fullName>
+        <default>false</default>
+        <label>Enforsys</label>
+    </customValue>
+    <customValue>
+        <fullName>EnRoute</fullName>
+        <default>false</default>
+        <label>EnRoute</label>
+    </customValue>
+    <customValue>
+        <fullName>ESO Solutions</fullName>
+        <default>false</default>
+        <label>ESO Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>ETI</fullName>
+        <default>false</default>
+        <label>ETI</label>
+    </customValue>
+    <customValue>
+        <fullName>Experiant</fullName>
+        <default>false</default>
+        <label>Experiant</label>
+    </customValue>
+    <customValue>
+        <fullName>EZ911</fullName>
+        <default>false</default>
+        <label>EZ911</label>
+    </customValue>
+    <customValue>
+        <fullName>FDM</fullName>
+        <default>false</default>
+        <label>FDM</label>
+    </customValue>
+    <customValue>
+        <fullName>Firehouse</fullName>
+        <default>false</default>
+        <label>Firehouse</label>
+    </customValue>
+    <customValue>
+        <fullName>FirePrograms Software</fullName>
+        <default>false</default>
+        <label>FirePrograms Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Fortek (UK)</fullName>
+        <default>false</default>
+        <label>Fortek (UK)</label>
+    </customValue>
+    <customValue>
+        <fullName>GEAC</fullName>
+        <default>false</default>
+        <label>GEAC</label>
+    </customValue>
+    <customValue>
+        <fullName>Global Software Corp</fullName>
+        <default>false</default>
+        <label>Global Software Corp</label>
+    </customValue>
+    <customValue>
+        <fullName>Golden Hour Data Systems</fullName>
+        <default>false</default>
+        <label>Golden Hour Data Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Gold Systems, Inc</fullName>
+        <default>false</default>
+        <label>Gold Systems, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>Grayco Systems</fullName>
+        <default>false</default>
+        <label>Grayco Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Harris/Caliber</fullName>
+        <default>false</default>
+        <label>Harris/Caliber</label>
+    </customValue>
+    <customValue>
+        <fullName>Harrison</fullName>
+        <default>false</default>
+        <label>Harrison</label>
+    </customValue>
+    <customValue>
+        <fullName>Healthware Solutions, LLC</fullName>
+        <default>false</default>
+        <label>Healthware Solutions, LLC</label>
+    </customValue>
+    <customValue>
+        <fullName>High Plains Information Systems, Inc.</fullName>
+        <default>false</default>
+        <label>High Plains Information Systems, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>HiTech</fullName>
+        <default>false</default>
+        <label>HiTech</label>
+    </customValue>
+    <customValue>
+        <fullName>Hyland Software</fullName>
+        <default>false</default>
+        <label>Hyland Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Iatroware</fullName>
+        <default>false</default>
+        <label>Iatroware</label>
+    </customValue>
+    <customValue>
+        <fullName>ICS</fullName>
+        <default>false</default>
+        <label>ICS</label>
+    </customValue>
+    <customValue>
+        <fullName>ID Solutions/DaPro</fullName>
+        <default>false</default>
+        <label>ID Solutions/DaPro</label>
+    </customValue>
+    <customValue>
+        <fullName>ImageTrend</fullName>
+        <default>false</default>
+        <label>ImageTrend</label>
+    </customValue>
+    <customValue>
+        <fullName>IMC</fullName>
+        <default>false</default>
+        <label>IMC</label>
+    </customValue>
+    <customValue>
+        <fullName>In House</fullName>
+        <default>false</default>
+        <label>In House</label>
+    </customValue>
+    <customValue>
+        <fullName>Inspironix, Inc</fullName>
+        <default>false</default>
+        <label>Inspironix, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>InterAct</fullName>
+        <default>false</default>
+        <label>InterAct</label>
+    </customValue>
+    <customValue>
+        <fullName>Intergraph</fullName>
+        <default>false</default>
+        <label>Intergraph</label>
+    </customValue>
+    <customValue>
+        <fullName>Intermedix Technologies, Inc</fullName>
+        <default>false</default>
+        <label>Intermedix Technologies, Inc</label>
+    </customValue>
+    <customValue>
+        <fullName>Intrado (Formerly Positron)</fullName>
+        <default>false</default>
+        <label>Intrado (Formerly Positron)</label>
+    </customValue>
+    <customValue>
+        <fullName>IPC</fullName>
+        <default>false</default>
+        <label>IPC</label>
+    </customValue>
+    <customValue>
+        <fullName>iPCR</fullName>
+        <default>false</default>
+        <label>iPCR</label>
+    </customValue>
+    <customValue>
+        <fullName>ITI</fullName>
+        <default>false</default>
+        <label>ITI</label>
+    </customValue>
+    <customValue>
+        <fullName>JefBar</fullName>
+        <default>false</default>
+        <label>JefBar</label>
+    </customValue>
+    <customValue>
+        <fullName>Keystone</fullName>
+        <default>false</default>
+        <label>Keystone</label>
+    </customValue>
+    <customValue>
+        <fullName>Logistic Systems</fullName>
+        <default>false</default>
+        <label>Logistic Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Logisys</fullName>
+        <default>false</default>
+        <label>Logisys</label>
+    </customValue>
+    <customValue>
+        <fullName>Macrologic Inc.</fullName>
+        <default>false</default>
+        <label>Macrologic Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Mark43</fullName>
+        <default>false</default>
+        <label>Mark43</label>
+    </customValue>
+    <customValue>
+        <fullName>MedaPoint</fullName>
+        <default>false</default>
+        <label>MedaPoint</label>
+    </customValue>
+    <customValue>
+        <fullName>Medical Claims Assistance, Inc.</fullName>
+        <default>false</default>
+        <label>Medical Claims Assistance, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Med Media</fullName>
+        <default>false</default>
+        <label>Med Media</label>
+    </customValue>
+    <customValue>
+        <fullName>Medusa Medical Technologies, Inc.</fullName>
+        <default>false</default>
+        <label>Medusa Medical Technologies, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>MicroData</fullName>
+        <default>false</default>
+        <label>MicroData</label>
+    </customValue>
+    <customValue>
+        <fullName>Motorola</fullName>
+        <default>false</default>
+        <label>Motorola</label>
+    </customValue>
+    <customValue>
+        <fullName>NEC</fullName>
+        <default>false</default>
+        <label>NEC</label>
+    </customValue>
+    <customValue>
+        <fullName>NET Data</fullName>
+        <default>false</default>
+        <label>NET Data</label>
+    </customValue>
+    <customValue>
+        <fullName>New World Systems</fullName>
+        <default>false</default>
+        <label>New World Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Niche</fullName>
+        <default>false</default>
+        <label>Niche</label>
+    </customValue>
+    <customValue>
+        <fullName>None</fullName>
+        <default>false</default>
+        <label>None</label>
+    </customValue>
+    <customValue>
+        <fullName>Northrop Grumman</fullName>
+        <default>false</default>
+        <label>Northrop Grumman</label>
+    </customValue>
+    <customValue>
+        <fullName>OPEN Incorporated</fullName>
+        <default>false</default>
+        <label>OPEN Incorporated</label>
+    </customValue>
+    <customValue>
+        <fullName>OSSI</fullName>
+        <default>false</default>
+        <label>OSSI</label>
+    </customValue>
+    <customValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </customValue>
+    <customValue>
+        <fullName>Pamet Systems</fullName>
+        <default>false</default>
+        <label>Pamet Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>PoliceWorks</fullName>
+        <default>false</default>
+        <label>PoliceWorks</label>
+    </customValue>
+    <customValue>
+        <fullName>ProPhoenix Corp</fullName>
+        <default>false</default>
+        <label>ProPhoenix Corp</label>
+    </customValue>
+    <customValue>
+        <fullName>PSNET</fullName>
+        <default>false</default>
+        <label>PSNET</label>
+    </customValue>
+    <customValue>
+        <fullName>PSSI</fullName>
+        <default>false</default>
+        <label>PSSI</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS</fullName>
+        <default>false</default>
+        <label>PTS</label>
+    </customValue>
+    <customValue>
+        <fullName>PTS Solutions</fullName>
+        <default>false</default>
+        <label>PTS Solutions</label>
+    </customValue>
+    <customValue>
+        <fullName>Purvis</fullName>
+        <default>false</default>
+        <label>Purvis</label>
+    </customValue>
+    <customValue>
+        <fullName>QED</fullName>
+        <default>false</default>
+        <label>QED</label>
+    </customValue>
+    <customValue>
+        <fullName>RAM Software Systems, Inc.</fullName>
+        <default>false</default>
+        <label>RAM Software Systems, Inc.</label>
+    </customValue>
+    <customValue>
+        <fullName>Remsdaq (UK)</fullName>
+        <default>false</default>
+        <label>Remsdaq (UK)</label>
+    </customValue>
+    <customValue>
+        <fullName>Response Data Engineering</fullName>
+        <default>false</default>
+        <label>Response Data Engineering</label>
+    </customValue>
+    <customValue>
+        <fullName>Sansio (Formerly ScanHealth)</fullName>
+        <default>false</default>
+        <label>Sansio (Formerly ScanHealth)</label>
+    </customValue>
+    <customValue>
+        <fullName>Securus/Archonix</fullName>
+        <default>false</default>
+        <label>Securus/Archonix</label>
+    </customValue>
+    <customValue>
+        <fullName>Sertia</fullName>
+        <default>false</default>
+        <label>Sertia</label>
+    </customValue>
+    <customValue>
+        <fullName>Shield</fullName>
+        <default>false</default>
+        <label>Shield</label>
+    </customValue>
+    <customValue>
+        <fullName>Sierra Systems Consultants</fullName>
+        <default>false</default>
+        <label>Sierra Systems Consultants</label>
+    </customValue>
+    <customValue>
+        <fullName>SMART</fullName>
+        <default>false</default>
+        <label>SMART</label>
+    </customValue>
+    <customValue>
+        <fullName>SmartCOP</fullName>
+        <default>false</default>
+        <label>SmartCOP</label>
+    </customValue>
+    <customValue>
+        <fullName>Solacom</fullName>
+        <default>false</default>
+        <label>Solacom</label>
+    </customValue>
+    <customValue>
+        <fullName>Southern Software</fullName>
+        <default>false</default>
+        <label>Southern Software</label>
+    </customValue>
+    <customValue>
+        <fullName>Spillman</fullName>
+        <default>false</default>
+        <label>Spillman</label>
+    </customValue>
+    <customValue>
+        <fullName>Sungard HTE</fullName>
+        <default>false</default>
+        <label>Sungard HTE</label>
+    </customValue>
+    <customValue>
+        <fullName>Sungard OSSI</fullName>
+        <default>false</default>
+        <label>Sungard OSSI</label>
+    </customValue>
+    <customValue>
+        <fullName>Sun Ridge - RIMS</fullName>
+        <default>false</default>
+        <label>Sun Ridge - RIMS</label>
+    </customValue>
+    <customValue>
+        <fullName>Synergistics</fullName>
+        <default>false</default>
+        <label>Synergistics</label>
+    </customValue>
+    <customValue>
+        <fullName>Syscon</fullName>
+        <default>false</default>
+        <label>Syscon</label>
+    </customValue>
+    <customValue>
+        <fullName>Thales (UK)</fullName>
+        <default>false</default>
+        <label>Thales (UK)</label>
+    </customValue>
+    <customValue>
+        <fullName>Tiburon</fullName>
+        <default>false</default>
+        <label>Tiburon</label>
+    </customValue>
+    <customValue>
+        <fullName>TracNet</fullName>
+        <default>false</default>
+        <label>TracNet</label>
+    </customValue>
+    <customValue>
+        <fullName>Traumasoft</fullName>
+        <default>false</default>
+        <label>Traumasoft</label>
+    </customValue>
+    <customValue>
+        <fullName>Tritier Corporation</fullName>
+        <default>false</default>
+        <label>Tritier Corporation</label>
+    </customValue>
+    <customValue>
+        <fullName>TSG</fullName>
+        <default>false</default>
+        <label>TSG</label>
+    </customValue>
+    <customValue>
+        <fullName>Tyler Technologies</fullName>
+        <default>false</default>
+        <label>Tyler Technologies</label>
+    </customValue>
+    <customValue>
+        <fullName>Unisys</fullName>
+        <default>false</default>
+        <label>Unisys</label>
+    </customValue>
+    <customValue>
+        <fullName>Unknown</fullName>
+        <default>false</default>
+        <label>Unknown</label>
+    </customValue>
+    <customValue>
+        <fullName>USA</fullName>
+        <default>false</default>
+        <label>USA</label>
+    </customValue>
+    <customValue>
+        <fullName>Valor</fullName>
+        <default>false</default>
+        <label>Valor</label>
+    </customValue>
+    <customValue>
+        <fullName>Versaterm</fullName>
+        <default>false</default>
+        <label>Versaterm</label>
+    </customValue>
+    <customValue>
+        <fullName>VisiNet</fullName>
+        <default>false</default>
+        <label>VisiNet</label>
+    </customValue>
+    <customValue>
+        <fullName>VisionAIR</fullName>
+        <default>false</default>
+        <label>VisionAIR</label>
+    </customValue>
+    <customValue>
+        <fullName>Visual Fire</fullName>
+        <default>false</default>
+        <label>Visual Fire</label>
+    </customValue>
+    <customValue>
+        <fullName>West Covina Service Group</fullName>
+        <default>false</default>
+        <label>West Covina Service Group</label>
+    </customValue>
+    <customValue>
+        <fullName>Zoll</fullName>
+        <default>false</default>
+        <label>Zoll</label>
+    </customValue>
+    <customValue>
+        <fullName>ZOLL Data Systems</fullName>
+        <default>false</default>
+        <label>ZOLL Data Systems</label>
+    </customValue>
+    <customValue>
+        <fullName>Zuercher Tech</fullName>
+        <default>false</default>
+        <label>Zuercher Tech</label>
+    </customValue>
+    <description>Competitor Picklist for all &apos;Vendor&apos; fields</description>
+    <masterLabel>Competitors</masterLabel>
+    <sorted>false</sorted>
+</GlobalValueSet>

@@ -1,0 +1,34 @@
+<apex:page controller="AvailableDownloadsController" sidebar="true">
+
+<apex:sectionHeader title="Available" subtitle="Downloads" />
+ 
+ <apex:pageMessages />
+ 
+  <apex:pageBlock >
+ 
+    <apex:pageBlockSection collapsible="false" columns="1">
+    
+      <apex:dataTable value="{!AvailableDownloads}" var="download" id="downloadTable" rowClasses="dataRow" headerClass="headerRow" columnClasses="dataCell" styleClass="list" rendered="{!AvailableDownloads.size > 0}">
+        <apex:column >
+          <apex:facet name="header">
+            <b>Title</b>
+          </apex:facet>
+          <apex:outputText value="{!download.title}"/>
+        </apex:column>
+        <apex:column >
+          <apex:facet name="header">
+            <b>Description</b>
+          </apex:facet>
+          <apex:outputText value="{!download.description}" />
+        </apex:column>
+        <apex:column >
+          <apex:outputLink value="/sfc/servlet.shepherd/version/download/{!download.LatestPublishedVersionId}">
+            Download
+          </apex:outputLink>
+          
+        </apex:column>
+      </apex:dataTable>
+    </apex:pageBlockSection>
+    <apex:outputText style="font-style:italic" value="No Available Downloads" rendered="{!AvailableDownloads.size == 0}"/>
+  </apex:pageBlock>
+</apex:page>

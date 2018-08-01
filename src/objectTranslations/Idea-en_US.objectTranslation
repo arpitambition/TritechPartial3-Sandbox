@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RoundTableAdmin</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RoundTableAdmin</value>
+    </caseValues>
+    <fields>
+        <help><!-- This is a custom formula field that calculates the number of days since an idea was submitted. --></help>
+        <label><!-- (# of Days)     Idea Age --></label>
+        <name>Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Category --></label>
+        <name>Category__c</name>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond (EMS)</masterLabel>
+            <translation><!-- Respond (EMS) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Company Name --></label>
+        <name>Company_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Department --></label>
+        <name>Department__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email Contact --></label>
+        <name>Email_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is a place where the moderator can leave comments about this idea. --></help>
+        <label><!-- Update --></label>
+        <name>IdeasInAction__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long ID --></label>
+        <name>Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner Account/Company --></label>
+        <name>Owner_Account_Company__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile --></label>
+        <name>Profile__c</name>
+    </fields>
+    <fields>
+        <help><!-- Have we turned this idea into a project? --></help>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Related Ideas --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Number of stars is based on the number of comments added. --></help>
+        <label><!-- Score --></label>
+        <name>Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- What is the status of this idea? --></help>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Coming Soon</masterLabel>
+            <translation><!-- Coming Soon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Delivered</masterLabel>
+            <translation><!-- Delivered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Yet Reviewed</masterLabel>
+            <translation><!-- Not Yet Reviewed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reviewed, But Not Feasible At this Time</masterLabel>
+            <translation><!-- Reviewed, But Not Feasible At this Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Consideration</masterLabel>
+            <translation><!-- Under Consideration --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub-Category --></label>
+        <name>Sub_Category__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation><!-- Administrative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Browser</masterLabel>
+            <translation><!-- Browser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DDF Queries</masterLabel>
+            <translation><!-- DDF Queries --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DN CAD/Mobile</masterLabel>
+            <translation><!-- DN CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Detective</masterLabel>
+            <translation><!-- Detective --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FBR</masterLabel>
+            <translation><!-- FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire RMS</masterLabel>
+            <translation><!-- Fire RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ and Analytics</masterLabel>
+            <translation><!-- IQ and Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law RMS</masterLabel>
+            <translation><!-- Law RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS</masterLabel>
+            <translation><!-- RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RoundTable</masterLabel>
+            <translation><!-- RoundTable --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC CAD/Mobile</masterLabel>
+            <translation><!-- TC CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC RMS</masterLabel>
+            <translation><!-- TC RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TE RMS</masterLabel>
+            <translation><!-- TE RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionCAD</masterLabel>
+            <translation><!-- VisionCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionMobile</masterLabel>
+            <translation><!-- VisionMobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ePCR</masterLabel>
+            <translation><!-- ePCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sub Status --></label>
+        <name>Sub_Status__c</name>
+        <picklistValues>
+            <masterLabel>Closed</masterLabel>
+            <translation><!-- Closed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In the Works</masterLabel>
+            <translation><!-- In the Works --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Lack of Interest</masterLabel>
+            <translation><!-- Lack of Interest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Released</masterLabel>
+            <translation><!-- Released --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Under Review</masterLabel>
+            <translation><!-- Under Review --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Submitted By --></label>
+        <name>Submitted_By__c</name>
+    </fields>
+    <layouts>
+        <layout>Idea Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Internal Ideas: Idea Record Type --></label>
+        <name>InternalIdeasIdeaRecordType</name>
+    </recordTypes>
+    <startsWith>Vowel</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>VisiNet alert trigger for notification of Enhancement Ticket progression</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>TA - VisiNet Enhancement Ticket Status Progression</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} - Enhancement Ticket Progression Status</subject>
+    <textOnly>This is an issue update notification from TriTech Software Systems. 
+
+Incident Details:
+
+Incident ID: {!Potential_Defect__c.Defect_Ticket_ID__c}
+
+Issue Summary: {!Potential_Defect__c.Short_Issue_Summary__c}
+
+Issue Details: {!Potential_Defect__c.Description__c}
+
+
+Current Owner: {!Potential_Defect__c.OwnerFullName}
+
+Product: {!Potential_Defect__c.Product__c}
+
+Status: {!Potential_Defect__c.Ticket_Status__c}
+
+Priority: {!Potential_Defect__c.Priority__c}
+  </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

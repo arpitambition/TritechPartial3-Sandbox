@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Technical Advisories</label>
+            <name>Technical_Advisories</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Product Announcements</label>
+            <name>Announcements</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TriCON/PTI/User Groups</label>
+            <name>TriCON_PTI_User_Groups</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Server Hardware</label>
+            <name>Server_Hardware</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Server Software</label>
+            <name>Server_Software</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Workstation Hardware</label>
+            <name>Workstation</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Workstation Software</label>
+            <name>QuickResponse</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Interfaces</label>
+            <name>Interfaces</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Manuals/User Guides</label>
+            <name>Manuals_User_Guides</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Avaya</label>
+            <name>Avaya</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Softswitch</label>
+            <name>Softswitch</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Internal Procedures</label>
+            <name>Internal_Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <label>IQ Search/IQ Analytics</label>
+            <name>IQ</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Other</label>
+            <name>Other</name>
+        </dataCategory>
+        <label>911 Only Filter</label>
+        <name>All</name>
+    </dataCategory>
+    <label>911-Inc</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

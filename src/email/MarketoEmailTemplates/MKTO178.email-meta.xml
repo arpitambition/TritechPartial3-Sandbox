@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer_Announcement-Daylight-Savings_Build19.37.Email</name>
+    <style>none</style>
+    <subject>IMC Customer Announcement - Daylight Savings Software Adjustment | Build 19.37 Notice</subject>
+    <textOnly>Customer Annoucement
+Please Note:
+
+Daylight Savings Software Adjustment:
+
+Daylight Savings Time is coming up on Sunday, March 11 at 0200. The IMC software does not automatically adjust for this. Many departments synchronize their workstations to time servers, but this still will not resolve the issue of a call starting at one time and having to be closed at a time prior to the start time or an officer arriving an hour after the call was dispatched due to a time change. 
+
+Please download the document below to make the necessary adjustments to your IMC software. 
+DOWNLOAD LINK: http://www.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=101
+
+
+Build 19.37 Installation Notice: 
+
+The new TriTech IMC Build 19.37 is now available and DVDs are being shipped to your location. These DVDs come with a folder for the Pervasive Version 11 software. You should only be installing this software if you already have a version 11 software key. If you install version 11 without a version 11 key, it will be active for 30 days and then de-activate as the key will be invalid making the IMC software inoperable. Please do not install Pervasive 11 unless you a have key. If you need a key please contact Client Services 800-788-0015 and we can request a key for you. 
+
+ 
+
+Thank you for your attention to these announcements, 
+
+Shane Birch
+Technical Support Supervisor – IMC | Decorah, Iowa
+TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

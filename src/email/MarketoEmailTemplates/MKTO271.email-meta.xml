@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AIR_IL_0512.Attended</name>
+    <style>none</style>
+    <subject>Thanks for Attending the Microsoft / TriTech Tech Seminar</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Technology Seminar:  Data Sharing and Integrated Justice
+Hosted by Microsoft and TriTech Software Systems
+Hello {{lead.First Name:default=Tech Seminar Attendee}},
+ 
+ I wanted to take this opportunity to personally thank you for attending the 2012 12th Annual Microsoft Technology Seminar last Friday. I hope you enjoyed the event and the presentations from each participating vendor. Based on your survey results, the participating vendors will begin our follow-up effort to provide you the additional details on the solutions you are interested. As well, please feel free to reach out to me at any time for assistance with the solutions we discussed and your public safety software needs. For your reference, we&apos;ve included links to each vendor&apos;s presentation:
+
+TriTech Software Systems &lt;http://offers.tritech.com/rs/ortivusna/images/Presentation_TriTech.pdf&gt;
+
+Athena Advanced Networks &lt;http://offers.tritech.com/rs/ortivusna/images/Presentation_AthenaAdvancedNetworks.pdf&gt;
+
+NetMotion Wireless &lt;http://offers.tritech.com/rs/ortivusna/images/Presentation_NetMotion.pdf&gt;
+
+CommSys &lt;http://offers.tritech.com/rs/ortivusna/images/Presentation_Commsys.pdf&gt;
+
+GeoComm &lt;http://offers.tritech.com/rs/ortivusna/images/Presentation_Geocomm.pdf&gt;
+
+Bair Analytics &lt;http://offers.tritech.com/rs/ortivusna/images/Presentation_Bair.pdf&gt;
+
+
+Microsoft and TriTech Software Systems truly look forward to your participation in next year’s 13th Annual Microsoft Technology Seminar in 2013.
+
+Thanks,
+
+Phillip Everhart 
+Regional Sales Manager 
+TriTech Software Systems 
+Mobile: (910) 352-5684</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

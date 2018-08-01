@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Object and data fields for requesting pricing or proposal quotes from the Account or the Opportunity</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Account__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Account</label>
+        <referenceTo>Account</referenceTo>
+        <relationshipLabel>Pricing/Proposal Request Forms</relationshipLabel>
+        <relationshipName>Pricing_Request_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_CSL__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned CSL:</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Pricing_Request_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_Pricing_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned Pricing Manager:</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Pricing_Request_Forms1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Assigned_Proposal_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned Proposal Manager:</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Pricing_Request_Forms2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Completed_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>Quote_Completed_By__c</formula>
+        <label>Completed By</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Contact</label>
+        <lookupFilter>
+            <active>true</active>
+            <filterItems>
+                <field>Contact.AccountId</field>
+                <operation>equals</operation>
+                <valueField>$Source.Account__c</valueField>
+            </filterItems>
+            <isOptional>true</isOptional>
+        </lookupFilter>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>Pricing_Request_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Date_Completed__c</fullName>
+        <externalId>false</externalId>
+        <label>Date Completed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Date_of_Request__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <label>Date of Request</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Days_from_Created_to_Complete__c</fullName>
+        <externalId>false</externalId>
+        <formula>Date_Completed__c  -  Date_of_Request__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label># Days from Created to Complete</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>How_is_request_submitted__c</fullName>
+        <externalId>false</externalId>
+        <label>How is request submitted?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Pricing Request Form - New</fullName>
+                    <default>true</default>
+                    <label>Pricing Request Form - New</label>
+                </value>
+                <value>
+                    <fullName>Previously Requested by Phone</fullName>
+                    <default>false</default>
+                    <label>Previously Requested by Phone</label>
+                </value>
+                <value>
+                    <fullName>Previously Requested by Email</fullName>
+                    <default>false</default>
+                    <label>Previously Requested by Email</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Large_Quote_Projected_Value_250K__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>For all large quotes, please check this box.</inlineHelpText>
+        <label>Large Quote (Projected Value &gt;$250K)</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Migrating_From__c</fullName>
+        <externalId>false</externalId>
+        <label>Migrating From:</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Vision to Inform</fullName>
+                    <default>false</default>
+                    <label>Vision to Inform</label>
+                </value>
+                <value>
+                    <fullName>Tiburon to Inform</fullName>
+                    <default>false</default>
+                    <label>Tiburon to Inform</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Needed_by_Date__c</fullName>
+        <defaultValue>Today() + 20</defaultValue>
+        <externalId>false</externalId>
+        <label>Needed by Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Existing Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>Pricing_Request_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Other_Details_Special_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please include # of licenses and # of people to be trained, if applicable.</inlineHelpText>
+        <label>Other Details/Special Instructions</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Proactive_Proposal_Materials_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Proactive Proposal Materials Required?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Procurement_Activity_del__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Procurement Activity</label>
+        <referenceTo>Procurement_Activity__c</referenceTo>
+        <relationshipLabel>Pricing/Proposal Request Forms</relationshipLabel>
+        <relationshipName>Pricing_Proposal_Request_Forms_del</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inform</fullName>
+                    <default>false</default>
+                    <label>Inform</label>
+                </value>
+                <value>
+                    <fullName>Perform</fullName>
+                    <default>false</default>
+                    <label>Perform</label>
+                </value>
+                <value>
+                    <fullName>Respond</fullName>
+                    <default>false</default>
+                    <label>Respond</label>
+                </value>
+                <value>
+                    <fullName>Tiburon</fullName>
+                    <default>false</default>
+                    <label>Tiburon</label>
+                </value>
+                <value>
+                    <fullName>VisionAIR</fullName>
+                    <default>false</default>
+                    <label>VisionAIR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Migration__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Product Migration?</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>QUOTE_COMPLETE__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>To be checked after the pricing request is completed and a quote is created.</inlineHelpText>
+        <label>QUOTE COMPLETE</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Quick_Summary_Basic_Quote__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>The Quick Summary should be used for very basic quotes that can be described in 100 characters or less. i.e. &quot;1 mobile license&quot;</inlineHelpText>
+        <label>Quick Summary-Basic Quote</label>
+        <length>50000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>15</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Quote_Completed_By__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Completed By</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Quote_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Quote Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Standard Price Quote</fullName>
+                    <default>true</default>
+                    <label>Standard Price Quote</label>
+                </value>
+                <value>
+                    <fullName>Budgetary Estimate</fullName>
+                    <default>false</default>
+                    <label>Budgetary Estimate</label>
+                </value>
+                <value>
+                    <fullName>GSA Quote</fullName>
+                    <default>false</default>
+                    <label>GSA Quote</label>
+                </value>
+                <value>
+                    <fullName>RFP - BAFO</fullName>
+                    <default>false</default>
+                    <label>RFP - BAFO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rapid_Implementation__c</fullName>
+        <externalId>false</externalId>
+        <label>Rapid Implementation?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Rejection_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>Rejection Reason</label>
+        <length>5000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Request_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Pending Additional Information</fullName>
+                    <default>false</default>
+                    <label>Pending Additional Information</label>
+                </value>
+                <value>
+                    <fullName>Waiting on Approvals</fullName>
+                    <default>false</default>
+                    <label>Waiting on Approvals</label>
+                </value>
+                <value>
+                    <fullName>On Hold</fullName>
+                    <default>false</default>
+                    <label>On Hold</label>
+                </value>
+                <value>
+                    <fullName>Complete</fullName>
+                    <default>false</default>
+                    <label>Complete</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SUBMIT_PRICING_REQUEST__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Once you have completed the pricing/proposal request form information, check this box to submit the request for processing</inlineHelpText>
+        <label>SUBMIT PRICING/PROPOSAL REQUEST</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Sales_Team__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(CreatedBy.Sales_Team__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Sales Team</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Target_Completion_Date__c</fullName>
+        <description>This is the date that the Quote will be completed. Delayed in response by rep or customer will result in delay of completion</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This is the date that the Quote will be completed. Delay in response by rep or customer will result in delay of completion. This field is editable only by Pricing Managers.</inlineHelpText>
+        <label>Target Completion Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Z_Assigned_To__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Assigned To:</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Pricing_Proposal_Request_Forms</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Z_Letter_Information__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Bullets/Paragraphs that should be included, with anything else which should be called out.</inlineHelpText>
+        <label>Letter Information</label>
+        <length>2500</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Z_Notes_Comments__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes/Comments</label>
+        <length>2000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Html</type>
+        <visibleLines>10</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Z_Other_Instructions__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Pricing breakouts, other special/non-standard instructions, additional agencies if multiple should be listed</inlineHelpText>
+        <label>Other Instructions</label>
+        <length>2000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Z_References_Required__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>List in the order you’d like them to be included</inlineHelpText>
+        <label>References Required</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Z_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Completed</fullName>
+                    <default>false</default>
+                    <label>Completed</label>
+                </value>
+                <value>
+                    <fullName>Canceled</fullName>
+                    <default>false</default>
+                    <label>Canceled</label>
+                </value>
+                <value>
+                    <fullName>Deferred</fullName>
+                    <default>false</default>
+                    <label>Deferred</label>
+                </value>
+                <value>
+                    <fullName>In Progress</fullName>
+                    <default>false</default>
+                    <label>In Progress</label>
+                </value>
+                <value>
+                    <fullName>Not Interested</fullName>
+                    <default>false</default>
+                    <label>Not Interested</label>
+                </value>
+                <value>
+                    <fullName>Not Started</fullName>
+                    <default>false</default>
+                    <label>Not Started</label>
+                </value>
+                <value>
+                    <fullName>Opportunity Created</fullName>
+                    <default>false</default>
+                    <label>Opportunity Created</label>
+                </value>
+                <value>
+                    <fullName>Transferred to AE/AM</fullName>
+                    <default>false</default>
+                    <label>Transferred to AE/AM</label>
+                </value>
+                <value>
+                    <fullName>Waiting on AE</fullName>
+                    <default>false</default>
+                    <label>Waiting on AE</label>
+                </value>
+                <value>
+                    <fullName>Waiting on someone else</fullName>
+                    <default>false</default>
+                    <label>Waiting on someone else</label>
+                </value>
+                <value>
+                    <fullName>Waiting on Ops</fullName>
+                    <default>false</default>
+                    <label>Waiting on Ops</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Z_Time_Elapsed__c</fullName>
+        <externalId>false</externalId>
+        <label>Time Elapsed</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Z_What_is_Needed__c</fullName>
+        <externalId>false</externalId>
+        <label>What is Needed?</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Agency Sales Questionnaire</fullName>
+                    <default>false</default>
+                    <label>Agency Sales Questionnaire</label>
+                </value>
+                <value>
+                    <fullName>Contract/SOW</fullName>
+                    <default>false</default>
+                    <label>Contract/SOW</label>
+                </value>
+                <value>
+                    <fullName>Data Review</fullName>
+                    <default>false</default>
+                    <label>Data Review</label>
+                </value>
+                <value>
+                    <fullName>Demo Book</fullName>
+                    <default>false</default>
+                    <label>Demo Book</label>
+                </value>
+                <value>
+                    <fullName>Demo Logos</fullName>
+                    <default>false</default>
+                    <label>Demo Logos</label>
+                </value>
+                <value>
+                    <fullName>EULA</fullName>
+                    <default>false</default>
+                    <label>EULA</label>
+                </value>
+                <value>
+                    <fullName>FOIA Request</fullName>
+                    <default>false</default>
+                    <label>FOIA Request</label>
+                </value>
+                <value>
+                    <fullName>Host Agency Acknowledgement Form</fullName>
+                    <default>false</default>
+                    <label>Host Agency Acknowledgement Form</label>
+                </value>
+                <value>
+                    <fullName>Interface/Enhancement Dive</fullName>
+                    <default>false</default>
+                    <label>Interface/Enhancement Dive</label>
+                </value>
+                <value>
+                    <fullName>Landing Page</fullName>
+                    <default>false</default>
+                    <label>Landing Page</label>
+                </value>
+                <value>
+                    <fullName>Other (Explain Below)</fullName>
+                    <default>false</default>
+                    <label>Other (Explain Below)</label>
+                </value>
+                <value>
+                    <fullName>Pricing</fullName>
+                    <default>false</default>
+                    <label>Pricing</label>
+                </value>
+                <value>
+                    <fullName>Proposal</fullName>
+                    <default>false</default>
+                    <label>Proposal</label>
+                </value>
+                <value>
+                    <fullName>Questions</fullName>
+                    <default>false</default>
+                    <label>Questions</label>
+                </value>
+                <value>
+                    <fullName>References</fullName>
+                    <default>false</default>
+                    <label>References</label>
+                </value>
+                <value>
+                    <fullName>RFP Response</fullName>
+                    <default>false</default>
+                    <label>RFP Response</label>
+                </value>
+                <value>
+                    <fullName>RFP Specs</fullName>
+                    <default>false</default>
+                    <label>RFP Specs</label>
+                </value>
+                <value>
+                    <fullName>Sales/Change Order</fullName>
+                    <default>false</default>
+                    <label>Sales/Change Order</label>
+                </value>
+                <value>
+                    <fullName>Sales Transition Document</fullName>
+                    <default>false</default>
+                    <label>Sales Transition Document</label>
+                </value>
+                <value>
+                    <fullName>Server Sizing</fullName>
+                    <default>false</default>
+                    <label>Server Sizing</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Z_When_is_it_Needed__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Explain if needed before a meeting with the council, etc. Please do not say ASAP, unless it really is needed today</inlineHelpText>
+        <label>When is it Needed?</label>
+        <length>1000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <label>Pricing/Proposal Request Form</label>
+    <listViews>
+        <fullName>All_Open_Requests_AM_East_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelled,Rejected,Complete</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM East</value>
+        </filters>
+        <label>AM East &lt;$250K - All Open Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Requests_AM_West_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelled,Rejected,Complete</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM West</value>
+        </filters>
+        <label>AM West &lt;$250K - All Open Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Requests_Large_Quotes_Only</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Large_Quote_Projected_Value_250K__c</columns>
+        <columns>Assigned_Pricing_Manager__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelled,Rejected,Complete</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Large Quotes &gt;$250K - All Open Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Open_Requests_Large_and_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Large_Quote_Projected_Value_250K__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Cancelled,Rejected,Complete</value>
+        </filters>
+        <label>All Open Requests (Large and &lt;$250K)</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Requests_Open_or_Closed</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Large_Quote_Projected_Value_250K__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Requests (Open or Closed)</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Brians_911_Pricing_Tasks</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Z_Status__c</columns>
+        <columns>Z_Assigned_To__c</columns>
+        <columns>QUOTE_COMPLETE__c</columns>
+        <columns>Request_Status__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Z_Assigned_To__c</field>
+            <operation>equals</operation>
+            <value>Brian Fluegeman</value>
+        </filters>
+        <filters>
+            <field>Z_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled,Deferred</value>
+        </filters>
+        <label>Brians 911 Pricing Tasks</label>
+        <sharedTo>
+            <group>Zuercher_Sales</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cancelled_Requests_AM_East_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM East</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>AM East &lt;$250K - Cancelled Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Cancelled_Requests_AM_West_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM West</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>AM West &lt;$250K - Cancelled Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Completed_Requests_AM_East_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Complete</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM East</value>
+        </filters>
+        <label>AM East &lt;$250K - Completed Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Completed_Requests_AM_West_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Complete</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM West</value>
+        </filters>
+        <label>AM West &lt;$250K - Completed Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Completed_Requests_Large_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Large_Quote_Projected_Value_250K__c</columns>
+        <columns>Assigned_Pricing_Manager__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>QUOTE_COMPLETE__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Complete</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Large Quotes &gt;$250K - Completed Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Large_Quotes_250K_Cancelled_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Large_Quote_Projected_Value_250K__c</columns>
+        <columns>Assigned_Pricing_Manager__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Cancelled</value>
+        </filters>
+        <label>Large Quotes &gt;$250K - Cancelled Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Large_Quotes_250K_Rejected_Requests</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Large_Quote_Projected_Value_250K__c</columns>
+        <columns>Assigned_Pricing_Manager__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <label>Large Quotes &gt;$250K - Rejected Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Rejected_Requests_AM_East_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM East</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>AM East &lt;$250K - Rejected Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Rejected_Requests_AM_West_250K</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Request_Status__c</columns>
+        <columns>Date_of_Request__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Assigned_CSL__c</columns>
+        <columns>OWNER.LAST_NAME</columns>
+        <columns>Sales_Team__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Team__c</field>
+            <operation>equals</operation>
+            <value>Inform AM West</value>
+        </filters>
+        <filters>
+            <field>Request_Status__c</field>
+            <operation>equals</operation>
+            <value>Rejected</value>
+        </filters>
+        <filters>
+            <field>Large_Quote_Projected_Value_250K__c</field>
+            <operation>equals</operation>
+            <value>0</value>
+        </filters>
+        <label>AM West &lt;$250K - Rejected Requests</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X1_List_Cleanup</fullName>
+        <columns>NAME</columns>
+        <columns>Z_What_is_Needed__c</columns>
+        <columns>Other_Details_Special_Instructions__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Pricing_Request_Form__c.Zuercher_Proposal_Request_Form</value>
+        </filters>
+        <label>1 List Cleanup</label>
+        <sharedTo>
+            <group>Zuercher_Sales</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_All_Open</fullName>
+        <columns>NAME</columns>
+        <columns>Account__c</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Z_What_is_Needed__c</columns>
+        <columns>Needed_by_Date__c</columns>
+        <columns>Z_Assigned_To__c</columns>
+        <columns>Z_Status__c</columns>
+        <columns>SUBMIT_PRICING_REQUEST__c</columns>
+        <columns>OWNER.ALIAS</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>RECORDTYPE</field>
+            <operation>equals</operation>
+            <value>Pricing_Request_Form__c.Zuercher_Proposal_Request_Form</value>
+        </filters>
+        <filters>
+            <field>Z_Status__c</field>
+            <operation>notEqual</operation>
+            <value>Completed,Canceled,Deferred,Not Interested</value>
+        </filters>
+        <label>Zuercher - All Open</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>PRF-{00000000}</displayFormat>
+        <label>Pricing/Proposal Request Form</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Pricing/Proposal Request Forms</pluralLabel>
+    <recordTypeTrackFeedHistory>false</recordTypeTrackFeedHistory>
+    <recordTypeTrackHistory>false</recordTypeTrackHistory>
+    <recordTypes>
+        <fullName>TriTech_Pricing_Request_Form</fullName>
+        <active>true</active>
+        <description>TriTech pricing/proposal request form</description>
+        <label>TriTech Pricing Request Form</label>
+        <picklistValues>
+            <picklist>How_is_request_submitted__c</picklist>
+            <values>
+                <fullName>Previously Requested by Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Previously Requested by Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing Request Form - New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Migrating_From__c</picklist>
+            <values>
+                <fullName>Tiburon to Inform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision to Inform</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proactive_Proposal_Materials_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Family__c</picklist>
+            <values>
+                <fullName>Inform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tiburon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VisionAIR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Quote_Type__c</picklist>
+            <values>
+                <fullName>Budgetary Estimate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSA Quote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RFP - BAFO</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard Price Quote</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rapid_Implementation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Additional Information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on Approvals</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Z_Status__c</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred to AE%2FAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on AE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Z_What_is_Needed__c</picklist>
+            <values>
+                <fullName>Contract%2FSOW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Book</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Logos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EULA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FOIA Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interface%2FEnhancement Dive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other %28Explain Below%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RFP Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RFP Specs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>References</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Transition Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales%2FChange Order</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <recordTypes>
+        <fullName>Zuercher_Proposal_Request_Form</fullName>
+        <active>true</active>
+        <description>Zuercher proposal requst form</description>
+        <label>Zuercher Proposal Request Form</label>
+        <picklistValues>
+            <picklist>How_is_request_submitted__c</picklist>
+            <values>
+                <fullName>Previously Requested by Email</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Previously Requested by Phone</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing Request Form - New</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Migrating_From__c</picklist>
+            <values>
+                <fullName>Tiburon to Inform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Vision to Inform</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Proactive_Proposal_Materials_Required__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Product_Family__c</picklist>
+            <values>
+                <fullName>Inform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respond</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Tiburon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VisionAIR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Quote_Type__c</picklist>
+            <values>
+                <fullName>Budgetary Estimate</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>GSA Quote</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Standard Price Quote</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Rapid_Implementation__c</picklist>
+            <values>
+                <fullName>No</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Yes</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Request_Status__c</picklist>
+            <values>
+                <fullName>Cancelled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Complete</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Draft</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>On Hold</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pending Additional Information</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Rejected</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Submitted</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Z_Status__c</picklist>
+            <values>
+                <fullName>Canceled</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Completed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Deferred</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In Progress</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Interested</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Started</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Opportunity Created</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Transferred to AE%2FAM</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on AE</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on Ops</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Waiting on someone else</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Z_What_is_Needed__c</picklist>
+            <values>
+                <fullName>Agency Sales Questionnaire</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Contract%2FSOW</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Data Review</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Book</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Demo Logos</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>EULA</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FOIA Request</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Host Agency Acknowledgement Form</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Interface%2FEnhancement Dive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Landing Page</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Other %28Explain Below%29</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Pricing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Proposal</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Questions</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RFP Response</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RFP Specs</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>References</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales Transition Document</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Sales%2FChange Order</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Server Sizing</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>Account__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Request_Status__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date_of_Request__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Needed_by_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Date_Completed__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>OWNER.LAST_NAME</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>Account__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Request_Status__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date_of_Request__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Needed_by_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Date_Completed__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>OWNER.LAST_NAME</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <validationRules>
+        <fullName>Product_Migration</fullName>
+        <active>true</active>
+        <description>If Product Migration = True, then choose which product family migration is being done</description>
+        <errorConditionFormula>AND (
+(  Product_Migration__c = True) ,
+ISPICKVAL(Migrating_From__c, &quot;&quot;) 
+)</errorConditionFormula>
+        <errorDisplayField>Migrating_From__c</errorDisplayField>
+        <errorMessage>If this is a product migration, choose which product family migration is being requested</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

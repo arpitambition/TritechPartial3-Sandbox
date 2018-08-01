@@ -1,0 +1,22 @@
+Hello {!Opportunity.OwnerFirstName},
+<br><br>
+
+The following quote has been Approved.
+<br><br>
+<b>Quote#</b>: {!Opportunity.Quote_Number__c}
+<br>
+<b>Opportunity</b>: {!Opportunity.Name}
+<br>
+<b>Account</b>: {!Opportunity.Account}
+<br>
+<b>Primary Contact</b>: {!Opportunity.Contact__c}
+<br>
+<b>Total Quote Price</b>: {!Opportunity.Quote_Total__c}
+<br>
+<b>Total Discount</b>: {!Opportunity.Discount__c} %
+<br>
+<b>Gross Margin</b>: {!Opportunity.Gross_Margin__c} %
+<br><br>
+Please review your quote by clicking on the link below:
+ <br><br>
+{!Opportunity.Link}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for Zuercher 15 day support ticket notification for Tickets Awaiting Customer Verification (External)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Zuercher_Letterhead</letterhead>
+    <name>Zuercher Ticket Update Notifications - Awaiting Customer Verification Reminder</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} Awaiting Customer Verification - {!Case.Subject} [{!Case.Email_Thread}]</subject>
+    <textOnly>{!Case.CaseNumber} - Awaiting Customer Verification - {!Case.Subject}
+
+
+Hello,
+
+As we are looking through issues that are outstanding and needing attention, we wanted to take a moment to follow up with you in regards to this issue that you have reported. We have not had any follow up in the past 14 days and would like to know if this is still an issue for you or if the issue is now resolved.
+
+Please contact the Support department or reply to this email so that we can help ensure that your users are having the best possible experience using the software.
+
+Regards,
+
+Technical Support Team
+
+
+Link to your ticket: {!Case.Link}
+
+{!Case.Email_Thread}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

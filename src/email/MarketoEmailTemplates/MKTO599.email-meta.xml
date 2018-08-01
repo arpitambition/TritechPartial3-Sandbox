@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NewSupportNumber.Email-Vision_April15</name>
+    <style>none</style>
+    <subject>IT&apos;S HERE! One New Number – Still Three Easy Ways to Contact TriTech Customer Service</subject>
+    <textOnly>One New Number - Still Three Easy Ways to Contact TriTech Customer Service
+IT&apos;S HERE!
+Hello {{lead.First Name:default=Valued Customer}},
+
+The Customer Service Team is excited to announce the new Customer Service phone number: 800-987-0911 (option #2). This number will connect you to the Customer Service Representatives who support you and your products. 
+
+Remember, you can reach TriTech Customer Service in three easy ways:
+
+ - By Phone: 800-987-0911 (option #2)
+ - By email &lt;mailto:CH_ClientServicesTriage@tritech.com&gt;
+ - Through the Customer Service Center (support portal) on the TriTech &lt;http://www.tritech.com/&gt; website
+
+
+
+Proudly serving our customers,
+TriTech Customer Service</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

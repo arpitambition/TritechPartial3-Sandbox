@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012-Q4_IMC_BR_CSS.Email</name>
+    <style>none</style>
+    <subject>Please Tell Us How We&apos;re Doing</subject>
+    <textOnly>Please Tell Us How We&apos;re Doing
+
+Hello {{lead.First Name:default=Valued Client}},
+
+
+We realize it is you – our clients – who define our reputation and success. We’re committed to serving you and delivering the best solutions and products in the industry.
+
+Please take a few minutes and complete our Customer Satisfaction Survey. Your feedback matters and we count on it.
+
+Click here. &lt;https://survey.qualtrics.com/SE/?SID=SV_cGFhuqfJJHFfXj7&gt;
+
+Thank you!
+Bob Ricci
+Client Account Manager, Sales</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

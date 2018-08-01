@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification to director when Hierarchy Update is completed and requires approval</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Hierarchy Update Director Approval</name>
+    <style>none</style>
+    <subject>Hierarchy Updated - Approval Needed: {!Account.Name}</subject>
+    <textOnly>{!Account.Hierarchy_Completed_by__c} has completed the Hierarchy Update for:
+
+{!Account.Name}
+
+Please review the updates to confirm that they are accurate and check the &quot;Hierarchy Director Approved&quot; checkbox when complete.
+
+You can view the account here: {!Account.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

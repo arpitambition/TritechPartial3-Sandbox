@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Florida APCO.Invitation (Halloween)</name>
+    <style>none</style>
+    <subject>Florida APCO - Trick or Treat at TriTech Booth #34</subject>
+    <textOnly>See You There!   
+Florida APCO / NENA State Conference   
+
+Stop by and visit TriTech at the Florida APCO / NENA Conference in Weston, Florida.  Visit with Sally and Brett in Booth #34 to learn more about how TriTech&apos;s  CAD and Mobile solutions are helping our clients   reshape the way they manage information.
+
+
+Enter to Win a Public Safety Monopoly Game at the TriTech Booth #34.    
+
+Can&apos;t make the conference?  Contact us at (858) 799-7900 or email sales@tritech.com to schedule a demonstration.    
+
+We look forward to seeing you there!
+
+Sally Olson-Nelson, Client Account Manager
+sally.olson-nelson@tritech.com 
+
+Brett Haley, Regional Sales Manager
+brett.haley@tritech.com 
+
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Custom Permissions</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Custom Permissions</value>
+    </caseValues>
+    <fields>
+        <label><!-- IsCustomTab --></label>
+        <name>IsCustomTab__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Profile Id --></label>
+        <name>Profile_Id__c</name>
+    </fields>
+    <fields>
+        <help><!-- Use this field to set the Tab visibility bitwise in this order
+1 - Round Table
+2 - My Perform
+4 - Respond EMS
+8 - Feature Request --></help>
+        <label><!-- Tab Setting --></label>
+        <name>Tab_Setting__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

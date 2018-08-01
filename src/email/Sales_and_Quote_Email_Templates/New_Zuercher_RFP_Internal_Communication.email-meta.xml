@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New Zuercher RFP Internal Communication (associated to Opportunity)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>New Zuercher RFP Internal Communication</name>
+    <style>none</style>
+    <subject>New {!Opportunity.Procurement_Type__c} Received for {!Opportunity.Bill_To_State__c}: {!Opportunity.Account}</subject>
+    <textOnly>We received an {!Opportunity.Procurement_Type__c} for {!Opportunity.Name}.
+
+Questions are due {!Opportunity.Deadline_for_Vendor_Questions__c}.
+
+The proposal is due {!Opportunity.Proposal_Due_Date__c}.
+
+The Bidder&apos;s Conference Date/Time is: {!Opportunity.Bidder_s_Conference_Date__c}
+
+{!Opportunity.OwnerFullName} is the Account Executive.
+
+You can access the internal {!Opportunity.Procurement_Type__c} documents here: Internal Documents.
+
+You can review the Opportunity here:
+{!Opportunity.Link}
+
+Thanks,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.CompanyName}
+Phone: {!User.Phone}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,11 @@
+BANT has been checked on the following Opportunity:<BR><BR>
+
+Opportunity:  <B>{!Opportunity.Name}</B>
+<BR>
+BANT Completed By:  {!Opportunity.BANT_Completed_Date__c}<BR><BR>
+
+Account:  {!Opportunity.Account}<BR>
+Opportunity Owner:  {!Opportunity.OwnerFullName}<BR><BR>
+
+You can review the opportunity here:<BR>
+<I>{!Opportunity.Link}</I>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Welcome Reception</name>
+    <style>none</style>
+    <subject>TriCON - Meet, Greet and Enjoy</subject>
+    <textOnly>We are very excited to welcome you to TriCON 2012.  Come meet friends, old and new, as we kick off an exciting conference of sharing innovative ideas to break technological, cultural, and  political barriers. 
+Registration - Pick up your name badge and conference materials at the Indigo Foyer from 12 PM to 8 PM.  
+
+Welcome Reception - Enjoy beverages, hors d&apos;ouevres and live entertainment at the Promenade Patio from 6 PM to 8 PM
+See you soon!
+
+ 
+
+
+
+
+ 
+
+
+
+
+
+ &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt;   &lt;http://www.twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/company/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+
+
+
+
+
+
+
+
+
+ 9477 Waples Street, Suite 100 l San Diego, California 92121 l www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

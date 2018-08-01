@@ -1,0 +1,2133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Potential Defect</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Potential Defects</value>
+    </caseValues>
+    <fields>
+        <label><!-- Accepted - Create Defect --></label>
+        <name>Accepted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>Account_Name__c</name>
+        <relationshipLabel><!-- Enhancements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Anticipated Delivery Date --></label>
+        <name>Anticipated_Delivery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- TFS Project --></label>
+        <name>Area_Path__c</name>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation><!-- Administrative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD-Mobile</masterLabel>
+            <translation><!-- CAD-Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Common</masterLabel>
+            <translation><!-- Common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CustomInterface</masterLabel>
+            <translation><!-- CustomInterface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documents</masterLabel>
+            <translation><!-- Documents --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Transport</masterLabel>
+            <translation><!-- EMS Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMSBilling</masterLabel>
+            <translation><!-- EMSBilling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMSCAD</masterLabel>
+            <translation><!-- EMSCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Engineering</masterLabel>
+            <translation><!-- Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evolution</masterLabel>
+            <translation><!-- Evolution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GISLink</masterLabel>
+            <translation><!-- GISLink --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform 5</masterLabel>
+            <translation><!-- Inform 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform 911</masterLabel>
+            <translation><!-- Inform 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-Fire</masterLabel>
+            <translation><!-- Inform-Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-Jail</masterLabel>
+            <translation><!-- Inform-Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-RMS</masterLabel>
+            <translation><!-- Inform-RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-RMSWeb</masterLabel>
+            <translation><!-- Inform-RMSWeb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InformCAD911</masterLabel>
+            <translation><!-- InformCAD911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IntegratedSolutions</masterLabel>
+            <translation><!-- IntegratedSolutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigative</masterLabel>
+            <translation><!-- Investigative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Platform</masterLabel>
+            <translation><!-- Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Records</masterLabel>
+            <translation><!-- Police Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Management</masterLabel>
+            <translation><!-- Product Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quest</masterLabel>
+            <translation><!-- Quest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS-FBR</masterLabel>
+            <translation><!-- RMS-FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repository</masterLabel>
+            <translation><!-- Repository --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond-SweetBilling</masterLabel>
+            <translation><!-- Respond-SweetBilling --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond-ePCR</masterLabel>
+            <translation><!-- Respond-ePCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandboxing</masterLabel>
+            <translation><!-- Sandboxing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>StandardInterface</masterLabel>
+            <translation><!-- StandardInterface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TE</masterLabel>
+            <translation><!-- TE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TTMS</masterLabel>
+            <translation><!-- TTMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test02</masterLabel>
+            <translation><!-- Test02 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD</masterLabel>
+            <translation><!-- TotalCommand-CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-RMS</masterLabel>
+            <translation><!-- TotalCommand-RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-911</masterLabel>
+            <translation><!-- TriTech-911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-Civic</masterLabel>
+            <translation><!-- TriTech-Civic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-Common</masterLabel>
+            <translation><!-- TriTech-Common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-CrimeView</masterLabel>
+            <translation><!-- TriTech-CrimeView --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-IQ</masterLabel>
+            <translation><!-- TriTech-IQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tritech-GIS</masterLabel>
+            <translation><!-- Tritech-GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiCAD</masterLabel>
+            <translation><!-- VisiCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNetBrowser</masterLabel>
+            <translation><!-- VisiNetBrowser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNetMobile</masterLabel>
+            <translation><!-- VisiNetMobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision-CADMobile</masterLabel>
+            <translation><!-- Vision-CADMobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR_Publisher</masterLabel>
+            <translation><!-- VisionAIR_Publisher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ePCR</masterLabel>
+            <translation><!-- ePCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billable Hours --></label>
+        <name>Billable_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billable --></label>
+        <name>Billable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Black Box Collected --></label>
+        <name>Black_Box_Collected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Blitz --></label>
+        <name>Blitz__c</name>
+        <picklistValues>
+            <masterLabel>Room 1</masterLabel>
+            <translation><!-- Room 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Room 2</masterLabel>
+            <translation><!-- Room 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Room 3</masterLabel>
+            <translation><!-- Room 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Room 4</masterLabel>
+            <translation><!-- Room 4 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CCB Notes --></label>
+        <name>CCB_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Case Owner Email --></label>
+        <name>Case_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Enhancements --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CustomerLookup --></label>
+        <name>CustomerLookup__c</name>
+    </fields>
+    <fields>
+        <help><!-- Customer number of originating client&apos;s CS ticket, if applicable. --></help>
+        <label><!-- Customer Number --></label>
+        <name>CustomerNumberLookup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Contact Date/Time --></label>
+        <name>Customer_Contact_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Priority --></label>
+        <name>Customer_Priority__c</name>
+        <picklistValues>
+            <masterLabel>P1</masterLabel>
+            <translation><!-- P1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P2</masterLabel>
+            <translation><!-- P2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P3</masterLabel>
+            <translation><!-- P3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P4</masterLabel>
+            <translation><!-- P4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>P5</masterLabel>
+            <translation><!-- P5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defect Close Date --></label>
+        <name>Defect_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Ticket ID --></label>
+        <name>Defect_Ticket_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Defect Ticket Long ID --></label>
+        <name>Defect_Ticket_Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dummyrecordtouchfield --></label>
+        <name>Dummyrecordtouchfield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Environment Type --></label>
+        <name>Environment_Type__c</name>
+        <picklistValues>
+            <masterLabel>DOLF</masterLabel>
+            <translation><!-- DOLF --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Disaster</masterLabel>
+            <translation><!-- Disaster --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre Go-live Production</masterLabel>
+            <translation><!-- Pre Go-live Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pre-Release</masterLabel>
+            <translation><!-- Pre-Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Production</masterLabel>
+            <translation><!-- Production --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting/WWH</masterLabel>
+            <translation><!-- Reporting/WWH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Fixed in Version --></label>
+        <name>Fixed_in_Build__c</name>
+    </fields>
+    <fields>
+        <help><!-- If unknown, please enter X.X.X.x --></help>
+        <label><!-- Recreated in Version --></label>
+        <name>Found_in_Build__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internal Steps to Recreate Issue --></label>
+        <name>Internal_Steps_to_Recreate_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Known Issues Description --></label>
+        <name>Known_Issues_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Defect Ticket Number --></label>
+        <name>Legacy_Defect_Ticket_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- MOL Score --></label>
+        <name>MOL_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Occurred After Upgrade --></label>
+        <name>Occurred_After_Upgrade__c</name>
+    </fields>
+    <fields>
+        <help><!-- MOL Use Only --></help>
+        <label><!-- Occurrence --></label>
+        <name>Occurrence__c</name>
+        <picklistValues>
+            <masterLabel>1 - Always</masterLabel>
+            <translation><!-- 1 - Always --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Frequent</masterLabel>
+            <translation><!-- 2 - Frequent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Occasional</masterLabel>
+            <translation><!-- 3 - Occasional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Remote</masterLabel>
+            <translation><!-- 4 - Remote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Improbable</masterLabel>
+            <translation><!-- 5 - Improbable --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Original Contact --></label>
+        <name>Original_Contact__c</name>
+        <relationshipLabel><!-- Potential Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Customer --></label>
+        <name>Original_Customer__c</name>
+        <relationshipLabel><!-- Potential Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Original Service Contract --></label>
+        <name>Original_Service_Contract__c</name>
+        <relationshipLabel><!-- Potential Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Specify which release branch the patch will be implemented in --></help>
+        <label><!-- Patch Release Branch --></label>
+        <name>Patch_Release_Branch__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter engineering’s assessment of patchability, technical risk, effort estimate, etc. --></help>
+        <label><!-- Patch Status Comments --></label>
+        <name>Patch_Status_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Patch Status --></label>
+        <name>Patch_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assess for Patch</masterLabel>
+            <translation><!-- Assess for Patch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patch Approved</masterLabel>
+            <translation><!-- Patch Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patch Complete</masterLabel>
+            <translation><!-- Patch Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Patch Rejected</masterLabel>
+            <translation><!-- Patch Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Decision to Assess</masterLabel>
+            <translation><!-- Pending Decision to Assess --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Decision to Patch</masterLabel>
+            <translation><!-- Pending Decision to Patch --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Planned Release --></label>
+        <name>Planned_Release__c</name>
+    </fields>
+    <fields>
+        <label><!-- Potential Defect URL --></label>
+        <name>PotentialDefectURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Priority --></label>
+        <name>Priority__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Product_Group_1__c</name>
+        <picklistValues>
+            <masterLabel>DN CAD/Mobile</masterLabel>
+            <translation><!-- DN CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS - Analytics</masterLabel>
+            <translation><!-- GIS - Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform 911</masterLabel>
+            <translation><!-- Inform 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform CAD-Mobile</masterLabel>
+            <translation><!-- Inform CAD-Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform RMS-IQ</masterLabel>
+            <translation><!-- Inform RMS-IQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Legacy Tiburon</masterLabel>
+            <translation><!-- Legacy Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC CAD/Mobile</masterLabel>
+            <translation><!-- TC CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC RMS</masterLabel>
+            <translation><!-- TC RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TE RMS</masterLabel>
+            <translation><!-- TE RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision</masterLabel>
+            <translation><!-- Vision --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher</masterLabel>
+            <translation><!-- Zuercher --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Sub-Module --></label>
+        <name>Product_Sub_Module__c</name>
+        <relationshipLabel><!-- Potential Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <lookupFilter>
+            <errorMessage><!-- Products must be an active support product to be added to a defect --></errorMessage>
+        </lookupFilter>
+        <name>Product__c</name>
+        <relationshipLabel><!-- Potential Defects --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Public Notes --></label>
+        <name>Public_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROID --></label>
+        <name>ROID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Rejected --></label>
+        <name>Rejected__c</name>
+    </fields>
+    <fields>
+        <label><!-- Released In --></label>
+        <name>Released_In__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Major Version --></label>
+        <name>Reported_Major_Version__c</name>
+        <picklistValues>
+            <masterLabel>1.1</masterLabel>
+            <translation><!-- 1.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.2</masterLabel>
+            <translation><!-- 1.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.3</masterLabel>
+            <translation><!-- 1.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.8</masterLabel>
+            <translation><!-- 1.8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.8 SP1</masterLabel>
+            <translation><!-- 1.8 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1.9 SP1</masterLabel>
+            <translation><!-- 1.9 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0</masterLabel>
+            <translation><!-- 2.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.0 SP1</masterLabel>
+            <translation><!-- 2.0 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1</masterLabel>
+            <translation><!-- 2.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1 SP1</masterLabel>
+            <translation><!-- 2.1 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1 SP2</masterLabel>
+            <translation><!-- 2.1 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2.1 SP3</masterLabel>
+            <translation><!-- 2.1 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.0</masterLabel>
+            <translation><!-- 3.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.1</masterLabel>
+            <translation><!-- 3.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.2</masterLabel>
+            <translation><!-- 3.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.3</masterLabel>
+            <translation><!-- 3.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.3 SP3</masterLabel>
+            <translation><!-- 3.3 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4</masterLabel>
+            <translation><!-- 3.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP1</masterLabel>
+            <translation><!-- 3.4 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP2</masterLabel>
+            <translation><!-- 3.4 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP3</masterLabel>
+            <translation><!-- 3.4 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP4</masterLabel>
+            <translation><!-- 3.4 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP5</masterLabel>
+            <translation><!-- 3.4 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP6</masterLabel>
+            <translation><!-- 3.4 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP7</masterLabel>
+            <translation><!-- 3.4 SP7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.4 SP8</masterLabel>
+            <translation><!-- 3.4 SP8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5</masterLabel>
+            <translation><!-- 3.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP1</masterLabel>
+            <translation><!-- 3.5 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP10</masterLabel>
+            <translation><!-- 3.5 SP10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP11</masterLabel>
+            <translation><!-- 3.5 SP11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP12</masterLabel>
+            <translation><!-- 3.5 SP12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP13</masterLabel>
+            <translation><!-- 3.5 SP13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP14</masterLabel>
+            <translation><!-- 3.5 SP14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP15</masterLabel>
+            <translation><!-- 3.5 SP15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP2</masterLabel>
+            <translation><!-- 3.5 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP3</masterLabel>
+            <translation><!-- 3.5 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP4</masterLabel>
+            <translation><!-- 3.5 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP5</masterLabel>
+            <translation><!-- 3.5 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP6</masterLabel>
+            <translation><!-- 3.5 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP7</masterLabel>
+            <translation><!-- 3.5 SP7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP8</masterLabel>
+            <translation><!-- 3.5 SP8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.5 SP9</masterLabel>
+            <translation><!-- 3.5 SP9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6</masterLabel>
+            <translation><!-- 3.6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 SP1</masterLabel>
+            <translation><!-- 3.6 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 SP2</masterLabel>
+            <translation><!-- 3.6 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 SP3</masterLabel>
+            <translation><!-- 3.6 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 SP4</masterLabel>
+            <translation><!-- 3.6 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 SP5</masterLabel>
+            <translation><!-- 3.6 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.6 SP6</masterLabel>
+            <translation><!-- 3.6 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.7</masterLabel>
+            <translation><!-- 3.7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3.7 SP1</masterLabel>
+            <translation><!-- 3.7 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.0</masterLabel>
+            <translation><!-- 4.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.1</masterLabel>
+            <translation><!-- 4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2</masterLabel>
+            <translation><!-- 4.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP1</masterLabel>
+            <translation><!-- 4.2 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP10</masterLabel>
+            <translation><!-- 4.2 SP10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP11</masterLabel>
+            <translation><!-- 4.2 SP11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP12</masterLabel>
+            <translation><!-- 4.2 SP12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP13</masterLabel>
+            <translation><!-- 4.2 SP13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP14</masterLabel>
+            <translation><!-- 4.2 SP14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP15</masterLabel>
+            <translation><!-- 4.2 SP15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP16</masterLabel>
+            <translation><!-- 4.2 SP16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP17</masterLabel>
+            <translation><!-- 4.2 SP17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP18</masterLabel>
+            <translation><!-- 4.2 SP18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP2</masterLabel>
+            <translation><!-- 4.2 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP3</masterLabel>
+            <translation><!-- 4.2 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP4</masterLabel>
+            <translation><!-- 4.2 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP5</masterLabel>
+            <translation><!-- 4.2 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP6</masterLabel>
+            <translation><!-- 4.2 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP7</masterLabel>
+            <translation><!-- 4.2 SP7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP8</masterLabel>
+            <translation><!-- 4.2 SP8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.2 SP9</masterLabel>
+            <translation><!-- 4.2 SP9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3</masterLabel>
+            <translation><!-- 4.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP1</masterLabel>
+            <translation><!-- 4.3 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP2</masterLabel>
+            <translation><!-- 4.3 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP3</masterLabel>
+            <translation><!-- 4.3 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP4</masterLabel>
+            <translation><!-- 4.3 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP5</masterLabel>
+            <translation><!-- 4.3 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP6</masterLabel>
+            <translation><!-- 4.3 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP7</masterLabel>
+            <translation><!-- 4.3 SP7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP8</masterLabel>
+            <translation><!-- 4.3 SP8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.3 SP9</masterLabel>
+            <translation><!-- 4.3 SP9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4</masterLabel>
+            <translation><!-- 4.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 SP1</masterLabel>
+            <translation><!-- 4.4 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 SP2</masterLabel>
+            <translation><!-- 4.4 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 SP3</masterLabel>
+            <translation><!-- 4.4 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 SP4</masterLabel>
+            <translation><!-- 4.4 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 SP5</masterLabel>
+            <translation><!-- 4.4 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.4 SP6</masterLabel>
+            <translation><!-- 4.4 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5</masterLabel>
+            <translation><!-- 4.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP1</masterLabel>
+            <translation><!-- 4.5 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP10</masterLabel>
+            <translation><!-- 4.5 SP10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP11</masterLabel>
+            <translation><!-- 4.5 SP11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP12</masterLabel>
+            <translation><!-- 4.5 SP12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP2</masterLabel>
+            <translation><!-- 4.5 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP3</masterLabel>
+            <translation><!-- 4.5 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP4</masterLabel>
+            <translation><!-- 4.5 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP5</masterLabel>
+            <translation><!-- 4.5 SP5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP6</masterLabel>
+            <translation><!-- 4.5 SP6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP7</masterLabel>
+            <translation><!-- 4.5 SP7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP8</masterLabel>
+            <translation><!-- 4.5 SP8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.5 SP9</masterLabel>
+            <translation><!-- 4.5 SP9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.6</masterLabel>
+            <translation><!-- 4.6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4.7</masterLabel>
+            <translation><!-- 4.7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.0</masterLabel>
+            <translation><!-- 5.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.0 SP1</masterLabel>
+            <translation><!-- 5.0 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.0 SP2</masterLabel>
+            <translation><!-- 5.0 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.0 SP3</masterLabel>
+            <translation><!-- 5.0 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.1</masterLabel>
+            <translation><!-- 5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.1 SP1</masterLabel>
+            <translation><!-- 5.1 SP1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.1 SP2</masterLabel>
+            <translation><!-- 5.1 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.1 SP3</masterLabel>
+            <translation><!-- 5.1 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.10</masterLabel>
+            <translation><!-- 5.10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.2</masterLabel>
+            <translation><!-- 5.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.3</masterLabel>
+            <translation><!-- 5.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.4</masterLabel>
+            <translation><!-- 5.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.5</masterLabel>
+            <translation><!-- 5.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.5 SP2</masterLabel>
+            <translation><!-- 5.5 SP2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.5 SP3</masterLabel>
+            <translation><!-- 5.5 SP3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.5 SP4</masterLabel>
+            <translation><!-- 5.5 SP4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.6</masterLabel>
+            <translation><!-- 5.6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.7</masterLabel>
+            <translation><!-- 5.7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.8</masterLabel>
+            <translation><!-- 5.8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5.9</masterLabel>
+            <translation><!-- 5.9 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.1</masterLabel>
+            <translation><!-- 6.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.2</masterLabel>
+            <translation><!-- 6.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.3</masterLabel>
+            <translation><!-- 6.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.4</masterLabel>
+            <translation><!-- 6.4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.5</masterLabel>
+            <translation><!-- 6.5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.6</masterLabel>
+            <translation><!-- 6.6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6.7</masterLabel>
+            <translation><!-- 6.7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Interface</masterLabel>
+            <translation><!-- Custom Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reported Minor Version --></label>
+        <name>Reported_Minor_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reported Patch --></label>
+        <name>Reported_Patch__c</name>
+        <picklistValues>
+            <masterLabel>1</masterLabel>
+            <translation><!-- 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10</masterLabel>
+            <translation><!-- 10 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11</masterLabel>
+            <translation><!-- 11 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12</masterLabel>
+            <translation><!-- 12 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>13</masterLabel>
+            <translation><!-- 13 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>14</masterLabel>
+            <translation><!-- 14 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>15</masterLabel>
+            <translation><!-- 15 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>16</masterLabel>
+            <translation><!-- 16 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>17</masterLabel>
+            <translation><!-- 17 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>18</masterLabel>
+            <translation><!-- 18 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>19</masterLabel>
+            <translation><!-- 19 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2</masterLabel>
+            <translation><!-- 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>20</masterLabel>
+            <translation><!-- 20 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>21</masterLabel>
+            <translation><!-- 21 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>22</masterLabel>
+            <translation><!-- 22 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>23</masterLabel>
+            <translation><!-- 23 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>24</masterLabel>
+            <translation><!-- 24 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>25</masterLabel>
+            <translation><!-- 25 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>26</masterLabel>
+            <translation><!-- 26 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>27</masterLabel>
+            <translation><!-- 27 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>28</masterLabel>
+            <translation><!-- 28 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>29</masterLabel>
+            <translation><!-- 29 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3</masterLabel>
+            <translation><!-- 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>30</masterLabel>
+            <translation><!-- 30 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>31</masterLabel>
+            <translation><!-- 31 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>32</masterLabel>
+            <translation><!-- 32 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>33</masterLabel>
+            <translation><!-- 33 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>34</masterLabel>
+            <translation><!-- 34 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>35</masterLabel>
+            <translation><!-- 35 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>36</masterLabel>
+            <translation><!-- 36 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>37</masterLabel>
+            <translation><!-- 37 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>38</masterLabel>
+            <translation><!-- 38 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>39</masterLabel>
+            <translation><!-- 39 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4</masterLabel>
+            <translation><!-- 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>40</masterLabel>
+            <translation><!-- 40 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5</masterLabel>
+            <translation><!-- 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6</masterLabel>
+            <translation><!-- 6 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7</masterLabel>
+            <translation><!-- 7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8</masterLabel>
+            <translation><!-- 8 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9</masterLabel>
+            <translation><!-- 9 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Reproducible --></label>
+        <name>Reproducible__c</name>
+        <picklistValues>
+            <masterLabel>In-House - Consistent</masterLabel>
+            <translation><!-- In-House - Consistent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In-House - Intermittent</masterLabel>
+            <translation><!-- In-House - Intermittent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Site - Consistent</masterLabel>
+            <translation><!-- On-Site - Consistent --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-Site - Intermitttent</masterLabel>
+            <translation><!-- On-Site - Intermitttent --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Resolution Notes --></label>
+        <name>Resolution_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Contract --></label>
+        <name>Service_Contract__c</name>
+        <relationshipLabel><!-- Enhancements --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- MOL Use Only --></help>
+        <label><!-- Severity --></label>
+        <name>Severity__c</name>
+        <picklistValues>
+            <masterLabel>1 - Severe</masterLabel>
+            <translation><!-- 1 - Severe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2 - Critical</masterLabel>
+            <translation><!-- 2 - Critical --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3 - Non-critical / Annoying</masterLabel>
+            <translation><!-- 3 - Non-critical / Annoying --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4 - Inconvenience / Cosmetic</masterLabel>
+            <translation><!-- 4 - Inconvenience / Cosmetic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5 - Enhancement</masterLabel>
+            <translation><!-- 5 - Enhancement --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Short Issue Summary --></label>
+        <name>Short_Issue_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Steps to Recreate Issue --></label>
+        <name>Steps_to_Recreate_Issue__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Ticket Owner Email --></label>
+        <name>Support_Ticket_Owner_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- TFS Area Path --></label>
+        <name>TFS_Area_Path__c</name>
+        <picklistValues>
+            <masterLabel>Administrative</masterLabel>
+            <translation><!-- Administrative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CADMobile</masterLabel>
+            <translation><!-- CADMobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Chat</masterLabel>
+            <translation><!-- Chat --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Common</masterLabel>
+            <translation><!-- Common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dispatch</masterLabel>
+            <translation><!-- Dispatch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Transport</masterLabel>
+            <translation><!-- EMS Transport --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Identity Management</masterLabel>
+            <translation><!-- Identity Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\911</masterLabel>
+            <translation><!-- Inform-CAD911\911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\Browser</masterLabel>
+            <translation><!-- Inform-CAD911\Browser --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\CAD</masterLabel>
+            <translation><!-- Inform-CAD911\CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\Common</masterLabel>
+            <translation><!-- Inform-CAD911\Common --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\GIS</masterLabel>
+            <translation><!-- Inform-CAD911\GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\Interfaces\Custom</masterLabel>
+            <translation><!-- Inform-CAD911\Interfaces\Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\Interfaces\Standard</masterLabel>
+            <translation><!-- Inform-CAD911\Interfaces\Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform-CAD911\Mobile</masterLabel>
+            <translation><!-- Inform-CAD911\Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Investigative</masterLabel>
+            <translation><!-- Investigative --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Media</masterLabel>
+            <translation><!-- Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mobile</masterLabel>
+            <translation><!-- Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police Records</masterLabel>
+            <translation><!-- Police Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quest</masterLabel>
+            <translation><!-- Quest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Reporting</masterLabel>
+            <translation><!-- Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Repository</masterLabel>
+            <translation><!-- Repository --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Backlog\RMS\PropertyRoom</masterLabel>
+            <translation><!-- Support Software Solutions\Backlog\RMS\PropertyRoom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Backlog\RMS\TIPS</masterLabel>
+            <translation><!-- Support Software Solutions\Backlog\RMS\TIPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\AddisonTX-7.5.2-UX</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\AddisonTX-7.5.2-UX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\AlamedaCA-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\AlamedaCA-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\AlbuquerqueNM-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\AlbuquerqueNM-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\AlleghenyCoPA-7.5.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\AlleghenyCoPA-7.5.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\AnchorageAK-7.5.1.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\AnchorageAK-7.5.1.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\AnneArundelMD-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\AnneArundelMD-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\ArlingtonCoVA-7.4.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\ArlingtonCoVA-7.4.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\ArlingtonTX-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\ArlingtonTX-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\BoulderCO-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\BoulderCO-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\BoulderCoCO-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\BoulderCoCO-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\Brunei-7.7.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\Brunei-7.7.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\BryanTX-7.7.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\BryanTX-7.7.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\BurbankCA-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\BurbankCA-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\CarsonCityNV-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\CarsonCityNV-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\CherokeeCoGA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\CherokeeCoGA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\ChesapeakeVA-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\ChesapeakeVA-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\ContraCostaCA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\ContraCostaCA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FondDuLacWI-7.6.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FondDuLacWI-7.6.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FontanaCA-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FontanaCA-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FortBendCoTX-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FortBendCoTX-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FortBendCoTX-7.7</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FortBendCoTX-7.7 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FremontCA-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FremontCA-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FremontCA-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FremontCA-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FtCollinsCO-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FtCollinsCO-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\FtWorthTX-7.6.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\FtWorthTX-7.6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\GilroyCA-7.4.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\GilroyCA-7.4.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\GlendaleCA-7.6.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\GlendaleCA-7.6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\GwinnettCoGA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\GwinnettCoGA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\HarrisCoTX-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\HarrisCoTX-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\HawthorneCA-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\HawthorneCA-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\HoustonTX</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\HoustonTX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\IdahoStatePoliceID-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\IdahoStatePoliceID-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\IrvingTX-7.4.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\IrvingTX-7.4.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\JeffersonCoCO-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\JeffersonCoCO-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\JeffersonCoCO-7.6.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\JeffersonCoCO-7.6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\KansasCityMO-7.4.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\KansasCityMO-7.4.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\KentCoWA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\KentCoWA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LafayetteCO-7.6.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LafayetteCO-7.6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LongBeachCA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LongBeachCA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LongmontCO-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LongmontCO-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LongviewTX-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LongviewTX-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LosAngelesUnifiedSchoolDistrictCA-7.4.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LosAngelesUnifiedSchoolDistrictCA-7.4.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LosGatosCA-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LosGatosCA-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\LubbockTX-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\LubbockTX-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MarathonCoWI-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MarathonCoWI-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MarinCoCA-7.10.+</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MarinCoCA-7.10.+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MedfordOR-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MedfordOR-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MelbourneFL-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MelbourneFL-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MidlandTX-7.6.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MidlandTX-7.6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MilpitasCA-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MilpitasCA-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MilwaukeeWI-7.4.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MilwaukeeWI-7.4.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\MontgomeryCoUH-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\MontgomeryCoUH-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\NYMTA-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\NYMTA-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\NebraskaSPD-7.5.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\NebraskaSPD-7.5.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\OdessaTX-7.4.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\OdessaTX-7.4.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\OntarioCA-7.5.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\OntarioCA-7.5.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\OrangeCoFL-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\OrangeCoFL-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\PasadenaTX-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\PasadenaTX-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\PlacerCA-7.3.3</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\PlacerCA-7.3.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\PolkCoFL-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\PolkCoFL-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\PorterCoIN-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\PorterCoIN-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\RenoNV-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\RenoNV-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\RiversideCA-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\RiversideCA-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SanBernardinoCoCA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SanBernardinoCoCA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SanJoaquinCoCA-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SanJoaquinCoCA-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SanJoaquinCoCA-7.6.0-UX</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SanJoaquinCoCA-7.6.0-UX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SantaBarbaraCA-7.5.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SantaBarbaraCA-7.5.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SantaClaraCA-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SantaClaraCA-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SavannahGA-7.5.2</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SavannahGA-7.5.2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\StocktonCA-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\StocktonCA-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\StocktonCA-7.7.x-UX</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\StocktonCA-7.7.x-UX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SugarLandTX-7.6.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SugarLandTX-7.6.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\SunnyvaleCA-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\SunnyvaleCA-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\TravisCoTX-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\TravisCoTX-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\UnionCityCA-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\UnionCityCA-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\UnionCityCA-7.9.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\UnionCityCA-7.9.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\VirginiaBeachVA-7.6.0</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\VirginiaBeachVA-7.6.0 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\VolusiaCoFL-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\VolusiaCoFL-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\WacoTX-7.10.x</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\WacoTX-7.10.x --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\WashingtonCoOR-7.5.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\WashingtonCoOR-7.5.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\WasillaAK-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\WasillaAK-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Deployment\YoloCoCA-7.4.1</masterLabel>
+            <translation><!-- Support Software Solutions\Deployment\YoloCoCA-7.4.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Development\V7.10.1</masterLabel>
+            <translation><!-- Support Software Solutions\Development\V7.10.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Development\V7.9.3</masterLabel>
+            <translation><!-- Support Software Solutions\Development\V7.9.3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Support Software Solutions\Development\V8.0.1</masterLabel>
+            <translation><!-- Support Software Solutions\Development\V8.0.1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Telemtry</masterLabel>
+            <translation><!-- Telemtry --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\CAD</masterLabel>
+            <translation><!-- TotalCommand-CAD\CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\File Maintenance</masterLabel>
+            <translation><!-- TotalCommand-CAD\File Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\GIS</masterLabel>
+            <translation><!-- TotalCommand-CAD\GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\Interfaces\Custom</masterLabel>
+            <translation><!-- TotalCommand-CAD\Interfaces\Custom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\Interfaces\Standard</masterLabel>
+            <translation><!-- TotalCommand-CAD\Interfaces\Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\Maverick</masterLabel>
+            <translation><!-- TotalCommand-CAD\Maverick --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TotalCommand-CAD\MobileCOM</masterLabel>
+            <translation><!-- TotalCommand-CAD\MobileCOM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-911</masterLabel>
+            <translation><!-- TriTech-911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech-CrimeView</masterLabel>
+            <translation><!-- TriTech-CrimeView --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Utilities</masterLabel>
+            <translation><!-- Utilities --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Choose a collection, then choose the applicable project --></help>
+        <label><!-- TFS Collection --></label>
+        <name>TFS_Collection__c</name>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sandbox</masterLabel>
+            <translation><!-- Sandbox --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech</masterLabel>
+            <translation><!-- TriTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TFS Comments --></label>
+        <name>TFS_Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- TFS Work Item --></label>
+        <name>TFS_Work_Item__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter targted date for patch release --></help>
+        <label><!-- Target Patch Release Date --></label>
+        <name>Target_Patch_Release_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ticket Origin --></label>
+        <name>Ticket_Origin__c</name>
+        <picklistValues>
+            <masterLabel>Customer Portal</masterLabel>
+            <translation><!-- Customer Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDI</masterLabel>
+            <translation><!-- EDI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Email</masterLabel>
+            <translation><!-- Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fax</masterLabel>
+            <translation><!-- Fax --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Instant Messaging</masterLabel>
+            <translation><!-- Instant Messaging --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal</masterLabel>
+            <translation><!-- Internal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On-call/paging (emergency)</masterLabel>
+            <translation><!-- On-call/paging (emergency) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Phone</masterLabel>
+            <translation><!-- Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBS</masterLabel>
+            <translation><!-- SBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales</masterLabel>
+            <translation><!-- Sales --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scheduled Activity</masterLabel>
+            <translation><!-- Scheduled Activity --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Voicemail</masterLabel>
+            <translation><!-- Voicemail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Walk-up</masterLabel>
+            <translation><!-- Walk-up --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Defect Ticket Status --></label>
+        <name>Ticket_Status__c</name>
+        <picklistValues>
+            <masterLabel>Assessing Issue</masterLabel>
+            <translation><!-- Assessing Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Configuration Issue</masterLabel>
+            <translation><!-- Configuration Issue --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Request</masterLabel>
+            <translation><!-- Customer Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Duplicate</masterLabel>
+            <translation><!-- Duplicate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fix for Release in Progress</masterLabel>
+            <translation><!-- Fix for Release in Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fix ready for Release</masterLabel>
+            <translation><!-- Fix ready for Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Future Consideration</masterLabel>
+            <translation><!-- Future Consideration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Modules Schedule for New Platform</masterLabel>
+            <translation><!-- Modules Schedule for New Platform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Longer in General Use</masterLabel>
+            <translation><!-- No Longer in General Use --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Out of Scope</masterLabel>
+            <translation><!-- Out of Scope --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QA complete - Release</masterLabel>
+            <translation><!-- QA complete - Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Targeted for Future Release</masterLabel>
+            <translation><!-- Targeted for Future Release --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unable to Reproduce</masterLabel>
+            <translation><!-- Unable to Reproduce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Works as Designed</masterLabel>
+            <translation><!-- Works as Designed --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Enhancement Ticket Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Original Customer Ticket Information --></label>
+            <section>Original Customer Ticket Information</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution Information --></label>
+            <section>Resolution Information</section>
+        </sections>
+        <sections>
+            <label><!-- TFS Enhancement Ticket Specifics --></label>
+            <section>TFS Enhancement Ticket Specifics</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Potential Defect Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Defect Specifics --></label>
+            <section>Defect Specifics</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Original Customer Ticket Information --></label>
+            <section>Original Customer Ticket Information</section>
+        </sections>
+        <sections>
+            <label><!-- Resolution Information --></label>
+            <section>Resolution Information</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Enhancement --></label>
+        <name>Enhancement</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Potential Defect --></label>
+        <name>Potential_Defect</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- You must choose either Accepted or Rejected --></errorMessage>
+        <name>Accepted_and_Rejected_cannot_both_be_tru</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For accepted defects, you must enter the version in the Recreated in Version field --></errorMessage>
+        <name>Recreated_In_Version_Must_Be_Entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For accepted defects, you must choose a TFS Collection --></errorMessage>
+        <name>TFS_Collection_Must_Be_Entered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For accepted defects, you must choose a TFS Project --></errorMessage>
+        <name>TFS_Project_Field_Must_Be_Entered</name>
+    </validationRules>
+</CustomObjectTranslation>

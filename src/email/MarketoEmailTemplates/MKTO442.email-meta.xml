@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA-2012-11.DaylightSavingsTime</name>
+    <style>none</style>
+    <subject>Client Announcement - Daylight Savings Software Adjustment</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Client Announcement
+November 1, 2012
+Dear Customer,
+
+TriTech’s Perform software does not automatically adjust for Daylight Savings Time. Although your department may synchronize your workstations to time servers, this still will not resolve the issue of a call starting at one time and having to be closed at a time prior to the start time or an officer arriving an hour after the call was dispatched due to a daylight savings time change.
+
+
+
+Spring Ahead
+
+In the Spring, if a call comes in at 0157 and the call was dispatched at 0158, it is possible the officer may arrive at 0303 because of the time change.
+
+
+
+Fall Back
+
+In the Fall, it is possible for a call to come in at 0157, be dispatched at 0158, but the officer may arrive at 0103 because of the time change. If you have started a call when the clock falls back an hour, the software will issue a warning similar to “The dispatched time must be after the time the call was received.”
+
+
+
+ALT+F Workaround
+
+The workaround to these situations is to use the ALT keyboard shortcuts to Dispatch, Arrive and Clear units and manually enter their times.
+
+Alt-F3: Dispatch
+
+Alt-F4: Arrive
+
+Alt-F5: Clear
+
+
+
+You will want to use these shortcuts and manually enter a time. Once all units are cleared from the call and it is closed, the dispatcher can go to the Response tab of the closed call and edit the response times to indicate the accurate times if they are not correct.
+
+
+
+TriTech recommends you make a note in your call narrative that the call times were changed due to Daylight Savings Time in case a question arises in the future.
+
+
+
+Sincerely,
+
+
+
+Ellen Manning
+
+Technical Support Supervisor – Perform (IMC)
+
+TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

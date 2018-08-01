@@ -1,0 +1,125 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TriTech</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="middle" src="http://offers.tritech.com/rs/tritech/images/TSS_Logo_Banner_660x165.png" alt="TriTech Software Systems"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:#0071BC; vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="12" height="28" alt="" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png"><br></td>
+<td style="vertical-align:middle; text-align:right; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div id="volume_title" class="mktEditable" ><strong><span style="font-size: 12px;">STAY CONNECTED</span>&nbsp; <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Facebook.jpg" alt="" height="16" width="16"></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/Twitter.jpg" alt="" height="16" width="16"></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/LinkedIn.jpg" alt="" height="16" width="16"></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/tritech/images/youtube-logo.jpg" alt="" height="16" width="23"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" alt="" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png"><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:#0071BC; font-size:23px; font-weight:bold; line-height:26px; " ><div id="main_title" class="mktEditable" ><span class="lpContentsItem richTextSpan"><span class="richTextSpan lpContentsItem" style="color: #034ea2;"><span style="font-size: 24px;"><strong id="ExtBox1-ext-gen1341">2013 Perform Spring User Groups<br></strong></span></span></span></div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" ><span style="color: #828282; font-size: 13.5pt; font-family: 'Helvetica','sans-serif';">Thank you for your registration</span></div>
+</div>
+<br>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="vertical-align:top; font-size:12px; font-family:Tahoma,Helvetica; color:rgb(69, 85, 95); line-height:19px; " ><div id="main_text" class="mktEditable" >
+<p><span style="font-family: arial,helvetica,sans-serif;">Hi {{lead.First Name:default=Customer}},</span><br /><br /><span style="font-family: arial,helvetica,sans-serif;">Thank you for registering for the following 2013 Perform User Group Meeting - please review the information below:</span><br /><br /><span style="font-family: 
+arial,helvetica,sans-serif;"><strong>Name:</strong> {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Attendee #1:&nbsp;</strong>{{lead.Contact 1:default=edit me}}</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Attendee #2:&nbsp;</strong>{{lead.Contact 2:default=edit me}}</span><br /><span 
+style="font-family: arial,helvetica,sans-serif;"><strong>Attendee    #3:&nbsp;</strong>{{lead.Contact 3:default=edit me}}</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Attendee #4:&nbsp;</strong>{{lead.Contact 4:default=edit me}}&nbsp;</span><br /><span style="font-family: arial,helvetica,sans-serif;"> <strong>Service   
+Name:</strong> {{company.Company Name:default=edit me}}</span><br /><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Registered for: </strong></span><strong>MEMA Agawam, MA User Group</strong><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Date:</strong> Tuesday, April 23, 2013</span><br 
+/><span style="font-family: arial,helvetica,sans-serif;"><strong>Time:</strong> 9 AM to 3 PM</span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Address:</strong> </span><span class="lpContentsItem richTextSpan"><span style="font-family: arial,helvetica,sans-serif;"><a 
+href="https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;q=1002+Suffield+Street,+Agawam++MA&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89e6e3eb51086c99:0x22bb07a4943c357d,1002+Suffield+St,+Agawam,+MA+01001&amp;gl=us&amp;ei=46xJUbnYH9K64AP_z4C4BQ&amp;ved=0CDMQ8gEwAA" 
+target="_blank">1002 Suffield Street, Agawam&nbsp; MA</a></span></span><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>Available Seats:</strong> 45 Total </span><br /><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>If you need to make any changes or cancel 
+ your reservation, please contact your Client Account Manager, David Bell.
+ </strong></span></p>
+<p><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;">David Bell</span><br /><span style="font-family: arial,helvetica,sans-serif;"> (774) 239-3722</span><br /><span style="font-family: arial,helvetica,sans-serif; font-size: 12px;"> <a 
+href="mailto:david.bell@tritech.com">david.bell@tritech.com</a></span><br /><br /><span style="font-family: arial,helvetica,sans-serif;"><strong>We look forward to seeing you    soon!</strong></span><span class="lpContentsItem richTextSpan" style="font-family: helvetica; font-size: 
+12px;"><strong></strong></span></p>
+</div>
+</td>
+<td style="vertical-align:top; " ><table cellspacing="0" cellpadding="0" border="0" align="right" style="width:100px; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 14px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color: rgb(130, 130, 130); vertical-align: top;"><img width="9" height="21" alt="" src="https://app.marketo.com/images/public-site/email/colCornerNW.png"><br>
+<br></td>
+<td style="padding-left:5px; background-color:rgb(130, 130, 130); font-family:'trebuchet ms'; font-size:17px; font-weight:bold; color:rgb(255, 255, 255); " ><div id="column_title" class="mktEditable" ><p style="text-align: center;"><span style="font-size: 14px;">User Group Agenda<br />9 AM - 3 PM<br /></span></p></div>
+</td>
+<td style="background-color: rgb(130, 130, 130); vertical-align: top; text-align: right;"><img width="9" height="21" alt="" src="https://app.marketo.com/images/public-site/email/colCornerNE.png"><br></td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 14px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="padding:14px; background-color:rgb(255, 255, 255); font-size:12px; font-family:Tahoma,Helvetica; color:#828282; line-height:19px; " colspan="3" ><div style="font-weight:bold; color:#0071BC; " ><div id="column_subtitle" class="mktEditable" ><span style="color: #888888; font-family: arial,helvetica,sans-serif; font-size: 11px;"><u><strong>Perform Product Suite </strong></u>– features available in Version 6.1 and what’s coming in Version 6.2</span><br><span style="color: #888888; font-family: 
+arial,helvetica,sans-serif; font-size: 11px;"><u><strong>Perform Support Team</strong></u> –</span><span style="font-family: arial,helvetica,sans-serif; font-size: 11px;"> </span><span class="lpContentsItem richTextSpan" style="font-size: 11px; color: #888888;"><span style="font-family: 
+arial,helvetica,sans-serif;">Customer Service Center (new support portal) </span></span><br><span style="color: #888888; font-family: arial,helvetica,sans-serif; font-size: 11px;"><u><strong>Sales Programs</strong> </u>– product promotions and activities</span><br><span style="color: 
+#888888; font-family: arial,helvetica,sans-serif; font-size: 11px;"><u><strong>Update on the Perform Training Institute</strong></u> – Upcoming Regional Classes and the Fall Training Summit</span><br><span style="color: #888888; font-family: arial,helvetica,sans-serif; font-size: 
+11px;"><u><strong>On-site lunch</strong></u> (complimentary)</span><br><span style="font-family: arial,helvetica,sans-serif; font-size: 11px; color: #888888;"><u><strong>Complimentary Security Training </strong></u>– a TriTech Software Trainer will provide training on how to manage 
+security rights within the Perform software.
+ You will learn how to manage individual and group rights as well as additional security settings such as challenge questions, strong passwords, and user account lock outs.</span></div>
+</div>
+<br>
+<div id="column_text" class="mktEditable" ><p>&nbsp;</p>
+<ul>
+<span class="lpContentsItem richTextSpan"> </span> 
+</ul></div>
+</td>
+</tr>
+<tr>
+<td style="background-color: rgb(241, 241, 241);" colspan="5"><img width="244" height="37" src="https://app.marketo.com/images/public-site/email/colShadow.png"><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9477 Waples Street, Suite 100, San Diego, California 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

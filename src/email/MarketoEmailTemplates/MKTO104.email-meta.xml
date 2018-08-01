@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.Reminder</name>
+    <style>none</style>
+    <subject>Tomorrow&apos;s Webinar Reminder:  Using Fusion ePCR with VisiCAD</subject>
+    <textOnly>Friendly Reminder - Tomorrow&apos;s Webinar
+Using Fusion ePCR with VisiCAD
+ 
+This is a reminder that you have registered for the &quot;Using Fusion ePCR with VisiCAD&quot; webinar. During this webinar you will take a closer look at how VisiCAD&apos;s integration with Fusion ePCR streamlines the collection of pre-hospital data both in the field and the office.  
+
+Another reminder email with your join link to the right, will be sent out tomorrow - 20 minutes before we start.
+ 
+We look forward to having you attend!
+
+JOIN LINK: http://tritech.ilinc.com/join/ccmrrvb
+
+
+DATE: Wednesday, October 26
+
+
+TIME: 1 PM Eastern | Noon Central | 11 AM Mountain | 10 AM Pacific
+
+Trouble Logging In? Call 800.799.4510 for the iLinc Support Team Help
+
+Questions?
+Cheri Lane in TriTech Marketing
+(563) 387-4858
+cheri.lane@tritech.com 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

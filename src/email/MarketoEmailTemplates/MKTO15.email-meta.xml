@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_July19_Inhouse-vs-Outsource_Webinar_Confirmation-EMail4</name>
+    <style>none</style>
+    <subject>LOGIN INFORMATION: Tomorrow, July 19 - EMS Billing: In-house vs. Outsource</subject>
+    <textOnly>WEBINAR LOGIN INFORMATION
+Complimentary Live Webinar
+
+EMS Billing: In-House vs. Outsource
+What do I need to consider?
+
+
+Reminder - Tomorrow, JULY 19:  live webinar with PWW Director of Reimbursement Consulting, Steve Johnson, and TriTech Industry Education Coordinator, Kathy Ransom.  
+
+Webinar Details:
+    Join Link: http://tritech.ilinc.com/join/vfsspss
+    Date: Tuesday, July 19, 2011
+    Time: 2 pm ET | 1 pm CT | Noon MT | 11 am PT
+    Download Handouts: http://www.tritechems.com/documents/July19Webinar_Handouts.pdf
+    Audio: listen through your computer speakers;
+               or dial in over the telephone to a toll number on your screen when you log in
+
+
+Trouble logging in? Call 800-799-4510 to the iLinc support team for help
+
+
+See you online!
+
+The TriTechTeam
+www.TriTechEMS.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

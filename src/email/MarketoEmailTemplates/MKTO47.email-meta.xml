@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Visi_CustomerSatisfactionSurvey_Email2</name>
+    <style>none</style>
+    <subject>REMINDER: VisiNet Solutions Customer Satisfaction Survey - Enter to Win an iPad2</subject>
+    <textOnly>REMINDER - SEPTEMBER 6TH DEADLINE
+VisiNet Solutions Customer Satisfaction Survey
+
+
+Dear {{lead.First Name:default=Customer}},
+
+TriTech is continuously looking for ways to improve the quality of our service. We are contacting you today because we would like your valuable feedback. Our records show that you are either a user of our products or have had significant interaction with our Technical Services team. Therefore, it is extremely important that we hear from you and listen to your needs in an effort to deliver exceptional support.
+
+Please follow this link http://www.surveymonkey.com/s/VisiNetCustomerSurvey to complete the following semi-annual customer satisfaction survey. For your participation on this initial Satisfaction Survey, you will be entered in a raffle to win an Apple iPad2®. The deadline for entry is September 6th, 2011. The winner will be announced September 8th, 2011.
+
+Please click on this link to complete the quick 3-minute survey and thank you in advance for taking the time to provide us with your candid input. Three minutes will help us better serve you in the future.  
+
+If there is someone more appropriate at your site who should be responding to this survey, please contact Cheri Lane from our Marketing Department at (563) 387-4858 or email her at cheri.lane@tritech.com. If you have any questions or encounter any difficulties with this survey link, Cheri is also available to assist you.
+
+Sincerely,
+
+Dora Wood
+Technical Services Manager
+TriTech Software Systems | VisiNet Solutions
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

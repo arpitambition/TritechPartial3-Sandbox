@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2013.3 - Registration is Open</name>
+    <style>none</style>
+    <subject>TriCON Registration is Open</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Hello {{lead.First Name:default=Client}},
+
+With breakout training sessions, one-on-one time with Customer Service, roundtables with fellow users, and a Partner Pavilion to explore new technologies, TriCON is your opportunity to bring your TriTech product knowledge to the next level.
+
+Take advantage of this opportunity with our new Super Early-Bird fees. Save up to $150 if your register by May 1, 2013. 
+
+
+
+
+
+ &lt;https://www.etouches.com/ereg/index.php?eventid=59624&amp;&gt;
+
+
+ &quot;Like&quot; the TriCON Facebook Page &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt; for updates on 2013 TriCON Annual Training plans.
+Training Details
+Dates (9/29-10/2): 
+ Make your travel plans to participate in all the sessions and networking events.
+ Click here for the schedule &lt;http://www.tritech.com/news/tricon/tricon-agenda&gt;
+
+
+Registration:
+ $645: Super Early-bird registration (Before May 1)
+ Additional discounts available
+
+Brochure:
+Discover the value of TriCON and build your case to attend this important event.  &lt;http://www.tritech.com/resources/TriCON2013_ClientBrochure.pdf&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

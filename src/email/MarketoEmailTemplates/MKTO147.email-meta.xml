@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011 Tech Services Communication 12/06/11 - Transition from ServiceWise to Sales</name>
+    <style>none</style>
+    <subject>Transition from ServiceWise to SalesForce- Technical Services Communication</subject>
+    <textOnly>You&apos;re receiving this newsletter because of your relationship with TriTech Software Systems.
+
+
+POSTED 12.06.11 
+
+
+Transition from ServiceWise to SalesForce
+
+
+Dear Clients,
+
+
+We are pleased to announce that we are nearing the completion of the CRM (Customer Relationship Management) transition that we announced on October 11th, 2011.  As we continue to evolve our support operations, we are committed to listening to your feedback as a way to improve the level of service that we provide.  Based on your feedback, it became clear to us that our online customer portal did not meet your ongoing support needs.  Additionally, due to TriTech’s recent growth, it became necessary to adopt a system that would allow us to support each Business Unit across a standardized platform.  As a result, we decided to implement a new CRM tool called SalesForce.  On December 19th of this year, we will migrate from the current customer portal (ServiceWise) to the new customer portal (SalesForce).  
+
+
+You may access the full communication via the Myvisinet Support site under Documentation | General Documents | Customer Service.
+
+
+Sincerely, 
+
+
+Tony Vardiman
+Technical Services Frontline Supervisor | VisiNet Solutions
+TriTech Software Systems | tritech.com
+Direct: 858.799.7441 | Mobile: 619.816.7100
+Fax: 858.799.7010 | Direct Support: 800.847.4223
+Support Line: 800 VISICAD 
+
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121
+
+
+
+
+
+
+
+
+
+
+
+﻿</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

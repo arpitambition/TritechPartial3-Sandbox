@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>MA_ChiefsFire_0207.BoothInvite</name>
+    <style>none</style>
+    <subject>Going to the FCAM 2012 Professional Development Seminar Feb. 7-9?</subject>
+    <textOnly>Fire Chiefs Association of Massachusetts 2012 Professional Development Seminar
+February 7-9, 2012  l  Boxborough, Massachusetts
+
+
+Stop by for a visit at the FCAM 2012 Professional Development Seminar on February 7-9 and find out why TriTech is the largest public safety solution provider in America with more than 2,600 clients.
+
+
+If you would like to pre-schedule a demonstration of our CAD, Mobile Data, Civil Process, Corrections or Records Management solutions, please call or email us today. 
+
+
+Dennis Noe, Regional Sales Manager
+Phone: 774-551-9114
+Dennis.Noe@TriTech.com
+ 
+David Bell, Customer Account Manager
+Phone: 774-551-9104
+David.Bell@TriTech.com
+
+
+Hope to see you there!
+Check out the latest TriTech news here
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

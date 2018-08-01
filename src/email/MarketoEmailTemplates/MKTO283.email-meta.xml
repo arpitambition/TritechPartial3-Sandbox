@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Protecting Your QA Documents from Legal Discovery.Confirmation</name>
+    <style>none</style>
+    <subject>Webinar Confirmation: Protecting Your QA Documents from Legal Discovery</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Thanks for Registering for the
+
+Complimentary Live Webinar
+Anything you Write Will be Used Against You: Protecting Your QA Documents from Legal Discovery
+Thank you {{lead.First Name:default=EMS Professional}} for registering for this complimentary live webinar.
+You will receive a reminder email one week and one day prior to the live webinar. Your webinar information is listed to the right.
+ 
+
+
+ 
+ 
+ 
+Steve Wirth and Charlie Barry look forward to an engaging discussion on May 31st and are glad that you&apos;ve decided to join!
+
+
+
+pwwemslaw.com &lt;http://www.pwwemslaw.com/default.aspx&gt;
+
+tritech.com &lt;http://www.tritech.com/&gt;
+See online on May 31!
+WEBINAR DETAILS
+Don&apos;t forget to add these details in your calendar.
+JOIN LINK:
+
+http://tritech.ilinc.com/join/fxzrbrk &lt;http://tritech.ilinc.com/join/fxzrbrk&gt;
+DATE:
+
+Thursday May 31, 2012
+TIME:
+
+2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+SPEAKERS:
+
+Steve Wirth, Page Wolfberg and Wirth
+Charlie Barry, TriTech Senior Product Manager
+
+AUDIO:
+
+Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+Trouble logging in?
+
+Call 800.799.4510 to reach the iLinc support team for help</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

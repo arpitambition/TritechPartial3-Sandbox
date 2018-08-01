@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_VNS_UnitSwap_Email1</name>
+    <style>none</style>
+    <subject>RESCHEDULED:  VisiCAD Unit Swap Module</subject>
+    <textOnly>RESCHEDULED
+Product Demonstration:  VisiCAD SOP Module
+
+Join Customer Account Managers Ken Schulte and Sally Olson-Nelson and Product Specialist James Howard for a Product Demonstration of VisiCAD&apos;s SOP Module. 
+
+VisiCAD&apos;s Unit Swap Module improves response time and resource management by immediately providing dispatchers with additional vehicle recommendations that become newly available and closer than originally dispatched units.  With Unit Swap, responsers will be able to arrive on scene quicker.  Your agency assets are implemented more efficiently for better service and improved utilization to control costs. 
+
+&quot;Unit Swap is very affordable and a great feature. It automates the process of calculating response times for units that become available after initial assign so dispatchers don’t have to constantly be watching the map.&quot; --David Turner, Santa Ana Fire Department 
+
+Webinar:  Friday, July 15
+10 am PT l 12 noon CT l 1 pm ET
+
+*If you cannot view the &quot;Register Now&quot; button above, please copy and paste the URL into any internet browser to Register: http://tritech.ilinc.com/register/kxxwyyh
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

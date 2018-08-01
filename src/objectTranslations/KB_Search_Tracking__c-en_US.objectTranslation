@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>KB Search Tracking</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>KB Search Tracking</value>
+    </caseValues>
+    <fields>
+        <label><!-- Channel --></label>
+        <name>Channel__c</name>
+        <picklistValues>
+            <masterLabel>Customer</masterLabel>
+            <translation><!-- Customer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal App</masterLabel>
+            <translation><!-- Internal App --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner</masterLabel>
+            <translation><!-- Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Public Knowledge Base</masterLabel>
+            <translation><!-- Public Knowledge Base --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Customer Product Family --></label>
+        <name>Customer_Product_Family__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer --></label>
+        <name>Customer__c</name>
+    </fields>
+    <fields>
+        <label><!-- EMS Filter --></label>
+        <name>EMS_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- IMC Filter --></label>
+        <name>IMC_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- Keyword --></label>
+        <name>Keyword__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Date --></label>
+        <name>Search_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search In Article Types --></label>
+        <name>Search_In_Article_Types__c</name>
+        <picklistValues>
+            <masterLabel>Defect</masterLabel>
+            <translation><!-- Defect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAQ</masterLabel>
+            <translation><!-- FAQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>How To</masterLabel>
+            <translation><!-- How To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Notes</masterLabel>
+            <translation><!-- Release Notes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Advisory</masterLabel>
+            <translation><!-- Tech Advisory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Tips</masterLabel>
+            <translation><!-- Tech Tips --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticket Solutions</masterLabel>
+            <translation><!-- Ticket Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Manuals</masterLabel>
+            <translation><!-- User Manuals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Search Results Count --></label>
+        <name>Search_Results_Count__c</name>
+    </fields>
+    <fields>
+        <label><!-- Search Success? --></label>
+        <name>Search_Success__c</name>
+    </fields>
+    <fields>
+        <label><!-- User --></label>
+        <name>User__c</name>
+        <relationshipLabel><!-- KB Search Tracking --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- VisiNet Filter --></label>
+        <name>VisiNet_Filter__c</name>
+    </fields>
+    <fields>
+        <label><!-- VisionAIR Filter --></label>
+        <name>VisionAIR_Filter__c</name>
+    </fields>
+    <layouts>
+        <layout>KB Search Tracking Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CwK-ePCR.RegistrationConfirmation</name>
+    <style>none</style>
+    <subject>Webinar Series Confirmation: Coffee With Kelly - ePCR</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Coffee with Kelly - ePCR
+Thanks For Registering!
+You are now registered for this complimentary monthly customer service webinar series for your Respond ePCR or TriTech.com ePCR (formerly Fusion ePCR) software.
+DATE: Every Second Wednesday of the Month
+ TIME: 11:30 AM ET l 10:30 AM CT l 9:30 AM MT l 8:30 AM PT
+ PRESENTER: Kelly Wachal - TriTech Supervisor of Customer Service and Education
+AUDIO: Listen through your computer speakers or dial in over the telephone to the number shown on your screen after login
+ 
+
+
+ We look forward to seeing you online!
+
+
+WEBINAR DETAILS
+JOIN LINK:
+
+{{member.webinar url:default=URL}}
+Questions?
+Contact: Cheri Lane, Marketing Communication Manager
+563-387-4858
+cheri.lane@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

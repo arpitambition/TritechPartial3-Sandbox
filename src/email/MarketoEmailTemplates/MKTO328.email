@@ -1,0 +1,77 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>TriTech Software Systems</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="middle" src="http://offers.tritech.com/rs/ortivusna/images/TSS_Logo_Banner_660x165.png" alt="TriTech Software Systems"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:#0071BC; vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="12" height="28" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:left; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div class="mktEditable" id="volume_title" ><strong><span style="font-size: 12px;">STAY CONNECTED</span> <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg" alt="" width="16" height="16"></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg" alt="" width="16" height="16"></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg" alt="" width="16" height="16"></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg" alt="" width="23" height="16"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png" alt=""><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:rgb(223, 31, 38); font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ><span style="color: #0071bc;">Changes to Microsoft SQL Server Licensing&nbsp;</span></div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" >Date:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; July 9th, 2012<br>Advisory #:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; GA12-011<br>Subject:&nbsp;&nbsp;&nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; Changes to Microsoft SQL Server Licensing<br>Affected Versions: &nbsp;&nbsp; All<br> <span style="font-family: helvetica; font-size: 11px;"><a href="Changes_Microsoft_SQL_Server_Licensing.pdf" target="_blank"><em>Click here for PDF download of this email</em></a></span></div>
+</div>
+<br>
+<div id="main_text" class="mktEditable" >
+<p>Microsoft recently announced changes to their SQL Server license model, which will take effect with the release of SQL Server 2012.
+  These changes also affect the acquisition of previous SQL versions which will be considered downgrades.
+  TriTech wants to ensure you are aware of these changes and have the information necessary to choose the model that is best for your environment.
+  SQL Server licensing has changed from a per-processor license to per-core license for Enterprise Edition and either a per-core or a server plus CAL for Standard Edition.
+  When purchasing SQL Server licenses in the future, customers are encouraged to count users/devices and decide if the total licensing costs are lower using the Server / CAL or the Per-Core licensing model.<br /><br />TriTech is continuously working to ensure our customers have the best solutions  
+at the best value.
+  As SQL Server 2012 will offer expanded virtualization rights, options and benefits to provide greater flexibility for customers deploying in virtual environments, TriTech is currently defining the options available to deploy our solutions in this manner.
+  Additionally as new versions of server and workstation operating systems are introduced, we will update you with our plans to support compatibility with these versions.<br /><br />For questions regarding the new Microsoft License Model, TriTech recommends contacting your Microsoft Customer 
+Support  Representative.<br /><br />Any questions regarding this correspondence please contact your TriTech Account Representative.<br /><br />For additional information regarding SQL Server Licensing Model visit <a href="http://www.microsoft.com/sqlserver/en/us/editions.aspx" 
+target="_blank">http://www.microsoft.com/sqlserver/en/us/editions.aspx</a></p>
+<p><strong>Additional Resources</strong><br />If you have any questions regarding the information in this advisory, please contact TriTech Technical Services at 1-888-VisiCAD, email <a href="mailto:support@tritech.com" target="_blank">support@tritech.com</a>, or visit <a 
+href="https://myvisinet.tritech.com" target="_blank">https://myvisinet.tritech.com</a>.</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9477 Waples Street, Suite 100, San Diego, CA 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<p></p>
+</body>
+</html>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Colorado APCO 2011.Invite</name>
+    <style>none</style>
+    <subject>Colorado APCO / NENA - See You At the TriTech Booth!</subject>
+    <textOnly>See You There  l  October 14  l  Longmont, CO
+
+Colorado APCO / NENA Conference
+
+Stop by and see us this Friday, October 14 at the Colorado APCO / NENA Conference.  Visit the TriTech Booth to learn more about how our CAD and Mobile solutions are helping our Colorado clients, such as Loveland Police Department, reshape the way they manage information.
+
+Enter to Win a Public Safety Monopoly Game at the TriTech Booth.  
+Can&apos;t make it to Longmont?  Call us at (858) 799-7900 to schedule a product demonstration.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

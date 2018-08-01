@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA-2012-12.2.Email</name>
+    <style>none</style>
+    <subject>Client Announcement - Allow Reset of Case Numbers at End of Year</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Client Announcement
+December 18, 2012
+Dear {{lead.First Name:default=Customer}},
+
+The &quot;Allow Reset of Case Numbers at End of Year&quot; MUST be done prior to the New Year by someone who has Security rights to Department File Maintenance. With Allow Reset checked off, on December 31st at midnight, all case numbers will automatically reset back to the number “1” prefaced with the New Year. In other words, the next case number after 12-2245-AR on Dec. 31st at midnight will be 13-1-AR with no user intervention. After the New Year, go back into each module and uncheck Allow Reset. &lt;Read complete instructions here. &lt;http://offers.tritech.com/rs/ortivusna/images/Perform_AllowReset-Holiday2012.pdf&gt;&gt;
+
+If you have any questions or need additional information, please feel free to contact Technical Support at 
+800-788-0015.
+ 
+ Sincerely,
+ 
+ Ellen Manning
+ Technical Support Supervisor – Perform (IMC)
+ TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>CAD Error</label>
+            <name>CAD_Error</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Third Party Products</label>
+                <name>Third_Party_Products</name>
+            </dataCategory>
+            <label>CAD Functionality</label>
+            <name>CAD_Functionality</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Slowness</label>
+                <name>Slowness</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Lockups</label>
+                <name>Lockups</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Connectivity</label>
+                <name>Connectivity</name>
+            </dataCategory>
+            <dataCategory>
+                <label>IPC - TCP Server</label>
+                <name>IPC_TCP_Server</name>
+            </dataCategory>
+            <label>CAD Performance</label>
+            <name>CAD_Performance</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Emergency Call Taking</label>
+                <name>Emergency_Call_Taking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Initial Assign</label>
+                <name>Initial_Assign</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Premise Utility</label>
+                <name>Premise_Utility</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Messaging</label>
+                <name>Messaging</name>
+            </dataCategory>
+            <dataCategory>
+                <label>ProQA - Protocol</label>
+                <name>ProQA_Protocol</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Recall</label>
+                <name>Recall</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Documents and Attachments</label>
+                <name>Documents_and_Attachments</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Timers and Warnings</label>
+                <name>Timers_and_Warnings</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Unit Swap</label>
+                <name>Unit_Swap</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Schedule Call Taking</label>
+                <name>Schedule_Call_Taking</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Queues</label>
+                <name>Queues</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VisiCAD Launch</label>
+                <name>VisiCAD_Launch</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Environmental Selector</label>
+                <name>Environmental_Selector</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Response Plan Manager</label>
+                <name>Response_Plan_Manager</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Vehicle Manager</label>
+                <name>Vehicle_Manager</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reports</label>
+                <name>Reports</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Number Setup Utility</label>
+                <name>Number_Setup_Utility</name>
+            </dataCategory>
+            <label>Configuration</label>
+            <name>Configuration</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Reporting - DWH - Replication</label>
+                <name>Reporting_DWH_Replication</name>
+            </dataCategory>
+            <dataCategory>
+                <label>RMS</label>
+                <name>RMS_Knowledge</name>
+            </dataCategory>
+            <label>Database</label>
+            <name>Database</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Hot Standby</label>
+                <name>Hot_Standby</name>
+            </dataCategory>
+            <dataCategory>
+                <label>DR Site</label>
+                <name>DR_Site</name>
+            </dataCategory>
+            <label>Disaster Recovery</label>
+            <name>Disaster_Recovery</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>GIS Link</label>
+                <name>GIS_Link</name>
+            </dataCategory>
+            <dataCategory>
+                <label>GEO</label>
+                <name>GEO</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Explorer</label>
+                <name>Explorer</name>
+            </dataCategory>
+            <dataCategory>
+                <label>SSM</label>
+                <name>SSM</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Flat File Maker</label>
+                <name>Flat_File_Maker</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Response Area Builder</label>
+                <name>Response_Area_Builder</name>
+            </dataCategory>
+            <label>GIS</label>
+            <name>GIS</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Ani Ali</label>
+                <name>Ani_Ali</name>
+            </dataCategory>
+            <dataCategory>
+                <label>AVL</label>
+                <name>AVL</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Paging</label>
+                <name>Paging</name>
+            </dataCategory>
+            <dataCategory>
+                <label>MST, MDC</label>
+                <name>MST_MDC</name>
+            </dataCategory>
+            <dataCategory>
+                <label>CAD2CAD</label>
+                <name>CAD2CAD</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Station Alerting</label>
+                <name>Station_Alerting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Station Printing</label>
+                <name>Station_Printing</name>
+            </dataCategory>
+            <label>Interface Error</label>
+            <name>Interface_Error</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Interface Functionality</label>
+            <name>Interface_Functionality</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Internal Procedures</label>
+            <name>Internal_Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <label>IQ Analytics</label>
+            <name>IQ_Analytics</name>
+        </dataCategory>
+        <dataCategory>
+            <label>IQ Search</label>
+            <name>IQ_Search</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Manuals/User Guides</label>
+            <name>Manuals_User_Guides</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Mobile Configuration</label>
+            <name>Mobile_Configuration</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Mobile Error</label>
+            <name>Mobile_Error</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Mobile Configuration</label>
+                <name>Mobile_Configuration_Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VNM Client</label>
+                <name>VNM_Client</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VNM Server</label>
+                <name>VNM_Server</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Driving Directions</label>
+                <name>Driving_Directions</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VNM AVL Server</label>
+                <name>VNM_AVL_Server</name>
+            </dataCategory>
+            <label>Mobile Performance</label>
+            <name>Mobile_Performance</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Other</label>
+            <name>Other</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Product Announcements</label>
+            <name>Product_Announcements</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>VNM Records Check</label>
+                <name>VNM_Records_Check</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VisiCAD Records Check</label>
+                <name>VisiCAD_Records_Check</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Proxy</label>
+                <name>Proxy</name>
+            </dataCategory>
+            <dataCategory>
+                <label>BOLO</label>
+                <name>BOLO</name>
+            </dataCategory>
+            <label>Records Check</label>
+            <name>Records_Check</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Reporting Server</label>
+            <name>Reporting_Server</name>
+        </dataCategory>
+        <dataCategory>
+            <label>RMS</label>
+            <name>RMS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Shared Forms</label>
+            <name>Shared_Forms</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Technical Advisories</label>
+            <name>Technical_Advisories</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TriCON/PTI/User Groups</label>
+            <name>TriCON_PTI_User_Groups</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>GEO</label>
+                <name>GEO_Upgrade_Errors</name>
+            </dataCategory>
+            <dataCategory>
+                <label>CAD</label>
+                <name>CAD_Upgrade_Errors</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Database</label>
+                <name>Database_Upgrade_Errors</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mobile</label>
+                <name>Mobile</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Browser</label>
+                <name>Browser_Upgrade_Errors</name>
+            </dataCategory>
+            <label>Upgrade Errors</label>
+            <name>Upgrade_Errors</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>VNB Errors</label>
+                <name>VNB_Errors</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reporting Module</label>
+                <name>Reporting_Module</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Incident Module</label>
+                <name>Incident_Module</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Search Module</label>
+                <name>Search_Module</name>
+            </dataCategory>
+            <label>VNB</label>
+            <name>VNB</name>
+        </dataCategory>
+        <label>Inform Only Filter</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Inform</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

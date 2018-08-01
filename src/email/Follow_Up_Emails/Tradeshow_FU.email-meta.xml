@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Tradeshow Follow Up email citing specific problem discussed at show.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Newsletter_Banner</letterhead>
+    <name>Tradeshow Follow Up</name>
+    <style>freeForm</style>
+    <subject>TriTech - Tradeshow Follow Up</subject>
+    <textOnly>Dear XXXX 
+
+It was a pleasure meeting you at the recent XXXXX in XXXXX. I hope you had a great time and look forward to discussing further how TriTech solutions can benefit your agency. 
+
+From our initial discussion regarding XXXX (i.e. problem they need to solve), our solutions can benefit your agency&apos;s operations. When Client XXXX was facing [the same problem the attendee indicated], we helped them find a way to XXXXX. 
+
+I look forward to speaking with you more about how TriTech&apos;s solutions can help you XXXXX (problem they needto solve.) To set up a site visit and product demonstration, please contact me at (858)799-XXXXXor email XXXXXX@tritech.com
+
+Regards</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TylerHarman-Intro.Email</name>
+    <style>none</style>
+    <subject>Your New TriTech Client Account Manager - Tyler Harman</subject>
+    <textOnly>November 28, 2011
+Your New Client Account Manager
+
+Greetings!
+
+&lt;View Personalized Greeting Here: http://offers.tritech.com/TylerHarmanIntro_LandingPage.html&gt;
+
+My name is Tyler Harman, and I am your TriTech Account Manager for our Sweet-Billing, Sweet-CAD and Fusion ePCR software applications. I look forward to working with you and your organization.
+
+Here’s a little bit more about myself: I am a new employee at TriTech and a native of Decorah, Iowa, where our EMS offices are located. My wife, Sarah, and I have a 1-year-old son named Kalin that constantly keeps us on our toes! I love being outdoors (but not during the winter) and enjoy running, hiking and fishing. I am a big sports fan and am an avid supporter of the Iowa Hawkeyes, New York Mets and Oakland Raiders. I have a B.A. from Simpson College and an M.A. from Western Michigan University. I have worked solely in sales and marketing thus far in my career but in a variety of industries, including minor league baseball, college athletics and commercial insurance.
+
+Should you have any questions or need additional information, please contact me at 800.537.3927 ext. 6280 or by emailing tyler.harman@tritech.com. I look forward to working with you and your company to customize a solution that best fits your needs!
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TerriortyChange.Emaiil Announcement</name>
+    <style>none</style>
+    <subject>Announcing New Client Account Manager for AR/FL/ID/IL/MT/OK</subject>
+    <textOnly>Announcing New CAM
+ 
+TriTech Software Systems - New Client Account Manager for AR/FL/ID/IL/MT/OK
+
+
+TriTech Software is pleased to announce Bob Ricci as the new Client Account Manager (CAM) for the States of AR, FL, ID, IL, MT, and OK. For the past year Bob has been with TriTech in the Client Services department working with many of you. 
+
+Along with his experience at TriTech, Bob spent 23 years in the Cranston RI Police Department, serving as an officer, detective and eventually retiring as a Sergeant.
+
+During his last 8 years of at the department, Bob served as the system administrator, responsible for keeping over 200 users trained and up to speed on the IMC system.
+
+Since 2003, Bob has been using CAD/RMS system for the department. During the next 8 years Bob became system administrator, responsible for keeping over 200 users trained and up to speed on the IMC system. Bob currently resides in Rhode Island with his family and is anxious to get out on the road to meet everyone personally. 
+
+Bob can be reached at Robert.ricci@tritech.com &lt;mailto:Robert.ricci@tritech.com&gt; or 508.839.6445 x115.  
+
+ 
+Share with Friends or visit www.tritech.com &lt;http://www.tritech.com&gt;
+
+ &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://wwww.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

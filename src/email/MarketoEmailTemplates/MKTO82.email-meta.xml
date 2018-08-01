@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>GA11-022- Microsoft Critical Security Bulletin - October 2011</name>
+    <style>none</style>
+    <subject>GA11-023 - Microsoft Critical Security Bulletin – October 2011</subject>
+    <textOnly>You&apos;re receiving this newsletter because of your relationship with TriTech Software Systems.
+
+
+POSTED 10.12.11  
+
+
+GA11-023 Microsoft Critical Security Bulletin – October 2011 
+ 
+ 
+Dear Clients,
+ 
+
+The Technical Advisory - GA11-023 - Microsoft Critical Security Bulletin - October 2011 has been posted to the MyVisiNet support site.  Microsoft has released two (2) Critical Security Updates for the month of October, 2011. The vulnerabilities discussed in this bulletin involve Microsoft Windows and other Microsoft products.
+
+
+You may access this advisory via the Myvisinet Support site under Documentation | Tech Advisories | Microsoft Advisories | 2011.
+ 
+
+
+Sincerely, 
+
+
+Tony Vardiman
+Technical Services Frontline Supervisor | VisiNet Solutions 
+TriTech Software Systems | tritech.com
+Direct: 858.799.7441 | Mobile: 619.816.7100
+Fax: 858.799.7010 | Support: 800.847.4223 
+Support Website: myvisinet.tritech.com 
+
+
+   
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

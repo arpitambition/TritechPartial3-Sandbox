@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_VNS_Rotation_email2_LastChance</name>
+    <style>none</style>
+    <subject>Register Now:  Rotation Provider product demo</subject>
+    <textOnly>Product Demonstration
+
+Last Chance to Register!
+VisiCAD Rotation Provider
+
+Join Customer Account Managers Ken Schulte and Sally Olson-Nelson and Product Specialist James Howard for a Product Demonstration of VisiCAD&apos;s Rotation Provider.  In this upcoming webinar, discover the benefits and functionality of the Rotation Provider module to take out the complexity of managing rotation providers.  
+
+Webinar:  Wednesday, August 25
+10 am PT l 12 noon CT l 1 pm ET
+
+*If you cannot view the &quot;Register Now&quot; button above, please copy and paste the URL into any internet browser to Register: http://tritech.ilinc.com/register/mymmwbb
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

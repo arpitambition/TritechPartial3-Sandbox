@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>EMS alert trigger for status changes to Tier 3 on Customer Support Tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - EMS Tier 3 Status</name>
+    <style>none</style>
+    <subject>Tier 3 Ticket Status Notification: Ticket Number {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

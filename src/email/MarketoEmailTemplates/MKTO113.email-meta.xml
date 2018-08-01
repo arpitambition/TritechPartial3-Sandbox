@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.No Show (EMS Clients)</name>
+    <style>none</style>
+    <subject>Recording Now Available:  Using Fusion ePCR with VisiCAD</subject>
+    <textOnly> 
+ We missed you   
+ &quot;Using Fusion with VisiCAD&quot; Webinar  
+
+Sorry that you were unable to join us for our recent webinar &quot;Using Fusion ePCR with VisiCAD.&quot;  If you would like to view the webinar or share the information with someone else, please reference the links below for the recording and the datasheet:  
+
+
+Webinar Recording Link&gt;&gt;
+Fusion ePCR Datasheet link &gt;&gt;
+Fusion ePCR 6.2 New Features Datasheet Link &gt;&gt;
+
+For more information, contact your Client Account Manager
+
+Michele Duwe
+michele.duwe@tritech.com
+
+Brenda Taylor
+brenda.taylor@tritech.com
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

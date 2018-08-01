@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NHEDA_Conference_0411.BoothInvite</name>
+    <style>none</style>
+    <subject>Going to the NHEDA Conference April 11-13?</subject>
+    <textOnly>2012 New Hampshire Emergency Dispatcher&apos;s Association Conference
+April 11-13, 2012  |  North Conway, New Hampshire
+
+
+Stop by for a visit at the 2012 New Hampshire Emergency Dispatcher’s Association Conference on April 11-13 and find out why TriTech is the largest public safety solution provider in America with more than 2,600 clients.
+
+If you would like to pre-schedule a demonstration of our CAD, Mobile Data, Civil Process, Corrections or Records Management solutions, please call or email us today. 
+
+Mark Baranowski, Customer Account Manager
+Phone: 774-551-9180
+Mark.Baranowski@TriTech.com
+
+Hope to see you there!
+Check out the latest TriTech news here
+
+
+  
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

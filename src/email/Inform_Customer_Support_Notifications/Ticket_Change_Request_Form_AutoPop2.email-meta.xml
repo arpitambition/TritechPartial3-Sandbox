@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Change Request Form</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Ticket Change Request Form -AutoPop</name>
+    <style>freeForm</style>
+    <subject>Change Request For {!Account.Core_Company__c} Ticket# {!Case.CaseNumber}</subject>
+    <textOnly>{!Account.Core_Company__c} Change Request Form
+
+
+Change Type: {!Case.Work_Order_Type__c}
+
+Change Title: {!Case.Subject}
+
+Site/System: {!Case.Account}
+
+Change Requestor: {!Case.OwnerFullName}
+
+Change Requestor Ph #: {!Case.OwnerPhone}
+
+Approvers: {!Case.Contact}
+
+Approvers Email: {!Contact.Email}
+
+Approved?
+
+
+
+Start Date &amp; Time: {!Case.Anticipated_Delivery_Date__c} {!Case.Anticpated_Delivery_Time__c}
+
+Implementation Duration (hours): {!Case.Estimated_Time_for_Upgrade_in_hours__c}
+
+Back Out Duration: 1 Hour
+
+Ticket # {!Case.CaseNumber}
+
+
+
+Change Justification:
+Clearly state the purpose for the change
+
+{!Case.Upgrade_Justification__c}
+
+Detailed Implementation Plan:
+
+{!Case.Implementation_Plan__c}
+
+Detailed Back Out Plan:
+
+{!Case.Back_Out_Plan__c}
+
+Risks:
+
+Step
+
+Low
+Risk
+
+Medium Risk
+
+High
+Risk
+
+
+
+User Acceptance Test Plan:
+
+{!Case.User_Acceptance_Test_Plan__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

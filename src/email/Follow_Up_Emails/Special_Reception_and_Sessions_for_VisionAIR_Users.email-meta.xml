@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to send to VISIONAIR users who are not yet registered</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TriCON 2017: Just for VisionAIR users</name>
+    <style>none</style>
+    <subject>TriCON 2017: Special Reception and Sessions for VisionAIR Users</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

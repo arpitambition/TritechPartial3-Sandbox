@@ -1,0 +1,11 @@
+{
+    "remotes": {
+        "tritechPartial": {
+            "name": "tritechPartial",
+            "default": true,
+            "username": "feuji@tritech.com.partialsb3",
+            "password": "Login@18",
+            "serverUrl": "https://test.salesforce.com"
+        }
+    }
+}

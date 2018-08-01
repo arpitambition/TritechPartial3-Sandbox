@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q4_2012_CA.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 4th Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+What do you get when you bring together 400 TriTech customers for three days of training, networking, and brainstorming? That’s what happened in San Diego at the TriCON 2012 Annual User Conference in October. This was the first time VisionAIR and TriTech customers came together as a group, and by all accounts it was a huge success. The conference gives TriTech staff members a rare chance to meet with our customers face-to-face to better understand issues, concerns, and solutions that are going on in the field. Customers get direct access to TriTech staff to get their questions answered in sessions and in hands-on labs. Perhaps, most importantly, it is a chance for you to meet your peers and exchange ideas on how other agencies are using the TriTech systems. With more than 2,700 installations of TriTech systems across the globe, there are many different ways to solve the same problems and many common solutions.
+
+This year my favorite event was when we unveiled our new products during the general session on the first day. We showed a new CAD version with a brand new workflow and an integrated telephone interface. This is the culmination of nearly a year of research and development, and will serve as the new, common platform for both VisiCAD and VisionCAD customers. Look for more information coming your way as we move into limited availability testing in mid-2013.
+ 
+ 
+We also demonstrated the first release of our next generation Police RMS. The thin-client RMS and FBR deliver a streamlined look and feel that is easier to use. The system provides a new Pinboard module, Facebook-style timeline for suspects, and a wizard-based Field Based Reporting interface.
+
+We also unveiled the newest version of Inform IQ, a query, dashboard, and reporting tool that aggregates data from CAD, RMS, and 9-1-1 to give users a powerful investigating and analytics platform. Early reviews from our pre-release customers have been overwhelmingly positive.
+
+Next year, TriCON will be held in San Diego again, and we expect to have an even bigger turnout. Please look for more information about dates to reserve your spot soon. You can’t afford to miss this event!
+
+Thank you for the opportunity to serve as your public safety technology provider.
+
+Chris Maloney, President and CEO
+
+ 
+ 
+ 
+We are Grateful for Your Business!
+As we approach the holiday season, we want to express our gratitude for your trust in TriTech as your technology partner! As the front-line users of our software, your input has been invaluable in the 
+development of our products. Thank you and we wish you a peaceful and restful season with friends and family!
+
+
+Products
+Read about the new products coming and their debut at several 2012 events.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_Products.html&gt;
+
+ 
+Support
+Meet Escalation Technical Support Representative, Joseph Longhurst; read recent Customer Support notices and check out some training recordings; and please note the upcoming holiday office closings. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_Support.html&gt;
+
+
+
+News and Events
+What&apos;s all the hype about? Check it out for yourself - between NENA, APCO, IACP, and TriCON, there was a lot of buzz stirring this past quarter. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_NewsandEvents.html&gt;
+&gt; Main &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_Main.html&gt;
+
+ &gt; Products &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_Products.html&gt;
+
+ &gt; Support &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_Support.html&gt;
+
+ &gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_NewsandEvents.html&gt;
+
+
+
+
+Need Support?
+
+Call Toll Free
+(800) 847-4223
+
+
+
+To Access the Client Login
+
+ &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&quot; target=&quot;_blank&quot;&gt;&lt;img src=&gt;
+
+
+
+ACCOUNT MANAGEMENT 
+
+
+Ed Bean
+Director, Account Management
+ed.bean@tritech.com &lt;mailto:ed.bean@tritech.com&gt;
+
+Tommy Blackwell
+(858) 799-7467
+thomas.blackwell@tritech.com &lt;mailto:thomas.blackwell@tritech.com&gt;
+
+Sally Olson-Nelson
+(858) 799-7358
+sally.olson-nelson@tritech.com &lt;mailto:sally.olson-nelson@tritech.com&gt;
+
+Ken Schulte
+(858) 799-7316
+ken.schulte@tritech.com &lt;mailto:ken.schulte@tritech.com&gt;
+
+Angela Shepherd
+(910) 602-4064
+angela.shepherd@tritech.com &lt;mailto:angela.shepherd@tritech.com&gt;
+
+Jane Soderberg
+(303) 252-1573
+jane.soderberg@tritech.com &lt;mailto:jane.soderberg@tritech.com&gt;
+
+Jennifer Swaney
+(303) 487-5474
+jennifer.swaney@tritech.com
+
+Christine 
+Turner
+(858) 799-7468
+chris.turner@tritech.com &lt;mailto:chris.turner@tritech.com&gt;
+
+
+
+
+ 
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when someone when a pricing committee request is scheduled</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Pricing Committee Mtg Scheduled</name>
+    <style>none</style>
+    <subject>Pricing Committee Request: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>{!SalesForce_Helpdesk__c.OwnerFirstName},
+
+Your request will be presented at the next Pricing Committee meeting, which occurs the 2nd Tuesday of each month unless noted otherwise.  You are currently scheduled for the meeting to be held on:
+
+{!SalesForce_Helpdesk__c.Date_of_PC_Meeting__c}
+
+Please be prepared to discuss your proposed item including changes to SalesForce/Endeavor, marketing collateral, and project management impact as appropriate to obtain committee approval.
+
+You can review your original request here:  {!SalesForce_Helpdesk__c.Link}
+
+Thank you,
+
+Sam Perkins
+Pricing Manager
+TriTech Software Systems | www.tritech.com
+Mobile: (858) 220-0432</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

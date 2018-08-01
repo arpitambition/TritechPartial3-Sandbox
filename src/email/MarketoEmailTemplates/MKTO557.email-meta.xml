@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTech.com IQ.Inform4 Upgrade - 1 - Launch (Copy)</name>
+    <style>none</style>
+    <subject>Promotional Pricing to Upgrade Inform 4 to TriTech.com IQ</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Upgrade to the cloud with TriTech.com IQ
+Special Promotional Pricing for Inform 4 Clients Only
+Get ready to save $$$ and start searching with TriTech.com IQ!
+
+We want to get you up and running on the latest version of IQ (previously known as VisionINFORM).  With special promotional pricing and hosted delivery model, upgrading to TriTech.com IQ is most cost efficient way to get you there.   
+
+ Start saving money and time with TriTech.com cloud applications...
+
+
+
+
+ - Cost-effective - No servers to acquire
+
+ - Easy to maintain - Automatic software updates
+
+ - Security of data - Hosted at Nlets
+
+
+
+
+...And start searching with TriTech.com IQ
+
+
+ - Secure, easy access anytime and anywhere
+ - CAD, RMS and Jail entites from one place
+ - Real-time notification of new information matching registered searches
+
+
+
+To learn how upgrading to the cloud with TriTech.com IQ will benefit your agency, watch our presentation &lt;http://prezi.com/vwnj4x4rcowe/tritechcom-iq/?auth_key=c00e573580547e75909ea2ca94d133290ebe76f9&amp;kw=view-vwnj4x4rcowe&amp;rc=ref-16772688&gt; below.
+
+ &lt;http://prezi.com/vwnj4x4rcowe/tritechcom-iq/?auth_key=c00e573580547e75909ea2ca94d133290ebe76f9&amp;kw=view-vwnj4x4rcowe&amp;rc=ref-16772688&gt;
+
+
+
+Promotional Pricing
+Special promotional pricing for current Inform 4 customers expires on 12/31/13.
+Would you like your Client Account Manager to contact you? Please let us know that you&apos;d appreciate a phone call!
+ &lt;http://offers.tritech.com/TriTech.comIQ_RequestCall.html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

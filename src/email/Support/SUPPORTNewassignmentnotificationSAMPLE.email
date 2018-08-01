@@ -1,0 +1,14 @@
+*** NEW TICKET ASSIGNMENT NOTIFICATION ***  
+
+The following ticket has been assigned to you:
+
+Ticket #:  {!Case.CaseNumber} 
+Account:  {!Case.Account}
+Contact:  {!Case.Contact}
+Subject:  {!Case.Subject}
+
+Description:  {!Case.Description}
+
+Tier 3 Contact Assigned (if applicable):  {!Case.Tier_3_Contact__c}
+
+Click on the link to access the case:  {!Case.Link}

@@ -1,0 +1,16 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p align="right">{!Case.Account}</p>
+<p align="right">{!Case.Short_Issue_Summary_WMP__c}</p>
+<p align="right">Upgrade Date: {!Case.Anticipated_Delivery_Date__c}</p>
+<p align="right">&nbsp;</p>
+<p>{!Contact.FirstName} {!Contact.LastName},</p>
+<p>&nbsp;</p>
+<p>Thank you for giving us the opportunity to serve you better. Please help us by taking&nbsp;five minutes to tell us about your upgrade experience. We value your feedback and want to make sure we are meeting your expectations.</p>
+<p>&nbsp;<a href="https://survey.qualtrics.com/SE/?SID=SV_4VeJxlcH23qyvu4"><br></a></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>Sincerely,<br>Samantha O'Brien<br>Upgrade Supervisor&nbsp; </p>]]></td>
+</tr>
+</table>

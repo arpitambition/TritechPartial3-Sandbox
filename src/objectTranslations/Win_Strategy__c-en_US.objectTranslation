@@ -1,0 +1,953 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Win Strategy</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Win Strategy</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Opportunity Value --></label>
+        <name>Actual_Opportunity_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency&apos;s Current Budget --></label>
+        <name>Agency_s_Current_Budget__c</name>
+    </fields>
+    <fields>
+        <label><!-- Brief History of TriTech&apos;s Involvement --></label>
+        <name>Brief_History_of_TriTech_s_Involvement__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to complete the current Win Strategy form and email it to the team --></help>
+        <label><!-- COMPLETE &amp; SEND --></label>
+        <name>COMPLETE_SEND__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Strengths &amp; Weaknesses --></label>
+        <name>Competitor_Strengths_Weaknesses__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitors --></label>
+        <name>Competitors__c</name>
+        <picklistValues>
+            <masterLabel>911 EMS Software, LLC</masterLabel>
+            <translation><!-- 911 EMS Software, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ACS-Firehouse</masterLabel>
+            <translation><!-- ACS-Firehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ADSI</masterLabel>
+            <translation><!-- ADSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AMCAD</masterLabel>
+            <translation><!-- AMCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AeroMed Software</masterLabel>
+            <translation><!-- AeroMed Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Allegheny R&amp;D</masterLabel>
+            <translation><!-- Allegheny R&amp;D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Alpine Software</masterLabel>
+            <translation><!-- Alpine Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AmbuPro</masterLabel>
+            <translation><!-- AmbuPro --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Application Data Systems Inc. (ADSi)</masterLabel>
+            <translation><!-- Application Data Systems Inc. (ADSi) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Archonix</masterLabel>
+            <translation><!-- Archonix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Astra</masterLabel>
+            <translation><!-- Astra --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BIO-Key</masterLabel>
+            <translation><!-- BIO-Key --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bighorn Systems</masterLabel>
+            <translation><!-- Bighorn Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bradshaw Consulting</masterLabel>
+            <translation><!-- Bradshaw Consulting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CIS Systems</masterLabel>
+            <translation><!-- CIS Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CORE 911</masterLabel>
+            <translation><!-- CORE 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CR Management, Inc.</masterLabel>
+            <translation><!-- CR Management, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CRIMES</masterLabel>
+            <translation><!-- CRIMES --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CTS</masterLabel>
+            <translation><!-- CTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cassidian</masterLabel>
+            <translation><!-- Cassidian --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code 3 Software</masterLabel>
+            <translation><!-- Code 3 Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Code Red</masterLabel>
+            <translation><!-- Code Red --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cody</masterLabel>
+            <translation><!-- Cody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Commerx Corporation</masterLabel>
+            <translation><!-- Commerx Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ComnetiX</masterLabel>
+            <translation><!-- ComnetiX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Computer Investment Advice, Inc.</masterLabel>
+            <translation><!-- Computer Investment Advice, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corporate Technologies, LLC</masterLabel>
+            <translation><!-- Corporate Technologies, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crime Gog Technologies</masterLabel>
+            <translation><!-- Crime Gog Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeStar</masterLabel>
+            <translation><!-- CrimeStar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cyrun</masterLabel>
+            <translation><!-- Cyrun --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DSSI</masterLabel>
+            <translation><!-- DSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data 911</masterLabel>
+            <translation><!-- Data 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denali</masterLabel>
+            <translation><!-- Denali --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Innovations</masterLabel>
+            <translation><!-- Digital Innovations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Digital Planet</masterLabel>
+            <translation><!-- Digital Planet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Docu/Med</masterLabel>
+            <translation><!-- Docu/Med --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Documed Systems Intl. Inc.</masterLabel>
+            <translation><!-- Documed Systems Intl. Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ECS Inc.</masterLabel>
+            <translation><!-- ECS Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EIS</masterLabel>
+            <translation><!-- EIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Consultants, Ltd.</masterLabel>
+            <translation><!-- EMS Consultants, Ltd. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Data Systems, Inc.</masterLabel>
+            <translation><!-- EMS Data Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMSCharts</masterLabel>
+            <translation><!-- EMSCharts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ESO Solutions</masterLabel>
+            <translation><!-- ESO Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ETI</masterLabel>
+            <translation><!-- ETI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Callworks</masterLabel>
+            <translation><!-- Emergency Callworks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Reporting</masterLabel>
+            <translation><!-- Emergency Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergency Technologies, Inc</masterLabel>
+            <translation><!-- Emergency Technologies, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EmergiData</masterLabel>
+            <translation><!-- EmergiData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Emergitech</masterLabel>
+            <translation><!-- Emergitech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EnRoute</masterLabel>
+            <translation><!-- EnRoute --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Enforsys</masterLabel>
+            <translation><!-- Enforsys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Experiant</masterLabel>
+            <translation><!-- Experiant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDM</masterLabel>
+            <translation><!-- FDM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FirePrograms Software</masterLabel>
+            <translation><!-- FirePrograms Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Firehouse</masterLabel>
+            <translation><!-- Firehouse --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fortek (UK)</masterLabel>
+            <translation><!-- Fortek (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GEAC</masterLabel>
+            <translation><!-- GEAC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Global Software Corp</masterLabel>
+            <translation><!-- Global Software Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gold Systems, Inc</masterLabel>
+            <translation><!-- Gold Systems, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Golden Hour Data Systems</masterLabel>
+            <translation><!-- Golden Hour Data Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Grayco Systems</masterLabel>
+            <translation><!-- Grayco Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Harrison</masterLabel>
+            <translation><!-- Harrison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Healthware Solutions, LLC</masterLabel>
+            <translation><!-- Healthware Solutions, LLC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HiTech</masterLabel>
+            <translation><!-- HiTech --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>High Plains Information Systems, Inc.</masterLabel>
+            <translation><!-- High Plains Information Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyland Software</masterLabel>
+            <translation><!-- Hyland Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ICS</masterLabel>
+            <translation><!-- ICS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IPC</masterLabel>
+            <translation><!-- IPC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ITI</masterLabel>
+            <translation><!-- ITI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Iatroware</masterLabel>
+            <translation><!-- Iatroware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ImageTrend</masterLabel>
+            <translation><!-- ImageTrend --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In House</masterLabel>
+            <translation><!-- In House --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inspironix, Inc</masterLabel>
+            <translation><!-- Inspironix, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>InterAct</masterLabel>
+            <translation><!-- InterAct --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intergraph</masterLabel>
+            <translation><!-- Intergraph --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intermedix Technologies, Inc</masterLabel>
+            <translation><!-- Intermedix Technologies, Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intrado (Formerly Positron)</masterLabel>
+            <translation><!-- Intrado (Formerly Positron) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>JefBar</masterLabel>
+            <translation><!-- JefBar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keystone</masterLabel>
+            <translation><!-- Keystone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logistic Systems</masterLabel>
+            <translation><!-- Logistic Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Logisys</masterLabel>
+            <translation><!-- Logisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Macrologic Inc.</masterLabel>
+            <translation><!-- Macrologic Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark43</masterLabel>
+            <translation><!-- Mark43 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Med Media</masterLabel>
+            <translation><!-- Med Media --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MedaPoint</masterLabel>
+            <translation><!-- MedaPoint --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medical Claims Assistance, Inc.</masterLabel>
+            <translation><!-- Medical Claims Assistance, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medusa Medical Technologies, Inc.</masterLabel>
+            <translation><!-- Medusa Medical Technologies, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MicroData</masterLabel>
+            <translation><!-- MicroData --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Motorola</masterLabel>
+            <translation><!-- Motorola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NEC</masterLabel>
+            <translation><!-- NEC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NET Data</masterLabel>
+            <translation><!-- NET Data --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>New World Systems</masterLabel>
+            <translation><!-- New World Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Niche</masterLabel>
+            <translation><!-- Niche --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Northrop Grumman</masterLabel>
+            <translation><!-- Northrop Grumman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OPEN Incorporated</masterLabel>
+            <translation><!-- OPEN Incorporated --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OSSI</masterLabel>
+            <translation><!-- OSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSNET</masterLabel>
+            <translation><!-- PSNET --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PSSI</masterLabel>
+            <translation><!-- PSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS</masterLabel>
+            <translation><!-- PTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PTS Solutions</masterLabel>
+            <translation><!-- PTS Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pamet Systems</masterLabel>
+            <translation><!-- Pamet Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PoliceWorks</masterLabel>
+            <translation><!-- PoliceWorks --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ProPhoenix Corp</masterLabel>
+            <translation><!-- ProPhoenix Corp --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Purvis</masterLabel>
+            <translation><!-- Purvis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QED</masterLabel>
+            <translation><!-- QED --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RAM Software Systems, Inc.</masterLabel>
+            <translation><!-- RAM Software Systems, Inc. --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Remsdaq (UK)</masterLabel>
+            <translation><!-- Remsdaq (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Response Data Engineering</masterLabel>
+            <translation><!-- Response Data Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SMART</masterLabel>
+            <translation><!-- SMART --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sansio (Formerly ScanHealth)</masterLabel>
+            <translation><!-- Sansio (Formerly ScanHealth) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sertia</masterLabel>
+            <translation><!-- Sertia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shield</masterLabel>
+            <translation><!-- Shield --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sierra Systems Consultants</masterLabel>
+            <translation><!-- Sierra Systems Consultants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SmartCOP</masterLabel>
+            <translation><!-- SmartCOP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Solacom</masterLabel>
+            <translation><!-- Solacom --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Southern Software</masterLabel>
+            <translation><!-- Southern Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spillman</masterLabel>
+            <translation><!-- Spillman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sun Ridge - RIMS</masterLabel>
+            <translation><!-- Sun Ridge - RIMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sungard HTE</masterLabel>
+            <translation><!-- Sungard HTE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sungard OSSI</masterLabel>
+            <translation><!-- Sungard OSSI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TSG</masterLabel>
+            <translation><!-- TSG --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Thales (UK)</masterLabel>
+            <translation><!-- Thales (UK) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TracNet</masterLabel>
+            <translation><!-- TracNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Traumasoft</masterLabel>
+            <translation><!-- Traumasoft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tritier Corporation</masterLabel>
+            <translation><!-- Tritier Corporation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tyler Technologies</masterLabel>
+            <translation><!-- Tyler Technologies --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unisys</masterLabel>
+            <translation><!-- Unisys --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Valor</masterLabel>
+            <translation><!-- Valor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Versaterm</masterLabel>
+            <translation><!-- Versaterm --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Visual Fire</masterLabel>
+            <translation><!-- Visual Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>West Covina Service Group</masterLabel>
+            <translation><!-- West Covina Service Group --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ZOLL Data Systems</masterLabel>
+            <translation><!-- ZOLL Data Systems --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zoll</masterLabel>
+            <translation><!-- Zoll --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>eForce</masterLabel>
+            <translation><!-- eForce --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPCR</masterLabel>
+            <translation><!-- iPCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Evaluation Criteria --></label>
+        <name>Evaluation_Criteria__c</name>
+    </fields>
+    <fields>
+        <help><!-- If this field is left blank, the information provided in the Executive Summary field on the associated Opportunity will fill in. --></help>
+        <label><!-- Executive Summary --></label>
+        <name>Executive_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- General Overview of Project Scope --></label>
+        <name>General_Overview_of_Project_Scope__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 1 Hot Buttons/Biases --></label>
+        <name>Key_Decision_Maker_1_Hot_Buttons_Biases__c</name>
+        <picklistValues>
+            <masterLabel>Champion</masterLabel>
+            <translation><!-- Champion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation><!-- Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Committee Member</masterLabel>
+            <translation><!-- Evaluation Committee Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Everyday User</masterLabel>
+            <translation><!-- Everyday User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gate Keeper</masterLabel>
+            <translation><!-- Gate Keeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inside Coach</masterLabel>
+            <translation><!-- Inside Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction Maker</masterLabel>
+            <translation><!-- Introduction Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Involved</masterLabel>
+            <translation><!-- Not Involved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obstructionist</masterLabel>
+            <translation><!-- Obstructionist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participant</masterLabel>
+            <translation><!-- Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Influencer</masterLabel>
+            <translation><!-- Political Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommender</masterLabel>
+            <translation><!-- Recommender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsible for Money</masterLabel>
+            <translation><!-- Responsible for Money --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signature on Agreement</masterLabel>
+            <translation><!-- Signature on Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Evaluator</masterLabel>
+            <translation><!-- Technical Evaluator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultimate Decision Maker</masterLabel>
+            <translation><!-- Ultimate Decision Maker --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 1 Title --></label>
+        <name>Key_Decision_Maker_1_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 1 --></label>
+        <name>Key_Decision_Maker_1__c</name>
+        <relationshipLabel><!-- Win Strategy --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 2 Hot Buttons/Biases --></label>
+        <name>Key_Decision_Maker_2_Hot_Buttons_Biases__c</name>
+        <picklistValues>
+            <masterLabel>Champion</masterLabel>
+            <translation><!-- Champion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation><!-- Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Committee Member</masterLabel>
+            <translation><!-- Evaluation Committee Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Everyday User</masterLabel>
+            <translation><!-- Everyday User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gate Keeper</masterLabel>
+            <translation><!-- Gate Keeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inside Coach</masterLabel>
+            <translation><!-- Inside Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction Maker</masterLabel>
+            <translation><!-- Introduction Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Involved</masterLabel>
+            <translation><!-- Not Involved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obstructionist</masterLabel>
+            <translation><!-- Obstructionist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participant</masterLabel>
+            <translation><!-- Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Influencer</masterLabel>
+            <translation><!-- Political Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommender</masterLabel>
+            <translation><!-- Recommender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsible for Money</masterLabel>
+            <translation><!-- Responsible for Money --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signature on Agreement</masterLabel>
+            <translation><!-- Signature on Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Evaluator</masterLabel>
+            <translation><!-- Technical Evaluator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultimate Decision Maker</masterLabel>
+            <translation><!-- Ultimate Decision Maker --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 2 Title --></label>
+        <name>Key_Decision_Maker_2_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 2 --></label>
+        <name>Key_Decision_Maker_2__c</name>
+        <relationshipLabel><!-- Win Strategy (Key Decision Maker 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 3 Hot Buttons/Biases --></label>
+        <name>Key_Decision_Maker_3_Hot_Buttons_Biases__c</name>
+        <picklistValues>
+            <masterLabel>Champion</masterLabel>
+            <translation><!-- Champion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation><!-- Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Committee Member</masterLabel>
+            <translation><!-- Evaluation Committee Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Everyday User</masterLabel>
+            <translation><!-- Everyday User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gate Keeper</masterLabel>
+            <translation><!-- Gate Keeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inside Coach</masterLabel>
+            <translation><!-- Inside Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction Maker</masterLabel>
+            <translation><!-- Introduction Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Involved</masterLabel>
+            <translation><!-- Not Involved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obstructionist</masterLabel>
+            <translation><!-- Obstructionist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participant</masterLabel>
+            <translation><!-- Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Influencer</masterLabel>
+            <translation><!-- Political Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommender</masterLabel>
+            <translation><!-- Recommender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsible for Money</masterLabel>
+            <translation><!-- Responsible for Money --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signature on Agreement</masterLabel>
+            <translation><!-- Signature on Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Evaluator</masterLabel>
+            <translation><!-- Technical Evaluator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultimate Decision Maker</masterLabel>
+            <translation><!-- Ultimate Decision Maker --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 3 Title --></label>
+        <name>Key_Decision_Maker_3_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Decision Maker 3 --></label>
+        <name>Key_Decision_Maker_3__c</name>
+        <relationshipLabel><!-- Win Strategy (Key Decision Maker 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Official RFP Name --></label>
+        <name>Official_RFP_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Age --></label>
+        <name>Opportunity_Age__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Win Strategy --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Pricing and Funding Issues --></label>
+        <name>Pricing_and_Funding_Issues__c</name>
+        <picklistValues>
+            <masterLabel>Compliancy</masterLabel>
+            <translation><!-- Compliancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price</masterLabel>
+            <translation><!-- Price --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Price and Compliancy</masterLabel>
+            <translation><!-- Price and Compliancy --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Strategy Statement --></label>
+        <name>Strategy_Statement__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy to Maximize TriTech&apos;s Scoring --></label>
+        <name>Strategy_to_Maximize_TriTech_s_Scoring__c</name>
+    </fields>
+    <fields>
+        <label><!-- Top 3 or More Differentiators --></label>
+        <name>Top_3_or_More_Differentiators__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Strengths --></label>
+        <name>TriTech_Strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Weaknesses --></label>
+        <name>TriTech_Weaknesses__c</name>
+    </fields>
+    <layouts>
+        <layout>Win Strategy Layout</layout>
+        <sections>
+            <label><!-- Competition --></label>
+            <section>Competition</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- General Information --></label>
+            <section>General Information</section>
+        </sections>
+        <sections>
+            <label><!-- Key Decision Makers &amp; Expectations --></label>
+            <section>Key Decision Makers &amp; Expectations</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Pricing &amp; Funding --></label>
+            <section>Pricing &amp; Funding</section>
+        </sections>
+        <sections>
+            <label><!-- RFP Assessment --></label>
+            <section>RFP Assessment</section>
+        </sections>
+        <sections>
+            <label><!-- Strategy Statement --></label>
+            <section>Strategy Statement</section>
+        </sections>
+        <sections>
+            <label><!-- Top 3 or more differentiators of the TriTech Solution --></label>
+            <section>Top 3 or more differentiators of the TriTech Solution</section>
+        </sections>
+        <sections>
+            <label><!-- TriTech Strengths &amp; Weaknesses --></label>
+            <section>TriTech Strengths &amp; Weaknesses</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <webLinks>
+        <label><!-- Winning_Dimensions --></label>
+        <name>Winning_Dimensions</name>
+    </webLinks>
+</CustomObjectTranslation>

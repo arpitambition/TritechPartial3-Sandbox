@@ -1,0 +1,9 @@
+{!Account.OwnerFullName} has completed the account scoring section for:<BR><BR>
+
+<B>{!Account.Name}</B><BR><BR>
+
+Account Score = <B>{!Account.Account_Score__c}</B><BR><BR>
+
+Please review the account and check the "Account Score - Director Approved" checkbox when complete.<BR><BR>
+
+You can view the account here: {!Account.Link}<BR><BR>

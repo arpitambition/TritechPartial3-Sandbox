@@ -1,0 +1,8 @@
+An upgrade has been completed on the following ticket.  Please initiate the maintenance billing for the customer:
+
+Account: {!Account.Name} 
+Customer Number: {!Account.EMS_Customer_Number_WMP__c}
+Ticket Number: {!Case.CaseNumber} 
+Ticket Owner: {!CaseOwner.FullName} 
+
+Click on the link to access the ticket: {!Case.Link}

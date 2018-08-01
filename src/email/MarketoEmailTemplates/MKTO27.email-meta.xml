@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_IMC_Aug16_ROI-Webinar_Email3</name>
+    <style>none</style>
+    <subject>LAST CHANCE TO REGISTER - Complimentary Live Webinar - August 16: Getting the Budget You Need By Proving Value and Return on Investment</subject>
+    <textOnly>LAST CHANCE TO REGISTER!
+Complimentary Live Webinar
+Getting the Budget You Need By Proving Value and Return on Investment (ROI)
+
+Join representatives from TriTech Software Systems&apos; Imc Solutions, Dell and the Maumelle and Gahanna Police Departments in a complimentary Live Webinar with Guest Speakers:
+
+Lt. Mike Wilson with Maumelle (AR) Police Department
+Lt. Jeff Spence with Gahanna (OH) Division of Police
+Rodney Robles with Dell Rugged Computer Solutions
+John Kitsmiller with TriTech Software Systems
+
+In this upcoming webinar, learn how to get the budget you need for time-saving and efficiency-building technology by proving the value and return on the investment for your agency. 
+
+We will discuss:
+
+*Why ROI and Value Are Important
+*Measuring ROI for RMS, CAD and Mobile
+*Proving ROI and Value to Your Budget Authority
+*Getting the Budget
+*Real Life Lessons Learned
+
+LIVE WEBINAR
+Tuesday, August 16, 2011 @ 11am PT l 2pm ET
+
+REGISTER NOW: http://offers.tritech.com/2011_8_16-Webinar.html
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  -  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

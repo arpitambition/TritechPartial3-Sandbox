@@ -1,0 +1,19 @@
+Please note that the following SalesForce Helpdesk Ticket has been completed:<br> <br> 
+
+<b>Completion Notes:</b> {!SalesForce_Helpdesk__c.Resolution_Notes_to_User__c}<br><br>
+
+---------------------------------------------------------------------------------------<br><br>
+
+{!SalesForce_Helpdesk__c.Link}<br> <br> 
+
+<b>Ticket Number:</b> {!SalesForce_Helpdesk__c.Name}<br> <br> 
+
+<b>Submitted By:</b> {!SalesForce_Helpdesk__c.OwnerFullName}<br>  
+<b>Date Submitted:</b> {!SalesForce_Helpdesk__c.Date_Submitted__c}<br>  
+<b>Date Completed:</b> {!SalesForce_Helpdesk__c.Date_Completed__c}<br> <br> 
+
+<b>Original Request Details:</b> {!SalesForce_Helpdesk__c.Request_Details__c}<br> <br> 
+
+If you have additional questions, please contact the SalesForce Helpdesk at x7911 or via email at SalesForceHelpdesk@tritech.com.
+
+Thanks!

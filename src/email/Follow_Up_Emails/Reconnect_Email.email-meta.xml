@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to reconnect / reengage with lead/prospect</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Newsletter_Banner</letterhead>
+    <name>Reconnect Email</name>
+    <style>freeForm</style>
+    <subject>Reconnect with TriTech</subject>
+    <textOnly>Hi {!Contact.FirstName}, 
+ 
+It has been a while since we last spoke, but I wanted to reconnect and see if any progress has been made on your {XXXX} project. 
+
+We have had a busy couple of months here, highlighted by a few particulars: 
+{Highlight relevant TriTech / customer news}
+
+TriTech is helping agencies of similar size and scope to increase efficiency and improve overall operations.  May I ask if you have moved forward with another industry solution? If another person would be more appropriate for this discussion, please refer me to him or her. 
+
+Thanks, 
+
+{!User.Name} 
+{!User.Title} 
+{!User.CompanyName} 
+{!User.Phone}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

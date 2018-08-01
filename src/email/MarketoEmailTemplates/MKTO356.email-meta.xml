@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q3_2012_NC.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 3rd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Third Quarterly TriTech Customer Newsletter.
+
+In the last issue &lt;http://offers.tritech.com/TriTechNews_Q2_2012_NC_Main.html&gt;, we highlighted a new logo, Vision product updates and the Inform 5.0 release, a new brand name, the TriCON annual conference agenda sneak peak, industry news and webinars, and client go-lives.
+
+In this edition, you will find important updates on products, documentation, technology, monthly customer service webinars, the tritech.com website, and TriCON. I encourage you to take a few minutes to review this information, and I’ll start off with a couple timely and important topics.
+
+VisionCAD 3.7.1 and VisionMOBILE 3.7.1 General Availability Release
+During the month of July, a number of product releases reached General Availability status including VisionCAD 3.7.1 and VisionMOBILE 3.7.1. A &apos;What’s New&apos; PowerPoint presentation is available for both products, highlighting the new functionality being offered. As a summary, included in both releases is media integration and VisionFIRE 5.0 integration.
+
+SQL Server License Model Changes:
+Microsoft recently announced changes to their SQL Server license model, which will take effect with the release of SQL Server 2012. These changes also affect the acquisition of previous SQL versions, which will be considered downgrades. TriTech wants to ensure you are aware of these changes and have the information necessary to choose the model that is best for your environment. SQL Server licensing has changed from a per-processor license to per-core license for Enterprise Edition and either a per-core or a server plus CAL for Standard Edition. When purchasing SQL Server licenses in the future, customers are encouraged to count users/devices and decide if the total licensing costs are lower using the Server / CAL or the Per-Core licensing model.
+
+TriTech is continuously working to ensure our customers have the best solutions at the best value. As SQL Server 2012 will offer expanded virtualization rights, options and benefits to provide greater flexibility for customers deploying in virtual environments, TriTech is currently defining the options available to deploy our solutions in this manner. Additionally as new versions of server and workstation operating systems are introduced, we will update you with our plans to support compatibility with these versions.
+
+For questions regarding the new Microsoft License Model, TriTech recommends contacting your Microsoft Customer Support Representative. Any questions regarding this correspondence please contact your TriTech Account Representative. For additional information regarding SQL Server Licensing Model click here &lt;http://www.microsoft.com/sqlserver/en/us/editions.aspx&gt;. 
+
+
+Additional Resources
+If you have any questions regarding the information in this advisory, please contact TriTech Technical Services at 1-888-VisiCAD, email support@tritech.com &lt;mailto:support@tritech.com&gt;, or visit the client login. &lt;http://cscportal.visionair.com/_layouts/login.aspx?ReturnUrl=/_layouts/Authenticate.aspx?Source=%2f&amp;Source=/&gt;
+
+Thank you for the opportunity to serve as your public safety software business partner.
+
+ Mike Lyons, VP of Operations 
+ TriTech Software Systems 
+
+
+
+
+ 
+ 
+
+
+ 
+From the desk of Product Management: Wendy Gilbert and Jim Jarvis
+Read about new software releases and the benefits included in these latest versions. 
+[READ MORE]
+
+
+ 
+
+Top 10 Reasons to Attend TriCON
+
+Don&apos;t wait any longer! Save money and register by August 15th to take advantage of the early-bird discount. While there may be many more than 10 reasons to attend TriCON, here&apos;s some of the top ones...
+[TOP 10]
+
+
+
+ 
+
+ Monthly Customer Service Webinar Series
+Register now to make sure you’re signed up for the live monthly product educational sessions - ask questions and get your specific questions answered.
+[WEBINAR DATES]
+
+
+See Us at APCO and IACP 
+There is a revolution going on that you will want to be a part of! Stop by and learn more at APCO or IACP. 
+[FIND OUT MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_NC_NewsandEvents.html&gt; 
+
+
+ 
+ Tritech.com - Newly Designed Website – Coming Soon!
+TriTech Software Systems will be unveiling their newly designed website this month . A fresh, crisp design with simplified navigation and TriTech&apos;s complete product offerings, aligned under four new product suites...
+[LEARN MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_NC_NewsandEvents.html&gt;
+
+Upcoming Holiday Closings
+View our holiday schedule.
+[VIEW HERE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_NC_Support.html&gt;
+Main
+
+ &gt; Products
+
+ &gt; Support
+
+ &gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q3_2012_NC_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call Toll Free
+(800) 756-8324
+
+
+
+To Access the Client Login
+
+
+ &lt;http://cscportal.visionair.com/_layouts/login.aspx?ReturnUrl=/_layouts/Authenticate.aspx?Source=%2f&amp;Source=/&gt;
+
+
+
+ACCOUNT MANAGERS
+ 
+
+Angela Shepherd
+(910) 602-4064
+angela.shepherd@tritech.com
+
+Christine Turner
+(858) 799-7468
+ chris.turner@tritech.com 
+
+Jane Soderberg
+(303) 252-1573
+jane.soderberg@tritech.com 
+
+Tommy Blackwell
+(858) 799-7467
+ thomas.blackwell@tritech.com
+
+
+
+
+ 
+
+ &lt;http://www.tritech.com/News-and-Events/TriCON-2012-TriTech-Annual-User-Conference&gt;  &lt;http://www.tritech.com/tricon&gt;**Early bird registration has been extended to August 15th. Register Today! &lt;http://www.tritech.com/tricon&gt;
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

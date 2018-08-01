@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>J-One Availability.J-ONE Contacts</name>
+    <style>none</style>
+    <subject>J-ONE Information</subject>
+    <textOnly>J-ONE Contact Information
+Updated  5/2/13
+Hello {{lead.First Name:default=Valued Customer},
+
+TriTech is pleased to announce Version 6.1.12 of the Perform software now has J-ONE functionality available to all New Hampshire departments.
+
+ If you would like to participate in the J-ONE Program, contact:
+Keith Lohmann, J-ONE Program Manager
+Phone:  (603) 223-3889
+Email: keith.lohmann@dos.nh.gov &lt;mailto:keith.lohmann@dos.nh.gov&gt;.
+
+If you need information on obtaining printers for eCitation, contact:
+New Hampshire Highway Safety Agency
+Phone:  (603) 271-2131
+Email:  hwysafety@nhhsa.state.nh.us  &lt;mailto:hwysafety@nhhsa.state.nh.us&gt;
+
+To download the latest version of the Perform software please login to your Customer Service Center (portal) at www.tritech.com. For software updates questions, you may contact:
+TriTech Technical Support
+Phone:  (800) 987-0911, select Option #4
+Email:  performsupport@tritech.com &lt;mailto:performsupport@tritech.com&gt;
+
+We apologize for any inconvenience caused by our previous communications. 
+
+ 
+
+David Bourbonniere
+Project Management &amp; Training Supervisor
+TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

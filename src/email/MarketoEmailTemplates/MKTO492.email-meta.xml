@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013_PTI_Plans.Email</name>
+    <style>none</style>
+    <subject>Customer Announcement - Perform Software Training Options in 2013</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Customer Annoucement
+Perform (formerly IMC) Software Training Options in 2013
+In 2012, the “Perform Training Institute” (PTI) was created in response to your requests for a variety of training offerings. We kicked off this initiative in October with our first ever Training Summit. We were excited to have 180 attendees from over 90 different agencies join us for an action-packed two days of training and networking. We will be planning another Training Summit in the Fall of 2013, so please be sure to plan accordingly.  
+
+In 2013, our goal is to increase customer knowledge of the Perform (formerly IMC) Software by offering a wide variety of training courses at an affordable price.  In addition to courses held at our Marlborough, MA office, we will be taking our PTI events on the road. Throughout the year, we will be offering training sessions in different geographic areas to better serve our customers. For many of you, a trip to our Massachusetts office requires a significant investment in time, which in turn costs your department money. Our goal is to bring our training classes to a location near you so your department members can attend training without the need to stay in a hotel or fill extra overtime shifts.
+
+In addition to our pre-scheduled courses, we offer customized training courses, specific to your 
+department. If you have one or several topics that your department personnel need assistance in, we will prepare a training session for your department personnel.  We offer the training classes in several different models. The most popular method is hands-on training at our Marlborough, MA office for up to 12 students. Additionally, we can train in the comfort of your own station, on your computers, with your data.  
+
+To better accommodate customer requests for on-site training, we have built a portable classroom. Many departments have plenty of computers for their day-to-day 
+operations, but don’t have enough spare computers to bring in a conference room for training purposes. To address these hardware limitations, our portable classroom is available for rental as part of your training class for up to 10 students. Hands-on training is an invaluable tool to reinforce the materials being presented.
+
+A final option is our web-based training model. Web-based training sessions are hosted by a live instructor who presents the course material from their workstation via the internet. Class participants join our meeting from the comfort of their own office, connect to a conference call, and view the instructor&apos;s presentation on their computer screen.
+
+We are also excited to offer a new “software assessment” service from our training 
+division. We routinely speak with clients who are not aware of all the software features that are available to them. With this new assessment service, a TriTech Specialist will visit with your agency for a day. During this time, they will review the modules that you have purchased, and based on their observations, will offer recommendations to improve your Perform software efficiency and effectiveness. Upon completion of the visit, a “site report” will be generated and provided to you as well as your Client Account Manager. This report will include a summary of the items that were discussed, a summary of the recommendations, and recommendations for additional training and/or software modules.
+
+Please feel free to contact me with any training needs that your department has and I will create a solution 
+that will work for you!
+
+David Bourbonniere
+Project Management &amp; Training Supervisor
+Direct: (774) 551-9181 | David.Bourbonniere@TriTech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

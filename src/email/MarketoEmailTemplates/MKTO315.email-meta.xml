@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Best Practices for EMS Billing - June 28.Reminder-1day</name>
+    <style>none</style>
+    <subject>Webinar Reminder: Best Practices for EMS Billing - Tomorrow</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+REMINDER: The Webinar You Registered for is Tomorrow
+
+Best Practices for EMS Billing
+
+{{lead.First Name:default=EMS Professional}} - this is your reminder for tomorrow&apos;s webinar.
+
+
+Larry and Kathy look forward to discussing EMS Billing Best Practices with you, including:
+
+
+	- Daily tips for improving your EMS billing processes
+	- Catching and catching potential &apos;red flags&apos; - from call intake and field documentation to invoice production and reimbursement to billing and collections
+	- Maximizing your billing and collections
+	- Actual examples from EMS services and lessons learned
+
+
+ 
+See you online tomorrow!
+
+Questions? 
+Cheri Lane, Marketing Communication Manager
+
+800-537-3927, ext. #6278
+cheri.lane@tritech.com &lt;mailto:cheri.lane@tritech.com&gt;
+WEBINAR DETAILS
+JOIN LINK: {{member.webinar url:default=URL}}
+DATE: Thursday, June 28, 2012
+
+
+
+TIME: 2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+
+
+
+SPEAKERS: Larry Cole, TriTech Regional Sales Manager and Kathy Ransom, TriTech EMS Industry Education Coordinator, C.A.C.
+
+
+
+AUDIO: Listen through your computer speakers or dial in over the telephone to the number shown on your screen after login
+
+
+Trouble logging in? Call 800-263-6317 to reach the GoToWebinar Support Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

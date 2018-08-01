@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_July19_Inhouse-vs-Outsource_Webinar_FollowupEmail</name>
+    <style>none</style>
+    <subject>CEU CERTIFICATE, RECORDING LINK AND HANDOUTS:  EMS Billing: In-house vs. Outsource</subject>
+    <textOnly>Thank you for your interest in our webinar!
+
+EMS Billing: In-House vs. Outsource 
+What do I need to consider?
+
+
+Thank you for your interest in our complimentary webinar. The live Session was recorded on July 19, 2011.   
+
+Please copy and paste this link to access the following: http://www.surveymonkey.com/s/July19Webinar
+
+-Webinar Recording Link
+-NAAC CEU Certificate Link
+-Handout link
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

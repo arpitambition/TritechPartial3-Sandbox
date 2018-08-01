@@ -1,0 +1,74 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Generic Template - Left Sidebar</title>
+
+<style type="text/css" media="screen">
+body { background-color: #eeeeee; }
+a img { border: none; }
+table.bg1 { background-color: #eeeeee; }
+table.bg2 { background-color: #ffffff; }
+td.permission { background-color: #eeeeee; padding: 10px 20px 10px 20px; }
+td.permission p { font-family: Arial; font-size: 11px; font-weight: normal; color: #333333; margin: 0; padding: 0; }
+td.permission p a { font-family: Arial; font-size: 11px; font-weight: normal; color: #333333; }
+td.body { padding: 0 20px 20px 20px; background-color: #ffffff; }
+td.sidebar h3 { font-family: Arial; font-size: 15px; font-weight: bold; color: #333333; margin: 0; padding: 0; }
+td.sidebar ul { font-family: Arial; font-size: 13px; font-weight: normal; color: #333333; margin: 6px 0 14px 24px; padding: 0; }
+td.sidebar ul li a { font-family: Arial; font-size: 13px; font-weight: normal; color: #680606; }
+td.sidebar h4 { font-family: Arial; font-size: 13px; font-weight: bold; color: #680606; margin: 6px 0 0 0; padding: 0; }
+td.sidebar h4 a { font-family: Arial; font-size: 13px; font-weight: bold; color: #680606; text-decoration: none; }
+td.sidebar p { font-family: Arial; font-size: 12px; font-weight: normal; color: #333333; margin: 0 0 10px 0; padding: 0; }
+td.sidebar p a { font-family: Arial; font-size: 12px; font-weight: normal; color: #680606; text-decoration: none; }
+td.buttons { padding: 20px 0 0 0; }
+td.mainbar h2 { font-family: Arial; font-size: 16px; font-weight: bold; color: #680606; margin: 0; padding: 0; }
+td.mainbar h2 a { font-family: Arial; font-size: 16px; font-weight: bold; color: #680606; text-decoration: none; margin: 0; padding: 0; }
+td.mainbar img.hr { margin: 0; padding: 0 0 10px 0; }
+td.mainbar p { font-family: Arial; font-size: 13px; font-weight: normal; color: #333333; margin: 0 0 14px 0; padding: 0; }
+td.mainbar p a { font-family: Arial; font-size: 13px; font-weight: normal; color: #680606; }
+td.mainbar p.more a { font-family: Arial; font-size: 13px; font-weight: normal; color: #680606; text-decoration: none; }
+td.mainbar ul { font-family: Arial; font-size: 13px; font-weight: normal; color: #333333; margin: 0 0 14px 24px; padding: 0; }
+td.mainbar ul li a { font-family: Arial; font-size: 13px; font-weight: normal; color: #680606; }
+td.footer { padding: 0 20px 0 20px; background-image: url('footer-bg.gif'); background-repeat: no-repeat; background-position: top center; background-color: #d1d3d4; height: 66px; vertical-align: middle; }
+td.footer p { font-family: Arial; font-size: 11px; font-weight: normal; color: #FFFFFF; line-height: 16px; margin: 0; padding: 5px; }
+</style>
+</head>
+<body ><TABLE class=bg1 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD align=middle>
+<TABLE class=bg2 border=0 cellSpacing=0 cellPadding=0 width=600>
+<TBODY>
+<TR>
+<TD class=permission align=left>
+<P>You're receiving this newsletter because of your relationship with TriTech Software Systems.</P></TD></TR>
+<TR>
+<TD class=header align=left><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/TechAdvisory_Banner_600x150.jpg"><BR></TD></TR>
+<TR>
+<TD class=body vAlign=top>
+<TABLE style="WIDTH: 100%" border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=sidebar vAlign=top width=600 align=left><BR>
+<H3><SPAN style="COLOR: #888888; FONT-SIZE: 18px">POSTED 01.25.12&nbsp;</SPAN> <SPAN style="COLOR: #00adef"><BR></SPAN><BR><BR><SPAN style="FONT-SIZE: 14px"><STRONG><SPAN style="COLOR: #0071bc">PA12-001 - Approval of Windows 7 SP1</SPAN></STRONG></SPAN><SPAN style="FONT-FAMILY: arial, helvetica, 
+sans-serif; FONT-SIZE: 14px"><SPAN style="COLOR: black"><SPAN style="COLOR: black">&nbsp;</SPAN></SPAN></SPAN></H3>
+<DIV><SPAN style="FONT-SIZE: 14px"><SPAN style="FONT-SIZE: 12px">&nbsp;</SPAN></SPAN></DIV>
+<DIV>
+<P><SPAN style="FONT-SIZE: 14px"><SPAN style="FONT-SIZE: 12px">Dear Clients,</SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 14px"><SPAN style="FONT-SIZE: 12px">The&nbsp;<A href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=815"><SPAN style="COLOR: #0071bc"><U>Product Announcement - PA12-001 -&nbsp;Approval of Windows 7 
+SP1</U></SPAN></A>&nbsp;<SPAN style="COLOR: black">has been posted to the MyVisiNet support site.&nbsp; </SPAN></SPAN></SPAN></P>
+<P><SPAN style="FONT-SIZE: 12px">You may access this Announcement via the MyVisiNet Support site under Documentation |&nbsp;Product Announcements&nbsp;|&nbsp;2012 or by clicking on the <A href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=815"><SPAN 
+style="COLOR: #0071bc"><U>link</U></SPAN></A> included in this email.</SPAN></P>&nbsp;</DIV>
+<P><SPAN style="FONT-FAMILY: arial, helvetica, sans-serif; FONT-SIZE: 11px">&nbsp;</SPAN></P>
+<P><SPAN style="FONT-SIZE: 11px">Sincerely,&nbsp;</SPAN></P>
+<P><SPAN style="FONT-SIZE: 11px"><SPAN style="COLOR: #333333">Tony Vardiman<BR>Technical Services Frontline Supervisor | VisiNet Solutions<BR>TriTech Software Systems | <A href="http://www.tritech.com"><SPAN style="COLOR: #0071bc; FONT-SIZE: 11px"><U>www.tritech.com</U></SPAN></A><BR>Direct: 
+858.799.7441 | Mobile: 619.816.7100<BR>Fax: 858.799.7010 | Support: 800.847.4223</SPAN></SPAN><BR><SPAN style="COLOR: #333333; FONT-SIZE: 11px">Support Website:</SPAN>&nbsp;<A href="https://myvisinet.tritech.com"><SPAN style="COLOR: #0071bc; FONT-SIZE: 
+11px"><U>myvisinet.tritech.com</U></SPAN></A>&nbsp;<BR><A href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=815"><SPAN style="COLOR: #0071bc; FONT-SIZE: 11px"><U>Read Full Article</U></SPAN></A> | <A 
+href="mailto:support@tritech.com?subject=VisiNet%20Solutions%20Tech%20Tips%20-%20Feedback"><SPAN style="COLOR: #0071bc; FONT-SIZE: 11px"><U>Email Feedback</U></SPAN></A></P></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=footer height=61 vAlign=center align=left>
+<DIV style="FONT-SIZE: 10px"><BR><BR>Share this message with your colleagues or visit us at <A href="http://www.tritech.com/default.aspx" target=_blank>www.tritech.com</A><BR><IMG style="VERTICAL-ALIGN: bottom" dir=ltr title="TriTech logo" alt="TriTech logo" align=right 
+src="http://offers.tritech.com/rs/ortivusna/images/logo_TriTech_150px.gif" width=150 height=60><BR><A href="http://www.facebook.com/pages/TriTech-Software-Systems/89416081839" target=_blank><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg"></A> <A 
+href="http://twitter.com/tritechsoftware" target=_blank><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg"></A> <A href="http://www.linkedin.com/companies/tritech-software-systems" target=_blank><IMG alt="" 
+src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg"></A> <A href="http://www.youtube.com/user/TriTechSoftware" target=_blank><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo_sm.jpg"></A><BR>This email was sent by TriTech Software Systems<BR>9860 Mesa Rim 
+Road | San Diego | CA | 92121<BR><BR><BR></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+</body>
+</html>

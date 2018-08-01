@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-PA030_September18-19_2012.Confirmation</name>
+    <style>none</style>
+    <subject>REGISTRATION CONFIRMATION: Billing Software Group Training in Indiana, PA on September 18-19, 2012</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Registeration Confirmation
+Thank you for registering for Billing Software Group Training in Indiana, PA on September 18-19, 2012.
+Hello {{lead.First Name:default=Billing Customer}},
+ 
+ This is your confirmation email. A reminder will be sent later as the date gets closer.
+ 
+ If you selected credit card payment, a TriTech representative will contact you for your payment information.
+ 
+ If you have questions or if there is anything we can help with to make this a better experience for you, please contact us at:
+ 
+ Kim Walk, AmbCoach
+kwalk@ambcoach.com  |  888-463-3488
+
+Tyler Harman, TriTech Software Systems
+tyler.harman@tritech.com  |  800-537-3927 ext 6290
+
+
+DATE: September 18-19, 2012 (2 full days of training)
+
+HOSTS: AmbCoach, Inc. (Indiana, PA)
+Classroom Style (you are welcome to bring a laptop to follow along if you&apos;d like)
+
+TRAINING LOCATION: 
+ &lt;https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=501+North+Wenatchee+Ave.+Wenatchee+WA+98801&amp;ie=UTF-8&amp;hq=&amp;hnear=0x549bcc974f3cbfad:0x7bc5d0509cada363,501+N+Wenatchee+Ave,+Wenatchee,+WA+98801&amp;gl=us&amp;ei=wcnQT5KWF-Hb0QHvqOTCDQ&amp;oi=geocode_result&amp;ved=0CAoQ8gEwAA&gt;Rustic Lodge, 2199 Oakland Avenue, Indiana, PA 15701 &lt;http://maps.google.com/maps?oe=utf-8&amp;rls=org.mozilla:en-US:official&amp;client=firefox-a&amp;um=1&amp;ie=UTF-8&amp;q=Rustic+Lodge,+2199+Oakland+Avenue,+Indiana,+PA+15701&amp;fb=1&amp;gl=us&amp;hq=Rustic+Lodge,+2199+Oakland+Avenue,+Indiana,+PA+15701&amp;cid=0,0,14345032003045000306&amp;sa=X&amp;ei=T5D8T7L6O4fxqQHywfWLCQ&amp;ved=0CIABEPwSMAA&amp;oi=local_group&amp;ct=image&gt;
+
+SAMPLE AGENDA: Click here to download &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt;
+
+
+RECOMMENDED HOTEL:  
+Holiday Inn Indiana
+1395 Wayne Ave., Indiana, PA 15701
+Website: http://www.holidayinn.com/hotels/us/en/indiana/idipa/hoteldetail &lt;http://www.holidayinn.com/hotels/us/en/indiana/idipa/hoteldetail&gt;
+Telephone:  724-463-3561
+Rate: $99.00
+(Ask for the “TriTech” room block)
+
+
+
+ **Tritech retains the right to cancel this event 30 days prior if registrations are below the minimum required.**</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

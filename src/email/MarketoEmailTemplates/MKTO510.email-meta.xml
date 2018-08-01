@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013SGTs.2013-Training-Options-1stEmail</name>
+    <style>none</style>
+    <subject>TriTech Billing Software Training Options in 2013</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Billing Software Training Options in 2013
+TriTech is excited to announce this year&apos;s
+2013 EMS Billing User Group Trainings!
+In 2012, TriTech offered five regional trainings that helped our EMS billing software users gain greater efficiencies to help maximize revenue. TriTech&apos;s two-day Group Trainings are hosted at customer locations which bring together multiple EMS services and allow billing software users the opportunity to share insights and workflow tips as they learn from an experienced TriTech trainer about the practical use of the billing program.
+
+2012 Pennsylvania User Group Attendee:
+ &quot;Having been a user of the software since 1995, I was reluctant to attend the user group - what could I possibly learn? However after attending, I wish it is something that both myself and others in our office had done 
+years ago! I am encouraging others in our office to attend the next one in our area. So many questions were answered and new ideas introduced to improve workflow in our office.&quot;   Brad Marzolf, Bangs Ambulance Service, New York
+ 
+ Reserve your seat now &lt;http://offers.tritech.com/2013SGTRegistration.html&gt; for 
+one of our 2013 User Group Trainings.
+ March 5-6:  El Dorado, KS
+ April 16-17:  Madison, WI
+ June 25-26:  Evergreen, CO
+ September 4-5: West Columbia, TX
+ 
+November 6-7: Shelton, CT
+
+ &lt;http://offers.tritech.com/2013SGTRegistration.html&gt;
+
+Other training options that you might consider include:
+ 
+ Billing Checkups (1 hour): The Billing Checkup Program can provide the peace of mind of knowing you are not missing out on potential revenue. Schedules are the life blood of the billing process and your revenue stream CANNOT afford a misconfigured schedule. These checkups have uncovered thousands of AR dollars for EMS services who recommend the program as a part of an overall best-practices system.
+ 
+ Beginner Billing Boot Camp (3 hours): Designed to help a new biller learn the very basics of the program, this training 
+reviews important information for beginners to understand, including logging in, maneuvering through the program, critical codes vs. basic codes, call and patient data entry, entering credits, the Help system, hot keys, how to expedite your call when contacting TriTech support, and more.
+ 
+ Onsite Education: These trainings are available to anyone in need of training and education catered to their 
+specific service or staff. Perhaps you just purchased Billing or ePCR or have had a change in staff - onsite training provides extremely effective education since the trainer is available to answer very specific questions relating to your operations and processes.
+ 
+ Monthly Complimentary Customer Service 
+Webinars: (30 minutes each month): Current support contract customers are invited to join our live monthly webinars for quick tips and tricks to keep your software skills and industry knowledge up-to-date. Register for our monthly Coffee with Kelly webinars and attend live or view the recording afterward for Billing &lt;http://offers.tritech.com/CwK-Billing_Registration.html&gt; 
+and ePCR. &lt;http://offers.tritech.com/CwK-ePCR_Registration.html&gt;
+ 
+ Please contact your Account Manager or sales@tritech.com &lt;mailto:sales@tritech.com&gt; with any training needs that your service has and we will work 
+together to find the best option to fit your needs.
+
+ Karla Hageman, National EMS Sales Director
+ TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

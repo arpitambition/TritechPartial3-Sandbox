@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_CustomerGolfTournament.Invite</name>
+    <style>none</style>
+    <subject>Register for the TriTech Charity Golf Tourney</subject>
+    <textOnly>Register Deadline September 23!
+2012 TriTech Charity Golf Tournament
+
+
+Dear {{lead.First Name:default=Customer}}, 
+
+We hope that you can join us for a fabulous day of golf, refreshments, contests and prizes. Space is limited - reserve your spot by clicking on the &quot;Register Now&quot; button below to start the registration process. All proceeds will benefit two outstanding organizations: 
+Leary Foundation: &lt;http://www.learyfirefighters.org&gt;
+C.O.P.S. &lt;http://www.nationalcops.org&gt;
+
+WHEN:      Tuesday, October 9, 2012
+
+WHERE:     Highfields Golf &amp; Country Club
+42 Magill Drive (off Route 122)
+Grafton, Massachusetts (Map Link)
+
+TIME:      
+11:00 AM  -  Registration Begins
+ Noon      -  Shotgun Start
+ 5:00 PM   -  Dinner
+
+FORMAT:    Scramble
+
+COST:      $100.00 per person
+
+INCLUDES:  Greens Fees, Cart, Contests, Prizes &amp; Dinner
+
+DRESS CODE: Soft spikes required, collared shirts preferred; No blue jeans, tank tops, tee shirts or cut-offs at any time
+
+PAYMENT:   Check Payable to &quot;TriTech Software Systems&quot; and mail to: 
+ TriTech Software Systems 
+ Attn: David Bell
+ 13 Centennial Dr.
+ North Grafton, MA 01536
+
+QUESTIONS?  Please Contact:
+ David Bell
+ PH: (774) 239-3722
+ Email: David.Bell@TriTech.com
+
+REGISTER:   http://offers.tritech.com/2012_CustomerGolfTournament_Registration.html
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Web-based EMS Software_0313.Reminder 1 Week</name>
+    <style>none</style>
+    <subject>Webinar Next Week: Is Web-Based EMS Software the Way of the Future?</subject>
+    <textOnly>TriTech Reminder: Complimentary Live Webinar In One Week
+Is Web-Based EMS Software the Way of the Future?
+
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+
+This is reminder for the upcoming, complimentary live webinar &quot;Is Web-Based EMS Software the Way of the Future?&quot; We look forward to having you attend, don&apos;t forget to bring your questions for TriTech Senior Product Manager, Charlie Barry and AmbCoach, Inc. President, Kimberly Walk as they provide both the business and user perspectives of the web-based trend in EMS Software.
+ 
+Tuesday, March 13, 2012
+2:00PM ET l 1:00PM CT l Noon MT l 11:00AM PT
+
+LOGIN DETAILS
+JOIN LINK: http://tritech.ilinc.com/join/cjfsxxm
+AUDIO: Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+
+Questions?
+
+Cheri Lane
+Marketing Communications Manager
+cheri.lane@tritech.com 
+
+Trouble logging in?
+Call 800.799.4510 to reach the iLinc support team for help
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

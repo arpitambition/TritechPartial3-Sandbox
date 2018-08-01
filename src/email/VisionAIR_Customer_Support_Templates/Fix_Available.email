@@ -1,0 +1,16 @@
+Dear {!Contact.Title} {!Contact.Name},
+<br/><br/>
+We are pleased to inform you that we have a fix available in our most current release for the issue described below.  Please contact TriTech Customer Service at 1-800-987-0911, referencing your ticket number, to schedule the delivery of this fix.
+<br/><br/>
+AGENCY: {!Account.Name}<br/>
+CUSTOMER: {!Contact.Name}<br/>
+PRODUCT: {!Case.Product} {!Case.Reported_Major_Version_WMP__c}<br/>
+ISSUE SUMMARY: {!Case.Subject}
+<br/><br/>
+We value you as a customer and we appreciate the work you do in serving the public safety needs of your community. We hope to hear from you shortly to schedule the delivery of this fix. 
+<br/><br/>
+ Sincere Regards,
+<br/>
+Management<br/>
+TriTech Customer Service<br/>
+800-987-0911 Option 2

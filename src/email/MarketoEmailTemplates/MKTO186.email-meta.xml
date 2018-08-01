@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Consolidation-NCDJPA_0329.Invitation</name>
+    <style>none</style>
+    <subject>Webinar:  Consolidation - Breaking Technological and Political Barriers to Build Regional Partnerships</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot; target=&quot;_blank&quot;&gt;   &lt;img src=&quot;http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg&quot; alt=&quot;&quot; height=&quot;16&quot; width=&quot;23&gt;
+Consolidation: Breaking Technological and Political Barriers to Build Regional Partnerships
+Register for a Complimentary Live Webinar on March 29
+
+ &lt;http://offers.tritech.com/ConsolidationWebinar_0329.html&quot; target=&quot;_blank&gt;
+Hello {{lead.First Name:default=Public Safety Professional}},
+
+In increasing numbers, public safety agencies nationwide have looked to consolidation or shared service arrangements in an ongoing effort maintain sustainable operations and improve the delivery of services. Consolidation can take shape in many forms – from full consolidation, to co-location and/or regional partnerships.
+
+Join us in an enlightening webinar with Charlie Knust, ENP, Communications Manager for North County Dispatch JPA, as he shares how they have partnered with Heartland Fire Communications to achieve their mutually beneficial goals of:
+
+
+ - Operating on leading technology
+ - Developing a thorough disaster recovery plan
+ - Achieving CAD interoperability.
+
+
+
+Register Link:  http://offers.tritech.com/ConsolidationWebinar_0329.html &lt;http://offers.tritech.com/ConsolidationNCDJPA_0329_WebinarRegistration.html&quot;&gt;&lt;a href=&quot;http://offers.tritech.com/ConsolidationWebinar_0329.html&gt;
+Webinar Details
+
+Date:  Thursday, March 29
+
+Time: 10 AM PST  / 12 NOON Central / 1 PM EST
+
+Speaker:  Charlie Knust, ENP, Communications Manager for North County Dispatch JPA
+
+ &lt;http://offers.tritech.com/ConsolidationWebinar_0329.html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

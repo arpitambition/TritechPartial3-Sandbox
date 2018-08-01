@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AIR_TX_Dallas_0612.Invitation (Inform5)</name>
+    <style>none</style>
+    <subject>Seminar: Data Sharing, Crime Analysis and Integrated Justice</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Technology Seminar:  Data Sharing and Integrated Justice
+
+
+
+Hello {{lead.First Name:default=Public Safety Professional}},
+ 
+
+
+We hope that you will join us and fellow leaders in Public Safety where we will discuss solutions for Data Sharing and Integrated Justice. 
+
+Hosted by Microsoft and TriTech Software Systems, you will hear from industry experts on how to easily achieve goals of data sharing and building an integrated justice system through:
+
+
+ - Sharing crime data with other departments and neighboring agencies
+ - Near real-time Google-like investigative search capabilities and alert notifications
+ - Dashboards and reporting tools for real-time performance indicators and trending statistics
+ - Near-sourcing IT infrastructure needs
+ - Improving connectivity with your wireless solution
+ - RMS Analytics and mobile applications
+ - Business continuity and high availability
+ - Flexible, cost-effective financing solutions
+
+
+
+Register here:  http://offers.tritech.com/AIR_TX_Dallas_0612_Registration.html &lt;http://offers.tritech.com/AIR_IL_0512_Registration.html&gt;
+
+ 
+
+ 
+
+Questions?
+ Michelle McClellan
+ TriTech Software Systems
+ (858) 799-7900
+ info@tritech.com
+EVENT DETAILS
+Don&apos;t want to miss this informative technology seminar? See details below and register today.
+Dates and Locations:
+
+Wednesday, June 13
+Microsoft Facility - Las Colinas
+
+7000 N. State Hwy 161
+
+Irving, TX  75039
+
+Thursday, June 14
+
+Microsoft Facility - Houston
+
+2000 West Sam Houston Pkwy S., Suite 350
+
+Houston, TX  77042
+
+Time:
+
+10:00 AM to 3:00 PM
+
+Bonus:
+
+Door Prizes, Refreshments and Lunch will be provided.
+
+ &lt;http://offers.tritech.com/AIR_TX_Dallas_0612_Registration.html&gt;
+ 
+
+Also Participating:
+  
+ 
+
+ 
+
+
+
+ 
+ 
+
+
+If you would like to send this to a colleague, please click here. &lt;mailto:Enter%20Email%20Address?body=Join%20me%20at%20the%20Future%20of%20Public%20Safety%20Tech%20Seminar%20http://offers.tritech.com/AIR_TX_Dallas_0612_Registration.html&gt;
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

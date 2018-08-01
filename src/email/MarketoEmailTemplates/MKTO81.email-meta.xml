@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Illinois APCO 2011.Invite</name>
+    <style>none</style>
+    <subject>Illinois Public Safety Telecommunications Association- See You At the TriTech Booth #102!</subject>
+    <textOnly>See You There  l  October 16 - 18  l  Springfield, IL
+Illinois Public Safety Telecommunications Association
+
+Stop by and see us next week at the Illinois Public Safety Telecommunications Association Conference (IPSTA) in Springfield, Illinois.  Visit TriTech Booth #102 to learn more about how our CAD and Mobile solutions are helping our clients reshape the way they manage information.
+
+
+Enter to Win a Public Safety Monopoly Game at the TriTech Booth.  
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

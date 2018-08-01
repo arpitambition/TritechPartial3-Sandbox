@@ -1,0 +1,7 @@
+Thank you for contacting IMC Technical Support. Please be advised that your issue has been identified as a defect in the IMC software.
+
+Ticket Number: {!Case.CaseNumber}
+The description of the defect is as follows:
+{!Case.Description}
+
+The fix for this issue is scheduled to be included in future IMC software version {!Case.Planned_Release__c}. Once the new version has been released, it will be available for download from the Customer Service Center portal. If after downloading and installing this version, the problem still exists, please contact Customer Support at 800-987-0911, Option 4.

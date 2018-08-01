@@ -1,0 +1,13 @@
+<apex:page showHeader="false">
+
+<script>
+
+function fncLoad(){
+	
+	window.parent.location.href = '/apex/TritechHome';
+}
+
+window.onload = fncLoad;
+
+</script>
+</apex:page>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_CC_Jan12.Email_Jan12</name>
+    <style>none</style>
+    <subject>VisiNet CAM Connection - January Newsletter</subject>
+    <textOnly>          January 2012 Edition
+ Welcome to our monthly edition of TriTech Software Systems: CAM Connection for VisiNet Solutions. CAM stands for “Client Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our VisiNet Solutions group.  Feel free to let us know if you have suggestions on topics you would like to hear about.
+ 
+           Product Highlights
+
+ VisiNet Mobile:  &quot;The New Mobile is just like the iPhone&quot; by Bexar County Sheriff&apos;s Office
+The Administrators at Bexar County took ownership of the VisiNet Mobile project and customized it for a solution that was easy to learn and use by their personnel.   Bexar County Mobile Administrators customized their Mobile buttons with transparent graphical icons and symbology. Similar to today’s smartphones, the iconography changes provide an intuitive application for a smoother look and feel to facilitate quicker processing and action by deputies. By building a mobile solution that was intuitive and easy to use, training and user adoption was easy and seamless.    Click here to read more&gt;&gt;
+ 
+     Service Update
+ 
+     SalesForce Customer Portal
+  As we continue to evolve our support operations, we are committed to listening to your feedback as a way to improve the level of service that we provide. Based on your feedback, it became clear to us that our online customer portal did not meet your ongoing support needs. Additionally, due to TriTech’s recent growth, it became necessary to adopt a system that would allow us to support each Business Unit across a standardized platform. As a result, we decided to implement a new customer relationship management tool called SalesForce.  Click here to read more about TriTech&apos;s SalesForce Customer Portal&gt;&gt;   
+    Grab and Go with Greg:  SalesForce Edition
+ The next Grab and Go with Greg session will be on Monday, January 9. TriTech’s SalesForce administrator Jen Vansant will be our special guest.  Jen will provide an overview live demonstration of the new SalesForce Customer Portal and answer any of your SalesForce questions.  Click here to view recordings and register&gt;&gt; 
+    Tech Tip – Premise Reports   Click here to read directions on how to use Premise Reports to see detail listing of premises and also to clean up your premise data&gt;&gt;  
+ 
+  
+ TriCON News
+ 
+ TriCON Housing Open
+ We are pleased to announce that housing for TriCON 2012 is now open.  A block of rooms have been reserved for TriCON attendees at a special room rate of $199 per night.   Click here to book your room and learn more about the TriCON 2012 conference hotel&gt;&gt; 
+   
+ Customer Feature
+ 
+ St. John&apos;s Ambulance:  Managing Emergency Response During New Zealand&apos;s Devastating 7.1 Earthquake
+ A devastating earthquake in September 2010 followed by a severe aftershock in February 2011 caused widespread damage in the city of Christchurch, New Zealand’s second largest city. The St. John Ambulance service, a long time TriTech client, is the country’s emergency services provider and had sixteen ambulances operating within half an hour after the earthquake and received almost 700 calls within the first six hours. Recorded from TriCON 2011, the presentation will share how the St. John Ambulance Service ensured the continuity of operations to effectively manage emergency response Click here to watch the presentation from TriCON 2011&gt;&gt;  
+                
+ &gt; Main Page 
+ 
+ &gt; Product Highlights
+
+ &gt; Service Update
+
+ &gt; TriCON News
+
+ &gt; Customer Feature
+
+ &gt; www.tritech.com
+
+ 
+ CAM CONTACTS
+Ken Schulte
+ (858) 799-7316
+ ken.schulte@tritech.com
+ 
+ Sally Olson-Nelson
+ (858) 799-7358
+ sally.olson-nelson@tritech.com
+ 
+ 
+   
+ 
+ 
+ 
+ 
+   
+ 
+ 
+  
+ 
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,456 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Pricing/Proposal Request Form</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Pricing/Proposal Request Forms</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned CSL: --></label>
+        <name>Assigned_CSL__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms (Assigned CSL:) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned Pricing Manager: --></label>
+        <name>Assigned_Pricing_Manager__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms (Assigned Pricing Manager:) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assigned Proposal Manager: --></label>
+        <name>Assigned_Proposal_Manager__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms (Assigned Proposal Manager:) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Date Completed --></label>
+        <name>Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Request --></label>
+        <name>Date_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- # Days from Created to Complete --></label>
+        <name>Days_from_Created_to_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- How is request submitted? --></label>
+        <name>How_is_request_submitted__c</name>
+        <picklistValues>
+            <masterLabel>Previously Requested by Email</masterLabel>
+            <translation><!-- Previously Requested by Email --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Previously Requested by Phone</masterLabel>
+            <translation><!-- Previously Requested by Phone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing Request Form - New</masterLabel>
+            <translation><!-- Pricing Request Form - New --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- For all large quotes, please check this box. --></help>
+        <label><!-- Large Quote (Projected Value &gt;$250K) --></label>
+        <name>Large_Quote_Projected_Value_250K__c</name>
+    </fields>
+    <fields>
+        <label><!-- Migrating From: --></label>
+        <name>Migrating_From__c</name>
+        <picklistValues>
+            <masterLabel>Tiburon to Inform</masterLabel>
+            <translation><!-- Tiburon to Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vision to Inform</masterLabel>
+            <translation><!-- Vision to Inform --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Needed by Date --></label>
+        <name>Needed_by_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Existing Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Please include # of licenses and # of people to be trained, if applicable. --></help>
+        <label><!-- Other Details/Special Instructions --></label>
+        <name>Other_Details_Special_Instructions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proactive Proposal Materials Required? --></label>
+        <name>Proactive_Proposal_Materials_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Procurement Activity --></label>
+        <name>Procurement_Activity_del__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family__c</name>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon</masterLabel>
+            <translation><!-- Tiburon --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product Migration? --></label>
+        <name>Product_Migration__c</name>
+    </fields>
+    <fields>
+        <help><!-- To be checked after the pricing request is completed and a quote is created. --></help>
+        <label><!-- QUOTE COMPLETE --></label>
+        <name>QUOTE_COMPLETE__c</name>
+    </fields>
+    <fields>
+        <help><!-- The Quick Summary should be used for very basic quotes that can be described in 100 characters or less. i.e. &quot;1 mobile license&quot; --></help>
+        <label><!-- Quick Summary-Basic Quote --></label>
+        <name>Quick_Summary_Basic_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Completed By --></label>
+        <name>Quote_Completed_By__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Type --></label>
+        <name>Quote_Type__c</name>
+        <picklistValues>
+            <masterLabel>Budgetary Estimate</masterLabel>
+            <translation><!-- Budgetary Estimate --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GSA Quote</masterLabel>
+            <translation><!-- GSA Quote --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP - BAFO</masterLabel>
+            <translation><!-- RFP - BAFO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard Price Quote</masterLabel>
+            <translation><!-- Standard Price Quote --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rapid Implementation? --></label>
+        <name>Rapid_Implementation__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Rejection Reason --></label>
+        <name>Rejection_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Request Status --></label>
+        <name>Request_Status__c</name>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>On Hold</masterLabel>
+            <translation><!-- On Hold --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Additional Information</masterLabel>
+            <translation><!-- Pending Additional Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Approvals</masterLabel>
+            <translation><!-- Waiting on Approvals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Once you have completed the pricing/proposal request form information, check this box to submit the request for processing --></help>
+        <label><!-- SUBMIT PRICING/PROPOSAL REQUEST --></label>
+        <name>SUBMIT_PRICING_REQUEST__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Team --></label>
+        <name>Sales_Team__c</name>
+    </fields>
+    <fields>
+        <help><!-- This is the date that the Quote will be completed. Delay in response by rep or customer will result in delay of completion. This field is editable only by Pricing Managers. --></help>
+        <label><!-- Target Completion Date --></label>
+        <name>Target_Completion_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assigned To: --></label>
+        <name>Z_Assigned_To__c</name>
+        <relationshipLabel><!-- Pricing/Proposal Request Forms (Assigned To:) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Bullets/Paragraphs that should be included, with anything else which should be called out. --></help>
+        <label><!-- Letter Information --></label>
+        <name>Z_Letter_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes/Comments --></label>
+        <name>Z_Notes_Comments__c</name>
+    </fields>
+    <fields>
+        <help><!-- Pricing breakouts, other special/non-standard instructions, additional agencies if multiple should be listed --></help>
+        <label><!-- Other Instructions --></label>
+        <name>Z_Other_Instructions__c</name>
+    </fields>
+    <fields>
+        <help><!-- List in the order you’d like them to be included --></help>
+        <label><!-- References Required --></label>
+        <name>Z_References_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Z_Status__c</name>
+        <picklistValues>
+            <masterLabel>Canceled</masterLabel>
+            <translation><!-- Canceled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Deferred</masterLabel>
+            <translation><!-- Deferred --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Interested</masterLabel>
+            <translation><!-- Not Interested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Started</masterLabel>
+            <translation><!-- Not Started --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Opportunity Created</masterLabel>
+            <translation><!-- Opportunity Created --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Transferred to AE/AM</masterLabel>
+            <translation><!-- Transferred to AE/AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on AE</masterLabel>
+            <translation><!-- Waiting on AE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on Ops</masterLabel>
+            <translation><!-- Waiting on Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Waiting on someone else</masterLabel>
+            <translation><!-- Waiting on someone else --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Time Elapsed --></label>
+        <name>Z_Time_Elapsed__c</name>
+    </fields>
+    <fields>
+        <label><!-- What is Needed? --></label>
+        <name>Z_What_is_Needed__c</name>
+        <picklistValues>
+            <masterLabel>Agency Sales Questionnaire</masterLabel>
+            <translation><!-- Agency Sales Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract/SOW</masterLabel>
+            <translation><!-- Contract/SOW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Review</masterLabel>
+            <translation><!-- Data Review --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Book</masterLabel>
+            <translation><!-- Demo Book --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Demo Logos</masterLabel>
+            <translation><!-- Demo Logos --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EULA</masterLabel>
+            <translation><!-- EULA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FOIA Request</masterLabel>
+            <translation><!-- FOIA Request --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Host Agency Acknowledgement Form</masterLabel>
+            <translation><!-- Host Agency Acknowledgement Form --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Interface/Enhancement Dive</masterLabel>
+            <translation><!-- Interface/Enhancement Dive --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Landing Page</masterLabel>
+            <translation><!-- Landing Page --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other (Explain Below)</masterLabel>
+            <translation><!-- Other (Explain Below) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pricing</masterLabel>
+            <translation><!-- Pricing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Proposal</masterLabel>
+            <translation><!-- Proposal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Questions</masterLabel>
+            <translation><!-- Questions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP Response</masterLabel>
+            <translation><!-- RFP Response --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP Specs</masterLabel>
+            <translation><!-- RFP Specs --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>References</masterLabel>
+            <translation><!-- References --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Transition Document</masterLabel>
+            <translation><!-- Sales Transition Document --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales/Change Order</masterLabel>
+            <translation><!-- Sales/Change Order --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Server Sizing</masterLabel>
+            <translation><!-- Server Sizing --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Explain if needed before a meeting with the council, etc. Please do not say ASAP, unless it really is needed today --></help>
+        <label><!-- When is it Needed? --></label>
+        <name>Z_When_is_it_Needed__c</name>
+    </fields>
+    <layouts>
+        <layout>TriTech Pricing Request Form Layout</layout>
+        <sections>
+            <label><!-- COMPLETION - To be completed by Pricing Coordinator ONLY --></label>
+            <section>COMPLETION - To be completed by Pricing Coordinator ONLY</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Zuercher Proposal Request Form Layout</layout>
+        <sections>
+            <label><!-- ADMINISTRATION ONLY --></label>
+            <section>ADMINISTRATION ONLY</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- TriTech Pricing Request Form --></label>
+        <name>TriTech_Pricing_Request_Form</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zuercher Proposal Request Form --></label>
+        <name>Zuercher_Proposal_Request_Form</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- If this is a product migration, choose which product family migration is being requested --></errorMessage>
+        <name>Product_Migration</name>
+    </validationRules>
+</CustomObjectTranslation>

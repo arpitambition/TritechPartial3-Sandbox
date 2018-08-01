@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-MI061_June5-6_2012.Confirmation Reminder</name>
+    <style>none</style>
+    <subject>REMINDER: Sweet Software Group Training in Houghton Lake, MI Next Week</subject>
+    <textOnly>REMINDER: Sweet Software Group Training in Houghton Lake, MI Next Week
+
+
+We&apos;re looking forward to seeing you next week for our Sweet Software Group Training. If you have questions or if there is anything we can do to make this a better experience for you, please contact us at: 
+
+Kathy Swanson, Ankeny Fire Department: CONTACT FOR MORE INFORMATION: 
+Sheila Blessing, Houghton Lake Ambulance:
+(989) 422-3312 | sheila@houghtonlakeambulance.com
+Brenda Taylor, TriTech Sales Representative: 
+(800) 537-3927 ext. 6233 | brenda.taylor@TriTech.com
+
+Here is a link to download a copy of the agenda, if you&apos;d like: &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&quot; target=&quot;_blank&gt;
+
+Registration will begin on the first day at 7:45 a.m. Here is a link to download a copy of the agenda, if you&apos;d like: Training Agenda. Registration will begin on the first day at 7:45 a.m. You are welcome to bring your laptop and follow along; there will be internet access as well.
+
+We sincerely hope that these two days of education will allow everyone to gain knowledge in the areas desired. Although this is classroom-style training, feel free to bring a laptop if you have access to one and you will be able to participate in some “hands-on” activities. We invite you to dress casually and comfortably for the session. Since room temperatures and preferences vary from person to person, please bring a sweater or sweatshirt to wear if needed.
+
+See you next week!
+
+________________________________________
+Sweet Software Group Training in Houghton Lake, MI on June 5-6, 2012
+
+TRAINING LOCATION: Houghton Lake Ambulance
+214 Health Parkway | Houghton Lake, MI 48629
+
+RECOMMENDED HOTEL:  
+Super 8
+9580 W. Lake City Rd.
+Houghton Lake, MI  4862
+Phone: (989) 422-3119
+Reservations: (800) 800-8000
+Rates: Single: $52.00 and Double: $62.00
+(Ask for &quot;Tritech User Group – Houghton Lake Ambulance Class&quot; for discounted room rate)</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

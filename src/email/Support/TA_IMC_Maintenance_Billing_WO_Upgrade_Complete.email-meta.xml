@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IMC alert trigger for billing - Work Order Type = Upgrade / Work Order Ticket Status = Closed</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - IMC Maintenance Billing - WO Upgrade Complete</name>
+    <style>none</style>
+    <subject>Maintenance Billing - Work Order Upgrade Complete: Ticket Number {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

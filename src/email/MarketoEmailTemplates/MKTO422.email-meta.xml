@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS_GA_102012.Reminder - Tomorrow</name>
+    <style>none</style>
+    <subject>Registration Reminder:  Tomorrow&apos;s Public Safety Tech Seminar</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Reminder:  Public Safety Technology Seminar
+TOMORROW:  You are registered to attend
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ This is your confirmation that you are registered for the Next Generation Public Safety Technology Seminar.  We look forward to seeing you at the seminar. 
+
+Date:
+ Wednesday, October 17
+Agenda:
+ 10:00 AM - 12:00 NOON
+ Presentation: Next Generation Public Safety and solutions designed to improve the workflow of your communications center 
+
+
+ - Unified user experience to interact with and incorporate new types of data such as text, pictures, video and more
+ - Better integration of analysis and mapping with patrol work and fire response
+ - Faster, more efficient call-taking protocols to deliver the right information at the right time.
+ - Streamline false alarm administration and increase fee and fine collections
+ - Reduce overheard IT costs with web-based fire records management
+ - Ergonomic trends for improved personnel health and productivity
+
+
+
+12:00 NOON - 1:00 PM
+ Lunch and Learn
+
+1:00 PM - 3:00 PM
+ Interactive Product Demonstrations and Door Prizes
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+Address:
+ Alpharetta Microsoft Facility 
+1125 Sanctuary Parkway, Suite 300 
+Alpharetta, GA 30009 
+678-629-5700 
+Click here for map and directions &lt;http://offers.tritech.com/rs/ortivusna/images/MS Alpharetta directions.pdf&gt;
+
+Questions?
+ Michelle McClellan
+ TriTech Software Systems
+ (858)799-7900
+ michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

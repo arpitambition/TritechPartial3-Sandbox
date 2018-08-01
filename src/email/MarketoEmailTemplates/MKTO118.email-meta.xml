@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_AAA_Vegas.Invitation</name>
+    <style>none</style>
+    <subject>Stop by and visit us at Next Week&apos;s AAA Annual Conference in Las Vegas</subject>
+    <textOnly>November 14-16, 2011 |   Las Vegas, NV
+Stop by Booth #301 at the Ambulance Association Annual Conference Next Week!
+ 
+Stop by and see us next week (November 14-16) at the American Ambulance Association Annual Conference and visit with TriTech EMS Solutions Sales Director - Karla Hageman, Client Account Manager - Tyler Harman and Product Manager - Dan Voss.  
+  
+
+See a demo of our Sweet Billing, Fusion ePCR or VisiCAD solutions. We have options for online or installed applications.
+
+
+Find out more about all the NAAC-Certified Webinar Recordings we offer to help your office improve their knowledge and skills, and get their CEUs! http://www.tritechems.com/TriTech-University/Webinars.asp
+
+
+EMS industry experts predict that in the future, integrated, web-based EMS solutions will become the industry standard. TriTech offers these solutions NOW - read more here: http://www.tritechems.com/Products/online.asp 
+
+
+Can&apos;t make the conference in Las Vegas next week? Call Us at 800-537-3927
+ 
+ 
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

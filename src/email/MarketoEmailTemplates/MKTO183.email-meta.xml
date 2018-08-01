@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Web-based EMS Software_0313.Reminder Starting Now</name>
+    <style>none</style>
+    <subject>Webinar Starting Now: Is Web-Based EMS Software the Way of the Future?</subject>
+    <textOnly>TriTech Complimentary Webinar STARTING NOW
+Is Web-Based EMS Software the Way of the Future?
+
+
+Hello {{lead.First Name:default=EMS Professional}},
+The complimentary live webinar &quot;Is Web-Based EMS Software the Way of the Future?&quot; is starting, please login in now so you don&apos;t miss a thing.
+
+Questions?
+Login Issues: iLinc Support: 800-799-4510
+Other Questions: Cheri Lane, TriTech Marketing Communications Manager: cheri.lane@tritech.com 
+
+LOGIN DETAILS
+JOIN LINK: http://tritech.ilinc.com/join/cjfsxxm
+AUDIO: Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+
+Trouble logging in?
+Call 800.799.4510 to reach the iLinc support team for help
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

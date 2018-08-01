@@ -1,0 +1,540 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Sales Order Log</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Sales Order Logs</value>
+    </caseValues>
+    <fields>
+        <label><!-- ArcGIS Engine 10X --></label>
+        <name>ArcGIS_Engine_10X__c</name>
+    </fields>
+    <fields>
+        <label><!-- ArcGIS Run Time --></label>
+        <name>ArcGIS_Run_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- ArcGIS Server (Network Analyst) --></label>
+        <name>ArcGIS_Server_Network_Analyst__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonds &amp; L/C --></label>
+        <name>Bonds_L_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bonds --></label>
+        <name>Bonds__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bookings Date --></label>
+        <name>Bookings_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Interface List --></label>
+        <name>CAD_Interface_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Software List --></label>
+        <name>CAD_Software_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD Software --></label>
+        <name>CAD_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- CSL --></label>
+        <name>CSL__c</name>
+    </fields>
+    <fields>
+        <label><!-- C or N --></label>
+        <name>C_or_N__c</name>
+    </fields>
+    <fields>
+        <label><!-- Change Order Number --></label>
+        <name>Change_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client --></label>
+        <name>Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commissionable Value --></label>
+        <name>Commissionable_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost Worksheet Other --></label>
+        <name>Cost_Worksheet_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datavault List --></label>
+        <name>Datavault_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Datavault Subscription --></label>
+        <name>Datavault_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Director --></label>
+        <name>Director__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount Other --></label>
+        <name>Discount_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dundas Analytics --></label>
+        <name>Dundas_Analytics__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dundas --></label>
+        <name>Dundas__c</name>
+    </fields>
+    <fields>
+        <label><!-- ESRI --></label>
+        <name>ESRI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Escrow --></label>
+        <name>Escrow__c</name>
+    </fields>
+    <fields>
+        <label><!-- FBR List --></label>
+        <name>FBR_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- FBR Software --></label>
+        <name>FBR_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fire List --></label>
+        <name>Fire_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fire Services --></label>
+        <name>Fire_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fire Software --></label>
+        <name>Fire_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- GP Customer ID --></label>
+        <name>GP_Customer_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- G or C --></label>
+        <name>G_or_C__c</name>
+    </fields>
+    <fields>
+        <label><!-- HW 3rd Party List --></label>
+        <name>HW_3rd_Paty_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- HW, 3rd party SW Subtotal --></label>
+        <name>HW_3rd_party_SW_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware/3rd Party Support --></label>
+        <name>Hardware_3rd_Party_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware/3rd Party --></label>
+        <name>Hardware_3rd_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware/3rd Party Discount --></label>
+        <name>Hardware_3rd_party_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware List --></label>
+        <name>Hardware_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware Support List --></label>
+        <name>Hardware_Support_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- IQ Licenses --></label>
+        <name>IQ_Licenses__c</name>
+    </fields>
+    <fields>
+        <label><!-- IQ List --></label>
+        <name>IQ_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS Services List --></label>
+        <name>IS_Services_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- IS Services --></label>
+        <name>IS_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inform Bookings Amount --></label>
+        <name>Inform_Bookings_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interface CAD/Mobile Software --></label>
+        <name>Interface_CAD_Mobile_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interface RMS/FBR/Jail Software --></label>
+        <name>Interface_RMS_FBR_Jail_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jail List --></label>
+        <name>Jail_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Jail Software --></label>
+        <name>Jail_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO Upgrade --></label>
+        <name>MO_Upgrade__c</name>
+    </fields>
+    <fields>
+        <label><!-- MO --></label>
+        <name>MO__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile List --></label>
+        <name>Mobile_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Mobile Software --></label>
+        <name>Mobile_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- NE --></label>
+        <name>NE__c</name>
+    </fields>
+    <fields>
+        <label><!-- N/E --></label>
+        <name>N_E__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Deferred Revenue --></label>
+        <name>Other_Deferred_Rev__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Services --></label>
+        <name>Other_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Total --></label>
+        <name>Other_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other --></label>
+        <name>Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- PM Services List --></label>
+        <name>PM_Services_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- PM Services --></label>
+        <name>PM_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- P&amp;I List --></label>
+        <name>P_I_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- P&amp;I Services --></label>
+        <name>PandI_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Positive Access --></label>
+        <name>Possitive_Access__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prepaid Maintenance Pool --></label>
+        <name>Prepain_maintenance_Pool__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Type --></label>
+        <name>Product_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Manager --></label>
+        <name>Project_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Number - Click to View Sales Order --></label>
+        <name>Quote_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS Interface List --></label>
+        <name>RMS_Interface_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS List --></label>
+        <name>RMS_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS Software --></label>
+        <name>RMS_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- RMS Subscription --></label>
+        <name>RMS_Subscription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Related Opportunity --></label>
+        <name>Related_Opportunity__c</name>
+        <relationshipLabel><!-- Sales Order Logs --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Retail --></label>
+        <name>Retail__c</name>
+    </fields>
+    <fields>
+        <label><!-- SI List --></label>
+        <name>SI_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Number --></label>
+        <name>Sales_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Rep --></label>
+        <name>Sales_Rep__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Total --></label>
+        <name>Scott_Test__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Discount --></label>
+        <name>Services_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services List --></label>
+        <name>Services_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Total --></label>
+        <name>Services_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping --></label>
+        <name>Shipping__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Discount --></label>
+        <name>Software_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Discounts --></label>
+        <name>Software_Discounts__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software List --></label>
+        <name>Software_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Subscription (On Prem) --></label>
+        <name>Software_Subscription_On_Prem__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Subtotal --></label>
+        <name>Software_Subtotal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Support --></label>
+        <name>Software_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Total --></label>
+        <name>Software_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcontract  List --></label>
+        <name>Subcontract_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcontract Support List --></label>
+        <name>Subcontract_Support_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcontract Support --></label>
+        <name>Subcontract_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subcontract --></label>
+        <name>Subcontract__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscp - RMS/FBR --></label>
+        <name>Subscp_RMS_FBR__c</name>
+    </fields>
+    <fields>
+        <label><!-- Subscription List --></label>
+        <name>Subscription_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- System Integration --></label>
+        <name>System_Integration__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax --></label>
+        <name>Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephony 911 --></label>
+        <name>Telephony_911__c</name>
+    </fields>
+    <fields>
+        <label><!-- Telephony List --></label>
+        <name>Telephony_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Contract Amount --></label>
+        <name>Total_Contract_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Other --></label>
+        <name>Total_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Services List --></label>
+        <name>Training_Services_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Services --></label>
+        <name>Training_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel - BAI --></label>
+        <name>Travel_BAI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel - Fixed --></label>
+        <name>Travel_Fixed__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriCON Fees --></label>
+        <name>TriCon_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Cont &gt; 2 Yrs List --></label>
+        <name>Tritech_Com_Cont_2_Yrs_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Cont &gt; 2 Yrs --></label>
+        <name>Tritech_Com_Cont_2_Yrs__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Discount --></label>
+        <name>Tritech_Com_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com IQ Hosting List --></label>
+        <name>Tritech_Com_IQ_Hosting_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com IQ Hosting --></label>
+        <name>Tritech_Com_IQ_Hosting__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Install List --></label>
+        <name>Tritech_Com_Install_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Install --></label>
+        <name>Tritech_Com_Install__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com List --></label>
+        <name>Tritech_Com_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Net --></label>
+        <name>Tritech_Com_Net__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Other List --></label>
+        <name>Tritech_Com_Other_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Other --></label>
+        <name>Tritech_Com_Other__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Training List --></label>
+        <name>Tritech_Com_Training_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech.com Training --></label>
+        <name>Tritech_Com_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Party Software List --></label>
+        <name>X3rd_Party_Soft_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Party Software --></label>
+        <name>X3rd_Party_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- 3rd Party Support --></label>
+        <name>X3rd_Party_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- 911 Services --></label>
+        <name>X911_Services__c</name>
+    </fields>
+    <layouts>
+        <layout>Sales Order Log Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Embedded Costs --></label>
+            <section>Embedded Costs</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Non Bookings Items --></label>
+            <section>Non Bookings Items</section>
+        </sections>
+        <sections>
+            <label><!-- Other --></label>
+            <section>Other</section>
+        </sections>
+        <sections>
+            <label><!-- Services --></label>
+            <section>Services</section>
+        </sections>
+        <sections>
+            <label><!-- Software Licenses (Perpetual) --></label>
+            <section>Software Licenses (Perpetual)</section>
+        </sections>
+        <sections>
+            <label><!-- TriTech.com Hosting --></label>
+            <section>TriTech.com Hosting</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

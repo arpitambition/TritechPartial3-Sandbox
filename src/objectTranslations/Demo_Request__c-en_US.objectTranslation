@@ -1,0 +1,2313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Demo Request</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Demo Requests</value>
+    </caseValues>
+    <fields>
+        <label><!-- AV Needed Date --></label>
+        <name>AV_Needed_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- AV Needed Time Zone --></label>
+        <name>AV_Needed_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>AKDT</masterLabel>
+            <translation><!-- AKDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AKST</masterLabel>
+            <translation><!-- AKST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDT</masterLabel>
+            <translation><!-- CDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST</masterLabel>
+            <translation><!-- CST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDT</masterLabel>
+            <translation><!-- EDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HADT</masterLabel>
+            <translation><!-- HADT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAST</masterLabel>
+            <translation><!-- HAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDT</masterLabel>
+            <translation><!-- MDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MST</masterLabel>
+            <translation><!-- MST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDT</masterLabel>
+            <translation><!-- PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PST</masterLabel>
+            <translation><!-- PST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AV Needed Time --></label>
+        <name>AV_Needed_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation><!-- 10:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM</masterLabel>
+            <translation><!-- 10:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM</masterLabel>
+            <translation><!-- 11:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM</masterLabel>
+            <translation><!-- 12:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation><!-- 1:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM</masterLabel>
+            <translation><!-- 1:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM</masterLabel>
+            <translation><!-- 2:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM</masterLabel>
+            <translation><!-- 3:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM</masterLabel>
+            <translation><!-- 4:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:30 PM</masterLabel>
+            <translation><!-- 5:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation><!-- 6:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation><!-- 6:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 AM</masterLabel>
+            <translation><!-- 6:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 PM</masterLabel>
+            <translation><!-- 6:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation><!-- 7:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation><!-- 7:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 AM</masterLabel>
+            <translation><!-- 7:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 PM</masterLabel>
+            <translation><!-- 7:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation><!-- 8:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation><!-- 8:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 AM</masterLabel>
+            <translation><!-- 8:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 PM</masterLabel>
+            <translation><!-- 8:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation><!-- 9:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM</masterLabel>
+            <translation><!-- 9:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 PM</masterLabel>
+            <translation><!-- 9:30 PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If you want the AV company to tear down the screens, someone must be available in the room when the company arrives. If pickup is at or after 5pm, especially for govt buildings, make sure access is allowed after 5. --></help>
+        <label><!-- AV Pickup Date --></label>
+        <name>AV_Pickup_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- AV Pickup Time Zone --></label>
+        <name>AV_Pickup_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>AKDT</masterLabel>
+            <translation><!-- AKDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AKST</masterLabel>
+            <translation><!-- AKST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDT</masterLabel>
+            <translation><!-- CDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST</masterLabel>
+            <translation><!-- CST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDT</masterLabel>
+            <translation><!-- EDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HADT</masterLabel>
+            <translation><!-- HADT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAST</masterLabel>
+            <translation><!-- HAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDT</masterLabel>
+            <translation><!-- MDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MST</masterLabel>
+            <translation><!-- MST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDT</masterLabel>
+            <translation><!-- PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PST</masterLabel>
+            <translation><!-- PST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AV Pickup Time --></label>
+        <name>AV_Pickup_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation><!-- 10:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM</masterLabel>
+            <translation><!-- 10:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM</masterLabel>
+            <translation><!-- 11:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM</masterLabel>
+            <translation><!-- 12:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation><!-- 1:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM</masterLabel>
+            <translation><!-- 1:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM</masterLabel>
+            <translation><!-- 2:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM</masterLabel>
+            <translation><!-- 3:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM</masterLabel>
+            <translation><!-- 4:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:30 PM</masterLabel>
+            <translation><!-- 5:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation><!-- 6:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation><!-- 6:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 AM</masterLabel>
+            <translation><!-- 6:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 PM</masterLabel>
+            <translation><!-- 6:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation><!-- 7:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation><!-- 7:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 AM</masterLabel>
+            <translation><!-- 7:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 PM</masterLabel>
+            <translation><!-- 7:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation><!-- 8:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation><!-- 8:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 AM</masterLabel>
+            <translation><!-- 8:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 PM</masterLabel>
+            <translation><!-- 8:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation><!-- 9:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM</masterLabel>
+            <translation><!-- 9:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 PM</masterLabel>
+            <translation><!-- 9:30 PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- AV REQUEST COMPLETE --></label>
+        <name>AV_REQUEST_COMPLETE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Agency 1 --></label>
+        <name>Additional_Agency_1__c</name>
+        <relationshipLabel><!-- Demo Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Agency 2 --></label>
+        <name>Additional_Agency_2__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Agency 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Agency 3 --></label>
+        <name>Additional_Agency_3__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Agency 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 1 Role --></label>
+        <name>Additional_Attendee_1_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 1 --></label>
+        <name>Additional_Attendee_1__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Attendee 1) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 2 Role --></label>
+        <name>Additional_Attendee_2_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 2 --></label>
+        <name>Additional_Attendee_2__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Attendee 2) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 3 Role --></label>
+        <name>Additional_Attendee_3_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 3 --></label>
+        <name>Additional_Attendee_3__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Attendee 3) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 4 Role --></label>
+        <name>Additional_Attendee_4_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 4 --></label>
+        <name>Additional_Attendee_4__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Attendee 4) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 5 Role --></label>
+        <name>Additional_Attendee_5_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 5 --></label>
+        <name>Additional_Attendee_5__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Attendee 5) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 6 Role --></label>
+        <name>Additional_Attendee_6_Role__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Attendee 6 --></label>
+        <name>Additional_Attendee_6__c</name>
+        <relationshipLabel><!-- Demo Requests (Additional Attendee 6) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Additional Information Required --></label>
+        <name>Additional_Information_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Types Involved --></label>
+        <name>Agency_Types_Involved__c</name>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law</masterLabel>
+            <translation><!-- Law --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- If this is a multi-agency, then you must enter the &quot;Additional Agency&quot; information --></help>
+        <label><!-- Are Additional Agencies Involved? --></label>
+        <name>Are_Additional_Agencies_Involved__c</name>
+        <picklistValues>
+            <masterLabel>No, this is a single agency demo</masterLabel>
+            <translation><!-- No, this is a single agency demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes, this is a multi-agency demo</masterLabel>
+            <translation><!-- Yes, this is a multi-agency demo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Building Access Information --></label>
+        <name>Building_Access_Information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Building Access Information for Caterer --></label>
+        <name>Building_Access_Information_for_Caterer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Building Access Information for Vendor --></label>
+        <name>Building_access_information_for_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- CAD --></label>
+        <name>CAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- Catering Needs/Quantity --></label>
+        <name>Catering_Needs__c</name>
+    </fields>
+    <fields>
+        <label><!-- CATERING REQUEST COMPLETE --></label>
+        <name>Catering_Request_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client/Organization Name --></label>
+        <name>Client_Organization_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Opportunity Stage --></label>
+        <name>Current_Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current Opportunity Type --></label>
+        <name>Current_Opportunity_Type__c</name>
+    </fields>
+    <fields>
+        <help><!-- Attach agency versions of forms to this request --></help>
+        <label><!-- Custom Forms From Agency --></label>
+        <name>Custom_Forms_From_Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- DEMO REQUEST COMPLETE --></label>
+        <name>DEMO_REQUEST_COMPLETE__c</name>
+    </fields>
+    <fields>
+        <help><!-- If Demo Booklets are required, you must enter a quantity --></help>
+        <label><!-- Demo Booklets Quantity --></label>
+        <name>Demo_Booklets_Quantity__c</name>
+    </fields>
+    <fields>
+        <help><!-- Must submit a CMR form separately --></help>
+        <label><!-- Demo Booklets? --></label>
+        <name>Demo_Booklets__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Contact Phone --></label>
+        <name>Demo_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Contact --></label>
+        <name>Demo_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Add Demo Date range here --></help>
+        <label><!-- Demo Dates --></label>
+        <name>Demo_Dates__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo End Date --></label>
+        <name>Demo_End_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo End Time Zone --></label>
+        <name>Demo_End_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>AKDT</masterLabel>
+            <translation><!-- AKDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AKST</masterLabel>
+            <translation><!-- AKST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDT</masterLabel>
+            <translation><!-- CDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST</masterLabel>
+            <translation><!-- CST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDT</masterLabel>
+            <translation><!-- EDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HADT</masterLabel>
+            <translation><!-- HADT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAST</masterLabel>
+            <translation><!-- HAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDT</masterLabel>
+            <translation><!-- MDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MST</masterLabel>
+            <translation><!-- MST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDT</masterLabel>
+            <translation><!-- PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PST</masterLabel>
+            <translation><!-- PST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo End Time --></label>
+        <name>Demo_End_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation><!-- 10:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM</masterLabel>
+            <translation><!-- 10:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM</masterLabel>
+            <translation><!-- 11:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM</masterLabel>
+            <translation><!-- 12:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation><!-- 1:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM</masterLabel>
+            <translation><!-- 1:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM</masterLabel>
+            <translation><!-- 2:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM</masterLabel>
+            <translation><!-- 3:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM</masterLabel>
+            <translation><!-- 4:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:30 PM</masterLabel>
+            <translation><!-- 5:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation><!-- 6:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation><!-- 6:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 AM</masterLabel>
+            <translation><!-- 6:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 PM</masterLabel>
+            <translation><!-- 6:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation><!-- 7:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation><!-- 7:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 AM</masterLabel>
+            <translation><!-- 7:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 PM</masterLabel>
+            <translation><!-- 7:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation><!-- 8:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation><!-- 8:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 AM</masterLabel>
+            <translation><!-- 8:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 PM</masterLabel>
+            <translation><!-- 8:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation><!-- 9:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM</masterLabel>
+            <translation><!-- 9:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 PM</masterLabel>
+            <translation><!-- 9:30 PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Kit # --></label>
+        <name>Demo_Kit__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please enter the full demo location address --></help>
+        <label><!-- Demo Location --></label>
+        <name>Demo_Location__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Notes Attached? --></label>
+        <name>Demo_Notes_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Objective/Project Background --></label>
+        <name>Demo_Objective__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Set-up Date --></label>
+        <name>Demo_Set_up_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Set-up Time Zone --></label>
+        <name>Demo_Set_up_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>AKDT</masterLabel>
+            <translation><!-- AKDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AKST</masterLabel>
+            <translation><!-- AKST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDT</masterLabel>
+            <translation><!-- CDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST</masterLabel>
+            <translation><!-- CST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDT</masterLabel>
+            <translation><!-- EDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HADT</masterLabel>
+            <translation><!-- HADT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAST</masterLabel>
+            <translation><!-- HAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDT</masterLabel>
+            <translation><!-- MDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MST</masterLabel>
+            <translation><!-- MST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDT</masterLabel>
+            <translation><!-- PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PST</masterLabel>
+            <translation><!-- PST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Set-up Time --></label>
+        <name>Demo_Set_up_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation><!-- 10:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM</masterLabel>
+            <translation><!-- 10:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM</masterLabel>
+            <translation><!-- 11:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM</masterLabel>
+            <translation><!-- 12:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation><!-- 1:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM</masterLabel>
+            <translation><!-- 1:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM</masterLabel>
+            <translation><!-- 2:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM</masterLabel>
+            <translation><!-- 3:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM</masterLabel>
+            <translation><!-- 4:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:30 PM</masterLabel>
+            <translation><!-- 5:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation><!-- 6:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation><!-- 6:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 AM</masterLabel>
+            <translation><!-- 6:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 PM</masterLabel>
+            <translation><!-- 6:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation><!-- 7:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation><!-- 7:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 AM</masterLabel>
+            <translation><!-- 7:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 PM</masterLabel>
+            <translation><!-- 7:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation><!-- 8:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation><!-- 8:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 AM</masterLabel>
+            <translation><!-- 8:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 PM</masterLabel>
+            <translation><!-- 8:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation><!-- 9:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM</masterLabel>
+            <translation><!-- 9:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 PM</masterLabel>
+            <translation><!-- 9:30 PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Start Date --></label>
+        <name>Demo_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Demo Start Time Zone --></label>
+        <name>Demo_Start_Time_Zone__c</name>
+        <picklistValues>
+            <masterLabel>AKDT</masterLabel>
+            <translation><!-- AKDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AKST</masterLabel>
+            <translation><!-- AKST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CDT</masterLabel>
+            <translation><!-- CDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CST</masterLabel>
+            <translation><!-- CST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EDT</masterLabel>
+            <translation><!-- EDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EST</masterLabel>
+            <translation><!-- EST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HADT</masterLabel>
+            <translation><!-- HADT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HAST</masterLabel>
+            <translation><!-- HAST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MDT</masterLabel>
+            <translation><!-- MDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MST</masterLabel>
+            <translation><!-- MST --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PDT</masterLabel>
+            <translation><!-- PDT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PST</masterLabel>
+            <translation><!-- PST --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Start Time --></label>
+        <name>Demo_Start_Time__c</name>
+        <picklistValues>
+            <masterLabel>10:00 AM</masterLabel>
+            <translation><!-- 10:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:00 PM</masterLabel>
+            <translation><!-- 10:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>10:30 AM</masterLabel>
+            <translation><!-- 10:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:00 AM</masterLabel>
+            <translation><!-- 11:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>11:30 AM</masterLabel>
+            <translation><!-- 11:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:00 PM</masterLabel>
+            <translation><!-- 12:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>12:30 PM</masterLabel>
+            <translation><!-- 12:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:00 PM</masterLabel>
+            <translation><!-- 1:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>1:30 PM</masterLabel>
+            <translation><!-- 1:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:00 PM</masterLabel>
+            <translation><!-- 2:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>2:30 PM</masterLabel>
+            <translation><!-- 2:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:00 PM</masterLabel>
+            <translation><!-- 3:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>3:30 PM</masterLabel>
+            <translation><!-- 3:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:00 PM</masterLabel>
+            <translation><!-- 4:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>4:30 PM</masterLabel>
+            <translation><!-- 4:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:00 PM</masterLabel>
+            <translation><!-- 5:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>5:30 PM</masterLabel>
+            <translation><!-- 5:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 AM</masterLabel>
+            <translation><!-- 6:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:00 PM</masterLabel>
+            <translation><!-- 6:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 AM</masterLabel>
+            <translation><!-- 6:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>6:30 PM</masterLabel>
+            <translation><!-- 6:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 AM</masterLabel>
+            <translation><!-- 7:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:00 PM</masterLabel>
+            <translation><!-- 7:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 AM</masterLabel>
+            <translation><!-- 7:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7:30 PM</masterLabel>
+            <translation><!-- 7:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 AM</masterLabel>
+            <translation><!-- 8:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:00 PM</masterLabel>
+            <translation><!-- 8:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 AM</masterLabel>
+            <translation><!-- 8:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8:30 PM</masterLabel>
+            <translation><!-- 8:30 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 AM</masterLabel>
+            <translation><!-- 9:00 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:00 PM</masterLabel>
+            <translation><!-- 9:00 PM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 AM</masterLabel>
+            <translation><!-- 9:30 AM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>9:30 PM</masterLabel>
+            <translation><!-- 9:30 PM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Team --></label>
+        <name>Demo_Team__c</name>
+        <picklistValues>
+            <masterLabel>Becca Webb</masterLabel>
+            <translation><!-- Becca Webb --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Baartman</masterLabel>
+            <translation><!-- Bruce Baartman --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dan Freemark</masterLabel>
+            <translation><!-- Dan Freemark --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>David Amaya</masterLabel>
+            <translation><!-- David Amaya --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Elton Kee</masterLabel>
+            <translation><!-- Elton Kee --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Eric Wisherd</masterLabel>
+            <translation><!-- Eric Wisherd --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Freddy Bejar</masterLabel>
+            <translation><!-- Freddy Bejar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gary Loflin</masterLabel>
+            <translation><!-- Gary Loflin --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Greg Hannah</masterLabel>
+            <translation><!-- Greg Hannah --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Karen Southerland</masterLabel>
+            <translation><!-- Karen Southerland --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kelly Fontes</masterLabel>
+            <translation><!-- Kelly Fontes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Liz Byers</masterLabel>
+            <translation><!-- Liz Byers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matthew Klein</masterLabel>
+            <translation><!-- Matthew Klein --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nikki Britto</masterLabel>
+            <translation><!-- Nikki Britto --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paul Labriola</masterLabel>
+            <translation><!-- Paul Labriola --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quintus Hampton</masterLabel>
+            <translation><!-- Quintus Hampton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Robert Mabe</masterLabel>
+            <translation><!-- Robert Mabe --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ruth Cruz</masterLabel>
+            <translation><!-- Ruth Cruz --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheri Pender</masterLabel>
+            <translation><!-- Sheri Pender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC Thomas</masterLabel>
+            <translation><!-- TC Thomas --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiffany Huber</masterLabel>
+            <translation><!-- Tiffany Huber --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>William Gray</masterLabel>
+            <translation><!-- William Gray --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo Type --></label>
+        <name>Demo_Type__c</name>
+        <picklistValues>
+            <masterLabel>Discovery</masterLabel>
+            <translation><!-- Discovery --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finals - Non RFP</masterLabel>
+            <translation><!-- Finals - Non RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finals - Shortlist</masterLabel>
+            <translation><!-- Finals - Shortlist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>First Pass</masterLabel>
+            <translation><!-- First Pass --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>General Demo</masterLabel>
+            <translation><!-- General Demo --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tradeshow</masterLabel>
+            <translation><!-- Tradeshow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Web Demo</masterLabel>
+            <translation><!-- Web Demo --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Demo wiki --></label>
+        <name>Demo_wiki__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discovery Results Attached? --></label>
+        <name>Discovery_Results_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Dress Code Expected --></label>
+        <name>Dress_Code_Expected__c</name>
+        <picklistValues>
+            <masterLabel>Business Casual (Shirt/Slacks)</masterLabel>
+            <translation><!-- Business Casual (Shirt/Slacks) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Professional (Suit/Tie)</masterLabel>
+            <translation><!-- Business Professional (Suit/Tie) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech Professional (Branded)</masterLabel>
+            <translation><!-- TriTech Professional (Branded) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher Professional (Branded)</masterLabel>
+            <translation><!-- Zuercher Professional (Branded) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Drop Off Address --></label>
+        <name>Drop_Off_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- DummyTouchField --></label>
+        <name>DummyTouchField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Fire Records --></label>
+        <name>Fire_Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Food/Drinks Needed? --></label>
+        <name>Food_Drinks_Needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- GIS Analyst Required --></label>
+        <name>GIS_Analyst_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- IQ and Analytics --></label>
+        <name>IQ_and_Analytics__c</name>
+    </fields>
+    <fields>
+        <label><!-- If Other, Please List --></label>
+        <name>If_Other_Please_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Internet Availability --></label>
+        <name>Internet_Availability__c</name>
+        <picklistValues>
+            <masterLabel>Both</masterLabel>
+            <translation><!-- Both --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wifi</masterLabel>
+            <translation><!-- Wifi --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Wired</masterLabel>
+            <translation><!-- Wired --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Jail Records --></label>
+        <name>Jail_Records__c</name>
+    </fields>
+    <fields>
+        <label><!-- Key Areas of the SW to Highlight --></label>
+        <name>Key_Areas_of_the_SW_to_Highlight__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extend FBR</masterLabel>
+            <translation><!-- Extend FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extend Jail</masterLabel>
+            <translation><!-- Extend Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Extend eCitations</masterLabel>
+            <translation><!-- Extend eCitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Ops</masterLabel>
+            <translation><!-- Field Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Full Financial</masterLabel>
+            <translation><!-- Full Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMPACT</masterLabel>
+            <translation><!-- IMPACT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ/Omega</masterLabel>
+            <translation><!-- IQ/Omega --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mapping</masterLabel>
+            <translation><!-- Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Municipal Courts</masterLabel>
+            <translation><!-- Municipal Courts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Portal</masterLabel>
+            <translation><!-- Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prosecution</masterLabel>
+            <translation><!-- Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS</masterLabel>
+            <translation><!-- RMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Laptop #&apos;s --></label>
+        <name>Laptop_s__c</name>
+    </fields>
+    <fields>
+        <help><!-- Hotel address for the logistics team --></help>
+        <label><!-- Logistics Team Hotel --></label>
+        <name>Logistics_Team_Hotel__c</name>
+    </fields>
+    <fields>
+        <label><!-- MARKETING REQUEST COMPLETE --></label>
+        <name>MARKETING_REQUEST_COMPLETE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Email Formula --></label>
+        <name>Manager_Email_Formula__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manager Email --></label>
+        <name>Manager_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Needs/Quantity --></label>
+        <name>Marketing_Needs_Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Materials --></label>
+        <name>Materials__c</name>
+        <picklistValues>
+            <masterLabel>Brochure: 911</masterLabel>
+            <translation><!-- Brochure: 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: AVL Playback</masterLabel>
+            <translation><!-- Brochure: AVL Playback --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Administration</masterLabel>
+            <translation><!-- Brochure: Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: CAD</masterLabel>
+            <translation><!-- Brochure: CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: CLQ</masterLabel>
+            <translation><!-- Brochure: CLQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Civil</masterLabel>
+            <translation><!-- Brochure: Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Courts</masterLabel>
+            <translation><!-- Brochure: Courts --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: CrimeMapping</masterLabel>
+            <translation><!-- Brochure: CrimeMapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: CrimeView Dashboard</masterLabel>
+            <translation><!-- Brochure: CrimeView Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Custom Forms</masterLabel>
+            <translation><!-- Brochure: Custom Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Custom Modules</masterLabel>
+            <translation><!-- Brochure: Custom Modules --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Data Conversion</masterLabel>
+            <translation><!-- Brochure: Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Extend Accident Reporting</masterLabel>
+            <translation><!-- Brochure: Extend Accident Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Extend Jail</masterLabel>
+            <translation><!-- Brochure: Extend Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Extend Property and Evidence</masterLabel>
+            <translation><!-- Brochure: Extend Property and Evidence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Extend eCitations</masterLabel>
+            <translation><!-- Brochure: Extend eCitations --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Field Ops</masterLabel>
+            <translation><!-- Brochure: Field Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Financial</masterLabel>
+            <translation><!-- Brochure: Financial --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: GIS Services</masterLabel>
+            <translation><!-- Brochure: GIS Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: IQ Zuercher</masterLabel>
+            <translation><!-- Brochure: IQ Zuercher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Insight</masterLabel>
+            <translation><!-- Brochure: Insight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Jail</masterLabel>
+            <translation><!-- Brochure: Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Mapping</masterLabel>
+            <translation><!-- Brochure: Mapping --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Mobile CAD</masterLabel>
+            <translation><!-- Brochure: Mobile CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Mobile Records</masterLabel>
+            <translation><!-- Brochure: Mobile Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Near Me</masterLabel>
+            <translation><!-- Brochure: Near Me --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Portal</masterLabel>
+            <translation><!-- Brochure: Portal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Project Implementation</masterLabel>
+            <translation><!-- Brochure: Project Implementation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Property and Evidence</masterLabel>
+            <translation><!-- Brochure: Property and Evidence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Prosecution</masterLabel>
+            <translation><!-- Brochure: Prosecution --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Records</masterLabel>
+            <translation><!-- Brochure: Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Reporting</masterLabel>
+            <translation><!-- Brochure: Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Support and Maintenance</masterLabel>
+            <translation><!-- Brochure: Support and Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brochure: Why Zuercher Suite</masterLabel>
+            <translation><!-- Brochure: Why Zuercher Suite --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Study: ConnectSD</masterLabel>
+            <translation><!-- Case Study: ConnectSD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Study: Custom Forms</masterLabel>
+            <translation><!-- Case Study: Custom Forms --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Study: Moving to Zuercher - Pennington Co. SO SD</masterLabel>
+            <translation><!-- Case Study: Moving to Zuercher - Pennington Co. SO SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Study: Oconee SC and Hurricane Irma</masterLabel>
+            <translation><!-- Case Study: Oconee SC and Hurricane Irma --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Study: Workflow – Lafourche Parish SO LA</masterLabel>
+            <translation><!-- Case Study: Workflow – Lafourche Parish SO LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Frontier Packet</masterLabel>
+            <translation><!-- Frontier Packet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet - Community Data Partners</masterLabel>
+            <translation><!-- Info Sheet - Community Data Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Alarm Billing</masterLabel>
+            <translation><!-- Info Sheet: Alarm Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Fleet Management</masterLabel>
+            <translation><!-- Info Sheet: Fleet Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Testing/Training Servers</masterLabel>
+            <translation><!-- Info Sheet: Testing/Training Servers --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Transition ETI to Zuercher</masterLabel>
+            <translation><!-- Info Sheet: Transition ETI to Zuercher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Transition LETG to Zuercher</masterLabel>
+            <translation><!-- Info Sheet: Transition LETG to Zuercher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Transition VisionAIR to Zuercher</masterLabel>
+            <translation><!-- Info Sheet: Transition VisionAIR to Zuercher --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Warrants</masterLabel>
+            <translation><!-- Info Sheet: Warrants --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Zuercher CAD and NG911</masterLabel>
+            <translation><!-- Info Sheet: Zuercher CAD and NG911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Zuercher Suite Application Architecture</masterLabel>
+            <translation><!-- Info Sheet: Zuercher Suite Application Architecture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Zuercher Suite Leans on Linux and Open Source Software</masterLabel>
+            <translation><!-- Info Sheet: Zuercher Suite Leans on Linux and Open Source Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Info Sheet: Zuercher Suite and Virtualization</masterLabel>
+            <translation><!-- Info Sheet: Zuercher Suite and Virtualization --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: Georgia</masterLabel>
+            <translation><!-- State Sheet: Georgia --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: Iowa</masterLabel>
+            <translation><!-- State Sheet: Iowa --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: Louisiana</masterLabel>
+            <translation><!-- State Sheet: Louisiana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: Minnesota</masterLabel>
+            <translation><!-- State Sheet: Minnesota --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: Montana</masterLabel>
+            <translation><!-- State Sheet: Montana --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: South Carolina</masterLabel>
+            <translation><!-- State Sheet: South Carolina --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State Sheet: Wisconsin</masterLabel>
+            <translation><!-- State Sheet: Wisconsin --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Mobile --></label>
+        <name>Mobile__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nameplate Cards Needed? --></label>
+        <name>Nameplate_Cards_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Nearest Airport --></label>
+        <name>Nearest_Airport__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Laptops Needed? --></label>
+        <name>Number_of_Laptops_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Monitors Needed --></label>
+        <name>Number_of_Monitors_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Projectors Needed? --></label>
+        <name>Number_of_Projectors_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Screens Needed --></label>
+        <name>Number_of_Screens_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- On-Site Discovery Date --></label>
+        <name>On_Site_Discovery_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Demo Requests --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other/3rd Party --></label>
+        <name>Other_3rd_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other Equipment Needed? --></label>
+        <name>Other_Equipment_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Other ZT People Attending --></label>
+        <name>Other_ZT_People_Attending__c</name>
+    </fields>
+    <fields>
+        <label><!-- Performed On-Site Discovery? --></label>
+        <name>Performed_On_Site_Discovery__c</name>
+    </fields>
+    <fields>
+        <label><!-- Peripheral devices needed? --></label>
+        <name>Peripheral_devices_needed__c</name>
+        <picklistValues>
+            <masterLabel>Barcode Scanner</masterLabel>
+            <translation><!-- Barcode Scanner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Driver&apos;s License Scanners</masterLabel>
+            <translation><!-- Driver&apos;s License Scanners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IRIS</masterLabel>
+            <translation><!-- IRIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>M2SYS</masterLabel>
+            <translation><!-- M2SYS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mug Shot Camera</masterLabel>
+            <translation><!-- Mug Shot Camera --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>iPad</masterLabel>
+            <translation><!-- iPad --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Permission to Record Demo --></label>
+        <name>Permission_to_Record_Demo__c</name>
+        <picklistValues>
+            <masterLabel>Permission denied</masterLabel>
+            <translation><!-- Permission denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permission granted</masterLabel>
+            <translation><!-- Permission granted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Permission not requested</masterLabel>
+            <translation><!-- Permission not requested --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Pickup Address --></label>
+        <name>Pickup_Address__c</name>
+    </fields>
+    <fields>
+        <label><!-- Products to be Demo&apos;d --></label>
+        <name>Products_to_be_Demo_d__c</name>
+        <picklistValues>
+            <masterLabel>DN CAD/Mobile</masterLabel>
+            <translation><!-- DN CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Ops</masterLabel>
+            <translation><!-- Field Ops --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireRecords</masterLabel>
+            <translation><!-- FireRecords --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform 911</masterLabel>
+            <translation><!-- Inform 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform CAD</masterLabel>
+            <translation><!-- Inform CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform IQ/Analytics</masterLabel>
+            <translation><!-- Inform IQ/Analytics --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Jail</masterLabel>
+            <translation><!-- Inform Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform ME</masterLabel>
+            <translation><!-- Inform ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Mobile</masterLabel>
+            <translation><!-- Inform Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform RMS</masterLabel>
+            <translation><!-- Inform RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other/3rd Party</masterLabel>
+            <translation><!-- Other/3rd Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS Accessories</masterLabel>
+            <translation><!-- RMS Accessories --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC CAD</masterLabel>
+            <translation><!-- TC CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC Mobile</masterLabel>
+            <translation><!-- TC Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC RMS</masterLabel>
+            <translation><!-- TC RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TE RMS</masterLabel>
+            <translation><!-- TE RMS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Projector Stands Needed --></label>
+        <name>Projector_Stands_Needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Records Management --></label>
+        <name>Records_Management__c</name>
+    </fields>
+    <fields>
+        <label><!-- Requestor Mobile Phone --></label>
+        <name>Requestor_Mobile_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Room Description --></label>
+        <name>Room_Description__c</name>
+        <picklistValues>
+            <masterLabel>Large (room for more than 2 screens)</masterLabel>
+            <translation><!-- Large (room for more than 2 screens) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Medium (room for 2 screens)</masterLabel>
+            <translation><!-- Medium (room for 2 screens) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Small (Room for 1 screen)</masterLabel>
+            <translation><!-- Small (Room for 1 screen) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Small (No screens)</masterLabel>
+            <translation><!-- Very Small (No screens) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Room Dimensions --></label>
+        <name>Room_Dimensions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Calendar --></label>
+        <name>Sales_Calendar__c</name>
+    </fields>
+    <fields>
+        <label><!-- Screen Size --></label>
+        <name>Screen_Size__c</name>
+        <picklistValues>
+            <masterLabel>6 ft</masterLabel>
+            <translation><!-- 6 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>7 ft</masterLabel>
+            <translation><!-- 7 ft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>8 ft</masterLabel>
+            <translation><!-- 8 ft --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Sharpies Needed? --></label>
+        <name>Sharpies_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Instructions (If needed) --></label>
+        <name>Shipping_Instructions_If_needed__c</name>
+    </fields>
+    <fields>
+        <help><!-- You also need to submit a Solution Architect - Assistance Request CWI to request a SA for the demo --></help>
+        <label><!-- Solution Architect Needed? --></label>
+        <name>Solution_Architect_Needed__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Solution Architect(s) --></label>
+        <name>Solution_Architect_s__c</name>
+        <picklistValues>
+            <masterLabel>Darrell Richards</masterLabel>
+            <translation><!-- Darrell Richards --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Del Pullen</masterLabel>
+            <translation><!-- Del Pullen --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jeff Thau</masterLabel>
+            <translation><!-- Jeff Thau --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Keith Singleton</masterLabel>
+            <translation><!-- Keith Singleton --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kurt Hallmeyer</masterLabel>
+            <translation><!-- Kurt Hallmeyer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mark Catone</masterLabel>
+            <translation><!-- Mark Catone --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Matt Manzano</masterLabel>
+            <translation><!-- Matt Manzano --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Noemi Aguiar</masterLabel>
+            <translation><!-- Noemi Aguiar --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Scott Nemetz</masterLabel>
+            <translation><!-- Scott Nemetz --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- State database needed? --></label>
+        <name>State_database_needed__c</name>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Additional Information Required</masterLabel>
+            <translation><!-- Additional Information Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Assigned</masterLabel>
+            <translation><!-- Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Completed</masterLabel>
+            <translation><!-- Completed --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No DT Resource Required</masterLabel>
+            <translation><!-- No DT Resource Required --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending</masterLabel>
+            <translation><!-- Pending --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Swag Demo Team Will Bring --></label>
+        <name>Swag__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tablecloth(s) Needed? --></label>
+        <name>Tablecloth_s_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Theme &amp; Theme Points --></label>
+        <name>Theme_Theme_Points__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Vendor --></label>
+        <name>Third_Party_Vendor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Number of Attendees --></label>
+        <name>Total_Number_of_Attendees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel --></label>
+        <name>Travel__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Logo Stand Needed? --></label>
+        <name>TriTech_Logo_Stand_Needed__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Requestor --></label>
+        <name>TriTech_Requestor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who is bringing projectors? --></label>
+        <name>Who_is_bringing_projectors__c</name>
+    </fields>
+    <fields>
+        <label><!-- Who is bringing screens? --></label>
+        <name>Who_is_bringing_screens__c</name>
+    </fields>
+    <fields>
+        <label><!-- Will AV Company setup or just drop off? --></label>
+        <name>Will_AV_Company_Setup__c</name>
+        <picklistValues>
+            <masterLabel>Drop off only</masterLabel>
+            <translation><!-- Drop off only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Setup and drop off</masterLabel>
+            <translation><!-- Setup and drop off --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Will AV Company tear down screens? --></label>
+        <name>Will_AV_Company_tear_down_screens__c</name>
+        <picklistValues>
+            <masterLabel>Pickup only</masterLabel>
+            <translation><!-- Pickup only --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tear down and pickup</masterLabel>
+            <translation><!-- Tear down and pickup --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- 911 --></label>
+        <name>X911__c</name>
+    </fields>
+    <layouts>
+        <layout>TriTech Demo Request Layout</layout>
+        <sections>
+            <label><!-- ***Administration/Assignment ONLY*** --></label>
+            <section>***Administration/Assignment ONLY***</section>
+        </sections>
+        <sections>
+            <label><!-- AV Equipment Request --></label>
+            <section>AV Equipment Request</section>
+        </sections>
+        <sections>
+            <label><!-- Catering Request --></label>
+            <section>Catering Request</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Request --></label>
+            <section>Marketing Request</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Zuercher Demo Request Layout</layout>
+        <sections>
+            <label><!-- ***Administration/Assignment ONLY*** --></label>
+            <section>***Administration/Assignment ONLY***</section>
+        </sections>
+        <sections>
+            <label><!-- AV Equipment Request --></label>
+            <section>AV Equipment Request</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Request --></label>
+            <section>Marketing Request</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- TriTech Demo Request --></label>
+        <name>TriTech_Demo_Request</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Zuercher Demo Request --></label>
+        <name>Zuercher_Demo_Request</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- AV Needed Date is required to process AV Requests --></errorMessage>
+        <name>AV_Needed_Date_Required_for_AV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- AV Pickup Date is required to process AV Requests --></errorMessage>
+        <name>AV_Pickup_Date_Required_for_AV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- AgencyAre Additional Agencies Involved is required to process Demo Requests --></errorMessage>
+        <name>Additional_Agencies_Involved_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Agency Types Involved is required to process Demo Requests --></errorMessage>
+        <name>Agency_Types_Involved_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Demo Booklets are required, Demo Quantity must be completed --></errorMessage>
+        <name>Demo_Booklets_Quantity</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo Contact is required to process Demo Requests --></errorMessage>
+        <name>Demo_Contact_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo End Date is required to process Demo Requests --></errorMessage>
+        <name>Demo_End_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo Location is required to process Demo Requests --></errorMessage>
+        <name>Demo_Location_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo Objective/Project Background is required to process Demo Requests --></errorMessage>
+        <name>Demo_Objectives_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo Set-up Date is required to process Demo Requests --></errorMessage>
+        <name>Demo_Set_Up_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo Start Date is required to process Demo Requests --></errorMessage>
+        <name>Demo_Start_Date_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Demo Type is required to process Demo Requests --></errorMessage>
+        <name>Demo_Type_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Marketing Needs/Quantity is required to process Marketing Requests --></errorMessage>
+        <name>Marketing_Needs_Quantity_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Number of Screens Needed is required to process AV Requests --></errorMessage>
+        <name>Number_of_Screens_Needed_Required_for_AV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Pickup Address is required to process AV Requests --></errorMessage>
+        <name>Pickup_Address_Required_for_AV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Products to be Demo&apos;d is required to process Demo Requests --></errorMessage>
+        <name>Products_to_be_Demod_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Projector Stands Needed is required to process AV Requests --></errorMessage>
+        <name>Projector_Stands_Needed_Required_for_AV</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Screen Size is required to process AV Requests --></errorMessage>
+        <name>Screen_Size_Required_for_AV_Requests</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Solution Architect Needed? is required to process Demo Requests --></errorMessage>
+        <name>Solution_Architect_Needed_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Total Number of Attendees is required to process Demo Requests --></errorMessage>
+        <name>Total_Number_of_Attendee_Required</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Will AV Company setup or just drop off? is required to process AV Requests --></errorMessage>
+        <name>Will_AV_Company_setup_or_just_drop_off</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Will AV Company tear down screens? is required to process AV Requests is required to process AV Requests --></errorMessage>
+        <name>Will_AV_Company_tear_down_screens</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Demo_Planning_Document --></label>
+        <name>Demo_Planning_Document</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Standard_Full_Day_911_CAD_Mobile_Agenda --></label>
+        <name>Standard_Full_Day_911_CAD_Mobile_Agenda</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Standard_Full_Day_CAD_Mobile_Agenda --></label>
+        <name>Standard_Full_Day_CAD_Mobile_Agenda</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Standard_Full_Day_RMS_Agenda --></label>
+        <name>Standard_Full_Day_RMS_Agenda</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Standard_Full_Day_RMS_Agenda_with_Jail --></label>
+        <name>Standard_Full_Day_RMS_Agenda_with_Jail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Standard_Half_DayRMS_Agenda --></label>
+        <name>Standard_Half_DayRMS_Agenda</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Standard_Half_Day_CAD_Mobile_Agenda --></label>
+        <name>Standard_Half_Day_CAD_Mobile_Agenda</name>
+    </webLinks>
+</CustomObjectTranslation>

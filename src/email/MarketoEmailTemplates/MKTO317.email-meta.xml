@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer_Announcement_SupportPhonesDown.Email</name>
+    <style>none</style>
+    <subject>Customer Announcement - Phone Support System Temporarily down</subject>
+    <textOnly>Customer Annoucement
+
+TriTech Customers:
+
+We are currently experiencing technical difficulties with our phone support system. If you have an issue, please email us at imcsupport@tritech.com &lt;mailto:imcsupport@tritech.com&gt; or use the chat on myimc.com.
+
+If it is after-hours, use the on-call support as normal.
+
+Thank you for your patience as our IT personnel fix this problem.
+
+Shane Birch
+Technical Support Supervisor – IMC | Decorah, IA
+TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

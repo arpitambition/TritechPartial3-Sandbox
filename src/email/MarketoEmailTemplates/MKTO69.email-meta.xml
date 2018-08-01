@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CustomerGolfTournament_100411.ReminderEmail_Sept26</name>
+    <style>none</style>
+    <subject>Help bring back the Imc Golf Tournament with a Bang!</subject>
+    <textOnly>Registration Deadline: Today, September 27, 2011
+Join us at the Imc Golf Tournament October 5th
+
+
+For those of you who like to play golf, whether you are a duffer like myself or have a low-handicap with a shot at winning a closest-to-the-pin contest, I want to ask for your support in bringing back the Imc Golf Tournament on October 5th.
+
+In the past this was a big event, but for various reasons, corporate pulled the plug and we have not held the tournament in three years. In the short time that I have been at Imc, I have heard from several customers that this was one of their favorite Imc events.
+  
+We have lined up some great sponsors including Carfax, Priority Dispatch, Powerphone and TacTech.  Now we just need some golfers to complete the event.
+
+If you have a foursome - that is great, but we will certainly pair you up with another group if you cannot field an entire team. This is your chance to multitask and do six things at once:
+1.    Have fun!
+2.    Meet with the management and sales team at Imc in a relaxed environment. We will be discussing what’s new at Imc. 
+3.    Enjoy a nice day - the weather forecast is for the mid 60’s, so it is should be an awesome day for golf.
+4.    Pick up some golf swag.
+5.    Win cash and prizes.
+6.    This year we will be donating any proceeds to charity. We have selected the Leary Firefighter Fund (http://www.learyfirefighters.org/how-you-can-help/overview/) and Concerns of Police Survivors (http://www.natonalcops.org/).
+
+If you have any questions, please contact David Bell   via email at david.bell@tritech.com or by phone at 774-239-3722. 
+
+Please register here:
+http://offers.tritech.com/CustomerGolfTournament_100411_Registration.html
+
+Sincerely,
+
+Phil Sisk
+National Sales Director</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

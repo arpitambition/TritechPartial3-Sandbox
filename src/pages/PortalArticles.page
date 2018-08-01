@@ -1,0 +1,199 @@
+<apex:page controller="PortalArticleExtension" sidebar="true" action="{!init}" cache="false">
+  <!-- <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" /> 
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" /> -->
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+   
+
+    <!-- prototype.js/effects.js/vote.js/base.js -->
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-1.10.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-migrate-1.2.1.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/modernizr-2.6.2.min.js')}" />
+    <script type='text/javascript'>
+        function noenter(ev)  {
+            if (window.event && window.event.keyCode == 13 || ev.which == 13) {
+                doSearch();
+                return false;
+             } else {
+                  return true;
+             }
+         }
+         
+         function onCompleteOfPaging() {
+             window.scrollTo(0,200);
+         }
+         
+
+         
+    </script>
+  <apex:sectionHeader title="" subTitle="Articles" />
+  <apex:form id="eventFormId">
+  <apex:outputPanel id="errorPanel">
+    <apex:pageMessages />    
+  </apex:outputPanel>
+  <apex:actionFunction name="doSearch" action="{!performArticleSearch}" reRender="pblock, pblockResult, errorPanel" status="splashStatus"/>
+  
+  <apex:styleSheet value="{!$Resource.Main}"/>
+    <style>
+        table.tblcls { width: 100%; font-size: 12px; margin: 0 0 15px 0; }
+        table.tblcls tr { border-bottom: 1px solid #acacac; }
+        table.tblcls th { font-weight: bold; }
+        table.tblcls th, table.tblcls td { text-align: left; padding: 5px; }
+    </style>
+    
+    <div class="indent">
+        <div class="kb-head-wrap clearfix">
+            <h3 class="kb-head-left">Search</h3>
+            <p class="kb-head-right">
+            <!-- &#9612; {solid half-box left} -->
+            <!-- &#9616; {solid half-box right} -->
+            </p>
+        </div>
+        <apex:outputPanel id="pblock" styleClass="form-col form-col-kb" layout="block">
+        
+                <div class="form-col-label"><label for="search_criteria">Search Criteria</label></div>
+                <div class="form-col-input"><apex:inputText value="{!searchCriteria}" styleClass="form-styled" onkeypress="return noenter(event);"/></div>
+        
+            <div class="form-col-block-wrap clearfix">
+            <div class="form-col-block">
+                <div class="form-col-label"><label for="defect">Defect</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="defect" value="{!defectSearch}"/></div>
+                <div class="form-col-label"><label for="how_to">How To</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="how_to" value="{!howtoSearch}"/></div>
+                <div class="form-col-label"><label for="tech_advisory">Tech Advisory</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="tech_advisory" value="{!techAdvisorySearch}"/></div>
+                <div class="form-col-label"><label for="ticket_solution">Ticket Solutions</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="ticket_solution" value="{!ticketSolutionsSearch}"/></div>
+                <div class="form-col-label"><label for="video">Videos</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="video" value="{!videoSearch}"/></div>
+            </div>
+            <div class="form-col-block">
+                <div class="form-col-label"><label for="faq">FAQ</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="faq" value="{!faqSearch}"/></div>
+                <div class="form-col-label"><label for="release_notes">Release Notes</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="release_notes" value="{!releaseNotesSearch}"/></div>
+                <div class="form-col-label"><label for="tech_tips">Tech Tips</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="tech_tips" value="{!techTipsSearch}"/></div>
+                <div class="form-col-label"><label for="user_manuals">User Manuals</label></div>
+                <div class="form-col-input"><apex:inputCheckbox id="user_manuals" value="{!userManualsSearch}"/></div>
+            </div>
+            </div>
+        
+                <!--<div class="form-col-label" style="display: {!IF(productFamilyIMC, 'block','none')}"><label for="imd_filter">Perform Filter</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamilyIMC, 'block','none')}">
+                    <apex:selectList size="1" id="imcFilter" value="{!imcFilter}" >
+                        <apex:selectOptions value="{!IMCFilterValues}" />
+                    </apex:selectList>
+                </div>-->
+        
+                <div class="form-col-label" style="display: {!IF(productFamilyEMS, 'block','none')}"><label for="ems_filter">Respond Filter</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamilyEMS, 'block','none')}">
+                    <apex:selectList size="1" id="emsFilter" value="{!emsFilter}" >
+                        <apex:selectOptions value="{!EMSFilterValues}" />
+                    </apex:selectList>
+                </div>
+        
+                <div class="form-col-label" style="display: {!IF(productFamilyVisiNet, 'block','none')}"><label for="visinet_filter">Inform Filter</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamilyVisiNet, 'block','none')}">
+                    <apex:selectList size="1" id="visiNetFilter" value="{!visiNetFilter}" >
+                        <apex:selectOptions value="{!VisiNetFilterValues}" />
+                    </apex:selectList>
+                </div>
+        
+                <div class="form-col-label" style="display: {!IF(productFamilyVisionAIR, 'block','none')}"><label for="visionair_filter">VisionAIR Filter</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamilyVisionAIR, 'block','none')}">
+                    <apex:selectList size="1" id="visionAIRFilter" value="{!visionAIRFilter}" >
+                        <apex:selectOptions value="{!VisionAIRFilterValues}" />
+                    </apex:selectList>
+                </div>
+                
+                <div class="form-col-label" style="display: {!IF(productFamily911, 'block','none')}"><label for="x911_filter">911 Filter</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamily911, 'block','none')}">
+                    <apex:selectList size="1" id="x911_filter" value="{!x911Filter}" >
+                        <apex:selectOptions value="{!x911FilterValues}" />
+                    </apex:selectList>
+                </div>
+                
+                <div class="form-col-label" style="display: {!IF(productFamilyTiburon, 'block','none')}"><label for="tiburon_filter">Tiburon</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamilyTiburon, 'block','none')}">
+                    <apex:selectList size="1" id="tiburon_filter" value="{!tiburonFilter}" >
+                        <apex:selectOptions value="{!tiburonFilterValues}" />
+                    </apex:selectList>
+                </div>
+                
+                <!--<div class="form-col-label" style="display: {!IF(productFamilyZuercher, 'block','none')}"><label for="zuercher_filter">Zuercher</label></div>
+                <div class="form-col-input" style="display: {!IF(productFamilyZuercher, 'block','none')}">
+                    <apex:selectList size="1" id="zuercher_filter" value="{!zuercherFilter}" >
+                        <apex:selectOptions value="{!zuercherFilterValues}" />
+                    </apex:selectList>
+                </div>-->
+                
+                <div class="form-col-submit">
+                    <apex:commandButton value="Search" action="{!performArticleSearch}" styleClass="btn btn-success" reRender="pblock, pblockResult, errorPanel" status="splashStatus"/>
+                    <apex:actionstatus id="splashStatus" dir="RTL"> 
+                         <apex:facet name="start"> 
+                             <apex:image url="/img/loading.gif"/>
+                         </apex:facet>
+                    </apex:actionstatus>
+                </div>
+        
+        </apex:outputPanel>
+    </div>
+    <apex:outputPanel id="pblockResult" layout="block">
+    <div class="borderbox-blue borderbox-wide-margin-bottom clearfix" style="display: {!IF(foundArticles.size > 0, 'block','none')}">
+        <div class="borderbox-header">Results</div>
+        <div class="borderbox-inner">
+        <table class="tblcls">
+            <tbody><tr>
+                <th>
+                    <apex:commandLink value="Article Title" action="{!toggleSort}" styleClass="{!IF(sortField=='Article Title',IF(sortDir='asc','icon-sort-asc','icon-sort-desc'),'')}" rerender="pblockResult" status="splashStatus">
+                        <apex:param name="sortField" value="Article Title" assignTo="{!sortField}"/>
+                    </apex:commandLink>
+                </th>
+                <th>
+                    <apex:commandLink value="Type" action="{!toggleSort}" styleClass="{!IF(sortField=='Type',IF(sortDir='asc','icon-sort-asc','icon-sort-desc'),'')}" rerender="pblockResult" status="splashStatus">
+                        <apex:param name="sortField" value="Type" assignTo="{!sortField}"/>
+                    </apex:commandLink>
+                </th>
+                <th>
+                    <apex:commandLink value="Published Date" action="{!toggleSort}" styleClass="{!IF(sortField=='Published Date',IF(sortDir='asc','icon-sort-asc','icon-sort-desc'),'')}" rerender="pblockResult" status="splashStatus">
+                        <apex:param name="sortField" value="Published Date" assignTo="{!sortField}"/>
+                    </apex:commandLink>
+                </th>
+            </tr>
+            <apex:repeat id="pgTableId" value="{!foundArticles}" var="article" >
+                <tr>
+                    <td>
+                        <apex:commandLink value="{!article.articleTitle}" action="{!redirectToArticle}">
+                            <apex:param name="articleId" value="{!article.articleId}" assignTo="{!redirectArticleId}"/>
+                        </apex:commandLink><br/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{!article.articleType}"/>
+                    </td>
+                    <td>
+                        <apex:outputText value="{0,date,MM/dd/yyyy}">
+                          <apex:param value="{!article.articlePublishDate}" />
+                        </apex:outputText>
+                    </td>
+                </tr>
+            </apex:repeat>
+        </tbody></table>
+        <apex:outputPanel rendered="{!foundArticles.size > 0}">
+            <span class="paginate-records">{!recordShowing}</span>
+            <span class="paginate-page">
+                <apex:commandButton title="Previous" value="«" styleClass="btn btn-success btn-mini" reRender="pblockResult" action="{!goToPreviousPage}" disabled="{!previousPage}" oncomplete="onCompleteOfPaging();" status="pageStatus"/>
+                 {!pageShowing} 
+                <apex:commandButton title="Next" value="»" styleClass="btn btn-success btn-mini" reRender="pblockResult" action="{!goToNextPage}" disabled="{!nextPage}" oncomplete="onCompleteOfPaging();" status="pageStatus"/>
+            </span>
+            <apex:actionstatus id="pageStatus" dir="RTL"> 
+                <apex:facet name="start"> 
+                    <apex:image url="/img/loading.gif"/>
+                </apex:facet>
+            </apex:actionstatus>
+        </apex:outputPanel>
+        
+        </div>
+    </div>
+    </apex:outputPanel>
+  </apex:form>
+</apex:page>

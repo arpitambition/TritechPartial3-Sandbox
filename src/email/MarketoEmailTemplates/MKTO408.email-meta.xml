@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechAnnouncesGA-InformIQ5.1.Email</name>
+    <style>none</style>
+    <subject>TriTech Announces General Availability of Inform IQ 5.1</subject>
+    <textOnly>Press Release
+TriTech Announces General Availability of Inform IQ 5.1   
+
+New version of public safety intelligence and analytics tool includes pin mapping and report writer enhancements. 
+
+SAN DIEGO, CA (October 1, 2012) – TriTech Software Systems &lt;http://www.tritech.com/&gt; (TriTech) announces the release of an updated version of Inform IQ 5.1, its public safety intelligence 
+and analytics tool. Hot off the heels of its initial product launch earlier this year, this new version includes two major components, instant results mapping and advanced report building, to facilitate the interaction with data in a simple, intuitive way to the user.    
+
+Designed exclusively to meet the unique requirements of communication centers, law enforcement, fire, and EMS agencies, Inform IQ aggregates data from across the public safety enterprise and provides investigative search, notifications, reporting, and data analysis to support informed 
+decision making. Inform IQ 5.1 integrates with Google MapsTM to create an electronic pin map of addresses relevant to your search results.  While many crime analysis applications focus solely on RMS data, the pin mapping capabilities in IQ gather data from 9-1-1, CAD, RMS, and Jail applications for a 
+‘big picture’ view and saves users countless hours in integrating different data sources and reports. The new Report Writer in Inform IQ 5.1 allows users to create logical groups of their data and build a report exactly how they want to see it through simple drag and drop action.   
+
+“Public safety personnel work in a fast-paced environment and require information to be easily accessible and digestible,” says Scott MacDonald, Senior Director of Product Management. “Supporting multiple browsers, device types and operating systems including iOS, Android and Windows, Inform IQ makes search, reporting, and analysis quick and intuitive for the everyday user. This product release is an indicator of our continued direction for Inform IQ – to focus on bringing disparate data together easily in multiple ways that are meaningful to the user whether through a map, dashboards, or reports.”   
+
+TriTech will be providing demonstrations of Inform IQ 5.1 at the International Association of Chiefs of Police Conference (Booth number 2425) in San Diego, CA from September 30 through October 2, 2012.
+
+_______________
+
+About TriTech Software Systems
+TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire, or EMS.
+
+TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care 
+reporting, and billing.
+
+For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Top 10</name>
+    <style>none</style>
+    <subject>TriCON - Top 10 Reasons to Attend</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Top 10 Reasons to Attend TriCON
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+10. Premier San Diego location along the scenic waterfront and steps away from the popular Gaslamp Quarter &lt;http://www.gaslamp.org&gt;
+
+9. Corporate keynote sessions to hear first-hand the future direction of the company and products
+
+8.  Hands on training to refine your current skills
+
+7. 1-on-1 face time with Client Services
+
+6. Fun social networking activities every night of the conference
+
+5.  Interactive and insightful NG9-1-1 general session
+
+4. Discover the latest technology and services in our exhibit hall
+
+3. Meet with key TriTech personnel to directly provide your input
+
+2. Network with peers who share the same software and experiences
+
+#1 - Educational sessions to inspire innovation and improvements to break barriers at your agency.  
+
+REGISTER TODAY – Register by August 15 and SAVE!
+
+ &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+Conference Details
+Resources to Download:
+
+TriCON Justification Letter &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+
+Detailed Agenda &lt;http://offers.tritech.com/rs/ortivusna/images/TriCON2012_Agenda_Public_07192012.pdf&gt;
+Location: 
+
+Hilton San Diego Bayfront
+
+San Diego, California
+
+www.hiltonsandiegobayfront.com &lt;http://www.hilton.com/en/hi/groups/personalized/S/SANCCHH-TTSS-20120924/index.jhtml?WT.mc_id=POG&gt;
+
+Registration: 
+
+$695 (Early-Bird price)
+
+Additional discounts available for first time attendees and groups of four (4) or more from the same organization.
+
+
+
+
+
+ &lt;http://www.cvent.com/d/8cqly7/4W&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

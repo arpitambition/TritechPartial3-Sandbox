@@ -1,0 +1,14 @@
+*** CHANGED STATUS NOTIFICATION ***  
+
+The following status has changed:
+
+Ticket #:  {!Case.CaseNumber} 
+Account:  {!Case.Account}
+Contact:  {!Case.Contact}
+Subject:  {!Case.Subject}
+Status: {!Case.Status}
+
+Description:  {!Case.Description}
+
+
+Click on the link to access the case:  {!Case.Link}

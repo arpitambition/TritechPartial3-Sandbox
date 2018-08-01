@@ -1,0 +1,25 @@
+Your Solutions Architect assistance request has been completed.
+
+Write-In Title: {!Write_In__c.Title__c}
+CWI#:  {!Write_In__c.Name}
+
+Assigned to:  {!Write_In__c.Assigned_To__c}
+Completed by:  {!Write_In__c.Completed_By__c}
+Task Completed:  {!Write_In__c.Task_Complete__c}
+Task Cancelled:  {!Write_In__c.Task_Cancelled__c}
+
+Agency: {!Write_In__c.Agency__c}
+State:  {!Write_In__c.Agency_State__c}
+Opportunity:  {!Write_In__c.Opportunity_Name__c}
+
+Requested By:  {!Write_In__c.TriTech_Requestor__c}
+Date Needed: {!Write_In__c.Needed_By_Date__c}
+Request Type:  {!Write_In__c.Request_Type__c}
+
+TriTech Products Involved:  {!Write_In__c.TriTech_Products_Involved__c}
+
+Describe Objective of Needed Support:
+{!Write_In__c.Describe_Objective_of_the_Needed_Support__c}
+
+
+Click this link to access the Write-In: {!Write_In__c.Link}

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Before You Go</name>
+    <style>none</style>
+    <subject>Checklist:  Before You Come to San Diego</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Things to Know Before You Go
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+Hello {{lead.First Name:default=TriCON Attendee}},
+
+With just days before the start of TriCON, below are a few tips to help you pack, plan, and prepare to fully capitalize on your TriCON experience. 
+
+
+ - Plan Your Schedule with TriCON Mobile App - Download the &quot;EventBoard&quot; app and select the TriCON event guide to build your own personal agenda. 
+ - 1 on 1 with Support - Don&apos;t forget to schedule some time in the 1-on-1 room and work alongside technical support. 
+ - Get connected - Bring lots of business cards or download mobile apps (LinkedIn, Facebook, Bump, Evernote) on your smartphone to collect contact information to grow your professional TriTech network.
+ - Exhibit Hall - We have some fantastic sponsors showcasing the latest hardware and software in public safety. Click here &lt;http://www.tritech.com/news/tricon/tricon-sponsors&gt; to take a closer look at all of our sponsors and make sure to schedule time with them accordingly. 
+ - Attire - Comfortable and casual clothing is recommended. Don&apos;t forget to include a sweater or light jacket in case the temperature in the rooms is too cool for you or if the temperatures drop in the evening. 
+ - Transportation - We recommend taking a taxi or shuttle to get from the airport to the hotel. The Hilton San Diego Bayfront is 3 miles from the airport and steps from the restaurants, shopping, and attractions of San Diego&apos;s Gaslamp District, so you won&apos;t need a rental car. 
+
+
+
+All of us at TriTech Software Systems are looking forward to seeing you next week. If you have any questions or need assistance, please feel free to contact Jenny Clavero in the TriTech Marketing Department on her mobile (858) 922-6676 or email tricon@tritech.com &lt;mailto:tricon@tritech.com&gt;. 
+
+Safe Travels!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

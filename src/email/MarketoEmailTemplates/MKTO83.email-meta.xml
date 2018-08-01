@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.Invitation</name>
+    <style>none</style>
+    <subject>Webinar:  Using Fusion ePCR with VisiCAD</subject>
+    <textOnly> 
+Webinar:  Using Fusion ePCR with VisiCAD   
+ 
+Fusion ePCR is a pre-hospital EMS incident documentation and data integration system that will provide patient caregivers with the electronic means to streamline the collection of pre-hospital EMS incident data both in the field and in the office. The system produces a complete, accurate, and legible electronic patient care record, thereby reducing liability as well as improving the quality of patient care and reimbursement. 
+
+Join Charlie Barry, Sr. Product Manager for Fusion ePCR, for an informational webinar on using Fusion ePCR with VisiCAD. In this webinar you&apos;ll discover: 
+
+Why Fusion ePCR was selected as a JEMS Hot Product 
+The benefits and features of Fusion ePCR 
+The data elements being transferred from Fusion ePCR to VisiCAD 
+The Fusion ePCR / VisiCAD integration in action 
+
+If you are unable to view the &quot;Register Now&quot; button above,
+copy and paste the URL into your internet browser:
+http://offers.tritech.com/VNS_FusionePCRIntegrationwithVisiCAD_Registration.html
+
+ 
+DATE: 
+Wednesday, October 26
+
+TIME: 
+10 AM Pacific  l  11 AM Mountain l Noon Central  l 1 PM Eastern
+
+
+PRESENTER: 
+TriTech&apos;s Charlie Barry, Sr. Product Manager of Fusion ePCR
+
+
+ 
+
+
+Questions?
+Jenny Clavero in TriTech Marketing
+(858) 799-7362 
+jenny.clavero@tritech.com 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

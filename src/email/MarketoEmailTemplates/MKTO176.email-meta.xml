@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTech.com Announcement.911-Inc website transition</name>
+    <style>none</style>
+    <subject>Quick Response Support Portal Transition</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot;&gt;   &lt;img width=&quot;23&quot; height=&quot;16&quot; alt=&quot;&quot; src=&quot;http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg&gt;
+Quick Response Support Portal Transition
+February 13, 2012
+Dear {{lead.First Name:default=Customer}},
+
+
+
+Welcome to TriTech.com - a VisionAIR/ TriTech company site and gateway to your Quick Response Support Portal. As we continue transitioning under the TriTech Software Systems banner, we are transitioning out of the 911-Inc.com website to TriTech.com. On February 15, 2012, the 911-Inc.com website will no longer be available.
+
+Customer Support is available to you in three ways.
+
+
+	- Call 800-987-0911
+	- Login to your customer support portal here &lt;https://na3.salesforce.com/sserv/login.jsp?orgId=00D300000000if7&gt;
+	- Or, access customer support on TriTech.com &lt;http://www.tritech.com&gt; by selecting “Client Login” and then clicking on “Quick Response”
+
+
+
+It is important to note that the customer support portal/Quick Response site that you will be logging into is a VisionAIR, a TriTech company, webpage that has been set up especially for your use.
+
+TriTech is committed to delivering the best customer service in the industry. Please don’t hesitate to contact us if you have questions or need assistance.
+
+ 
+
+Sincerely,
+
+Mike Lyons
+
+Vice President of Operations | Castle Hayne, North Carolina
+
+TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,2 @@
+<apex:page standardController="Case" extensions="TicketViewController" action="{!autoRunToClose}">
+</apex:page>

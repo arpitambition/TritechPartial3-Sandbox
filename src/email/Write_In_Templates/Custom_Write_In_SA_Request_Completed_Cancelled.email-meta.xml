@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email Alert for Completed/Cancelled Custom write-in request for SA Assistance requests</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Custom Write-In SA Request Completed/Cancelled</name>
+    <style>none</style>
+    <subject>Solutions Architect Assistance Completed or Cancelled: {!Write_In__c.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

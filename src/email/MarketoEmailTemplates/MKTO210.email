@@ -1,0 +1,108 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>TriTech</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="center" alt="TriTech Software Systems" src="http://offers.tritech.com/rs/ortivusna/images/TSS_logo_banner_660x100.png"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:#72bf44; vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="12" height="28" alt="" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png"><br></td>
+<td style="vertical-align:middle; text-align:right; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div id="volume_title" class="mktEditable" ><strong><span style="font-size: 12px;">STAY CONNECTED</span>&nbsp; <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg" alt="" width="16" height="16"></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg" alt="" width="16" height="16"></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg" alt="" width="16" height="16"></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg" alt="" width="23" height="16"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" alt="" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png"><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:#72bf44; font-size:23px; font-weight:bold; line-height:26px; " ><div id="main_title" class="mktEditable" >2012 User Group Meeting Confirmation</div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" >Monday - April 30, 2012&nbsp; l &nbsp;Grafton PD &nbsp;l&nbsp; Grafton, MA</div>
+</div>
+<br>
+<table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="vertical-align:top; font-size:12px; font-family:Tahoma,Helvetica; color:rgb(69, 85, 95); line-height:19px; " ><div id="main_text" class="mktEditable" ><p style="color: #45555f; font-family: Tahoma, Helvetica; font-size: 12px; font-weight: normal; line-height: 19px;">Hi {{lead.First Name:default=Customer}},</p>
+<p style="color: #45555f; font-family: Tahoma, Helvetica; font-size: 12px; font-weight: normal; line-height: 19px;">Thank you for registering for the following 2012 User Group Meeting - please review the information below:</p>
+<p style="color: #45555f; font-family: Tahoma, Helvetica; font-size: 12px; font-weight: normal; line-height: 19px;"><strong>Name:</strong> {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}<br /><strong>Attendee #2:&nbsp;</strong>{{lead.Contact 1:default=edit me}}<br /><strong>Attendee #3:&nbsp;</strong>{{lead.Contact 2:default=edit me}}<br /><strong>Attendee #4:&nbsp;</strong>{{lead.Contact 3:default=edit me}}<br /><strong>Attendee #5:&nbsp;</strong>{{lead.Contact 4:default=edit me}}&nbsp;<br /> <strong>Service Name:</strong> {{company.Company Name:default=edit me}}<br /><strong>&nbsp;</strong></p>
+<p style="color: #45555f; font-family: Tahoma, Helvetica; font-size: 12px; font-weight: normal; line-height: 19px;"><strong>Registered for:</strong> Grafton, MA User Group<br /><strong>Date:</strong>&nbsp;Monday, April 30,  2012<br /><strong>Time:</strong> 9:00 AM to Noon<br /><strong>Address:</strong> Grafton PD,&nbsp;26 Providence Rd, Grafton MA 01519 (<a href="http://maps.google.com/maps?hl=en&amp;rlz=1C1SKPM_enUS451US470&amp;ix=seb&amp;ion=1&amp;bav=on.2,or.r_gc.r_pw.r_cp.r_qf.,cf.osb&amp;biw=1163&amp;bih=817&amp;q=26+Providence+Rd+,Grafton+MA+01519&amp;um=1&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89e40eeabffee6ff:0x64b1f24997bfaa22,26+Providence+Rd,+Grafton,+MA+01519&amp;gl=us&amp;ei=wX10T4bBF4r30gHqnMn_Ag&amp;sa=X&amp;oi=geocode_result&amp;ct=image&amp;resnum=1&amp;ved=0CCAQ8gEwAA" target="_blank">click here for map</a>)<br /><strong>Available Seats:</strong> 35 Total&nbsp;</p>
+<p style="color: #45555f; font-family: Tahoma, Helvetica; font-size: 12px; font-weight: normal; line-height: 19px;">&nbsp;</p>
+<p style="color: #45555f; font-family: Tahoma, Helvetica; font-size: 12px; font-weight: normal; line-height: 19px;">We look forward to seeing you there!</p></div>
+</td>
+<td style="vertical-align:top; " ><table cellspacing="0" cellpadding="0" border="0" align="right" style="width:100px; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 14px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color: rgb(130, 130, 130); vertical-align: top;"><img width="9" height="21" alt="" src="https://app.marketo.com/images/public-site/email/colCornerNW.png"><br>
+<br></td>
+<td style="padding-left:5px; background-color:rgb(130, 130, 130); font-family:'trebuchet ms'; font-size:17px; font-weight:bold; color:rgb(255, 255, 255); " ><div id="column_title" class="mktEditable" ><p style="text-align: center;">QUESTIONS?</p></div>
+</td>
+<td style="background-color: rgb(130, 130, 130); vertical-align: top; text-align: right;"><img width="9" height="21" alt="" src="https://app.marketo.com/images/public-site/email/colCornerNE.png"><br></td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 14px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="padding:14px; background-color:rgb(255, 255, 255); font-size:12px; font-family:Tahoma,Helvetica; color:#828282; line-height:19px; " colspan="3" ><div style="font-weight:bold; color:#F58220; " ><div id="column_subtitle" class="mktEditable" ><p style="text-align: center;"><span style="color: #72bf44;">If you have questions that you'd like to submit now for discussion at the respective user group meeting that you've registered for, please send them to:</span></p></div>
+</div>
+<br>
+<div id="column_text" class="mktEditable" ><p style="font-weight: normal;"><strong>Cheri Lane<br /></strong>Marketing Communications Manager<br /><a style="color: #72bf44;" href="mailto:cheri.lane@tritech.com">cheri.lane@tritech.com</a></p></div>
+</td>
+</tr>
+<tr>
+<td style="background-color: rgb(241, 241, 241);" colspan="5"><img width="244" height="37" src="https://app.marketo.com/images/public-site/email/colShadow.png"><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9860 Mesa Rim Road, San Diego, CA 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

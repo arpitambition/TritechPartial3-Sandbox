@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UserGroups_2012.Reminder2</name>
+    <style>none</style>
+    <subject>2012 Spring User Group Meetings - It&apos;s not too late to register!</subject>
+    <textOnly>2012 Spring User Group Meetings
+The TriTech Spring User Group Meetings  are about to get underway. 
+It&apos;s not too late to register!
+Dear {{lead.First Name:default=Customer}},
+
+Local user group meetings are your chance to see what is coming from a product standpoint and hear what is going on at TriTech. If you have comments or concerns, this is your chance to address them to the management team.
+
+REGISTER NOW 
+Please copy and paste this link into a web browser: http://offers.tritech.com/UserGroups_2012_Register.html
+
+We hope to see you there,
+
+Phil Sisk
+Vice President of Operations
+TriTech Software Systems | North Grafton, MA 
+
+Leo Hisoire
+Senior Product Manager
+TriTech Software Systems | North Grafton, MA</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

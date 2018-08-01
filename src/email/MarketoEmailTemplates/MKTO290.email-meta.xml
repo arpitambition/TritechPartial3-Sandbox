@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ImcSolutionsSystemManagerTraining_Spring2012.Thank You Email</name>
+    <style>none</style>
+    <subject>Thank you for your registration: System Manager Training</subject>
+    <textOnly>Thank you for your registration!
+
+System Manager Training
+ 
+An official quote from your TriTech representative will be sent and your registration will be completed once it is returned to us with all the proper signatures etc.
+
+Training for advanced IMC TriTech users designated as primary/lead IMC Solution “guru” for department or agency.
+
+Training Location:
+TriTech Software Systems
+13 Centennial Drive
+North Grafton, MA 01536
+
+Questions? Contact Coleen Storck 774-551-9100 | coleen.storck@tritech.com
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

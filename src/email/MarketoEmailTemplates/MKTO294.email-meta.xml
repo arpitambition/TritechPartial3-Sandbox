@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PR_Inform_Investigate_and_Analytics_Product_Launch.Email</name>
+    <style>none</style>
+    <subject>TriTech Software Systems Announces State-of-the-Art Intelligence and Analytics for Public Safety</subject>
+    <textOnly>Press Release
+TriTech Software Systems Announces State-of-the-Art Intelligence and Analytics for Public Safety
+ 
+ Inform Investigate and Inform Analytics provide real-time access to critical information for complex searching, reporting, analysis, and sharing
+ 
+ June 7, 2012
+SAN DIEGO, CA (June 7, 2012) – TriTech Software Systems (TriTech) today announced the release of two powerful new tools to meet the requirements of a new era of public safety information access. Inform Investigate is designed to accept information from across the public safety enterprise, collect it in real-time, and assemble it in a data warehouse built specifically for the current and next generation needs of  law, fire and EMS professionals. This powerful new search engine enhanced for public safety needs provides access to aggregated CAD, 9-1-1, RMS, and jail data via a secure web browser from a variety of desktop, laptop, and tablet devices. 
+
+“We want to bring the advanced Business Intelligence capabilities used by companies and consumers today to public safety professionals,” said Scott MacDonald, Senior Director of Product Management for TriTech. “We recognize that the need to search, analyze, and proactively receive notification of new information is not limited to Analysts and Command Staff in a department. The need is shared by dispatchers, detectives, responders, and all roles within and across agencies.” 
+
+With security settings that provide agencies control over what is shared, Inform Investigate users can subscribe to instant alerts that deliver text message, email and online notifications when people, vehicles, and even specific words are entered into any public safety application. Access to this information is greatly enhanced with the addition of the Inform Analytics tool set. Through ready-to-use visual dashboards and reports, data is analyzed and presented in meaningful graphics and interactive charts and grids to provide transparency into operational goals and key performance indicators. TriTech also offers additional authoring tools to create different representations of information specific to an agency’s needs.
+
+“Drawing on our experience and expertise, we have developed Inform Investigate and Analytics exclusively to meet the operational, financial and informational sharing needs of public safety,” said MacDonald.
+_______________
+
+About TriTech Software Systems
+ TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire or EMS.
+ 
+ TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting and billing.
+ 
+ For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

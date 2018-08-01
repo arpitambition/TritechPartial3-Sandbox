@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal PMO (BA or PM) alert trigger for notification of CS and WO Ticket status updates</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>TA - Ticket Status PMO Notification</name>
+    <style>freeForm</style>
+    <subject>PMO: {!Case.Account } - {!Case.CaseNumber} - Status Updates</subject>
+    <textOnly>This is an internal update notification from TriTech Software Systems.
+
+
+
+Account Name:  {!Case.Account }
+Assigned CAD BA: {!Account.Assigned_BA_1__c}
+Assigned Mobile BA: {!Account.Assigned_BA_2__c}
+Assigned RMS BA: {!Account.Assigned_BA_3__c}
+Assigned FBR BA: {!Account.Assigned_BA_4__c}
+Assigned PM: {!Account.Assigned_PM__c}
+Assigned PM #2: {!Account.Assigned_PM_2__c}
+
+Incident Details:
+
+Incident ID:
+
+{!Case.CaseNumber}
+
+
+Click here to view the ticket: {!Case.Link}
+
+Issue Summary:
+
+{!Case.Short_Issue_Summary_WMP__c}
+
+Issue Details:
+
+{!Case.Description}
+
+
+Current Owner:
+
+{!Case.OwnerFullName}
+
+Product:
+
+{!Case.Product}
+
+Status:
+
+{!Case.Status}
+
+Priority:
+
+{!Case.Priority}
+
+
+You can review the ticket here:  {!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

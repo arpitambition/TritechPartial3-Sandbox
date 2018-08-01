@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.Webinar-This Week</name>
+    <style>none</style>
+    <subject>Register Now:  Using Fusion ePCR with VisiCAD Webinar</subject>
+    <textOnly> 
+ This Week
+ Using TriTech&apos;s Fusion ePCR with VisiCAD   
+ 
+Join Charlie Barry, TriTech&apos;s Sr. Product Manager, to learn more about Fusion ePCR and its integration to VisiCAD.  The presentation will provide a live demonstration of the integration as well as a high level overview of TriTech electronic patient care reporting solution.  
+
+DATE: 
+Wednesday, October 26
+
+TIME: 
+10 AM Pacific  l  11 AM Mountain l Noon Central  l 1 PM Eastern
+
+PRESENTER: 
+TriTech&apos;s Charlie Barry, Sr. Product Manager of Fusion ePCR
+
+Register Now: http://offers.tritech.com/VNS_FusionePCRIntegrationwithVisiCAD_Registration.html
+
+
+ 
+
+
+
+QUESTIONS?
+Jenny Clavero
+TriTech Marketing
+(858) 799-7362 
+jenny.clavero@tritech.com 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

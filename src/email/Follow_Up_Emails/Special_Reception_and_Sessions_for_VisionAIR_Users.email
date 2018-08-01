@@ -1,0 +1,23 @@
+Hi {!Contact.FirstName},
+
+I thought I'd send you a personal invite to TriCON coming up on February 26 - March 1. As a VisionAIR user, there is still so much value for you. I wanted to take this opportunity for you to be aware of the opportunities that are available to you:
+
+- VisionCAD / Mobile Tips and Tricks with the Chuck Leonard, Technical Support Lead for VisionAIR products
+- RMS Search with Karrie Weddle, Customer Success Liaison who is a subject matter expert on RMS
+- Two hour session on RMS Ad Hoc Reporting with Karrie Weddle whose expertise in RMS Reporting is second to none
+- VisionCAD/Mobile product update with Product Manager Erica Mathis
+- Case Study: Watertown Police Department (CT) Transition from VisionAIR to Inform
+- Case Study: City of Rock Hill (SC) Transition from VisionAIR to Zuercher Technologies
+
+When not in sessions, don't forget that you can spend time in the 1-on-1 center to troubleshoot issues or get personalized training. Also, the exhibit hall will give you the opportunity to meet with over 20 exhibitors and receive in depth product demonstrations of Inform and Zuercher solutions. 
+
+SPECIAL RECEPTION:  We are also hosting a special reception for VisionAIR users only on Tuesday 2/28 from 5 PM to 7 PM. This will give you an opportunity to network with other VisionAIR users as well as members of the Zuercher Leadership Team and other customers who have migrated to Inform. 
+
+Because I think attending TriCON will be highly valuable to you and your agency, use my special discount code "AMLOVE"  to receive an additional $100 off registration fee. 
+
+If you have any questions about the event, let's talk!
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.CompanyName}
+{!User.Phone}  I  {!User.Email}

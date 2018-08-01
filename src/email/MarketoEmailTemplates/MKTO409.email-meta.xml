@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechIntroducesGoogleMaps_IACP.Email</name>
+    <style>none</style>
+    <subject>See TriTech Software Systems’ Google Maps Interface at IACP</subject>
+    <textOnly>Press Release
+TriTech Software Systems Introduces Google Maps into Public Safety Software Suite
+
+The Google Maps Interface provides quick, accurate information to dispatch and field personnel.
+SAN DIEGO, CA (October 1, 2012) – TriTech Software Systems &lt;http://www.tritech.com/&gt; (TriTech) is excited to offer the power of Google Maps™ through their public safety software suite. The Perform (formerly IMC) product line – including Mobile, AVL, CAD, Fire RMS, and Law RMS – is the first TriTech software suite to offer the Google Maps functionality. Designed specifically for the current and next generation needs of communication, law, and fire professionals, this familiar and powerful new tool enhances safety, decision making, and situational awareness for emergency response. 
+
+&quot;I have nothing but good things to say about the Google Maps Interface with Perform AVL and Perform CAD,&quot; said Bob Jordan, Deputy Sheriff with Rockingham County, NH. &quot;It is a fantastic tool. Our dispatchers also love it.&quot;
+
+Dispatchers using the Google Maps Interface with Perform CAD are able to make more informed unit recommendations based on actual location versus last known location of their available units. With AVL-equipped units in the field and the fully integrated Google Maps functionality of the CAD system, dispatchers know exactly where the closest unit is and no longer need to call up a separate program to get accurate locations, verify call locations, or determine where to send 
+responding units. Helpful information, such as integration with Google traffic data and the “number of calls” view that displays high call volumes at a particular location, assists dispatchers in deploying resources more efficiently and effectively. 
+
+ The real-time display of unit location via the Google Maps interface provides a low cost automatic vehicle locator (AVL) system for efficient 
+mobile unit tracking. When installed on a laptop that is equipped with a GPS device, AVL transmits location data wirelessly to the Google Maps display of CAD, enabling easy and accurate location for rapid dispatch and minimal response times. 
+
+ “The safety impact of accurate, real-time information extends to many levels,” explained TriTech Senior Product Manager, Leo Hisoire. “For example, tracking officer, back-up assistance, and first responder units is important in hot pursuits, officer distress situations, and greater alarm incidents when dispatchers need to increase the severity of the response to an incident. Field personnel in AVL-equipped units are able to view their current position and the location of all nearby response vehicles on a map to provide better information for decision making and proper course of action. Dispatchers are able to help enhance officer safety during high risk responses, such as raids, by getting street-level views of the area, street, houses, nearby utilities, etc.” 
+
+ The ‘big picture’ view of units also enables supervisors to allocate resources proactively to ensure appropriate field coverage for more streamlined and efficient operations. Public safety executives are able to generate much more accurate maps of historical calls for service to justify their communications center budgets.  
+
+Stop by booth #2425 at the International Association of Chiefs of Police (IACP) Conference in San Diego, September 30-October 2, to learn more about the Google Maps Interface and other TriTech Software offerings.
+
+_______________
+
+About TriTech Software Systems
+TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire, or EMS.
+
+TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care 
+reporting, and billing.
+
+For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends a letter to the customer when you need to schedule an upgrade with Engineering.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>TE Upgrade Letter</name>
+    <style>freeForm</style>
+    <subject>Ticket {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+
+The {!Account.Name}&apos;s Total Enforcement &lt;production or training&gt; system is scheduled for an upgrade on &lt;Date and Time&gt;. Please follow these steps for the upgrade to occur as smoothly as possible.
+
+- Ensure all users exit the TE application prior to &lt;Date and Time&gt;
+- Send a confirmation email, reply all to this group, that users have exited TE when that occurs
+- Upon receipt of an email of the completion of the update, you can resume the use of TE and log back into the software
+
+Sincere Regards,
+
+Management
+Zuercher TE Technical Support</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

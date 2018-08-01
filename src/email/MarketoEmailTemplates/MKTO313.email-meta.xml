@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Version5 Training.Reminder (Tomorrow) - Dallas</name>
+    <style>none</style>
+    <subject>Reminder:  VisiCAD 5.2 Training Tomorrow (6/28)</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+VisiCAD 5.2 Training
+Complimentary regional training - Tomorrow
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ This is your confirmation that you are registered for the VisiCAD 5.2 Regional Training.  Another reminder email will be sent to you the day before training.  We look forward to seeing you.
+
+NOTE:  Start time has changed to 9 AM.  With a number of clients driving into town the morning of the training, we have adjusted for a later start time.  
+
+Date and Location:
+
+
+ 
+
+Thursday, June 28
+Dallas Police / Fire Department
+1500 Marilla St.
+Dallas, TX  75201
+Click here to view map &lt;http://g.co/maps/8q3cu&gt;
+
+ 
+
+ 
+
+Agenda: 
+
+9:00 AM - 12:00 NOON
+ VisiCAD 5.2 Functionality and Demonstration
+
+12:00 NOON - 1:30 PM
+ Complimentary Lunch will be provided
+
+1:30 PM - 3:30 PM
+ System Planning and Question and Answer Session with Technical Services
+
+Bonus:
+ Continental breakfast and lunch will be provided.
+
+ 
+
+Question?
+ Gladys Ferguson, Training Supervisor
+ TriTech Software Systems
+ (858) 799-7383
+ gladys.ferguson@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

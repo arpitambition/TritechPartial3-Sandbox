@@ -1,0 +1,27 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<div style="font-family: Arial,Sans-Serif;" align="center">
+<table style="BORDER-BOTTOM: #333333 1pt solid; BORDER-LEFT: #333333 1pt solid; WIDTH: 100%; BORDER-TOP: #333333 1pt solid; BORDER-RIGHT: #333333 1pt solid; mso-cellspacing: 0in; mso-border-alt: solid #333333 .75pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 0in 0in 0in" class="MsoNormalTable" border="1" cellpadding="0" cellspacing="0" width="100%">
+<tbody>
+<tr style="HEIGHT: 21pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<td style="BORDER-BOTTOM: #333333; BORDER-LEFT: #333333; PADDING-BOTTOM: 0in; PADDING-LEFT: 7.5pt; PADDING-RIGHT: 0in; BACKGROUND: #707bbe; HEIGHT: 21pt; BORDER-TOP: #333333; BORDER-RIGHT: #333333; PADDING-TOP: 0in">
+<p style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class="MsoNormal"><font size="4"><b><span style="color: white; font-size: 9pt;">Informational Email<!--?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /--><o:p></o:p></span></b></font></p></td></tr>
+<tr style="mso-yfti-irow: 1; mso-yfti-lastrow: yes">
+<td style="BORDER-BOTTOM: #333333; BORDER-LEFT: #333333; PADDING-BOTTOM: 7.5pt; PADDING-LEFT: 7.5pt; PADDING-RIGHT: 7.5pt; BACKGROUND: white; BORDER-TOP: #333333; BORDER-RIGHT: #333333; PADDING-TOP: 7.5pt">
+<table style="WIDTH: 100%; BACKGROUND: #cccccc; mso-cellspacing: .7pt; mso-yfti-tbllook: 1184; mso-padding-alt: 2.25pt 2.25pt 2.25pt 2.25pt" class="MsoNormalTable" border="0" cellpadding="0" cellspacing="1" width="100%">
+<tbody>
+<tr style="mso-yfti-irow: 0; mso-yfti-firstrow: yes">
+<td style="border-width: medium; border-style: none; border-color: rgb(240, 240, 240); padding: 2.25pt; width: 1.25in; background: none repeat scroll 0% 0% rgb(235, 235, 235);" width="120">
+<p style="TEXT-ALIGN: right; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class="MsoNormal" align="right"><font size="4"><b><span style="color: black; font-size: 8.5pt;">Client:<o:p></o:p></span></b></font></p></td>
+<td style="border-width: medium; border-style: none; border-color: rgb(240, 240, 240); padding: 2.25pt; background: none repeat scroll 0% 0% white;">
+<p style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class="MsoNormal"><font size="4"><span style="color: rgb(51, 51, 51); font-size: 8.5pt;">{!Case.Account}<o:p></o:p></span></font></p></td></tr>
+<tr style="mso-yfti-irow: 1">
+<td style="border-width: medium; border-style: none; border-color: rgb(240, 240, 240); padding: 2.25pt; width: 1.25in; background: none repeat scroll 0% 0% rgb(235, 235, 235);" width="120">
+<p style="TEXT-ALIGN: right; LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class="MsoNormal" align="right"><font size="4"><b><span style="color: black; font-size: 8.5pt;">Ticket #: <o:p></o:p></span></b></font></p></td>
+<td style="border-width: medium; border-style: none; border-color: rgb(240, 240, 240); padding: 2.25pt; background: none repeat scroll 0% 0% white;">
+<p style="LINE-HEIGHT: normal; MARGIN: 0in 0in 0pt" class="MsoNormal"><font size="4"><span style="color: rgb(51, 51, 51); font-size: 8.5pt;">{!Case.CaseNumber}<o:p></o:p></span></font></p></td></tr>
+
+</tbody></table></td></tr></tbody></table></div><br><br>]]></td>
+</tr>
+</table>

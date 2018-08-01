@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechCloudSoftware_ABC3-Hershey.Email</name>
+    <style>none</style>
+    <subject>See TriTech Software Systems’ Cloud-Based Billing at PWW&apos;s ABC3 Conference</subject>
+    <textOnly>Press Release
+See TriTech Software Systems’ Cloud-Based Billing at PWW&apos;s ABC3 Conference
+SAN DIEGO, CA (October 23, 2012) – TriTech Software Systems &lt;http://www.tritech.com/products/tritech_com&gt; (TriTech) will be featuring and educating the EMS Industry on Cloud-based EMS offerings at Page, Wolfberg, and Wirth’s ABC3 Conference in Hershey, PA this week. TriTech offers Cloud-based and Premise-based solutions for EMS Billing, ePCR, and Computer-Aided Dispatch. TriTech.com Cloud-based options for EMS providers allow anywhere-access to EMS software in a secured environment. Cloud-based options also reduce IT overhead costs, enable a quicker go-live, and offer multiple pricing models to best meet business needs.
+
+Cloud-based computing - also known by names such as SaaS, Online, or web-based - is a commonly accepted method of doing business and more and more EMS providers are choosing this option in their software purchase decisions. TriTech was the first EMS vendor to offer Cloud-based EMS Billing, beginning in 2003. This trend continues to grow and our TriTech EMS team can provide expertise consultation backed by years of experience to help EMS Services “Get on the TriTech.com Cloud.”
+
+“The online version of the TriTech billing program [TriTech.com Billing] is extremely 
+convenient in the unpredictable world of EMS,&quot; said Bill Edson, COO of Middlebury Ambulance Association in Vermont. &quot;It is user-friendly, very easy to learn, allows for fast reimbursement turn-around, and is an affordable option for our billing operations. It was a game changer for our organization.”
+
+
+_______________
+
+About TriTech Software Systems
+TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire, or EMS.
+
+TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting, and billing.
+
+For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software 
+Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

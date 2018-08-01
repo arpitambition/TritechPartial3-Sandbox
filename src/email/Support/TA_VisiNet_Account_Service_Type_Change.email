@@ -1,0 +1,7 @@
+The following Account is now designated as a "Law" service type agency:
+
+Account: {!Account.Name}
+Customer Number:  {!Account.EMS_Customer_Number_WMP__c}
+Service Type:  {!Account.Service_Type__c}
+
+Click on the link to access the Account for reviewt:  {!Account.Link}

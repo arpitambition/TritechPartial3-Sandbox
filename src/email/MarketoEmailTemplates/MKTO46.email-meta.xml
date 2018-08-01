@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>APCO2011-ReshapingFuture.RYF1_Intro</name>
+    <style>none</style>
+    <subject>APCO Follow Up - Reshaping Your Future</subject>
+    <textOnly> APCO Follow Up - Reshaping Your Future
+
+We are honored to have spent time with you at APCO!
+
+
+Conferences are a busy week and we greatly appreciate your visit with TriTech at the recent APCO Conference in Philadelphia, Pennsylvania. We hope you learned how we’re able to help public safety agencies reshape their future in these challenging times. 
+
+
+What do we mean by &quot;Reshaping Your Future?&quot;
+
+
+The public safety industry has changed dramatically within the past five years – budget limitations, increased demands and consolidations. With no end in sight to economic restrictions amidst continued growths in service, agencies have to reshape the way they manage information and conduct operations. We’re providing flexible solutions and proposing new models of operating to help clients reshape the way they manage information to help them focus on what’s important – ensuring public safety. 
+
+
+We’ll be emailing you monthly with case studies reflecting how communications centers are reshaping their operations. Stay tuned for next month’s case study on “City of Loveland: Reshaping the Dispatching Experience through GIS.” 
+
+Congratulations!
+
+
+Jeff Vaughn on Douglas County Sheriff&apos;s Office in Colorado is the lucky winner of iPad 2 drawing at APCO.   
+
+Future of CAD Suggestions
+
+We thank everyone for participating in our ongoing &quot;Future of CAD&quot; promotional campaign.  Below are a few entries that we received: 
+ 
+- Integration of all aspects of communications:  Phone, radio, 9-1-1, text, pic and video messaging
+ 
+- Mobile Applications
+ 
+- Being able to do more on different platforms and be interoperable. 
+ 
+
+
+We received some great entries, so follow us on Facebook where we&apos;ll post other entries we&apos;ve received!
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Durham County Sheriff’s Office - IQ.Email</name>
+    <style>none</style>
+    <subject>Durham County Sheriff’s Office Moves Forward into a New Era of Information Access with Inform IQ</subject>
+    <textOnly>Press Release
+Durham County Sheriff’s Office Moves Forward into a New Era of Information Access with Inform IQ
+ 
+ Public Safety-Focused Business Intelligence Tool Empowers Department with Real-time Information for Searching, Reporting, and Analysis.
+SAN DIEGO, CA (August 20, 2012) – Durham County Sheriff’s Office has successfully implemented Inform IQ, TriTech Software Systems &lt;http://www.tritech.com/&gt;&apos; business intelligence and analytics tool designed exclusively for public safety. TriTech’s Inform IQ &lt;http://www.tritech.com/products/inform/inform-iq&gt; compiles information from across the public safety enterprise, collects it in real-time and assembles it in a data warehouse. Using Inform IQ, Durham County Sheriff’s Office is empowered with real-time access to critical information for complex searching, reporting, analysis, and sharing.
+
+“With Inform IQ, this is the first time that we’ve had one single place to go to where we can search all systems,” says Joel Bonestell, IT Manager for the Durham County Sheriff’s Office. “We’ve never had these capabilities before. Inform IQ has opened information access within our agency and empowered users who do not normally have access to CAD and RMS, to easily retrieve information they need such as case numbers or call for service details. By getting more detailed information through IQ’s drill down capabilities, users get more details than before and it’s those details that help to further investigations.”
+
+Designed to meet the growing requirements of a new era of information access, Inform IQ provides an agency with a single location users can go to access 9-1-1, computer aided dispatch (CAD), records management systems (RMS), and Jail information quickly and easily. IQ supports regional information sharing initiatives by allowing agencies to access, share and search information from neighboring jurisdictions. Through the simplicity of a search bar combined with a powerful search engine tuned for the needs of public safety, Inform IQ provides results in seconds. Details and associations can be explored further by using the drill-down capabilities within the results.
+
+Rebecca Hartigan, Data Analyst for the Durham County Sheriff adds, “With IQ, users can look up details in CAD calls, search CAD narratives and query RMS to make it easier to complete reports from the field.   Our internal CALEA Accreditation team and Legal Departments are some of our most active users of IQ.  If they are just looking for case numbers or need to pull reports, they can do it themselves. Recently, a citizen complained on the Department’s Facebook page about the inability to serve a child support warrant. The PIO used IQ to quickly and easily query the number of times warrant service had been attempted at a specific address within the past month.”
+
+With security settings that provide agencies control over what is shared, Inform IQ users can subscribe to instant alerts that deliver text message, email and online notifications when people, vehicles, and even specific words are entered into any public safety application. Inform IQ also features an additional analytics module for ready-to-use visual dashboards and reports to provide transparency into operational goals and key performance indicators. 
+
+“We recognize that the need to search, analyze, and proactively receive notification of new information is not limited to Analysts and Command Staff in a department,” says Scott MacDonald, Senior Director of Product Management for TriTech Software Systems. “The need is shared by dispatchers, detectives, responders, and all roles within and across agencies. The information access provided by IQ removes information silos and provides better visibility into operations in a critical time when departments are increasingly understaffed. By opening up information access within a department and even to other agencies across jurisdictions through IQ, public safety agencies have a new tool to improve the public safety workflow.”
+
+TriTech will be providing demonstrations of Inform IQ at APCO International Conference and Expo &lt;http://apco2012.org/&gt; in Minneapolis, Minnesota in Booth #513. 
+_______________
+
+About TriTech Software Systems
+ TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire, or EMS.
+ 
+ TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting, and billing.
+ 
+ For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

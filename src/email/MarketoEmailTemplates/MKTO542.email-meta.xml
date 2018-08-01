@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA13-002.020212</name>
+    <style>none</style>
+    <subject>TA13-002 - Microsoft Critical Security Bulletin - August 2012 - February 2013</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Technical Advisory
+TA13-002 - Microsoft Critical Security Bulletin - August 2012 - February 2013
+POSTED: 03-07-13
+
+
+ Dear Clients,
+ 
+ Microsoft has released twenty-four (24) Critical Security Updates for the months of August, 2012 through February 2013. The vulnerabilities discussed in this bulletin involve Microsoft Windows and other Microsoft products.
+
+You may access this advisory via the MyVisiNet Support site under Documentation | Tech Advisories | Microsoft Advisories | 2013 or by clicking on the link &lt;https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;id=943:ta13-002-microsoft-critical-security-bulletin-february-2013&amp;Itemid=251&gt; included in this email.
+
+Sincerely,
+
+Shane Birch
+ Technical Support Supervisor - Inform Solutions | Decorah, IA
+ Direct: (563) 387.4813 l Mobile: (563) 419.8766
+ Fax: (563) 387.9335 l Support: (800) 847.4223
+
+Support Website: myvisinet.tritech.com &lt;https://myvisinet.tritech.com&gt;
+
+Read Full Article &lt;https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;id=943:ta13-002-microsoft-critical-security-bulletin-february-2013&amp;Itemid=251&gt; l Email Feedback &lt;mailto:support@tritech.com?subject=VisiNet%20Solutions%20Tech%20Tips%20-%20Feedback&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

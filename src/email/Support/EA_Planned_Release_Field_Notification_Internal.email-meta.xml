@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification to ticket owner when Planned Release field is completed on associated defect</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>EA - Planned Release Field Notification Internal</name>
+    <style>freeForm</style>
+    <subject>Planned Release Field Completed for {!Case.Account} - {!Case.CaseNumber}</subject>
+    <textOnly>This is an internal update notification from TriTech Software Systems that a Planned Release has been completed on the following ticket for it&apos;s associated defect:
+
+Incident Details:
+
+Account:  {!Case.Account}
+
+Ticket ID:  {!Case.CaseNumber}
+
+Issue Details:  {!Case.Description}
+
+Current Owner:  {!Case.OwnerFullName}
+
+Product:  {!Case.Product}
+
+Priority:  {!Case.Priority}
+
+Planned Release:  {!Case.Planned_Release__c}
+
+Defect Ticket Number:  {!Case.Defect_Number__c}
+
+
+Review the Customer Support ticket here: {!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

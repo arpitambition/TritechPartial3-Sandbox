@@ -1,0 +1,26 @@
+The {!Write_In__c.RecordType} Write-In has been completed for the following:
+
+Write-In # {!Write_In__c.Name}
+Title: {!Write_In__c.Title__c}
+Agency: {!Write_In__c.Agency__c}
+Opportunity: {!Write_In__c.Opportunity__c}
+
+Project Services List Price:  {!Write_In__c.Services_Write_In_List_Price__c}
+Project Services Cost:  {!Write_In__c.Services_Write_In_Cost__c}
+
+If this is a DBA request:
+  Total DBA Hours:  {!Write_In__c.Total_DBA_Hours__c}
+  DBA Services List Price:  {!Write_In__c.Total_DBA_Services_List_Price__c}
+  DBA Services Cost:  {!Write_In__c.Total_DBA_Services_Cost__c}
+
+If this is a Project Management Fees request (INFORM pricelist):
+  Inform PM List Price:  {!Write_In__c.Inform_PM_List_Price__c}
+  Inform PM Cost:  {!Write_In__c.Inform_PM_Cost__c}
+
+If this is a Project Management Fees request (GSA pricelist):
+  GSA PM List Price:  {!Write_In__c.GSA_PM_List_Price__c}
+  GSA PM Cost:  {{!Write_In__c.GSA_PM_Cost__c}
+
+Write-In Description: {!Write_In__c.Write_In_Description__c}
+
+You may review the completed CWI here: {!Write_In__c.Link}

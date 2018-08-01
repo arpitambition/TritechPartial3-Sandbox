@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Maximizing the Use of Your Sweet-Billing Reports_Sept_20_2011.Invite</name>
+    <style>none</style>
+    <subject>September 20th Webinar: Maximizing Your Sweet-Billing Reports</subject>
+    <textOnly>September 20, 2011 Webinar
+Maximizing the Use of Your Sweet-Billing Reports
+
+
+Please join us for the upcoming webinar: Maximizing the Use of Your Sweet-Billing Reports on Tuesday, September 20th at 2 pm Eastern Time (1 pm CT | Noon MT | 11 am PT).  
+
+Your Presenters: Larry Cole and Michele Duwe, TriTech&apos;s EMS Solutions Sales Team
+
+In this upcoming webinar, you&apos;ll learn about:
+
+Exporting basic reports out of Sweet-Billing
+Preparing ‘presentation quality’ charts and data in Excel
+Which Sweet-Billing daily reports should be used for productivity and efficiency input for your service
+The financial reporting capabilities of your Sweet-Billing program
+
+
+Register Today: http://offers.tritech.com/MaximizingtheUseofYourSweetBillingReports_Sept_20_2011_Registration.html
+
+
+Questions?
+Contact Cheri Lane, TriTech&apos;s Marketing Communication Manager
+800-537-3927, ext. #6728
+cheri.lane@tritech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

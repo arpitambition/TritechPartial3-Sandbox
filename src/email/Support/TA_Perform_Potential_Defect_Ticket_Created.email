@@ -1,0 +1,7 @@
+A Potential Defect ticket has been created for review:
+
+Defect Ticket Number: {!Potential_Defect__c.Defect_Ticket_ID__c} 
+Created by: {!Potential_Defect__c.CreatedBy}
+Subject:  {!Potential_Defect__c.Name}
+
+Click on the link to access the ticket: {!Potential_Defect__c.Link}

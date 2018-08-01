@@ -1,0 +1,21 @@
+<apex:page standardController="Opportunity" extensions="CloneOpp">
+    <apex:form >
+        <apex:actionFunction action="{!doClone}" name="DoClone_JS" Rerender="statuses" status="Status1" oncomplete="CopyQuote_JS();">
+            <apex:param name="p1" value="prod" assignTo="{!LaunchMode}" />
+       </apex:actionFunction>       
+        <apex:actionFunction action="{!CopyQuote}" name="CopyQuote_JS" status="Status1" reRender="statuses, msg"/>       
+        <apex:outputPanel id="statuses" layout="block" style="font-size:1.3em;font-weight: bold;text-align: center;">
+            <apex:actionStatus id="Status1" startText="Your opportunity is currently copying..."  />            
+        </apex:outputPanel>              
+        <apex:outputPanel id="msg">            
+            <apex:pageMessages />     
+            <apex:commandButton id="btnRedirectTONewOpportunity" style="display:{!if(showNewOppButton,"block","none")};margin:20px;" value="Redirect to newly created opportunity" action="{!RedirectToNewOpportunity}" rerender="msg"/>            
+        </apex:outputPanel>                              
+    </apex:form>
+    <script>
+        window.onload = function() {
+            DoClone_JS();
+        }
+    </script>
+    
+</apex:page>

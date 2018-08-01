@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Protecting Your QA Documents from Legal Discovery.LastChanceToRegister</name>
+    <style>none</style>
+    <subject>LAST CHANCE TO REGISTER for a Complimentary Live Webinar with PWW&apos;s Steve Wirth</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Anything you Write Will be Used Against 
+You: Protecting Your QA Documents from Legal Discovery
+LAST CHANCE TO REGISTER!
+Register for a Complimentary Live Webinar on May 31
+Hello {{lead.First Name:default=EMS Professional}},
+Join Page, Wolfberg and Wirth&apos;s Steve Wirth &lt;http://pwwemslaw.com/&gt; and TriTech Senior Product Manager, Charlie Barry as they provide both a legal and software perspectives of patient care documentation and the legal “ins and outs” of “peer review” and QA programs to maximize legal protection while minimizing the risk of discovery of documents used in this essential process.
+Thursday, May 31
+
+2:00PM ET l 1:00PM CT l Noon MT l 11:00AM PT
+
+ &lt;http://offers.tritech.com/May31Webinar.html&gt;
+
+
+
+If you are unable to view the Register button above, please copy and paste the following URL into any web browser: http://offers.tritech.com/May31Webinar.html
+Presentation Description:
+We all need to learn from our mistakes and we should share what we learned, rather than keep it quiet. We need to objectively “critique” our patient care as part of a robust QA program, so we can improve our performance, improve quality of care, and ensure we are meeting our standards of care. A big concern is lawsuits and how to “protect” documents and reports from discovery when they are created as part of the quality assurance process. This webinar presentation will discuss the legal “ins and outs” of “peer review” and QA programs to maximize legal protection and to minimize the risk of discovery of documents used in this essential process</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

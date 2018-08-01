@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS-Webinars_Paper-to-ePCR_Nov10.Attended</name>
+    <style>none</style>
+    <subject>Webinar Recording and Handouts - Transitioning from Paper to Electronic Patient Care Reporting</subject>
+    <textOnly>November 11, 2011  
+
+Thanks for Your Interest in Our Webinar - Transitioning from Paper to Electronic Patient Care Reporting
+ 
+Thank you {{lead.First Name:default=}} for your interest yesterday’s webinar. You can access the recording and handouts from the webinar using these links: 
+
+Recording Link: http://tritech.ilinc.com/join/zwfjttc
+
+PPT Handout: http://www.tritechems.com/documents/Nov_10_2011_Webinar_Paper-to-Electronic_Presentation.pdf
+
+We hope that the information is useful and thank you for your interest! Please consider TriTech for your upcoming EMS software needs.
+
+Check out other educational webinars here: http://www.tritechems.com/TriTech-University/Webinars.asp
+
+
+The TriTech Software Systems Team 
+www.TriTechEMS.com
+ 
+For more information about TriTech software:
+Contact us at 800-537-3927
+Email us at sales@TriTech.com 
+Or request a demo here: http://www.tritechems.com/Contact-Us/demo.asp
+
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

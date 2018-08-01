@@ -1,0 +1,1097 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>Tracking for single or multi-phase procurements on opportunities</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Assignments_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Assignments Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Backup_Proposal_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <description>Backup Proposal Manager</description>
+        <externalId>false</externalId>
+        <label>Backup Proposal Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Procurement_Activities3</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Bid_Bond_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Bid Bond Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Bid_Bond_Issued__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bid Bond Issued</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bid_Bond_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Bid Bond Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Bid_Bond_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bid Bond Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bid_Bond_Returned__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bid Bond Returned</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Bidder_s_Conference_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Bidder&apos;s Conference Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Bidder_s_Conference_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Bidder&apos;s Conference Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Closed_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( ispickval(Opportunity__r.StageName,&apos;Closed Won&apos;), Opportunity__r.CloseDate,
+if( ispickval(Opportunity__r.StageName,&apos;Closed Lost&apos;), Opportunity__r.CloseDate,
+if( ispickval(Opportunity__r.StageName,&apos;Closed Lost - Other&apos;), Opportunity__r.CloseDate,
+if(  ispickval(Opportunity__r.StageName,&apos;Closed Lost - No Bid&apos;), Opportunity__r.CloseDate,NULL ))))</formula>
+        <label>Closed Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Common_Partners__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Businesses/People with pre-existing relationships with the current prospect</inlineHelpText>
+        <label>Common Partners</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Conference_Attendee__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Person who represented TTS at conference</inlineHelpText>
+        <label>Conference Attendee</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Procurement_Activities2</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Consultant__c</fullName>
+        <description>If Consultant is known, please select here</description>
+        <externalId>false</externalId>
+        <label>Consultant</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DELATWRX</fullName>
+                    <default>false</default>
+                    <label>DELATWRX</label>
+                </value>
+                <value>
+                    <fullName>Winbourne</fullName>
+                    <default>false</default>
+                    <label>Winbourne</label>
+                </value>
+                <value>
+                    <fullName>Mission Critical</fullName>
+                    <default>false</default>
+                    <label>Mission Critical</label>
+                </value>
+                <value>
+                    <fullName>L.R. Kimball</fullName>
+                    <default>false</default>
+                    <label>L.R. Kimball</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Current_Opportunity_Stage__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.StageName)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Current Opportunity Stage</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Deadline_for_Vendor_Questions__c</fullName>
+        <externalId>false</externalId>
+        <label>Deadline for Vendor Questions</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Extension__c</fullName>
+        <externalId>false</externalId>
+        <label>Extension</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Requested</fullName>
+                    <default>false</default>
+                    <label>Requested</label>
+                </value>
+                <value>
+                    <fullName>Granted</fullName>
+                    <default>false</default>
+                    <label>Granted</label>
+                </value>
+                <value>
+                    <fullName>Denied</fullName>
+                    <default>false</default>
+                    <label>Denied</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Functional_Respondent_CAD_Mobile_911__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Respondent - CAD/Mobile/911</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Liz Byers</fullName>
+                    <default>false</default>
+                    <label>Liz Byers</label>
+                </value>
+                <value>
+                    <fullName>Rebecca Webb</fullName>
+                    <default>false</default>
+                    <label>Rebecca Webb</label>
+                </value>
+                <value>
+                    <fullName>William Gray</fullName>
+                    <default>false</default>
+                    <label>William Gray</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Functional_Respondent_RMS_FBR_Jail_IQ__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Respondent - RMS/FBR/JAIL/IQ</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>David Amaya</fullName>
+                    <default>false</default>
+                    <label>David Amaya</label>
+                </value>
+                <value>
+                    <fullName>Karen Southerland</fullName>
+                    <default>false</default>
+                    <label>Karen Southerland</label>
+                </value>
+                <value>
+                    <fullName>TC Thomas</fullName>
+                    <default>false</default>
+                    <label>TC Thomas</label>
+                </value>
+                <value>
+                    <fullName>Matt Klein</fullName>
+                    <default>false</default>
+                    <label>Matt Klein</label>
+                </value>
+                <value>
+                    <fullName>Quintus Hampton</fullName>
+                    <default>false</default>
+                    <label>Quintus Hampton</label>
+                </value>
+                <value>
+                    <fullName>Steve Angell</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Steve Angell</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Green_Team_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Green Team Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>If_Consultant_Other__c</fullName>
+        <description>If the consultant being used was not listed above, please enter here.</description>
+        <externalId>false</externalId>
+        <label>If Consultant &quot;Other&quot;</label>
+        <length>12</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Implementation_Definition_Review_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Implementation Definition Review Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Internal_RFx_Location__c</fullName>
+        <externalId>false</externalId>
+        <label>Internal RFx Location</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Kickoff_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Kickoff Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Letter_of_Intent_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Letter of Intent Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Letter_of_Intent_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Letter of Intent Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>No_Bid_Letter_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>No Bid Letter Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>No_Bid_Letter_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>No Bid Letter Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Number_of_Electronic_Copies_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Electronic Copies Required</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Hard_Copies_Required__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Hard Copies Required</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>Procurement Activities</relationshipLabel>
+        <relationshipName>Procurement_Activities</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Performance_Bond_Percentage__c</fullName>
+        <externalId>false</externalId>
+        <label>Performance Bond Percentage</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>Performance_Bond_Required__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Performance Bond Required</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Pre_Green_Team_Meeting__c</fullName>
+        <externalId>false</externalId>
+        <label>Pre-Green Team Meeting</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Pricing_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Pricing Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Procurement_Activities1</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Procurement_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Procurement Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>RFI</fullName>
+                    <default>false</default>
+                    <label>RFI</label>
+                </value>
+                <value>
+                    <fullName>RFQ</fullName>
+                    <default>false</default>
+                    <label>RFQ</label>
+                </value>
+                <value>
+                    <fullName>RFP</fullName>
+                    <default>false</default>
+                    <label>RFP</label>
+                </value>
+                <value>
+                    <fullName>Proposal Follow-up</fullName>
+                    <default>false</default>
+                    <label>Proposal Follow-up</label>
+                </value>
+                <value>
+                    <fullName>BAFO</fullName>
+                    <default>false</default>
+                    <label>BAFO</label>
+                </value>
+                <value>
+                    <fullName>GSA</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>GSA</label>
+                </value>
+                <value>
+                    <fullName>Sole-Source</fullName>
+                    <default>false</default>
+                    <isActive>false</isActive>
+                    <label>Sole-Source</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Project_Size__c</fullName>
+        <description>This helps the procurement team understand and track projects by size</description>
+        <externalId>false</externalId>
+        <inlineHelpText>5=high level of effort, 1= low level of effort</inlineHelpText>
+        <label>Project Size</label>
+        <precision>1</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Project Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Tier One</fullName>
+                    <default>false</default>
+                    <label>Tier One</label>
+                </value>
+                <value>
+                    <fullName>Standard</fullName>
+                    <default>false</default>
+                    <label>Standard</label>
+                </value>
+                <value>
+                    <fullName>RIM</fullName>
+                    <default>false</default>
+                    <label>RIM</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Proposal_Manager__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Proposal Manager</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>Procurement_Activities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Proposal_Stage__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposal Stage</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Planning</fullName>
+                    <default>false</default>
+                    <label>Planning</label>
+                </value>
+                <value>
+                    <fullName>Solution Development</fullName>
+                    <default>false</default>
+                    <label>Solution Development</label>
+                </value>
+                <value>
+                    <fullName>Quality Assurance</fullName>
+                    <default>false</default>
+                    <label>Quality Assurance</label>
+                </value>
+                <value>
+                    <fullName>Production</fullName>
+                    <default>false</default>
+                    <label>Production</label>
+                </value>
+                <value>
+                    <fullName>Shipped</fullName>
+                    <default>false</default>
+                    <label>Shipped</label>
+                </value>
+                <value>
+                    <fullName>Cancelled</fullName>
+                    <default>false</default>
+                    <label>Cancelled</label>
+                </value>
+                <value>
+                    <fullName>No Bid</fullName>
+                    <default>false</default>
+                    <label>No Bid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Proposal_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposal Status</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bid Review</fullName>
+                    <default>false</default>
+                    <label>Bid Review</label>
+                </value>
+                <value>
+                    <fullName>Development</fullName>
+                    <default>false</default>
+                    <label>Development</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Shortlisted</fullName>
+                    <default>false</default>
+                    <label>Shortlisted</label>
+                </value>
+                <value>
+                    <fullName>Selected</fullName>
+                    <default>false</default>
+                    <label>Selected</label>
+                </value>
+                <value>
+                    <fullName>Closed/Won</fullName>
+                    <default>false</default>
+                    <label>Closed/Won</label>
+                </value>
+                <value>
+                    <fullName>Closed/Lost</fullName>
+                    <default>false</default>
+                    <label>Closed/Lost</label>
+                </value>
+                <value>
+                    <fullName>Closed/Cancelled</fullName>
+                    <default>false</default>
+                    <label>Closed/Cancelled</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>RFx_Contact_Address__c</fullName>
+        <externalId>false</externalId>
+        <label>RFx Contact Address</label>
+        <length>10000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>2</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RFx_Contact_Email__c</fullName>
+        <externalId>false</externalId>
+        <label>RFx Contact Email</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RFx_Contact_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>RFx Contact Number</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Phone</type>
+    </fields>
+    <fields>
+        <fullName>RFx_Contact__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>RFx Contact</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipLabel>Procurement Activities</relationshipLabel>
+        <relationshipName>Procurement_Activities</relationshipName>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Red_Team_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Red Team Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Request_Received__c</fullName>
+        <externalId>false</externalId>
+        <label>Request Received</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Response_Due_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Due Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Response_Ship_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Ship Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Response_Submitted__c</fullName>
+        <externalId>false</externalId>
+        <label>Response Submitted</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Selected_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Selection_Date__c</formula>
+        <label>Selected Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Shortlisted_Date__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Shortlisted_Date__c</formula>
+        <label>Shortlisted Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Solution_Definition_Review_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Solution Definition Review Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Solutions_Architect__c</fullName>
+        <externalId>false</externalId>
+        <label>Solutions Architect</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Darrell Richards</fullName>
+                    <default>false</default>
+                    <label>Darrell Richards</label>
+                </value>
+                <value>
+                    <fullName>Del Pullen</fullName>
+                    <default>false</default>
+                    <label>Del Pullen</label>
+                </value>
+                <value>
+                    <fullName>Jeff Thau</fullName>
+                    <default>false</default>
+                    <label>Jeff Thau</label>
+                </value>
+                <value>
+                    <fullName>Keith Singleton</fullName>
+                    <default>false</default>
+                    <label>Keith Singleton</label>
+                </value>
+                <value>
+                    <fullName>Kurt Hallmeyer</fullName>
+                    <default>false</default>
+                    <label>Kurt Hallmeyer</label>
+                </value>
+                <value>
+                    <fullName>Mark Catone</fullName>
+                    <default>false</default>
+                    <label>Mark Catone</label>
+                </value>
+                <value>
+                    <fullName>Matt Manzano</fullName>
+                    <default>false</default>
+                    <label>Matt Manzano</label>
+                </value>
+                <value>
+                    <fullName>Noemi Aguiar</fullName>
+                    <default>false</default>
+                    <label>Noemi Aguiar</label>
+                </value>
+                <value>
+                    <fullName>Scott Nemetz</fullName>
+                    <default>false</default>
+                    <label>Scott Nemetz</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <label>Procurement Activity</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Procurement_Type__c</columns>
+        <columns>Request_Received__c</columns>
+        <columns>Response_Due_Date__c</columns>
+        <columns>Response_Ship_Date__c</columns>
+        <columns>Response_Submitted__c</columns>
+        <columns>Proposal_Stage__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_GSA_Procurements</fullName>
+        <columns>NAME</columns>
+        <columns>Procurement_Type__c</columns>
+        <columns>Request_Received__c</columns>
+        <columns>Response_Due_Date__c</columns>
+        <columns>Response_Ship_Date__c</columns>
+        <columns>Response_Submitted__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Procurement_Type__c</field>
+            <operation>equals</operation>
+            <value>GSA</value>
+        </filters>
+        <label>All GSA Procurements</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_RFI_Procurements</fullName>
+        <columns>NAME</columns>
+        <columns>Procurement_Type__c</columns>
+        <columns>Request_Received__c</columns>
+        <columns>Response_Due_Date__c</columns>
+        <columns>Response_Ship_Date__c</columns>
+        <columns>Response_Submitted__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Procurement_Type__c</field>
+            <operation>equals</operation>
+            <value>RFI</value>
+        </filters>
+        <label>All RFI Procurements</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_RFP_Procurements</fullName>
+        <columns>NAME</columns>
+        <columns>Procurement_Type__c</columns>
+        <columns>Request_Received__c</columns>
+        <columns>Response_Due_Date__c</columns>
+        <columns>Response_Ship_Date__c</columns>
+        <columns>Response_Submitted__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Procurement_Type__c</field>
+            <operation>equals</operation>
+            <value>RFP</value>
+        </filters>
+        <label>All RFP Procurements</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_RFQ_Procurements</fullName>
+        <columns>NAME</columns>
+        <columns>Procurement_Type__c</columns>
+        <columns>Request_Received__c</columns>
+        <columns>Response_Due_Date__c</columns>
+        <columns>Response_Ship_Date__c</columns>
+        <columns>Response_Submitted__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Procurement_Type__c</field>
+            <operation>equals</operation>
+            <value>RFQ</value>
+        </filters>
+        <label>All RFQ Procurements</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Sole_Source_Procurements</fullName>
+        <columns>NAME</columns>
+        <columns>Procurement_Type__c</columns>
+        <columns>Request_Received__c</columns>
+        <columns>Response_Due_Date__c</columns>
+        <columns>Response_Ship_Date__c</columns>
+        <columns>Response_Submitted__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Procurement_Type__c</field>
+            <operation>equals</operation>
+            <value>Sole-Source</value>
+        </filters>
+        <label>All Sole-Source Procurements</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <label>Procurement Activity Name</label>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Procurement Activities</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Procurement_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Request_Received__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Response_Due_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Response_Ship_Date__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Response_Submitted__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Procurement_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Request_Received__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Response_Due_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Response_Ship_Date__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Response_Submitted__c</lookupDialogsAdditionalFields>
+        <searchFilterFields>NAME</searchFilterFields>
+        <searchFilterFields>Procurement_Type__c</searchFilterFields>
+        <searchFilterFields>Request_Received__c</searchFilterFields>
+        <searchFilterFields>Response_Due_Date__c</searchFilterFields>
+        <searchFilterFields>Response_Ship_Date__c</searchFilterFields>
+        <searchFilterFields>Response_Submitted__c</searchFilterFields>
+        <searchResultsAdditionalFields>Procurement_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Request_Received__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Response_Due_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Response_Ship_Date__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Response_Submitted__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

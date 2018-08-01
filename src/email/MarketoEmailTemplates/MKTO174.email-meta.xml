@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Web-based EMS Software_0313.Invitation</name>
+    <style>none</style>
+    <subject>Is Web-Based EMS Software the Way of the Future? Register for the Complimentary Live Webinar to Learn More</subject>
+    <textOnly>Is Web-Based EMS Software the Way of the Future?
+Register for a Complimentary Live Webinar on March 13
+
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+
+Many applications and services, such as Salesforce, gMail, Yahoo Mail, banking, shopping, movies, TV shows, Mapping, Google Docs, and various kinds of training, are now being delivered over the internet in an online or web-based computing model. With web-based software, the software vendor manages the application, data and backend infrastructure while the end user utilizes the software securely over the Internet through a web browser.
+
+-Is EMS software trending towards a similar web-based model rather than installed on your computers? 
+-How can a web-based solution benefit your service? 
+-What are considerations you need to be aware of?
+
+Join TriTech Senior Product Manager, Charlie Barry and AmbCoach, Inc. President, Kimberly Walk as they provide both the business and user perspectives of the web-based trend in EMS Software.
+
+REGISTER: http://offers.tritech.com/Web-basedEMSSoftware_0313_WebinarRegistration.html
+
+Tuesday, March 13, 2012
+2:00PM ET l 1:00PM CT l Noon MT l 11:00AM PT
+
+ABOUT AmbCoach, Inc
+AmbCoach, Inc. is a professional Billing and Accounts Receivable Management Service located in Indiana, PA who helps medical transportation organizations convert patient services into usable dollars.  Processing approximately 50,000 transports annually, they have learned how to make the most of their EMS Billing application and engineer effective and efficient Accounts Receivable Management processes.  President Kimberly Walk will discuss their transition from an installed-on-site server-based system to an online web-based EMS Billing application, along with the pros and cons of each.
+
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

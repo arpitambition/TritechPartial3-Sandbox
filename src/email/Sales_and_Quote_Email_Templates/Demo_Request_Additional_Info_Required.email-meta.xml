@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Demo Request - Additional Information Required</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Demo Request - Additional Info Required</name>
+    <style>freeForm</style>
+    <subject>Demo Request Additional Information Required: {!Demo_Request__c.Name}</subject>
+    <textOnly>Demo Request – Additional Information Required
+
+
+Demo Request Date
+{!Demo_Request__c.CreatedDate}
+
+Demo Request Number
+{!Demo_Request__c.Name}
+
+Demo Type
+{!Demo_Request__c.Demo_Type__c}
+
+Opportunity
+{!Demo_Request__c.Opportunity__c}
+
+Client/Organization Name
+{!Demo_Request__c.Client_Organization_Name__c}
+
+TriTech Requestor
+{!Demo_Request__c.TriTech_Requestor__c}
+{!Demo_Request__c.Requestor_Mobile_Phone__c}
+
+Additional Information Required
+{!Demo_Request__c.Additional_Information_Required__c}
+
+
+Please complete the information requested above. You can access the Demo Request here: {!Demo_Request__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

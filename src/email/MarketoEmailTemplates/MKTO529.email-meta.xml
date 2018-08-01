@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013_VNS_February_Holiday.020212</name>
+    <style>none</style>
+    <subject>Holiday Hours for Presidents&apos; Day</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Technical Services Communciation
+Holiday Hours for Presidents&apos; Day
+POSTED: 2-12-13
+
+
+ Dear clients,
+
+In observance of the upcoming holiday, the TriTech Software Systems corporate office will be closed Monday, February 18, 2013.  During this time, our on-call Technical Services and Engineering staff will provide support services for urgent issues.
+
+If your system has a serious problem during the holidays (including daytime hours), please call 1-800-VISICAD and an on-call Support Team member will contact you to work on your issue.  If for any reason the 1-800-VISICAD line is not functioning, you can reach us via our backup-line at 858-229-8786.
+
+If your issue is not urgent, please submit your issue electronically (SalesForce or e-mail) or contact us during our regular business hours.
+
+Sincerely,
+
+Shane Birch
+ Technical Support Supervisor - Inform | Decorah, IA
+ Direct: (563) 387.4813 l Mobile: (563) 419.8766
+ Fax: (563) 387.9335 l Support: (800) 847.4223
+
+Support Website: SalesForce.com &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&gt;
+
+Read Full Article l Email Feedback &lt;mailto:support@tritech.com?subject=VisiNet%20Solutions%20Tech%20Tips%20-%20Feedback&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

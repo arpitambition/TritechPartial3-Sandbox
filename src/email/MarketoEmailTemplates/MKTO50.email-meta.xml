@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sept11.VNS CC Sept11</name>
+    <style>none</style>
+    <subject>Your VisiNet CAM Connection - September Newsletter</subject>
+    <textOnly>September 2011 Edition
+ 
+   Welcome to our monthly edition of TriTech Software Systems: CAM Connection for VisiNet Solutions. CAM stands for “Client Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our VisiNet Solutions group.  Feel free to let us know if you have suggestions on topics you would like to hear about.   
+   
+   
+Products Highlights
+ 
+ GISLink On-Site Training
+       Location is critical in emergency response, and inaccurate or outdated GIS data severely hinders emergency response.  Given this critical important on GIS and maintaining accurate and up-to-date streets in VisiCAD and VisiNet Mobile, when was the last time your team had any formal training in GISLink?  TriTech offers on-site GISLink training in which TriTech’s GISLink expert guides your GIS team with step-by-step hands-on instruction to refine your workflow and processes for performing GIS updates in TriTech products.  Learn more about GISLink training&gt;&gt;
+   
+   
+ VisiCAD Rotation Provider Webinar Recording
+   The Rotation Provider module simplifies the automation, tracking and rotation of services through VisiCAD to increase coordination and efficiency between Dispatch, designated public safety agencies and local support services involved in a single incident. Did you miss our webinar of VisiCAD&apos;s Rotation Provider module?  For your convenience, we&apos;ve recorded the webinar for viewing on demand or to share with others who may be interested.  Click here to view the recording&gt;&gt; 
+   
+ Service Update   
+ 
+ Customer Service Feedback Survey
+ Thank you to everyone who took the time to complete our customer service feedback survey.  TriTech VisiNet Solutions wants to make sure that every customer has an important voice in the development and delivery of their VisiNet software products and service. Every six months, customers will have an opportunity to provide feedback to TriTech’s management on changes that they would like to see, as well as those things that they would like to stay the same. Please take time to participate in these surveys. We’re keeping them short to encourage your participation, and conducting them often enough that we are responding to your business needs in a time-sensitive manner.
+ 
+  Tech Tip:  New Users Not Showing in State Password Utility
+ 
+  
+  Problem: You have entered new users in the Personnel Manager in VisiCAD and assigned them to the appropriate Functionality Group necessary for access to Records Check. Now you want to enter those users in the State Password Utility so they can run records check queries. However, the new users do not show up in the drop down list. Click here for the solution&gt;&gt;
+ 
+ Grab and Go with Greg
+ Sorry, no Grab and Go with Greg for September. Greg will be at TriCON - a week long, live action Grab and Go Session. See you there!
+ 
+   
+  TriCON News
+
+ Plan Your Week - Download the TriCON Program
+There&apos;s still time to register for the TriCON: TriTech’s Annual User Conference. Download the program here and make the most of your TriCON experience.  The program lists all the session details, sponsor information, and soc  ial activities to help you manage you week at TriCON.   Check the at-a-glance schedule for highlights, including keynotes and networking events. Find out who&apos;s speaking when, what time the Exhibition Hall open and close each day, and when session blocks begin and end.         
+
+Register for the Welcome Reception and a Chance to Win a $100 Visa Gift Card
+Nothing is more welcoming than a friendly face and the opportunity to relax on a comfortable couch-- while enjoying a hosted beverage (or two). Come meet friends, old and new, at the first networking event of TriCON. As an added bonus, treasure chest keys will be provided to all attendees. The key may be brought to the PCS Mobile/digiTICKET booth (#22) during show hours to see if it will unlock the “Mobility Solution” treasure chest—which is holding a $100 Visa Gift Card. Don’t miss the opportunity to leave TriCON with an extra $100 in your pocket! Click here to RSVP for the Welcome Reception&gt;&gt;
+
+ There&apos;s Still Time to Join Us
+Registration is still open, and we have a stash of rooms on hold for last minute attendees. Contact Jenny Clavero at 858-799-7362 or email jenny.clavero@tritech.com to register and reserve a room at the discounted $189 group rate. See a fun video (on the TriCON News page) from last year’s conference to see what you might miss out on!       
+
+Budget Now for TriCON 2012
+Save the date for TriCON 2012 which will be held Wednesday, September 26 - Friday, September 28. TriCON 2012 will be held at the Hilton San Diego Bayfront, downtown San Diego&apos;s newest waterfront hotel just steps away from Gaslamp Quarter. Opportunities to include TriCON registration and travel in Support Maintenance Agreements are available.
+   Customer Feature    
+   
+  Welcome New Clients
+ TriTech welcomes new clients:  Rural Metro Orlando and Sumter County (Florida), North Island 9-1-1 Corporation (British Columbia), and Montgomery County  Hospital District.
+ 
+ 
+
+  
+ 
+ 
+ 
+             
+ &gt; Main Page
+
+ &gt; Product Highlights
+
+ &gt; Service Update
+
+ &gt; TriCON News
+
+ &gt; Customer Feature
+
+ &gt; www.tritech.com
+
+ 
+ CAM CONTACTS
+Ken Schulte
+ (858) 799-7316
+ ken.schulte@tritech.com
+ 
+ Sally Olson-Nelson
+ (858) 799-7358
+ sally.olson-nelson@tritech.com
+ 
+ 
+   
+ 
+ 
+ Register now for TriCON: 
+ TriTech&apos;s Annual User Conference
+
+ 
+ 
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

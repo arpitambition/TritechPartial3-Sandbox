@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Gahanna Open House 091411.Invite</name>
+    <style>none</style>
+    <subject>Learn How Gahanna Division of Police Utilizes TriTech Software Systems&apos; Imc Solutions</subject>
+    <textOnly>Join Us
+Gahanna Division of Police Open House
+
+
+You are cordially invited to attend an open House and Software Demonstration on Wednesday, September 14th from 9:00 AM to 12:00 PM at the Gahanna Division of Police, 460 Rocky Fork Blvd., Gahanna, Ohio 43230.
+
+All attendees will get an inside look at Gahanna Division of Police opeartions using TriTechs&apos; Imc Solutions. Their vehicles will also be available to see the mobile solution.
+
+
+Agenda:
+  9:00 AM  -    9:15 AM
+Introductions and Breakfast
+
+  9:15 AM  -    9:45 AM
+Company Overview,
+Value of Integration
+
+  9:45 AM  -  10:15 AM
+Records Management,
+Property/Evidence and Crash
+
+  10:15 AM  -  10:30 AM
+Break
+
+  10:30 AM  -  11:00 AM
+Computer-Aided Dispatch
+
+  11:00 AM  -  11:30 AM
+Mobile
+
+  11:30 AM  -  12:00 PM
+Department Tour /
+Questions &amp; Answers
+
+
+
+To Register, please copy and paste the below URL into your internet browser: 
+http://offers.tritech.com/GahannaOpenHouse091411_Registration.html
+
+
+Where is Gahanna Division of Police?
+
+http://maps.google.com/maps?hl=en&amp;rls=com.microsoft:en-us:IE-SearchBox&amp;rlz=1I7RNRN_en&amp;q=Gahanna+Division+of+Police,+460+Rocky+Fork+Blvd.Gahanna,+OH+43230&amp;bav=on.2,or.r_gc.r_pw.&amp;biw=1073&amp;bih=804&amp;wrapid=tlif131412602161610&amp;um=1&amp;ie=UTF-8&amp;sa=N&amp;tab=wl
+
+
+460 Rocky Fork Blvd.
+Gahanna, OH 43230
+
+
+Questions?
+Contact Regional Sales Manager John 
+Kitsmiller
+(512) 809-6763
+john.kitsmiller@tritech.com
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

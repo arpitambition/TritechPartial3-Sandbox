@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_CAM-Connection_June</name>
+    <style>none</style>
+    <subject>Your TriTech Imc CAM Connection Newsletter June 2011 is here!</subject>
+    <textOnly>June 2011
+Imc Solutions Monthly Customer Update
+
+
+Dear {{First Name:default=Imc Customer}}:
+
+Welcome to this month’s edition of the Imc CAM Connection. Here is a quick summary of what you&apos;ll find in this month&apos;s issue:                          
+
+* IMPORTANT ALERTS
+* REMINDER FROM YOUR CLIENT ACCOUNT MANAGERS
+* HAVE YOU REGISTERED YET FOR FIX IT WITH FELICIA? 
+* LISTEN NOW: 2011 ONLINE USER GROUP MEETING 
+* TECH TIPS
+* CLIENT NEWS AND GO-LIVES
+
+
+IMPORTANT ALERTS
+
+* Build 17.84 is available for download from the MyImc website https://myimc.tritech.com. 
+* Our monthly Client Services Call Statistics are now posted on the MyImc web site https://myimc.tritech.com.
+* Reminder, our North Grafton office will be closed on Monday July 4th, 2011 in observance of the Independence Day holiday. We will re-open on Tuesday July 5th at 8 am EDT.
+* TriTech is growing! We currently have several open positions at our North Grafton Office. If you know of any qualified candidates that might be a good fit for any of our open positions, please direct them to our website where they can get more information about these positions. (http://www.tritech.com/company/careers).
+
+Dennis Perron 
+Director, Client Services | Imc Solutions 
+
+
+
+REMINDER FROM YOUR CLIENT ACCOUNT MANAGERS
+Imc Solutions’ Microsoft Word™ Interface / Forms 
+Reduce costs and improve data accuracy with the ability to make custom forms and attach them to your case or incident data using the Microsoft Word Interface. 
+Click here for more information: http://offers.tritech.com/2011_Imc_WordInterface.html
+
+
+
+HAVE YOU REGISTERED FOR FIX IT WITH FELICIA?
+Sign up today for free, online, monthly dialog sessions with Felicia Donovan and other Imc Solutions users to help maximize the use of your Imc products.
+
+Coming soon:
+* See a demo of the new “Command Line Motor Vehicle Stop” feature (Live on July 7) 
+* Mail – Failed to get Credentials – what to do?
+* Pervasive Settings to Correct Error 3000
+
+June 9th Recording Available - Build 18 Security Changes: Tune in to see the exciting changes coming in Build 18 related to Security. Get a sneak preview of how “Security Groups” replace “Security Templates” and how that enhances the software. Learn what your department needs to do to get ready for these changes. See demonstrations of the new and improved Security Reports.  
+Link to June 9th recording: https://myimc.tritech.com/index.php?option=com_k2&amp;view=itemlist&amp;layout=category&amp;task=category&amp;id=29&amp;Itemid=256
+
+Register now to receive monthly invites:
+What: Check in before your lunch break for the latest and greatest fix-it tips and tools! 
+Date: Every second Thursday of the month
+Time: 11 am Eastern | 10 am Central
+Register Here: http://tritech.ilinc.com/register/yvrjhvk
+
+
+
+2011 IMC SOLUTIONS&apos; USER GROUP MEETING - ONLINE
+LISTEN NOW: http://tritech.ilinc.com/join/fmybmjk
+Did you miss our first online User Group session on June 21st? You can listen now by accessing the link above.
+ 
+Interested in hearing more? Our Annual User Conference - TriCON - is heading to Boston, MA on Sept. 13-16 in 2011! To chime in with your Fresh Ideas and New Perspectives, register today: http://www.tritech.com/news-and-events/tricon-2011 
+
+
+
+THIS MONTH&apos;S TECH TIPS
+Q. How can I get a report on what queries were run to the state?
+A. In the state interface under the Reports menu choose Query Report or Response Report, which will give you that information.
+
+Q. My F2 Help file is missing. Where is it located?
+A. The F2 help file IMCCMN.CHM should be located in the C:\Windows folder. Sometimes the file does not get copied there or the user does not have sufficient rights to open the file. The file is also located in the IMC\CMN folder. To resolve the error try copying the file from the CMN folder to the Windows folder. If it is there already, make sure it can be opened by double clicking on it. If the system administrator is unwilling to give users access to the Windows folder the file can be copied from the network CMN folder to a local folder or desktop, and opened from there.
+
+Q. How do I find the Persistent Route Statements on the Message Switch PC?
+A.  1. Go to Start
+    2. Click on Run
+    3. Type in “CMD” and hit enter
+    4. Type in “route print”
+    5. It will display on the screen
+Note: If you want to save it to a Text file add “&gt; MyFile.txt” and it will be saved in the directory your command prompt is displaying. For example: route print &gt;MyFile.txt
+
+Felicia Donovan 
+QA Coordinator/Technical Writer | Imc  Solutions 
+
+
+
+CLIENT NEWS AND GO-LIVES 
+We did not have any go lives in May and only one new installation (Atlantic Health System) was performed.
+•    In June we installed Dean College MA and New Bedford Fire MA, 
+•    In June so far, Cumberland RI Fire Districts went live on 6/1/11
+•    RI College is scheduled to be installed on 6/21/11
+
+David Bourbonniere
+Project Management and Training Supervisor | Imc Solutions
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  -  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

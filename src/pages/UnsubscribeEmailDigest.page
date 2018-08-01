@@ -1,0 +1,10 @@
+<apex:page controller="UnsubscribeEmailDigest" standardstylesheets="true" showHeader="false" cache="false" action="{!DoLoad}">
+
+<br/><br/><br/><br/><br/><br/>
+
+<center>
+You have been unsubscribed from weekly email digest.<br/><br/>
+Thank you!
+</center>
+
+</apex:page>

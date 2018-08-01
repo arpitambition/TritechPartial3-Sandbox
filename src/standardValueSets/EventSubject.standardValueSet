@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Meeting</fullName>
+        <default>false</default>
+        <label>Client Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo #1</fullName>
+        <default>false</default>
+        <label>Demo #1</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo #2</fullName>
+        <default>false</default>
+        <label>Demo #2</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo #3</fullName>
+        <default>false</default>
+        <label>Demo #3</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo #4</fullName>
+        <default>false</default>
+        <label>Demo #4</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>License Controls Activation</fullName>
+        <default>false</default>
+        <label>License Controls Activation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM 3rd Party</fullName>
+        <default>false</default>
+        <label>MDM 3rd Party</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM Industry</fullName>
+        <default>false</default>
+        <label>MDM Industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM Relationship</fullName>
+        <default>false</default>
+        <label>MDM Relationship</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM Technology</fullName>
+        <default>false</default>
+        <label>MDM Technology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting - Contract</fullName>
+        <default>false</default>
+        <label>Meeting - Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting - Introductory</fullName>
+        <default>false</default>
+        <label>Meeting - Introductory</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting - Pricing</fullName>
+        <default>false</default>
+        <label>Meeting - Pricing</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting - RFP</fullName>
+        <default>false</default>
+        <label>Meeting - RFP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proactive Call</fullName>
+        <default>false</default>
+        <label>Proactive Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Letter/Quote</fullName>
+        <default>false</default>
+        <label>Send Letter/Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wellness Check</fullName>
+        <default>false</default>
+        <label>Wellness Check</label>
+    </standardValue>
+</StandardValueSet>

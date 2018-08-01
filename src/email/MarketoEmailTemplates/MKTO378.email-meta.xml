@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Cross-Agency-Data-Sharing-System-Upgrade-ME.Thankyou</name>
+    <style>none</style>
+    <subject>Request Met | Cross Agency Data Sharing System Upgrade</subject>
+    <textOnly>Cross Agency Data Sharing System Upgrade
+Dear {{lead.First Name:default=Customer}},
+
+
+Thank you to Augusta PD who has donated what was needed for the Cross Agency Data Sharing system upgrade. This need has been met and we appreciate the quick response to this request.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

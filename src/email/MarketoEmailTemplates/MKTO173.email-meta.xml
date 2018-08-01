@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Save-the-Date Clients</name>
+    <style>none</style>
+    <subject>Register for TriTech Software Systems&apos; Pacific Northwest Tech Seminar</subject>
+    <textOnly>TriTech
+
+
+
+Pacific Northwest Tech Seminar
+Wednesday, February 15, 2012  l  Issaquah, Washington
+
+
+
+
+Hello {{lead.First Name:default=Sir/Madam}},
+We hope that you will join us and fellow VisiCAD users at our Pacific Northwest Technology Seminar, where we will discuss the latest features of VisiCAD Version 5.0, Mobile software feature set, Virtualizing CAD and Remote Connectivity.
+
+
+
+AGENDA:
+
+
+9:00 AM - 9:15 AM
+Introductions and Announcements
+
+
+9:15 AM - 10:45 AM
+Latest feature set of VisiCAD from Version 4.3 to 5.0
+
+
+10:45 AM - 11:00 AM
+Break
+
+
+11:00 AM - 12:30 PM
+Latest VisiNet Mobile software feature set
+
+
+12:30 PM - 1:00 PM
+Break/Lunch (provided)
+
+
+1:00 PM - 1:45 PM
+System Architecture Changes in VisiCAD 4.3 and 5.0
+
+
+1:45 PM - 2:00 PM
+Break
+
+
+2:00 PM - 2:30 PM
+Virtualizing CAD (VMware Options)
+
+
+2:30 PM - 3:00 PM
+Remote Connectivity for CAD (Citrix vs. ClearCube)
+
+
+ 
+
+
+Hope to see you there!
+Ken Schulte, Client Account Manager
+
+
+
+EVENT DETAILS
+Don&apos;t want to miss this informative technology seminar? See details below and register today.
+
+Date:
+Wednesday, February 15, 2012
+
+
+Time:
+9:00 AM to 3:00 PM
+
+
+Location:
+Eastside Fire &amp; Rescue
+Headquarters Station
+175 Newport Way NW
+Issaquah, WA 98027
+
+
+Cost:
+Free, includes Lunch
+
+
+To Register, click here: http://offers.tritech.com/VNS_PacificNW_0212_Registration.html 
+
+
+
+Questions?
+Ken Schulte
+Client Account Manager
+720.379.3900
+ken.schulte@tritech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

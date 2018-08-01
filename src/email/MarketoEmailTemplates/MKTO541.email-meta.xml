@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q1_2013_Respond.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 1st Quarter Newsletter (March 2013)</subject>
+    <textOnly>In This Issue
+
+In the last issue &lt;http://offers.tritech.com/TriTechNews_Q4_2012_IA_main.html&gt;, Karla introduced you to the excitement that we at TriTech are feeling for the next generation (NextGen) 
+technologies for the EMS industry. While industry regulation changes consistently keep us on our toes – (Sequestration &lt;http://www.cbsnews.com/8301-250_162-57571722/sequestration-looms-but-when-will-the-hurt-feel-real/&gt;, anyone?) – the next version of Respond Billing &lt;http://www.tritech.com/products/respond/respond-billing&gt; goes far beyond boring 
+regulations and gets to show its fun, flirty side again. The “fun, flirty side” arrives in Version 5.9, and its features anchor TriTech in the leader position in the EMS billing software race. With all the new features arriving in Respond Billing 5.9, we also begin the 
+push to educate our customers on those features. You’ll learn about Virtual Multi-Leg Call (VMLC), Real-time Eligibility Checking, and changes to both Remittance Processing and Denial Codes. 
+
+Continue reading further in this newsletter for more information in the article written by Dan Voss &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Respond_Products.html&gt;, our billing Product Manager, for 
+additional details about each feature.
+
+Also, keep a close eye on our website and Customer Service Center (portal) for new live classes and recorded sessions which introduce our customers to all the good things coming in Version 5.9 of billing.
+
+It&apos;s time to put on your thinking/learning 
+hat!                                                                                       
+ 
+ Kelly Wachal
+ Customer Service Supervisor
+
+
+
+Product Updates
+Important information to check out: ICD-10 Implementation, what&apos;s coming in Billing 
+Version 5.9, TriTech.com and NEMSIS XML Import, Sequestration, and Respond CAD.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Respond_Products.html&gt;
+
+
+Support News
+Read about the the top 277ca Response U-Rejections to 
+Date in 2013 and meet Kelly Adams.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Respond_Support.html&gt;
+
+
+News and Events
+Check out the numerous training opportunities, read about a recent TriTech visit to the corporate office of Air Medical Holding Group, and stop by for a visit at an upcoming tradeshow, .  
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Respond_NewsandEvents.html&gt;
+Miss the last issue? Find it here &lt;http://offers.tritech.com/TriTechNews_Q4_2012_IA_main.html&gt;
+
+
+1st Quarter 2013 Issue:
+http://offers.tritech.com/TriTechNews_Q1_2013_Respond_NewsandEvents.html
+
+
+
+Need Support?
+Call (563) 387-9338
+
+
+To Access the Client Login
+ &lt;http://www.tritechems.com/Support/Support.asp&gt;
+
+
+
+ACCOUNT MANAGERS
+
+Brenda Taylor
+(800) 537-3927 x4833
+brenda.taylor@tritech.com &lt;mailto:brenda.taylor@tritech.com&gt;
+
+
+Tyler Harman
+(800) 537-3927 x4830
+tyler.harman@tritech.com &lt;mailto:tyler.harman@tritech.com&gt;
+
+ 
+
+
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

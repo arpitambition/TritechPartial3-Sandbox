@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>This object stores the product category that the template should be displayed in.</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>CLDY_Template_DisplayOrder__c</fullName>
+        <description>This field is used to control the order in which a product category will display in the template.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to control the order in which a product category will display in the template. The lowest the number appear first in the template. The highest number appears last in the template.</inlineHelpText>
+        <label>Template DisplayOrder</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLDY_Template_Section__c</fullName>
+        <description>This field is used to store the section in the template that the product will display in.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field is used to store the section in the template that the product will display in.</inlineHelpText>
+        <label>Template Section</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLDY_Template_Sort_Order__c</fullName>
+        <externalId>false</externalId>
+        <label>Template Sort Order</label>
+        <length>10</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CLDY_Template_Subsection__c</fullName>
+        <description>This field determines which sub-section the product will display in the template.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>This field determines which sub-section the product will display in the template.</inlineHelpText>
+        <label>Template Subsection</label>
+        <length>100</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <label>Template Product Category</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>CLDY_Template_Section__c</columns>
+        <columns>CLDY_Template_Subsection__c</columns>
+        <columns>CLDY_Template_Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+    </listViews>
+    <listViews>
+        <fullName>Inform_Template_Product_Categories</fullName>
+        <columns>NAME</columns>
+        <columns>CLDY_Template_Section__c</columns>
+        <columns>CLDY_Template_Subsection__c</columns>
+        <columns>CLDY_Template_Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>notContain</operation>
+            <value>Perform,Respond</value>
+        </filters>
+        <filters>
+            <field>CLDY_Template_Section__c</field>
+            <operation>notContain</operation>
+            <value>TriTech.com</value>
+        </filters>
+        <label>Inform Template Product Categories</label>
+    </listViews>
+    <listViews>
+        <fullName>Perform_Template_Product_Categories</fullName>
+        <columns>NAME</columns>
+        <columns>CLDY_Template_Section__c</columns>
+        <columns>CLDY_Template_Subsection__c</columns>
+        <columns>CLDY_Template_Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>contains</operation>
+            <value>Perform</value>
+        </filters>
+        <label>Perform Template Product Categories</label>
+    </listViews>
+    <listViews>
+        <fullName>Respond_Template_Product_Categories</fullName>
+        <columns>NAME</columns>
+        <columns>CLDY_Template_Section__c</columns>
+        <columns>CLDY_Template_Subsection__c</columns>
+        <columns>CLDY_Template_Sort_Order__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>NAME</field>
+            <operation>startsWith</operation>
+            <value>Respond,TriTech.com</value>
+        </filters>
+        <label>Respond Template Product Categories</label>
+    </listViews>
+    <nameField>
+        <label>Template Product Category Name</label>
+        <type>Text</type>
+    </nameField>
+    <pluralLabel>Template Product Categorys</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>CLDY_Template_Section__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CLDY_Template_Subsection__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CLDY_Template_DisplayOrder__c</customTabListAdditionalFields>
+        <searchResultsAdditionalFields>CLDY_Template_Section__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CLDY_Template_Subsection__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CLDY_Template_Sort_Order__c</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when someone submitted a new marketing request.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>New Marketing Request</name>
+    <style>none</style>
+    <subject>New Marketing Request Submitted: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>Please note that the following Marketing Request has been submitted:
+
+{!SalesForce_Helpdesk__c.Link}
+
+Request Number: {!SalesForce_Helpdesk__c.Name}
+Priority: {!SalesForce_Helpdesk__c.Priority__c}
+
+Submitted By: {!SalesForce_Helpdesk__c.OwnerFullName}
+
+Date Submitted: {!SalesForce_Helpdesk__c.Date_Submitted__c}
+
+Date Needed: {!SalesForce_Helpdesk__c.Date_Needed__c}
+
+Request Type: {!SalesForce_Helpdesk__c.Marketing_Request_Type__c}
+
+Request Details: {!SalesForce_Helpdesk__c.Request_Details__c}
+
+Thank you for your Marketing request. A member of the Marketing team will review this request within two business days and assign accordingly. All request will require approval from the respective management team.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

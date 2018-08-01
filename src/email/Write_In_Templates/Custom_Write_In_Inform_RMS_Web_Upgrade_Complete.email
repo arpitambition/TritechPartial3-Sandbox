@@ -1,0 +1,10 @@
+The following Inform RMS Web Upgrade write-in request is complete:
+
+Write-In Title: {!Write_In__c.Title__c}
+CWI#:  {!Write_In__c.Name}
+
+Agency: {!Write_In__c.Agency__c}
+State:  {!Write_In__c.Agency_State__c}
+Opportunity:  {!Write_In__c.Opportunity_Name__c}
+
+Click this link to access the Write-In: {!Write_In__c.Link}

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_5010-Info_July15</name>
+    <style>none</style>
+    <subject>HIPAA 5010 Claim Testing Setup Education/Assistance is Now Available 24/7</subject>
+    <textOnly>July 15, 2011
+
+HIPAA 5010 Claim Testing Setup Education/Assistance is Now Available 24/7
+
+The TriTech HIPAA 5010 Resource Center (copy and paste into a browser window: http://www.tritechems.com/My-Account/Download-Center/Support_HIPAA5010ResourceCenter.asp) has been updated with a series of recorded classes that provide instruction and demonstration of the steps to configure Sweet-Billing for conducting HIPAA 5010 Testing with an electronic claims trading partner.
+
+The 6 classes have been structured so Sweet-Billing customers can view the class and configure 
+their systems at the same time. 
+
+These 6 recorded classes have been developed to be the primary mechanism of HIPAA 5010 Setup Support. Customers requesting HIPAA 5010 Setup assistance from Support Services will be asked to view the recorded classes if they have not already done so, then Support Services will be happy to assist with any questions or problems that prevented completion of the setup.
+
+Your cooperation in utilization of these recorded classes will benefit you because you can access this information 24/7 and because it will prevent delays in support services response by  eliminating  many calls regarding HIPAA 5010 setup as we approach the CMS’ National HIPAA 5010 Test Week, August 22-26.
+
+Login to the Resource Center today and begin your HIPAA 5010 Test Setup!
+(copy and paste into a browser window: http://www.tritechems.com/My-Account/Download-Center/Support_HIPAA5010ResourceCenter.asp)
+
+
+Share this message with colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

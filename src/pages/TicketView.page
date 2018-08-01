@@ -1,0 +1,50 @@
+<apex:page standardController="Case" extensions="TicketViewController" action="{!autorun}"> 
+<!--    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+-->
+    <style>
+        #bodyCell{
+            font-size:12px;
+        }
+        .bPageTitle .ptBody .pageType{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            display: inline;
+        }
+        .mainTitle{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .content{
+            line-height: 0.5;
+            padding-top: 5px;
+        }
+    </style>
+     
+    <script type="text/javascript">
+        //document.body.style.visibility = 'hidden';
+        var interval = setInterval(hideButton, 500);
+        
+        function hideButton() {
+            if({!case.isClosed}){
+                var buttonEles =  document.getElementsByTagName("input");
+                for(var i=0; i < (buttonEles.length); i++) {
+                    if(buttonEles[i].type == 'button') {
+                        buttonEles[i].style.display = "none";
+                    }
+                
+                }
+        clearInterval(interval);
+        document.body.style.visibility = 'visible';
+            }
+        }
+    </script>
+    
+    <apex:pageBlock mode="view">
+        <apex:detail subject="{!case.Id}" relatedList="true" title="true"/>
+    </apex:pageBlock> 
+</apex:page>

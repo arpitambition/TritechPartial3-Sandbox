@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Administrative Software</label>
+                <name>Administrative_Software</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Civil Process</label>
+                <name>Civil_Process</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Common Software</label>
+                <name>Common_Software</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Dispatch</label>
+                <name>Dispatch</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire/EMS</label>
+                <name>Fire_RMS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Interfaces</label>
+                <name>Interfaces</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Internal Procedures</label>
+                <name>Internal_Procedures</name>
+            </dataCategory>
+            <dataCategory>
+                <label>IQ Search/IQ Analytics</label>
+                <name>IQ_Search_IQ_Analytics</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Jail/Transport</label>
+                <name>Jail_Transport</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Manuals/User Guides</label>
+                <name>Manuals_User_Guides</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mobile/Laptop/LAN</label>
+                <name>Mobile_Laptop_LAN</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Other</label>
+                <name>Other</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Pervasive</label>
+                <name>Pervasive</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Product Announcements</label>
+                <name>Announcements</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Investigative</label>
+                <name>Police_Investigative</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Police RMS</label>
+                <name>Police_RMS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Quest</label>
+                <name>Quest</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Shared Forms</label>
+                <name>Shared_Forms</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Technical Advisories</label>
+                <name>Technical_Advisories</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Technical/Troubleshooting</label>
+                <name>Technical_Troubleshooting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>TriCON/PTI/User Groups</label>
+                <name>TriCON_PTI_User_Groups</name>
+            </dataCategory>
+            <label>IMC</label>
+            <name>IMC</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Videos</label>
+                <name>Videos_LETG</name>
+            </dataCategory>
+            <dataCategory>
+                <label>CAD</label>
+                <name>CAD</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Civil</label>
+                <name>Civil</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Field Reporting</label>
+                <name>Field_Reporting</name>
+            </dataCategory>
+            <dataCategory>
+                <dataCategory>
+                    <label>Printers</label>
+                    <name>Printers</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Serial to USB Adapter</label>
+                    <name>Serial_to_USB_Adapter</name>
+                </dataCategory>
+                <dataCategory>
+                    <label>Signature Pad</label>
+                    <name>Signature_Pad</name>
+                </dataCategory>
+                <label>Hardware</label>
+                <name>Hardware</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Release Notes</label>
+                <name>Release_Notes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>RMS</label>
+                <name>RMS</name>
+            </dataCategory>
+            <label>LETG</label>
+            <name>LETG</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Change Logs</label>
+                <name>Change_Logs</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Help Documents</label>
+                <name>Help_Documents</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Manuals</label>
+                <name>Manuals</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Videos</label>
+                <name>Videos_Zuercher</name>
+            </dataCategory>
+            <label>Zuercher Suite</label>
+            <name>Zuercher_Suite</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Help Documents</label>
+                <name>ETI_Help_Documents</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Manuals</label>
+                <name>ETI_Manuals</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Videos</label>
+                <name>Videos</name>
+            </dataCategory>
+            <label>EmergiTech</label>
+            <name>EmergiTech</name>
+        </dataCategory>
+        <label>Zuercher Only Filter</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Zuercher</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

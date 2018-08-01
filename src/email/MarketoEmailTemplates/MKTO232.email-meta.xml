@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS Changes, Challenges and Opportunities under Healthcare Reform.Confirmation</name>
+    <style>none</style>
+    <subject>Confirmation: Is Web-Based EMS Software the Way of the Future?</subject>
+    <textOnly>Thank you {{lead.First Name:default=EMS Professional}} for registering for this complimentary live webinar.
+
+You will receive a reminder email one week and one day prior to the live webinar. Your webinar information is listed below.
+
+
+Jay Fitch and Dan Voss look forward to an engaging discussion on April 26th and are glad that you&apos;ve decided to join us!
+
+Webinar attendees will also receive a promotional code for $25 off their Pinnacle 2012 Conference Registration - pinnacle-ems.com &lt;http://pinnacle-ems.com/&gt;.
+
+See online on April 26!
+
+
+Thanks for Registering for the Complimentary Live Webinar: EMS Changes, Challenges and Opportunities under Healthcare Reform
+
+JOIN LINK:
+http://tritech.ilinc.com/join/yzcxpkv
+
+Thank you {{lead.First Name:default=EMS Professional}} for registering for this complimentary live webinar.
+
+Jay Fitch, PhD, Fitch &amp; Associates
+Dan Voss, TriTech Product Manager look forward to sharing both the business and user perspectives of the web-based trend in EMS Software. 
+
+You will receive a reminder email one week and one day prior to the live webinar. Your webinar information is list to the right.
+
+See online on April 26!
+
+
+WEBINAR DETAILS
+DATE: Thursday April 26, 2012
+TIME: 2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+
+SPEAKERS:
+Jay Fitch, PhD, Fitch &amp; Associates
+Dan Voss, TriTech Senior Product Manager
+
+JOIN LINK: http://tritech.ilinc.com/join/yzcxpkv
+
+AUDIO: Listen through your computer speakers or dial in over the telephone to the toll number shown on your screen after login
+
+Trouble logging in? Call 800.799.4510 to reach the iLinc support team for help
+
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

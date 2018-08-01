@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is sent to the proper Employees whenever a System Down event is created</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>System Down Notification to Employees</name>
+    <style>freeForm</style>
+    <subject>System Down Event created for {!Case.Account}</subject>
+    <textOnly>Event Details
+
+Event Name: System Down Event
+
+Event Status: System Currently Up
+
+Event Customer: {!Case.Account}
+
+Event Owner: {!Case.OwnerFullName}
+
+Event Description:  {!Case.Description}
+ </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

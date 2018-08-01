@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Registration is Open</name>
+    <style>none</style>
+    <subject>TriCON - Registration is now open</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Registration is Open
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+Hello {{lead.First Name:default=Client}},
+
+We hope that you will make plans to attend TriCON:  TriTech&apos;s Annual User Conference &lt;http://www.tritech.com/tricon&gt; in San Diego, California. 
+
+We are planning an exciting conference focused on &quot;Training for Today.  Preparing for Tomorrow.&quot;  TriCON 2012 will provide you the opportunity to: 
+
+
+
+	- Hear the future vision of the public safety industry and TriTech&apos;s direction
+	- Discover our latest product advancements
+	- Receive product training to learn new techniques and enhance current skills
+	- Network with peers to gain insights across the Law, Fire and EMS markets
+	- Build new partnership alliances with key vendors in the expanded exhibit hall 
+	- Discuss your agency&apos;s needs through face-to-face access to the TriTech team
+
+
+
+Don&apos;t miss out.  Be part of this AMAZING event developed with one goal - customer success now and into the future.
+Conference Details
+
+Dates: 
+
+
+Wednesday, September 26 - Friday, September 28
+
+Location: 
+
+
+Hilton San Diego Bayfront
+ San Diego, CA  92101
+ www.hiltonsandiegobayfront.com &lt;http://www.hiltonsandiegobayfront.com&gt;
+
+Registration: 
+
+
+$695 (Early bird registration)
+
+Additional discounts available to first time attendees and groups of four (4) or more attendees from the same organization.
+
+
+
+
+
+ &lt;http://www.cvent.com/d/vcqlkf/4W&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomTab xmlns="http://soap.sforce.com/2006/04/metadata">
+    <frameHeight>600</frameHeight>
+    <hasSidebar>true</hasSidebar>
+    <label>MyIMC</label>
+    <mobileReady>false</mobileReady>
+    <motif>Custom43: Jewel</motif>
+    <url>https://myimc.tritech.com/index.php?user=Salesforce&amp;passw=981844789456321478932145698742156252252</url>
+    <urlEncodingKey>UTF-8</urlEncodingKey>
+</CustomTab>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q2_2012_IA.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 2nd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Second Quarterly TriTech Customer Newsletter. Two years ago, TriTech acquired Ortivus, bringing the leading public safety software providers (i.e. IMC, Sweet/Ortivus, VisionAIR) together with one single focus – providing the best public safety and EMS software solutions. That effort has unified the best people and products in the industry today, resulting in the most trusted and innovative enterprise-wide solutions in Law, Fire 911 Dispatch and EMS. But we realize that trying to keep track of the latest product or company name has been a little bit like the “Where is Waldo” game. SweetSoft…Amazon…Sweet…Ortivus…
+
+That’s all about to change…
+
+Our 2012 focus is to strategically align all of our resources under a single structure, team and company - to provide the greatest resources to our customers. To that end, it is time to leave the old company brand behind and establish TriTech’s new brand. Here are some of the highlights:
+
+Cloud Functionality
+TriTech’s EMS product line serves over 1000 EMS services – over 100 of those service are using the cloud-based or online model and the pace of this delivery model adoption continues to accelerate. The EMS product line is the first TriTech suite to offer the full functionality of its billing and ePCR applications online.
+
+Leading Edge Technology
+TriTech is able to share developmental innovations and resources to advance solutions and bring leading-edge technology to market faster. TriTech’s technology expertise, development processes and best practices will be shared across all product lines.
+
+Employee Expertise
+Did you know that TriTech’s 350+ employees average more than a decade of public safety industry experience? This means a stronger industry presence (i.e. iCERT, APCO, IJIS, IACP, NENA, etc.), shared field experience and better communication with our 2,500 customer agencies.
+
+Customer Service Excellence
+Excellence in customer service is being standardized across the company utilizing best practices, common processes and performance benchmarks. TriTech’s National Support Center will continue to monitor customer satisfaction and listen and respond to your needs to deliver the best customer support experience in the industry. Courtesy, quality, excellent service – our promise to you.
+
+New Logo
+As of May 1, 2012, “TriTech Emergency Medical Services” is now “TriTech Software Systems.” To celebrate our strength and cohesiveness as one company, a new TriTech logo will be introduced that emphasizes our identity as one company, built upon the strengths of the best and most experienced minds in public safety software.
+
+All of these changes mean TriTech is able to offer the most complete, integrated, end-to-end, enterprise-wide public safety software solution – more so than any other company in the industry. We’re large enough to withstand economic swings, yet small enough to provide the personal service you need and deserve. 
+
+Thank you for the opportunity to let TriTech serve as your public safety and EMS technology provider. One company…many solutions…
+
+ 
+ 
+
+
+ 
+ 
+ Terri Barry, Vice President of Customer Services 
+ TriTech Software Systems 
+
+
+ 
+
+
+
+New Product Line Name and Website
+ Along with a new TriTech logo, within the next couple months, customers will also start seeing a new product line name. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Products.html&gt;
+
+
+
+
+
+
+Should You Consider a Cloud-Based Billing or ePCR Solution?
+ Do you know the online benefits?
+[READ MORE]
+
+
+ 
+
+Version 6.2.1 ePCR Release - Cardiac Monitor Interface
+
+Read about the latest updates to ePCR and register for the live webinar to learn more. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Products.html&gt;
+
+
+
+
+
+
+Training = Better use of your TriTech Software
+Are you aware of all the training options available to you? From group trainings, to the Billing Boot Camp to remote training options to the Billing Checkup…which is right for you?
+ [READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Support.html&gt;
+
+
+
+
+
+ 
+
+TriTech Receives Impact Award 
+TriTech Software Systems was awarded the Impact Award which recognizes businesses that have significant impact on the local economy.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_NewsandEvents.html&gt;
+&gt; Main Page
+&lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Main.html&gt;
+
+ &gt; Products
+&lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Products.html&gt;
+
+ &gt; Support
+&lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_Support.html&gt;
+
+ &gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q2_2012_IA_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call
+(563) 387-9338
+
+
+
+To Access the Client Login
+
+
+ &lt;http://www.tritechems.com/Support/Support.asp&gt;
+
+
+
+ACCOUNT MANAGERS
+ 
+
+Brenda Taylor
+(800) 537-3927 x6233
+brenda.taylor@tritech.com
+
+Michele Duwe
+(800) 537-3927 x6261
+michele.duwe@tritech.com
+
+Tyler Harman
+(800) 537-3927 x6280
+tyler.harman@tritech.com
+
+
+We&apos;ve moved our San Diego Corporate Office. Please note our new addresss:
+9477 Waples Street, Suite 100
+San Diego, California 92121
+(858) 799-9000
+
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

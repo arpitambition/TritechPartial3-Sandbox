@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_CustomerGolfTournament.SaveTheDate</name>
+    <style>none</style>
+    <subject>Save the Date! TriTech Customer Golf Tournament</subject>
+    <textOnly>Save the Date!
+TriTechs&apos; Customer Golf Tournament
+
+
+Dear {{lead.First Name:default=Customer}}, 
+
+Be sure to mark your calendars and plan to attend this fun-filled event which includes golf, dinner, contests and prizes. As in the past, we will be donating any proceeds to COPS and the Leary Foundation. In addition to the fun, you&apos;ll be helping two great causes.
+http://www.learyfirefighters.org/
+http://www.nationalcops.org/
+
+Tuesday, October 9, 2012
+11:00 AM Registration | 12:00 PM - Shotgun  |  Dinner - 5:00 PM
+Highfields Golf &amp; Country Club
+42 Magill Drive (off Route 122)
+Grafton, Massachusetts 
+
+More information to come!
+Contact: David Bell &lt;David.Bell@TriTech.com&gt; | 774-239-3722
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  -  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

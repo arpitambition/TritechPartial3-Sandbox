@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TriCON 2018 Register Now</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriCON_Letterhead</letterhead>
+    <name>TriCON_2018_1</name>
+    <style>freeForm</style>
+    <subject>Make Plans Now to Attend TriCON 2018!</subject>
+    <textOnly>Hi {!Contact.FirstName},
+
+Are you registered yet for TriCON 2018? There is going to be so much great training and networking this year. I don&apos;t want you to miss out on this opportunity. Details about the event can be found at this link: http://www.tritech.com/news/tricon.
+
+I&apos;ve attached a justification letter that you can use to gain approval to attend. You’ll need to edit it to put your approver&apos;s name at the top and your name at the bottom. Let me know if there’s anything more you need regarding justification, I can see what else I can do.
+
+If you register by January 29, we can even offer your agency an early bird discount, saving you $100 off your registration fee. It&apos;s a great investment in your software, really helping you get the most out of your system.
+
+Good luck! Let me know what else you might need on this. We&apos;d love to see you at TriCON 2018.
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.CompanyName}
+{!User.Phone} I {!User.Email}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

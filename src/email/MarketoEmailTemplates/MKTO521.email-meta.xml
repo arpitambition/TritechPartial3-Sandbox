@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Feb-2013_Fire-Training.Reminder</name>
+    <style>none</style>
+    <subject>Last Chance to Register for the TriTech&apos;s Perform (IMC) Fire Training Summit - February 13-14, 2013</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+REGISTRATION DEADLINE: FEBRUARY 1, 2013
+Seating is limited. Register today!
+
+2013 Fire Training Summit
+February 13-14, 2013  l  Nashua, NH
+Don&apos;t miss your chance to attend training focused on maximizing the use of Perform (formerly known as IMC) in your Fire Department.
+
+Topics will include Permits and Inspections, Equipment, Site File Maintenance, NFIRS, Attendance and Security. Please refer to the registration website for a complete agenda.
+
+We will be breaking this event into two separate days and you have the option of registering for one day or the other, or both if you choose. Pricing will be $125 per day and lunch will be provided. If you are interested in attending please register now &lt;http://offers.tritech.com/Feb2013_FireTraining_TrainingSummit.html&gt;, and an official quote from TriTech will be sent. Your registration will be completed once it is returned to us with the proper signatures.
+
+I hope to see you there!
+
+David Bourbonniere
+Project Management &amp; Training Supervisor
+
+Questions:
+ Please contact your respective Client Account Manager:
+
+David Bell
+ (774) 239-3722
+ david.bell@tritech.com &lt;mailto:david.bell@tritech.com&gt;
+
+Mark Baranowski
+ (978) 215-2270
+ mark.baranowski@tritech.com &lt;mailto:mark.baranowski@tritech.com&gt;
+Training Details
+
+&lt;http://offers.tritech.com/Feb2013_FireTraining_TrainingSummit.html&gt;
+
+
+Dates: 
+ February 13-14, 2013
+
+Cost Per Person:
+ $125 Per Day (Includes Lunch)
+
+Location:
+ Nashua Fire-Rescue
+ 177 Lake St
+ Nashua, NH 03060
+ 
+map &lt;https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=177+Lake+St+in+Nashua,%20+NH&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89e3b0cb092b9575:0x5986479a7fd5d6a,177+Lake+St,%20+Nashua,+NH+03060&amp;gl=us&amp;ei=AJPcUPvUBszU0gGgpIH4Ag&amp;ved=0CDUQ8gEwAA&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

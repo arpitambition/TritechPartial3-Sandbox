@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS_TX_122012.Confirmation - Austin</name>
+    <style>none</style>
+    <subject>Seminar Registration Confirmation</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Public Safety Technology Seminar
+
+NG9-1-1:  Are You Ready?
+Hosted by Microsoft and TriTech Software Systems
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ This is your confirmation that you are registered for the NG9-1-1 Technology Seminar.  We look forward to seeing you at the seminar.  If there are others that you would like to join you, click here  &lt;http://offers.tritech.com/TX_NG911Seminar.html&gt;to register them and save their space. 
+
+Date:
+ Tuesday, December 11
+
+Time:
+ 10:00 AM to 3:00 PM
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+Address:
+ Microsoft Facility - Austin
+10900 Stonelake Boulevard
+Austin, TX  
+Click here to view map &lt;http://goo.gl/maps/XReSz&gt;
+ 
+ Question?
+ Michelle McClellan
+ TriTech Software Systems
+ (858)799-7900
+ michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

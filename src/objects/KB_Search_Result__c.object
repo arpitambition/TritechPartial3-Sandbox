@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>ArticleViewdByUsers__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/00OS0000000qepe?pv0=&apos; &amp; Article_ID__c , &apos;Article Viewed&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Article Viewd By Users</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Article_Author__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>Article Author</label>
+        <referenceTo>User</referenceTo>
+        <relationshipName>KB_Search_Result</relationshipName>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Article_ID__c</fullName>
+        <externalId>false</externalId>
+        <label>Article ID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Article_Published_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Article Published Date</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Article_Title__c</fullName>
+        <externalId>false</externalId>
+        <label>Article Title</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Article_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Article Type</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Defect</fullName>
+                    <default>false</default>
+                    <label>Defect</label>
+                </value>
+                <value>
+                    <fullName>FAQ</fullName>
+                    <default>false</default>
+                    <label>FAQ</label>
+                </value>
+                <value>
+                    <fullName>How To</fullName>
+                    <default>false</default>
+                    <label>How To</label>
+                </value>
+                <value>
+                    <fullName>Release Notes</fullName>
+                    <default>false</default>
+                    <label>Release Notes</label>
+                </value>
+                <value>
+                    <fullName>Tech Advisory</fullName>
+                    <default>false</default>
+                    <label>Tech Advisory</label>
+                </value>
+                <value>
+                    <fullName>Tech Tips</fullName>
+                    <default>false</default>
+                    <label>Tech Tips</label>
+                </value>
+                <value>
+                    <fullName>Ticket Solutions</fullName>
+                    <default>false</default>
+                    <label>Ticket Solutions</label>
+                </value>
+                <value>
+                    <fullName>User Manuals</fullName>
+                    <default>false</default>
+                    <label>User Manuals</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Article_Viewed__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Article Viewed?</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Article__c</fullName>
+        <externalId>false</externalId>
+        <formula>HYPERLINK(&apos;/&apos; &amp;  Article_ID__c ,  Article_Title__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Article</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Category_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Group</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>VisiNet</fullName>
+                    <default>false</default>
+                    <label>VisiNet</label>
+                </value>
+                <value>
+                    <fullName>EMS</fullName>
+                    <default>false</default>
+                    <label>EMS</label>
+                </value>
+                <value>
+                    <fullName>911-Inc</fullName>
+                    <default>false</default>
+                    <label>911-Inc</label>
+                </value>
+                <value>
+                    <fullName>Perform</fullName>
+                    <default>false</default>
+                    <label>Perform</label>
+                </value>
+                <value>
+                    <fullName>VisionAIR</fullName>
+                    <default>false</default>
+                    <label>VisionAIR</label>
+                </value>
+                <value>
+                    <fullName>IMC</fullName>
+                    <default>false</default>
+                    <label>IMC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>KB_Search_Tracking__c</fullName>
+        <externalId>false</externalId>
+        <label>KB Search Tracking</label>
+        <referenceTo>KB_Search_Tracking__c</referenceTo>
+        <relationshipLabel>KB Search Result</relationshipLabel>
+        <relationshipName>KB_Search_Result</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <label>KB Search Result</label>
+    <nameField>
+        <displayFormat>KBSR-{0000}</displayFormat>
+        <label>KB Search Result ID</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>KB Search Result</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

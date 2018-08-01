@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS_CC_Dec11.EMS CC Dec11 Email</name>
+    <style>none</style>
+    <subject>Your EMS CAM Connection Newsletter - December 2011</subject>
+    <textOnly>December 2011 Edition (http://offers.tritech.com/EMS_CC_Dec11_Main.html)
+Welcome to the December issue of your Client Account Manager (CAM) Connection from the EMS Solution&apos;s division of TriTech Sofware Systems.
+ 
+ 
+ 
+ Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Dec11_AlertUpdates.html)
+
+ &gt; TriTech Software Systems Strengthens Customer Support with
+   Center of Excellence
+
+ &gt; HIPAA 5010 Could Interrupt EMS Service Revenue Stream
+
+ &gt; TriTech Welcomes Tyler Harman to EMS Sales Team
+
+ &gt;  TriTech Offers Value to EMS Industry Through Sponsorships
+    and Affiliation Program
+ 
+ &gt;  Ohio Ending EMSIRS – Update to Sweet Billing Run Sheet? 
+ 
+   
+ 
+ Products &amp; Services (http://offers.tritech.com/EMS_CC_Dec11_ProductsServices.html)
+ 
+ &gt; TriTech’s VisiCAD Helps Decrease Response Times to 31 Seconds
+    in South Metro Denver
+
+ &gt; Fusion ePCR Version 6.2 Coming Soon
+
+ &gt; Sweet Billing Version 5.8 Offers New System Dashboard
+
+ &gt; Benefits of EMS Software Delivered Over the Internet
+
+ &gt; Group Training for Sweet Billing Users Offered in Rockford, Illinois
+
+ &gt; Complimentary Webinar Recordings
+ 
+ &gt; December Coffee with Kelly Topics 
+ 
+ 
+ 
+ Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Dec11_TechnicalSupportHotTopics.html)
+ 
+ &gt;  Ambulance Definition of Terms 
+ 
+
+
+ Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Dec11_ClientGoLives.html)
+
+ &gt; Washington County Ambulance Shows Revenue Gains and Improved
+    QA since Implementing New Technology
+
+ &gt; Garrett Medical Transport Saving IT Resources and Headaches with
+    Online Billing
+
+
+
+ &gt; Main Page (http://offers.tritech.com/EMS_CC_Dec11_Main.html)
+
+ &gt; Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Dec11_AlertUpdates.html)
+ 
+ &gt; Products &amp; Services (http://offers.tritech.com/EMS_CC_Dec11_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Dec11_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Dec11_ClientGoLives.html)
+
+ &gt; www.tritech.com (http://www.tritech.com)
+
+ 
+CAM CONTACTS
+Brenda Taylor
+800.537.3927 x6233
+brenda.taylor@tritech.com
+ 
+
+Michele Duwe
+800.537.3927 x6261
+michele.duwe@tritech.com 
+ 
+Tyler Harman
+800.537.3927 x6280
+tyler.harman@tritech.com 
+   
+  
+ 
+ 
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

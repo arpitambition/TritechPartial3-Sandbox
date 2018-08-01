@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Justify Your Trip - VisiNet</name>
+    <style>none</style>
+    <subject>TriCON - Justify Your Trip</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Justify Your Trip to TriCON
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+Hello {{lead.First Name:default=Client}},
+
+Justifying your TriCON attendance to management can be challenging. The reality is that TriCON is the most cost effective and efficient method of obtaining education and in establishing a professional network.  
+
+
+TriCON&apos;s value lies in the conference’s content and the focused interaction it provides. Sometimes learning one new piece of information or gaining a better understanding about only one process can justify the entire cost of attending TriCON. And making one professional contact can be worth much more. 
+
+ To help your agency be part of this important educational event, we&apos;re providing you with an TriCON Justification Letter. 
+
+ &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+
+ &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+Conference Details
+Resources to Download:
+TriCON Justification Letter &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+Agenda Sneak Peek &lt;http://offers.tritech.com/rs/ortivusna/images/Agenda Sneak Peak_04242012_c.pdf&gt;
+Location: 
+ Hilton San Diego Bayfront
+ San Diego, California
+ www.hiltonsandiegobayfront.com &lt;http://www.hilton.com/en/hi/groups/personalized/S/SANCCHH-TTSS-20120924/index.jhtml?WT.mc_id=POG&gt;
+
+Registration: 
+ $695 (Early-Bird price)
+ Additional discounts available for first time attendees and groups of four (4) or more from the same organization.
+
+
+
+
+
+ &lt;http://www.cvent.com/d/8cqly7/4W&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

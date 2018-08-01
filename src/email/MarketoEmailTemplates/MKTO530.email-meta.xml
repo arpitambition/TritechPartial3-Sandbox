@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>March-2013_Fire-Law-Training.Reminder</name>
+    <style>none</style>
+    <subject>Deadline Approaching: TriTech&apos;s Perform (IMC) Next Training - March 13-14, 2013 in Warwick, RI</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+REGISTRATION DEADLINE: MARCH 1, 2013 
+Seating is limited. Register today!
+2013 Perform Training Institute
+March 13-14, 2013  |  Warwick, RI
+We are taking Perform Training Institute on the road.  The next stop on the tour is Warwick, RI March 13th and 14th.  We are pleased to announce that we will be holding two (2) one-day training sessions, hosted by the Community College of Rhode Island Police Department.
+
+March 13th - 9AM-4PM:
+Best Practices for Building Comprehensive Records in RMS and Crime Analysis
+A Records Management System is the central repository for all of your agency’s law enforcement information. This presentation will provide an overview and demonstration of the capabilities in Perform RMS that can provide a 360-degree view of incidents, people, vehicles and location information. Information on patterns can help law enforcement agencies deploy resources in a more effective manner. This session will also help you make sense out of the data captured in your Perform Records to produce crime analysis reports for your agency’s use.
+
+
+March 14th - 9AM-4PM:
+System Manager
+System managers are responsible for keeping your public safety software system operational 24 hours a day, 365 days a year. This course is intended to teach both seasoned and new system managers how to manage your installed Perform software. This is an inter-departmental seminar which includes network and hardware issues, server and workstation maintenance relative to the Perform software, backups, printers, software updates, database analyzing, system logs, identifying error codes, security issues, laptops, mobiles, various interfaces, case management, new feature processes, questions and answers.
+
+ 
+
+Hope to see you there!
+David Bourbonniere, Project Management &amp; Training Supervisor
+Training Details
+
+REGISTER: &lt;http://offers.tritech.com/March2013_FireLawTraining_TrainingSummit.html&gt;
+
+DOWNLOAD INFORMATION &lt;http://offers.tritech.com/rs/ortivusna/images/Invite_Agenda_March13-14_3013.pdf&gt; &lt;http://offers.tritech.com/rs/ortivusna/images/Invite_Agenda_March13-14_3013.pdf&gt;
+
+Registration Deadline: March 1, 2013
+
+Dates: 
+ March 13-14, 2013
+
+Cost Per Person:
+ $125 Per Day (Includes Lunch)
+
+Location:
+ CCRI Knight Campus - 
+400 East Ave., Room 4080
+Warwick, RI 02886-1807
+
+Questions:
+ Please contact your respective Client Account Manager:
+ 
+ David Bell
+ (774) 239-3722
+ david.bell@tritech.com
+ 
+ Mark Baranowski
+ (978) 215-2270
+ mark.baranowski@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

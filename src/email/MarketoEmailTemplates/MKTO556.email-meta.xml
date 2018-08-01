@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q1_2013_Inform.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 1st Quarter Newsletter (March 2013)</subject>
+    <textOnly>In This Issue
+
+Customer Experience. These two words drive everything that we do at TriTech Software Systems. This is the case since every facet of our organization can impact our customer’s experience with the software and services that we provide for the Public Safety marketplace. A key element in our customer’s ability to have a “positive“ experience with our solutions is tied to the interaction and effectiveness of our Customer Service organization.
+
+During 2012, we have put tremendous efforts into enhancing the processes and procedures that have the most impact in our ability to serve our customers. We also invested in additional resources for our Customer Service organization in order to better ensure improvements tied to our response and resolution service metrics. We were able to improve our Customer Service experience given that we had the unique ability to leverage a talent pool and knowledge base that included a highly diverse group of individuals who came together to form a unified Customer Service team. Prior to 2012, we essentially had five separate Customer Service teams [TriTech Software Systems (VisiNet), Sweet/Ortivus (EMS), Information Management Corporation (IMC), VisionAIR, and 911 Inc.]. Unifying our Customer Service teams has enabled us to streamline a number of items that greatly influence our ability to better serve our customers. The following list provides a quick snapshot of our key 2012 customer service accomplishments:
+
+
+ - Aligned and streamlined our policies and procedures that guide us in order to serve and support over 2,700 customers
+ - Closed 38,869 service tickets
+ - Published over 2,700 Knowledge Base (KB) articles
+ - Conducted 44 customer webinars
+ - Conducted 58 staff training events
+ - Unified all our customer service professionals (over 60 professionals) within a single functional group
+ - Organized our customer service leadership, personnel, and their activities aligned to our three main product families: Inform, Perform, and Respond. 
+ - Hired and trained 13 new staff members
+ - Transitioned to a new phone and monitoring system in order to better respond to our customers.
+
+
+
+During 2013, TriTech’s Customer Service team will continue to focus on improving our personnel and the processes and procedures that can positively impact our ability to serve our customers. To support these efforts our entire organization is fully committed to faster ticket resolution and backlog reduction, more frequent customer communications and webinar offerings, - further enhancing our unified service/support processes and policies, and improving our training and 
+communication methods (externally and internally).
+
+We believe that the organization foundation that we implemented during 2012 will greatly impact our ability to better serve our customers during 2013 and beyond. We thank you for your ongoing trust and confidence to serve and support you and your agency on a daily basis.
+
+Respectfully,
+Darrin Reilly
+Chief Operating Officer
+
+ 
+
+Products
+Read about recent regional user group meetings, and how to turn on the power of 
+public safety search with new Inform IQ and Analytics. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Inform_Products.html&gt;
+
+
+Support
+Check out new knowledge base articles and training recordings, meet TriTech Tier Two Support Technician - Joe Clark, and please note the upcoming office closings. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Inform_Support.html&gt;
+
+
+News and Events
+Plan for 3+ days of training at TriCON 2013, read about client news, and make plans to visit us at one of the tradeshows on our 2013  schedule. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q1_2013_Inform_NewsandEvents.html&gt;
+Miss the last issue? Find it here &lt;http://offers.tritech.com/TriTechNews_Q4_2012_CA_Main.html&gt;
+
+&gt; Main
+
+ &gt; Products
+
+ &gt; Support
+
+&gt; News and Events 
+
+
+
+
+To Access the Client Login
+
+
+ &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&quot; target=&quot;_blank&quot;&gt;&lt;img src=&gt;
+
+
+
+ACCOUNT MANAGEMENT 
+
+
+Ed Bean
+Director, Account Management
+ed.bean@tritech.com &lt;mailto:ed.bean@tritech.com&gt;
+
+Tommy Blackwell
+(858) 799-7467
+thomas.blackwell@tritech.com &lt;mailto:thomas.blackwell@tritech.com&gt; 
+
+Michele Duwe
+(563) 387-4831
+michele.duwe@tritech.com &lt;mailto:michele.duwe@tritech.com&gt;
+
+Sally 
+Olson-Nelson
+(858) 799-7358
+sally.olson-nelson@tritech.com &lt;mailto:sally.olson-nelson@tritech.com&gt;
+
+Ken Schulte
+(858) 799-7316
+ken.schulte@tritech.com &lt;mailto:ken.schulte@tritech.com&gt;
+
+Angela Shepherd
+(910) 602-4064
+angela.shepherd@tritech.com &lt;mailto:angela.shepherd@tritech.com&gt;
+
+Jane Soderberg
+(303) 252-1573
+jane.soderberg@tritech.com &lt;mailto:jane.soderberg@tritech.com&gt;
+
+Jennifer Swaney
+(303) 487-5474
+jennifer.swaney@tritech.com
+
+Christine Turner
+(858) 
+799-7468
+chris.turner@tritech.com &lt;mailto:chris.turner@tritech.com&gt;
+
+ 
+
+
+
+
+
+ 
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

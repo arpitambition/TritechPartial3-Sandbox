@@ -1,0 +1,14 @@
+*** TICKET ESCALATION ALERT *** 
+
+The following Ticket has been escalated to Tier 3 status: 
+
+Account: {!Account.Name} 
+Customer Number:  {!Account.EMS_Customer_Number_WMP__c}
+Ticket Number: {!Case.CaseNumber}
+Ticket Owner: {!Case.OwnerFullName}
+
+Subject:  {!Case.Subject}
+Short Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}
+
+
+Click on the link to access the ticket: {!Case.Link}

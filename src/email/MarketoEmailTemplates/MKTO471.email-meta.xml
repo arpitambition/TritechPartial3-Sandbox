@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_VNS_System_Planning_v5.2.Email</name>
+    <style>none</style>
+    <subject>VisiCAD - System Planning v5.2 - Technical Services Communication</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Technical Services Communication
+VisiCAD - System Planning v5.2
+- POSTED: 11-12-12
+
+
+ Dear clients,
+
+TriTech has released the VisiCAD System Planning v5.2 documentation. This document covers a diverse set of topics ranging from product architecture information, approval for Microsoft platforms, security and support communications, system component hardware and third party software and system restart checklists. This is intended as the primary reference point for system administrators and system planners.
+
+Please click on this link &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&gt; to log into the customer portal and search the articles for VisiCAD - System Planning v5.2.
+
+Sincerely,
+
+Shane Birch
+ Technical Support Supervisor - Inform Solutions | Decorah, IA
+ Direct: (858) 799.7461 l Mobile: (563) 419.8766
+ Fax: (563) 387.9335 l Support: (800) 847.4223
+
+Support Website: SalesForce.com &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&gt;
+
+Read Full Article &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&gt; l Email Feedback &lt;mailto:support@tritech.com?subject=VisiNet%20Solutions%20Tech%20Tips%20-%20Feedback&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AIR_TX_Dallas_0612.Reminder - Tomorrow</name>
+    <style>none</style>
+    <subject>Registration Reminder: Tomorrow&apos;s Data Sharing Tech Seminar - Wednesday, June 13</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Reminder:  Data Sharing and Integrated Justice Technology Seminar
+You are registered to attend
+Hello {{lead.First Name:default=Public Safety Professional}},
+ 
+ This is your confirmation that you are registered to attend the Data Sharing and Integrated Justice Technology Seminar.  We look forward to seeing you tomorrow at the seminar.
+
+**The Las Colinas facility is a secure facility.  Please click here &lt;http://offers.tritech.com/rs/ortivusna/images/Microsoft_VisitorParking.xls&gt; to fill out the vehicle registration form to expedite check in at Microsoft.  .
+
+Date:
+ Wednesday, June 13
+
+Agenda:
+
+10:00 AM - 12:00 NOON
+ Presentation: Achieve goals of data sharing and building an integrated justice system
+
+
+12:00 NOON - 1:00 PM
+ Lunch and Learn
+
+1:00 PM - 3:00 PM
+ Interactive Product Demonstrations and Door Prizes
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+Address:
+ Microsoft Facility - Las Colinas
+ 7000 N. State Hwy 161
+ Irving, TX 75039
+ Click here to view map &lt;http://g.co/maps/mzdhz&gt;
+ 
+ Parking at Microsoft:
+ Parking is free. Your event is held in building LC1. Attendees are required to park in the visitor parking area located in front (west side) of the buildings or on the north side of building LC2. If visitors happen to park in the rear parking garage, they will need to walk around to the FRONT of building LC1 to enter.
+
+ 
+
+Question?
+ Michelle McClellan
+ TriTech Software Systems
+ (858)799-7900
+ michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

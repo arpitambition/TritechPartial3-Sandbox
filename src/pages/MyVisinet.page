@@ -1,0 +1,7 @@
+<apex:page controller="IMCandVisinetSupportController" action="{!autoCheckVisinet}">
+    
+     
+    <iframe frameborder="0" width="100%" height="600px" src="//myvisinet.tritech.com/index.php?user=Salesforce&passw=981844789456321478932145698742156252252" />
+     
+    
+</apex:page>

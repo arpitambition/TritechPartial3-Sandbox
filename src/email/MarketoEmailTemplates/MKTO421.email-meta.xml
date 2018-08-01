@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Stakeholder-SteeringCommittee_Invite.EmailBlast</name>
+    <style>none</style>
+    <subject>TriTech Forms User Committees for Perform Product Line</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+TriTech Forms User Committees for Perform Product Line
+
+From Leo Hisoire, Senior Product Manager
+
+
+Dear {{lead.First Name:default=Customer}}, 
+
+TriTech is committed to Public Safety. That is our sole focus and we want to ensure that we bring you the best public safety products to meet your needs. You asked to have more of a say in what new features get added to the Perform (formerly “IMC”) software and we listened!
+
+First, we created a survey to dictate priorities for how we use our engineering resources for new features. As a result, we have incorporated some great new features including: the Mobile Update Utility for remote updating of mobile software, paging by fire district, multiple assisting officers support, run card displayed at call entry, among many other features.
+
+Now we want to take this 
+process even further by creating two new committees of users: a Steering Committee and a Stakeholder Committee.
+
+The Steering Committee will look through all the new feature requests from Perform users and help prioritize that list. This is your chance to rate the features that are being considered for the Perform product suite. Click here for the application &lt;http://offers.tritech.com/rs/ortivusna/images/PerformSteeringApplication.pdf&gt;. 
+
+The Stakeholder Committee will give feedback on features that will be added to the software during the actual development phase. This is a unique opportunity to help define how the new features will actually work. Click here for the application. &lt;http://offers.tritech.com/rs/ortivusna/images/PerformStakeHolderApplication.pdf&gt;  
+
+Space will be limited. We will be accepting applications thru November 22, 2012. We want to ensure good representation from all the different types of agencies we serve. Feel free to volunteer for one committee, or both.  
+
+To apply, please send your completed applications to leo.hisoire@tritech.com &lt;mailto:leo.hisoire@tritech.com&gt; or fax to 774-551-9153.
+
+Best Regards,
+
+
+Senior Product Manager
+TriTech Software Systems | www.tritech.com &lt;http://www.tritech.com/&quot;&gt;&lt;span style=&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

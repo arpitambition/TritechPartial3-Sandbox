@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_HolidayCard_122111</name>
+    <style>none</style>
+    <subject>TriTech Software Systems Wishes You A Happy Holiday Season</subject>
+    <textOnly>You&apos;re receiving this communication because of your relationship with TriTech Software Systems.
+
+
+
+During this holiday season, we are grateful for all who are part of the TriTech family and wish you health and happiness throughout the year.
+
+From all of us at TriTech Software Systems!
+
+
+
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

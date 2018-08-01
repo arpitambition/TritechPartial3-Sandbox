@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;h2&gt;&lt;marquee onmouseover=&quot;this.scrollAmount=2&quot; onmouseout=&quot;this.scrollAmount=6&quot; bgcolor=&quot;yellow&quot;&gt;&lt;font color=&quot;black&quot;&gt;ENTER MESSAGE HERE&lt;/font&gt;&lt;marquee&gt;&lt;/marquee&gt;&lt;/marquee&gt;&lt;/h2&gt;</body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>wide</width>
+</HomePageComponent>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA13-001.020212</name>
+    <style>none</style>
+    <subject>TA13-01 - Unit Sharing in CAD</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Technical Advisory
+TA13-01 - Unit Sharing in CAD
+POSTED: 1-21-13
+
+
+ Dear Clients,
+
+Historically, CAD administrators of sites that utilize Initial Assignment Recommendations have been instructed to share units with all jurisdictions and divisions for the ease of unit recommendation for all types of responses. It was common to only restrict sharing when units should be limited from responding to a particular jurisdiction or division.
+
+Please see the full article for instructions.
+
+Sincerely,
+
+Shane Birch
+ Technical Support Supervisor - Inform Solutions | Decorah, IA
+ Direct: (563) 387.4813 l Mobile: (563) 419.8766
+ Fax: (563) 387.9335 l Support: (800) 847.4223
+
+Read Full Article &lt;https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;id=939:technical-advisory-ta13-01-unit-sharing-in-cad&amp;Itemid=424&gt; l Email Feedback &lt;mailto:support@tritech.com?subject=VisiNet%20Solutions%20Tech%20Tips%20-%20Feedback&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

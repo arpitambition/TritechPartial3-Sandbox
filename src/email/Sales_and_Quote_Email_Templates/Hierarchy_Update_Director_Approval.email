@@ -1,0 +1,7 @@
+{!Account.Hierarchy_Completed_by__c} has completed the Hierarchy Update for:<BR><BR>
+
+<B>{!Account.Name}</B><BR><BR>
+
+Please review the updates to confirm that they are accurate and check the "Hierarchy Director Approved" checkbox when complete.<BR><BR>
+
+You can view the account here: {!Account.Link}<BR><BR>

@@ -1,0 +1,11 @@
+The following write-in request has been cancelled:
+
+Write-In # {!Write_In__c.Name}
+Title: {!Write_In__c.Title__c}
+Agency: {!Write_In__c.Agency__c}
+Opportunity: {!Write_In__c.Opportunity__c} 
+
+Additional Info:
+{!Write_In__c.Write_In_Description__c}
+
+Click this link to review the Write-In: {!Write_In__c.Link}

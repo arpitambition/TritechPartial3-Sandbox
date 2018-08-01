@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Colorado_May2013.Confirmation</name>
+    <style>none</style>
+    <subject>Seminar Registration Confirmation</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Public Safety Technology Seminar
+The Future of Public Safety
+Registration Confirmation
+Hello {{lead.First Name:default=Public Safety Professional}},
+ 
+ This is your confirmation that you are registered for the Future of Public Safety Technology Seminar.  We look forward to seeing you at the seminar.  If there are others you feel may benefit from attending, please register them here:  http://offers.tritech.com/PublicSafetyFuture_CO.html &lt;http://offers.tritech.com/publicsafetyfuture_Co.html&gt;
+
+Date:
+ Wednesday, May 15, 2013
+
+Time:
+ 10:00 AM to 3:00 PM
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+Address:
+ Longmont Emergency Communications Center
+225 Kimbark Street
+Longmont, CO  80501
+ 
+ Question?
+ Michelle McClellan
+ TriTech Software Systems
+ (858)799-7900
+ michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

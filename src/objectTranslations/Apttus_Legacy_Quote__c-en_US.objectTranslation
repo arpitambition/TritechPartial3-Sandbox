@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Apttus Legacy Quote - READ ONLY</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Apttus Legacy Quotes - READ ONLY</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Apttus Legacy Quotes - READ ONLY --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Credit Amount --></label>
+        <name>Credit_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM Target Achieved --></label>
+        <name>GM_Target_Achieved__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gross Margin % --></label>
+        <name>Gross_Margin__c</name>
+    </fields>
+    <fields>
+        <label><!-- INTERNAL Notes to Approvers --></label>
+        <name>INTERNAL_Notes_to_Approvers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Quote Primary --></label>
+        <name>Is_Quote_Primary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Approval Date --></label>
+        <name>Last_Approval_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Rejection Date --></label>
+        <name>Last_Rejection_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Most Recent Approval Level --></label>
+        <name>Most_Recent_Approval_Level__c</name>
+        <picklistValues>
+            <masterLabel>CFO/CEO Approved</masterLabel>
+            <translation><!-- CFO/CEO Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COO Approved</masterLabel>
+            <translation><!-- COO Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>COO/CFO/CEO Approved</masterLabel>
+            <translation><!-- COO/CFO/CEO Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Finance Approved</masterLabel>
+            <translation><!-- Finance Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Green Team Approved</masterLabel>
+            <translation><!-- Green Team Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware and 3rd Party Approved</masterLabel>
+            <translation><!-- Hardware and 3rd Party Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Operations Approved</masterLabel>
+            <translation><!-- Operations Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Approval</masterLabel>
+            <translation><!-- Pending Approval --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Approved - Final</masterLabel>
+            <translation><!-- Quote Approved - Final --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Rejected</masterLabel>
+            <translation><!-- Quote Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recalled</masterLabel>
+            <translation><!-- Recalled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sales Director Approved</masterLabel>
+            <translation><!-- Sales Director Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VP of Sales Approved</masterLabel>
+            <translation><!-- VP of Sales Approved --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- New Contract Required --></label>
+        <name>New_Contract_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Apttus Legacy Quotes - READ ONLY --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Optional T&amp;C --></label>
+        <name>Optional_T_C__c</name>
+        <picklistValues>
+            <masterLabel>Client to Remove Pilot SW after 30 Days</masterLabel>
+            <translation><!-- Client to Remove Pilot SW after 30 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation Services Not Included</masterLabel>
+            <translation><!-- Installation Services Not Included --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>License Provisions Pertain to Pilot SW</masterLabel>
+            <translation><!-- License Provisions Pertain to Pilot SW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot License Period 45 Days</masterLabel>
+            <translation><!-- Pilot License Period 45 Days --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot Project Cost Discounted</masterLabel>
+            <translation><!-- Pilot Project Cost Discounted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot SW Installed with Client MS SW</masterLabel>
+            <translation><!-- Pilot SW Installed with Client MS SW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pilot System Purchase Requires New SO</masterLabel>
+            <translation><!-- Pilot System Purchase Requires New SO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Defined by Client Discussions</masterLabel>
+            <translation><!-- Quote Defined by Client Discussions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Quote Defined by Client RFP</masterLabel>
+            <translation><!-- Quote Defined by Client RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SW Support Included During Pilot Period</masterLabel>
+            <translation><!-- SW Support Included During Pilot Period --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 12 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 12 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 15 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 15 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 18 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 18 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 24 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 24 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 3 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 3 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 6 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 6 Months --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services Not to Exceed 9 Months</masterLabel>
+            <translation><!-- Services Not to Exceed 9 Months --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Overall Quote Total with Tax --></label>
+        <name>Overall_Quote_Total_with_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+        <picklistValues>
+            <masterLabel>100% Upfront</masterLabel>
+            <translation><!-- 100% Upfront --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>100% Upon Installation (Restricted)</masterLabel>
+            <translation><!-- 100% Upon Installation (Restricted) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50/50 - 50% Upfront &amp; 50% Installation</masterLabel>
+            <translation><!-- 50/50 - 50% Upfront &amp; 50% Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>50/50 plus 100% 3rd Party</masterLabel>
+            <translation><!-- 50/50 plus 100% 3rd Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Default</masterLabel>
+            <translation><!-- Default --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Milestone Payments (LARGE quotes)</masterLabel>
+            <translation><!-- Milestone Payments (LARGE quotes) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Presented Date --></label>
+        <name>Presented_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price List --></label>
+        <name>Price_List__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact__c</name>
+        <relationshipLabel><!-- Apttus Legacy Quotes - READ ONLY --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Project Related Fees --></label>
+        <name>Project_Related_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Total --></label>
+        <name>Project_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Date --></label>
+        <name>Purchase_Order_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Order Number --></label>
+        <name>Purchase_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Quote Name --></label>
+        <name>Quote_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Record Type --></label>
+        <name>Record_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Number --></label>
+        <name>Sales_Order_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax (Override) --></label>
+        <name>Sales_Tax_Override__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax Percent --></label>
+        <name>Sales_Tax_Percent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax --></label>
+        <name>Sales_Tax__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Notes Section --></label>
+        <name>Summary_Notes_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Exempt --></label>
+        <name>Tax_Exempt__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Notes (Internal Only) --></label>
+        <name>Tax_Notes_Internal_Only__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax State --></label>
+        <name>Tax_State__c</name>
+        <picklistValues>
+            <masterLabel>AB</masterLabel>
+            <translation><!-- AB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AK</masterLabel>
+            <translation><!-- AK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AL</masterLabel>
+            <translation><!-- AL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AR</masterLabel>
+            <translation><!-- AR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AS</masterLabel>
+            <translation><!-- AS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>AZ</masterLabel>
+            <translation><!-- AZ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BC</masterLabel>
+            <translation><!-- BC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CA</masterLabel>
+            <translation><!-- CA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CO</masterLabel>
+            <translation><!-- CO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CT</masterLabel>
+            <translation><!-- CT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DC</masterLabel>
+            <translation><!-- DC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DE</masterLabel>
+            <translation><!-- DE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FL</masterLabel>
+            <translation><!-- FL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FM</masterLabel>
+            <translation><!-- FM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GA</masterLabel>
+            <translation><!-- GA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GU</masterLabel>
+            <translation><!-- GU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HI</masterLabel>
+            <translation><!-- HI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IA</masterLabel>
+            <translation><!-- IA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ID</masterLabel>
+            <translation><!-- ID --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IL</masterLabel>
+            <translation><!-- IL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IN</masterLabel>
+            <translation><!-- IN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KS</masterLabel>
+            <translation><!-- KS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>KY</masterLabel>
+            <translation><!-- KY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>LA</masterLabel>
+            <translation><!-- LA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MA</masterLabel>
+            <translation><!-- MA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MB</masterLabel>
+            <translation><!-- MB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MD</masterLabel>
+            <translation><!-- MD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ME</masterLabel>
+            <translation><!-- ME --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MH</masterLabel>
+            <translation><!-- MH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MI</masterLabel>
+            <translation><!-- MI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MN</masterLabel>
+            <translation><!-- MN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MO</masterLabel>
+            <translation><!-- MO --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MP</masterLabel>
+            <translation><!-- MP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MS</masterLabel>
+            <translation><!-- MS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>MT</masterLabel>
+            <translation><!-- MT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NB</masterLabel>
+            <translation><!-- NB --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NC</masterLabel>
+            <translation><!-- NC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ND</masterLabel>
+            <translation><!-- ND --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NE</masterLabel>
+            <translation><!-- NE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NH</masterLabel>
+            <translation><!-- NH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NJ</masterLabel>
+            <translation><!-- NJ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NL</masterLabel>
+            <translation><!-- NL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NM</masterLabel>
+            <translation><!-- NM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NS</masterLabel>
+            <translation><!-- NS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NT</masterLabel>
+            <translation><!-- NT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NU</masterLabel>
+            <translation><!-- NU --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NV</masterLabel>
+            <translation><!-- NV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>NY</masterLabel>
+            <translation><!-- NY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OH</masterLabel>
+            <translation><!-- OH --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OK</masterLabel>
+            <translation><!-- OK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ON</masterLabel>
+            <translation><!-- ON --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OR</masterLabel>
+            <translation><!-- OR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PA</masterLabel>
+            <translation><!-- PA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PE</masterLabel>
+            <translation><!-- PE --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PR</masterLabel>
+            <translation><!-- PR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>PW</masterLabel>
+            <translation><!-- PW --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>QC</masterLabel>
+            <translation><!-- QC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RI</masterLabel>
+            <translation><!-- RI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SC</masterLabel>
+            <translation><!-- SC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SD</masterLabel>
+            <translation><!-- SD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SK</masterLabel>
+            <translation><!-- SK --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TN</masterLabel>
+            <translation><!-- TN --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TX</masterLabel>
+            <translation><!-- TX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UT</masterLabel>
+            <translation><!-- UT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VA</masterLabel>
+            <translation><!-- VA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VI</masterLabel>
+            <translation><!-- VI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VT</masterLabel>
+            <translation><!-- VT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WA</masterLabel>
+            <translation><!-- WA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WI</masterLabel>
+            <translation><!-- WI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WV</masterLabel>
+            <translation><!-- WV --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>WY</masterLabel>
+            <translation><!-- WY --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>YT</masterLabel>
+            <translation><!-- YT --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Taxable Items --></label>
+        <name>Taxable_Items__c</name>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Maintenance</masterLabel>
+            <translation><!-- Maintenance --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Software</masterLabel>
+            <translation><!-- Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Travel</masterLabel>
+            <translation><!-- Travel --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Taxable Sales --></label>
+        <name>Taxable_Sales__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Custom Solutions --></label>
+        <name>Total_Custom_Solutions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Discount Amount --></label>
+        <name>Total_Discount_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Hardware --></label>
+        <name>Total_Hardware__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Implementation Service Fees --></label>
+        <name>Total_Implementation_Service_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Maint Amount --></label>
+        <name>Total_Maint_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Perform Admin System --></label>
+        <name>Total_Perform_Admin_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Perform CAD System --></label>
+        <name>Total_Perform_CAD_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Perform Fire Records System --></label>
+        <name>Total_Perform_Fire_Records_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Perform Law Records System --></label>
+        <name>Total_Perform_Law_Records_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Perform Mobile System --></label>
+        <name>Total_Perform_Mobile_System__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Perform Third Party --></label>
+        <name>Total_Perform_Third_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Quote Discount Percentage --></label>
+        <name>Total_Quote_Discount_Percentage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Recurring Fees --></label>
+        <name>Total_Recurring_Fees__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Software --></label>
+        <name>Total_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total - Third Party --></label>
+        <name>Total_Third_Party__c</name>
+    </fields>
+    <fields>
+        <label><!-- Valid Until Date --></label>
+        <name>Valid_Until_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Apttus Legacy Quotes Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Information --></label>
+            <section>Information</section>
+        </sections>
+        <sections>
+            <label><!-- OVERALL:  Quote Totals --></label>
+            <section>OVERALL:  Quote Totals</section>
+        </sections>
+        <sections>
+            <label><!-- Quote Status --></label>
+            <section>Quote Status</section>
+        </sections>
+        <sections>
+            <label><!-- Tax --></label>
+            <section>Tax</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

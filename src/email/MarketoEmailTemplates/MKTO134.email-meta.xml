@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Missouri Tech Seminar (Clients).Confirmation</name>
+    <style>none</style>
+    <subject>Registration Confirmation:  MO Tech Seminar</subject>
+    <textOnly> 
+Registration Confirmation
+Missouri Technology Seminar
+
+This is your confirmation that you are registered for the complimentary Missouri Tech Seminar.  In this seminar you will join fellow VisiCAD users in Missouri in an interactive discussion on latest trends in technology and preparation for upgrade to VisiCAD version 5.0.  
+
+
+As an added bonus, we invite you to join us on Thursday from 9 AM to 12 Noon for an Emergency Dispatch Leadership Seminar hosted by St. Charles County Dispatch and Alarm. The event promises to provide educational content for all those involved in managing public safety communications.  Click here for more information and to register for the Leadership Seminar. 
+ 
+Event Details
+
+
+Date: 
+Wednesday, December 7
+
+
+
+Time: 
+9:00 AM - 3:00 PM
+
+
+
+Location: 
+Lake St. Louis Fire Protection District - Station 1 2533 Lake St. Louis Blvd. Lake St. Louis, MO  63367 
+
+
+Cost: 
+Complimentary 
+(Continental breakfast and lunch included) 
+
+
+Questions? 
+Sally Olson-Nelson, Client Account Manager
+Mobile: 727.688.7001
+Email: sally.olson-nelson@tritech.com 
+
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+ 
+    
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

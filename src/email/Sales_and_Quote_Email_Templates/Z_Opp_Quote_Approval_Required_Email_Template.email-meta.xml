@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Zuercher Opps only: Email notification to quote owner when quote approval is required.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Z Opp Quote Approval Required Email Template</name>
+    <style>none</style>
+    <subject>Quote Approval Required for {!Opportunity.Name}</subject>
+    <textOnly>Hello,
+
+The following quote requires your approval:
+
+Opportunity: {!Opportunity.Name}
+Account: {!Opportunity.Account}
+Primary Contact: {!Opportunity.Contact__c}
+Total: {!Opportunity.Z_Total__c}
+
+Software Discount: {!Opportunity.Z_Software_Discount__c}%
+Maintenance Discount: {!Opportunity.Z_Maintenance_Discount__c}%
+
+Special Payment Terms: {!Opportunity.Z_Special_Payment_Terms__c}
+Special Maintenance Terms: {!Opportunity.Z_Special_Maintenance_Terms__c}
+
+Please approve it by clicking on the approval link below:
+{!ApprovalRequest.Internal_URL}
+
+Thank you,
+{!Opportunity.OwnerFullName}
+
+
+To review the quote detail, click here: {!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

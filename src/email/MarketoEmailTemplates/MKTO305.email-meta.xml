@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-WA037_October16-17_2012.Invite</name>
+    <style>none</style>
+    <subject>Billing Software Group Training: October 16-17</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Billing Software Group Training
+Wenatchee, WA  l  October 16-17, 2012
+Hello {{lead.First Name:default=Customer}},
+
+Group Training = Better use of your TriTech Software 
+
+How long has it been since you have attended a software training for your TriTech billing program?
+
+By maximizing the use of your billing software, you gain greater efficiencies and maximize your revenue. Our two-day Group Trainings are hosted at customer locations and typically involve 10-20 billing software users who share insights and workflow tips as they learn from an experienced TriTech trainer about the practical use of the billing program.
+
+TIME:
+
+8:00 AM to 4:00 PM
+
+SAMPLE TRAINING AGENDA: Download here &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt;
+
+
+COST
+$500/person
+
+ &lt;http://offers.tritech.com/SGT-WA037_October16-17_2012_EventRegistration.html&gt;
+
+Questions?
+
+Contact your TriTech Account Manager for more information.
+
+sales@tritech.com
+
+800-537-3927
+
+
+Dates and Locations
+Register to Save Your Seat
+SAVE YOUR SEAT:
+ - October 16-17: Wenatchee, WA &lt;http://offers.tritech.com/SGT-WA037_October16-17_2012_EventRegistration.html&gt;
+
+
+OTHER UPCOMING DATES AND LOCATIONS
+- July 17-18:  Charlotte, NC &lt;http://offers.tritech.com/SGTNC085_July17-18_2012_Registration.html&gt;
+
+
+PAST TRAININGS
+ - June 5-6_2012: Houghton Lake, MI
+ - April 24-25 2012: Ankeny, IA
+ - April 17-18 2012: Rockford,IL
+ - October 5-6 2011: Mitchell, SD
+ - September 27-28 2011: Sonoma, CA
+
+
+
+Don&apos;t see one close to your area? Why not hosting a group training and  send your staff for free? Contact your TriTech Account Manager &lt;mailto:sales@tritech.com&gt; for  more information.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when a pricing committee request is completed.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Completed Pricing Committee Request</name>
+    <style>none</style>
+    <subject>Pricing Committee Request Completed: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>Please note that the following Pricing Committee Request has been completed:
+
+{!SalesForce_Helpdesk__c.Link}
+
+Request Number: {!SalesForce_Helpdesk__c.Name}
+
+Submitted By: {!SalesForce_Helpdesk__c.OwnerFullName}
+
+Date Submitted: {!SalesForce_Helpdesk__c.Date_Submitted__c}
+
+Product(s) Impacted: {!SalesForce_Helpdesk__c.Product_s_Impacted__c}
+
+Request Details: {!SalesForce_Helpdesk__c.Request_Details__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

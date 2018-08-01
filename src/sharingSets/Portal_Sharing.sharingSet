@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <accessMappings>
+        <accessLevel>Edit</accessLevel>
+        <object>Case</object>
+        <objectField>Account</objectField>
+        <userField>Account</userField>
+    </accessMappings>
+    <description>Tickets in an account can be viewed or edited by contacts in the same account.  Service Contracts can be viewed by Portal Managers.  Contacts can be viewed/edited by Portal Managers.</description>
+    <name>Portal Sharing</name>
+    <profiles>Overage High Volume Customer Portal User</profiles>
+    <profiles>TriTech Portal Standard User</profiles>
+</SharingSet>

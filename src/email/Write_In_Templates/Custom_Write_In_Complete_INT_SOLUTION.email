@@ -1,0 +1,15 @@
+The {!Write_In__c.RecordType} Write-In has been completed for the following:
+
+Write-In # {!Write_In__c.Name}
+Title: {!Write_In__c.Title__c}
+Agency: {!Write_In__c.Agency__c}
+Opportunity: {!Write_In__c.Opportunity__c}
+
+Total Hours: {!Write_In__c.Total_Hours__c}
+Total List Price: {!Write_In__c.Total_Integrated_Solution_List_Price__c}
+Total Cost: {!Write_In__c.Total_Integrated_Solution_Cost__c}
+
+
+Write-In Description: {!Write_In__c.Write_In_Description__c}
+
+You may review the completed CWI here: {!Write_In__c.Link}

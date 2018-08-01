@@ -1,0 +1,11 @@
+Hi {!Contact.FirstName},
+
+Glad to see that you are coming to TriCON 2017! I want to make myself available as a resource to help you in your planning for this important training and networking event. If you have any questions on the schedule, any product demonstrations you would like to see, or any resources to introduce you to either on the user side or TriTech side, I will be happy to be of assistance.
+
+As you can see on the attached schedule, TriCON 2017 will be jam-packed with so much product training, but I want to make sure we make great use of our time together in Las Vegas. Let me know what time you will have available so we can spend some talking about how we can help make improvements at your agency or just share some stories over a cup of coffee or cocktail. 
+
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+{!User.CompanyName}
+{!User.Phone}  I  {!User.Email}

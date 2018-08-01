@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>iCert Press Release.Email</name>
+    <style>none</style>
+    <subject>Press Release: TriTech Software Systems Joins the Industry Council</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Press Release
+TriTech Software Systems Joins the Industry Council
+
+April 30, 2012
+Washington, D.C., April 30, 2012 — The Industry Council for Emergency Response Technologies (iCERT) today announced that TriTech Software Systems (San Diego, Calif.), a leading public safety software solutions company, has become the Industry Council’s newest board level, executive committee member company.
+ 
+“Industry leaders provide ongoing and critical insights for the field of public safety and emergency response technologies. It is crucial that we establish and maintain relationships where key emergency communications issues can be discussed and advanced,” noted Mike Lyons, Vice President of Operations for TriTech Software Systems. “We’ve joined this growing association because it serves as a key vehicle for such conversations, as well as related research and industry forums.”
+ 
+Through its extensive suite of products and focus on public safety, TriTech offers solutions for all segments of the law, fire and EMS market. The company leverages its extensive public safety experience and expertise to deliver results for its customers. TriTech is a leading public safety solutions provider throughout the United States, and in other countries including Canada, Australia, New Zealand, Singapore, United Kingdom and Ireland.
+ 
+“Technology providers, through the industry executives that guide their development processes and market strategies, provide unique perspectives on using technology to advance public safety,” said iCERT Executive Director, George Rice. “We are quite pleased that TriTech Software Solutions has joined the Industry Council as one of our five executive committee companies, and we look forward to their participation in our important and ongoing dialogue on emergency communications.”
+_______________
+
+
+About the Industry Council for Emergency Response Technologies (iCERT)
+The Industry Council for Emergency Response Technologies (iCERT) represents the voice of the commercial sector in the emergency communications field.  Established by a group of prominent leaders in December 2005 originally as the 9-1-1 Industry Alliance, iCERT - the Industry Council - plays an important role as the voice of companies on public policy issues impacting 9-1-1 and the emergency response system.  Industry Council members believe that business leaders’ expertise can assist public policymakers and government emergency communications professionals as they address complex choices regarding advanced communications technology alternatives in the years ahead. Through advocacy, research and in coordination with the public sector, the Industry Council plays a vital role in the development and deployment of emergency response technologies. 
+
+Find out more at www.theindustrycouncil.org &lt;http://www.theindustrycouncil.org/&gt;.    
+
+ 
+
+About TriTech Software Systems
+TriTech Software Systems’ sole focus is public safety software. We have built the most experienced team in the industry to offer the leading solutions in 911 Dispatch, Law, Fire and EMS. TriTech’s team of 350+ employees average more than a decade of industry experience. TriTech has delivered the most trusted public safety software for nearly 20 years, and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field based reporting, patient care reporting, and billing.
+
+ For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,17 @@
+Your service request ticket #: {!Case.CaseNumber}<br/>
+Date received:  {!Case.CreatedDate}<br/>
+Product: {!Case.Product} {!Case.Reported_Major_Version_WMP__c} <br/>
+Identified problem: {!Case.Subject}<br/><br/>
+ <br/>
+Dear {!Contact.Name},  <br/><br/>
+It is the goal of TriTech Customer Service to diagnose and resolve any issues, concerns or questions that our Clients have with our products as quickly and as thoroughly as possible. We kindly request your attention and response to the issue listed above.  <br/><br/>
+TriTech has made multiple attempts to contact you in an effort to resolve the issue referenced above. <br/><br/>
+As of this time, there has not been a response from your agency regarding this issue.  Company policy is to attempt to make contact at least 3 times over a 10 (or more) business day period prior to sending this notice.  It is entirely possible that your agency contact has been involved in other duties and has not been available to discuss or work with our Customer Service department to examine the issue. <br/><br/>
+Please contact TriTech Customer Service at 1-800-987-0911, referencing the above ticket number, and we will gladly put you in contact with the Customer Service Representative assigned to your call. <br/><br/>
+TriTech will be placing a ‘Suspend in Progress’ status on the service request listed above. This issue will remain in the ‘Suspend in Progress’ status for an additional five (5) business days. If a response has not been received by your agency within that time frame, TriTech will proceed to close the ticket. If upon receiving this notification, your agency has decided that the issue does not need to be addressed, no response is necessary, and the ticket will be closed.<br/><br/>
+Your call is important to us, and will remain in our call database as ‘Suspended’, but we would be glad to create a new service request ticket if you decide that the issue needs to be addressed. <br/><br/>
+We value you as a client and we appreciate the work you do in serving the public safety needs of your community. We hope to hear from you shortly about this issue so that we can proceed with finding a resolution. <br/><br/>
+Sincere Regards,<br/><br/>
+Management<br/>
+TriTech Customer Service<br/>
+800-987-0911 Option 2

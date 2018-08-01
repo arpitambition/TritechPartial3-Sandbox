@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.TriCON APP</name>
+    <style>none</style>
+    <subject>Download the TriCON Mobile App Now</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+TriCON is Going Mobile
+Download Your Free Conference Guide
+Hello {{lead.First Name:default=Client}},
+
+TriTech has partnered with EventBoard to bring you a free mobile conference companion for Windows Phone, iPhone, and Android. Simply search the Windows Phone Marketplace, iTunes Store, or Android Market for “EventBoard” and look for the blue travel organizer icon. 
+
+Once installed, select &quot;TriCON: TriTech User Conference&quot; from the list of events. From the TriCON mobile app, you can: 
+
+
+ - Build your personal TriCON agenda
+ - Get to know our speakers
+ - Learn more about our sponsors
+ - Provide immediate session feedback
+
+ - And much more...
+
+
+
+
+Download the conference guide now and get ready for a great TriCON 2012!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,13 @@
+The following demo request has been submitted:<BR><BR>
+
+<B>Opportunity:</B>  {!Demo_Request__c.Opportunity__c}<BR><BR>
+<B>Client/Organization Name:</B>  {!Demo_Request__c.Client_Organization_Name__c}<BR><BR>
+
+<B>Demo Type:</B>  {!Demo_Request__c.Demo_Type__c}<BR><BR>
+
+<B>Demo Start Date/Time:</B>  {!Demo_Request__c.Demo_Start_Date__c} {!Demo_Request__c.Demo_Start_Time__c} {!Demo_Request__c.Demo_Start_Time_Zone__c}<BR><BR>
+
+<B>Demo End Date/Time:</B>  {!Demo_Request__c.Demo_End_Date__c} {!Demo_Request__c.Demo_End_Time__c} {!Demo_Request__c.Demo_End_Time_Zone__c}<BR><BR>
+
+
+<I>Click here to review the Demo Request:  {!Demo_Request__c.Link}</I>

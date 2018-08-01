@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_IMC_Aug16_ROI-Webinar_FollowUpEmail</name>
+    <style>none</style>
+    <subject>RECORDING LINK: Getting the Budget You Need By Proving Value and Return on Investment</subject>
+    <textOnly>Thank you for your interest in our webinar!
+Getting the Budget You Need By Proving Value and Return on Investment (ROI)
+
+Thank you for your interest in our complimentary webinar. The live Session was recorded on August 16, 2011.
+
+You can review the recording at this link: http://tritech.ilinc.com/join/pphzpcc
+
+For more information about TriTech Software Systems, email Sales@TriTech.com or visit www.TriTech.com. 
+
+The TriTechTeam
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

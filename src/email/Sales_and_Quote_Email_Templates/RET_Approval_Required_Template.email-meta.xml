@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>RET Score template for Manager Approval only</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>RET Approval Required Template</name>
+    <style>freeForm</style>
+    <subject>APPROVAL REQUIRED: {!RET_Score__c.Name}: {!RET_Score__c.Opportunity__c}</subject>
+    <textOnly>RET Score
+Proprietary and Confidential
+
+Bid/No Bid Recommendation: {!RET_Score__c.Bid_No_Bid_Recommendation__c}
+If No Bid - Primary Reason:
+{!RET_Score__c.If_No_Bid_Primary_Reason__c}
+No Bid Explanation:  {!RET_Score__c.No_Bid_Explanation__c}
+
+Account: {!Opportunity.Account}
+Opportunity:  {!RET_Score__c.Opportunity__c}
+Executive Summary: {!Opportunity.Description}
+
+RET Score Date:  {!RET_Score__c.CreatedDate}
+RET Score:  {!RET_Score__c.RET_Score__c}Proposal Type:  {!RET_Score__c.Proposal_Type__c}
+
+Service Population Tier:  {!RET_Score__c.Service_Population_Tier__c}
+Agencies Being Served:  {!RET_Score__c.Agencies_Being_Served__c}
+Do we meet mandatory RFP Requirements?:  {!RET_Score__c.Do_we_meet_mandatory_RFP_Requirements__c}
+Competitor Requirements included in RFP?:  {!RET_Score__c.Competitor_Requirements_included_in_RFP__c}
+Level of compliancy with functional spec:  {!RET_Score__c.Level_of_compliancy_with_functional_spec__c}
+Do we know how much is budgeted?:  {!RET_Score__c.Do_we_know_how_much_is_budgeted__c}
+Project Budget Total:  {!RET_Score__c.Project_Budget_Total__c}
+Source of budget information:  {!RET_Score__c.Source_of_budget_information__c}
+Consultant Name:  {!RET_Score__c.Consultant_Name__c}
+How many on-site meetings have we had?  {!RET_Score__c.How_many_on_site_meetings_have_we_had__c}
+Performed On-Site Discovery:  {!RET_Score__c.Performed_On_Site_Discovery__c}
+Performed On-Site Demo:  {!RET_Score__c.Performed_On_Site_Demo__c}
+Identify Committee Members:  {!RET_Score__c.Identify_Committee_Members__c}
+Have we engaged the committee?  {!RET_Score__c.Have_we_engaged_the_committee__c}
+Relationship Quality with the Key contact?  {!RET_Score__c.Relationship_Quality_w_the_Key_contact__c}
+Qty of Local References:  {!RET_Score__c.Qty_of_Local_References__c}
+Qty of Negative Local References:  {!RET_Score__c.Qty_of_Negative_Local_References__c}
+Ability to Meet Min Required References:  {!RET_Score__c.Ability_to_Meet_Min_Required_References__c}
+
+Link to current {!RET_Score__c.Name}:  {!RET_Score__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

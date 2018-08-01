@@ -1,0 +1,28 @@
+<font face = Calibri><font size = 3>We received an {!Procurement_Activity__c.Procurement_Type__c} for <B>{!Opportunity.Name}.</B><BR><BR>
+
+Questions are due <U>{!Procurement_Activity__c.Deadline_for_Vendor_Questions__c}.</U><BR><BR>
+
+The proposal is due <U>{!Procurement_Activity__c.Response_Due_Date__c}.</U><BR><BR>
+
+The Bidder's Conference Date/Time is: {!Procurement_Activity__c.Bidder_s_Conference_Date__c}<BR><BR>
+
+{!Opportunity.OwnerFullName} is the Account Executive.<BR><BR>
+
+
+You can access the internal {!Procurement_Activity__c.Procurement_Type__c} documents here:  
+<a href="{!Procurement_Activity__c.Internal_RFx_Location__c}" >Internal Documents</a>.
+<BR><BR>
+
+<I>You can review the Procurement Activity here:<BR>
+{!Procurement_Activity__c.Link}</I><BR><BR>
+
+<I>You can review the Opportunity here:<BR>
+{!Opportunity.Link}</I><BR><BR>
+
+
+Thanks,<BR><BR>
+
+<B><font color=034EA2>{!User.FirstName} {!User.LastName}</B><BR>
+{!User.Title}<BR>
+{!User.CompanyName} <BR>
+Phone: {!User.Phone}</font></font>

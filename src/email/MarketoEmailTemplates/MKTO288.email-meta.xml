@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UserGroups_2012.Reminder-Trenton-NJ_June-6</name>
+    <style>none</style>
+    <subject>REMINDER: User Group Meeting | Trenton, NJ on June 6</subject>
+    <textOnly>Wednesday - June 06, 2012  l  New Jersey Park Police  l  Trenton, NJ
+REMINDER: 2012 User Group Meeting
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+Just sending a reminder about the follow User Group Meeting that you are registered for:
+ 
+
+Name: {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}
+Attendee #2: {{lead.Contact 1:default=edit me}}
+Attendee #3: {{lead.Contact 2:default=edit me}}
+Attendee #4: {{lead.Contact 3:default=edit me}}
+Attendee #5: {{lead.Contact 4:default=edit me}}
+Service Name: {{company.Company Name:default=edit me}}
+
+Registered for: Trenton, NJ User Group 
+Date: Wednesday - June 6, 2012
+Time: 1:30-5:00 PM
+Address: New Jersey Park Police: 401 East State Street – 1st Floor Public Hearing Room Trenton, NJ  08625
+
+We look forward to seeing you soon!
+
+
+Your User Group Meeting is almost here. Please review the information and let us know if there is anything we can do to make this user group more valuable or covenient for you.
+Cheri Lane
+Marketing Communications Manager
+cheri.lane@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

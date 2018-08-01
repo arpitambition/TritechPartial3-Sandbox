@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Stratus</name>
+    <style>none</style>
+    <subject>TriCON Sponsor Message: Protecting PSAP Applications from Downtime</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Protecting PSAP Applications from Downtime
+Strategies for Safeguarding the Mission-Critical Applications First Responders Depend Upon
+Hello {{lead.First Name:default=TriCON Attendee}},
+
+If you are considering a technology upgrade for legacy software or are about to publish an RFP for updating all or part of your PSAP operations, it is important to understand what it takes to minimize unplanned downtime for your applications and systems.
+
+Protecting PSAP Applications from Downtime is a Stratus eBook that addresses different strategies to improve the availability of mission-critical applications and minimize the possibility of disruptions caused by server failure. It describes the advantages and disadvantages of dedicated servers, cluster technology, virtualization, high availability and fault-tolerance.
+
+Download this eBook &lt;http://go.stratus.com/l/3302/2012-03-26/yd8yl?Ref=TriTech&amp;source=Partner&amp;industry=Public%20Safety&gt; and learn:   
+•    Why 99% system uptime is not good enough for PSAP applications
+•    What technologies can be employed to increase system uptime greater than 99%
+•    The pros and cons of various uptime technologies – hardened servers, clusters, virtualization, high availability and fault-tolerance – in terms of ease-of-use, administration and cost
+•    What technologies best fit your specific environment
+
+We look forward to meeting you!
+Warm Regards,
+
+Charlie 
+
+Charlie Uhl
+Stratus Technologies
+charlie.uhl@stratus.com
+949-933-5007
+EVENT DETAILS
+Join the following events!
+Stratus welcomes you to visit us at Stratus booth #16 during the TriCON event. 
+
+We also invite you to join us as we present Stratus uptime solutions in Public Safety on Thursday, 9/27 from 10am-10:45am.
+
+Title:  Your CAD / RMS applications just crashed!
+
+Session Location: Indigo 202; CR 100 / U 50
+
+Stratus Presenter: Susan Bailey, Vice President, Stratus Technologies
+
+Session Description: If the thought of your critical operations going blind, goods not moving, public safety at a standstill, workforce idled, or similar calamities send a chill up your spine, you’ll want to attend this session. Most communication center and IT managers intrinsically know that downtime is bad. In this session, we will review what the experts say about the cost of downtime, and why you need to know what yours is.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

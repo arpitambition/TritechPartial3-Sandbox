@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013SGTs.Confirmation_March-KS</name>
+    <style>none</style>
+    <subject>REGISTRATION CONFIRMATION: 2013 Billing Software Group Training</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Registration Confirmation
+Thank you for registering for the El Dorado, KS 2013 Billing Software Group Training.
+Hello {{lead.First Name:default=Billing Customer}},
+
+Thank you for registering for the March 5-6, 2013 Billing Software Group Training in El Dorado, KS. If you selected credit card payment, a TriTech representative will contact you for your payment information. The $500 fee can be paid via check or credit card.  
+
+If you need a hotel room, we recommend the following:
+Holiday Inn Express &lt;http://www.hiexpress.com/hotels/us/en/el-dorado/eelks/hoteldetail/directions&gt;, 3100 W. El Dorado Ave, El Dorado, KS 67042
+Hotel Front Desk: 316-322-7275
+Block of rooms held under &quot;TriTech&quot; at rate of $79.99 per night plus tax 
+
+The training is located at: 701 N Haverhill, El Dorado, KS 67042. The training room has wireless internet, so you are welcome to bring a laptop.
+
+The closest airport is in Wichita, about 25-30 miles from the training location.
+
+If you have questions or if there is anything we can do to make this a better experience for you, please contact us:
+
+Grant Helferich, Butler County EMS 316-321-9260 or ghelferich@bucoks.com
+
+Brenda Taylor, TriTech Software Systems 
+800-537-3927 ext 6233 or Brenda.Taylor@tritech.com
+
+Here is a link &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt; to download a sample copy of the agenda.
+ 
+Registration will begin on the first day at 7:45 a.m. We sincerely hope that these two days of education will allow everyone to gain knowledge in the areas desired.  
+ 
+We invite you to dress casually and comfortably for the session. Since room temperatures and preferences vary from person to person, please bring a sweater or sweatshirt to wear if needed.  
+
+See you in March!
+
+
+
+**TriTech retains the right to cancel training events 30 days prior to the event date if registrations are below the minimum 
+required.**</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

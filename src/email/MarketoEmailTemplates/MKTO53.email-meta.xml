@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS_CustomerSatisfactionSurvey_Winner</name>
+    <style>none</style>
+    <subject>Thank You for Participating in the EMS Solutions Customer Satisfaction Survey</subject>
+    <textOnly>THANK YOU FOR PARTICIPATING IN THE
+EMS Solutions Customer Satisfaction Survey
+
+
+Dear {{lead.First Name:default=Customer}},
+We want to thank everyone that participated in the August semi-annual customer satisfaction survey. Your input is crucial in measuring our performance and in helping TriTech Software Sytems continually improve the quality of products and services offered to you. The next survey is scheduled for February 2012, please keep an eye on your email inbox.
+
+We want to congratulate James Hacker of Ambulance Inc. of Laurel County for winning the Apple iPad2® raffle that was comprised of survey respondents.  
+
+TriTech Customer Satisfaction Surveys take just 3-minutes of your time and automatically enter you for a chance to win.
+
+Regards,
+The TriTech Marketing Team
+
+
+Share this message with colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

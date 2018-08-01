@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConference_August_Imc</name>
+    <style>none</style>
+    <subject>TriCON:  Don&apos;t miss out on Imc Training!</subject>
+    <textOnly>Don&apos;t miss out - There&apos;s still time to join us.
+September 13 - 16  l  Boston, Massachusetts
+
+There&apos;s still time to register for TriCON: TriTech&apos;s Annual User Conference being held September 14-16, 2011 in Boston, MA.  We&apos;re heading to Boston just for you - our valued Imc clients.  
+
+
+Watch our video for a sneak peek at what TriCON has to offer.  Link to video: http://offers.tritech.com/2011_UserConference_Imc.html
+
+
+With the Detailed Agenda and our ROI Letter, we&apos;ve made it easier to receive approval to this important educational event. 
+
+
+Link to register:  https://www.signup4.net/Public/ap.aspx?EID=TRIC17E
+
+Cost:
+$795 - Registration fee (includes breakfast, lunch, and evening events) 
+$300 - Day Pass
+ 
+Location:
+Boston Park Plaza Hotel and Towers in Boston, MA.  
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.Confirmation</name>
+    <style>none</style>
+    <subject>Registration Confirmation for Webinar: Using Fusion ePCR with VisiCAD</subject>
+    <textOnly>Registration Confirmation   
+Using Fusion ePCR with VisiCAD
+
+This is your confirmation that you are registered for the complimentary webinar &quot;Using Fusion ePCR with VisiCAD.&quot;  In this webinar you will discover:
+
+
+Why Fusion ePCR was selected as a JEMS Hot Product 
+The benefits and features of Fusion ePCR 
+The data elements being transferred from Fusion ePCR to VisiCAD 
+The Fusion ePCR / VisiCAD integration in action 
+  
+JOIN LINK: http://tritech.ilinc.com/join/ccmrrvb
+
+DATE: Wednesday, October 26
+
+TIME: 1 PM Eastern | Noon Central  |  11 AM Mountain | 10 AM Pacific
+
+PRESENTER: TriTech&apos;s Charlie Barry, Sr. Product Manager of Fusion ePCR
+
+AUDIO: Listen through your computer speakers or dial the toll free number on your screen when you login
+
+Trouble Logging In? Call 800.799.4510 for the iLinc Support Team Help
+
+
+Questions?
+Jenny Clavero in TriTech Marketing
+(858) 799-7362
+jenny.clavero@tritech.coom 
+
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

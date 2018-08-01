@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal Management alert trigger for notification of Open and Closed CS Ticket status P1/P2 tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>TA - CS P1/P2 Ticket Status Mgmt Notification</name>
+    <style>freeForm</style>
+    <subject>{!Account.EMS_Customer_Number_WMP__c}: {!Case.Account } - {!Case.CaseNumber} - P1/P2 Ticket {!Case.Status}</subject>
+    <textOnly>This is an internal update notification from TriTech Software Systems.
+
+
+Incident ID:  {!Case.CaseNumber}
+
+Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}
+
+Current Owner:  {!Case.OwnerFullName}
+
+Product:  {!Case.Product}
+
+Status:  {!Case.Status}
+
+Priority:  {!Case.Priority}
+
+Closed Incident Reason:  {!Case.Closed_Incidents_Reason_WMP__c}
+
+Resolution Notes:  {!Case.Resolution_Notes_WMP__c}
+
+Issue Details:  {!Case.Description}
+
+
+Click here to review this ticket: {!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

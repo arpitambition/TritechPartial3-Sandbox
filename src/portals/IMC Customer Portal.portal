@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Portal xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>false</active>
+    <admin>terri.barry@tritech.com</admin>
+    <defaultLanguage>en_US</defaultLanguage>
+    <description>IMC Customer Portal</description>
+    <emailSenderAddress>terri.barry@tritech.com</emailSenderAddress>
+    <emailSenderName>terri.barry@tritech.com</emailSenderName>
+    <enableSelfCloseCase>true</enableSelfCloseCase>
+    <forgotPassTemplate>unfiled$public/ChangePwdEmail</forgotPassTemplate>
+    <isSelfRegistrationActivated>false</isSelfRegistrationActivated>
+    <logoutUrl>http://www.tritech.com</logoutUrl>
+    <newPassTemplate>unfiled$public/ChangePwdEmail</newPassTemplate>
+    <newUserTemplate>unfiled$public/NewUserEmail</newUserTemplate>
+    <selfRegUserDefaultProfile>tritech portal standard user</selfRegUserDefaultProfile>
+    <selfRegUserTemplate>unfiled$public/SelfRegUserEmail</selfRegUserTemplate>
+    <showActionConfirmation>true</showActionConfirmation>
+    <type>CustomerSuccess</type>
+</Portal>

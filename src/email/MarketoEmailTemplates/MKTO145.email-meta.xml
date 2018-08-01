@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Imc_CC_Dec11.Newsletter_Email</name>
+    <style>none</style>
+    <subject>Your Imc CAM Connection - December Newsletter</subject>
+    <textOnly>          
+November 2011 Edition (http://offers.tritech.com/Imc_CC_Dec11_Main.html)
+Welcome to the December issue of Imc Solutions&apos; CAM Connection newsletter. The main page gives you an overall glance at what this month&apos;s newsletter has to offer.  We hope you enjoy it.
+ 
+ 
+ 
+ Important Alerts &amp; Updates (http://offers.tritech.com/Imc_CC_Dec11_AlertUpdates.html)
+ 
+ &gt; TriTech Software Systems Strengthens Customer Support with
+   Center of Excellence
+
+ &gt; Imc Solutions&apos; Support Renewal Payment Policy Notification
+
+ &gt; Submit Your Product Enhancement Requests Online
+
+ &gt; TriTech&apos;s Imc and ProQA Offer EMS Mandate Solution  
+ 
+   
+ 
+ Products &amp; Services (http://offers.tritech.com/Imc_CC_Dec11_ProductsServices.html)
+ 
+ &gt; Somerset County&apos;s Skowhegan Dispatch Center Partners with
+   Local Law Enforcement to Help Find Missing Children [VIDEO]
+
+ &gt; Steve Damren, Sr Systems Specialist at Somerset County in
+   Maine [DEMO] 
+
+ &gt; Fix It with Felicia – Next Session Thursday, December 8th  
+ 
+
+   
+  Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Dec11_TechnicalSupportHotTopics.html)
+ 
+ &gt; Technical Q&amp;As ﻿ 
+  
+ 
+ 
+ Client News &amp; GoLives (http://offers.tritech.com/Imc_CC_Dec11_ClientNews.html)
+ 
+ &gt; November Go-Lives
+
+ &gt; NEIT Uses TriTech&apos;s Imc Solutions Software in Criminal
+   Justice Program 
+               
+
+
+ &gt; Main Page (http://offers.tritech.com/Imc_CC_Dec11_Main.html)
+
+ &gt; Important Alerts &amp; Updates  (http://offers.tritech.com/Imc_CC_Dec11_AlertUpdates.html)
+
+ &gt; Products &amp; Services  (http://offers.tritech.com/Imc_CC_Dec11_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Dec11_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; GoLives  (http://offers.tritech.com/Imc_CC_Dec11_ClientNews.html)
+
+ &gt; www.tritech.com  (http://www.tritech.com)
+ 
+ 
+CAM CONTACTS
+David Bell
+508.839.6445 x104
+david.bell@tritech.com
+ 
+Mark Baranowski
+508.839.6445 x180
+mark.baranowski@tritech.com 
+ 
+   
+ 
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

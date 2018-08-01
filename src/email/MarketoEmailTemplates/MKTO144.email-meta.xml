@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_ProQA_MA-EMS-Mandate.Email</name>
+    <style>none</style>
+    <subject>TriTech/IMC Solutions and ProQA</subject>
+    <textOnly>Creating Excellence
+TriTech&apos;s Imc and ProQA
+
+Together, TriTech Software System&apos;s Imc Solutions and ProQA make meeting the MA EMD mandate (scheduled for July 1, 2012) easy and affordable.  
+[Read more about the EMD Mandate here]
+
+PRIORITY DISPATCH
+- Calls are prioritized, triaged and dispatched quickly and safely.
+- Call reasons automatically initiate ProQA.
+- Call takers collect and send the right on-scene information for every call.
+- CAD location and calling party auto update into ProQA.
+
+TRITECH IMC SOFTWARE
+- Structured protocols establish a unified multi-service standard.
+- Information gathered in ProQA is automatically saved in CAD.
+- A unified standard creates a measurable quality assurance process.
+- Mobiles receive up-to-date information for first responders.
+
+Priority Dispatch software/training and Imc Interface costs may be covered through State’s Training, EMD and Support and Incentive Grants.
+
+Contact us today at:
+- TriTech/Imc Solutions: David Bell | david.bell@tritech.com | 508.839.6445 x104
+- Priority Dispatch: Adam Hinckley | adam.hinckley@prioritydispatch.net  | 800-363-9127 x132 
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

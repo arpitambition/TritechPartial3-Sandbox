@@ -1,0 +1,265 @@
+<apex:page controller="TicketListViewController">
+    
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+    
+
+    <!-- prototype.js/effects.js/vote.js/base.js -->
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-1.10.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-migrate-1.2.1.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/modernizr-2.6.2.min.js')}" />
+    <script type="text/javascript">
+        
+        var posx;
+        var posy;
+        document.onmousemove=capmouse;
+        function capmouse(e){ 
+        // captures the mouse position
+            posx = 0; posy = 0;
+            if (!e){var e = window.event;}
+            //alert('e.pageX '+e.pageX+'   '+'e.pageY '+e.pageY); 
+            if (e.pageX || e.pageY){
+                posx = e.pageX;
+                posy = e.pageY;
+            }
+            else {
+                var d= (document.documentElement && 
+                document.documentElement.scrollLeft != null) ?
+                document.documentElement : document.body;
+                posx = event.clientX + d.scrollLeft;
+                posy = event.clientY + d.scrollTop;
+                //posxMax = document.body.clientWidth+document.body.scrollLeft;
+                //posyMax = document.body.clientHeight+document.body.scrollTop;
+                
+            }
+        }
+        
+        //Function will make the search text box with null value when clicked in the box
+        function searchReviewInside(){
+            if(document.getElementById('{!$Component.formId.searchPageBlock.accountSearchText}').value == 'Search'){
+                document.getElementById('{!$Component.formId.searchPageBlock.accountSearchText}').value = '';  
+            }
+        }
+        
+        //Function will make the search text box with value 'Search' when focus is out from the text box.
+        function searchReviewOut(){
+            if(document.getElementById('{!$Component.formId.searchPageBlock.accountSearchText}').value == ''){
+                document.getElementById('{!$Component.formId.searchPageBlock.accountSearchText}').value = 'Search';
+            }
+        }
+        
+        //Function will be used for Server Side Calling
+        function decideAndSubmit() {
+            if(temp) {
+                if(!submit){
+                    //submit=true;
+                    return false;
+                } else {
+                    temp = false;
+                    return true;
+                }
+            } else {
+                return false;
+            }
+        }
+        
+        function setSubmit() {
+                submit = true;
+                temp = true;
+        }
+        
+        function unsetSubmit() {
+                submit = false;
+        }
+        
+        //Function is used to get splash status bar when server side call is going on
+        function startSplash() {
+            var divObj = document.getElementById('splashDiv');
+            var msgSplash =document.getElementById('waitMsg');
+            /*msgSplash.innerHTML = 'Please Wait';
+            if(fetchingMetaData) {
+                msgSplash.innerHTML = 'Loading Details...';
+            }*/
+            var browserName = navigator.appName;
+            if(browserName == 'Netscape'){
+                   divObj.style.display='table-cell';
+            } else {
+                    divObj.style.display='table-cell';
+            }
+               
+        }
+            
+        //Function will make the splash status to be stopped.    
+        function endSplash() {            
+            document.getElementById('splashDiv').style.display='none';
+        }
+               
+        //This function checks the whether an Enter key is pressed, used in the search Text box.
+        function submitOnKeyPress(e) {
+            if(e.keyCode == 13) {
+                submit = true;
+                temp = true;
+            } else {
+                submit = false;
+            }
+        }
+        
+        function keyPressComplete() {
+            submit = false;
+        }
+        
+    </script>
+    <style>
+        table.tblcls { width: 100%; font-size: 12px; margin: 0 0 15px 0; }
+        table.tblcls tr { border-bottom: 1px solid #acacac; }
+        table.tblcls th { font-weight: bold; }
+        table.tblcls th, table.tblcls td { text-align: left; padding: 5px; }
+    </style>
+    <apex:sectionHeader title="" subTitle="Tickets" />
+    <apex:form id="formId" onsubmit="return decideAndSubmit();">
+        <!-- -------------- Hidden value -------------- -->
+    
+        <input type="hidden" name="chkData" id="chkData" value=""/>
+        <div id="splashDiv" style="display:none;position:fixed;left:500px;top:280px;border: 0px;z-index:9999;">
+            <img src="/img/loading.gif" />&nbsp;
+            <div class="txt">Please Wait. Loading...</div>
+        </div>
+        <apex:outputPanel id="errorPanel" >
+            <apex:pageMessages />
+        </apex:outputPanel>
+        <!-- This tage is responsible for the Splash Status Bar to appear and disappear after completing the server side call -->
+        <apex:actionStatus id="splashStatus" onstart="startSplash();" onstop="endSplash(); "/>
+       <!--  <apex:actionFunction action="{!allClaims}" name="allClaims" status="splashStatus1" reRender="searchResultAllPanel,searchPageBlock"/>
+        <apex:actionFunction action="{!reviewClaims}" name="reviewClaims" status="splashStatus1" reRender="searchResultPanel,searchPageBlock"/> 
+        <apex:actionFunction action="{!approveClaims}" name="approveClaims" status="splashStatus1" reRender="searchResultApprovedPanel,searchPageBlock"/>  -->
+        
+        <div class="clearfix">
+            <span class="form-left"><label for="view">View</label></span>
+            <span class="form-left">
+            <apex:selectList id="tagId" value="{!filterSelected}" size="1">
+                <apex:selectOptions value="{!filterOptions}" />
+            </apex:selectList>
+            </span>
+            <span class="form-left">
+                <apex:commandButton value="Go" styleClass="btn btn-success btn-mini" action="{!ticketSearch}" reRender="errorPanel, searchPageBlock" onclick="setSubmit();" status="splashStatus1"/>
+                <apex:actionstatus id="splashStatus1" dir="RTL"> 
+                    <apex:facet name="start"> 
+                        <apex:image url="/img/loading.gif"/>
+                    </apex:facet>
+                </apex:actionstatus>
+            </span>
+        </div>
+        <apex:outputPanel id="searchPageBlock" styleClass="borderbox-blue borderbox-wide-margin-bottom clearfix" layout="block">
+            <div class="borderbox-header"><apex:commandButton title="Create New Ticket" styleClass="btn btn-success btn-mini" value="Create New Ticket" rendered="{!NOT(isReadOnlyProfile)}" onclick="window.parent.location.href = '/apex/Create_Service_Ticket?retURL=/apex/TritechHome';  return false;"/></div>
+            <div class="borderbox-inner">
+            <table class="tblcls">
+                <tbody><tr>
+                    <th>Action</th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Ticket Number" value="Ticket Number" styleClass="{!IF(sortExpression=='CaseNumber',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="cNumber" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="CaseNumber" name="CaseNumber" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Contact Name" value="Contact Name" styleClass="{!IF(sortExpression=='Contact.Name',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="contName" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Contact.Name" name="Contact.Name" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Subject" value="Subject" styleClass="Subject{!IF(sortExpression=='Subject',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="subj" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Subject" name="Subject" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Ticket Product" value="Ticket Product" styleClass="Subject{!IF(sortExpression=='Ticket_Product__c',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="ticprod" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Ticket_Product__c" name="Ticket_Product__c" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Ticket Status" value="Ticket Status" styleClass="{!IF(sortExpression=='Status',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="tStatus" status="splashStatus1" reRender=" errorPanel,searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Status" name="Status" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Priority" value="Priority" styleClass="{!IF(sortExpression=='Priority',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="tPriority" status="splashStatus1" reRender=" errorPanel,searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Priority" name="Priority" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Date/Time Opened" value="Date/Time Opened" styleClass="{!IF(sortExpression=='CreatedDate',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="clOpenDate" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="CreatedDate" name="CreatedDate" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Date/Time Closed" value="Date/Time Closed" styleClass="{!IF(sortExpression=='ClosedDate',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="clDate" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="ClosedDate" name="ClosedDate" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Closed Incidents Reason" value="Closed Incidents Reason" styleClass="{!IF(sortExpression=='Closed_Incidents_Reason_WMP__c',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="cir" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Closed_Incidents_Reason_WMP__c" name="Closed_Incidents_Reason_WMP__c" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Owner Name" value="Owner Name" styleClass="{!IF(sortExpression=='Owner.Name',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="oName" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Owner.Name" name="Owner.Name" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Defect Status" value="Defect Status" styleClass="{!IF(sortExpression=='Defect_Status__c',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="dStatus" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Defect_Status__c" name="Defect_Status__c" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Planned Release" value="Planned Release" styleClass="{!IF(sortExpression=='Planned_Release__c',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="Release" status="splashStatus1" reRender=" errorPanel,searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Planned Release" name="Planned Release" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Legacy Ticket ID" value="Legacy Ticket ID" styleClass="{!IF(sortExpression=='Legacy_Ticket_ID__c',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="ltid" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Legacy_Ticket_ID__c" name="Legacy_Ticket_ID__c" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                    <th>
+                        <apex:commandLink action="{!sortData}" title="Legacy Fixed in Version" value="Legacy Fixed in Version" styleClass="{!IF(sortExpression=='Legacy_Fixed_in_Version__c',IF(sortDirection='ASC','icon-sort-asc','icon-sort-desc'),'')}" id="lfv" status="splashStatus1" reRender="errorPanel, searchPageBlock" onclick="setSubmit();">
+                            <apex:param value="Legacy_Fixed_in_Version__c" name="Legacy_Fixed_in_Version__c" assignTo="{!sortExpression}" ></apex:param>
+                        </apex:commandLink>
+                    </th>
+                </tr>
+                <apex:repeat id="pgTableId" value="{!ticketList}" var="t" >
+                    <tr>
+                        <td><apex:outputLink value="/apex/TicketEdit?id={!t.cse.Id}&retURL=/apex/TicketListView">Edit</apex:outputLink></td>
+                        <td><apex:outputLink value="/{!t.cse.Id}" >{!t.cse.CaseNumber}</apex:outputLink></td>
+                        <td><apex:outputField value="{!t.cse.ContactId}" /></td>
+                        <td><apex:outputField value="{!t.cse.Subject}" /></td>
+                        <td><apex:outputField value="{!t.cse.Ticket_Product__c}" /></td>
+                        <td><apex:outputField value="{!t.cse.Status}" /></td>
+                       
+                        <td><apex:outputField value="{!t.cse.Priority}" /></td>
+                        <td><apex:outputField value="{!t.cse.CreatedDate}" /></td>
+                        <td><apex:outputField value="{!t.cse.ClosedDate}" /></td>
+                        <td><apex:outputField value="{!t.cse.Closed_Incidents_Reason_WMP__c}" /></td>
+                        <td><apex:outputField value="{!t.cse.Owner.Name}" /></td>
+                        <td><apex:outputField value="{!t.cse.Defect_Status__c}" /></td>
+                         <td><apex:outputField value="{!t.cse.Planned_Release__c}" /></td>
+                        <td><apex:outputField value="{!t.cse.Legacy_Ticket_ID__c}" /></td>
+                        <td><apex:outputField value="{!t.cse.Legacy_Fixed_in_Version__c}" /></td>
+                    </tr>
+                </apex:repeat>
+            </tbody></table>
+            <span class="paginate-records">{!recordShowing}</span>
+            <span class="paginate-page">
+                <apex:commandButton value="«" title="Previous" styleClass="btn btn-success btn-mini" reRender="errorPanel, searchPageBlock" action="{!goToPreviousPage}" disabled="{!previousPage}" onclick="setSubmit();" status="splashStatus1"/>
+                 {!pageShowing}
+                <apex:commandButton value="»" title="Next" styleClass="btn btn-success btn-mini" reRender="errorPanel, searchPageBlock" action="{!goToNextPage}" disabled="{!nextPage}" onclick="setSubmit();" status="splashStatus1"/>
+            </span>
+            </div>
+        </apex:outputPanel>
+    
+    </apex:form>
+
+ 
+  
+</apex:page>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Consolidation-NCDJPA_0329.Reminder 1 Day</name>
+    <style>none</style>
+    <subject>Tomorrow&apos;s Webinar Reminder: Breaking Down Barriers to Build Regional Partnerships</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot; target=&quot;_blank&quot;&gt;   &lt;img src=&quot;http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg&quot; alt=&quot;&quot; height=&quot;16&quot; width=&quot;23&gt;
+Reminder: Complimentary Live Webinar Tomorrow
+Consolidation:  Breaking Down Barriers to Build Regional Partnerships
+Hello {{lead.First Name:default=Public Safety Professional}},
+
+This message is to remind you that the complimentary live webinar &quot;Breaking Down Technological Barriers to Build Regional Partnerships&quot; starts tomorrow. We look forward to your questions and input for our speaker who will share their experience and best practices in building regional partnerships.
+
+SPEAKERS:
+ Charlie Knust, ENP
+Communications Manager
+North County Dispatch JPA
+
+DATE:  
+Thursday, March 29
+ 
+
+TIME: 
+1:00PM ET l Noon CT l 11:00 AM MT l 10:00AM PT
+
+ 
+
+Questions?
+Jenny Clavero
+ TriTech Software Systems
+ jenny .clavero@tritech.com &lt;mailto:jenny.clavero@tritech.com&gt;
+LOGIN DETAILS
+You&apos;ll need the below information to attend the webinar tomorrow.
+JOIN LINK:
+ http://tritech.ilinc.com/join/rbkmkvb &lt;http://tritech.ilinc.com/join/rbkmkvb&gt;
+
+AUDIO:
+ Listen through your computer speakers or dial toll free (866) 502-8312; passcode 859646.
+
+Trouble logging in?
+ Call 800.799.4510 to reach the iLinc support team for help</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

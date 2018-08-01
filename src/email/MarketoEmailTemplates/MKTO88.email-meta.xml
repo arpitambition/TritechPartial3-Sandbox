@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_ACB3_Hershey.Invitation</name>
+    <style>none</style>
+    <subject>Stop by and visit us at Next Week&apos;s XI - ABC3 Conference in Hershey</subject>
+    <textOnly>October 25-27, 2011 |   Hershey, PA 
+Stop by Our Booth at the XI - ABC3 Conference Next Week!
+ 
+ 
+Stop by and see us next week (October 25-27) at the Page, Wolfberg and Wirth Executive Institute (XI) and ABC3 Conference and visit with TriTech EMS Solutions Regional Sales Manager - Larry Cole, Industry Education Coordinator - Kathy Ransom and EMS Client Account Manager - Michele Duwe.  
+
+See a demo of our Sweet Billing, Fusion ePCR or VisiCAD solutions. We have options for online or installed applications.
+
+
+Find out more about all the NAAC-Certified Webinar Recordings we offer to help your office improve their knowledge and skills, and get their CEUs! http://www.tritechems.com/TriTech-University/Webinars.asp
+
+
+EMS industry experts predict that in the future, integrated, web-based EMS solutions will become the industry standard. TriTech offers these solutions NOW - read more here: http://www.tritechems.com/Products/online.asp 
+
+
+TriTech is proud to be a XI - ABC3 Conference Sponsor!
+
+Can&apos;t make the conference in Hershey next week? Call Us at 800-537-3927
+ 
+ 
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_July19_Inhouse-vs-Outsource_Webinar_Email1</name>
+    <style>none</style>
+    <subject>EMS Billing: In-house vs. Outsource - join the conversation on July 19th</subject>
+    <textOnly>Complimentary Live Webinar
+
+EMS Billing: In-House vs. Outsource 
+What do I need to consider?
+
+Join TriTech Software Systems and Page, Wolfberg and Wirth in a complimentary live webinar with PWW Director of Reimbursement Consulting, Steve Johnson, and TriTech Industry Education Coordinator, Kathy Ransom.Â Â 
+
+In this upcoming webinar, learn about issues to consider when evaluating whether to outsource your EMS Billing or bring it in-house, including:
+
+-Control Issues
+-Financial Considerations
+-Liability and Accountability
+-Compliance
+-HIPAA and more.
+
+Who Should Attend:
+-Billing supervisors/management
+-Operations management
+-EMS billers and coders
+
+Tuesday, July 19, 2011 
+2pm ET | 1 pm CT | Noon MT | 11am PT
+
+Approved for 1.0 NAAC CEU
+
+REGISTER (please copy and paste the URL into your internet browser:
+http://offers.tritech.com/2011_7_19-webinar.html
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim RoadÂ  lÂ  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

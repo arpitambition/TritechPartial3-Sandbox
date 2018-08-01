@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for Zuercher support ticket notification for Ticket Close (External)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Zuercher_Letterhead</letterhead>
+    <name>Zuercher Ticket Update Notifications - Closed</name>
+    <style>freeForm</style>
+    <subject>CLOSED: {!Case.CaseNumber} - {!Case.Status}</subject>
+    <textOnly>Hello,
+
+Work has been completed on the issue/request you submitted and the ticket has been closed.  If you are still experiencing this issue or need further assistance, please contact our Support department either by replying to this email or by calling us.  We would be happy to ensure that this is properly addressed.
+
+Thank you for all that you do and have a great day,
+Technical Support Team
+
+Ticket Number: {!Case.CaseNumber}
+Subject: {!Case.Subject}
+Public Resolution Notes: {!Case.Z_Public_Resolution_Notes__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

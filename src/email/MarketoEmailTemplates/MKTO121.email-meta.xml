@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Orange County Fire-Rescue.Email 1</name>
+    <style>none</style>
+    <subject>Orange County Fire-Rescue - Reshaping Your Future</subject>
+    <textOnly>Orange County Fire-Rescue
+Reshaping Your Future
+
+Hi 
+
+The public safety industry has changed dramatically within the past five years – budget limitations, increased demands and consolidations. Many Fire-Rescue agencies have been able to balance the ongoing pressures by reshaping the way they manage information to help them focus on what&apos;s important.  
+
+Leveraging advanced technology, South Metro Fire Rescue has been able to reduce their dispatch time to 31 seconds.  In comparison, the national standard is 60 seconds.   Do you think your 9-1-1 center needs to be reshaped?
+
+We would like to share our clients&apos; best practices with others at your agency.  If you would like to send this to a colleague, please click here.  
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

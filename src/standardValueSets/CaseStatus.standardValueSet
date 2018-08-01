@@ -1,0 +1,370 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Creating Ticket</fullName>
+        <default>true</default>
+        <label>Creating Ticket</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>**TriTech Statuses**</fullName>
+        <default>false</default>
+        <label>**TriTech Statuses**</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Open</fullName>
+        <default>false</default>
+        <label>Open</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 1</fullName>
+        <default>false</default>
+        <label>Tier 1</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 2</fullName>
+        <default>false</default>
+        <label>Tier 2</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Tier 3</fullName>
+        <default>false</default>
+        <label>Tier 3</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Appointment Scheduled</fullName>
+        <default>false</default>
+        <label>Appointment Scheduled</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved - Assigned</fullName>
+        <default>false</default>
+        <label>Approved - Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Approved - Not Assigned</fullName>
+        <default>false</default>
+        <label>Approved - Not Assigned</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Assessing Issue</fullName>
+        <default>false</default>
+        <label>Assessing Issue</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Cancelled</fullName>
+        <default>false</default>
+        <label>Cancelled</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>CCB Review</fullName>
+        <default>false</default>
+        <label>CCB Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed</fullName>
+        <default>false</default>
+        <label>Closed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Fix ready for Patch</fullName>
+        <default>false</default>
+        <label>Closed - Fix ready for Patch</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Closed - Fix ready for Release</fullName>
+        <default>false</default>
+        <label>Closed - Fix ready for Release</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Defect - No Fix Planned</fullName>
+        <default>false</default>
+        <label>Defect - No Fix Planned</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Engineering Defect</fullName>
+        <default>false</default>
+        <label>Engineering Defect</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Fix for Release in Progress</fullName>
+        <default>false</default>
+        <label>Fix for Release in Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Fixed in Current Release</fullName>
+        <default>false</default>
+        <label>Fixed in Current Release</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Fixed in Release</fullName>
+        <default>false</default>
+        <label>Fixed in Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Future Consideration</fullName>
+        <default>false</default>
+        <label>Future Consideration</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Module Scheduled for New Platform</fullName>
+        <default>false</default>
+        <label>Module Scheduled for New Platform</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>On Hold</fullName>
+        <default>false</default>
+        <label>On Hold</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Patch in Progress</fullName>
+        <default>false</default>
+        <label>Patch in Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Customer Verification</fullName>
+        <default>false</default>
+        <label>Pending Customer Verification</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Enhancement</fullName>
+        <default>false</default>
+        <label>Pending Enhancement</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending Roadmap Planning</fullName>
+        <default>false</default>
+        <label>Pending Roadmap Planning</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Pending TriTech Verification</fullName>
+        <default>false</default>
+        <label>Pending TriTech Verification</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>QA complete - Patch</fullName>
+        <default>false</default>
+        <label>QA complete - Patch</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>QA complete - Release</fullName>
+        <default>false</default>
+        <label>QA complete - Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Referred to Enhancement Process</fullName>
+        <default>false</default>
+        <label>Referred to Enhancement Process</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Requested Information from Customer</fullName>
+        <default>false</default>
+        <label>Requested Information from Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Roadmap Item</fullName>
+        <default>false</default>
+        <label>Roadmap Item</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspended</fullName>
+        <default>false</default>
+        <label>Suspended</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Suspend in Progress</fullName>
+        <default>false</default>
+        <label>Suspend in Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Targeted for Future Release</fullName>
+        <default>false</default>
+        <label>Targeted for Future Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Upgrade Completed</fullName>
+        <default>false</default>
+        <label>Upgrade Completed</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Customer</fullName>
+        <default>false</default>
+        <label>Waiting on Customer</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Waiting on Vendor/Hardware</fullName>
+        <default>false</default>
+        <label>Waiting on Vendor/Hardware</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Works as Designed</fullName>
+        <default>false</default>
+        <label>Works as Designed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>---------------------------</fullName>
+        <default>false</default>
+        <label>---------------------------</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>**Zuercher Statuses**</fullName>
+        <default>false</default>
+        <label>**Zuercher Statuses**</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Customer Response</fullName>
+        <default>false</default>
+        <label>Awaiting Customer Response</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Customer Verification</fullName>
+        <default>false</default>
+        <label>Awaiting Customer Verification</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Future Development</fullName>
+        <default>false</default>
+        <label>Awaiting Future Development</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Major Release</fullName>
+        <default>false</default>
+        <label>Awaiting Major Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Minor Release</fullName>
+        <default>false</default>
+        <label>Awaiting Minor Release</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Product Review</fullName>
+        <default>false</default>
+        <label>Awaiting Product Review</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Awaiting Third Party</fullName>
+        <default>false</default>
+        <label>Awaiting Third Party</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>By Design</fullName>
+        <default>false</default>
+        <label>By Design</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Completed</fullName>
+        <default>false</default>
+        <label>Completed</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Initiated Closure</fullName>
+        <default>false</default>
+        <label>Customer Initiated Closure</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Duplicate</fullName>
+        <default>false</default>
+        <label>Duplicate</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In GIS</fullName>
+        <default>false</default>
+        <label>In GIS</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Progress</fullName>
+        <default>false</default>
+        <label>In Progress</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>In Support</fullName>
+        <default>false</default>
+        <label>In Support</label>
+        <closed>false</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Not Reproducible</fullName>
+        <default>false</default>
+        <label>Not Reproducible</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Opened in Error</fullName>
+        <default>false</default>
+        <label>Opened in Error</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Resolved Pending Further Info</fullName>
+        <default>false</default>
+        <label>Resolved Pending Further Info</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Test Ticket</fullName>
+        <default>false</default>
+        <label>Test Ticket</label>
+        <closed>true</closed>
+    </standardValue>
+    <standardValue>
+        <fullName>Won&apos;t Complete / Implement</fullName>
+        <default>false</default>
+        <label>Won&apos;t Complete / Implement</label>
+        <closed>true</closed>
+    </standardValue>
+</StandardValueSet>

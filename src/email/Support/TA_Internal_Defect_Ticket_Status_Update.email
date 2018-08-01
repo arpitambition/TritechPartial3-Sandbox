@@ -1,0 +1,10 @@
+The following Defect Ticket status has been updated:<BR><BR>
+
+<B>Defect Ticket #:</B> {!Potential_Defect__c.Defect_Ticket_ID__c}<BR>
+<B>Subject:</B>  {!Potential_Defect__c.Name} <BR>
+<B>Defect Ticket Status:</B>  {!Potential_Defect__c.Ticket_Status__c}<BR><B>Updated:</B>  {!Potential_Defect__c.LastModifiedDate}<BR><BR>
+<U>Originating Customer:</U><BR>
+<B>Account:</B>  {!Potential_Defect__c.Original_Customer__c} <BR>
+<B>Customer Number:</B>  {!Potential_Defect__c.CustomerNumberLookup__c}<BR><BR>
+
+Click on the link to access the Defect Ticket:  <BR>{!Potential_Defect__c.PotentialDefectURL__c}

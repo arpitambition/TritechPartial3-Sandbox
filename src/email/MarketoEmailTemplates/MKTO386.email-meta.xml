@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>How to Get Your Crews to Document Effectively.Follow-up</name>
+    <style>none</style>
+    <subject>HANDOUTS | CEU CERTIFICATE: How to Get Your Crews to Document Effectively</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+FOLLOW-UP INFORMATION FOR:
+How to Get Your Crews to Document Effectively
+
+{{lead.First Name:default=EMS Professional}} -
+Thanks for your interest in our webinar and learning about How to Get Your Crews to Document Effectively, including information about the following:
+
+
+ - implementing an effective chart review/QA process
+ - designing creative training approaches
+ - utilizing incentive and mentoring programs
+
+ - making the most out of electronic documentation solutions
+
+
+For information about TriTech&apos;s EMS Billing or ePCR cloud-based software - or other integrated EMS applications - please contact us at sales@tritech.com &lt;mailto:sales@tritech.com&gt; or 800-537-3927.
+LINKS:
+
+PRESENTER: Doug Wolfberg &lt;http://www.pwwemslaw.com/CMS/uploads/File/Staff%20Bios%20updated%204%206%202012/Doug %20Wolfberg%202012.pdf&gt; of Page, Wolfberg, and Wirth 
+
+RECORDING DATE: Thursday August 30, 2012
+
+CEU CERTIFICATE AND PRESENTATION HANDOUTS: CLICK TO DOWNLOAD  &lt;http://www.tritechems.com/documents/Aug30_Handouts.pdf&gt;
+
+LINK TO RECORDING- coming soon!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

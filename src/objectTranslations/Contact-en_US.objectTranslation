@@ -1,0 +1,733 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary Address</value>
+        </caseValues>
+        <name>mailing_address_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary City</value>
+        </caseValues>
+        <name>mailing_city_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary Country</value>
+        </caseValues>
+        <name>mailing_country_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary State/Province</value>
+        </caseValues>
+        <name>mailing_state_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary Street</value>
+        </caseValues>
+        <name>mailing_street_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Primary Zip/Postal Code</value>
+        </caseValues>
+        <name>mailing_zip_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <caseValues>
+            <plural>false</plural>
+            <value>Work Mobile</value>
+        </caseValues>
+        <name>mobile_contact</name>
+        <startsWith>Consonant</startsWith>
+    </fields>
+    <fields>
+        <label><!-- Account Name --></label>
+        <name>AccountName__c</name>
+    </fields>
+    <fields>
+        <label><!-- ActOn Sync Test Field --></label>
+        <name>ActOn_Sync_Test_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- Act On Lead Score --></label>
+        <name>Act_On_Lead_Score__c</name>
+    </fields>
+    <fields>
+        <label><!-- Active --></label>
+        <name>Active__c</name>
+    </fields>
+    <fields>
+        <help><!-- Designated after hours contact for 24/7 support issues --></help>
+        <label><!-- After Hours Contact --></label>
+        <name>After_Hours_Contact_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Alternate Email --></label>
+        <name>Alternate_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Assistant Email --></label>
+        <name>Assistant_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Contact --></label>
+        <name>Billing_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please choose the appropriate access level for the contact. --></help>
+        <label><!-- CSC Portal Access Request: --></label>
+        <name>CSC_Portal_Access_Request__c</name>
+        <picklistValues>
+            <masterLabel>Manager (Tickets Creation/Edits, Contacts, Reports, Knowledge Base)</masterLabel>
+            <translation><!-- Manager (Tickets Creation/Edits, Contacts, Reports, Knowledge Base) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read Only (Knowledge Base read only)</masterLabel>
+            <translation><!-- Read Only (Knowledge Base read only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Read Only with Tickets (Knowledge Base and Tickets read only)</masterLabel>
+            <translation><!-- Read Only with Tickets (Knowledge Base and Tickets read only) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Standard (Ticket Creation/Edits, Knowledge Base)</masterLabel>
+            <translation><!-- Standard (Ticket Creation/Edits, Knowledge Base) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Campaign --></label>
+        <name>Campaign__c</name>
+        <relationshipLabel><!-- Contacts --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Training --></label>
+        <name>Completed_Training_WMP_del__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact URL --></label>
+        <name>ContactURL__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Contact ID --></label>
+        <name>Contact_ID_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Long ID --></label>
+        <name>Contact_Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contact Picture --></label>
+        <name>Contact_Picture__c</name>
+    </fields>
+    <fields>
+        <label><!-- Customer Portal User --></label>
+        <name>Customer_Portal_User__c</name>
+    </fields>
+    <fields>
+        <help><!-- Utilized for flagging the contacts on an account that will receive customer surveys. --></help>
+        <label><!-- Customer Survey Contact --></label>
+        <name>Customer_Survey_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Marketing specific field for tracking customer survey times by customer --></help>
+        <label><!-- xCustomer Survey --></label>
+        <name>Customer_Survey__c</name>
+        <picklistValues>
+            <masterLabel>Fall</masterLabel>
+            <translation><!-- Fall --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Spring</masterLabel>
+            <translation><!-- Spring --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Contact requests no Sales calls. --></help>
+        <label><!-- Do Not Solicit --></label>
+        <name>Do_Not_Solicit_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- DummyTouchField --></label>
+        <name>DummyTouchField__c</name>
+    </fields>
+    <fields>
+        <label><!-- Executive Contact --></label>
+        <name>Executive_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extension --></label>
+        <name>Extension__c</name>
+    </fields>
+    <fields>
+        <label><!-- GIS Contact --></label>
+        <name>GIS_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- IT Contact --></label>
+        <name>IT_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inactive Contact --></label>
+        <name>Inactive_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Account a Client? --></label>
+        <name>Is_Account_a_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- LA Client --></label>
+        <name>LA_Client__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Referenced Date --></label>
+        <name>Last_Referenced_Date_WMP__c</name>
+    </fields>
+    <fields>
+        <help><!-- Syncs from ActOn hidden field called &quot;Lead Details&quot; --></help>
+        <label><!-- Lead Details --></label>
+        <name>Lead_Details__c</name>
+    </fields>
+    <fields>
+        <help><!-- If the contact has a LinkedIn contact page, enter the URL here. --></help>
+        <label><!-- LinkedIn --></label>
+        <name>LinkedIn__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade Contact --></label>
+        <name>MR_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Market Map Update --></label>
+        <name>Market_Map_Update__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketing Contact --></label>
+        <name>Marketing_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Marketo Sync Dummy Field --></label>
+        <name>Marketo_Sync_Dummy_Field__c</name>
+    </fields>
+    <fields>
+        <label><!-- NIBRS Contact --></label>
+        <name>NIBRS_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Newsletter Contact --></label>
+        <name>Newsletter_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Notes --></label>
+        <name>Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - Sales Promos/Training --></label>
+        <name>OptIn_Sales_Promos_Training__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionCAD --></label>
+        <name>OptIn_VisionCAD__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionFBR --></label>
+        <name>OptIn_VisionFBR__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionFIRE --></label>
+        <name>OptIn_VisionFIRE__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionFORCE --></label>
+        <name>OptIn_VisionFORCE__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionINFORM --></label>
+        <name>OptIn_VisionINFORM__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionJAIL --></label>
+        <name>OptIn_VisionJAIL__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionLMS --></label>
+        <name>OptIn_VisionLMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionMOBILE --></label>
+        <name>OptIn_VisionMOBILE__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisionRMS --></label>
+        <name>OptIn_VisionRMS__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt In - IQ/Analytics --></label>
+        <name>Opt_In_IQ_Analytics__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisiNet Advisories --></label>
+        <name>Opt_In_VisiNet_Advisories__c</name>
+    </fields>
+    <fields>
+        <label><!-- xOpt In - VisiNet Tech Communications --></label>
+        <name>Opt_In_VisiNet_Tech_Communications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Company, Client &amp; Product News --></label>
+        <name>Opt_Out_Company_Client_Product_News__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Technical &amp; Product Bulletins --></label>
+        <name>Opt_Out_Technical_and_Product_Bulletins__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Tradeshows and Demos --></label>
+        <name>Opt_Out_Tradeshows_and_Demos__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opt Out - Training Information --></label>
+        <name>Opt_Out_Training_Information__c</name>
+    </fields>
+    <fields>
+        <help><!-- Opt out field for TriTech.com client contacts who do not wish to receive outage notifications --></help>
+        <label><!-- Opt Out TriTech.com Outage Notifications --></label>
+        <name>Opt_Out_TriTech_com_Outage_Notifications__c</name>
+    </fields>
+    <fields>
+        <label><!-- Owner ID --></label>
+        <name>Owner_ID__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter a document id to an image file with a picture of the contact --></help>
+        <label><!-- PictId --></label>
+        <name>PictId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Portal Access Requested --></label>
+        <name>Portal_Access_Requested__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prefers Email --></label>
+        <name>Prefers_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prefers Phone --></label>
+        <name>Prefers_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Contact --></label>
+        <name>Primary_Contact_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Support Contact --></label>
+        <name>Primary_Support_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Family --></label>
+        <name>Product_Family2__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Contact --></label>
+        <name>RFP_Contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Additional VisionAIR mapping ID from CRM system --></help>
+        <label><!-- ROID --></label>
+        <name>ROID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Reference --></label>
+        <name>Reference_WMP__c</name>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role_WMP__c</name>
+        <picklistValues>
+            <masterLabel>Authorized User</masterLabel>
+            <translation><!-- Authorized User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Consultant</masterLabel>
+            <translation><!-- Consultant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Customer Staff</masterLabel>
+            <translation><!-- Customer Staff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Director/Chief/Owner</masterLabel>
+            <translation><!-- Director/Chief/Owner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Expungement Authorized</masterLabel>
+            <translation><!-- Expungement Authorized --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS Contact</masterLabel>
+            <translation><!-- GIS Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IT Contact</masterLabel>
+            <translation><!-- IT Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Manager</masterLabel>
+            <translation><!-- Project Manager --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Secondary Contact</masterLabel>
+            <translation><!-- Secondary Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade Contact</masterLabel>
+            <translation><!-- Upgrade Contact --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Vendor</masterLabel>
+            <translation><!-- Vendor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Selection Committee Member --></label>
+        <name>Selection_Committee_Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- Stakeholder Areas --></label>
+        <name>Stakeholder_Areas__c</name>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Common Administration</masterLabel>
+            <translation><!-- Common Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crime Analysis</masterLabel>
+            <translation><!-- Crime Analysis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Billing</masterLabel>
+            <translation><!-- EMS Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Administration</masterLabel>
+            <translation><!-- Fire Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Administration</masterLabel>
+            <translation><!-- Law Administration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Records</masterLabel>
+            <translation><!-- Law Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law Responders</masterLabel>
+            <translation><!-- Law Responders --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Stakeholder Products --></label>
+        <name>Stakeholder_Products__c</name>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A group that gives hands on feedback on the design of a new feature. --></help>
+        <label><!-- Stakeholder --></label>
+        <name>Stakeholder__c</name>
+    </fields>
+    <fields>
+        <label><!-- Steering Areas --></label>
+        <name>Steering_Areas__c</name>
+        <picklistValues>
+            <masterLabel>Administrative (Back Office Functions)</masterLabel>
+            <translation><!-- Administrative (Back Office Functions) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Analysis Reporting</masterLabel>
+            <translation><!-- Analysis Reporting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD</masterLabel>
+            <translation><!-- CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil Process</masterLabel>
+            <translation><!-- Civil Process --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS Billing</masterLabel>
+            <translation><!-- EMS Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire RMS</masterLabel>
+            <translation><!-- Fire RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS</masterLabel>
+            <translation><!-- GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail Management</masterLabel>
+            <translation><!-- Jail Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Law RMS</masterLabel>
+            <translation><!-- Law RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>ePCR</masterLabel>
+            <translation><!-- ePCR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- A focus group to decide priorities and direction of what should be added to the software. --></help>
+        <label><!-- Steering Committee Member --></label>
+        <name>Steering_Committee_Member__c</name>
+    </fields>
+    <fields>
+        <label><!-- Steering Products --></label>
+        <name>Steering_Products__c</name>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Subscribed Events --></label>
+        <name>Subscribed_Events__c</name>
+        <picklistValues>
+            <masterLabel>ICON 2016</masterLabel>
+            <translation><!-- ICON 2016 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher 2016</masterLabel>
+            <translation><!-- Zuercher 2016 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Support Contact --></label>
+        <name>Support_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unsubscribe Email Digest? --></label>
+        <name>Unsubscribe_Email_Digest__c</name>
+    </fields>
+    <fields>
+        <label><!-- Upgrade Contact --></label>
+        <name>Upgrade_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Newsletter Contact --></label>
+        <name>Z_Newsletter_Contact__c</name>
+    </fields>
+    <fields>
+        <label><!-- Informed Consent Date --></label>
+        <name>qualtrics__Informed_Consent_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Informed Consent --></label>
+        <name>qualtrics__Informed_Consent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Survey Invitation --></label>
+        <name>qualtrics__Last_Survey_Invitation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Last Survey Response --></label>
+        <name>qualtrics__Last_Survey_Response__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Promoter Score --></label>
+        <name>qualtrics__Net_Promoter_Score__c</name>
+    </fields>
+    <layouts>
+        <layout>Customer Portal</layout>
+        <sections>
+            <label><!-- Address Information --></label>
+            <section>Address Information</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Preferences --></label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Designation --></label>
+            <section>Contact Designation</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Information --></label>
+            <section>Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Fields --></label>
+            <section>Fields</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>TriTech Contact Layout</layout>
+        <sections>
+            <label><!-- Additional Contact Information --></label>
+            <section>Additional Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Admin Only --></label>
+            <section>Admin Only</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Preferences --></label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Designation --></label>
+            <section>Contact Designation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Zuercher Contact Layout</layout>
+        <sections>
+            <label><!-- Additional Contact Information --></label>
+            <section>Additional Contact Information</section>
+        </sections>
+        <sections>
+            <label><!-- Communication Preferences --></label>
+            <section>Communication Preferences</section>
+        </sections>
+        <sections>
+            <label><!-- Contact Designation --></label>
+            <section>Contact Designation</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Marketing Information --></label>
+            <section>Marketing Information</section>
+        </sections>
+        <sections>
+            <label><!-- Organization Information --></label>
+            <section>Organization Information</section>
+        </sections>
+    </layouts>
+    <validationRules>
+        <errorMessage><!-- Access to the customer portal is not available --></errorMessage>
+        <name>James_Holmes_Rule</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stakeholder is checked, then Stakeholder Areas must be completed. --></errorMessage>
+        <name>Stakeholder_Areas_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Stakeholder is checked, then Stakeholder Products must be completed. --></errorMessage>
+        <name>Stakeholder_Products_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Steering Committee Member is checked, then Steering Areas must be completed. --></errorMessage>
+        <name>Steering_Areas_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If Steering Committee Member is checked, then Steering Products must be completed. --></errorMessage>
+        <name>Steering_Products_Must_Be_Completed</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- ActOn_Activity_History --></label>
+        <name>ActOn__ActOn_Activity_History</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Act_On_Email --></label>
+        <name>ActOn__Send_Act_On_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Act_On_Mass_Email --></label>
+        <name>ActOn__Send_Act_On_Mass_Email</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Edit --></label>
+        <name>Edit</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleMaps --></label>
+        <name>GoogleMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- GoogleSearch --></label>
+        <name>GoogleSearch</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- SendGmail --></label>
+        <name>SendGmail</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooMaps --></label>
+        <name>YahooMaps</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- YahooWeather --></label>
+        <name>YahooWeather</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Send_Qualtrics_Survey --></label>
+        <name>qualtrics__Send_Qualtrics_Survey</name>
+    </webLinks>
+</CustomObjectTranslation>

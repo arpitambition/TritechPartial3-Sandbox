@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011 Tech Services Communication 12/15/11 - CRM Tool Training</name>
+    <style>none</style>
+    <subject>CRM Tool Training - Technical Services Communication</subject>
+    <textOnly>You&apos;re receiving this newsletter because of your relationship with TriTech Software Systems.
+
+
+POSTED 12.15.11 
+
+
+CRM Tool Training
+
+
+Dear Clients,
+
+
+As we are ready to launch the new SalesForce customer portal on Monday (12/19), we have created a training video to introduce you to some of the features of the new system, such as:
+
+Creating, Editing and Viewing Tickets
+Searching for Knowledbase Article and Documents
+For Customer Portal Managers:  
+      The ability to generate reports 
+      Managing your agency&apos;s contacts
+
+
+We encourage you to view the video, at your convenience, prior to logging in to the system.  As a reminder, we have now disabled the previous customer portal.  We will send your login information for the new customer portal prior to the designated go-live time of 5:30am Pacific Time on Monday, December 19th.  
+
+
+You may access the video via the MyVisiNet Support site under Training | SalesForce Training.
+
+
+Sincerely, 
+
+
+Tony Vardiman
+Technical Services Frontline Supervisor | VisiNet Solutions
+TriTech Software Systems | tritech.com
+Direct: 858.799.7441 | Mobile: 619.816.7100
+Fax: 858.799.7010 | Direct Support: 800.847.4223
+Support Line: 800 VISICAD 
+
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121
+
+
+
+
+
+
+
+
+
+
+
+﻿</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

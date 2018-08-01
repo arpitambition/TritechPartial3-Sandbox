@@ -1,0 +1,94 @@
+<apex:page standardStylesheets="false" controller="Sales_Order_LogLY" contentType="application/vnd.ms-excel#SalesOrderLogLYExport.xls" cache="true">
+    <style>
+        .headerStyle{font-bold="false"}
+    </style>
+    <apex:pageBlock title="Last Year Sales Order Log" >
+        <apex:pageBlockTable value="{!soc}" var="Sales_Order">
+            <apex:column headerValue="Director" headerclass="headerStyle" value="{!Sales_Order.Director__c}"/>
+            <apex:column headervalue="Quote #" value="{!Sales_Order.Quote_Number__c}"/>
+            <apex:column headervalue="S/O" value="{!Sales_Order.Sales_Order_Number__c}"/>
+            <apex:column headervalue="C/O" value="{!Sales_Order.Change_Order_Number__c}"/>
+            <apex:column headervalue="Client" value="{!Sales_Order.Client__c}"/>
+            <apex:column headervalue="Great Plains Customer ID" value="{!Sales_Order.GP_Customer_ID__c}"/>
+            <apex:column headervalue="Product Type" value="{!Sales_Order.Product_Type__c}"/>
+            <apex:column headervalue="N/E" value="{!Sales_Order.N_E__c}"/>
+            <apex:column headervalue="GSA CA State G or C" value="{!Sales_Order.G_or_C__c}"/>
+            <apex:column headervalue="Bookings Date" value="{!Sales_Order.Bookings_Date__c}"/>
+            <apex:column headervalue="Sales Rep" value="{!Sales_Order.Sales_Rep__c}"/>
+            <apex:column headervalue="CSL" value="{!Sales_Order.CSL__c}"/>
+            <apex:column headervalue="PM" value="{!Sales_Order.Project_Manager__c}"/>
+            <apex:column headervalue="Inform Bookings Amount" value="{!Sales_Order.Inform_Bookings_Amount__c}"/>
+            <apex:column headervalue="Total Contract Amount" value="{!Sales_Order.Total_Contract_Amount__c}"/>
+            <apex:column headervalue="CAD" value="{!Sales_Order.CAD_Software_List__c}"/>
+            <apex:column headervalue="Interface CAD/Mobile" value="{!Sales_Order.Interface_CAD_Mobile_Software__c}"/>
+            <apex:column headervalue="Interface RMS/FBR/Jail" value="{!Sales_Order.Interface_RMS_FBR_Jail_Software__c}"/>
+            <apex:column headervalue="Mobile" value="{!Sales_Order.Mobile_List__c}"/>
+            <apex:column headervalue="RMS" value="{!Sales_Order.RMS_List__c}"/>
+            <apex:column headervalue="FBR" value="{!Sales_Order.FBR_List__c}"/>
+            <apex:column headervalue="Jail" value="{!Sales_Order.Jail_List__c}"/>
+            <apex:column headervalue="Fire" value="{!Sales_Order.Fire_List__c}"/>
+            <apex:column headervalue="Software Subscription (On Prem)" value="{!Sales_Order.Software_Subscription_On_Prem__c}"/>
+            <apex:column headervalue="IQ Licenses" value="{!Sales_Order.IQ_List__c}"/>
+            <apex:column headervalue="Telephony 911" value="{!Sales_Order.Telephony_List__c}"/>
+            <apex:column headervalue="Subscrp-RMS/FBR" value="{!Sales_Order.Subscription_List__c}"/>
+            <apex:column headervalue="Software Subtotal" value="{!Sales_Order.Software_List__c}"/>
+            <apex:column headervalue="Software Discounts" value="{!Sales_Order.Software_Discounts__c}"/>
+            <apex:column headervalue="Software Total" value="{!Sales_Order.Software_Total__c}"/>
+            <apex:column headervalue="Project & Installation Services" value="{!Sales_Order.P_I_List__c}"/>
+            <apex:column headervalue="Integrated Solutions Services" value="{!Sales_Order.IS_Services_List__c}"/>
+            <apex:column headervalue="Training Services" value="{!Sales_Order.Training_Services_List__c}"/>
+            <apex:column headervalue="Project Mgmt Services" value="{!Sales_Order.PM_Services__c}"/>
+            <apex:column headervalue="Other Service Revenue" value="{!Sales_Order.Other_Services__c}"/>
+            <apex:column headervalue="Services Subtotal" value="{!Sales_Order.Services_List__c}"/>
+            <apex:column headervalue="Tritech Services Discount" value="{!Sales_Order.Services_Discount__c}"/>
+            <apex:column headervalue="Tritech Services Total" value="{!Sales_Order.Services_Total__c}"/>
+            <apex:column headervalue="Hardware/3rd Party" value="{!Sales_Order.Hardware_List__c}"/>
+            <apex:column headervalue="Hardware/3rd Party Support" value="{!Sales_Order.Hardware_Support_List__c}"/>
+            <apex:column headervalue="3rd Party Software" value="{!Sales_Order.X3rd_Party_Soft_List__c}"/>
+            <apex:column headervalue="3rd Party Support" value="{!Sales_Order.X3rd_Party_Support__c}"/>
+            <apex:column headervalue="Subcontract" value="{!Sales_Order.Subcontract_List__c}"/>
+            <apex:column headervalue="Subcontract Support" value="{!Sales_Order.Subcontract_Support_List__c}"/>
+            <apex:column headervalue="DataVault Subscription" value="{!Sales_Order.Datavault_List__c}"/>
+            <apex:column headervalue="System Integration" value="{!Sales_Order.System_Integration__c}"/>
+            <apex:column headervalue="Hardware/3rd Party Subtotal" value="{!Sales_Order.HW_3rd_Paty_List__c}"/>
+            <apex:column headervalue="Hardware/3rd Party Discounts" value="{!Sales_Order.Hardware_3rd_party_Discount__c}"/>
+            <apex:column headervalue="Hardware/3rd Party Total" value="{!Sales_Order.HW_3rd_party_SW_Subtotal__c}"/>
+            <apex:column headervalue="Shipping" value="{!Sales_Order.Shipping__c}"/>
+            <apex:column headervalue="Escrow" value="{!Sales_Order.Escrow__c}"/>
+            <apex:column headervalue="TriCon Fees" value="{!Sales_Order.TriCon_Fees__c}"/>
+            <apex:column headervalue="Bonds & L/C" value="{!Sales_Order.Bonds__c}"/>
+            <apex:column headervalue="Travel - Fixed" value="{!Sales_Order.Travel_Fixed__c}"/>
+            <apex:column headervalue="Travel - BAI" value="{!Sales_Order.Travel_BAI__c}"/>
+            <apex:column headervalue="Other" value="{!Sales_Order.Other__c}"/>
+            <apex:column headervalue="Discount Other" value="{!Sales_Order.Discount_Other__c}"/>
+            <apex:column headervalue="Total Other" value="{!Sales_Order.Total_Other__c}"/>
+            <apex:column headervalue="Software Support" value="{!Sales_Order.Software_Support__c}"/>
+            <apex:column headervalue="Prepaid Maintenance Pool" value="{!Sales_Order.Prepain_maintenance_Pool__c}"/>
+            <apex:column headervalue="Sales Tax" value="{!Sales_Order.Tax__c}"/>
+            <apex:column headervalue="Other Deferred Revenue" value="{!Sales_Order.Other_Deferred_Rev__c}"/>
+            <apex:column headervalue="TriTech.Com IQ Hosting" value="{!Sales_Order.Tritech_Com_IQ_Hosting_List__c}"/>
+            <apex:column headervalue="Multi Year Contract > 2 Years" value="{!Sales_Order.Tritech_Com_Cont_2_Yrs_List__c}"/>
+            <apex:column headervalue="TriTech.Com Other" value="{!Sales_Order.Tritech_Com_Other_List__c}"/>
+            <apex:column headervalue="TriTech.Com Project and Install" value="{!Sales_Order.Tritech_Com_Install_List__c}"/>
+            <apex:column headervalue="TriTech.Com Training" value="{!Sales_Order.Tritech_Com_Training_List__c}"/>
+            <apex:column headervalue="TriTech.Com IQ Discount" value="{!Sales_Order.Tritech_Com_Discount__c}"/>
+            <apex:column headervalue="Total Tritech.Com" value="{!Sales_Order.Tritech_Com_Net__c}"/>
+            <apex:column headervalue="Retail" value="{!Sales_Order.Retail__c}"/>
+            <apex:column headervalue="MO" value="{!Sales_Order.MO__c}"/>
+            <apex:column headervalue="ArcGis Run Time" value="{!Sales_Order.ArcGIS_Run_Time__c}"/>
+            <apex:column headervalue="MO Upgrade" value="{!Sales_Order.MO_Upgrade__c}"/>
+            <apex:column headervalue="NE" value="{!Sales_Order.NE__c}"/>
+            <apex:column headervalue="ArcGis Engine 10x" value="{!Sales_Order.ArcGIS_Engine_10X__c}"/>
+            <apex:column headervalue="ArcGis Server Network Analyst" value="{!Sales_Order.ArcGIS_Server_Network_Analyst__c}"/>
+            <apex:column headervalue="Dundas Inform Analytics" value="{!Sales_Order.Dundas_Analytics__c}"/>
+            <apex:column headervalue="Possitive Access" value="{!Sales_Order.Possitive_Access__c}"/>
+            <apex:column headervalue="ESRI" value="{!Sales_Order.ESRI__c}"/>
+            <apex:column headervalue="Cost WorkSheet Other" value="{!Sales_Order.Cost_Worksheet_Other__c}"/>
+            <apex:column headervalue="Total Costs" value="{!Sales_Order.Total_Cost__c}"/>
+            <apex:column headervalue="Notes" value="{!Sales_Order.MO__c}"/>
+            <apex:column headervalue="Comm Value" value="{!Sales_Order.Commissionable_Value__c}"/>
+            <apex:column headervalue="Competitive/Non Competitive" value="{!Sales_Order.C_or_N__c}"/>
+            
+        </apex:pageBlockTable>
+    </apex:pageBlock>
+</apex:page>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CAM Change.David Bell</name>
+    <style>none</style>
+    <subject>Meet Your New Client Account Manager</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Meet Your New Client Account Manager - David Bell
+
+Hello {{lead.First Name:default=Valued Client}},
+
+The new year brings many exciting changes for TriTech customers. We are planning on attending selected regional tradeshows to see many more of you on the road, as well as implementing more training programs to help enhance your use of the Perform Software.
+
+Another recent change has been in the realignment of our Client Account Managers (CAM).  We are pleased to introduce David Bell as the CAM for your agency.  David will be responsible for any new product quotes or demonstrations that you may need. He has been with TriTech for 3 years as a CAM and is excited about the opportunity to work with your agency. He can be reached via e-mail at david.bell@tritech.com &lt;http://direct.tritech.com/track?type=click&amp;enid=bWFpbGluZ2lkPW9ydGl2dXNuYUJldGFjdXN0LS0tLTUwMTMtcHJvZC02MDAyJm1lc3NhZ2VpZD0wJmRhdGFiYXNlaWQ9NjAwMiZzZXJpYWw9MTMwMDA2MzgwNyZlbWFpbGlkPUpFTk5ZLkNMQVZFUk9AVFJJVEVDSC5DT00mdXNlcmlkPTAmZXh0cmE9JiYm&amp;&amp;&amp;mailto:david.bell@tritech.com?mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hB0uI7%2BJK1TtuMFUGpsqOOaMFQsGBoNvwQ%3D%3D&gt; or his cell at 774.239.3722.
+
+I hope that 2013 is a great year for all of us.
+
+ 
+
+Phil Sisk 
+ National Director of Sales and Client Account Management 
+ TriTech Software Systems | www.tritech.com  &lt;http://direct.tritech.com/track?type=click&amp;enid=bWFpbGluZ2lkPW9ydGl2dXNuYUJldGFjdXN0LS0tLTUwMTMtcHJvZC02MDAyJm1lc3NhZ2VpZD0wJmRhdGFiYXNlaWQ9NjAwMiZzZXJpYWw9MTMwMDA2MzgwNyZlbWFpbGlkPUpFTk5ZLkNMQVZFUk9AVFJJVEVDSC5DT00mdXNlcmlkPTAmZXh0cmE9JiYm&amp;&amp;&amp;http://www.tritech.com?mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hB0uI7%2BJK1TtuMFUGpsqOOaMFQsGBoNvwQ%3D%3D&gt;
+ Office: 978-215-2280 
+ Mobile: 774-242-5505
+
+Your Client Account Manager
+David Bell
+ Client Account Manager for customers in Massachusetts, New Jersey, Connecticut, Florida, New York and Vermont.   
+Phone:  (774) 239-3722
+david.bell@tritech.com &lt;mailto:david.bell@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

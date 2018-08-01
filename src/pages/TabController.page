@@ -1,0 +1,28 @@
+<apex:page controller="TabPermissions">
+
+
+<script>
+
+function init(){
+
+    if(getParamVal('out')=='t'){
+        setCookie('tperm','');
+        window.parent.location.href = '/secur/logout.jsp';
+        return;
+    } else {
+        setCookie('tperm', {!IntPermission});
+        //Test for the visual.force cookie
+        if(getCookie('tperm') == ''){
+            alert('Page error. please ensure that you have allowed cookies to be stored for this site');
+            return;
+        } else{
+            window.parent.location.href='https://cs67.salesforce.com/home/home.jsp?zt='+{!IntPermission}+'&retUrl='+getParamVal('retUrl');
+        }
+    }
+
+}
+
+window.onload = init;
+</script>
+
+</apex:page>

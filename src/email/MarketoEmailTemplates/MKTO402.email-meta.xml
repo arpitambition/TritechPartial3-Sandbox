@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Enforsys-Response-MA.EmailBlast</name>
+    <style>none</style>
+    <subject>TriTech Perform (formerly IMC) Software Update in Massachusetts</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+TriTech Perform (formerly IMC) Software Update in Massachusetts
+
+Dear {{lead.First Name:default=Customer}}, 
+
+TriTech is proud of our customers and of the Perform product suite (formerly known as IMC) that helps the people who protect and serve us. Over the past month, our Pre-Release customers have been giving positive feedback about our new Google Maps Interface. Google Maps is just one of the many ways TriTech is revolutionizing Public Safety Software. We are equally excited about our new Droid Application coming out this winter. 
+
+Most of the employees working on the Perform product line live in Massachusetts, so we get to see firsthand, the great job being done by our customers. 
+Massachusetts Functionality
+
+The functionality in the Perform Software Suite for Massachusetts is extremely robust. Many customers are not aware of all the features specific to Massachusetts that Perform offers. If you are not using all of the great features listed below, please feel free to contact Client Services to find out more about them. 
+Perform Software Suite Features for Massachusetts
+
+
+ - MA NIBRS (UCR also available)
+ - OUI Forms with Intoxication Information as Part of the Arrest
+ - Warrant and Arrest Court Complaint Forms
+ - State Crash Forms and Electronic Data Upload to state
+ - Citations Automatically Compute Speed Charge based on speed traveled
+ - Citation Audit Sheet
+ - Operating After Suspension Form
+ - DA interface (at Participating Counties)
+ - Juvenile Lockup Docket
+ - SWISS
+ - COPLINK
+ - Race Data Collection with Optional Quick Entry
+ - NFIRS                          
+ - ANI/ALI 911 Interface
+
+ - CHSB/CJIS/LEAPS Queries 
+
+
+ - Subject’s Personal Data ONLY (WMS2) 
+ - Subject’s Warrant Data ONLY (WMS3, MS4) 
+ - Subject’s Court Data ONLY (WMS5) 
+ - MA Suicide ONLY (Q5) 
+ - Boat by Reg Query 
+ - Vehicle by Plate/VIN (Q2SX,R5,R6,R7,RQ) 
+ - Registration by Name (RNQ) 
+ -  Vehicle Title Number Query 
+ - VREG Vehicle Query (OVR) 
+ -  Driver License by Name (DQ,DQG,UQ) 
+ -  Vehicle by Plate (Q2SX)
+ - Driver by Name (Q2S1,R3,R5,R8,WMS1,BSUM,BOP1,Q5KQ,QH,IQ) 
+ -  RMV Vehicle Title Number Query(R5) 
+ -  Driver by OLN/SSN (R1,RI,DQ,KQ,R5,Q2SX) 
+ - Driver History Query (KQ) 
+ - Criminal History (IQ, FQ) 
+ - Missing/Wanted Person by CJIS# (Q2S2) 
+ - Stolen/Felony Vehicle by NIC/CJIS# (Q2SX) 
+ - Board of Probation ONLY (BOP1) 
+ -  Board of Probation ONLY (BOP2) 
+ - Candidate BOP Summary ONLY (BOPSUM) 
+ - Warrant Management System ONLY (WMS1)
+ -  NCIC Checks: Article Query (QA), Boat Stolen Query (QB), Gun Query (QG), Security Query (QS), Query by NIC Number, Criminal History Index (QH), Criminal History Record (QR) 
+
+
+
+
+
+Perform Mobile
+
+Perform has a full Mobile component that works and looks the same in the department as on the road. Not only can you add information to CAD calls, but do your incidents, arrests, field interviews, citations, crashes, warrants, restraining orders, and registrations, parking tickets, decals, and more – on the road. 
+
+Case Management is also fully integrated in the Mobile application. You can process cases from your unit the same way you do in-house.
+Other Perform Features
+
+
+ - Evidence Tracking system with Barcoding fully integrated with Perform RMS
+ - Billing for False Alarms
+ - Fleet Maintenance and Tracking
+ - Data Backfill from MA state queries in CAD fully integrated with Perform RMS
+ - Schedule and Roster functions, including time off tracking and robust reporting
+ -  Paid detail billing
+ - Training Records including Recertification Records
+ - Crime Analysis and a full complement of Analytical Reports
+ - Real-time Data Sharing with Cross Agency
+ - Both NIBRS and UCR form generation available in tandem
+ - Announcements, Policy and Secure Mail modules
+ -  Fully integrated Fire RMS and Fire CAD
+ - Cross-over integration between Fire Hazmat and CAD
+
+
+Inform IQ – Coming Soon!
+
+Inform IQ, a new product built and maintained by TriTech, will revolutionize web-based queries on your data. 
+
+Thank you for the wonderful service you provide to our communities and for being a valued customer of TriTech. We will continue, as always, to invest in our software to make sure your investment in TriTech is a smart one.
+
+Best Regards,
+Leo Hisoire 
+
+Senior Product Manager
+TriTech Software Systems | www.tritech.com &lt;http://www.tritech.com/&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

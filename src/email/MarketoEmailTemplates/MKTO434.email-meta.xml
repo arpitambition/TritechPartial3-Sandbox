@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS_WI_102012.Reminder - tomorrow</name>
+    <style>none</style>
+    <subject>Registration Reminder:  Tomorrow&apos;s Public Safety Tech Seminar</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Reminder:  Next Generation Public Safety Technology Seminar
+TOMORROW:  You are registered to attend
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ This is your confirmation that you are registered for the Next Generation Public Safety Technology Seminar.  We look forward to seeing you at the seminar.  If there are other colleagues who may benefit from attending, there is still time to join us.  Click here to register &lt;http://offers.tritech.com/WI_NG911Seminar.html&gt; and save their space at this informative event.
+
+Date:
+ Wednesday, October 24
+Agenda:
+ 10:00 AM - 1:00 PM
+ Next Generation Public Safety Presentation:  
+
+
+
+ -  Unified user experience to interact with and incorporate new types of data such as text, pictures, video and more 
+
+
+ - Better integration of mappiing and analysis for patrol work and fire response 
+
+
+ - Systems and network administration services Improving connectivity with your wireless solution 
+
+
+ - Mobility solutions for rugged, reliable computing and evidentiary video 
+
+ - Streamline false alarm administration and increase fee and fine collections  
+
+
+
+1:00 PM - 2:30 PM
+Lunch and One-on-One Vendor Interaction
+
+2:30 PM - 3:00 PM
+ Door Prizes and Closing Statements
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+Address:
+ N19 W24133 Riverwood Dr. Suite 150
+Pewaukee, WI 53188
+Phone: (262) 53188
+
+
+ Parking at Microsoft Waukesha Facility:
+ Parking is free of charge.  The parking structure is in front of the building and available to the public.  Click here for a map to the facility.  &lt;http://goo.gl/maps/Em78C&gt; 
+
+ 
+
+Questions?
+ Michelle McClellan
+ TriTech Software Systems
+ (858)799-7900
+ michelle.mcclellan@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

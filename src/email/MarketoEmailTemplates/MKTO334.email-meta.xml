@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Golf</name>
+    <style>none</style>
+    <subject>TriCON - Golf in the San Diego sun</subject>
+    <textOnly>&lt;http://www.tritech.com/tricon&gt;
+
+
+
+
+
+
+ 
+Looking for a fun way to spend Tuesday afternoon before the TriCON Welcome Reception? Join us for a fun-filled afternoon on the greens. We’re not sure if they’ll be more bogies or laughs, but we’re sure they’ll be plenty of both! Meet and network with other TriTech clients as well as our partners and employees.
+
+ &lt;http://www.cvent.com/d/dcq11d&gt;
+
+
+
+
+ 
+
+
+
+
+
+ &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt;   &lt;http://www.twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/company/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+
+
+
+
+
+
+
+
+
+ 9477 Waples Street, Suite 100 l San Diego, California 92121 l www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

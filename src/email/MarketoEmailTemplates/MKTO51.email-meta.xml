@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_OregonaAPCO_September_PreShow1</name>
+    <style>none</style>
+    <subject>Oregon APCO/NENA - Visit the TriTech Booth</subject>
+    <textOnly>Oregona APCO-NENA Conference
+September 13 - 15, 2011  l  Bend, Oregon
+
+We are excited that you will be attending the 2011 Oregon APCO-Conference on September 13 - 15 at the River House Convention Center in Bend, Oregon.  We know that you will have a full agenda, but make sure to visit the TriTech Booth #for a demonstration of our Computer-Aided Dispatch and Mobile Data.
+
+
+Enter to Win a Law/Fire/or EMS Monopoly Game at the TriTech Booth
+
+LOOKING FORWARD TO A GREAT CONFERENCE!
+
+Terry Fitch, Regional Sales Manager
+terry.fitch@tritech.com
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

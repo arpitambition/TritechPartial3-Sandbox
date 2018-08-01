@@ -1,0 +1,50 @@
+Hello,<br><br>
+
+The following quote or opportunity needs your approval:<br><br>
+
+<b>Opportunity Product Family</b>: {!Opportunity.Product_Family_WMP__c}<br>
+<b>Opportunity Name</b>: {!Opportunity.Name}
+<br>
+<b>Account</b>: {!Opportunity.Account}
+<br>
+<b>Primary Contact</b>: {!Opportunity.Contact__c}
+<br>
+<b>New or Existing Business?</b>  {!Opportunity.Deal_Type__c}<br><br>
+
+<B>Additional Notes To Approver(s)</B>:<br>  {!Opportunity.INTERNAL_Note_to_Approvers__c}<br><br>
+
+<B>Last Approver Comments</B>:  {!ApprovalRequest.Comments}<br><br>
+
+<font size="4">Please submit approval via the following link:<br> {!ApprovalRequest.Internal_URL}</font>
+ <br><br><br>
+Thank you,
+<br>{!Opportunity.OwnerFullName}<br><br>
+
+<I>To review the quote or opportunity detail, click here: {!Opportunity.Link}</I>
+ <br> <br><br>
+
+<font size="4" color="Blue">*** <b>Inform, GSA, Rapid Implementation or IMC Quote Information</b> ***</font><br><br>
+
+<b>Price Book</b>:  {!Opportunity.Price_Book__c}<br>
+<b>Quote #</b>: {!Opportunity.Quote_Number__c}<br><br>
+
+<B>Total Quote Price w/tax:</B>  {!Opportunity.Quote_Total__c}<br><br>
+
+<b>Total Discount</b>: {!Opportunity.Discount__c} %
+<br>
+<b>Gross Margin</b>: {!Opportunity.Gross_Margin__c} %
+<br><br><br>
+
+
+
+<font size="4" color="Blue">*** <b>Zuercher Opportunity Information</b> ***</font><br><br>
+
+<b>Actual Opportunity Value</b>: {!Opportunity.Actual_Opportunity_Value__c}
+<br><br>
+<b>Software Discount</b>: {!Opportunity.Z_Software_Discount__c}%
+<br>
+<b>Maintenance Discount</b>: {!Opportunity.Z_Maintenance_Discount__c}%
+<br><br>
+<b>Special Payment Terms</b>: {!Opportunity.Z_Special_Payment_Terms__c}
+<br>
+<b>Special Maintenance Terms</b>: {!Opportunity.Z_Special_Maintenance_Terms__c}

@@ -1,0 +1,54 @@
+<apex:page standardController="Case" Extensions="CaseControllerExtension">
+
+  <apex:pageBlock title="Ticket Edit">
+    <apex:pageblockSection collapsible="false">
+      <apex:outputField value="{!Case.CaseNumber}" label=""/>
+    </apex:pageblockSection>
+  </apex:pageBlock>
+ 
+  <apex:pageBlock mode="edit"> 
+  <apex:form >
+
+      <apex:pageblockSection title="" collapsible="false">
+        <div align="Center">
+        <apex:outputPanel >
+          <apex:commandButton action="{!save}" value="Submit"/>
+          <apex:commandButton action="{!cancel}" value="Cancel"/>    
+        </apex:outputPanel>
+        </div>        
+      </apex:pageblockSection>
+
+      <apex:pageblockSection title="Ticket Information" collapsible="false">
+        <apex:outputText value="{!caseNumber}" label="Ticket Number"/>
+        <apex:outputField value="{!Case.Status}" label="Ticket Status"/>
+        <apex:outputText value="{!contactName}" label="Contact Name"/>
+        <apex:outputField value="{!Case.Priority}" label="Ticket Priority"/>
+      </apex:pageblockSection>
+
+      <apex:pageblockSection title="Subject and Description" columns="1" collapsible="false">
+        <apex:inputField value="{!Case.Subject}" required="true" style="width: 75%;"/>
+        <apex:message />
+        <apex:inputField value="{!Case.Description}" required="true" style="width: 75%; height: 100px"/>
+       
+      </apex:pageBlockSection>
+      <apex:pageBlockSection > <apex:pageBlockSectionItem > </apex:pageBlockSectionItem> <apex:pageBlockSectionItem /> </apex:pageBlockSection>
+      <apex:pageBlockSection showHeader="false" columns="2">
+      <apex:inputField value="{!Case.Z_Impacts_All_Users__c}"/>
+      <apex:inputField value="{!Case.Event_Frequency__c}"/>
+      </apex:pageblockSection>
+      
+
+      
+      <apex:pageblockSection >
+        <div align="Center">
+        <apex:outputPanel >
+        <apex:outputText /><apex:outputText />
+          <apex:commandButton action="{!save}" value="Submit"/>
+          <apex:commandButton action="{!cancel}" value="Cancel"/>    
+        </apex:outputPanel>
+        </div>        
+      </apex:pageblockSection>
+
+    </apex:form> 
+  </apex:pageBlock>
+</apex:page>

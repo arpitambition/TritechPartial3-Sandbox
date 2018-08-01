@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_DocumentationSurvey_112011_Reminder</name>
+    <style>none</style>
+    <subject>Survey - Deadline Extended Plus Enter to Win a Kindle Fire</subject>
+    <textOnly>DEADLINE EXTENDED - DECEMBER 5, 2011
+VisiNet Solutions Documentation Survey
+
+Dear {{lead.First Name:default=Customer}},
+
+We truly value your feedback and strive to strenghten the quality of our products and services.  In order to solicit more responses to our Documentation Survey, we&apos;ve extended the deadline and included an opportunity to win a Kindle Fire.  
+
+We encourage you to take advantage of this opportunity and tell us what we can do to make our documentation more useful.   Please click this link (http://www.surveymonkey.com/s/2011-VisiNetDocumentation)  to complete a quick 5-minute documentation survey. 
+
+For your participation in our Documentation Survey, all new and previously entered survey responses will be included in a drawing for a Amazon&apos;s Kindle Fire.  The deadline for entry is Monday, December 5.
+
+Sincerely,
+
+Yvonne Stringer
+Quality Assurance Manager
+TriTech Software Systems | VisiNet Solutions
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

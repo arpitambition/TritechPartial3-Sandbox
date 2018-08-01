@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Email sent to clients post upgrade</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Upgrade Completion Email</name>
+    <style>freeForm</style>
+    <subject>TriTech {!Case.Subject} Completed</subject>
+    <textOnly>{!Case.Account}
+{!Case.CaseNumber}
+{!Case.Short_Issue_Summary_WMP__c}
+
+
+
+{!Contact.FirstName} {!Contact.LastName},
+
+Thank you for giving us the opportunity to serve you better. Please help us  by taking five minutes to tell us about your upgrade experience.   We value your feedback and and want to make sure we are meeting your expectations.
+
+
+Please use the link below
+https://survey.qualtrics.com/SE/?SID=SV_4VeJxlcH23qyvu4
+
+Sincerely,
+Samantha O&apos;Brien
+Upgrade Supervisor</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

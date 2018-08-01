@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableEnhancedLookup>true</enableEnhancedLookup>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Biases_Hot_Button__c</fullName>
+        <externalId>false</externalId>
+        <label>Biases/Hot Button</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>CompetitiveStatus__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitive Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>C-</fullName>
+                    <default>false</default>
+                    <label>C-</label>
+                </value>
+                <value>
+                    <fullName>C=</fullName>
+                    <default>false</default>
+                    <label>C=</label>
+                </value>
+                <value>
+                    <fullName>C+</fullName>
+                    <default>false</default>
+                    <label>C+</label>
+                </value>
+                <value>
+                    <fullName>VOC</fullName>
+                    <default>false</default>
+                    <label>VOC</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Decision_Criteria__c</fullName>
+        <externalId>false</externalId>
+        <label>Decision Criteria</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipName>New_People_Roles</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Person__c</fullName>
+        <externalId>false</externalId>
+        <label>Person</label>
+        <referenceTo>Contact</referenceTo>
+        <relationshipName>New_People_Roles</relationshipName>
+        <relationshipOrder>1</relationshipOrder>
+        <reparentableMasterDetail>false</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Power__c</fullName>
+        <externalId>false</externalId>
+        <label>Power</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>No Power (0)</fullName>
+                    <default>false</default>
+                    <label>No Power (0)</label>
+                </value>
+                <value>
+                    <fullName>Very Little Power (1)</fullName>
+                    <default>false</default>
+                    <label>Very Little Power (1)</label>
+                </value>
+                <value>
+                    <fullName>May Not Be Heard (2)</fullName>
+                    <default>false</default>
+                    <label>May Not Be Heard (2)</label>
+                </value>
+                <value>
+                    <fullName>Makes Recommendations (3)</fullName>
+                    <default>false</default>
+                    <label>Makes Recommendations (3)</label>
+                </value>
+                <value>
+                    <fullName>Usually Gets What S/He Wants (4)</fullName>
+                    <default>false</default>
+                    <label>Usually Gets What S/He Wants (4)</label>
+                </value>
+                <value>
+                    <fullName>Gets Job Done – Political (5)</fullName>
+                    <default>false</default>
+                    <label>Gets Job Done – Political (5)</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Preferences__c</fullName>
+        <externalId>false</externalId>
+        <label>Preferences</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Huge Fan of TTS</fullName>
+                    <default>false</default>
+                    <label>Huge Fan of TTS</label>
+                </value>
+                <value>
+                    <fullName>Strongly Supports TTS</fullName>
+                    <default>false</default>
+                    <label>Strongly Supports TTS</label>
+                </value>
+                <value>
+                    <fullName>Outspoken in favor of TTS</fullName>
+                    <default>false</default>
+                    <label>Outspoken in favor of TTS</label>
+                </value>
+                <value>
+                    <fullName>Likes TTS</fullName>
+                    <default>false</default>
+                    <label>Likes TTS</label>
+                </value>
+                <value>
+                    <fullName>Neutral</fullName>
+                    <default>false</default>
+                    <label>Neutral</label>
+                </value>
+                <value>
+                    <fullName>Dislikes TTS</fullName>
+                    <default>false</default>
+                    <label>Dislikes TTS</label>
+                </value>
+                <value>
+                    <fullName>Outspoken against TTS</fullName>
+                    <default>false</default>
+                    <label>Outspoken against TTS</label>
+                </value>
+                <value>
+                    <fullName>Strongly Opposed to TTS</fullName>
+                    <default>false</default>
+                    <label>Strongly Opposed to TTS</label>
+                </value>
+                <value>
+                    <fullName>Hostile</fullName>
+                    <default>false</default>
+                    <label>Hostile</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Champion</fullName>
+                    <default>false</default>
+                    <label>Champion</label>
+                </value>
+                <value>
+                    <fullName>Coach</fullName>
+                    <default>false</default>
+                    <label>Coach</label>
+                </value>
+                <value>
+                    <fullName>Ultimate Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Ultimate Decision Maker</label>
+                </value>
+                <value>
+                    <fullName>Evaluation Committee Member</fullName>
+                    <default>false</default>
+                    <label>Evaluation Committee Member</label>
+                </value>
+                <value>
+                    <fullName>Everyday User</fullName>
+                    <default>false</default>
+                    <label>Everyday User</label>
+                </value>
+                <value>
+                    <fullName>Gate Keeper</fullName>
+                    <default>false</default>
+                    <label>Gate Keeper</label>
+                </value>
+                <value>
+                    <fullName>Influencer</fullName>
+                    <default>false</default>
+                    <label>Influencer</label>
+                </value>
+                <value>
+                    <fullName>Inside Coach</fullName>
+                    <default>false</default>
+                    <label>Inside Coach</label>
+                </value>
+                <value>
+                    <fullName>Introduction Maker</fullName>
+                    <default>false</default>
+                    <label>Introduction Maker</label>
+                </value>
+                <value>
+                    <fullName>Not Involved</fullName>
+                    <default>false</default>
+                    <label>Not Involved</label>
+                </value>
+                <value>
+                    <fullName>Obstructionist</fullName>
+                    <default>false</default>
+                    <label>Obstructionist</label>
+                </value>
+                <value>
+                    <fullName>Participant</fullName>
+                    <default>false</default>
+                    <label>Participant</label>
+                </value>
+                <value>
+                    <fullName>Political Influencer</fullName>
+                    <default>false</default>
+                    <label>Political Influencer</label>
+                </value>
+                <value>
+                    <fullName>Recommender</fullName>
+                    <default>false</default>
+                    <label>Recommender</label>
+                </value>
+                <value>
+                    <fullName>Responsible for Money</fullName>
+                    <default>false</default>
+                    <label>Responsible for Money</label>
+                </value>
+                <value>
+                    <fullName>Signature on Agreement</fullName>
+                    <default>false</default>
+                    <label>Signature on Agreement</label>
+                </value>
+                <value>
+                    <fullName>Technical Evaluator</fullName>
+                    <default>false</default>
+                    <label>Technical Evaluator</label>
+                </value>
+                <value>
+                    <fullName>Decision Maker</fullName>
+                    <default>false</default>
+                    <label>Decision Maker</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <label>Buyer Roles</label>
+    <nameField>
+        <displayFormat>PR-{00000}</displayFormat>
+        <label>Role ID</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Buyer Roles</pluralLabel>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>

@@ -1,0 +1,20 @@
+Account Name:  {!Account.Name}
+Opportunity Name:  {!Opportunity.Name}
+Opportunity Owner:  {!Opportunity.OwnerFullName}
+Product Family:  {!Opportunity.Product_Family_WMP__c}
+State:  {!Account.Mailing_Billing_State_WMP__c}
+Opportunity Type: {!Opportunity.RecordType} 
+
+Lost Opportunity Amount:  {!Opportunity.Actual_Opportunity_Value__c}
+
+Winning Competitor:  {!Opportunity.Winning_Competitor__c}
+
+Reason TriTech Lost:  {!Opportunity.Reason_TriTech_Lost__c}
+
+Comments - Reason TriTech Lost:  {!Opportunity.Comments_Reason_TriTech_Lost__c}
+
+If Closed Other - State Reason:  {!Opportunity.If_Closed_Other_State_Reason__c} 
+
+If No Bid - Primary Reason:  {!Opportunity.If_No_Bid_Primary_Reason__c}
+
+Click this link to view the opportunity:  {!Opportunity.Link}

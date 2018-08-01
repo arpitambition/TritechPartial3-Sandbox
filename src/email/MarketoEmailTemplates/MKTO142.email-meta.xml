@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>National Support Center.Imc_SupportCenter</name>
+    <style>none</style>
+    <subject>TriTech Software Systems Strengthens Customer Support with Center of Excellence</subject>
+    <textOnly>Tuesday, November 29, 2011
+TriTech Software Systems Strengthens Customer Support with Center of Excellence
+
+Dear {{lead.First Name:default=Customer}}, 
+
+We are excited to announce the establishment of a Center of Excellence to strengthen our level of service and support offerings.  Located at TriTech’s office in Decorah, Iowa, the TriTech National Support Center supplements the existing support infrastructure with additional resources and increased availability of support services.  The specialized team is dedicated to providing exceptional and timely customer support.  The Center is an important TriTech corporate initiative aimed at ensuring high levels of customer satisfaction through improving the quality, delivery and support of TriTech products and services. 
+
+Recognizing that customer service is our highest priority, we have established a central, nationwide support center.  The level of service provided by our Decorah office is unmatched, and we are expanding their capabilities to broaden their reach across the company. With this enhanced level of service, we are setting the Gold Standard of service in the public safety industry  
+
+What does this mean for customers?
+
+The TriTech National Support Center demonstrates TriTech’s commitment to achieving the best possible results for its customers.  Support levels will be enhanced through expanded business hours and additional staffing resources to ensure quicker call processing and more timely communications.  With the additional resources available, hold times and response times will be reduced.   The Center will be held to strict performance benchmarks, such as average hold times, call processing and issue response times to ensure that premium levels of customer satisfaction are delivered to our customers. 
+
+Initially, the newly expanded service and support team will provide technical support for TriTech’s EMS and Imc customers, as well as providing additional resources for overflow of issues for VisiNet Solutions customers.  TriTech’s subsidiary offices will increasingly focus on product delivery and development – further strengthening the quality of products the company provides.  With the establishment of the TriTech National Support Center and its public safety experience and knowledge, TriTech continues to deliver on its commitment to excellence.
+
+For details on the National Support Center, IMC FAQ (http://offers.tritech.com/rs/ortivusna/images/FINAL_CenterOfExcellence_ImcFAQ.pdf) and Press Release (http://www.tritech.com/News-and-Events/Press-Releases/TriTech-Software-Systems-Strenghtens-Customer-Support-with-Center-of-Excellence). If you have any questions or concerns, feel free to contact your Client Account Manager.
+
+
+Best regards, 
+
+Chris Maloney
+President and CEO
+TriTech Software Systems
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

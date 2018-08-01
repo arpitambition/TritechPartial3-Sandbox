@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>IACP 2011.Invite-IACP (IMC Law only)</name>
+    <style>none</style>
+    <subject>Visit with TriTech&apos;s Imc Solutions at IACP in Chicago</subject>
+    <textOnly>See you at the 118th Annual Conference  l  October 23-25  l  Chicago, IL
+International Association of Chiefs of Police
+
+As the National Sales Director for TriTech&apos;s Imc Solutions, I would like to personally invite you to visit Booth #2019 at the IACP Conference.  We will be exhibiting with our parent company, TriTech Software Systems.  Stop by, say hello and enter to win an iPad 2.  
+
+Enter to Win an iPad 2 at Booth #2019
+
+Regards, 
+
+
+Phil Sisk 
+National Sales Director | Imc Solutions
+TriTech Software Systems
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>*Internal* This template is used to send notification that work has been completed for client tickets.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Completion of Work Notice</name>
+    <style>freeForm</style>
+    <subject>{!Case.Account} - Work Completed - {!Case.CaseNumber}</subject>
+    <textOnly>CIS Installation Completion
+
+Agency Name:  {!Case.Account}
+
+Contact Information :
+
+Work Completed:
+
+
+Environment Type:  {!Case.Environment_Type__c}
+
+Workstations/Clients Upgraded:
+
+Issues Encountered:
+
+Issues Outstanding:
+
+Date and Time started:
+
+Date and Time Completed:
+
+Total Time
+
+Downtime:
+
+Sales Order Number:
+
+Work Order Link:
+{!Case.Link}
+
+SF - Hardware/Software records updated: (must enter yes)
+Yes</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

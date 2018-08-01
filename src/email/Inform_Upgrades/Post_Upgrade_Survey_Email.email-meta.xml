@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Survey to be sent post upgrade</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Post Upgrade Survey Email</name>
+    <style>freeForm</style>
+    <subject>Inform Upgrade Survey</subject>
+    <textOnly>{!Case.Account}
+{!Case.Short_Issue_Summary_WMP__c}
+Upgrade Date: {!Case.Anticipated_Delivery_Date__c}
+From Version:  {!Case.Upgrade_Start_Version__c} Patch: {!Case.Upgrade_Start_Version_Patch__c}
+To Version:{!Case.Upgrade_End_Version__c} Patch: {!Case.Upgrade_End_Version_Patch__c}
+
+{!Today}
+
+Dear {!Contact.FirstName} {!Contact.LastName}:
+
+Thank you for giving us the opportunity to serve you better. Please help us by taking few minutes to tell us about your upgrade experience. We value your feedback and want to make sure we are meeting your expectations.
+
+
+Please use the link below
+http://survey.qualtrics.com/SE/?SID=SV_6G51SvAumTU4s3r
+
+Sincerely,
+
+Samantha O’Brien
+Technical Upgrade Manager
+TriTech Software Systems | www.tritech.com
+Direct: (858) 799-7396 | Mobile: (858) 229-3045</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

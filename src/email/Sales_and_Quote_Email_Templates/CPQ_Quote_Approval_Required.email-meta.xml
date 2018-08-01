@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email notification for approval requested</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>CPQ Quote Approval Required</name>
+    <style>none</style>
+    <subject>Quote Approval Notification for {!Opportunity.Account} Quote #{!Opportunity.Quote_Number__c}</subject>
+    <textOnly>Hello,
+
+The following quote needs approval:
+
+Product Family: {!Opportunity.Product_Family_WMP__c}
+
+Proposal #: {!Opportunity.Quote_Number__c}
+Opportunity: {!Opportunity.Name}
+Account: {!Opportunity.Account}
+Primary Contact: {!Opportunity.Contact__c}
+New or Existing Business? {!Opportunity.Deal_Type__c}
+
+Total Quote Price w/tax: {!Opportunity.Quote_Total__c}
+
+Total Discount: {!Opportunity.Discount__c} %
+Gross Margin: {!Opportunity.Gross_Margin__c} %
+
+ADDITIONAL NOTES:  {!Opportunity.INTERNAL_Note_to_Approvers__c}
+
+Please approve it by clicking on the approval link below:
+{!ApprovalRequest.Internal_URL}
+
+Thank you,
+{!Opportunity.OwnerFullName}
+
+
+To review the quote detail, click here: {!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

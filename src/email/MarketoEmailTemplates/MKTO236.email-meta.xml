@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-MI061_June5-6_2012.Reminder</name>
+    <style>none</style>
+    <subject>REMINDER: REGISTRATION DEADLINE MAY 4 - Sweet Software Group Training in Houghton Lake, MI on June 5-6, 2012</subject>
+    <textOnly>REMINDER - REGISTRATION DEADLINE: MAY 4TH
+
+Houghton Lake, MI |  June 5-6, 2012
+Sweet Software Group Training in Your Area
+ 
+One of the best ways to improve your knowledge and skills of your Sweet Billing Software is through hands-on group training. Regular training not only helps your billers learn how to use the software more effectively and efficiently, but often also helps your service become more profitable. 
+
+DATE: June 5-6, 2012 (2  full days of training)
+HOSTS: Houghton Lake Ambulance (Houghton Lake, MI)
+COSTS: $500
+
+REGISTER:
+http://offers.tritech.com/SGTMI061_June5-6_2012_Registration.html
+
+
+This course has been approved  by the National Academy of Ambulance Coding (NAAC™) for 11.0 continuing  education units
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

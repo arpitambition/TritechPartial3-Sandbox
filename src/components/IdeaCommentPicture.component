@@ -1,0 +1,4 @@
+<apex:component controller="IdeaCommentPictureController" allowDml="true">
+    <apex:attribute name="commentCreatorId" type="String" required="true" assignTo="{!userId}" description="userId"/>
+	<apex:image id="theCommentImage" value="{!commentCreatorPicture}" width="50" height="50"/>
+</apex:component>

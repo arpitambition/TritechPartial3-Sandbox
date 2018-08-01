@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA-2012-12.Email</name>
+    <style>none</style>
+    <subject>Client Announcement - Montana IBR Changes</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Client Announcement
+November 27, 2012
+Download PDF version of this email here. &lt;http://offers.tritech.com/rs/ortivusna/images/Montana-IBR-Changes.pdf&gt;
+Dear {{lead.First Name:default=Customer}},
+
+As you may already know, the State of Montana is enhancing the MT UCR/IBR program beginning January 1st, 2013.
+
+To report your Crime Data correctly, please follow these guidelines:
+
+
+ - The software currently installed on your system will report MT Crime Data in the format expected by the State for December 2012 and earlier.
+ - You must generate your monthly IBR data with the software currently installed on your system through December 2012.
+ - After you have generated all of the Crime Data through December 2012, you will be ready to install the new Version 6.1 of Perform (formerly “IMC”) software.
+
+Perform Version 6.1
+Version 6.1 of the Perform software will be available for download or be mailed to your agency (based on your preference), in early February 2013. Once you install Version 6.1, you will be able to generate your monthly IBR data for January 2013 and beyond.
+
+If you have any questions or need additional information, please feel free to contact Technical Support at 800-788-0015.
+ 
+ Sincerely,
+ 
+ Ellen Manning
+ Technical Support Supervisor – Perform (IMC)
+ TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

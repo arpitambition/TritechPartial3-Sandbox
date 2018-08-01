@@ -1,0 +1,27 @@
+<font face = Calibri><font size = 3>The following pricing request has been assigned to you:  <BR><BR>
+
+Account Name:  {!Pricing_Request_Form__c.Account__c}<BR><BR>
+
+PRF #:  {!Pricing_Request_Form__c.Name}<BR><BR>
+
+Requestor: {!Pricing_Request_Form__c.OwnerFullName}<BR><BR>
+
+Date of Request:  {!Pricing_Request_Form__c.Date_of_Request__c}<BR><BR>
+
+Needed By Date:  {!Pricing_Request_Form__c.Needed_by_Date__c}<BR><BR>
+
+Large Quote (Projected Value >$250K): {!Pricing_Request_Form__c.Large_Quote_Projected_Value_250K__c}<BR><BR>
+
+Rapid Implementation?: {!Pricing_Request_Form__c.Rapid_Implementation__c}<BR><BR>
+
+
+<I>You can review the Pricing Request here:
+{!Pricing_Request_Form__c.Link}</I><BR><BR>
+
+
+Thanks,<BR><BR>
+
+<B><font color=034EA2>{!User.FirstName} {!User.LastName}</B><BR>
+{!User.Title}<BR>
+TriTech Software Systems | www.tritech.com<BR></font></I>
+Phone: {!User.Phone}</font></font>

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UserGroups_2012.Reminder-Norwood-MA_April-26</name>
+    <style>none</style>
+    <subject>REMINDER: User Group Meeting | Norwood, MA on April 26</subject>
+    <textOnly>Thursday - April 26, 2012 | Norwood PD | Norwood, MA
+
+REMINDER: 2012 User Group Meeting
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+Just sending a reminder about the follow User Group Meeting that you are registered for:
+ 
+
+Name: {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}
+Attendee #2: {{lead.Contact 1:default=edit me}}
+Attendee #3: {{lead.Contact 2:default=edit me}}
+Attendee #4: {{lead.Contact 3:default=edit me}}
+Attendee #5: {{lead.Contact 4:default=edit me}}
+Service Name: {{company.Company Name:default=edit me}}
+
+Registered for: Norwood, MA User Group
+Date: Thursday, April 26, 2012
+Time: 9:00 AM to Noon
+Address: Norwood PD, 137 Nahatan St,Norwood MA 02062 (click here for map)
+Available Seats: 35 Total
+
+We look forward to seeing you soon!
+
+REMINDER!!
+Your User Group Meeting is almost here. Please review the information and let us know if there is anything we can do to make this user group more valuable or covenient for you.
+Cheri Lane
+Marketing Communications Manager
+cheri.lane@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

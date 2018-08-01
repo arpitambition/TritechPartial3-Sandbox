@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConference_WelcomeReception</name>
+    <style>none</style>
+    <subject>RSVP for the Welcome Reception and a Chance to Win $100 Gift Card</subject>
+    <textOnly>RSVP - TriCON Welcome Reception
+Tuesday, September 13  l  Boston, Massachusetts
+
+Nothing is more welcoming than a friendly face and the opportunity to relax on a comfortable couch-- while enjoying a hosted beverage (or two). Come meet friends, old and new at the first networking event of TriCON--sponsored by PCS Mobile and digiTICKET.  
+
+What:  Welcome Reception
+
+When:  Tuesday, September 13 
+
+5 PM - 7 PM for beverages and light snacks 
+8:30 PM - 11 PM for after-dinner beverages
+
+Where:  Presidential Suite of Boston Park Plaza on the 15th floor, widely considered to be the most elegant and lavish suite in the entire Northeast
+
+How:  Please register in advance to ensure access to this exclusive event since the 15th Floor is not openly accessible to hotel guests.  
+
+For details and more information, visit: http://www.pcsmobile.com/Tricon2011/WelcomeReception.aspx
+
+Win $100 Visa Gift Card 
+ 
+Stop by the Welcome Reception to receive a key.
+  
+Bring it to Booth #22 during TriCON Exhibit Hall hours to see if you key will open the &quot;Key to Mobility&quot; Treasure Chest to win a $100 Visa Gift Card.
+  
+ 
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

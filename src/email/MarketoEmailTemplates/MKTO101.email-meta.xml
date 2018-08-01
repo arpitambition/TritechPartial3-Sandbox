@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sweet Billing Version 5.8 Preview.Attended</name>
+    <style>none</style>
+    <subject>Webinar Recording: Sweet Billing Version 5.8 Preview</subject>
+    <textOnly>October 21, 2011   
+Webinar Recording: Sweet Billing Version 5.8 Preview
+ 
+Please check out the following information about the Sweet Billing Version 5.8 release, coming soon:
+
+Webinar Recording Link: http://tritech.ilinc.com/join/jmzmzpz
+
+Version 5.8 Release Document:  http://www.tritechems.com/documents/EMS_Billing_5-8Features_102011.pdf
+
+Check out other educational webinars here: http://www.tritechems.com/TriTech-University/Webinars.asp
+
+Listen to EMS1.com Speak with Charlie Barry, TriTech Product Manager, About the Future of Online EMS Software: 
+(copy and paste into a browser window) http://www.youtube.com/watch?v=-CdXqYEvP00
+
+
+The TriTech Software Systems Team
+www.tritech.com 
+Phone: 800-537-3927
+Sales@TriTech.com
+
+
+ 
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

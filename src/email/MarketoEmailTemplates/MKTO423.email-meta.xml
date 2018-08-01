@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fall-Training-Event.NextWeek</name>
+    <style>none</style>
+    <subject>We’re looking forward to seeing you at TriTech’s Perform Training Summit NEXT WEEK</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Fall 2012 Training Summit
+We look forward to seeing you next week!
+We look forward to seeing you next week at the Perform Training Institute – Fall 2012 Training Summit.
+
+We are excited to announce that the event sold out much sooner than we originally anticipated with approximately 180 attendees from over 90 agencies 
+registered for this event. Below are some important things to note:
+
+Monday
+ - Registration will start at 8:00 am
+ - Breakfast will be available from 8:00 am -10:00 am
+ - Sessions begin at 9:00 am
+ - Lunch will be served from 12:00 - 1:15 pm
+ - Customer Appreciation Reception will be held from 5:00 - 7:00 pm
+
+
+Tuesday
+ - Breakfast will be available from 8:00 am -10:00 am
+ - Sessions begin at 9:00 am
+ - Lunch will be served from 12:00 - 1:15 pm
+ - An afternoon snack will be available from 2:30-4:30 pm
+
+
+You can download the finalized agenda for this event here &lt;http://offers.tritech.com/rs/ortivusna/images/PTI_2012Program_100412.pdf&gt;. 
+
+We are confident that these two days of training will meet your needs. I would like to draw special attention to the 5:00 pm slot on Monday evening. We would like to invite all attendees to a customer appreciation reception from 5:00 - 7:00 pm. This is a small token of our appreciation, thanking you for your support of TriTech Software Systems and our training initiatives. Please join us for a relaxed evening of refreshments and networking with fellow clients and TriTech staff.
+
+As the event draws near, there are likely questions that you or other department members may have. Please feel free to contact me directly with any questions or comments you may have.
+
+We look forward to seeing you.
+
+David Bourbonniere
+Project Management and Training Supervisor
+TriTech Software Systems | www.tritech.com
+Direct: (774) 551-9181 | Mobile: 
+(508) 425-0031
+Training Details
+Dates:  October 22 - 23, 2012
+Time:   8:00 am - 5:00 pm
+Download Program &lt;http://offers.tritech.com/rs/ortivusna/images/PTI_2012Program_100412.pdf&gt;
+
+Location:
+ Doubletree by Hilton Hotel
+ 5400 Computer Drive
+ Westborough, MA 01581
+ Click here for map. &lt;http://goo.gl/maps/HvhXa&gt;
+
+Questions:
+ David Bourbonniere
+ (774) 551-9181
+ david.bourbonniere@tritech.com &lt;mail%20to:%20david.bourbonniere@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

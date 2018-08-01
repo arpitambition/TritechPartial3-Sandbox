@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Send this email to a customer after their Defect has been closed.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>IMC Defect Email to Customer</name>
+    <style>none</style>
+    <subject>Your Submitted Defect {!Case.Defect_Number__c} has been Fixed.</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

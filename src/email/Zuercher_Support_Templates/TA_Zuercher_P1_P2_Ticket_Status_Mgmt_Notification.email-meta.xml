@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal notifications for P1/P2 tickets</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Zuercher_Letterhead</letterhead>
+    <name>TA - Zuercher P1/P2 Ticket Status Mgmt Notification</name>
+    <style>freeForm</style>
+    <subject>{!Case.Account } - {!Case.CaseNumber} - P1/P2 Ticket {!Case.Status}</subject>
+    <textOnly>This is an internal update notification from Zuercher Technologies.
+
+
+Ticket #:
+{!Case.CaseNumber}
+
+Subject:
+{!Case.Subject}
+
+Issue Details:
+{!Case.Description}
+
+Current Owner:
+{!Case.OwnerFullName}
+
+Product:
+{!Case.Product}
+
+Status:
+{!Case.Status}
+
+Priority:
+{!Case.Priority}
+
+Resolution Notes:
+{!Case.Z_Public_Resolution_Notes__c}
+
+
+To review this ticket, please click the link: {!Case.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

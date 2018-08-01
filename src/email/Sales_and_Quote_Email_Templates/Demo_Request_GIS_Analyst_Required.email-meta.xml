@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Demo Request - GIS Analyst Required</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Demo Request - GIS Analyst Required</name>
+    <style>freeForm</style>
+    <subject>GIS Analyst Required for Demo Request: {!Demo_Request__c.Name}</subject>
+    <textOnly>GIS Analyst Required for Demo Request
+
+
+Demo Request Date
+{!Demo_Request__c.CreatedDate}
+
+Demo Request Number
+{!Demo_Request__c.Name}
+
+Demo Type
+{!Demo_Request__c.Demo_Type__c}
+
+Opportunity
+{!Demo_Request__c.Opportunity__c}
+
+Client/Organization Name
+{!Demo_Request__c.Client_Organization_Name__c}
+
+TriTech Requestor
+{!Demo_Request__c.TriTech_Requestor__c}
+
+
+You can access the Demo Request here: {!Demo_Request__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

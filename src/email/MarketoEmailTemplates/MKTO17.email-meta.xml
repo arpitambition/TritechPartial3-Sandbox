@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_July 26_Pinnacle_Miami_EmailInvite</name>
+    <style>none</style>
+    <subject>Stop by and see us next week at Pinnacle 2011 in Miami Beach</subject>
+    <textOnly>Pinnacle 2011
+July 26-28, 2011  l  Miami Beach, FL
+TriTech is proud to be a Pinnacle 2011 Platinum Sponsor!
+
+
+Stop by and see us next week (July 26-28) at the Pinnacle 2011 Conference and visit with TriTech National Sales Director, Karla Hageman and Larry Cole, the new TriTech Regional Sales Manager, along with other TriTech Management, including Terri Jirak-Barry, Director of Operations for the EMS Solutions Division, Charlie Barry, Product Manager and Cheri Lane, Marketing Communications Manager.
+
+If you would like to pre-schedule a demonstration of our Billing, CAD and/or ePCR solutions, please call or email TriTech today! Check out our new ONLINE SOLUTIONS: http://www.tritechems.com/Products/online.asp
+
+CONTACT US!
+Sales@TriTech.com
+(800) 537-3927
+
+Please enjoy a preview of one of the Monday Power Seminars on Implementing Fire Service EMS with Mike Ragone, Consultant with Fitch and Associates. Copy and paste into your browser window: http://tritech.ilinc.com/perl/ilinc/lms/vc_launch.pl?activity_id=jjrfcbp&amp;user_id=
+
+Note, In our efforts to provide a balanced message, there is also a session being offered at Pinnacle on July 26 called “Fireproofing Your Market” which speaks from the perspective of those organizations providing EMS services in the areas where the fire departments decide to provide those services as well. The goal in these two sessions is not to tell each side they are right or wrong, but provide tools and hopefully some rules of engagement.
+
+
+TriTech is proud to be a Pinnacle Platinum Sponsor!
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

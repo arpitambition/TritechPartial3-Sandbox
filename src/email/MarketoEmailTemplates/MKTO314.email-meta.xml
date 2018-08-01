@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Version5 Training.Last Minute Notes - Dallas</name>
+    <style>none</style>
+    <subject>TriTech Training - Last minute notes and helpful hints</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+VisiCAD 5.2 Training
+Complimentary regional training - Tomorrow
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ Just a few notes about tomorrow&apos;s training.
+
+Start Time:  9 AM
+
+Room Location: The meeting room is L1FN - which is lower level, on the west side of the City Hall (near the flag side of City Hall)
+
+Parking: There is no free parking.  There are meters on the south side of City Hall or cash only parking lots on the south side of City Hall. 
+
+Address:  1500 Marilla St.; Dallas, TX  75201
+Click here to view map &lt;http://g.co/maps/8q3cu&gt;
+
+Looking forward to seeing you!
+
+Question?
+ Gladys Ferguson, Training Supervisor
+ TriTech Software Systems
+ (858) 799-7383
+ gladys.ferguson@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

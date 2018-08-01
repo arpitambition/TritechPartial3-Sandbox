@@ -1,0 +1,1072 @@
+<apex:page controller="FeatureRequestController">
+
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+    
+
+    <!-- prototype.js/effects.js/vote.js/base.js -->
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-1.10.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-migrate-1.2.1.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/modernizr-2.6.2.min.js')}" />
+<style>
+#yet_another {border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px;}
+#yet_another {-webkit-border-top-left-radius:10px 10px; -webkit-border-top-right-radius:10px 10px; -webkit-border-bottom-right-radius:10px 10px; -webkit-border-bottom-left-radius:10px 10px;}#up_another {border-radius:10px 10px 0px 0px; -moz-border-radius:10px 10px 0px 0px;}#up_another {-webkit-border-top-left-radius:10px 10px; -webkit-border-top-right-radius:10px 10px; -webkit-border-bottom-right-radius:0px 0px; -webkit-border-bottom-left-radius:0px 0px;}#capsule_round {border-radius:10000px 10000px 10000px 10000px; -moz-border-radius:10000px 10000px 10000px 10000px;}#capsule_round {-webkit-border-top-left-radius:10000px 10000px; -webkit-border-top-right-radius:10000px 10000px; -webkit-border-bottom-right-radius:10000px 10000px; -webkit-border-bottom-left-radius:10000px 10000px;}#totally_round {border-radius:10000px 10000px 10000px 10000px; -moz-border-radius:10000px 10000px 10000px 10000px;}#totally_round {-webkit-border-top-left-radius:10000px 10000px; -webkit-border-top-right-radius:10000px 10000px; -webkit-border-bottom-right-radius:10000px 10000px; -webkit-border-bottom-left-radius:10000px 10000px;}
+</style>
+ 
+<style>
+#yet_another{
+    border:1px solid #5576A1;
+    background-color:#FFFFFF;
+    padding:10px;
+ 
+} 
+
+    table.tblcls { width: 100%; font-size: 12px; margin: 0 0 15px 0; }
+    table.tblcls tr { border-bottom: 1px solid #acacac; }
+    table.tblcls th { font-weight: bold; }
+    table.tblcls th, table.tblcls td { text-align: left; padding: 5px; }
+</style>
+
+
+
+    <style>
+     
+        table.tblList { 
+            border-width: 1px;
+            border-spacing: ;
+            border-style: inset;
+            border-color: white;
+            border-collapse: collapse;
+            background-color: white;
+        } 
+        table.tblList th {
+            border-width: 1px;
+            padding: 4px;
+            border-style: inset;
+            border-color: gray;
+            background-color: white;
+            -moz-border-radius: ;
+        }
+        table.tblList td {
+            border-width: 1px;
+            padding: 4px;
+            border-style: inset;
+            border-color: gray;
+            background-color: white;
+            -moz-border-radius: ;
+        }
+        
+        .photoUpload {
+            float:right;
+            color: #1865A3;
+            text-decoration: none;
+        }
+        
+        .photoUploadHover {
+            color: #CCCCCC;
+            text-decoration: underline;
+            cursor: pointer;
+            
+        }
+        
+        p.home-intro {
+            margin-bottom: 120px;
+            margin-left: 175px;
+            margin-top: -135px;
+        }
+    </style>
+
+    <apex:remoteObjects >
+        <apex:remoteObjectModel name="Case" jsShorthand="FeatureRequest" fields="Id,CaseNumber,Subject,Status,CreatedDate,CreatedById,Request_Priority__c,Z_Issue_Type__c,isClosed__c">
+        </apex:remoteObjectModel>
+        <apex:remoteObjectModel name="User" fields="Id,Name">
+        </apex:remoteObjectModel>
+    </apex:remoteObjects>
+    
+    
+    <div ng-app="fr" ng-controller="FeatureReqCtrl" >
+<!--    <apex:form> -->
+    <table  class="tblcls">
+         <thead>
+            <tr>
+                <th colspan="6" class="borderbox-header">Feature Requests - Use this page to reorder pending Feature Requests</th>
+            </tr>
+            <tr>
+                <th colspan="6"><button ng-click="updateFeatureReqs()" styleClass="btn btn-success btn-mini">Save Feature Request Order</button></th>
+            </tr>
+            <tr>
+                <th colspan="6" class="borderbox-header">Sorted Feature Requests</th>
+            </tr>
+            <tr>
+                <td>Sort Order</td>
+                <td>Date</td>
+                <td>Request #</td>
+                <td>Title</td>
+                <td>Disposition</td>
+                <td>Reported By</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="frs in featureReqsSorted" ng-drop="true" ng-drop-success="onDropSortedComplete($index,$data,$event,$list)">
+                <td ng-drag="true" ng-drag-data="frs" value="{{frs}}">{{frs.requestPriority}}</td>      
+                <td ng-drag="true" ng-drag-data="frs" value="{{frs}}">{{frs.createdDate | date : shortDate : timezone}}</td>
+                <td value="{{frs}}"><a href="/{{frs.id}}">{{frs.caseNumber}}</a></td>
+                <td ng-drag="true" ng-drag-data="frs" value="{{frs}}">{{frs.subject}}</td>
+                <td ng-drag="true" ng-drag-data="frs" value="{{frs}}">{{frs.status}}</td>
+                <td ng-drag="true" ng-drag-data="frs" value="{{frs}}">{{frs.contactId}}</td>                
+            </tr>
+        </tbody> 
+        <thead>
+            <tr/>
+            <tr>
+                <td colspan="6" class="borderbox-header">Unsorted Feature Requests</td>
+            </tr>
+            <tr>
+                <td></td>
+                <td>Date</td>
+                <td>Request #</td>
+                <td>Title</td>
+                <td>Disposition</td>
+                <td>Reported By</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr ng-repeat="fru in featureReqsUnsorted" ng-drop="true" ng-drop-success="onDropUnsortedComplete($index,$data,$event,$list)">
+                <td ng-drag="true" ng-drag-data="fru" value="{{fru}}"></td>     
+                <td ng-drag="true" ng-drag-data="fru" value="{{frs}}">{{fru.createdDate | date : shortDate : timezone}}</td>
+                <td value="{{fru}}"><a href="/{{fru.id}}">{{fru.caseNumber}}</a></td>
+                <td ng-drag="true" ng-drag-data="fru" value="{{fru}}">{{fru.subject}}</td>
+                <td ng-drag="true" ng-drag-data="fru" value="{{fru}}">{{fru.status}}</td>
+                <td ng-drag="true" ng-drag-data="fru" value="{{fru}}">{{fru.contactId}}</td>                
+            </tr>
+        </tbody>
+    </table>
+<!--    </apex:form> -->
+    </div>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.7/angular.min.js"></script>
+    <!-- <script src="FeatureRequest.js"></script> -->
+    <script>
+    
+     function fncLoad(){
+
+  
+	  document.getElementById('d-wt-FeatureRequests').style.display = '{!TabPermission.FeatureRequest}';
+	  document.getElementById('d-wt-RoundTable').style.display = '{!TabPermission.RoundTable}';
+	  document.getElementById('d-wt-MyPerform').style.display = '{!TabPermission.MyPerform}';
+	  document.getElementById('d-wt-RespondEMS').style.display = '{!TabPermission.RespondEMS}';
+	  document.getElementById('d-Contact-Tab').style.display = '{!TabPermission.Contact_c}';
+	  document.getElementById('d-Report-Tab').style.display = '{!TabPermission.Report_c}';
+	
+	 }
+	 
+	 window.onload = fncLoad;
+	 
+        var app = angular.module("fr", ['ngDraggable']); 
+        
+        app.controller("FeatureReqCtrl",["$scope",function($scope){
+        
+        var getFeatureReqs = function(){
+            
+            var featureReqsSorted = [];
+            var featureReqsUnsorted = [];
+            var fr = new SObjectModel.FeatureRequest;
+            fr.retrieve(
+            { where: {
+                Z_Issue_Type__c: {eq: 'Feature'},
+                isClosed__c: {eq: 'False'}
+                },
+            orderby: [ {Request_Priority__c: 'ASC'} ],
+            limit: 200 }, function(err, records, event){
+                if(err){
+                    console.log(err);
+                    alert(err.message);
+                }
+                else{
+                
+                    records.forEach(function(record){
+                        var frRecord = new Object();
+                        frRecord.id = record.get("Id");
+                        frRecord.caseNumber = record.get("CaseNumber");
+                        frRecord.subject = record.get("Subject");
+                        frRecord.status = record.get("Status");
+                        frRecord.createdDate = record.get("CreatedDate");
+                        frRecord.contactId = getUserName(record.get("CreatedById"));
+                        frRecord.requestPriority = record.get("Request_Priority__c");
+                        frRecord.isClosed = record.get("isClosed__c");
+                        
+                        if(record.get("Request_Priority__c")>0){
+                            frRecord.list = 'Sorted';
+                            featureReqsSorted.push(frRecord);
+                        }
+                        else{
+                            
+                            frRecord.list = 'Unsorted';
+                            featureReqsUnsorted.push(frRecord);
+                        }
+                    });
+                    
+                    if(featureReqsSorted.length == 0){
+                        var frRecord = new Object();
+                        frRecord.Subject = '[              ]';
+                        featureReqsSorted.push(frRecord);
+                    }
+                    if(featureReqsUnsorted.length == 0){
+                        var frRecord = new Object();
+                        frRecord.Subject = '[              ]';
+                        featureReqsUnsorted.push(frRecord);
+                    }
+                    
+                    $scope.featureReqsSorted = featureReqsSorted;
+                    $scope.featureReqsUnsorted = featureReqsUnsorted;
+                    $scope.$apply();                
+                }                
+            });
+        }
+        
+        var getUsers = function(){
+            
+            var users = [];
+            var u = new SObjectModel.User();
+            u.retrieve({},function(err, records, event){
+                if(err){
+                    console.log(err);
+                    alert(err.message);
+                }
+                else{
+                    //var icount = 0;
+                    records.forEach(function(record){
+                        var userRecord = new Object();
+                        userRecord.id = record.get("Id");
+                        userRecord.name = record.get("Name");
+                        //users [icount] = u;
+                        //icount++;
+                        users.push(userRecord);
+                    });
+                    //$scope.users = users;
+                    //$scope.$apply();
+                    return users;
+                }
+            });
+        }
+        
+        getUserName = function(id){
+            
+            //var a; //= $scope.users.id.find(Id).name;
+            //getUsers.forEach(function(user){
+            //  if(user.id == Id){
+            //      return id; //user.name;
+            //  }
+            //});
+            return 'Coming Soon'; //$scope.users.length;//$scope.users.name[a];
+        }
+        
+        $scope.onDropSortedComplete = function (index, obj, evt, list) {
+            if(obj.list == 'Unsorted'){
+                obj.list = 'Sorted';
+                var a = $scope.featureReqsUnsorted.indexOf(obj);
+                var objMove = $scope.featureReqsSorted[index];
+                var arr = $scope.featureReqsUnsorted.splice(a,1);
+                $scope.featureReqsSorted.splice(index,0,arr[0]);
+                arr = null;
+            } else {
+                var a = $scope.featureReqsSorted.indexOf(obj);
+                var objMove = $scope.featureReqsSorted[index];
+                var arr = $scope.featureReqsSorted.splice(a,1);
+                $scope.featureReqsSorted.splice(index,0,arr[0]);
+                arr = null;
+                }
+            for(i=0; i<$scope.featureReqsSorted.length; i++){
+                $scope.featureReqsSorted[i].requestPriority = i+1;
+            }
+        }
+        
+        $scope.onDropUnsortedComplete = function (index, obj, evt, list) {
+        //window.alert("dropped record: "+obj.subject);
+            //obj.requestPriority = 0;
+            if(obj.list == 'Sorted'){
+            //alert('2nd message - dropped record: '+obj.subject);
+                obj.requestPriority = 0;
+                obj.list = 'Unsorted';
+                var a = $scope.featureReqsSorted.indexOf(obj);
+                var objMove = $scope.featureReqsUnsorted[index];
+                var arr = $scope.featureReqsSorted.splice(a,1);
+                $scope.featureReqsUnsorted.splice(index,0,arr[0]);
+                arr = null;
+            } else {
+                var a = $scope.featureReqsUnsorted.indexOf(obj);
+                var objMove = $scope.featureReqsUnsorted[index];
+                var arr = $scope.featureReqsUnsorted.splice(a,1);
+                $scope.featureReqsUnsorted.splice(index,0,arr[0]);
+                arr = null;
+                }
+            for(i=0; i<$scope.featureReqsSorted.length; i++){
+            //alert('Unsorted reorder of sorted list || Index: '+i+' Subject: '+$scope.featureReqsSorted[i].subject)
+                $scope.featureReqsSorted[i].requestPriority = i+1;
+            }
+         }
+         
+         $scope.updateFeatureReqs = function(){
+
+            var featureReqs = $scope.featureReqsUnsorted.concat($scope.featureReqsSorted);
+            //var featureRequest = new SObjectModel.Case();
+            
+            //featureReqs.forEach(function(obj, index, updateCallback){
+            //  window.alert('List: '+obj.list+' Id: '+obj.id+' Order: '+obj.requestPriority+' Index: '+index);
+            //  featureRequest = new SObjectModel.FeatureRequest;
+            //  featureRequest.Id = obj.id;
+            //  featureRequest.Request_Priority__c = obj.requestPriority;
+                
+            //  featureRequest.update();
+//              featureRequest = null;
+            //});
+            //for(i = 0; i < featureReqs.length; i++){
+            featureReqs.forEach(function(obj, index){
+                //window.alert('List: '+featureReqs[i].list+' Id: '+featureReqs[i].id+' Order: '+featureReqs[i].requestPriority+' Index: '+i);
+                featureRequest = new SObjectModel.FeatureRequest();
+                featureRequest.set('Id', obj.id);
+                featureRequest.set('Request_Priority__c', obj.requestPriority); //featureReqs[i].list == 'Sorted' ? featureReqs[i] + 1 : 0);
+                //alert('List: '+obj.list+' Index: '+index+' Request Priority: '+obj.requestPriority+' Subject: '+obj.subject);
+                featureRequest.update(function(error, result, event){
+                    // Errors?
+                    if(error!=null){
+                        alert(error); 
+                    } else {
+                    //var i = featureReqs.length - index;
+                    //alert('success || index: '+index+' Calc: '+featureReqs.length + index);
+                    //alert('featureReqs.length - index || i: '+i);
+                        if(featureReqs.length - index == 1){
+                            window.location.reload();
+                        }
+                    }    
+                });
+                //alert('check point 2');
+                //return;
+            });
+            //window.location.refresh();            
+            
+         }
+         
+
+function getAllContacts() {
+    $j.mobile.showPageLoadingMsg();
+    var c = new RemoteObjectModel.Contact();
+    c.retrieve({ limit: 100 }, function (err, records) {
+        // Handle errors
+        if (err) {
+            displayError(err);
+        } else {
+            // Add the results to the page
+            var list = $j(Config.Selectors.list).empty();
+            $j.each(records, function() {
+                var newLink = $j('<a>'+this.get('FirstName')+' '+this.get('LastName')+'</a>');
+                newLink.appendTo(list).wrap('<li></li>');
+            });
+
+            $j.mobile.hidePageLoadingMsg();
+            list.listview('refresh');
+        }
+    });
+}
+         
+         
+        
+        var init = function(){
+            //getUsers();
+            getFeatureReqs();
+        //  $scope.userNames = function(){
+        //      var users = [];
+        //      var u = new remoteObjectModel.User();
+                //u.retrieve({limit:2000},function(err, records, event){
+                //  if(err){
+                //      console.log(err);
+                //      alert(err.message);
+                //  }
+                //  else{
+                //      var icount = 0;
+                //      records.ForEach(function(record){
+                //      var userRecord;
+                //      userRecord.id = record.get("Id");
+                //      userRecord.name = record.get("Name");
+                //      userRecord.icount = icount;
+                //      users [icount] = userRecord;
+                //      icount++;
+                //  });
+                //  $scope.users = users;
+                //  $scope.$apply();
+                    
+                //}
+            //};
+        //  }
+        }
+        
+        init();
+
+    }]);
+    
+    app.controller("UserCtrl",["$scope",function($scope){
+        var init = function(){
+        }
+        
+        init();
+        
+    }]);
+            
+    </script>
+<!-- <script src="FeatureRequest.js"></script> -->
+
+<!-- <script src="ngDraggable.js"></script> -->
+    <script>
+        angular.module("ngDraggable", [])
+    .service('ngDraggable', [function() {
+
+
+        var scope = this;
+        scope.inputEvent = function(event) {
+            if (angular.isDefined(event.touches)) {
+                return event.touches[0];
+            }
+            //Checking both is not redundent. If only check if touches isDefined, angularjs isDefnied will return error and stop the remaining scripty if event.originalEvent is not defined.
+            else if (angular.isDefined(event.originalEvent) && angular.isDefined(event.originalEvent.touches)) {
+                return event.originalEvent.touches[0];
+            }
+            return event;
+        };
+
+    }])
+    .directive('ngDrag', ['$rootScope', '$parse', '$document', '$window', 'ngDraggable', function ($rootScope, $parse, $document, $window, ngDraggable) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                scope.value = attrs.ngDrag;
+                var offset,_centerAnchor=false,_mx,_my,_tx,_ty,_mrx,_mry;
+                var _hasTouch = ('ontouchstart' in window) || window.DocumentTouch && document instanceof DocumentTouch;
+                var _pressEvents = 'touchstart mousedown';
+                var _moveEvents = 'touchmove mousemove';
+                var _releaseEvents = 'touchend mouseup';
+                var _dragHandle;
+
+                // to identify the element in order to prevent getting superflous events when a single element has both drag and drop directives on it.
+                var _myid = scope.$id;
+                var _data = null;
+
+                var _dragOffset = null;
+
+                var _dragEnabled = false;
+
+                var _pressTimer = null;
+
+                var onDragStartCallback = $parse(attrs.ngDragStart) || null;
+                var onDragStopCallback = $parse(attrs.ngDragStop) || null;
+                var onDragSuccessCallback = $parse(attrs.ngDragSuccess) || null;
+                var allowTransform = angular.isDefined(attrs.allowTransform) ? scope.$eval(attrs.allowTransform) : true;
+
+                var getDragData = $parse(attrs.ngDragData);
+
+                // deregistration function for mouse move events in $rootScope triggered by jqLite trigger handler
+                var _deregisterRootMoveListener = angular.noop;
+
+                var initialize = function () {
+                    element.attr('draggable', 'false'); // prevent native drag
+                    // check to see if drag handle(s) was specified
+                    // if querySelectorAll is available, we use this instead of find
+                    // as JQLite find is limited to tagnames
+                    if (element[0].querySelectorAll) {
+                        var dragHandles = angular.element(element[0].querySelectorAll('[ng-drag-handle]'));
+                    } else {
+                        var dragHandles = element.find('[ng-drag-handle]');
+                    }
+                    if (dragHandles.length) {
+                        _dragHandle = dragHandles;
+                    }
+                    toggleListeners(true);
+                };
+
+                var toggleListeners = function (enable) {
+                    if (!enable)return;
+                    // add listeners.
+
+                    scope.$on('$destroy', onDestroy);
+                    scope.$watch(attrs.ngDrag, onEnableChange);
+                    scope.$watch(attrs.ngCenterAnchor, onCenterAnchor);
+                    // wire up touch events
+                    if (_dragHandle) {
+                        // handle(s) specified, use those to initiate drag
+                        _dragHandle.on(_pressEvents, onpress);
+                    } else {
+                        // no handle(s) specified, use the element as the handle
+                        element.on(_pressEvents, onpress);
+                    }
+                    if(! _hasTouch && element[0].nodeName.toLowerCase() == "img"){
+                        element.on('mousedown', function(){ return false;}); // prevent native drag for images
+                    }
+                };
+                var onDestroy = function (enable) {
+                    toggleListeners(false);
+                };
+                var onEnableChange = function (newVal, oldVal) {
+                    _dragEnabled = (newVal);
+                };
+                var onCenterAnchor = function (newVal, oldVal) {
+                    if(angular.isDefined(newVal))
+                        _centerAnchor = (newVal || 'true');
+                };
+
+                var isClickableElement = function (evt) {
+                    return (
+                        angular.isDefined(angular.element(evt.target).attr("ng-cancel-drag"))
+                    );
+                };
+                /*
+                 * When the element is clicked start the drag behaviour
+                 * On touch devices as a small delay so as not to prevent native window scrolling
+                 */
+                var onpress = function(evt) {
+                    if(! _dragEnabled)return;
+
+                    if (isClickableElement(evt)) {
+                        return;
+                    }
+
+                    if (evt.type == "mousedown" && evt.button != 0) {
+                        // Do not start dragging on right-click
+                        return;
+                    }
+
+                    if(_hasTouch){
+                        cancelPress();
+                        _pressTimer = setTimeout(function(){
+                            cancelPress();
+                            onlongpress(evt);
+                        },100);
+                        $document.on(_moveEvents, cancelPress);
+                        $document.on(_releaseEvents, cancelPress);
+                    }else{
+                        onlongpress(evt);
+                    }
+
+                };
+
+                var cancelPress = function() {
+                    clearTimeout(_pressTimer);
+                    $document.off(_moveEvents, cancelPress);
+                    $document.off(_releaseEvents, cancelPress);
+                };
+
+                var onlongpress = function(evt) {
+                    if(! _dragEnabled)return;
+                    evt.preventDefault();
+
+                    offset = element[0].getBoundingClientRect();
+                    if(allowTransform)
+                        _dragOffset = offset;
+                    else{
+                        _dragOffset = {left:document.body.scrollLeft, top:document.body.scrollTop};
+                    }
+
+
+                    element.centerX = element[0].offsetWidth / 2;
+                    element.centerY = element[0].offsetHeight / 2;
+
+                    _mx = ngDraggable.inputEvent(evt).pageX;//ngDraggable.getEventProp(evt, 'pageX');
+                    _my = ngDraggable.inputEvent(evt).pageY;//ngDraggable.getEventProp(evt, 'pageY');
+                    _mrx = _mx - offset.left;
+                    _mry = _my - offset.top;
+                    if (_centerAnchor) {
+                        _tx = _mx - element.centerX - $window.pageXOffset;
+                        _ty = _my - element.centerY - $window.pageYOffset;
+                    } else {
+                        _tx = _mx - _mrx - $window.pageXOffset;
+                        _ty = _my - _mry - $window.pageYOffset;
+                    }
+
+                    $document.on(_moveEvents, onmove);
+                    $document.on(_releaseEvents, onrelease);
+                    // This event is used to receive manually triggered mouse move events
+                    // jqLite unfortunately only supports triggerHandler(...)
+                    // See http://api.jquery.com/triggerHandler/
+                    // _deregisterRootMoveListener = $rootScope.$on('draggable:_triggerHandlerMove', onmove);
+                    _deregisterRootMoveListener = $rootScope.$on('draggable:_triggerHandlerMove', function(event, origEvent) {
+                        onmove(origEvent);
+                    });
+                };
+
+                var onmove = function (evt) {
+                    if (!_dragEnabled)return;
+                    evt.preventDefault();
+
+                    if (!element.hasClass('dragging')) {
+                        _data = getDragData(scope);
+                        element.addClass('dragging');
+                        $rootScope.$broadcast('draggable:start', {x:_mx, y:_my, tx:_tx, ty:_ty, event:evt, element:element, data:_data});
+
+                        if (onDragStartCallback ){
+                            scope.$apply(function () {
+                                onDragStartCallback(scope, {$data: _data, $event: evt});
+                            });
+                        }
+                    }
+
+                    _mx = ngDraggable.inputEvent(evt).pageX;//ngDraggable.getEventProp(evt, 'pageX');
+                    _my = ngDraggable.inputEvent(evt).pageY;//ngDraggable.getEventProp(evt, 'pageY');
+
+                    if (_centerAnchor) {
+                        _tx = _mx - element.centerX - _dragOffset.left;
+                        _ty = _my - element.centerY - _dragOffset.top;
+                    } else {
+                        _tx = _mx - _mrx - _dragOffset.left;
+                        _ty = _my - _mry - _dragOffset.top;
+                    }
+
+                    moveElement(_tx, _ty);
+
+                    $rootScope.$broadcast('draggable:move', { x: _mx, y: _my, tx: _tx, ty: _ty, event: evt, element: element, data: _data, uid: _myid, dragOffset: _dragOffset });
+                };
+
+                var onrelease = function(evt) {
+                    if (!_dragEnabled)
+                        return;
+                    evt.preventDefault();
+                    $rootScope.$broadcast('draggable:end', {x:_mx, y:_my, tx:_tx, ty:_ty, event:evt, element:element, data:_data, callback:onDragComplete, uid: _myid});
+                    element.removeClass('dragging');
+                    element.parent().find('.drag-enter').removeClass('drag-enter');
+                    reset();
+                    $document.off(_moveEvents, onmove);
+                    $document.off(_releaseEvents, onrelease);
+
+                    if (onDragStopCallback ){
+                        scope.$apply(function () {
+                            onDragStopCallback(scope, {$data: _data, $event: evt});
+                        });
+                    }
+
+                    _deregisterRootMoveListener();
+                };
+
+                var onDragComplete = function(evt) {
+
+
+                    if (!onDragSuccessCallback )return;
+
+                    scope.$apply(function () {
+                        onDragSuccessCallback(scope, {$data: _data, $event: evt});
+                    });
+                };
+
+                var reset = function() {
+                    if(allowTransform)
+                        element.css({transform:'', 'z-index':'', '-webkit-transform':'', '-ms-transform':''});
+                    else
+                        element.css({'position':'',top:'',left:''});
+                };
+
+                var moveElement = function (x, y) {
+                    if(allowTransform) {
+                        element.css({
+                            transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, ' + x + ', ' + y + ', 0, 1)',
+                            'z-index': 99999,
+                            '-webkit-transform': 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, ' + x + ', ' + y + ', 0, 1)',
+                            '-ms-transform': 'matrix(1, 0, 0, 1, ' + x + ', ' + y + ')'
+                        });
+                    }else{
+                        element.css({'left':x+'px','top':y+'px', 'position':'fixed'});
+                    }
+                };
+                initialize();
+            }
+        };
+    }])
+
+    .directive('ngDrop', ['$parse', '$timeout', '$window', '$document', 'ngDraggable', function ($parse, $timeout, $window, $document, ngDraggable) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                scope.value = attrs.ngDrop;
+                scope.isTouching = false;
+
+                var _lastDropTouch=null;
+
+                var _myid = scope.$id;
+
+                var _dropEnabled=false;
+
+                var onDropCallback = $parse(attrs.ngDropSuccess);// || function(){};
+
+                var onDragStartCallback = $parse(attrs.ngDragStart);
+                var onDragStopCallback = $parse(attrs.ngDragStop);
+                var onDragMoveCallback = $parse(attrs.ngDragMove);
+
+                var initialize = function () {
+                    toggleListeners(true);
+                };
+
+                var toggleListeners = function (enable) {
+                    // remove listeners
+
+                    if (!enable)return;
+                    // add listeners.
+                    scope.$watch(attrs.ngDrop, onEnableChange);
+                    scope.$on('$destroy', onDestroy);
+                    scope.$on('draggable:start', onDragStart);
+                    scope.$on('draggable:move', onDragMove);
+                    scope.$on('draggable:end', onDragEnd);
+                };
+
+                var onDestroy = function (enable) {
+                    toggleListeners(false);
+                };
+                var onEnableChange = function (newVal, oldVal) {
+                    _dropEnabled=newVal;
+                };
+                var onDragStart = function(evt, obj) {
+                    if(! _dropEnabled)return;
+                    isTouching(obj.x,obj.y,obj.element);
+
+                    if (attrs.ngDragStart) {
+                        $timeout(function(){
+                            onDragStartCallback(scope, {$data: obj.data, $event: obj});
+                        });
+                    }
+                };
+                var onDragMove = function(evt, obj) {
+                    if(! _dropEnabled)return;
+                    isTouching(obj.x,obj.y,obj.element);
+
+                    if (attrs.ngDragMove) {
+                        $timeout(function(){
+                            onDragMoveCallback(scope, {$data: obj.data, $event: obj});
+                        });
+                    }
+                };
+
+                var onDragEnd = function (evt, obj) {
+
+                    // don't listen to drop events if this is the element being dragged
+                    // only update the styles and return
+                    if (!_dropEnabled || _myid === obj.uid) {
+                        updateDragStyles(false, obj.element);
+                        return;
+                    }
+                    if (isTouching(obj.x, obj.y, obj.element)) {
+                        // call the ngDraggable ngDragSuccess element callback
+                        if(obj.callback){
+                            obj.callback(obj);
+                        }
+
+                        if (attrs.ngDropSuccess) {
+                            $timeout(function(){
+                                onDropCallback(scope, {$data: obj.data, $event: obj, $target: scope.$eval(scope.value)});
+                            });
+                        }
+                    }
+
+                    if (attrs.ngDragStop) {
+                        $timeout(function(){
+                            onDragStopCallback(scope, {$data: obj.data, $event: obj});
+                        });
+                    }
+
+                    updateDragStyles(false, obj.element);
+                };
+
+                var isTouching = function(mouseX, mouseY, dragElement) {
+                    var touching= hitTest(mouseX, mouseY);
+                    scope.isTouching = touching;
+                    if(touching){
+                        _lastDropTouch = element;
+                    }
+                    updateDragStyles(touching, dragElement);
+                    return touching;
+                };
+
+                var updateDragStyles = function(touching, dragElement) {
+                    if(touching){
+                        element.addClass('drag-enter');
+                        dragElement.addClass('drag-over');
+                    }else if(_lastDropTouch == element){
+                        _lastDropTouch=null;
+                        element.removeClass('drag-enter');
+                        dragElement.removeClass('drag-over');
+                    }
+                };
+
+                var hitTest = function(x, y) {
+                    var bounds = element[0].getBoundingClientRect();// ngDraggable.getPrivOffset(element);
+                    x -= $document[0].body.scrollLeft + $document[0].documentElement.scrollLeft;
+                    y -= $document[0].body.scrollTop + $document[0].documentElement.scrollTop;
+                    return  x >= bounds.left
+                        && x <= bounds.right
+                        && y <= bounds.bottom
+                        && y >= bounds.top;
+                };
+
+                initialize();
+            }
+        };
+    }])
+    .directive('ngDragClone', ['$parse', '$timeout', 'ngDraggable', function ($parse, $timeout, ngDraggable) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                var img, _allowClone=true;
+                var _dragOffset = null;
+                scope.clonedData = {};
+                var initialize = function () {
+
+                    img = element.find('img');
+                    element.attr('draggable', 'false');
+                    img.attr('draggable', 'false');
+                    reset();
+                    toggleListeners(true);
+                };
+
+
+                var toggleListeners = function (enable) {
+                    // remove listeners
+
+                    if (!enable)return;
+                    // add listeners.
+                    scope.$on('draggable:start', onDragStart);
+                    scope.$on('draggable:move', onDragMove);
+                    scope.$on('draggable:end', onDragEnd);
+                    preventContextMenu();
+
+                };
+                var preventContextMenu = function() {
+                    //  element.off('mousedown touchstart touchmove touchend touchcancel', absorbEvent_);
+                    img.off('mousedown touchstart touchmove touchend touchcancel', absorbEvent_);
+                    //  element.on('mousedown touchstart touchmove touchend touchcancel', absorbEvent_);
+                    img.on('mousedown touchstart touchmove touchend touchcancel', absorbEvent_);
+                };
+                var onDragStart = function(evt, obj, elm) {
+                    _allowClone=true;
+                    if(angular.isDefined(obj.data.allowClone)){
+                        _allowClone=obj.data.allowClone;
+                    }
+                    if(_allowClone) {
+                        scope.$apply(function () {
+                            scope.clonedData = obj.data;
+                        });
+                        element.css('width', obj.element[0].offsetWidth);
+                        element.css('height', obj.element[0].offsetHeight);
+
+                        moveElement(obj.tx, obj.ty);
+                    }
+
+                };
+                var onDragMove = function(evt, obj) {
+                    if(_allowClone) {
+
+                        _tx = obj.tx + obj.dragOffset.left;
+                        _ty = obj.ty + obj.dragOffset.top;
+
+                        moveElement(_tx, _ty);
+                    }
+                };
+                var onDragEnd = function(evt, obj) {
+                    //moveElement(obj.tx,obj.ty);
+                    if(_allowClone) {
+                        reset();
+                    }
+                };
+
+                var reset = function() {
+                    element.css({left:0,top:0, position:'fixed', 'z-index':-1, visibility:'hidden'});
+                };
+                var moveElement = function(x,y) {
+                    element.css({
+                        transform: 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, '+x+', '+y+', 0, 1)', 'z-index': 99999, 'visibility': 'visible',
+                        '-webkit-transform': 'matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, '+x+', '+y+', 0, 1)',
+                        '-ms-transform': 'matrix(1, 0, 0, 1, '+x+', '+y+')'
+                        //,margin: '0'  don't monkey with the margin,
+                    });
+                };
+
+                var absorbEvent_ = function (event) {
+                    var e = event;//.originalEvent;
+                    e.preventDefault && e.preventDefault();
+                    e.stopPropagation && e.stopPropagation();
+                    e.cancelBubble = true;
+                    e.returnValue = false;
+                    return false;
+                };
+
+                initialize();
+            }
+        };
+    }])
+    .directive('ngPreventDrag', ['$parse', '$timeout', function ($parse, $timeout) {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                var initialize = function () {
+
+                    element.attr('draggable', 'false');
+                    toggleListeners(true);
+                };
+
+
+                var toggleListeners = function (enable) {
+                    // remove listeners
+
+                    if (!enable)return;
+                    // add listeners.
+                    element.on('mousedown touchstart touchmove touchend touchcancel', absorbEvent_);
+                };
+
+
+                var absorbEvent_ = function (event) {
+                    var e = event.originalEvent;
+                    e.preventDefault && e.preventDefault();
+                    e.stopPropagation && e.stopPropagation();
+                    e.cancelBubble = true;
+                    e.returnValue = false;
+                    return false;
+                };
+
+                initialize();
+            }
+        };
+    }])
+    .directive('ngCancelDrag', [function () {
+        return {
+            restrict: 'A',
+            link: function (scope, element, attrs) {
+                element.find('*').attr('ng-cancel-drag', 'ng-cancel-drag');
+            }
+        };
+    }])
+    .directive('ngDragScroll', ['$window', '$interval', '$timeout', '$document', '$rootScope', function($window, $interval, $timeout, $document, $rootScope) {
+        return {
+            restrict: 'A',
+            link: function(scope, element, attrs) {
+                var intervalPromise = null;
+                var lastMouseEvent = null;
+
+                var config = {
+                    verticalScroll: attrs.verticalScroll || true,
+                    horizontalScroll: attrs.horizontalScroll || true,
+                    activationDistance: attrs.activationDistance || 75,
+                    scrollDistance: attrs.scrollDistance || 15
+                };
+
+
+                var reqAnimFrame = (function() {
+                    return window.requestAnimationFrame ||
+                        window.webkitRequestAnimationFrame ||
+                        window.mozRequestAnimationFrame ||
+                        window.oRequestAnimationFrame ||
+                        window.msRequestAnimationFrame ||
+                        function( /* function FrameRequestCallback */ callback, /* DOMElement Element */ element ) {
+                            window.setTimeout(callback, 1000 / 60);
+                        };
+                })();
+
+                var animationIsOn = false;
+                var createInterval = function() {
+                    animationIsOn = true;
+
+                    function nextFrame(callback) {
+                        var args = Array.prototype.slice.call(arguments);
+                        if(animationIsOn) {
+                            reqAnimFrame(function () {
+                                $rootScope.$apply(function () {
+                                    callback.apply(null, args);
+                                    nextFrame(callback);
+                                });
+                            })
+                        }
+                    }
+
+                    nextFrame(function() {
+                        if (!lastMouseEvent) return;
+
+                        var viewportWidth = Math.max(document.documentElement.clientWidth, window.innerWidth || 0);
+                        var viewportHeight = Math.max(document.documentElement.clientHeight, window.innerHeight || 0);
+
+                        var scrollX = 0;
+                        var scrollY = 0;
+
+                        if (config.horizontalScroll) {
+                            // If horizontal scrolling is active.
+                            if (lastMouseEvent.clientX < config.activationDistance) {
+                                // If the mouse is on the left of the viewport within the activation distance.
+                                scrollX = -config.scrollDistance;
+                            }
+                            else if (lastMouseEvent.clientX > viewportWidth - config.activationDistance) {
+                                // If the mouse is on the right of the viewport within the activation distance.
+                                scrollX = config.scrollDistance;
+                            }
+                        }
+
+                        if (config.verticalScroll) {
+                            // If vertical scrolling is active.
+                            if (lastMouseEvent.clientY < config.activationDistance) {
+                                // If the mouse is on the top of the viewport within the activation distance.
+                                scrollY = -config.scrollDistance;
+                            }
+                            else if (lastMouseEvent.clientY > viewportHeight - config.activationDistance) {
+                                // If the mouse is on the bottom of the viewport within the activation distance.
+                                scrollY = config.scrollDistance;
+                            }
+                        }
+
+
+
+                        if (scrollX !== 0 || scrollY !== 0) {
+                            // Record the current scroll position.
+                            var currentScrollLeft = ($window.pageXOffset || $document[0].documentElement.scrollLeft);
+                            var currentScrollTop = ($window.pageYOffset || $document[0].documentElement.scrollTop);
+
+                            // Remove the transformation from the element, scroll the window by the scroll distance
+                            // record how far we scrolled, then reapply the element transformation.
+                            var elementTransform = element.css('transform');
+                            element.css('transform', 'initial');
+
+                            $window.scrollBy(scrollX, scrollY);
+
+                            var horizontalScrollAmount = ($window.pageXOffset || $document[0].documentElement.scrollLeft) - currentScrollLeft;
+                            var verticalScrollAmount =  ($window.pageYOffset || $document[0].documentElement.scrollTop) - currentScrollTop;
+
+                            element.css('transform', elementTransform);
+
+                            lastMouseEvent.pageX += horizontalScrollAmount;
+                            lastMouseEvent.pageY += verticalScrollAmount;
+
+                            $rootScope.$emit('draggable:_triggerHandlerMove', lastMouseEvent);
+                        }
+
+                    });
+                };
+
+                var clearInterval = function() {
+                    animationIsOn = false;
+                };
+
+                scope.$on('draggable:start', function(event, obj) {
+                    // Ignore this event if it's not for this element.
+                    if (obj.element[0] !== element[0]) return;
+
+                    if (!animationIsOn) createInterval();
+                });
+
+                scope.$on('draggable:end', function(event, obj) {
+                    // Ignore this event if it's not for this element.
+                    if (obj.element[0] !== element[0]) return;
+
+                    if (animationIsOn) clearInterval();
+                });
+
+                scope.$on('draggable:move', function(event, obj) {
+                    // Ignore this event if it's not for this element.
+                    if (obj.element[0] !== element[0]) return;
+
+                    lastMouseEvent = obj.event;
+                });
+            }
+        };
+    }]);
+    </script>
+<!-- End ng-draggable -->
+</apex:page>

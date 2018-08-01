@@ -1,0 +1,199 @@
+<apex:page controller="TritechHome" id="pg">
+<!-- 
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+    
+
+    <! -- prototype.js/effects.js/vote.js/base.js -- >
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-1.10.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-migrate-1.2.1.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/modernizr-2.6.2.min.js')}" />
+<style>
+#yet_another {border-radius:10px 10px 10px 10px; -moz-border-radius:10px 10px 10px 10px;}
+#yet_another {-webkit-border-top-left-radius:10px 10px; -webkit-border-top-right-radius:10px 10px; -webkit-border-bottom-right-radius:10px 10px; -webkit-border-bottom-left-radius:10px 10px;}#up_another {border-radius:10px 10px 0px 0px; -moz-border-radius:10px 10px 0px 0px;}#up_another {-webkit-border-top-left-radius:10px 10px; -webkit-border-top-right-radius:10px 10px; -webkit-border-bottom-right-radius:0px 0px; -webkit-border-bottom-left-radius:0px 0px;}#capsule_round {border-radius:10000px 10000px 10000px 10000px; -moz-border-radius:10000px 10000px 10000px 10000px;}#capsule_round {-webkit-border-top-left-radius:10000px 10000px; -webkit-border-top-right-radius:10000px 10000px; -webkit-border-bottom-right-radius:10000px 10000px; -webkit-border-bottom-left-radius:10000px 10000px;}#totally_round {border-radius:10000px 10000px 10000px 10000px; -moz-border-radius:10000px 10000px 10000px 10000px;}#totally_round {-webkit-border-top-left-radius:10000px 10000px; -webkit-border-top-right-radius:10000px 10000px; -webkit-border-bottom-right-radius:10000px 10000px; -webkit-border-bottom-left-radius:10000px 10000px;}
+</style>
+
+<style>
+#yet_another{
+    border:1px solid #5576A1;
+    background-color:#FFFFFF;
+    padding:10px;
+ 
+} 
+
+    table.tblcls { width: 100%; font-size: 12px; margin: 0 0 15px 0; }
+    table.tblcls tr { border-bottom: 1px solid #acacac; }
+    table.tblcls th { font-weight: bold; }
+    table.tblcls th, table.tblcls td { text-align: left; padding: 5px; }
+</style>
+
+
+
+    <style>
+     
+        table.tblList { 
+            border-width: 1px;
+            border-spacing: ;
+            border-style: inset;
+            border-color: white;
+            border-collapse: collapse;
+            background-color: white;
+        } 
+        table.tblList th {
+            border-width: 1px;
+            padding: 4px;
+            border-style: inset;
+            border-color: gray;
+            background-color: white;
+            -moz-border-radius: ;
+        }
+        table.tblList td {
+            border-width: 1px;
+            padding: 4px;
+            border-style: inset;
+            border-color: gray;
+            background-color: white;
+            -moz-border-radius: ;
+        }
+        
+        .photoUpload {
+            float:right;
+            color: #1865A3;
+            text-decoration: none;
+        }
+        
+        .photoUploadHover {
+            color: #CCCCCC;
+            text-decoration: underline;
+            cursor: pointer;
+            
+        }
+        
+        p.home-intro {
+            margin-bottom: 120px;
+            margin-left: 175px;
+            margin-top: -135px;
+        }
+    </style>
+
+    
+    <script>
+        function spanOnHover(ele) {
+            ele.setAttribute("style","color: #CCCCCC;text-decoration: underline;cursor: pointer;");
+        }
+        
+        function spanOnHoverOut(ele) {
+            ele.setAttribute("style","color: #1865A3;text-decoration: none;");
+        }
+    </script>
+-->
+<apex:form id="frm">
+    <div id="content-home">
+    <apex:image id="theImage" value="{!profilePictureLink}" width="150" height="135" rendered="{!photoExist}"/> 
+    <apex:image id="theImageDef" url="../profilephoto/005/F" width="150" height="135" rendered="{!NOT(photoExist)}"/>
+    <p class="home-intro">
+        <span class="home-welcome">Welcome {!CurrentUser.Name}</span>
+        <span style="float:right"><apex:outputLink value="/_ui/system/security/ChangePassword?setupid=ChangePassword" target="_top">Change Password</apex:outputLink></span>
+        <br/>
+        {!CurrentUser.Email}
+        <span class="photoUpload" onmouseover="spanOnHover(this);" onmouseout="spanOnHoverOut(this);" onclick="window.open('/apex/PortalPicture', '', 'width=700,height=500');" >Profile Picture</span>
+        
+        <br/>{!CurrentUser.Phone}
+        <br/>{!CurrentUser.Title}
+        </p>
+    <apex:outputPanel rendered="{!NOT(IsReadOnlyUser)}" >
+        <div class="clearfix">
+        <span class="form-left"><label for="view">Ticket View</label></span>
+        <span class="form-left">
+        <apex:selectList value="{!SelectedView}" size="1" id="ddlViews">
+          <apex:selectOptions value="{!TicketViews}" />
+        </apex:selectList>
+        </span>
+        <span class="form-left">
+            <apex:commandButton styleClass="btn btn-success btn-mini" value="Go" onclick="window.parent.location.href = '/apex/TicketListView?viewOption=' + document.getElementById('pg:frm:ddlViews').value; return false;" />
+            &nbsp;&nbsp;
+            <apex:commandButton styleClass="btn btn-success btn-mini" value="Create New Ticket" onclick="window.parent.location.href = '/apex/Create_Service_Ticket?retURL=/apex/TritechHome';  return false;" />
+        </span>
+        
+        
+        </div>
+        
+        <div class="borderbox-header">Recent Tickets</div>
+        <div class="borderbox-inner">
+            <table class="tblcls">
+                <tbody><tr>
+                    <th><a title="Ticket Number" href="#">Ticket Number</a></th>
+                    <th><a title="Subject" href="#">Subject</a></th>
+                    <th><a title="Owner Name" href="#">Owner Name</a></th>
+                    <th><a title="Status" href="#">Status</a></th>
+                </tr>
+                <apex:repeat value="{!listRecentTicket}" var="t">
+                    <tr>
+                        <td><apex:outputLink value="/{!t.Id}" target="_top">{!t.CaseNumber}</apex:outputLink></td>
+                        <td><apex:outputFIeld value="{!t.Subject}" /></td>
+                        <td><apex:outputFIeld value="{!t.Owner.Name}" /></td>
+                        <td><apex:outputFIeld value="{!t.Status}" /></td>
+                    </tr>
+                </apex:repeat>
+            </tbody></table>
+            <span class="paginate-records"><apex:outputLink styleClass="bold" value="/apex/TicketListView" target="_top" style="font-weight:bold;" title="View more tickets" >View more tickets »</apex:outputLink></span>
+        </div>
+        
+        <br/><br/>    
+
+    </apex:outputPanel>
+    </div>
+    <apex:outputPanel >
+        <div id="sidebar-home">
+            <div class="inner">
+                <h2>Important Message</h2>
+                <br/><br/>
+                <ul>
+                <apex:repeat value="{!listImpMessage}" var="m">
+                    <li><a title="{!m.Title__c}" class="bold" href="/{!m.Id}">{!m.Title__c}</a><br/>{!m.Body_Short__c}<br/><apex:outputLink value="/{!m.Id}" target="_top" title="Read More" styleClass="bold" >Read More »</apex:outputLink></li>
+                </apex:repeat>
+                </ul>
+                <h2>Product News</h2>
+                <br/><br/>
+                <ul>
+                    <apex:repeat value="{!listKA}" var="k">
+                        <li>{!k.Title}<br/><apex:outputLink value="/{!k.Id}" target="_top" title="Read More" styleClass="bold">Read More »</apex:outputLink></li>
+                    </apex:repeat>
+                    <li><apex:outputLink value="/apex/PortalArticles" target="_top" title="View more product news" styleClass="bold" >View more product news »</apex:outputLink></li>
+                </ul>
+                <h2>Links</h2>
+                <br/><br/>
+                <ul>
+                    <apex:repeat value="{!listLinks}" var="k">
+                        <li><apex:outputLink title="{!k.Name}" style="{!IF(k.Name == 'VisionAIR GoToAssist', 'font-size:11pt', '')}" value="{!k.URL__c}" target="_new" styleClass="bold">{!k.Name} »</apex:outputLink></li>
+                    </apex:repeat>
+                    <li><apex:outputLink value="/a0G" target="_top" title="View more links" styleClass="bold">View more links »</apex:outputLink></li>
+                    
+                </ul>
+                <br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/><br/>
+            </div>
+        </div>
+    </apex:outputPanel>
+
+ <script>
+ 
+ function fncLoad(){
+   try{
+     var IsActiveContractType = '{!IsActiveContractType}';
+     if(IsActiveContractType != 'YES'){
+        alert('Your service contract is not active and you are not authorized to access TriTech Customer Service Center.\nPlease contact your TriTech Support Team.');
+      
+        window.parent.location.href = '/secur/logout.jsp';
+     }
+   }
+   catch(e){}
+ }
+ 
+
+ 
+ </script>
+  
+</apex:form>
+
+</apex:page>

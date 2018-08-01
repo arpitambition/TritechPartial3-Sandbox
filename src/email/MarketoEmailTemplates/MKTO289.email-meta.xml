@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Protecting Your QA Documents from Legal Discovery.Followup</name>
+    <style>none</style>
+    <subject>Webinar Follow-up: CEUs, Recording Link and more from our &quot;Protecting Your QA Documents from Legal Discovery&quot; webinar</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Thank you for your interest!
+Anything you Write Will be Used Against You: Protecting Your QA Documents from Legal Discovery
+Hello {{lead.First Name:default=EMS Professional}},
+Thank you for your interested in yesterday&apos;s complimentary webinar &quot;Anything you Write Will be Used Against You: Protecting Your QA Documents from Legal Discovery&quot; with Steve Wirth of Page, Wolfberg and Wirth.
+Business-Partner Approach
+
+TriTech is proud to partner with leading experts in EMS and make that information available to you. We believe in partnering with our customers and doing what we can to contribute to their organizational goals. TriTech is also proud to partner with the National Academy of Ambulance Coding to provide these complimentary educational recordings for your CEU needs.
+
+Interested in another NAAC CEU-approved webinar? REGISTER for Best Practices in EMS Billing on June 28th. &lt;http://offers.tritech.com/June28Webinar_Registration.html&gt;
+
+For the best integrated solutions to serve any size and type of service, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems
+
+TriTech.com
+WEBINAR RECORDING LINK, CEU CERTIFICATE, HANDOUTS
+TriTech is proud to partner with PWW to bring you this information.
+ RECORDING LINK &lt;http://tritech.ilinc.com/join/svtwfth&gt;
+
+HANDOUTS (includes NAAC CEU) &lt;http://www.tritechems.com/documents/May31WebinarHandouts.pdf&gt; 
+CONTACT &lt;http://offers.tritech.com/Followup.html&gt;
+
+Would you like a TriTech Account Manager to contact you? Please let us know that you&apos;d appreciate a phone call!
+
+ &lt;http://offers.tritech.com/Followup.html&gt;
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

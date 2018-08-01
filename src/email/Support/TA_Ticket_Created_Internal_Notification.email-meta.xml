@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Generic internal alert trigger notification to be used when creating workflows for specific customers</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>TA - Ticket Created Internal Notification</name>
+    <style>freeForm</style>
+    <subject>Ticket Created: {!Case.Account } - {!Case.CaseNumber}</subject>
+    <textOnly>This is an internal update notification from TriTech Software Systems.
+
+
+Account Name:  {!Case.Account }
+Customer Number: {!Case.EMS_Customer_Number__c}
+
+Incident Details:
+
+Incident ID:  {!Case.CaseNumber}
+
+Click here to view the ticket: {!Case.Link}
+
+Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}
+
+Issue Details:  {!Case.Description}
+
+Current Owner:  {!Case.OwnerFullName}
+
+Product:  {!Case.Product}
+
+Status:  {!Case.Status}
+
+Priority:  {!Case.Priority}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

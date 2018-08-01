@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.Attended</name>
+    <style>none</style>
+    <subject>Recording Now Available:  Using Fusion ePCR with VisiCAD</subject>
+    <textOnly> 
+October 28, 2011   
+Thanks for Attending the &quot;Using Fusion with VisiCAD&quot; Webinar  
+
+Thank you for joining us in yesterday&apos;s webinar &quot;Using Fusion ePCR with VisiCAD.&quot;  We hope that you were able to see first hand the benefits of Fusion ePCR and its integration with VisiCAD, such as:
+
+Complete patient care reports in less time
+Improved communications with field staff
+Reduced data entry mistakes
+Consistent information between systems
+
+If you would like to review the webinar again or share the information with someone else, please reference the links below for the recording and the datasheet:  
+
+Webinar Recording Link:  http://tritech.ilinc.com/join/vkyssbw 
+Fusion ePCR Datasheet link:  http://offers.tritech.com/rs/ortivusna/images/Fusion_ePCR.pdf
+Fusion ePCR 6.2 New Features Datasheet Link:  http://offers.tritech.com/rs/ortivusna/images/EMS_ePCR_6-2Features_101311_lo.pdf
+
+
+For more information, please contact your Client Account Managers Ken Schulte or Sally Olson-Nelson. 
+
+Ken Schulte
+ken.schulte@tritech.com
+
+
+
+Sally Olson-Nelson
+sally.olson-nelson@tritech.com
+
+
+ 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

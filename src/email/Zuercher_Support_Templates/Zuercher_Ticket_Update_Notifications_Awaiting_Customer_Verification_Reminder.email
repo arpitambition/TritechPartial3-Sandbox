@@ -1,0 +1,43 @@
+<table border="0" cellpadding="5" width="550" cellspacing="5" height="400" >
+<tr valign="top" height="400" >
+<td tEditID="c1r1" style=" background-color:#FFFFFF; bEditID:r3st1; color:#000000; bLabel:main; font-size:12pt; font-family:arial;" aEditID="c1r1" locked="0" >
+<![CDATA[<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]--><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><b><br><a href="{!Case.Link}">{!Case.CaseNumber} - Awaiting Customer Verification - {!Case.Subject}</a></b><br></span><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><br></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><br></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi">Hello,<br></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><br></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi">As we are looking through
+issues that are outstanding and needing attention, we wanted to take a moment
+to follow up with you in regards to this issue that you have reported.<span style="mso-spacerun:yes">&nbsp; </span>We have not had any follow up in the past 14
+days and would like to know if this is still an issue for you or if the issue
+is now resolved.<br><br></span></p>
+
+<p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi">Please contact the Support
+department or reply to this email so that we can help ensure that your users
+are having the best possible experience using the software.<br><br>Regards,<br><br>
+Technical Support Tea<font face="Arial,Sans-Serif">m</font></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><font face="Arial,Sans-Serif"><br></font></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><font face="Arial,Sans-Serif"><br></font></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><font face="Arial,Sans-Serif"><br></font></span></p><p class="MsoNormal"><span style="font-family:&quot;Arial&quot;,sans-serif;mso-bidi-font-family:
+&quot;Times New Roman&quot;;mso-bidi-theme-font:minor-bidi"><font face="Arial,Sans-Serif"><i><font size="1">{!Case.Email_Thread}</font></i><br></font></span></p><p class="MsoNormal"><span style="font-size:12.0pt;line-height:107%;font-family:&quot;Calibri&quot;,sans-serif;
+mso-ascii-theme-font:minor-latin;mso-fareast-font-family:&quot;Times New Roman&quot;;
+mso-hansi-theme-font:minor-latin;mso-bidi-font-family:&quot;Times New Roman&quot;;
+mso-ansi-language:EN-US;mso-fareast-language:EN-US;mso-bidi-language:AR-SA"></span></p>]]></td>
+</tr>
+</table>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Sneak Peek</name>
+    <style>none</style>
+    <subject>TriCON - Agenda Sneak Peek</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Agenda Sneak Peek
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+Hello {{lead.First Name:default=Client}},
+
+We hope that you will make plans to attend TriCON: TriTech&apos;s Annual User Conference &lt;http://www.tritech.com/News-and-Events/TriCON-2012-TriTech-Annual-User-Conference&gt; in San Diego, California. 
+
+Planning for TriCON 2012 is well underway, and we&apos;ve developed our program with a focus on &quot;Training for Today. Preparing for Tomorrow.&quot; We&apos;ve put together a preliminary list of presentation topics to get you excited about the conference offerings. Click here to download a sneak peek of the agenda. &lt;http://offers.tritech.com/rs/ortivusna/images/Agenda Sneak Peak_04242012_c.pdf&gt;
+
+While the sneak peek provides a preliminary list of topics, we still want your input and ideas for informative session topics to finalize our full conference program. Email tricon@tritech.com &lt;mailto:tricon@tritech.com&gt; for your suggestions.TriCON is YOUR conference and we want to make it as valuable and educational an experience as possible.
+
+See you in San Diego!
+
+ 
+
+
+Conference Details
+
+Dates:
+ Wednesday, September 26 - Friday, September 28
+
+Location: 
+ Hilton San Diego Bayfront
+ San Diego, California
+ www.hiltonsandiegobayfront.com &lt;http://www.hilton.com/en/hi/groups/personalized/S/SANCCHH-TTSS-20120924/index.jhtml?WT.mc_id=POG&gt;
+
+Registration: 
+ $695 (Early bird registration)
+ Additional discounts available to first time attendees and groups of four (4) or more attendees from the same organization.
+
+
+
+
+
+ &lt;http://www.cvent.com/d/8cqly7/4W&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

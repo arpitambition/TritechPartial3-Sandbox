@@ -1,0 +1,225 @@
+<apex:page standardController="Case" Extensions="CaseControllerExtension">
+
+    <style>
+        #bodyCell{
+            font-size:12px;
+        }
+        .bPageTitle .ptBody .pageType{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+            color: #000000;
+            display: inline;
+        }
+        .mainTitle{
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        .content{
+            line-height: 0.5;
+            padding-top: 5px;
+        }
+        .dataCol .first{
+            padding-top: 3px;
+        }
+    </style>
+    
+    
+    <div id="t_pnl" style="display:none">
+    
+    <apex:sectionHeader title="Ticket Edit " subTitle="{!Case.CaseNumber}" />
+    <apex:form >
+        <apex:outputPanel id="errorPanel">
+            <apex:messages />
+        </apex:outputPanel>
+         <apex:pageBlock id="pb" title="Ticket Edit" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!Save}" reRender="errorPanel, pb"/>
+                <apex:commandButton value="Cancel" action="{!Cancel}" reRender="errorPanel, pb"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Ticket Information">              
+                    <apex:outputField value="{!Case.CaseNumber}"/>              
+                    <apex:outputField value="{!Case.Status}" /> 
+                    <apex:inputField value="{!Case.Subject}" required="true" style="width:250px;"/>
+                    <apex:inputField value="{!Case.Customer_Priority_WMP__c}" required="true"/> 
+                    <apex:outputText label="Contact Name" value="{!contactName}"/>
+                    <apex:inputField value="{!Case.Priority}" /> 
+                    <apex:inputField value="{!Case.Customer_Reference_Number__c}" style="width: 320px; height: 50px;"/>
+                    <apex:outputText value=""/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Ticket Specifics">
+                    <apex:inputField value="{!Case.Reported_Major_Version_WMP__c}" required="true"/>
+                    <apex:inputField value="{!Case.Environment_Type__c}" required="true"/>
+                    <apex:inputField value="{!Case.Occured_After_Upgrade_WMP__c}"/> 
+                    <apex:inputField value="{!Case.Client_Steps_to_Recreate_Issue__c}" required="true" style="width:200px;"/>
+                    <apex:inputField value="{!Case.Reproducible_WMP__c}" required="true"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection columns="1" showHeader="false">
+                    <apex:inputField value="{!Case.Description}" required="true" style="width: 575px; height: 125px;"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Resolution Information">
+                    <apex:outputField value="{!Case.Closed_Incidents_Reason_WMP__c}"/>
+                    <apex:outputField value="{!Case.Not_Reproducible_in_Version__c}"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Legacy Information">
+                    <apex:outputField value="{!Case.Legacy_Ticket_ID__c}"/>
+                    <apex:outputField value="{!Case.Legacy_Defect_Association__c}"/>
+                    <apex:outputField value="{!Case.Legacy_Fixed_in_Version__c}"/>
+                    <apex:outputField value="{!Case.Legacy_Ticket_Status__c}"/>
+            </apex:pageBlockSection>
+         </apex:pageBlock>
+    </apex:form>
+    
+    </div>
+    
+    <div id="z_pnl" style="display:none">
+    
+    <apex:sectionHeader title="Ticket Edit " subTitle="{!Case.CaseNumber}" />
+    <apex:form >
+        <apex:outputPanel id="errorPanel">
+            <apex:messages />
+        </apex:outputPanel>
+         <apex:pageBlock id="pb" title="Ticket Edit" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!Save}" reRender="errorPanel, pb"/>
+                <apex:commandButton value="Cancel" action="{!Cancel}" reRender="errorPanel, pb"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Ticket Information">              
+                    <apex:outputField value="{!Case.CaseNumber}"/> 
+                    <apex:inputField value="{!Case.Z_Issue_Type__c}" required="true" html-disabled="true"/> 
+                    <apex:outputText value="{!contactName}" label="Contact Name"/>  
+                    <apex:outputField value="{!Case.Status}"/> 
+                    <apex:outputText value=""/>
+                    <apex:inputField value="{!Case.Customer_Priority_WMP__c}"/>   
+                    <apex:outputText value=""/> 
+                    <apex:inputField value="{!Case.Priority}"/>     
+                    <apex:outputText value=""/> 
+                    <apex:inputField value="{!Case.Customer_Reference_Number__c}" style="width: 250px; height: 50px;"/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Description" columns="1" showHeader="false">
+                    <apex:inputField value="{!Case.Subject}" style="width: 525px;" required="true"/>
+                    <apex:inputField value="{!Case.Description}" style="width:525px; height:125px;" required="true"/>
+            </apex:pageBlockSection> 
+            <apex:pageBlockSection title="Event Detail">
+                    <apex:inputField value="{!Case.Reported_Major_Version_WMP__c}"/>
+                    <apex:inputField value="{!Case.Z_Impacts_All_Users__c}"/>
+                    <apex:inputField value="{!Case.Event_Frequency__c}" />                  
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Resolution Information">
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="System Information">
+                    <apex:inputField value="{!Case.Legacy_Ticket_ID__c}"/>
+            </apex:pageBlockSection>
+            
+         </apex:pageBlock>       
+    </apex:form>
+    </div>
+    
+    
+     <div id="crossSupportPanel" style="display:none">
+    
+    <apex:sectionHeader title="Ticket Edit " subTitle="{!Case.CaseNumber}" />
+    <apex:form >
+        <apex:outputPanel id="errorPanel">
+            <apex:messages />
+        </apex:outputPanel>
+         <apex:pageBlock id="pb" title="Ticket Edit" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!Save}" reRender="errorPanel, pb"/>
+                <apex:commandButton value="Cancel" action="{!Cancel}" reRender="errorPanel, pb"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection title="Ticket Information">              
+                    <apex:outputField value="{!Case.CaseNumber}"/> 
+                    <apex:outputField value="{!Case.Status}"/> 
+                    <apex:inputField value="{!Case.Subject}" style="width: 525px;" required="true"/>  
+                    <apex:inputField value="{!Case.Customer_Priority_WMP__c}" required="true"/> 
+                    <apex:outputText label="Contact Name" value="{!contactName}"/>
+                    <apex:inputField value="{!Case.Priority}" required="true"/>   
+                    <apex:inputField value="{!Case.Customer_Reference_Number__c}" style="width: 250px; height: 50px;"/> 
+                    <apex:inputField value="{!Case.Origin}"/>     
+                    <apex:inputField value="{!Case.Z_Issue_Type__c}"/> 
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Ticket Specifics">
+                    <apex:inputField value="{!Case.Reported_Major_Version_WMP__c}" required="true"/>
+                    <apex:inputField value="{!Case.Environment_Type__c}" required="true"/>
+                    <apex:inputField value="{!Case.Occured_After_Upgrade_WMP__c}" /> 
+                    <apex:inputField value="{!Case.Client_Steps_to_Recreate_Issue__c}" style="width: 250px; height: 50px;" required="true"/> 
+                    <apex:inputField value="{!Case.Reproducible_WMP__c}" />
+                    <apex:inputField value="{!Case.Z_Impacts_All_Users__c}" />
+                    <apex:inputField value="{!Case.Event_Frequency__c}" />
+                    <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                    <apex:inputField value="{!Case.Description}" style="width:525px; height:125px;" required="true"/>      
+            </apex:pageBlockSection> 
+            <apex:pageBlockSection title="Ticket Response Information" >
+                    <apex:outputField value="{!Case.CreatedDate}"/>
+                    <apex:outputField value="{!Case.ClosedDate}"/>                 
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Resolution Information">
+                <apex:inputField value="{!Case.Closed_Incidents_Reason_WMP__c}" />
+                <apex:inputField value="{!Case.Not_Reproducible_in_Version__c}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Defect Information">
+                    <apex:outputField value="{!Case.Defect_Number__c}"/>
+                    <apex:outputField value="{!Case.Defect_Status__c}"/>
+                    <apex:outputField value="{!Case.Released_In__c}"/>
+            </apex:pageBlockSection>
+         </apex:pageBlock>       
+    </apex:form>
+    </div>
+     
+     
+<script>
+    function init(){
+        var z = document.getElementById("z_pnl");
+        var t = document.getElementById("t_pnl");
+        var crossSuppPanel = document.getElementById("crossSupportPanel");
+        var x = location.search;
+        
+        if("{!recordTypeName}" == "Zuercher Customer Support Ticket"){
+            z.style.display = "block";
+            t.style.display = "none";
+            crossSuppPanel.style.display = "none";
+            return;
+        }
+        
+        if("{!recordTypeName}" == "Customer Support Ticket"){
+            z.style.display = "none";
+            t.style.display = "block";
+            crossSuppPanel.style.display = "none";
+            return;
+        }
+        if("{!recordTypeName}" == "Cross Support Ticket"){
+            z.style.display = "none";
+            t.style.display = "none";
+            crossSuppPanel.style.display = "block";
+            return;
+        }
+        
+        if(x.search('type')>=0){
+            
+            if(x.substr(x.search('type')+5,8)=='Zuercher'){
+                z.style.display = "block";
+                t.style.display = "none";
+                crossSuppPanel.style.display = "none";
+                setzIssueType();
+                return;
+            }
+            if(x.substr(x.search('type')+5,6)=='Inform'){
+                z.style.display = "none";
+                t.style.display = "block";
+                crossSuppPanel.style.display = "none";
+                return;
+            }
+        }
+     }
+     
+     function setzIssueType(){
+        var t = document.getElementById('j_id0:j_id35:pb:j_id40:j_id42');
+        var r = document.getElementById('rtype');
+        t.value='Support Issue';
+        return;
+     }
+</script>
+
+</apex:page>

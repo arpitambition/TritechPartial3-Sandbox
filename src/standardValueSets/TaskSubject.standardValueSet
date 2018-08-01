@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Assemble Proposal</fullName>
+        <default>false</default>
+        <label>Assemble Proposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assemble Proposal Addendum</fullName>
+        <default>false</default>
+        <label>Assemble Proposal Addendum</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assemble RFP Response</fullName>
+        <default>false</default>
+        <label>Assemble RFP Response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assemble RFP Templates</fullName>
+        <default>false</default>
+        <label>Assemble RFP Templates</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Assemble Updated Proposal</fullName>
+        <default>false</default>
+        <label>Assemble Updated Proposal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Backlog</fullName>
+        <default>false</default>
+        <label>Backlog</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS Call</fullName>
+        <default>false</default>
+        <label>BDS Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS Call Attempt</fullName>
+        <default>false</default>
+        <label>BDS Call Attempt</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS Email</fullName>
+        <default>false</default>
+        <label>BDS Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS Email Response</fullName>
+        <default>false</default>
+        <label>BDS Email Response</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS Left Message</fullName>
+        <default>false</default>
+        <label>BDS Left Message</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call</fullName>
+        <default>false</default>
+        <label>Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Meeting</fullName>
+        <default>false</default>
+        <label>Client Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Client Services</fullName>
+        <default>false</default>
+        <label>Client Services</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Contract  Negotiation</fullName>
+        <default>false</default>
+        <label>Contract  Negotiation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create Contract Amendment</fullName>
+        <default>false</default>
+        <label>Create Contract Amendment</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create NDA</fullName>
+        <default>false</default>
+        <label>Create NDA</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create Reference List</fullName>
+        <default>false</default>
+        <label>Create Reference List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create Sales Transition Document</fullName>
+        <default>false</default>
+        <label>Create Sales Transition Document</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create Sign In Screen Logo &amp; Letterhead</fullName>
+        <default>false</default>
+        <label>Create Sign In Screen Logo &amp; Letterhead</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Create SOW/Contract Draft</fullName>
+        <default>false</default>
+        <label>Create SOW/Contract Draft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Deliverable</fullName>
+        <default>false</default>
+        <label>Deliverable</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo - On Site</fullName>
+        <default>false</default>
+        <label>Demo - On Site</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo - Web</fullName>
+        <default>false</default>
+        <label>Demo - Web</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Education</fullName>
+        <default>false</default>
+        <label>Education</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Executive Sponsor</fullName>
+        <default>false</default>
+        <label>Executive Sponsor</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Fill Out Go/No-Go</fullName>
+        <default>false</default>
+        <label>Fill Out Go/No-Go</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Follow-up</fullName>
+        <default>false</default>
+        <label>Follow-up</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Get Commsys Quote</fullName>
+        <default>false</default>
+        <label>Get Commsys Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Implementation</fullName>
+        <default>false</default>
+        <label>Implementation</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM 3rd Party</fullName>
+        <default>false</default>
+        <label>MDM 3rd Party</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM Industry</fullName>
+        <default>false</default>
+        <label>MDM Industry</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM Relationship</fullName>
+        <default>false</default>
+        <label>MDM Relationship</label>
+    </standardValue>
+    <standardValue>
+        <fullName>MDM Technology</fullName>
+        <default>false</default>
+        <label>MDM Technology</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Meeting</fullName>
+        <default>false</default>
+        <label>Meeting</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Pricing Review</fullName>
+        <default>false</default>
+        <label>Pricing Review</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Proactive Call</fullName>
+        <default>false</default>
+        <label>Proactive Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Reference Outreach</fullName>
+        <default>false</default>
+        <label>Reference Outreach</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Request FTP</fullName>
+        <default>false</default>
+        <label>Request FTP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Review Contract Draft</fullName>
+        <default>false</default>
+        <label>Review Contract Draft</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Review Interfaces for Contract</fullName>
+        <default>false</default>
+        <label>Review Interfaces for Contract</label>
+    </standardValue>
+    <standardValue>
+        <fullName>RFI</fullName>
+        <default>false</default>
+        <label>RFI</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Call</fullName>
+        <default>false</default>
+        <label>Sales Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Schedule</fullName>
+        <default>false</default>
+        <label>Schedule</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Letter</fullName>
+        <default>false</default>
+        <label>Send Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Send Quote</fullName>
+        <default>false</default>
+        <label>Send Quote</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sensitive</fullName>
+        <default>false</default>
+        <label>Sensitive</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Site Visit</fullName>
+        <default>false</default>
+        <label>Site Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Submit Data Conversion Review Ticket</fullName>
+        <default>false</default>
+        <label>Submit Data Conversion Review Ticket</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Submit GIS Data Review Ticket</fullName>
+        <default>false</default>
+        <label>Submit GIS Data Review Ticket</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Submit Interface Request Ticket</fullName>
+        <default>false</default>
+        <label>Submit Interface Request Ticket</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webex</fullName>
+        <default>false</default>
+        <label>Webex</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Wellness Check</fullName>
+        <default>false</default>
+        <label>Wellness Check</label>
+    </standardValue>
+</StandardValueSet>

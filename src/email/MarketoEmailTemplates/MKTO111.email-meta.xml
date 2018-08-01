@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS_CC_Nov11.EMS CC Nov11 Email</name>
+    <style>none</style>
+    <subject>Your EMS CAM Connection Newsletter - November 2011</subject>
+    <textOnly>November 2011 Edition (http://offers.tritech.com/EMS_CC_Nov11_Main.html)
+Welcome to the October issue of your Client Account Manager (CAM) Connection from the EMS Solution&apos;s division of TriTech Sofware Systems.
+ 
+ 
+ 
+ Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Nov11_AlertUpdates.html)
+
+ &gt; Run Sheet and NEMSIS State Information
+
+ &gt; HIPAA 5010 MUST be Implemented by January 1, 2012 – Are you Ready?
+
+ &gt; Sweet Billing Version 5.8 Coming Soon 
+ 
+ &gt; Fusion ePCR Version 6.2 Imports Response Information from
+   VisiCAD and Imc CAD 
+ 
+ &gt; VisiCAD for EMS Offers Streamlined Integration from Dispatch
+   Through Patient Care and Billing 
+ 
+   
+ 
+ Products &amp; Services (http://offers.tritech.com/EMS_CC_Nov11_ProductsServices.html)
+ 
+ &gt; Fusion ePCR and Sweet Billing – Now Available in Web-Based Access 
+ 
+ &gt; Sweet Billing Flex Report Generator 
+ 
+ &gt; November Coffee With Kelly Topics 
+ 
+ 
+ 
+ Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Nov11_TechnicalSupportHotTopics.html)
+ 
+ &gt; Do You Use These Keyboard Shortcuts to Save Time in Your Billing Processing? 
+ 
+
+
+ Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Nov11_ClientGoLives.html)
+
+ &gt; Logan County Upgrades to Fusion ePCR Version 6.2 and “Loves It”
+   Jeremy Barrow, a 13-year-veteran paramedic with IT responsibilities for his EMS service, said he “loves, loves,  loves Fusion ePCR and would not use any other ePCR product.” Jeremy, who has worked for seven years with Logan County (located about half way between Peoria and Springfield in Illinois) just updated to the 6.2 version of Fusion ePCR and said that they specifically love the ability to make comments on the anatomical view and the ability to clone medications.              
+
+
+
+ &gt; Main Page (http://offers.tritech.com/EMS_CC_Nov11_Main.html)
+
+ &gt; Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Nov11_AlertUpdates.html)
+ 
+ &gt; Products &amp; Services (http://offers.tritech.com/EMS_CC_Nov11_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Nov11_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Nov11_ClientGoLives.html)
+
+ &gt; www.tritech.com (http://www.tritech.com)
+
+ 
+CAM CONTACTS
+Brenda Taylor
+800.537.3927 x6233
+brenda.taylor@tritech.com
+ 
+
+Michele Duwe
+800.537.3927 x6261
+michele.duwe@tritech.com 
+ 
+  
+  
+ 
+ 
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

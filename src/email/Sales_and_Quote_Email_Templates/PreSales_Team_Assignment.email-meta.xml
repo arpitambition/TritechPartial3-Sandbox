@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification for when a pre-sales team has been assigned to an Opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>PreSales Team Assignment</name>
+    <style>none</style>
+    <subject>ASSIGNED - You have been assigned to the RFP Team - CAD/Mobile/911</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

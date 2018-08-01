@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>City of Allen GoLive.Email</name>
+    <style>none</style>
+    <subject>City of Allen Successfully Goes Live with TriTech’s Computer Aided Dispatch and Mobile Solutions</subject>
+    <textOnly>Press Release
+City of Allen Successfully Goes Live with TriTech’s Computer Aided Dispatch and Mobile Solutions
+ 
+ New public safety solution provides quicker and more efficient emergency response for rapidly growing city in Texas
+ 
+ August 14, 2012
+SAN DIEGO, CA (August 14, 2012) – TriTech Software Systems &lt;http://www.tritech.com/&gt; (TriTech) proudly announces the successful implementation of its computer aided dispatch (CAD) and mobile solution for the City of Allen, Texas. The integrated CAD and mobile solutions serve as the cornerstone of the City of Allen’s technology initiatives adopted to improve overall public safety operations.  
+
+“With the new TriTech software, our emergency operations are more efficient,” says Sid Hudson, Director of Information Technology for the City of Allen. “Through the integrated mapping and automatic vehicle locator (AVL), our dispatchers know exactly where our units are so we are able to respond more quickly.” 
+
+Within the past few years, the City of Allen has experienced a tremendous amount of residential and retail growth. The City began to explore new technology solutions to provide public safety departments with updated tools to explore its growing needs and automate many processes which were previously manual.  
+
+Hudson continues, “During implementation, we reviewed our internal procedures and discovered many ways that we can automate processes and remove paper shuffling. With this advanced technology, we are providing our police and fire departments with better tools to improve emergency response.”
+
+“TriTech is committed to client success and our systems are designed to enhance our client’s operations.  We are very pleased that the City of Allen is experiencing considerable improvements from our CAD and mobile software,” says Michael Nabors, Senior Vice President of Operations for TriTech.  “By working in close partnership with the City of Allen, we are able to provide a robust public safety system to effectively service their citizens today and ensure continued progress toward further operational improvements into the future. 
+_______________
+
+About TriTech Software Systems
+ TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire, or EMS.
+ 
+ TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting, and billing.
+ 
+ For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

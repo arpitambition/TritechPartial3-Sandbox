@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-NC085_July17-18_2012.Invitation</name>
+    <style>none</style>
+    <subject>Billing Software Group Training in Charlotte, NC on July 17-18, 2012</subject>
+    <textOnly>Charlotte, NC | July 17-18, 2012
+Billing Software Group Training in Your Area
+ 
+One of the best ways to improve your knowledge and skills of your Billing Software is through hands-on group training. Regular training not only helps your billers learn how to use the software more effectively and efficiently, but often also helps your service become more profitable. 
+
+DATE: July 17-18, 2012 (2  full days of training)
+HOSTS: MEDIC-Mecklenburg EMS (Charlotte, NC)
+COSTS: $500
+SAMPLE AGENDA: &lt;link to updated agenda&gt;
+
+
+
+REGISTER:
+http://offers.tritech.com/SGTNC085_July17-18_2012_Registration.html
+
+This course has been approved  by the National Academy of Ambulance Coding (NAAC™) for 11.0 continuing  education units
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

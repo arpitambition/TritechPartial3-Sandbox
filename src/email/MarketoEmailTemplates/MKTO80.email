@@ -1,0 +1,263 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Generic Template - Left Sidebar</title>
+
+<style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('footer-bg.gif');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #d1d3d4;
+         height: 66px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #FFFFFF;
+         line-height: 16px;
+         margin: 0;
+         padding: 5px;
+      }
+</style>
+</head>
+<body ><table class="bg1" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="center">
+<table class="bg2" border="0" cellspacing="0" cellpadding="0" width="600">
+<tbody>
+<tr>
+<td class="permission" align="left">
+<p>You're receiving this newsletter because of your relationship with TriTech Software Systems.</p>
+</td>
+</tr>
+<tr>
+<td class="header" align="left"><img src="http://offers.tritech.com/rs/ortivusna/images/TechComm_Banner_600x150.jpg" alt="" /><br /></td>
+</tr>
+<tr>
+<td class="body" valign="top">
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="sidebar" width="600" align="left" valign="top"><br />
+<h3><span style="color: #888888; font-size: 18px;">POSTED 10.11.11&nbsp;</span></h3>
+<h3><span style="color: #00adef;"><br /></span>
+<p><strong><span style="font-family: 'Arial', 'sans-serif'; color: #0065cc; font-size: 13.5pt;">Customer Thursdays and Engineering Level Support</span></strong></p>
+<p><span style="font-size: 12px;">&nbsp;</span></p>
+<div>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;">Dear Clients,</span></p>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;">&nbsp;</span></p>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;">I would like to take this opportunity to provide you with an update on recent process improvements implemented at the San Diego office to help us expedite the resolution of your support incidents.&nbsp; These 
+updates were presented by Chris Maloney during his opening presentation&nbsp; at the 2011 TriCon Conference, but I wanted to send this follow-up communication to ensure you have been informed of these updates, in case you were unable to attend this year&rsquo;s annual conference.</span></p>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;">The Customer Satisfaction Survey completed early September indicated that improving the turnaround time to resolve your issues is one of your main concerns.&nbsp; These results reaffirmed our focus to deploy 
+several service initiatives for improvements in this area.&nbsp; Please read the full <a href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=761">communication</a> to learn about the process changes we have implemented to positively influence our 
+response time and enhance our ability to resolve your tickets.&nbsp; You may access this communication via the Myvisinet Support site under Documentation | General Documents | Customer Service or by clicking on the <a 
+href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=761">link</a> included on this email</span></p>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;">Sincerely, </span></p>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;"><br />Dora Wood<br />Technical Services Manager | VisiNet Solutions<br />TriTech Software Systems | <a href="http://www.tritech.com">www.tritech.com</a><br />Direct: 858.799.7430 | Mobile: 619.889.6270<br />Fax: 
+858.799.7010 | Direct Support: 800.847.4223<br />Support Line: 800 VISICAD <br /></span></p>
+<p><span style="font-family: 'Arial', 'sans-serif'; color: #333333; font-size: 9pt;">&nbsp;<u><a href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=761"><span style="color: #680606;">Full Article</span></a></u>&nbsp;| <u><a 
+href="http://mkto-a0080.com/track?type=click&amp;enid=bWFpbGluZ2lkPW9ydGl2dXNuYUJldGFjdXN0LS0tLTE4OTYtcHJvZC0zMTAyJm1lc3NhZ2VpZD0wJmRhdGFiYXNlaWQ9MzEwMiZzZXJpYWw9MTI5OTM2NzM5NyZlbWFpbGlkPXRvbnl2QHRyaXRlY2guY29tJnVzZXJpZD0wJmV4dHJhPSYmJg==&amp;&amp;&amp;mailto:support@tritech.com?mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hBkmK7qJK1TtuMFUGpsqOOaMFQsGBoNvwQ%3D%3D"><span 
+style="color: #680606;">Email Feedback</span></a></u></span></p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+</div>
+<p>&nbsp;</p>
+</h3>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="footer" height="61" align="left" valign="middle">
+<div style="font-size: 10px;"><br /><br />Share this message with your colleagues or visit us at <a href="http://www.tritech.com/default.aspx" target="_blank">www.tritech.com</a><br /><img style="vertical-align: bottom;" title="TriTech logo" dir="ltr" 
+src="http://offers.tritech.com/rs/ortivusna/images/logo_TriTech_150px.gif" alt="TriTech logo" width="150" height="60" align="right" /><br /><a href="http://www.facebook.com/pages/TriTech-Software-Systems/89416081839" target="_blank"><img 
+src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg" alt="" /></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg" alt="" /></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" 
+target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg" alt="" /></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo_sm.jpg" alt="" /></a><br />This email was sent by TriTech 
+Software Systems<br />9860 Mesa Rim Road | San Diego | CA | 92121<br /><br /><br /></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<div id="_mcePaste" class="mcePaste" style="position: absolute; width: 1px; height: 1px; overflow: hidden; top: 0px; left: -10000px;">﻿</div>
+</body>
+</html>

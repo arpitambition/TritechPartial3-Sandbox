@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_PowerPhone_MA-EMD-Mandate.Email</name>
+    <style>none</style>
+    <subject>New MA EMD Mandate Compliance Tools</subject>
+    <textOnly>Perfect Harmony
+Two Great Products Working Together
+
+
+With the new MA EMD mandate scheduled for July 1, 2012, let PowerPhone Total Response and TriTech Imc Solutions CAD get you where you need to be - all without spending a dime!*         
+                          
+POWERPHONE
+- Structured, incident-specific questioning
+- Ability to make multi-service calls easier and more efficient
+- Response Advisor makes objective recommendations then passes to CAD seamlessly
+- QA module integrated to enforce operational standards
+
+
+TRITECH SOFTWARE SYSTEMS: IMC SOLUTIONS
+- Call reasons automatically initiate Total Response
+- CAD location and calling party auto backfill into Total Response
+- Questions and answers from Total Response are automatically saved in CAD EMD Tab
+- Questions and answers updated to mobile for up-to-date information to first responders
+
+
+Together, PowerPone and TriTech Imc Solutions make meeting the EMD Mandate easy and affordable.
+
+Contact us today at:
+PowerPhone: Eric Frey | efrey@powerphone.com  | 203.350.0335
+TriTech/Imc Solutions: David Bell | david.bell@tritech.com | 508.839.6445 x104
+
+
+*Total Response software and Imc Interface costs are covered through State Grants.
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

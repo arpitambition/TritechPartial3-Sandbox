@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Template Product Category</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Template Product Categorys</value>
+    </caseValues>
+    <fields>
+        <help><!-- This field is used to control the order in which a product category will display in the template. The lowest the number appear first in the template. The highest number appears last in the template. --></help>
+        <label><!-- Template DisplayOrder --></label>
+        <name>CLDY_Template_DisplayOrder__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field is used to store the section in the template that the product will display in. --></help>
+        <label><!-- Template Section --></label>
+        <name>CLDY_Template_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Sort Order --></label>
+        <name>CLDY_Template_Sort_Order__c</name>
+    </fields>
+    <fields>
+        <help><!-- This field determines which sub-section the product will display in the template. --></help>
+        <label><!-- Template Subsection --></label>
+        <name>CLDY_Template_Subsection__c</name>
+    </fields>
+    <layouts>
+        <layout>Template Product Category Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Portal xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <admin>jen.vansant@tritech.com</admin>
+    <defaultLanguage>en_US</defaultLanguage>
+    <description>Master Customer Portal</description>
+    <emailSenderAddress>jen.vansant@tritech.com</emailSenderAddress>
+    <emailSenderName>jen.vansant@tritech.com</emailSenderName>
+    <enableSelfCloseCase>true</enableSelfCloseCase>
+    <footerDocument>Tritech_Customer_Portal/Tritech_Footer.htm</footerDocument>
+    <forgotPassTemplate>unfiled$public/ChangePwdEmail</forgotPassTemplate>
+    <headerDocument>Tritech_Customer_Portal/Tritech_Header.html</headerDocument>
+    <isSelfRegistrationActivated>false</isSelfRegistrationActivated>
+    <loginHeaderDocument>Tritech_Customer_Portal/Tritech_Login_Message.html</loginHeaderDocument>
+    <logoDocument>Tritech_Customer_Portal/Tritech_Portal_Logo.png</logoDocument>
+    <logoutUrl>http://www.tritech.com</logoutUrl>
+    <newPassTemplate>unfiled$public/ChangePwdEmail</newPassTemplate>
+    <newUserTemplate>unfiled$public/TriTech_New_Portal_User_Notification</newUserTemplate>
+    <selfRegUserDefaultProfile>tritech portal standard user</selfRegUserDefaultProfile>
+    <selfRegUserTemplate>unfiled$public/SelfRegUserEmail</selfRegUserTemplate>
+    <showActionConfirmation>true</showActionConfirmation>
+    <type>CustomerSuccess</type>
+</Portal>

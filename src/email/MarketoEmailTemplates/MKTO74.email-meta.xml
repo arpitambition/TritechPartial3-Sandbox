@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>IACP 2011.Invite</name>
+    <style>none</style>
+    <subject>IACP 2011 - Win an iPad2 at TriTech Booth 2019</subject>
+    <textOnly>Join Us for the 118th Annual Conference  l  October 21-26  l  Chicago, IL
+International Association of Chiefs of Police
+
+
+ENTER TO WIN AN IPAD 2!
+Visit http://www.tritech.com/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=131 and tell us what you think the Future of CAD is and we&apos;ll enter you to win an iPad 2!
+
+
+
+We get it - you have too many calls, not enough staff and too much pressure. Making sense of the future is our business. We&apos;re helping public safety agencies reshape the way they manage information to help them focus on what&apos;s important. Do you think your 9-1-1 center needs to be reshaped? 
+
+Visit TriTech Booth 2019 to see how our CAD and Mobile solutions are helping our clients reshape the way they manage information.
+
+
+See It . Believe It. Experience It. Booth #2019.  
+
+ 
+ 
+Copy and paste this URL into any web browswer:
+http://www.tritech.com/index.php?option=com_k2&amp;view=itemlist&amp;task=category&amp;id=131
+for more information.
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

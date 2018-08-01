@@ -1,0 +1,17 @@
+{!SalesForce_Helpdesk__c.OwnerFirstName},<br> <br> 
+
+Your request will be presented at the next Pricing Committee meeting, which occurs the 2nd Tuesday of each month unless noted otherwise.  You are currently scheduled for the meeting to be held on:<br><br>
+
+<b>{!SalesForce_Helpdesk__c.Date_of_PC_Meeting__c}</b><br><br>
+
+
+Please be prepared to discuss your proposed item including changes to SalesForce/Endeavor, marketing collateral, and project management impact as appropriate to obtain committee approval.<br> <br> 
+
+You can review your original request here:  {!SalesForce_Helpdesk__c.Link}<br><br> 
+
+Thank you,<br><br>
+
+Sam Perkins<br>
+Pricing Manager<br>
+TriTech Software Systems | www.tritech.com<br>
+Mobile: (858) 220-0432

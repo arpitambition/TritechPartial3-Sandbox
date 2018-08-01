@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>NH_Resetting-IBR-Submission.Email2</name>
+    <style>none</style>
+    <subject>Imc Solutions Client</subject>
+    <textOnly>November 9, 2011
+Resetting IBR Submission for Possible Multiple Arrestee Indicator
+
+
+Attention New Hampshire TriTech-Imc Clients:
+
+Please read the important document regarding an issue that has been resolved involving “Resetting IBR Submission for Possible Multiple Arrestee Indicator” and steps your agency needs to take to address this. Build 18.80 is now available for download from the MyImc web site.
+
+Copy and paste into a web browser: http://www.tritechems.com/documents/IMC_Resetting-IBR-Submission.pdf
+
+As always, TriTech takes any client-reported issues seriously. This issue was reported, investigated and resolved as quickly as possible. We apologize for any inconvenience this may cause. We are committed to making TriTech-Imc the best public safety software on the market.”
+
+Sincerely, 
+Dennis Perron
+Director of Client Services | Imc Solutions</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

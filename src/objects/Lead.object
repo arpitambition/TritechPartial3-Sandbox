@@ -1,0 +1,3009 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>AddToCampaign</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CallHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ChangeStatus</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Convert</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>EmailHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>FindDup</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>ListClean</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SmsHighlightAction</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>true</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <fields>
+        <fullName>AFR_Installed_Year2__c</fullName>
+        <externalId>false</externalId>
+        <label>AFR Installed Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AFR_Installed_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>AFR Installed Year</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AFR_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>AFR Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>AFR_WMP__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AFR</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Account_Service_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Account Service Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corrections</fullName>
+                    <default>false</default>
+                    <label>Corrections</label>
+                </value>
+                <value>
+                    <fullName>EMS</fullName>
+                    <default>false</default>
+                    <label>EMS</label>
+                </value>
+                <value>
+                    <fullName>Fire</fullName>
+                    <default>false</default>
+                    <label>Fire</label>
+                </value>
+                <value>
+                    <fullName>Hospital</fullName>
+                    <default>false</default>
+                    <label>Hospital</label>
+                </value>
+                <value>
+                    <fullName>Multi-Agency</fullName>
+                    <default>false</default>
+                    <label>Multi-Agency</label>
+                </value>
+                <value>
+                    <fullName>Police</fullName>
+                    <default>false</default>
+                    <label>Police</label>
+                </value>
+                <value>
+                    <fullName>PSAP</fullName>
+                    <default>false</default>
+                    <label>PSAP</label>
+                </value>
+                <value>
+                    <fullName>Sheriff</fullName>
+                    <default>false</default>
+                    <label>Sheriff</label>
+                </value>
+                <value>
+                    <fullName>University Police</fullName>
+                    <default>false</default>
+                    <label>University Police</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Act_On_Lead_Score__c</fullName>
+        <externalId>false</externalId>
+        <label>Act On Lead Score</label>
+        <precision>6</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Active__c</fullName>
+        <defaultValue>true</defaultValue>
+        <description>Active Prospect/Lead</description>
+        <externalId>false</externalId>
+        <label>Active</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Address</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Agency_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Agency Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Corrections</fullName>
+                    <default>false</default>
+                    <label>Corrections</label>
+                </value>
+                <value>
+                    <fullName>EMS</fullName>
+                    <default>false</default>
+                    <label>EMS</label>
+                </value>
+                <value>
+                    <fullName>Fire</fullName>
+                    <default>false</default>
+                    <label>Fire</label>
+                </value>
+                <value>
+                    <fullName>Fire/EMS</fullName>
+                    <default>false</default>
+                    <label>Fire/EMS</label>
+                </value>
+                <value>
+                    <fullName>Hospital</fullName>
+                    <default>false</default>
+                    <label>Hospital</label>
+                </value>
+                <value>
+                    <fullName>Multi-Agency</fullName>
+                    <default>false</default>
+                    <label>Multi-Agency</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Police</fullName>
+                    <default>false</default>
+                    <label>Police</label>
+                </value>
+                <value>
+                    <fullName>PSAP</fullName>
+                    <default>false</default>
+                    <label>PSAP</label>
+                </value>
+                <value>
+                    <fullName>Sheriff</fullName>
+                    <default>false</default>
+                    <label>Sheriff</label>
+                </value>
+                <value>
+                    <fullName>University Police</fullName>
+                    <default>false</default>
+                    <label>University Police</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>AnnualRevenue</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Area_Served_Sq_Miles__c</fullName>
+        <externalId>false</externalId>
+        <label>Area Served (Sq. Miles)</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Billing_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Billing Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Budget_Amount__c</fullName>
+        <externalId>false</externalId>
+        <label>Budget Amount</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>CAD_Dispatcher_Call_Taker_Seats__c</fullName>
+        <externalId>false</externalId>
+        <label>CAD Dispatcher/Call Taker Seats</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CAD_Install_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>CAD Install Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>CAD_Installed_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>CAD Installed Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CAD_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>CAD Vendor</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CAD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CAD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>CAD_to_CAD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>CAD-to-CAD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Call_Volume_Annual__c</fullName>
+        <externalId>false</externalId>
+        <label>Call Volume (Annual)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>CampaignId</fullName>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Career_Fire_EMS__c</fullName>
+        <externalId>false</externalId>
+        <label>Career Fire EMS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Civil_Process__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Civil Process</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comm_Center2__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Comm Center</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Comm_Center__c</fullName>
+        <externalId>false</externalId>
+        <label>Comm Center</label>
+        <length>15</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Company</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Consolidation__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Consolidation</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Cross_Agency_Data_Sharing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Cross Agency Data Sharing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Current_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Current Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>DB_Created_Date_without_Time__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Created Date without Time</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>DB_Lead_Age__c</fullName>
+        <description>This is a field that is installed by and used with the Adoption Dashboard AppExchange package. If your org already has a similar field, you can change the reports that are part of the Adoption Dashboard package to use your custom field and then delete this field.</description>
+        <externalId>false</externalId>
+        <formula>NOW() - LastModifiedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>DB Lead Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <label>Department</label>
+        <length>80</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DoNotCall</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>EMS_Billing__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>EMS Billing</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EMS_CAD__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>EMS CAD</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>EMS_ePCR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>EMS ePCR</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Email</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Expected_Date_of_Purchase__c</fullName>
+        <externalId>false</externalId>
+        <label>Expected Date of Purchase</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Fax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Fire_RMS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Fire RMS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Forecast_Purchase__c</fullName>
+        <externalId>false</externalId>
+        <label>Forecast Purchase</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>1-3 months</fullName>
+                    <default>false</default>
+                    <label>1-3 months</label>
+                </value>
+                <value>
+                    <fullName>4-6 months</fullName>
+                    <default>false</default>
+                    <label>4-6 months</label>
+                </value>
+                <value>
+                    <fullName>7-8 months</fullName>
+                    <default>false</default>
+                    <label>7-8 months</label>
+                </value>
+                <value>
+                    <fullName>9-12 months</fullName>
+                    <default>false</default>
+                    <label>9-12 months</label>
+                </value>
+                <value>
+                    <fullName>&gt; 12 months</fullName>
+                    <default>false</default>
+                    <label>&gt; 12 months</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfEmail</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>HasOptedOutOfFax</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Has_AFR__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>AFR Installed</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IMC_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>IMC Products</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Administration</fullName>
+                    <default>false</default>
+                    <label>Administration</label>
+                </value>
+                <value>
+                    <fullName>CAD-Calls for Service</fullName>
+                    <default>false</default>
+                    <label>CAD-Calls for Service</label>
+                </value>
+                <value>
+                    <fullName>CAD-Full Dispatch</fullName>
+                    <default>false</default>
+                    <label>CAD-Full Dispatch</label>
+                </value>
+                <value>
+                    <fullName>Civil Process</fullName>
+                    <default>false</default>
+                    <label>Civil Process</label>
+                </value>
+                <value>
+                    <fullName>Cross Agency Data Sharing</fullName>
+                    <default>false</default>
+                    <label>Cross Agency Data Sharing</label>
+                </value>
+                <value>
+                    <fullName>EMS</fullName>
+                    <default>false</default>
+                    <label>EMS</label>
+                </value>
+                <value>
+                    <fullName>Fire Dispatch</fullName>
+                    <default>false</default>
+                    <label>Fire Dispatch</label>
+                </value>
+                <value>
+                    <fullName>Fire Records</fullName>
+                    <default>false</default>
+                    <label>Fire Records</label>
+                </value>
+                <value>
+                    <fullName>Imaging</fullName>
+                    <default>false</default>
+                    <label>Imaging</label>
+                </value>
+                <value>
+                    <fullName>IMC Mobile Switch</fullName>
+                    <default>false</default>
+                    <label>IMC Mobile Switch</label>
+                </value>
+                <value>
+                    <fullName>IMC State Interface</fullName>
+                    <default>false</default>
+                    <label>IMC State Interface</label>
+                </value>
+                <value>
+                    <fullName>IMC Wireless Client</fullName>
+                    <default>false</default>
+                    <label>IMC Wireless Client</label>
+                </value>
+                <value>
+                    <fullName>Investigative</fullName>
+                    <default>false</default>
+                    <label>Investigative</label>
+                </value>
+                <value>
+                    <fullName>Jail</fullName>
+                    <default>false</default>
+                    <label>Jail</label>
+                </value>
+                <value>
+                    <fullName>Mapping</fullName>
+                    <default>false</default>
+                    <label>Mapping</label>
+                </value>
+                <value>
+                    <fullName>Pervasive</fullName>
+                    <default>false</default>
+                    <label>Pervasive</label>
+                </value>
+                <value>
+                    <fullName>Police Records</fullName>
+                    <default>false</default>
+                    <label>Police Records</label>
+                </value>
+                <value>
+                    <fullName>Quest Contact Manager</fullName>
+                    <default>false</default>
+                    <label>Quest Contact Manager</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Incident_Volume__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Monthly</inlineHelpText>
+        <label>Incident Volume</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Industry</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Jail_Beds__c</fullName>
+        <externalId>false</externalId>
+        <label>Jail Beds</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Jail__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Jail</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Jigsaw</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>LastTransferDate</fullName>
+    </fields>
+    <fields>
+        <fullName>Law_Civilian_Personnel__c</fullName>
+        <externalId>false</externalId>
+        <label>Law - Civilian Personnel</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Law_RMS__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Law RMS</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>LeadSource</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Details__c</fullName>
+        <description>Syncs from ActOn hidden field called &quot;Lead Details&quot;</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Syncs from ActOn hidden field called &quot;Lead Details&quot;</inlineHelpText>
+        <label>Lead Details</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Lead_Form_Campaign_Name__c</fullName>
+        <description>Used in automated lead assignments</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Syncs from a lead form with the text of the campaign name</inlineHelpText>
+        <label>Lead Form Campaign Name</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Market_Tier__c</fullName>
+        <externalId>false</externalId>
+        <label>Market Tier</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>0</fullName>
+                    <default>false</default>
+                    <label>0</label>
+                </value>
+                <value>
+                    <fullName>1</fullName>
+                    <default>false</default>
+                    <label>1</label>
+                </value>
+                <value>
+                    <fullName>2</fullName>
+                    <default>false</default>
+                    <label>2</label>
+                </value>
+                <value>
+                    <fullName>3</fullName>
+                    <default>false</default>
+                    <label>3</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MobilePhone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Mobile_Install_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Install Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Mobile_Installed_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Installed Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mobile_Units__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Units</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mobile_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>Mobile Vendor</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Mobile__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Mobile</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Notes__c</fullName>
+        <externalId>false</externalId>
+        <label>Notes</label>
+        <length>32768</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>NumberOfEmployees</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Number_of_Sworn_Personnel__c</fullName>
+        <externalId>false</externalId>
+        <label>Number of Sworn Personnel</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opt_Out_Company_Client_Product_News__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt Out - Company, Client &amp; Product News</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opt_Out_Technical_and_Product_Bulletins__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt Out - Technical &amp; Product Bulletins</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opt_Out_Tradeshows_and_Demos__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt Out - Tradeshows and Demos</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Opt_Out_Training_Information__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Opt Out - Training Information</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Original_Budget__c</fullName>
+        <externalId>false</externalId>
+        <label>Original Budget</label>
+        <precision>10</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Other_Individual_Contacts__c</fullName>
+        <externalId>false</externalId>
+        <label>Other Individual Contacts</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>OwnerId</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Owner_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>OwnerId 
+
+&amp; MID(&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ012345&quot;,(
+    IF(FIND(MID(OwnerId,1,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,1,0)
+    +IF(FIND(MID(OwnerId,2,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;) &gt;0,2,0)
+    +IF(FIND(MID(OwnerId,3,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,4,0)
+    +IF(FIND(MID (OwnerId,4,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,8,0)
+    +IF (FIND(MID(OwnerId,5,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,16,0)
+    )+1,1)
+&amp; MID(&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ012345&quot;,(
+    IF(FIND(MID(OwnerId,6,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;) &gt;0,1,0)
+    +IF(FIND(MID(OwnerId,7,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,2,0)
+    +IF(FIND(MID (OwnerId,8,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,4,0)
+    +IF (FIND(MID(OwnerId,9,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,8,0)
+    +IF(FIND(MID(OwnerId,10,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;) &gt;0,16,0)
+    )+1,1)
+&amp; MID (&quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ012345&quot;,(
+    IF(FIND(MID (OwnerId,11,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,1,0)
+    +IF(FIND(MID(OwnerId,12,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,2,0)
+    +IF(FIND(MID(OwnerId,13,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;) &gt;0,4,0)
+    +IF(FIND(MID(OwnerId,14,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,8,0)
+    +IF(FIND(MID (OwnerId,15,1), &quot;ABCDEFGHIJKLMNOPQRSTUVWXYZ&quot;)&gt;0,16,0)
+    )+1,1)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Phone</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Population_of_Area_Served__c</fullName>
+        <externalId>false</externalId>
+        <label>Population of Area Served</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Portal_Request__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Portal Request</label>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_s_of_Interest__c</fullName>
+        <externalId>false</externalId>
+        <label>Product(s) of Interest</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>911</fullName>
+                    <default>false</default>
+                    <label>911</label>
+                </value>
+                <value>
+                    <fullName>CAD</fullName>
+                    <default>false</default>
+                    <label>CAD</label>
+                </value>
+                <value>
+                    <fullName>FBR</fullName>
+                    <default>false</default>
+                    <label>FBR</label>
+                </value>
+                <value>
+                    <fullName>Fire Records</fullName>
+                    <default>false</default>
+                    <label>Fire Records</label>
+                </value>
+                <value>
+                    <fullName>IQ/Analytics</fullName>
+                    <default>false</default>
+                    <label>IQ/Analytics</label>
+                </value>
+                <value>
+                    <fullName>Jail</fullName>
+                    <default>false</default>
+                    <label>Jail</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>RMS</fullName>
+                    <default>false</default>
+                    <label>RMS</label>
+                </value>
+                <value>
+                    <fullName>TotalCommand</fullName>
+                    <default>false</default>
+                    <label>TotalCommand</label>
+                </value>
+                <value>
+                    <fullName>Total Enforcement</fullName>
+                    <default>false</default>
+                    <label>Total Enforcement</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>RMS_Install_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>RMS Install Date</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>RMS_Installed_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>RMS Installed Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RMS_Users__c</fullName>
+        <externalId>false</externalId>
+        <label>RMS Users</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RMS_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>RMS Vendor</label>
+        <length>25</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Rating</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Reason_for_Portal_Access__c</fullName>
+        <externalId>false</externalId>
+        <label>Reason for Portal Access</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Role__c</fullName>
+        <externalId>false</externalId>
+        <label>Role</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Authorized User</fullName>
+                    <default>false</default>
+                    <label>Authorized User</label>
+                </value>
+                <value>
+                    <fullName>Consultant</fullName>
+                    <default>false</default>
+                    <label>Consultant</label>
+                </value>
+                <value>
+                    <fullName>Customer Staff</fullName>
+                    <default>false</default>
+                    <label>Customer Staff</label>
+                </value>
+                <value>
+                    <fullName>Director/Chief/Owner</fullName>
+                    <default>false</default>
+                    <label>Director/Chief/Owner</label>
+                </value>
+                <value>
+                    <fullName>GIS Contact</fullName>
+                    <default>false</default>
+                    <label>GIS Contact</label>
+                </value>
+                <value>
+                    <fullName>IT Contact</fullName>
+                    <default>false</default>
+                    <label>IT Contact</label>
+                </value>
+                <value>
+                    <fullName>Project Manager</fullName>
+                    <default>false</default>
+                    <label>Project Manager</label>
+                </value>
+                <value>
+                    <fullName>Secondary Contact</fullName>
+                    <default>false</default>
+                    <label>Secondary Contact</label>
+                </value>
+                <value>
+                    <fullName>Upgrade Contact</fullName>
+                    <default>false</default>
+                    <label>Upgrade Contact</label>
+                </value>
+                <value>
+                    <fullName>Vendor</fullName>
+                    <default>false</default>
+                    <label>Vendor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>SFGA__CorrelationID__c</fullName>
+        <defaultValue>&quot;none&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Correlation ID Field is used by Salesforce for Google AdWords for automatic correlation of web information with new leads created through a standard web-to-lead form</description>
+        <externalId>false</externalId>
+        <label>CorrelationID</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>SFGA__Correlation_Data__c</fullName>
+        <defaultValue>&quot;none&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>The Correlation Data field is designed for use by Salesforce for Google AdWords to store all relevant lead tracking information about a web generated lead</description>
+        <externalId>false</externalId>
+        <label>Correlation Data</label>
+        <length>32000</length>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>SFGA__Web_Source__c</fullName>
+        <defaultValue>&quot;none&quot;</defaultValue>
+        <deprecated>false</deprecated>
+        <description>This field is designed for future use by Salesforce for Google AdWords as an alternative to the Lead Source field for web generated leads.</description>
+        <externalId>false</externalId>
+        <label>Web Source</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Sales_Group__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>IMC</fullName>
+                    <default>false</default>
+                    <label>IMC</label>
+                </value>
+                <value>
+                    <fullName>Inform</fullName>
+                    <default>false</default>
+                    <label>Inform</label>
+                </value>
+                <value>
+                    <fullName>IQ</fullName>
+                    <default>false</default>
+                    <label>IQ</label>
+                </value>
+                <value>
+                    <fullName>Respond</fullName>
+                    <default>false</default>
+                    <label>Respond</label>
+                </value>
+                <value>
+                    <fullName>Zuercher</fullName>
+                    <default>false</default>
+                    <label>Zuercher</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Service_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Service Type</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>911</fullName>
+                    <default>false</default>
+                    <label>911</label>
+                </value>
+                <value>
+                    <fullName>Billing Services</fullName>
+                    <default>false</default>
+                    <label>Billing Services</label>
+                </value>
+                <value>
+                    <fullName>EMS</fullName>
+                    <default>false</default>
+                    <label>EMS</label>
+                </value>
+                <value>
+                    <fullName>Federal/Military</fullName>
+                    <default>false</default>
+                    <label>Federal/Military</label>
+                </value>
+                <value>
+                    <fullName>Fire</fullName>
+                    <default>false</default>
+                    <label>Fire</label>
+                </value>
+                <value>
+                    <fullName>Hospital</fullName>
+                    <default>false</default>
+                    <label>Hospital</label>
+                </value>
+                <value>
+                    <fullName>Jail</fullName>
+                    <default>false</default>
+                    <label>Jail</label>
+                </value>
+                <value>
+                    <fullName>Law</fullName>
+                    <default>false</default>
+                    <label>Law</label>
+                </value>
+                <value>
+                    <fullName>Partner/Vendor</fullName>
+                    <default>false</default>
+                    <label>Partner/Vendor</label>
+                </value>
+                <value>
+                    <fullName>Competitor</fullName>
+                    <default>false</default>
+                    <label>Competitor</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>4</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <trackFeedHistory>true</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>TSS_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>TSS Products</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CAD – Add-On</fullName>
+                    <default>false</default>
+                    <label>CAD – Add-On</label>
+                </value>
+                <value>
+                    <fullName>CAD – Add-On &amp; Interface</fullName>
+                    <default>false</default>
+                    <label>CAD – Add-On &amp; Interface</label>
+                </value>
+                <value>
+                    <fullName>CAD – Fire/Law/RMS/Mobile</fullName>
+                    <default>false</default>
+                    <label>CAD – Fire/Law/RMS/Mobile</label>
+                </value>
+                <value>
+                    <fullName>CAD – Fire/RMS</fullName>
+                    <default>false</default>
+                    <label>CAD – Fire/RMS</label>
+                </value>
+                <value>
+                    <fullName>CAD – Fire/RMS/Mobile</fullName>
+                    <default>false</default>
+                    <label>CAD – Fire/RMS/Mobile</label>
+                </value>
+                <value>
+                    <fullName>CAD - Law</fullName>
+                    <default>false</default>
+                    <label>CAD - Law</label>
+                </value>
+                <value>
+                    <fullName>CAD – Law/RMS</fullName>
+                    <default>false</default>
+                    <label>CAD – Law/RMS</label>
+                </value>
+                <value>
+                    <fullName>CAD – Law/RMS/Mobile</fullName>
+                    <default>false</default>
+                    <label>CAD – Law/RMS/Mobile</label>
+                </value>
+                <value>
+                    <fullName>CAD – Mobile</fullName>
+                    <default>false</default>
+                    <label>CAD – Mobile</label>
+                </value>
+                <value>
+                    <fullName>CAD – Modification</fullName>
+                    <default>false</default>
+                    <label>CAD – Modification</label>
+                </value>
+                <value>
+                    <fullName>CAD – Refresh</fullName>
+                    <default>false</default>
+                    <label>CAD – Refresh</label>
+                </value>
+                <value>
+                    <fullName>Interface</fullName>
+                    <default>false</default>
+                    <label>Interface</label>
+                </value>
+                <value>
+                    <fullName>Regional Training Seminar</fullName>
+                    <default>false</default>
+                    <label>Regional Training Seminar</label>
+                </value>
+                <value>
+                    <fullName>Services Add-On</fullName>
+                    <default>false</default>
+                    <label>Services Add-On</label>
+                </value>
+                <value>
+                    <fullName>Stratus</fullName>
+                    <default>false</default>
+                    <label>Stratus</label>
+                </value>
+                <value>
+                    <fullName>Stratus Upgrade</fullName>
+                    <default>false</default>
+                    <label>Stratus Upgrade</label>
+                </value>
+                <value>
+                    <fullName>Technology Refresh</fullName>
+                    <default>false</default>
+                    <label>Technology Refresh</label>
+                </value>
+                <value>
+                    <fullName>Training Services</fullName>
+                    <default>false</default>
+                    <label>Training Services</label>
+                </value>
+                <value>
+                    <fullName>VisiNet Mobile</fullName>
+                    <default>false</default>
+                    <label>VisiNet Mobile</label>
+                </value>
+                <value>
+                    <fullName>VisiNet Law/RMS</fullName>
+                    <default>false</default>
+                    <label>VisiNet Law/RMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Title</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Total_Fire_EMS__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Fire EMS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Total_Sworn_Officers__c</fullName>
+        <externalId>false</externalId>
+        <label>Total Sworn Officers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Trade_Show__c</fullName>
+        <externalId>false</externalId>
+        <label>Trade Show</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>AAA</fullName>
+                    <default>false</default>
+                    <label>AAA</label>
+                </value>
+                <value>
+                    <fullName>APCO</fullName>
+                    <default>false</default>
+                    <label>APCO</label>
+                </value>
+                <value>
+                    <fullName>APCO Atlantic Chapter</fullName>
+                    <default>false</default>
+                    <label>APCO Atlantic Chapter</label>
+                </value>
+                <value>
+                    <fullName>AR APCO/NENA</fullName>
+                    <default>false</default>
+                    <label>AR APCO/NENA</label>
+                </value>
+                <value>
+                    <fullName>AZ APCO/NENA</fullName>
+                    <default>false</default>
+                    <label>AZ APCO/NENA</label>
+                </value>
+                <value>
+                    <fullName>Cal NENA</fullName>
+                    <default>false</default>
+                    <label>Cal NENA</label>
+                </value>
+                <value>
+                    <fullName>Canada APCO</fullName>
+                    <default>false</default>
+                    <label>Canada APCO</label>
+                </value>
+                <value>
+                    <fullName>CO APCO</fullName>
+                    <default>false</default>
+                    <label>CO APCO</label>
+                </value>
+                <value>
+                    <fullName>CPCA</fullName>
+                    <default>false</default>
+                    <label>CPCA</label>
+                </value>
+                <value>
+                    <fullName>CT Chiefs of Police</fullName>
+                    <default>false</default>
+                    <label>CT Chiefs of Police</label>
+                </value>
+                <value>
+                    <fullName>EMS Expo</fullName>
+                    <default>false</default>
+                    <label>EMS Expo</label>
+                </value>
+                <value>
+                    <fullName>EMS Today</fullName>
+                    <default>false</default>
+                    <label>EMS Today</label>
+                </value>
+                <value>
+                    <fullName>FRI</fullName>
+                    <default>false</default>
+                    <label>FRI</label>
+                </value>
+                <value>
+                    <fullName>IACP</fullName>
+                    <default>false</default>
+                    <label>IACP</label>
+                </value>
+                <value>
+                    <fullName>ICC</fullName>
+                    <default>false</default>
+                    <label>ICC</label>
+                </value>
+                <value>
+                    <fullName>LEIM</fullName>
+                    <default>false</default>
+                    <label>LEIM</label>
+                </value>
+                <value>
+                    <fullName>MA (Western) Chiefs of Police</fullName>
+                    <default>false</default>
+                    <label>MA (Western) Chiefs of Police</label>
+                </value>
+                <value>
+                    <fullName>ME Chiefs of Police Assoc</fullName>
+                    <default>false</default>
+                    <label>ME Chiefs of Police Assoc</label>
+                </value>
+                <value>
+                    <fullName>Metro Fire Chiefs</fullName>
+                    <default>false</default>
+                    <label>Metro Fire Chiefs</label>
+                </value>
+                <value>
+                    <fullName>Navigator</fullName>
+                    <default>false</default>
+                    <label>Navigator</label>
+                </value>
+                <value>
+                    <fullName>NEACOP</fullName>
+                    <default>false</default>
+                    <label>NEACOP</label>
+                </value>
+                <value>
+                    <fullName>NECUSA</fullName>
+                    <default>false</default>
+                    <label>NECUSA</label>
+                </value>
+                <value>
+                    <fullName>NENA</fullName>
+                    <default>false</default>
+                    <label>NENA</label>
+                </value>
+                <value>
+                    <fullName>New England Assoc of Fire Chiefs</fullName>
+                    <default>false</default>
+                    <label>New England Assoc of Fire Chiefs</label>
+                </value>
+                <value>
+                    <fullName>NHEDA</fullName>
+                    <default>false</default>
+                    <label>NHEDA</label>
+                </value>
+                <value>
+                    <fullName>NOBLE</fullName>
+                    <default>false</default>
+                    <label>NOBLE</label>
+                </value>
+                <value>
+                    <fullName>NYSACOP</fullName>
+                    <default>false</default>
+                    <label>NYSACOP</label>
+                </value>
+                <value>
+                    <fullName>OH APCO/NENA</fullName>
+                    <default>false</default>
+                    <label>OH APCO/NENA</label>
+                </value>
+                <value>
+                    <fullName>OH - Chiefs of Police</fullName>
+                    <default>false</default>
+                    <label>OH - Chiefs of Police</label>
+                </value>
+                <value>
+                    <fullName>OH Law Enforcement Expo</fullName>
+                    <default>false</default>
+                    <label>OH Law Enforcement Expo</label>
+                </value>
+                <value>
+                    <fullName>OK Chiefs of Police</fullName>
+                    <default>false</default>
+                    <label>OK Chiefs of Police</label>
+                </value>
+                <value>
+                    <fullName>OK Public Safety Conference</fullName>
+                    <default>false</default>
+                    <label>OK Public Safety Conference</label>
+                </value>
+                <value>
+                    <fullName>OK Sheriffs&apos; Association</fullName>
+                    <default>false</default>
+                    <label>OK Sheriffs&apos; Association</label>
+                </value>
+                <value>
+                    <fullName>Pinnacle</fullName>
+                    <default>false</default>
+                    <label>Pinnacle</label>
+                </value>
+                <value>
+                    <fullName>Police Security Expo</fullName>
+                    <default>false</default>
+                    <label>Police Security Expo</label>
+                </value>
+                <value>
+                    <fullName>RI Chiefs of Police</fullName>
+                    <default>false</default>
+                    <label>RI Chiefs of Police</label>
+                </value>
+                <value>
+                    <fullName>Texas APCO</fullName>
+                    <default>false</default>
+                    <label>Texas APCO</label>
+                </value>
+                <value>
+                    <fullName>TN NENA</fullName>
+                    <default>false</default>
+                    <label>TN NENA</label>
+                </value>
+                <value>
+                    <fullName>TX Chiefs of Police</fullName>
+                    <default>false</default>
+                    <label>TX Chiefs of Police</label>
+                </value>
+                <value>
+                    <fullName>TX Sheriffs&apos; Association</fullName>
+                    <default>false</default>
+                    <label>TX Sheriffs&apos; Association</label>
+                </value>
+                <value>
+                    <fullName>WA APCO</fullName>
+                    <default>false</default>
+                    <label>WA APCO</label>
+                </value>
+                <value>
+                    <fullName>WI NENA</fullName>
+                    <default>false</default>
+                    <label>WI NENA</label>
+                </value>
+                <value>
+                    <fullName>WR APCO</fullName>
+                    <default>false</default>
+                    <label>WR APCO</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Tritech_EMS_Products__c</fullName>
+        <externalId>false</externalId>
+        <label>Tritech EMS Products</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>MultiselectPicklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>EMS Billing</fullName>
+                    <default>false</default>
+                    <label>EMS Billing</label>
+                </value>
+                <value>
+                    <fullName>EMS ePCR</fullName>
+                    <default>false</default>
+                    <label>EMS ePCR</label>
+                </value>
+                <value>
+                    <fullName>EMS CAD</fullName>
+                    <default>false</default>
+                    <label>EMS CAD</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+        <visibleLines>5</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Volunteer_Fire_EMS__c</fullName>
+        <externalId>false</externalId>
+        <label>Volunteer Fire EMS</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Website</fullName>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>ePCR_Installed_Year2__c</fullName>
+        <externalId>false</externalId>
+        <label>ePCR Installed Year</label>
+        <length>4</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ePCR_Installed_Year__c</fullName>
+        <externalId>false</externalId>
+        <label>ePCR Installed Year</label>
+        <precision>4</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>ePCR_Vendor__c</fullName>
+        <externalId>false</externalId>
+        <label>ePCR Vendor</label>
+        <length>255</length>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>qualtrics__Last_Survey_Invitation__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Survey Invitation</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>qualtrics__Last_Survey_Response__c</fullName>
+        <deprecated>false</deprecated>
+        <externalId>false</externalId>
+        <label>Last Survey Response</label>
+        <required>false</required>
+        <trackFeedHistory>false</trackFeedHistory>
+        <trackHistory>false</trackHistory>
+        <type>Date</type>
+    </fields>
+    <listViews>
+        <fullName>APCO_Leads2</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Open</value>
+        </filters>
+        <label>APCO Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Leads</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Converted_TriCON_2017_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Converted</value>
+        </filters>
+        <label>Converted TriCON 2017 Leads</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>MyUnreadLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.RATING</columns>
+        <columns>LEAD.UNREAD</columns>
+        <columns>LEAD.STATUS</columns>
+        <filterScope>Mine</filterScope>
+        <filters>
+            <field>LEAD.UNREAD</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>My Unread Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>My_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>Account_Service_Type__c</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Mine</filterScope>
+        <label>My Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Nicole_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>AL,CT,DC,DE,FL,GA,IA,IL,IN,KS,KY,MA,MD,ME,MI,MN,MO,NC,ND,NE</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATUS</field>
+            <operation>equals</operation>
+            <value>Open,Working</value>
+        </filters>
+        <filters>
+            <field>CORE.USERS.FIRST_NAME</field>
+            <operation>equals</operation>
+            <value>michelle</value>
+        </filters>
+        <label>Nicole Leads</label>
+        <sharedTo>
+            <role>TriTech_Marketing</role>
+            <role>TriTech_Sales_Manager</role>
+            <role>TriTech_Sales_Support</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>TodaysLeads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>TODAY</value>
+        </filters>
+        <label>Today&apos;s Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>TriCON_2018_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <label>TriCON 2018 Leads</label>
+        <sharedTo>
+            <role>TriTech_Marketing</role>
+            <role>TriTech_Sales_Manager</role>
+            <role>TriTech_Sales_Support</role>
+            <role>TriTech_Support</role>
+            <role>TriTech_VP_of_Sales</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2017_TriCON_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <label>2017 TriCON Leads</label>
+        <sharedTo>
+            <group>All_Employees</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X2018_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.CREATED_DATE</field>
+            <operation>greaterThan</operation>
+            <value>1/1/2018 12:00 AM</value>
+        </filters>
+        <label>2018 Leads</label>
+        <sharedTo>
+            <role>TriTech_Sales_Support</role>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_AL_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>AL</value>
+        </filters>
+        <label>Zuercher AL Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_FL_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>FL</value>
+        </filters>
+        <label>Zuercher FL Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_GA_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>GA</value>
+        </filters>
+        <label>Zuercher GA Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_IA_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>IA</value>
+        </filters>
+        <label>Zuercher IA Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_ID_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>ID</value>
+        </filters>
+        <label>Zuercher ID Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_IL_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>IL</value>
+        </filters>
+        <label>Zuercher IL Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_IN_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>IN</value>
+        </filters>
+        <label>Zuercher IN Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_LA_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>LA</value>
+        </filters>
+        <label>Zuercher LA Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_MI_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>MI</value>
+        </filters>
+        <label>Zuercher MI Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_MN_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>MN</value>
+        </filters>
+        <label>Zuercher MN Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_MT_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>MT</value>
+        </filters>
+        <label>Zuercher MT Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_NC_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>NC</value>
+        </filters>
+        <label>Zuercher NC Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_ND_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>ND</value>
+        </filters>
+        <label>Zuercher ND Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_OH_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>OH</value>
+        </filters>
+        <label>Zuercher OH Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_SC_Chiefs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>SC</value>
+        </filters>
+        <filters>
+            <field>LEAD.TITLE</field>
+            <operation>equals</operation>
+            <value>Chief</value>
+        </filters>
+        <label>Zuercher SC Chiefs</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_SC_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>SC</value>
+        </filters>
+        <label>Zuercher SC Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_SC_Sheriffs</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>SC</value>
+        </filters>
+        <filters>
+            <field>LEAD.TITLE</field>
+            <operation>equals</operation>
+            <value>Sheriff</value>
+        </filters>
+        <label>Zuercher SC Sheriffs</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_SD_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>SD</value>
+        </filters>
+        <label>Zuercher SD Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_TN_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>TN</value>
+        </filters>
+        <label>Zuercher TN Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_TX_Leads1</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.UNREAD</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>TX</value>
+        </filters>
+        <label>Zuercher TX Leads</label>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_VA_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>VA</value>
+        </filters>
+        <label>Zuercher VA Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_WA_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>WA</value>
+        </filters>
+        <label>Zuercher WA Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_WI_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>WI</value>
+        </filters>
+        <label>Zuercher WI Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_WV_Leads</fullName>
+        <columns>FULL_NAME</columns>
+        <columns>LEAD.COMPANY</columns>
+        <columns>LEAD.STATE</columns>
+        <columns>LEAD.PHONE</columns>
+        <columns>LEAD.EMAIL</columns>
+        <columns>LEAD.STATUS</columns>
+        <columns>CORE.USERS.ALIAS</columns>
+        <columns>LEAD.CREATED_DATE</columns>
+        <columns>Sales_Group__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Sales_Group__c</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <filters>
+            <field>LEAD.STATE</field>
+            <operation>equals</operation>
+            <value>WV</value>
+        </filters>
+        <label>Zuercher WV Leads</label>
+        <sharedTo>
+            <group>Zuercher_All</group>
+        </sharedTo>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>FULL_NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.COMPANY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>LEAD.PHONE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>FULL_NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>LEAD.COMPANY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>FULL_NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.COMPANY</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.PHONE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>LEAD.MOBILE_PHONE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>FULL_NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.COMPANY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.MOBILE_PHONE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.EMAIL</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>LEAD.STATUS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CORE.USERS.ALIAS</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWriteTransfer</sharingModel>
+    <webLinks>
+        <fullName>ActOn__Acton_Activity_History</fullName>
+        <availability>online</availability>
+        <displayType>button</displayType>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>sControl</linkType>
+        <masterLabel>Act-On Activity History</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <scontrol>ActOn__ActonActivityHistory</scontrol>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <width>900</width>
+    </webLinks>
+    <webLinks>
+        <fullName>ActOn__Send_Act_On_Email</fullName>
+        <availability>online</availability>
+        <description>Send email to current Lead</description>
+        <displayType>button</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Act-On Email</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/32.0/connection.js&quot;)}
+{!REQUIRESCRIPT(&quot;/soap/ajax/32.0/apex.js&quot;)}
+{!REQUIRESCRIPT(&quot;/resource/ActOn__ActOnLib&quot;)}
+
+invokeWithActOnServerUrl( function(url) 
+{ 
+url += &apos;/acton/sforce/sendSforceContactOrLead.jsp?id={!Lead.Id}&amp;server={!API.Partner_Server_URL_190}&amp;session={!API.Session_ID}&apos;; 
+	window.open(url,&quot;_blank&quot;, &quot;width=1200,height=768&quot;); 
+});</url>
+    </webLinks>
+    <webLinks>
+        <fullName>ActOn__Send_Act_On_Mass_Email</fullName>
+        <availability>online</availability>
+        <description>Send email to selected Leads</description>
+        <displayType>massActionButton</displayType>
+        <linkType>javascript</linkType>
+        <masterLabel>Send Act-On Email</masterLabel>
+        <openType>onClickJavaScript</openType>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+        <url>{!REQUIRESCRIPT(&quot;/soap/ajax/32.0/connection.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/soap/ajax/32.0/apex.js&quot;)} 
+{!REQUIRESCRIPT(&quot;/resource/ActOn__ActOnLib&quot;)}
+
+invokeWithActOnServerUrl( function(url) 
+{
+
+var records = {!GETRECORDIDS( $ObjectType.Lead )}; 
+if (records == null || records[0] == null) 
+{
+alert(&quot;Please select at least one record.&quot;);
+} 
+else 
+{
+// create the form. Set it up to POST the transaction
+ var f = document.createElement(&apos;form&apos;);
+ f.action=url + &apos;/acton/sforce/sendSforceContactOrLead.jsp&apos;;
+ f.method = &apos;post&apos;;
+ f.target = &apos;actonWin&apos;;
+
+
+// add the session id as a parameter
+ var i = document.createElement(&apos;input&apos;);
+ i.id = &apos;session&apos;;
+ i.name = &apos;session&apos;;
+ i.type = &apos;hidden&apos;;
+ i.value = &apos;{!$Api.Session_ID}&apos;;
+ f.appendChild(i);
+
+ 
+// add the server location as a parameter
+ i = document.createElement(&apos;input&apos;);
+ i.id = &apos;server&apos;;
+ i.name = &apos;server&apos;;
+ i.type = &apos;hidden&apos;;
+ i.value = &apos;{!$Api.Partner_Server_URL_190}&apos;;
+ f.appendChild(i);
+
+ 
+// Get the Lead IDs that were checked
+// add the idArray as a parameter
+ i = document.createElement(&apos;input&apos;);
+ i.id = &apos;id&apos;;
+ i.name = &apos;id&apos;;
+ i.type = &apos;hidden&apos;;
+ i.value =records;
+ f.appendChild(i);
+
+
+// add the form to the document.
+ document.body.appendChild(f);
+ 
+// submit the form
+window.open (&apos;&apos;,&apos;actonWin&apos;,&apos;modal=yes,dependent=yes,resizable=yes,scrollbars=yes,toobar=no,location=no,status=no,width=1200,height=768&apos;); 
+ f.submit();
+}
+});</url>
+    </webLinks>
+    <webLinks>
+        <fullName>AltavistaNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Altavista News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://news.altavista.com/search?nc=0&amp;q={!Lead_Company}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://maps.google.com/maps?f=q&amp;hl=en&amp;q={!Lead_Street}+{!Lead_City}+{!Lead_State}&amp;om=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleNews</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google News</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/news?&amp;q={!Lead_Company}&amp;btnG=Search+News</url>
+    </webLinks>
+    <webLinks>
+        <fullName>GoogleSearch</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Google Search</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>http://www.google.com/search?q={!Lead_Company}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>HooversProfile</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Hoovers Profile</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://search.hoovers.com/cgi-bin/hol_search?which=company&amp;query_string={!Lead_Company}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>SendGmail</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>false</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>false</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Send Gmail</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>false</showsLocation>
+        <showsStatus>false</showsStatus>
+        <url>https://mail.google.com/mail?view=cm&amp;tf=0&amp;to={!Lead_Email}&lt;{!Lead_LastName}, {!Lead_FirstName}&gt;&amp;tf=1</url>
+    </webLinks>
+    <webLinks>
+        <fullName>YahooMaps</fullName>
+        <availability>online</availability>
+        <displayType>link</displayType>
+        <encodingKey>UTF-8</encodingKey>
+        <hasMenubar>true</hasMenubar>
+        <hasScrollbars>true</hasScrollbars>
+        <hasToolbar>true</hasToolbar>
+        <height>600</height>
+        <isResizable>true</isResizable>
+        <linkType>url</linkType>
+        <masterLabel>Yahoo Maps</masterLabel>
+        <openType>newWindow</openType>
+        <position>none</position>
+        <protected>false</protected>
+        <showsLocation>true</showsLocation>
+        <showsStatus>true</showsStatus>
+        <url>http://maps.yahoo.com/py/maps.py?cn={!Lead_Country}&amp;csz={!Lead_City}+{!Lead_State}+{!Lead_PostalCode}+&amp;addr={!Lead_Address}</url>
+    </webLinks>
+    <webLinks>
+        <fullName>qualtrics__Send_Qualtrics_Survey</fullName>
+        <availability>online</availability>
+        <displayType>massActionButton</displayType>
+        <height>600</height>
+        <linkType>page</linkType>
+        <masterLabel>Send Qualtrics Survey</masterLabel>
+        <openType>sidebar</openType>
+        <page>qualtrics__LeadListSendSurvey</page>
+        <protected>false</protected>
+        <requireRowSelection>true</requireRowSelection>
+    </webLinks>
+</CustomObject>

@@ -1,0 +1,7 @@
+Notification, This Contact has been marked ‘Inactive’.
+
+Name: {!Contact.Name}
+Company: {!Account.Name}
+Title: {!Title}
+
+{!Contact.Link}

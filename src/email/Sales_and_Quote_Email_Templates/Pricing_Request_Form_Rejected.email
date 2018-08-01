@@ -1,0 +1,11 @@
+The following pricing request has been rejected:
+
+Pricing Request #: {!Pricing_Request_Form__c.Name}
+Requested By:  {!Pricing_Request_Form__c.OwnerFullName}
+Agency: {!Pricing_Request_Form__c.Account__c}
+
+Rejected Reason:
+{!Pricing_Request_Form__c.Rejection_Reason__c}
+
+
+Click this link to access the pricing request information: {!Pricing_Request_Form__c.Link}

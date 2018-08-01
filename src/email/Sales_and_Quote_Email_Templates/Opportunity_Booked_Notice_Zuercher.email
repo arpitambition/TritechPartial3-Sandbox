@@ -1,0 +1,35 @@
+The following Opportunity has been closed and booked:
+
+Opportunity Owner:  {!Opportunity.OwnerFullName}
+
+Account Name:  {!Account.Name}
+Opportunity Name:  {!Opportunity.Name}
+Product Family:  {!Opportunity.Product_Family_WMP__c}
+State:  {!Account.Mailing_Billing_State_WMP__c}
+Opportunity Type: {!Opportunity.RecordType} 
+Migration Target:  {!Account.Migration_Target__c}
+
+Booked Date:  {!Opportunity.Booked_Date__c}  
+Booked Value:  {!Opportunity.Booked_Value__c}
+SO #:  {!Opportunity.Sales_Order_Number__c}
+
+Interfaces Required:
+{!Opportunity.Z_Interfaces_Required__c}
+
+Interface Hours:  {!Opportunity.Z_Interface_Hours__c}
+
+Product Enhancements Required:
+{!Opportunity.Z_Product_Enhancements_Required__c}
+
+Product Enhancement Hours:  {!Opportunity.Z_Product_Enhancement_Hours__c}
+
+CAD Advanced: {!Opportunity.Z_CAD_Advanced__c}
+Civil Advanced: {!Opportunity.Z_Civil_Advanced__c}
+Financial Advanced: {!Opportunity.Z_Financial_Advanced__c}
+Jail Advanced: {!Opportunity.Z_Financial_Advanced__c}
+Municipal Courts Advanced: {!Opportunity.Z_Municipal_Courts_Advanced__c}
+Personnel Advanced: {!Opportunity.Z_Personnel_Advanced__c}
+Records Advanced: {!Opportunity.Z_Records_Advanced__c}
+Short Term Holding Only: {!Opportunity.Z_Records_Advanced__c}
+
+Click this link to view the opportunity:  {!Opportunity.Link}

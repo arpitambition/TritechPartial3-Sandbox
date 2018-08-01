@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>IMC alert trigger for creation of work order ticket, status = Approved - Not Assigned, time trigger after 8 hours unassigned</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - IMC Approved Not Assigned WO</name>
+    <style>none</style>
+    <subject>Approved-Not Assigned Work Order: Ticket Number {!Case.CaseNumber}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,16 @@
+Please note that the following SalesForce Helpdesk Ticket has been submitted:<br> <br> 
+
+{!SalesForce_Helpdesk__c.Link}<br> <br> 
+
+<b>Ticket Number:</b> {!SalesForce_Helpdesk__c.Name}<br>  
+<b>Priority:</b> {!SalesForce_Helpdesk__c.Priority__c}<br> <br> 
+
+<b>Submitted By:</b> {!SalesForce_Helpdesk__c.OwnerFullName}<br> <br> 
+
+<b>Date Submitted:</b> {!SalesForce_Helpdesk__c.Date_Submitted__c}<br> <br> 
+
+<b>Date Needed:</b> {!SalesForce_Helpdesk__c.Date_Needed__c}<br> <br> 
+
+<b>Request Type:</b> {!SalesForce_Helpdesk__c.Request_Type__c}<br> <br> 
+
+<b>Ticket Details:</b> {!SalesForce_Helpdesk__c.Request_Details__c}

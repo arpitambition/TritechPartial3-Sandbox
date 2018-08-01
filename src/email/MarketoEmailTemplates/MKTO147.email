@@ -1,0 +1,243 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Generic Template - Left Sidebar</title>
+
+<style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('footer-bg.gif');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #d1d3d4;
+         height: 66px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #FFFFFF;
+         line-height: 16px;
+         margin: 0;
+         padding: 5px;
+      }
+</style>
+</head>
+<body ><TABLE class=bg1 border=0 cellSpacing=0 cellPadding=0 width="100%">
+<TBODY>
+<TR>
+<TD align=middle>
+<TABLE class=bg2 border=0 cellSpacing=0 cellPadding=0 width=600>
+<TBODY>
+<TR>
+<TD class=permission align=left>
+<P>You're receiving this newsletter because of your relationship with TriTech Software Systems.</P></TD></TR>
+<TR>
+<TD class=header align=left><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/TechComm_Banner_600x150.jpg"><BR></TD></TR>
+<TR>
+<TD class=body vAlign=top>
+<TABLE style="WIDTH: 100%" border=0 cellSpacing=0 cellPadding=0>
+<TBODY>
+<TR>
+<TD class=sidebar vAlign=top width=600 align=left><BR>
+<H3><SPAN style="COLOR: #888888; FONT-SIZE: 18px">POSTED 12.06.11&nbsp;</SPAN></H3>
+<H3><SPAN style="COLOR: #00adef"><BR></SPAN>
+<P><STRONG><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #0065cc; FONT-SIZE: 13.5pt">Transition from ServiceWise to SalesForce</SPAN></STRONG></P>
+<P><SPAN style="FONT-SIZE: 12px">&nbsp;</SPAN></P>
+<DIV>
+<P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt">Dear Clients,</SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt">&nbsp;</SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt">We are pleased to announce that we are nearing the completion of the CRM (Customer Relationship Management) transition that we announced on October 11th, 2011.&nbsp; As we continue to evolve our support operations, 
+we are committed to listening to your feedback as a way to improve the level of service that we provide.&nbsp; Based on your feedback, it became clear to us that our online customer portal did not meet your ongoing support needs.&nbsp; Additionally, due to TriTech’s recent growth, it became 
+necessary to adopt a system that would allow us to support each Business Unit across a standardized platform.&nbsp; As a result, we decided to implement a new CRM tool called SalesForce.&nbsp; On December 19th of this year, we will migrate from the current customer portal (ServiceWise) to the new 
+customer portal (SalesForce).&nbsp; </SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt">You may access the full communication via the Myvisinet Support site under Documentation | General Documents | Customer Service or by clicking on the <SPAN style="FONT-SIZE: 14px"><U><STRONG><SPAN style="FONT-SIZE: 
+14px"><A href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=782" target=_blank><SPAN style="COLOR: #0071bc"><U>link</U></SPAN></A></SPAN></STRONG></U></SPAN> included on this email</SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt">Sincerely, </SPAN></P>
+<P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt"><BR>Tony Vardiman<BR>Technical Services Frontline Supervisor | VisiNet Solutions<BR>TriTech Software Systems | <A href="http://www.tritech.com">www.tritech.com</A><BR>Direct: 858.799.7441 | Mobile: 
+619.816.7100<BR>Fax: 858.799.7010 | Direct Support: 800.847.4223<BR>Support Line: 800 VISICAD <BR></SPAN></P><SPAN style="FONT-FAMILY: 'Arial', 'sans-serif'; COLOR: #333333; FONT-SIZE: 9pt">
+<P><SPAN style="FONT-FAMILY: arial, verdana, sans-serif; COLOR: #333333"><SPAN style="FONT-SIZE: 14px"><U><SPAN style="FONT-SIZE: 14px"><SPAN style="COLOR: #0071bc"><U><A href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=782">Read full 
+Article</A></U></SPAN></SPAN></U></SPAN>&nbsp;| <SPAN style="FONT-FAMILY: arial, verdana, sans-serif; COLOR: #333333"><SPAN style="FONT-SIZE: 14px"><U><SPAN style="FONT-SIZE: 14px"><SPAN style="COLOR: #0071bc"><U><A href="mailto:support@tritech.com?subject=VisiNet Solutions Tech Tips - 
+Feedback">Email Feedback</A></U></SPAN></SPAN></U></SPAN></SPAN></SPAN>&nbsp;</P>
+<P>&nbsp;</P></SPAN>&nbsp;</DIV>
+<P>&nbsp;</P></H3></TD></TR></TBODY></TABLE></TD></TR>
+<TR>
+<TD class=footer height=61 vAlign=center align=left>
+<DIV style="FONT-SIZE: 10px"><BR><BR>Share this message with your colleagues or visit us at <A href="http://www.tritech.com/default.aspx" target=_blank>www.tritech.com</A><BR><IMG style="VERTICAL-ALIGN: bottom" dir=ltr title="TriTech logo" alt="TriTech logo" align=right 
+src="http://offers.tritech.com/rs/ortivusna/images/logo_TriTech_150px.gif" width=150 height=60><BR><A href="http://www.facebook.com/pages/TriTech-Software-Systems/89416081839" target=_blank><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg"></A> <A 
+href="http://twitter.com/tritechsoftware" target=_blank><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg"></A> <A href="http://www.linkedin.com/companies/tritech-software-systems" target=_blank><IMG alt="" 
+src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg"></A> <A href="http://www.youtube.com/user/TriTechSoftware" target=_blank><IMG alt="" src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo_sm.jpg"></A><BR>This email was sent by TriTech Software Systems<BR>9860 Mesa Rim 
+Road | San Diego | CA | 92121<BR><BR><BR></DIV></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE>
+<DIV style="POSITION: absolute; WIDTH: 1px; HEIGHT: 1px; OVERFLOW: hidden; TOP: 0px; LEFT: -10000px" id=_mcePaste class=mcePaste>﻿</DIV>
+</body>
+</html>

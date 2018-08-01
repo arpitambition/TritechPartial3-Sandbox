@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TS_WI_102012.Invitation</name>
+    <style>none</style>
+    <subject>Register:  Tech Seminar on Next Generation Public Safety</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Public Safety Technology Seminar:
+
+Next Generation - Are You Ready?
+Wednesday, October 24, 2012  l  Waukesha, WI
+
+
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ We hope that you will join us and fellow leaders in Public Safety where will discuss Next Generation 9-1-1 and introduce solutions to improve the workflow of your communications center. 
+
+
+ - Unified user experience to interact with and incorporate new types of data such as text, pictures, video and more
+ - Better integration of analysis and mapping with patrol work and fire response
+ - Systems and network administration services
+ - Improving connectivity with your wireless solution
+ - Mobility solutions for rugged, reliable computing and evidentiary video
+ - Streamline false alarm administration and increase fee and fine collections
+
+
+
+Register here:  http://offers.tritech.com/WI_NG911Seminar.html &lt;http://offers.tritech.com/WI_NG911Seminar.html&gt;
+
+Hope to see you there!
+
+ 
+
+ 
+
+Questions?
+ Michelle McClellan
+ TriTech Software Systems
+ (858) 799-7900
+ info@tritech.com
+EVENT DETAILS
+Don&apos;t want to miss this informative technology seminar? See details below and register today.
+Date:
+
+Wednesday, October 24
+
+Time:
+
+10:00 AM to 3:00 PM
+
+Location:
+
+Waukesha Microsoft Facility
+
+N19 W24133 Riverwood Dr, Suite 150
+
+Waukesha, WI 53188  
+
+Bonus:
+
+Door Prizes, Refreshments and Lunch will be provided.
+
+ &lt;http://offers.tritech.com/WI_NG911Seminar.html&gt;
+ 
+
+Also Participating:
+  
+ 
+
+ 
+
+
+
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

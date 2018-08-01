@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Win Strategy template</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Win Strategy Template</name>
+    <style>freeForm</style>
+    <subject>Win Strategy: {!Opportunity.Name} {!Win_Strategy__c.CreatedDate}</subject>
+    <textOnly>TriTech Win Strategy
+Proprietary and Confidential
+
+
+Request for Proposal
+
+Win Strategy Date:  {!Win_Strategy__c.CreatedDate}
+
+Official RFP Name:  {!Win_Strategy__c.Official_RFP_Name__c}
+
+Agency:  {!Win_Strategy__c.Account__c}
+
+
+General Information
+
+Description of the Agency/Opportunity:  
+{!Opportunity.Description}
+
+General overview of the project scope: 
+{!Win_Strategy__c.General_Overview_of_Project_Scope__c}
+
+Brief history of TriTech’s involvement with the account:
+{!Win_Strategy__c.Opportunity_Age__c}
+
+
+Pricing &amp; Funding
+
+Preliminary estimate of TriTech’s final price:  {!Win_Strategy__c.Actual_Opportunity_Value__c}
+
+Agency’s current budget:  {!Win_Strategy__c.Agency_s_Current_Budget__c}
+
+Pricing and Funding issues that must be factored into our proposal:
+{!Win_Strategy__c.Pricing_and_Funding_Issues__c}
+
+
+Key Decision Makers &amp; Expectations
+(Evaluation Committee Members and their expectations that must be addressed in order to win)
+
+{!Win_Strategy__c.Key_Decision_Maker_1__c}
+{!Win_Strategy__c.Key_Decision_Maker_1_Title__c}
+{!Win_Strategy__c.Key_Decision_Maker_1_Hot_Buttons_Biases__c}
+
+{!Win_Strategy__c.Key_Decision_Maker_2__c}
+{!Win_Strategy__c.Key_Decision_Maker_2_Title__c}
+{!Win_Strategy__c.Key_Decision_Maker_2_Hot_Buttons_Biases__c}
+
+{!Win_Strategy__c.Key_Decision_Maker_3__c}
+{!Win_Strategy__c.Key_Decision_Maker_3_Title__c}
+{!Win_Strategy__c.Key_Decision_Maker_3_Hot_Buttons_Biases__c}
+
+
+Competition
+(Assessment of key competitors’ strengths and weaknesses)
+
+Competitors:  
+{!Win_Strategy__c.Competitors__c}
+
+Strengths &amp; Weaknesses:
+{!Win_Strategy__c.Competitor_Strengths_Weaknesses__c}
+
+
+TriTech Strengths &amp; Weaknesses
+
+Strengths:
+{!Win_Strategy__c.TriTech_Strengths__c}
+
+Weaknesses:
+{!Win_Strategy__c.TriTech_Weaknesses__c}
+
+
+RFP Assessment
+(Evaluation Criteria and how to best position TriTech against that criteria)
+
+Evaluation Criteria (from RFP):
+{!Win_Strategy__c.Evaluation_Criteria__c}
+
+Strategy to maximize TriTech’s scoring against RFP Criteria:
+{!Win_Strategy__c.Strategy_to_Maximize_TriTech_s_Scoring__c}
+
+
+Top three (3) or more differentiators of the TriTech solution
+(As it relates to this procurement)
+
+Differentiators:
+{!Win_Strategy__c.Top_3_or_More_Differentiators__c}
+
+
+Strategy Statement:
+{!Win_Strategy__c.Strategy_Statement__c}
+
+
+Link to current Win Strategy:   {!Win_Strategy__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

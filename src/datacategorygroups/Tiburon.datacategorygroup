@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <label>Internal Procedures</label>
+            <name>Internal_Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Manuals/User Guides</label>
+            <name>Manuals_User_Guides</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Product Announcements</label>
+            <name>Product_Announcements</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Techincal Advisories</label>
+            <name>Techincal_Advisories</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TriCON/PTI/User Groups</label>
+            <name>TriCON_PTI_User_Groups</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Other</label>
+            <name>Other</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>CAD</label>
+                <name>TC_CAD</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mobile</label>
+                <name>TC_Mobile</name>
+            </dataCategory>
+            <dataCategory>
+                <label>RMS</label>
+                <name>TC_RMS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Jail</label>
+                <name>TC_Jail</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Field Based Reporting</label>
+                <name>TC_Field_Based_Reporting</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Fire Records</label>
+                <name>TC_Fire_Records</name>
+            </dataCategory>
+            <dataCategory>
+                <label>GEO</label>
+                <name>TC_GEO</name>
+            </dataCategory>
+            <dataCategory>
+                <label>VOS CAD</label>
+                <name>TC_VOS_CAD</name>
+            </dataCategory>
+            <label>TotalCommand</label>
+            <name>TotalCommand</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>CAD</label>
+                <name>TE_CAD</name>
+            </dataCategory>
+            <dataCategory>
+                <label>RMS</label>
+                <name>TE_RMS</name>
+            </dataCategory>
+            <label>Total Enforcement</label>
+            <name>Total_Enforcement</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>CAD</label>
+                <name>DN_CAD</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Mobile</label>
+                <name>DN_Mobile</name>
+            </dataCategory>
+            <label>DispatchNow</label>
+            <name>DispatchNow</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Copperfire</label>
+            <name>Copperfire</name>
+        </dataCategory>
+        <dataCategory>
+            <label>CAD2000</label>
+            <name>CAD2000</name>
+        </dataCategory>
+        <dataCategory>
+            <label>FACTS</label>
+            <name>FACTS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>IMS</label>
+            <name>IMS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Network and Windows</label>
+            <name>Network_and_Windows</name>
+        </dataCategory>
+        <dataCategory>
+            <label>General Troubleshooting</label>
+            <name>General_Troubleshooting</name>
+        </dataCategory>
+        <label>Tiburon Only Filter</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Tiburon</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

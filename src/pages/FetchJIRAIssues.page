@@ -1,0 +1,28 @@
+<apex:page standardController="Case" extensions="JIRAFetchIssuesController" >
+    <!-- Uncomment next line if you want to render the returned JSON object -->
+    <!--{!IssuesJSON}-->
+  
+    <apex:pageblock title="JIRA Issues" rendered="{!Issues.size > 0}">
+    <!-- Create table for JIRA issues. With  -->
+        <apex:pageBlockTable value="{!Issues}" var="issue">
+            <!-- Issue Key column -->
+            <apex:column headerValue="Issue Key">
+                <!-- Make it link to JIRA Issue -->
+                <apex:outputLink value="{!issue.url}" target="_blank">{!issue.key}</apex:outputLink>
+            </apex:column>
+            <!-- Issue Resolution column -->
+            <apex:column headerValue="Resolution" value="{!issue.resolution}"/>
+            <!-- Issue Status column -->
+            <apex:column headerValue="Status" value="{!issue.status}" />
+            <!-- Issue Assignee column -->
+            <apex:column headerValue="Assignee" value="{!issue.assignee}" />
+            <!-- Issue fixed in version value column-->
+            <apex:column headerValue="Fix Version" value="{!issue.FixVersionNames}" />
+        </apex:pageBlockTable>
+    </apex:pageblock>
+  
+    <apex:pageblock title="JIRA Issues" rendered="{!Issues.size == 0}">
+        <apex:outputLabel >No JIRA Issue associated with this Case</apex:outputLabel>
+    </apex:pageblock>
+  
+</apex:page>

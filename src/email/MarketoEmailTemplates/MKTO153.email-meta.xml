@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Missouri Tech Seminar (Clients).No Show</name>
+    <style>none</style>
+    <subject>Missouri Tech Seminar - Presentations</subject>
+    <textOnly> 
+Sorry we missed you  
+Missouri Technology Seminar
+ 
+We&apos;re sorry that you could not attend our Missouri Technology Seminar.  We discussed the latest advancements and technology available from TriTech, and responded to some excellent questions from attendees.  
+  
+If you would like to view the slides from the seminar or share it with your colleagues, below are links to download the presentations from the seminar:
+
+System Architecture - Presentation
+System Architecture  - Diagram
+Citrix Presentation
+ClearCube Presentation
+VisiCAD Features by Version Presentation
+
+If you have further questions or would like to request more information, please feel free to contact your Client Account Manager Sally Olson-Nelson. 
+
+ 
+
+
+Questions?
+Sally Olson-Nelson, Client Account Manager
+Mobile: 727.688.7001
+Email:        sally.olson-nelson@tritech.com
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+ 
+    
+
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,20 @@
+Hello,<br><br>
+
+The following request has been submitted and reviewed by the SF Admins.  The Admin Recommendation needs your approval:<br><br>
+
+<b>Original Requestor</b>: {!SalesForce_Helpdesk__c.OwnerFullName}
+<br>
+<b>Original Request Details</b>:<br>
+{!SalesForce_Helpdesk__c.Request_Details__c}
+<br>
+<br>
+<b>Admin Recommendation</b>:<br>
+{!SalesForce_Helpdesk__c.Admin_Recommendation__c}
+<br>
+<br>
+<font size="4">Please submit approval via the following link:<br> {!ApprovalRequest.Internal_URL}</font>
+ <br><br><br>
+Thank you,
+<br>{!SalesForce_Helpdesk__c.Assigned_To__c}<br><br>
+
+<I>To review the request detail, click here: {!SalesForce_Helpdesk__c.Link}</I>

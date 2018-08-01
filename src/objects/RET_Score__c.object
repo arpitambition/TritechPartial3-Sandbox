@@ -1,0 +1,766 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Accept</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <allowInChatterGroups>true</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <description>The RET Score is associated directly to an opportunity and assists in calculating the bid/no bid options for a particular competitive opportunity.</description>
+    <enableActivities>true</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableChangeDataCapture>false</enableChangeDataCapture>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>true</enableHistory>
+    <enableReports>true</enableReports>
+    <enableSearch>true</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Ability_to_Meet_Min_Required_References__c</fullName>
+        <externalId>false</externalId>
+        <label>Ability to Meet Min Required References</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Agencies_Being_Served__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Agencies_being_served__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Agencies Being Served is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Agencies Being Served</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Approval_Manager__c</fullName>
+        <description>Inserts the approval manager for the creating user of the RET Score</description>
+        <externalId>false</externalId>
+        <formula>CreatedBy.Manager.FirstName &amp; &quot; &quot; &amp;  CreatedBy.Manager.LastName</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Approval Manager</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Bid_No_Bid_RET_Decision_Date__c</fullName>
+        <externalId>false</externalId>
+        <label>Bid/No Bid (RET) Decision Date</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Date</type>
+    </fields>
+    <fields>
+        <fullName>Bid_No_Bid_Recommendation__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Please review the Bid or No Bid recommendation with your sales director prior to submission.</inlineHelpText>
+        <label>Bid/No Bid Recommendation</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Bid</fullName>
+                    <default>false</default>
+                    <label>Bid</label>
+                </value>
+                <value>
+                    <fullName>No Bid</fullName>
+                    <default>false</default>
+                    <label>No Bid</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CAD_Parent_Total_Sworn_Officers__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.CAD_Parent_Total_Sworn_Officers__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>CAD Parent Total Sworn Officers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>COMPLETE_SEND_TO_MANAGER__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Check this box to complete the current RET Score and send the information to your Manager for approval</inlineHelpText>
+        <label>COMPLETE &amp; SEND TO MANAGER</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Competitor_Requirements_included_in_RFP__c</fullName>
+        <externalId>false</externalId>
+        <label>Competitor Requirements included in RFP?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Yes</fullName>
+                    <default>false</default>
+                    <label>Yes</label>
+                </value>
+                <value>
+                    <fullName>No</fullName>
+                    <default>false</default>
+                    <label>No</label>
+                </value>
+                <value>
+                    <fullName>N/A</fullName>
+                    <default>false</default>
+                    <label>N/A</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Consultant_Name__c</fullName>
+        <externalId>false</externalId>
+        <label>Consultant Name</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>DeltaWRX</fullName>
+                    <default>false</default>
+                    <label>DeltaWRX</label>
+                </value>
+                <value>
+                    <fullName>Kimball</fullName>
+                    <default>false</default>
+                    <label>Kimball</label>
+                </value>
+                <value>
+                    <fullName>Mission Critical Partners</fullName>
+                    <default>false</default>
+                    <label>Mission Critical Partners</label>
+                </value>
+                <value>
+                    <fullName>RCC</fullName>
+                    <default>false</default>
+                    <label>RCC</label>
+                </value>
+                <value>
+                    <fullName>Winbourne</fullName>
+                    <default>false</default>
+                    <label>Winbourne</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Do_we_know_how_much_is_budgeted__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Do_we_know_how_much_is_budgeted__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Do we know how much is budgeted? is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Do we know how much is budgeted?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Do_we_meet_mandatory_RFP_Requirements__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Do we meet mandatory RFP Requirements?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Have_we_engaged_the_committee__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Have_we_engaged_the_committee__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Have we engaged the committee? is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Have we engaged the committee?</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>How_many_on_site_meetings_have_we_had__c</fullName>
+        <externalId>false</externalId>
+        <label>How many on-site meetings have we had?</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Identify_Committee_Members__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Identify_Committee_Members__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Identify Committee Members is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Identify Committee Members</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>If_No_Bid_Primary_Reason__c</fullName>
+        <externalId>false</externalId>
+        <label>If No Bid - Primary Reason</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Presales</fullName>
+                    <default>false</default>
+                    <label>Presales</label>
+                </value>
+                <value>
+                    <fullName>Competitive Spec</fullName>
+                    <default>false</default>
+                    <label>Competitive Spec</label>
+                </value>
+                <value>
+                    <fullName>Fit</fullName>
+                    <default>false</default>
+                    <label>Fit</label>
+                </value>
+                <value>
+                    <fullName>Compliancy</fullName>
+                    <default>false</default>
+                    <label>Compliancy</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Level_of_compliancy_with_functional_spec__c</fullName>
+        <externalId>false</externalId>
+        <label>Level of compliancy with functional spec</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>&gt;90%</fullName>
+                    <default>false</default>
+                    <label>&gt;90%</label>
+                </value>
+                <value>
+                    <fullName>80%-90%</fullName>
+                    <default>false</default>
+                    <label>80%-90%</label>
+                </value>
+                <value>
+                    <fullName>Less than 80%</fullName>
+                    <default>false</default>
+                    <label>Less than 80%</label>
+                </value>
+                <value>
+                    <fullName>Unknown</fullName>
+                    <default>false</default>
+                    <label>Unknown</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>MANAGER_APPROVED__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <inlineHelpText>Manager approval is required to send email to the team.</inlineHelpText>
+        <label>MANAGER APPROVED</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Manager_Approved_Date_Time__c</fullName>
+        <externalId>false</externalId>
+        <label>RET Approved By:</label>
+        <length>150</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>No_Bid_Explanation__c</fullName>
+        <externalId>false</externalId>
+        <label>No Bid Explanation</label>
+        <length>32768</length>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>Number_of_Sworn_Officers_Band__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.Account.Number_of_Sworn_Officers_Band__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of Sworn Officers Band</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Number_of_Sworn_Officers__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Account.Number_of_Sworn_Personnel_WMP__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Number of Sworn Officers</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Opportunity__c</fullName>
+        <externalId>false</externalId>
+        <label>Opportunity</label>
+        <referenceTo>Opportunity</referenceTo>
+        <relationshipLabel>RET_Score</relationshipLabel>
+        <relationshipName>RET_Score</relationshipName>
+        <relationshipOrder>0</relationshipOrder>
+        <reparentableMasterDetail>true</reparentableMasterDetail>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>MasterDetail</type>
+        <writeRequiresMasterRead>false</writeRequiresMasterRead>
+    </fields>
+    <fields>
+        <fullName>Performed_On_Site_Demo__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Performed On-Site Demo</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Performed_On_Site_Discovery__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Performed_On_Site_Discovery__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Performed On-Site Discovery is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Performed On-Site Discovery</label>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Project_Budget_Total__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Budget_Total__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Project Budget Total is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Project Budget Total</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Proposal_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Proposal Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inform RFQ</fullName>
+                    <default>false</default>
+                    <label>Inform RFQ</label>
+                </value>
+                <value>
+                    <fullName>Inform RFI</fullName>
+                    <default>false</default>
+                    <label>Inform RFI</label>
+                </value>
+                <value>
+                    <fullName>Inform RFP</fullName>
+                    <default>false</default>
+                    <label>Inform RFP</label>
+                </value>
+                <value>
+                    <fullName>Zuercher RFQ</fullName>
+                    <default>false</default>
+                    <label>Zuercher RFQ</label>
+                </value>
+                <value>
+                    <fullName>Zuercher RFI</fullName>
+                    <default>false</default>
+                    <label>Zuercher RFI</label>
+                </value>
+                <value>
+                    <fullName>Zuercher RFP</fullName>
+                    <default>false</default>
+                    <label>Zuercher RFP</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Qty_of_Local_References__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Qty_of_Local_References__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Qty of Local References is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Qty of Local References</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Qty_of_Negative_Local_References__c</fullName>
+        <externalId>false</externalId>
+        <formula>Opportunity__r.Qty_of_Negative_Local_References__c</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Qty of Negative Local References is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Qty of Negative Local References</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>RET_Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>Case(  Opportunity__r.Account.Service_Population_Tier__c , &quot;Tier 3&quot;,0,&quot;Tier 2L&quot;,7,&quot;Tier 2H&quot;,10.5,&quot;Tier 1&quot;,17.5,0) +
+IF(AND(includes(Opportunity__r.Agency_Types_Being_Served__c    ,&quot;Law&quot;),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Fire&quot;)),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;EMS&quot;))),4.5,0) +
+IF(AND(includes( Opportunity__r.Agency_Types_Being_Served__c ,&quot;Fire&quot;),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Law&quot;)),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;EMS&quot;))),7.5,0) +
+IF(AND(includes( Opportunity__r.Agency_Types_Being_Served__c ,&quot;EMS&quot;),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Fire&quot;)),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Law&quot;))),3.0,0) +
+IF(AND(includes( Opportunity__r.Agency_Types_Being_Served__c ,&quot;Law&quot;),(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Fire&quot;)),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;EMS&quot;))),6.0,0) +
+IF(AND(includes(Opportunity__r.Agency_Types_Being_Served__c ,&quot;Fire&quot;),(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;EMS&quot;)),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Law&quot;))),6.0,0) +
+IF(AND(includes(Opportunity__r.Agency_Types_Being_Served__c ,&quot;Law&quot;),(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Fire&quot;)),(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;EMS&quot;))),6.0,0) +
+IF(AND(includes(Opportunity__r.Agency_Types_Being_Served__c ,&quot;Law&quot;),NOT(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;Fire&quot;)),(includes(Opportunity__r.Agency_Types_Being_Served__c,&quot;EMS&quot;))),5.25,0) +
+/*If( Mandatory_State_Requirements__c = false,-6,6) +*/
+Case( Competitor_Requirements_included_in_RFP__c,&quot;Yes&quot;,0,&quot;N/A&quot;,4,&quot;No&quot;,8,0) +
+
+CASE( Level_of_compliancy_with_functional_spec__c ,&quot;Unknown&quot;,-1.2,&quot;less than 80%&quot;,0,&quot;80%-90%&quot;,3.6,&quot;&gt;90%&quot;,6,0) +
+If(  Opportunity__r.Do_we_know_how_much_is_budgeted__c  = false,0,1.5) +
+/*If( ((  Opportunity__r.Budget_Total__c   /  Opportunity__r.Amount )*100 )&lt;60,-37.5,0) +*/
+If( AND(((Opportunity__r.Budget_Total__c  / Opportunity__r.Amount)*100 )&lt;60,NOT(Opportunity__r.Budget_Total__c  = Opportunity__r.Amount)),-37.5,0) +
+If( (Opportunity__r.Budget_Total__c  = Opportunity__r.Amount),3.75,7.5) +
+/*If( ((Opportunity__r.Budget_Total__c  / Opportunity__r.Amount)*100 )&gt;60,7.5,0) +*/
+Case( Opportunity__r.Source_of_budget_information__c , &quot;Coach&quot;,3,&quot;Published&quot;,6,0) +
+Case( Consultant_Name__c , &quot;RCC&quot;,0.75,&quot;DeltaWRX&quot;,1.5,0) +
+If( How_many_on_site_meetings_have_we_had__c &lt; 3,0,0) +
+If( and(How_many_on_site_meetings_have_we_had__c &gt;= 3,How_many_on_site_meetings_have_we_had__c &lt; 6),3,0) +
+If( How_many_on_site_meetings_have_we_had__c &gt;= 6,6,0) +
+if(  Opportunity__r.Performed_On_Site_Discovery__c  = true,7.5,0) +
+if( Performed_On_Site_Demo__c = true,7.5,0) +
+if( Opportunity__r.Identify_Committee_Members__c = true,3,0) +
+If( Opportunity__r.Have_we_engaged_the_committee__c = true,3,0)+
+case(  Opportunity__r.Relationship_Quality_w_the_Key_contact__c  ,&quot;Seen as Partner/Trusted Advisor&quot;,1.5,&quot;Seen as Preferred Supplier&quot;,1.5,&quot;Seen as Viable Option&quot;,1.5,&quot;No Relationship&quot;,0,&quot;Not in Good Standing&quot;,-1.5,0)+
+If( AND(Opportunity__r.Qty_of_Local_References__c &gt;=1,Opportunity__r.Qty_of_Local_References__c &lt;=3),1,0)+
+If( OR(Opportunity__r.Qty_of_Local_References__c =4,Opportunity__r.Qty_of_Local_References__c =5),2,0) +
+If( Opportunity__r.Qty_of_Local_References__c &gt;=6,3,0) +
+If( Opportunity__r.Qty_of_Negative_Local_References__c = 0,2,0) +
+Case( Ability_to_Meet_Min_Required_References__c,&quot;Yes&quot;,5,0)</formula>
+        <label>RET Score</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Relationship_Quality_w_the_Key_contact__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT( Opportunity__r.Account.Relationship_w_Decision_Maker_Sponsor__c )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Relationship Quality w/the Key contact? is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Relationship Quality w/the Key contact?</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Service_Population_Tier__c</fullName>
+        <description>Pulls &quot;Service Population Tier&quot; from the Account page.</description>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.Account.Service_Population_Tier__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Service Population Tier is pulling from information on the associated opportunity&apos;s Account</inlineHelpText>
+        <label>Service Population Tier</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Source_of_budget_information__c</fullName>
+        <externalId>false</externalId>
+        <formula>TEXT(Opportunity__r.Source_of_budget_information__c)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Source of budget information is pulling from information on the associated opportunity</inlineHelpText>
+        <label>Source of budget information</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Draft</fullName>
+                    <default>true</default>
+                    <label>Draft</label>
+                </value>
+                <value>
+                    <fullName>Submitted</fullName>
+                    <default>false</default>
+                    <label>Submitted</label>
+                </value>
+                <value>
+                    <fullName>Approved</fullName>
+                    <default>false</default>
+                    <label>Approved</label>
+                </value>
+                <value>
+                    <fullName>Rejected</fullName>
+                    <default>false</default>
+                    <label>Rejected</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>RET Score</label>
+    <listViews>
+        <fullName>All</fullName>
+        <columns>NAME</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Proposal_Type__c</columns>
+        <columns>Bid_No_Bid_Recommendation__c</columns>
+        <columns>RET_Score__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <label>All</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_Bid_RETs</fullName>
+        <columns>NAME</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Proposal_Type__c</columns>
+        <columns>RET_Score__c</columns>
+        <columns>Bid_No_Bid_Recommendation__c</columns>
+        <columns>MANAGER_APPROVED__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Bid_No_Bid_Recommendation__c</field>
+            <operation>equals</operation>
+            <value>Bid</value>
+        </filters>
+        <label>All - Bid RETs</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>All_No_Bid_RETs</fullName>
+        <columns>NAME</columns>
+        <columns>Opportunity__c</columns>
+        <columns>Proposal_Type__c</columns>
+        <columns>RET_Score__c</columns>
+        <columns>Bid_No_Bid_Recommendation__c</columns>
+        <columns>MANAGER_APPROVED__c</columns>
+        <columns>If_No_Bid_Primary_Reason__c</columns>
+        <columns>No_Bid_Explanation__c</columns>
+        <columns>CREATEDBY_USER</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Bid_No_Bid_Recommendation__c</field>
+            <operation>equals</operation>
+            <value>No Bid</value>
+        </filters>
+        <label>All - No Bid RETs</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <nameField>
+        <displayFormat>RET-{00000000}</displayFormat>
+        <label>RET Score Number</label>
+        <trackHistory>false</trackHistory>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>RET Score</pluralLabel>
+    <searchLayouts>
+        <customTabListAdditionalFields>Opportunity__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Proposal_Type__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Bid_No_Bid_Recommendation__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATEDBY_USER</customTabListAdditionalFields>
+        <customTabListAdditionalFields>CREATED_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>Opportunity__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Proposal_Type__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>Bid_No_Bid_Recommendation__c</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATEDBY_USER</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>CREATED_DATE</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Opportunity__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Proposal_Type__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>Bid_No_Bid_Recommendation__c</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATEDBY_USER</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>CREATED_DATE</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>Opportunity__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Proposal_Type__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Bid_No_Bid_Recommendation__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATEDBY_USER</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+    <validationRules>
+        <fullName>If_No_Bid_Require_the_No_Bid_Explanatio</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(ISPICKVAL(Bid_No_Bid_Recommendation__c, &apos;No Bid&apos;)),
+(ISBLANK( No_Bid_Explanation__c))
+)</errorConditionFormula>
+        <errorDisplayField>No_Bid_Explanation__c</errorDisplayField>
+        <errorMessage>Please list the explanation why we are not bidding</errorMessage>
+    </validationRules>
+    <validationRules>
+        <fullName>Must_list_primary_reason_for_no_bid</fullName>
+        <active>true</active>
+        <errorConditionFormula>AND(
+(ISPICKVAL(Bid_No_Bid_Recommendation__c, &apos;No Bid&apos;)),
+(ISPICKVAL( If_No_Bid_Primary_Reason__c, &apos;&apos;))
+)</errorConditionFormula>
+        <errorDisplayField>If_No_Bid_Primary_Reason__c</errorDisplayField>
+        <errorMessage>Please choose the primary reason we are not bidding</errorMessage>
+    </validationRules>
+    <visibility>Public</visibility>
+</CustomObject>

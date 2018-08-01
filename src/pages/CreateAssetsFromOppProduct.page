@@ -1,0 +1,12 @@
+<apex:page standardController="Opportunity" extensions="CreateAssetsFromOppProduct" action="{!doCreateAssests}">
+  <apex:sectionHeader title="Opportunity" subtitle="Create Assets"/>
+  
+  <apex:form id="frm">
+      <apex:pageblock >
+          <apex:pageBlockButtons location="bottom">
+              <apex:commandButton value="Back to Opportunity" action="{!Cancel}"/>
+          </apex:pageBlockButtons>
+          <apex:pageMessages />
+      </apex:pageblock>
+  </apex:form>
+</apex:page>

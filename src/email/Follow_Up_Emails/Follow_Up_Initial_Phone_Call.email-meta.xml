@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TriTech - Follow up discussion</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Newsletter_Banner</letterhead>
+    <name>Follow Up:  Initial Phone Call</name>
+    <style>freeForm</style>
+    <subject>TriTech - Follow Up from phone call</subject>
+    <textOnly>Dear {!Contact.FirstName}, 
+
+Thank you for taking the time to speaking with me about the needs and goals of your agency. I think that TriTech&apos;s products and services can benefit your operations, and I look forward to demonstrating our solutions. 
+
+If you need more information about TriTech&apos;s product and services, please feel free to contact me directly or visit our website at www.tritech.com. 
+
+Regards, {!User.FirstName}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

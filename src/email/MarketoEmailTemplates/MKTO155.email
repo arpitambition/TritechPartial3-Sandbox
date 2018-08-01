@@ -1,0 +1,256 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<title>Generic Template - Left Sidebar</title>
+
+<style type="text/css" media="screen">
+      body {
+         background-color: #eeeeee;
+      }
+
+      a img {
+         border: none;
+      }
+
+      table.bg1 {
+         background-color: #eeeeee;
+      }
+
+      table.bg2 {
+         background-color: #ffffff;
+      }
+
+      td.permission {
+         background-color: #eeeeee;
+         padding: 10px 20px 10px 20px;
+      }
+
+      td.permission p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.permission p a {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #333333;
+      }
+
+      td.body {
+         padding: 0 20px 20px 20px;
+         background-color: #ffffff;
+      }
+
+      td.sidebar h3 {
+         font-family: Arial;
+         font-size: 15px;
+         font-weight: bold;
+         color: #333333;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.sidebar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 6px 0 14px 24px;
+         padding: 0;
+      }
+
+      td.sidebar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.sidebar h4 {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         margin: 6px 0 0 0;
+         padding: 0;
+      }
+
+      td.sidebar h4 a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.sidebar p {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 10px 0;
+         padding: 0;
+      }
+
+      td.sidebar p a {
+         font-family: Arial;
+         font-size: 12px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.buttons {
+        padding: 20px 0 0 0; 
+      }
+
+      td.mainbar h2 {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar h2 a {
+         font-family: Arial;
+         font-size: 16px;
+         font-weight: bold;
+         color: #680606;
+         text-decoration: none;
+         margin: 0;
+         padding: 0;
+      }
+
+      td.mainbar img.hr {
+         margin: 0;
+         padding: 0 0 10px 0;
+      }
+
+      td.mainbar p {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 0;
+         padding: 0;
+      }
+
+      td.mainbar p a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.mainbar p.more a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+         text-decoration: none;
+      }
+
+      td.mainbar ul {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #333333;
+         margin: 0 0 14px 24px;
+         padding: 0;
+      }
+
+      td.mainbar ul li a {
+         font-family: Arial;
+         font-size: 13px;
+         font-weight: normal;
+         color: #680606;
+      }
+
+      td.footer {
+         padding: 0 20px 0 20px;
+         background-image: url('footer-bg.gif');
+         background-repeat: no-repeat;
+         background-position: top center;
+         background-color: #d1d3d4;
+         height: 66px;
+         vertical-align: middle;
+      }
+
+      td.footer p {
+         font-family: Arial;
+         font-size: 11px;
+         font-weight: normal;
+         color: #FFFFFF;
+         line-height: 16px;
+         margin: 0;
+         padding: 5px;
+      }
+</style>
+</head>
+<body ><table class="bg1" border="0" cellspacing="0" cellpadding="0" width="100%">
+<tbody>
+<tr>
+<td align="center">
+<table class="bg2" border="0" cellspacing="0" cellpadding="0" width="600">
+<tbody>
+<tr>
+<td class="permission" align="left">
+<p>You're receiving this newsletter because of your relationship with TriTech Software Systems.</p>
+</td>
+</tr>
+<tr>
+<td class="header" align="left"><img src="http://offers.tritech.com/rs/ortivusna/images/TechAdvisory_Banner_600x150.jpg" alt="" /><br /></td>
+</tr>
+<tr>
+<td class="body" valign="top">
+<table style="width: 100%;" border="0" cellspacing="0" cellpadding="0">
+<tbody>
+<tr>
+<td class="sidebar" width="600" align="left" valign="top"><br />
+<h3><span style="color: #888888; font-size: 18px;">POSTED 12.23.11&nbsp;</span> <span style="color: #00adef;"><br /></span><br /><br /><span style="font-size: 14px;"><strong><span style="color: #0071bc;">GA11-027 Microsoft Critical Security Bulletin &ndash;&nbsp;December 
+2011</span></strong></span><span style="font-size: 10pt;"><span style="font-family: Arial;"><span style="color: black;"><span style="font-family: 'Arial', 'sans-serif'; color: black; font-size: 10pt;">&nbsp;</span></span></span></span></h3>
+<h3><span style="font-size: 10pt;"><span style="font-family: Arial;"><span style="color: black;"><span style="font-family: 'Arial', 'sans-serif'; color: black; font-size: 10pt;">&nbsp;</span></span></span></span></h3>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="color: black;"><span style="color: black;">&nbsp;</span></span></span></div>
+<div><span style="font-family: arial, helvetica, sans-serif; font-size: 14px;"><span style="color: black;"><span style="color: black;">Dear Clients,</span></span></span></div>
+<div><span style="font-size: 14px;"><span style="color: black;"><span style="color: black;">&nbsp;</span></span></span></div>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;"><span style="color: black;">The <u><strong><span style="font-size: 14px;"><a href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=807" target="_blank"><span style="color: 
+#0071bc;"><u>Technical Advisory - GA11-027 - Microsoft Critical Security Bulletin - December 2011</u></span></a></span></strong></u>&nbsp;has been posted to the MyVisiNet support site.&nbsp; Microsoft has released&nbsp;three (3) Critical Security Updates for the month of December, 2011.
+ The vulnerabilities discussed in this bulletin involve Microsoft Windows and other Microsoft products.</span></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 10pt;">You may access this advisory via the Myvisinet Support site under Documentation | Tech Advisories |&nbsp;Microsoft Advisories | 2011&nbsp;or by clicking on the&nbsp;<u><span style="font-size: 14px;"><u><strong><span 
+style="font-size: 14px;"><a href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=807" target="_blank"><span style="color: #0071bc;"><u>link</u></span></a></span></strong></u></span></u> included in this email.</span></p>
+<p><span style="font-family: arial, helvetica, sans-serif;">&nbsp;</span></p>
+<p>Sincerely,&nbsp;</p>
+<p><span style="color: #333333;">Tony Vardiman<br />Technical Services Frontline Supervisor | VisiNet Solutions <br />TriTech Software Systems | <a href="http://www.tritech.com">www.tritech.com</a><br />Direct: 858.799.7441 | Mobile: 619.816.7100<br />Fax: 858.799.7010 | Support: 
+800.847.4223</span><span style="color: #333333;"> </span><br /><span style="color: #333333;">Support Website:&nbsp;<a href="https://myvisinet.tritech.com">myvisinet.tritech.com</a></span>&nbsp;</p>
+<p><span style="font-family: arial, verdana, sans-serif; color: #333333;"><a href="https://myvisinet.tritech.com/index.php?option=com_k2&amp;view=item&amp;task=download&amp;id=807">Read Full Article</a> | <a href="mailto:support@tritech.com?subject=VisiNet Solutions Tech Tips - Feedback">Email 
+Feedback</a></span><a href="mailto:dora.wood@tritech.com?subject=VisiNet Solutions Tech Tips - Feedback">&nbsp;</a>&nbsp;</p>
+<p>&nbsp;</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td class="footer" height="61" align="left" valign="middle">
+<div style="font-size: 10px;"><br /><br />Share this message with your colleagues or visit us at <a href="http://www.tritech.com/default.aspx" target="_blank">www.tritech.com</a><br /><img style="vertical-align: bottom;" title="TriTech logo" dir="ltr" 
+src="http://offers.tritech.com/rs/ortivusna/images/logo_TriTech_150px.gif" alt="TriTech logo" width="150" height="60" align="right" /><br /><a href="http://www.facebook.com/pages/TriTech-Software-Systems/89416081839" target="_blank"><img 
+src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg" alt="" /></a> <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg" alt="" /></a> <a href="http://www.linkedin.com/companies/tritech-software-systems" 
+target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg" alt="" /></a> <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo_sm.jpg" alt="" /></a><br />This email was sent by TriTech 
+Software Systems<br />9860 Mesa Rim Road | San Diego | CA | 92121<br /><br /><br /></div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</body>
+</html>

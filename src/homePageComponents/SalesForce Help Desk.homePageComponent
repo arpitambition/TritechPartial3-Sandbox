@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<HomePageComponent xmlns="http://soap.sforce.com/2006/04/metadata">
+    <body>&lt;a href=&quot;https://na6.salesforce.com/servlet/servlet.Integration?lid=00b80000001GAr3&amp;amp;eid=00580000003Z4uT&amp;amp;ic=1&amp;amp;linkToken=VmpFPSxNakF4Tnkwd05DMHlOMVF3TmpveE16b3lOeTR6TlRKYSxlZzhqLU4wdUhJbkhyLWNYVmxTR3NGLFlXWmtNR0po&quot;&gt;&lt;img alt=&quot;User-added image&quot; src=&quot;https://c.na6.content.force.com/servlet/servlet.ImageServer?id=01580000002QT0c&amp;amp;oid=00D0n0000008cCb&amp;amp;lastMod=1493066962000&quot; style=&quot;height: 76px; width: 185px;&quot;&gt;&lt;/img&gt;&lt;/a&gt;&lt;br&gt; </body>
+    <pageComponentType>htmlArea</pageComponentType>
+    <width>narrow</width>
+</HomePageComponent>

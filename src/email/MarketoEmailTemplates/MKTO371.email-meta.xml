@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fall-Training.Save the Date</name>
+    <style>none</style>
+    <subject>TriTech Fall Training Summit - Save the Date</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Fall Training Summit
+October 22 - 23, 2012  l  Westborough, MA
+Due to popular demand, we are proud to announce the inaugural TriTech Fall Training Summit.  The Summit is a regional, multi-department training event providing a one-stop shop for continuing education and networking.     
+
+What can you expect?
+
+
+
+ - In depth training - Our training team is preparing an in-depth agenda.  Topics include System Administration Basics, Mobile System Administration, Customizing Fire Permits, Inspections, Complaints and Violations, NFIRS Entry, How to Build Comprehensive Records in Law RMS, Crime Analysis, CAD Analysis, Paging, and more!
+ 
+
+
+
+
+
+
+ - Networking - Exclusive networking time with fellow users who share the same software and experiences.  
+
+
+ - Extraordinary savings - The low $275 registration fee includes over 44 different education sessions as well as breakfast, lunch and refreshments. 
+
+
+
+
+Registration and more details will be available soon.  Please save the date and make plans to join us.
+Training Details
+Registration opening soon - stay tuned for further details.
+Dates:  
+October 22 - 23, 2012
+
+Cost:
+$275 (Early-bird before 9/30)
+$325 
+Fee includes two full days of training, breakfast, lunch and an afternoon snack each day.
+
+Location:
+Doubletree by Hilton Hotel 
+5400 Computer Drive 
+Westborough, MA 01581
+Click here for map. &lt;http://goo.gl/maps/HvhXa&gt;
+
+Questions:
+David Bourbonniere
+(774) 551-9181
+david.bourbonniere@tritech.com &lt;mail to: david.bourbonniere@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>AIR_IL_0512.Invitation</name>
+    <style>none</style>
+    <subject>Register:  Tech Seminar on Data Sharing and Integrated Justice</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot; target=&quot;_blank&quot;&gt;   &lt;img src=&quot;http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg&quot; alt=&quot;&quot; height=&quot;16&quot; width=&quot;23&gt;
+12th Annual
+
+Public Safety Technology Seminar
+Friday, May 11, 2012  l  Downers Grove, IL
+
+
+Hello {{lead.First Name:default=Sir/Madam}},
+
+
+
+We hope that you will join us and fellow leaders in Public Safety where will discuss solutions for Data Sharing and Integrated Justice. 
+
+Hosted by Microsoft and TriTech Software Systems, hear from industry experts on how to easily achieve goals of data sharing and building an integrated justice system through:
+
+
+ - Sharing crime data with the public through online crime map and analytics dashboards
+ - Systems and network administration services
+ - CJIS access solutions
+ - Improving connectivity with your wireless solution
+ - GIS Solutions for Public Safety
+
+
+
+
+
+Hope to see you there!
+
+ 
+
+ 
+
+Questions?
+
+Michelle McClellan
+
+TriTech Software Systems
+
+(858) 799-7900
+
+info@tritech.com
+EVENT DETAILS
+Don&apos;t want to miss this informative technology seminar? See details below and register today.
+Date:
+ Friday, May 11
+
+Time:
+ 10:00 AM to 3:00 PM
+
+Location:
+ Downers Grove Microsoft Facility
+ 3025 Highland Pkwy., Suite 300
+ Downers Grove, IL  60515
+ Phone:  (630) 725-4000
+
+Bonus:
+ Door Prizes, Refreshments and Lunch will be provided.
+
+ &lt;http://offers.tritech.com/AIR_IL_0512_Registration.html&quot; target=&quot;_blank&gt;
+ 
+
+Also Participating:</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

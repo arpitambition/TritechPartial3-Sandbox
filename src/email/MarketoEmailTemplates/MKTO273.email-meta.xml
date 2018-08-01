@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ePCR_6.2.1-Preview.Invite</name>
+    <style>none</style>
+    <subject>Webinar: Version 6.2.1 ePCR Release Preview - Cardiac Monitor Interface</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+COMPLIMENTARY LIVE WEBINAR: Version 6.2.1 ePCR Release Preview - Cardiac Monitor Interface 
+
+
+Populate Patient Care Reports with data Captured by the Phillips and Physio Cardiac Monitors 
+
+ Your cardiac monitor has valuable information - why ask the Caregiver to enter that data into the Patient Care Report (PCR)? TriTech&apos;s ePCR can utilize your Phillips or Physio Cardiac Monitor data to populate the PCR, thereby reducing the time to fill out - and increasing the accuracy of - the report.
+
+Learn More - Register for a Complimentary Live Webinar on:
+
+Thursday, June 7
+2:00PM ET l 1:00PM CT l Noon MT l 11:00AM PT
+
+Please copy and paste the following URL into any web browser:  http://offers.tritech.com/June7Webinar.html</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

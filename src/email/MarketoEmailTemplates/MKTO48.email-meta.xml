@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS_CC_Sept11.EMS CC Sept11 Email</name>
+    <style>none</style>
+    <subject>Your EMS CAM Connection Newsletter - September 2011</subject>
+    <textOnly>September 2011 Edition
+ 
+Welcome to the September edition of the TriTech Software Systems: CAM Connection for EMS Solutions. CAM stands for “Client Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our EMS Solutions group. To keep current customers up-to-date with the most relevant information, we will be sending you this monthly newsletter. To determine your CAM, please view a territory map here: http://www.tritech.com/images/stories/EMS_CAM.jpg.  Your CAM will continue to manage your account and communicate with you via email, phone and through this CAM Connection newsletter. Feel free to let us know if you have suggestions on topics you would like to hear about.
+   
+   
+Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Sept11_AlertUpdates.html)
+ 
+ &gt; There’s Still Time – Discover TriCON’s Hands On Lab with a Day Pass (http://offers.tritech.com/EMS_CC_Sept11_AlertUpdates.html)
+
+ &gt; New Customer Advisory Board Formed (http://offers.tritech.com/EMS_CC_Sept11_AlertUpdates.html)
+
+ &gt; Extended Support Hours (http://offers.tritech.com/EMS_CC_Sept11_AlertUpdates.html)
+
+ &gt; Bi-Annual Customer Feedback Surveys (http://offers.tritech.com/EMS_CC_Sept11_AlertUpdates.html)
+
+
+Products &amp; Services (http://offers.tritech.com/EMS_CC_Sept11_ProductsServices.html)
+ 
+Are you a Certified Ambulance Coder (CAC™)?  (http://offers.tritech.com/EMS_CC_Sept11_ProductsServices.html)
+Webinars have become a popular means of gaining information and education at a minimal cost and time outlay. In other words, if organizational budgets require education of staff at minimal costs, the webinar format provides an effective way to gain information while also allowing interaction between presenter and audience, without the cost and time associated with travel. TriTech offers educational webinars to the EMS industry as a part of their business-partner approach to working with customers.
+
+Why do I Need a Checkup? From One Sweet Billing User to Another (http://offers.tritech.com/EMS_CC_Sept11_ProductsServices.html)
+A few months ago I would be saying, “Billing checkup; who needs that?”  However, after Kathy Ransom spent the time to go through everything from staff codes to schedules, we realized a checkup was a good idea.  Just like going to the doctor though, a checkup can only benefit you if you listen to your doctor.  In this case, we had Dr. Ransom.
+   
+ 
+Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Sept11_TechnicalSupportHotTopics.html)
+  &gt; Upcoming Sweet-Billing Software Group Training
+
+ 
+Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Sept11_ClientGoLives.html)
+ &gt; Kudos to TriTech EMS Solutions’ Customer – Star EMS               
+ 
+
+
+&gt; Main Page (http://offers.tritech.com/EMS_CC_Sept11_Main.html)
+
+&gt; Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Sept11_AlertUpdates.html)
+ 
+&gt; Products &amp; Services (http://offers.tritech.com/EMS_CC_Sept11_ProductsServices.html)
+ 
+&gt; Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Sept11_TechnicalSupportHotTopics.html)
+
+&gt; Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Sept11_ClientGoLives.html)
+
+&gt; www.tritech.com (http://www.tritech.com/)
+
+ 
+CAM CONTACTS
+Brenda Taylor
+ 800.537.3927 x6233
+ brenda.taylor@tritech.com
+
+Michele Duwe
+ 800.537.3927 x6261
+ michele.duwe@tritech.com 
+ 
+  
+ Register now for TriCON: (https://www.signup4.net/Public/ap.aspx?EID=TRIC17E)
+ TriTech&apos;s Annual User Conference
+
+ 
+ 
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+  www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com           
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

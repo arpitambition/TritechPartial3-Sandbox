@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Imc_CC_Feb12.Email_Feb12</name>
+    <style>none</style>
+    <subject>Your Imc CAM Connection - February Newsletter</subject>
+    <textOnly>          
+February 2012 Edition (http://offers.tritech.com/Imc_CC_Feb12_Main.html)
+Welcome to the February issue of Imc Solutions&apos; CAM Connection newsletter. The main page gives you an overall glance at what this month&apos;s newsletter has to offer.  We hope you enjoy it.
+ 
+ 
+ 
+ Important Alerts &amp; Updates (http://offers.tritech.com/Imc_CC_Feb12_AlertUpdates.html)
+ 
+ &gt; Build 19
+
+ &gt; IMC Contract Trainers Needed
+
+ &gt; Attention ALL IMC Customers
+
+ &gt; Monthly Customer Service Webinar Program  
+ 
+   
+ 
+ Products &amp; Services (http://offers.tritech.com/Imc_CC_Feb12_ProductsServices.html)
+ 
+ &gt; Server Migration Preparation  
+
+ &gt; Fix it with Felicia [WEBINAR]
+   DDACTS (Data-Driven Approaches to Crime and Traffic Safety)
+
+ &gt; TriCON 2012  
+ 
+
+   
+  Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Feb12_TechnicalSupportHotTopics.html)
+ 
+ &gt; Technical Q&amp;As
+
+ 
+ 
+ Client News &amp; GoLives (http://offers.tritech.com/Imc_CC_Feb12_ClientNews.html)
+ 
+ &gt; Shoshone County (Idaho) Selects
+    TriTech&apos;s IMC Law Software Solution
+
+ &gt; January Client News  
+               
+
+
+ &gt; Main Page (http://offers.tritech.com/Imc_CC_Feb12_Main.html)
+
+ &gt; Important Alerts &amp; Updates  (http://offers.tritech.com/Imc_CC_Feb12_AlertUpdates.html)
+
+ &gt; Products &amp; Services  (http://offers.tritech.com/Imc_CC_Feb12_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Feb12_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; GoLives  (http://offers.tritech.com/Imc_CC_Feb12_ClientNews.html)
+
+ &gt; www.tritech.com  (http://www.tritech.com)
+ 
+ 
+CAM CONTACTS
+David Bell
+508.839.6445 x104
+david.bell@tritech.com
+ 
+Mark Baranowski
+508.839.6445 x180
+mark.baranowski@tritech.com 
+ 
+Bob Ricci
+508.839.6445 x115
+robert.ricci@tritech.com   
+ 
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_IMC_CustomerSatisfactionSurvey_March.Email</name>
+    <style>none</style>
+    <subject>No One Likes Surveys</subject>
+    <textOnly>No One Likes Surveys
+Which is why we only ask for your input when it makes a big difference!
+Hello {{lead.First Name:default=Public Safety Professional}},
+ 
+
+TriTech realizes that no matter how good our products are, it is you – our customers – who define our reputation…and we’re committed to making it the best in the industry. 
+
+We would like to know how we are doing. This survey should take you less than 3 minutes, and will help us better serve you.
+
+Thank you
+
+Please take a few moments now to complete the survey by copying and pasting the link below into your browser:
+
+https://survey.qualtrics.com/SE/?SID=SV_3Izz6liUi8p7iII
+An iPAD3® will be sent to one lucky winner selected from all survey participants.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

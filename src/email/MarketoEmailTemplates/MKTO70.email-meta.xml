@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Maximizing the Use of Your Sweet-Billing Reports - Part 2_Sept_29_2011.Reminder</name>
+    <style>none</style>
+    <subject>Webinar Reminder: Tomorrow - Sept 29: Maximizing Your Sweet Billing Reports - Part 2</subject>
+    <textOnly>Upcoming Webinar Reminder
+Maximizing the Use of Your Sweet Billing Reports - Part 2
+
+This is a webinar reminder that you are registered for the upcoming webinar: Maximizing the Use of Your Sweet Billing Reports - Part 2 on Thursday, September 29th at 2 pm Eastern Time (1 pm CT | Noon MT | 11 am PT). 
+
+
+Your Presenters: Larry Cole and Michele Duwe, TriTech&apos;s EMS Solutions Sales Team
+
+In this upcoming webinar, you&apos;ll learn about the Sweet Billing Flex Report Generator.
+
+
+Join Link: http://tritech.ilinc.com/join/ssjhzyb
+
+Date: Thursday, September 29, 2011
+
+Time: 2 pm Eastern Time (1 pm CT | Noon MT | 11 am PT)
+
+Audio: Listen through your computer speakers or dial in over the telephone to a toll number on your screen when you log in
+
+
+Trouble logging in? Call 800-799-4510 to the iLinc support team for help
+
+Questions?
+Contact Cheri Lane, TriTech&apos;s Marketing Communication Manager
+800-537-3927, ext. #6278
+cheri.lane@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

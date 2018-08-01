@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Imc_CC_Jan12.Email_Jan12</name>
+    <style>none</style>
+    <subject>Your Imc CAM Connection - January Newsletter</subject>
+    <textOnly>          
+January 2012 Edition (http://offers.tritech.com/Imc_CC_Jan12_Main.html)
+Happy New Year and welcome to the January issue of Imc Solutions&apos; CAM Connection newsletter. The main page gives you an overall glance at what this month&apos;s newsletter has to offer.  We hope you enjoy it.
+ 
+ 
+ 
+ Important Alerts &amp; Updates (http://offers.tritech.com/Imc_CC_Jan12_AlertUpdates.html)
+ 
+ &gt; Build 19 - New Year, New Release! 
+
+ &gt; Submit Your Product Enhancement Requests Online  
+ 
+   
+ 
+ Products &amp; Services (http://offers.tritech.com/Imc_CC_Jan12_ProductsServices.html)
+ 
+ &gt; Steve Damren, Sr. Systems Specialist at Somerset County in Maine [DEMO]
+
+ &gt; Best Practices for Building Comprehensive Records [DEMO]
+ 
+ &gt; Fix it with Felicia [WEBINAR]  
+ 
+
+   
+  Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Jan12_TechnicalSupportHotTopics.html)
+ 
+ &gt; Technical Q&amp;As
+
+ &gt; Windows 7 System Configuration ﻿ 
+  
+ 
+ 
+ Client News &amp; GoLives (http://offers.tritech.com/Imc_CC_Jan12_ClientNews.html)
+ 
+ &gt; December Go-Lives
+
+ &gt; December Client News 
+               
+
+
+ &gt; Main Page (http://offers.tritech.com/Imc_CC_Jan12_Main.html)
+
+ &gt; Important Alerts &amp; Updates  (http://offers.tritech.com/Imc_CC_Jan12_AlertUpdates.html)
+
+ &gt; Products &amp; Services  (http://offers.tritech.com/Imc_CC_Jan12_ProductsServices.html)
+
+ &gt; Technical Support Hot Topics  (http://offers.tritech.com/Imc_CC_Jan12_TechnicalSupportHotTopics.html)
+
+ &gt; Client News &amp; GoLives  (http://offers.tritech.com/Imc_CC_Jan12_ClientNews.html)
+
+ &gt; www.tritech.com  (http://www.tritech.com)
+ 
+ 
+CAM CONTACTS
+David Bell
+508.839.6445 x104
+david.bell@tritech.com
+ 
+Mark Baranowski
+508.839.6445 x180
+mark.baranowski@tritech.com 
+ 
+   
+ 
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

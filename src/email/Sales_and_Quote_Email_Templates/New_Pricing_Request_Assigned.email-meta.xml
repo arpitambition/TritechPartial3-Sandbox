@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email template used for New Pricing Request assigned notifications</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>New Pricing Request Assigned</name>
+    <style>none</style>
+    <subject>New Pricing Request Assigned for {!Pricing_Request_Form__c.Account__c}</subject>
+    <textOnly>The following pricing request has been assigned to you:
+
+Account Name:  {!Pricing_Request_Form__c.Account__c}
+
+PRF #:  {!Pricing_Request_Form__c.Name}
+
+Requestor: {!Pricing_Request_Form__c.OwnerFullName}
+
+Date of Request:  {!Pricing_Request_Form__c.Date_of_Request__c}
+
+Needed By Date:  {!Pricing_Request_Form__c.Needed_by_Date__c}
+
+Large Quote (Projected Value &gt;$250K): {!Pricing_Request_Form__c.Large_Quote_Projected_Value_250K__c}
+
+Rapid Implementation?: {!Pricing_Request_Form__c.Rapid_Implementation__c}
+
+You can review the Pricing Request here: {!Pricing_Request_Form__c.Link}
+
+Thanks,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+TriTech Software Systems | www.tritech.com
+Phone: {!User.Phone}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

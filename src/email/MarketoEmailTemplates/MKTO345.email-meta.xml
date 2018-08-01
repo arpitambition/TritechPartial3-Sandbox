@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ePCR v6.2 Update.Email</name>
+    <style>none</style>
+    <subject>SCHEDULED MAINTENANCE NOTICE - ePCR v6.2.0</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+SCHEDULED MAINTENANCE NOTICE
+
+TriTech.com ePCR v6.2.0 Update
+
+Dear TriTech.com ePCR Customer,
+
+On Thursday August 9th at 7AM CDT (8AM EDT, 5AM PDT), Operations will be performing an update of the TriTech.com ePCR Application. The Update is scheduled to be completed by 10AM CDT (11AM EDT, 8AM PDT).
+
+For a complete list of the change with the latest version of TriTech.com ePCR, please visit our release notes online by clicking here… &lt;http://www.tritechems.com/documents/Release%20Notes/Fusion%20ePCR%20Release%20Notes%206.2.0.pdf&gt;
+
+
+
+During the maintenance period, TriTech.com ePCR LAN Clients will be unavailable; also you will be unable to Datalink your TriTech.com ePCR Mobile Clients. You may continue to use your TriTech.com ePCR Mobile Clients, with the exception of the Datalink process.
+
+Please note, once the update is applied to the server, the update will be pushed to your TriTech.com ePCR Mobile Clients.
+
+Thank you for your patience.
+
+
+TriTech.com Product Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Opportunity Plan</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Opportunity Plans</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Opportunity Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Jenni, Bob, or the Sales Directors to mark when they have audited and approve this plan is complete --></help>
+        <label><!-- Approved --></label>
+        <name>Approved__c</name>
+    </fields>
+    <fields>
+        <help><!-- Tasks that identify each of the action plans for this account. Identify WHO, What, When and How for each one. The task should have a specific plan focus and a clear end date. The title of the Task must include Action Plan in the subject line. --></help>
+        <label><!-- Are all Action Plans created? --></label>
+        <name>Are_all_Action_Plans_created__c</name>
+    </fields>
+    <fields>
+        <help><!-- Make sure all relevant contacts are added to the Account with their applicable roles.  If available, complete the &quot;Reports to&quot; field on each account to create the org chart for this agency. --></help>
+        <label><!-- Are all relevant contact roles added? --></label>
+        <name>Are_all_relevant_contacts_added__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Issues --></label>
+        <name>Business_Issues__c</name>
+    </fields>
+    <fields>
+        <label><!-- Business Objectives --></label>
+        <name>Business_Objectives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 1 Positioning --></label>
+        <name>Competitor_1_Positioning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 1 --></label>
+        <name>Competitor_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 2 Positioning --></label>
+        <name>Competitor_2_Positioning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 2 --></label>
+        <name>Competitor_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 3 Positioning --></label>
+        <name>Competitor_3_Positioning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 3 --></label>
+        <name>Competitor_3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 4 Positioning --></label>
+        <name>Competitor_4_Positioning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 4 --></label>
+        <name>Competitor_4__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 5 Positioning --></label>
+        <name>Competitor_5_Positioning__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor 5 --></label>
+        <name>Competitor_5__c</name>
+    </fields>
+    <fields>
+        <label><!-- Gaps --></label>
+        <name>Gaps__c</name>
+    </fields>
+    <fields>
+        <help><!-- The project Sponsor is the person who owns the opportunity at the organization. --></help>
+        <label><!-- Have you added the Project Sponsor --></label>
+        <name>Have_you_added_the_Project_Sponsor__c</name>
+    </fields>
+    <fields>
+        <label><!-- How can we leverage TriTech&apos;s strengths? --></label>
+        <name>How_can_we_leverage_TriTech_s_strengths__c</name>
+    </fields>
+    <fields>
+        <label><!-- If yes, when? --></label>
+        <name>If_yes_when__c</name>
+    </fields>
+    <fields>
+        <help><!-- Make sure that Next Steps/Synopsis is up to date with what the major next step in the opportunity process is. --></help>
+        <label><!-- Is Next Steps/Synopsis up to date? --></label>
+        <name>Is_Next_Steps_Synopsis_up_to_date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is there a Decision Date? --></label>
+        <name>Is_there_a_Decision_Date__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- The opportunity needs to have an Executive Summary that summarizes what the opportunity is/why we are going after this. --></help>
+        <label><!-- Is there an Executive Summary? --></label>
+        <name>Is_there_an_Executive_Summary__c</name>
+    </fields>
+    <fields>
+        <label><!-- Long Term Goals --></label>
+        <name>Long_Term_Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Steps/Synopsis --></label>
+        <name>Next_Steps_Synopsis__c</name>
+    </fields>
+    <fields>
+        <label><!-- Next Steps --></label>
+        <name>Next_Steps__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Opportunity Plans --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Planning to replace 911 provider --></label>
+        <name>Planning_to_replace_911_provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning to replace CAD provider --></label>
+        <name>Planning_to_replace_CAD_provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning to replace Jail provider --></label>
+        <name>Planning_to_replace_Jail_provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Planning to replace RMS provider --></label>
+        <name>Planning_to_replace_RMS_provider__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procurement Plans --></label>
+        <name>Procurement_Plans__c</name>
+    </fields>
+    <fields>
+        <label><!-- Procurement Vehicle --></label>
+        <name>Procurement_Vehicle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Programs --></label>
+        <name>Programs__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Sponsor --></label>
+        <name>Project_Sponsor__c</name>
+    </fields>
+    <fields>
+        <label><!-- ROI --></label>
+        <name>ROI__c</name>
+    </fields>
+    <fields>
+        <label><!-- Relationship Objectives --></label>
+        <name>Relationship_Objectives__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selection Committee formalized? --></label>
+        <name>Selection_Committee_formalized__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Short Term Goals --></label>
+        <name>Short_Term_Goals__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strategy --></label>
+        <name>Strategy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Strength --></label>
+        <name>Strength__c</name>
+    </fields>
+    <fields>
+        <label><!-- Threat --></label>
+        <name>Threat__c</name>
+    </fields>
+    <fields>
+        <label><!-- Value Add --></label>
+        <name>Value_Add__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weakness --></label>
+        <name>Weakness__c</name>
+    </fields>
+    <fields>
+        <label><!-- Will consultant be used? --></label>
+        <name>Will_consultant_be_used__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Will there be an RFP? --></label>
+        <name>Will_there_be_an_RFP__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Opportunity Plan Layout</layout>
+        <sections>
+            <label><!-- Account Strategy --></label>
+            <section>Account Strategy</section>
+        </sections>
+        <sections>
+            <label><!-- Business Issues --></label>
+            <section>Business Issues</section>
+        </sections>
+        <sections>
+            <label><!-- Competition --></label>
+            <section>Competition</section>
+        </sections>
+        <sections>
+            <label><!-- Current Status (Must be completed on Account page) --></label>
+            <section>Current Status (Must be completed on Account page)</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Customer Objectives --></label>
+            <section>Customer Objectives</section>
+        </sections>
+        <sections>
+            <label><!-- Decision Process --></label>
+            <section>Decision Process</section>
+        </sections>
+        <sections>
+            <label><!-- Opportunity Information --></label>
+            <section>Opportunity Information</section>
+        </sections>
+        <sections>
+            <label><!-- Relationship SWOT --></label>
+            <section>Relationship SWOT</section>
+        </sections>
+        <sections>
+            <label><!-- TriTech Objectives --></label>
+            <section>TriTech Objectives</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

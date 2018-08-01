@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>KB Search Result</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>KB Search Result</value>
+    </caseValues>
+    <fields>
+        <label><!-- Article Viewd By Users --></label>
+        <name>ArticleViewdByUsers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Article Author --></label>
+        <name>Article_Author__c</name>
+        <relationshipLabel><!-- KB Search Result --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Article ID --></label>
+        <name>Article_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Article Published Date --></label>
+        <name>Article_Published_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Article Title --></label>
+        <name>Article_Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- Article Type --></label>
+        <name>Article_Type__c</name>
+        <picklistValues>
+            <masterLabel>Defect</masterLabel>
+            <translation><!-- Defect --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FAQ</masterLabel>
+            <translation><!-- FAQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>How To</masterLabel>
+            <translation><!-- How To --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Release Notes</masterLabel>
+            <translation><!-- Release Notes --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Advisory</masterLabel>
+            <translation><!-- Tech Advisory --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tech Tips</masterLabel>
+            <translation><!-- Tech Tips --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ticket Solutions</masterLabel>
+            <translation><!-- Ticket Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>User Manuals</masterLabel>
+            <translation><!-- User Manuals --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Article Viewed? --></label>
+        <name>Article_Viewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Article --></label>
+        <name>Article__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Group --></label>
+        <name>Category_Group__c</name>
+        <picklistValues>
+            <masterLabel>911-Inc</masterLabel>
+            <translation><!-- 911-Inc --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Perform</masterLabel>
+            <translation><!-- Perform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- KB Search Tracking --></label>
+        <name>KB_Search_Tracking__c</name>
+        <relationshipLabel><!-- KB Search Result --></relationshipLabel>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

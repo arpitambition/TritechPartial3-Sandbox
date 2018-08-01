@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>New-TriTech.com-Website_Visi.Email-Visi</name>
+    <style>none</style>
+    <subject>TriTech.com: Newly Designed Website</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+TriTech.com - Newly Designed Website
+August 20, 2012
+
+TriTech Software Systems is excited to announce the launch of their newly designed website &lt;http://www.tritech.com/&gt;, which goes live today and is located at the same tritech.com address. You&apos;ll find a fresh, crisp design with simplified navigation and TriTech&apos;s complete product offerings, now aligned under four new product suites:  
+
+
+- Inform: Enterprise Public Safety 911 Call-Taking, CAD, RMS, Mobile, and Intelligence applications (formerly VisiNet, Vision, and 911-Inc. brand names) for PSAPs, Law Enforcement and Fire Protection agencies, and entire city and community public safety systems.
+
+
+- Perform: Quick deployment Public Safety solutions (formerly IMC brand names) providing high value and scalable integrated applications for CAD, RMS, Mobile and back office to field functions for law and fire.
+
+
+- Respond: EMS CAD, ePCR and Billing (formerly Sweet and Fusion brand names) – equipping providers with valuable tools to ensure regulatory compliancy, maximize profitability and improve patient care.
+
+
+- TriTech.com: TriTech’s web-based applications; with more than 8 years of offering applications via the internet and over 100 customers attesting to the proven performance and online benefits, look for more TriTech.com solutions coming soon!
+
+
+You&apos;ll find solutions that you know well, in addition to new products that we are introducing to the market, as well as showcasing for our clients at TriCON &lt;http://www.tritech.com/News-and-Events/One-Company-One-Conference-One-Amazing-Experience&gt;. The new products have been developed from the combined strengths of the former brands, with a focus on enhanced workflow and real-time connectivity - providing you with innovative, integrated solutions to advance your operation.
+
+We began sharing information on these changes in early May &lt;http://offers.tritech.com/index.php/email/emailWebview?mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hBsoIb%2BJK1TtuMFUGpsqOOaMFQsGBoNvwQ%3D%3D&gt; and in the last newsletter &lt;http://offers.tritech.com/TriTechNews_Q2_2012_NC_Products.html&gt;, and are excited to take the next step in offering the best products and services to our customers.  
+
+Remember, in addition to the new website, there’s always three easy ways to get the information you need:
+
+
+- Telephone: 800-VISICAD (800-847-4223)
+- Email: support@tritech.com
+- Support Portal: https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW
+
+
+Log onto the TriTech website &lt;http://www.tritech.com/&gt; now. We hope you enjoy the new website and find it both informative as well as a place to start when you need to reach support or need assistance with evolving your agency.  
+
+If you have questions, please contact your Client Account Manager:
+
+Ken Schulte
+(858) 799-7316
+ken.schulte@tritech.com
+
+Sally Olson-Nelson
+(858) 799-7358
+sally.olson-nelson@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_FusionePCR Integration with VisiCAD.Starting Now</name>
+    <style>none</style>
+    <subject>Starting Soon:  Using Fusion ePCR with VisiCAD</subject>
+    <textOnly>Starting in 20 minutes
+Using Fusion ePCR with VisiCAD
+ 
+This is a reminder the webinar that you have registered for &quot;Using Fusion ePCR with VisiCAD&quot; will be starting in 20 minutes.  
+
+During this webinar you will take a closer look at how VisiCAD&apos;s integration with Fusion ePCR streamlines the collection of pre-hospital data both in the field and the office.  
+
+JOIN LINK: http://tritech.ilinc.com/join/ccmrrvb
+
+DATE: Wednesday, October 26
+
+TIME: 1 PM Eastern | Noon Central | 11 AM Mountain | 10 AM Pacific
+
+Trouble Logging In? Call 800.799.4510 for the iLinc Support Team Help
+
+Questions?
+Cheri Lane in TriTech Marketing
+(563) 387-4858
+cheri.lane@tritech.com 
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

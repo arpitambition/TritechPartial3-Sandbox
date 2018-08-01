@@ -1,0 +1,140 @@
+<apex:page id="pageId" standardController="Idea" extensions="IdeaPostController" action="{!redirectIfNotLoggedIn}" standardStylesheets="false" tabStyle="RoundTable__tab" >
+    
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/normalize-1.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/styles-09172013-1.css')}" />
+    
+    <!-- prototype.js/effects.js/vote.js/base.js -->
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-1.10.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-migrate-1.2.1.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/modernizr-2.6.2.min.js')}" />
+    
+    <script type="text/javascript">
+        function showSubStatus(ele) {
+            if(ele.value == 'Archive') {
+                document.getElementById('{!$Component.formId.subStatusValue}').style.display = 'block';
+                document.getElementById('{!$Component.formId.subStatusLabel}').style.display = 'block';
+            } else {
+                document.getElementById('{!$Component.formId.substatus}').selectedIndex = 0;
+                document.getElementById('{!$Component.formId.subStatusValue}').style.display = 'none';
+                document.getElementById('{!$Component.formId.subStatusLabel}').style.display = 'none';
+            }
+        }
+    </script>
+    
+    <style>
+        
+    </style>
+    
+    
+    <style>
+        .multiSelectPicklistTable .multiSelectPicklistRow .multiSelectPicklistCell {
+            background: none repeat scroll 0 0 #CDD3D6;
+            float: left;
+            height: 60px;
+            padding: 20px 0;
+            text-align: center;
+            width: 21px;
+        }
+        
+    </style>
+    <apex:outputPanel id="errorPanel">
+        <apex:pageMessages />
+    </apex:outputPanel>
+    <div class="clearfix" >
+        <div class="rt-head"><h2><apex:outputLink value="/apex/ideaList" styleClass="gray">TriTech RoundTable</apex:outputLink> • <span class="highlight">Post Your Idea</span></h2></div>
+    </div><br/>
+    <table width="100%" style="border-collapse: collapse;">
+        <tr>
+            <td style="padding: 5px 10px; border: none; color: #636363; background: none repeat scroll 0 0 #CBD0D2;">
+                <h3>Describe Your Idea</h3>
+            </td>
+        </tr>
+    </table>
+    <br/>
+    <apex:form id="formId">
+        <input type="hidden" id="categorySelected" name="categorySelected" value=""/>
+        <div class="form-col-label">
+            <apex:outputLabel for="categories" value="Category" />
+        </div>
+        <apex:actionRegion >
+            <div class="form-col-input">
+                <apex:selectList id="categories" value="{!ideaObj.Category__c}" size="1" styleClass="rt-cat-select" style="margin-left:0px">
+                    <apex:selectOptions value="{!categoryOptions}" />
+                    <apex:actionSupport event="onchange" action="{!fetchSBOptons}" reRender="subCategory"/>
+                </apex:selectList>
+            </div>
+            <div class="form-col-label">
+                <apex:outputLabel for="subCategory" value="Sub-Category" />
+            </div>
+            
+            <div class="form-col-input">
+                <apex:selectList id="subCategory" value="{!ideaObj.Sub_Category__c}" size="1" styleClass="rt-cat-select" style="margin-left:0px">
+                    <apex:selectOptions value="{!subCategoryOptions}" />
+                </apex:selectList>
+            </div>
+        </apex:actionRegion>
+        <div class="form-col-label">
+            <apex:outputLabel for="title" value="Title" />
+        </div>
+        <div class="form-col-input">
+            <apex:inputField id="title" value="{!ideaObj.Title}" styleClass="form-styled"/>
+        </div>
+        <apex:actionFunction action="{!loadSimilar}" name="javascriptLoadSimilar" rerender="similarResults" />
+
+        <apex:outputPanel layout="block" id="similarResults" styleClass="ibtSimilarResults">
+            <apex:outputPanel layout="none" rendered="{!hasSimilarIdeas}">
+                        Possibly similar ideas:
+                        <apex:dataList value="{!similarIdeas}" var="similarIdea">
+                    <ideas:detailOutputLink page="{!ideaViewPage}" ideaId="{!similarIdea.id}">{!similarIdea.title}</ideas:detailOutputLink>
+                </apex:dataList>
+            </apex:outputPanel>
+        </apex:outputPanel>
+        <div class="form-col-label">
+            <apex:outputLabel for="description" value="Description" />
+        </div>
+        <div class="form-col-input">
+            <apex:inputField id="richDescription" value="{!ideaObj.Body}" styleClass="form-styled" />
+        </div>
+        
+        <apex:outputPanel layout="block" styleClass="form-col-label" rendered="{!isEdit}">
+            <apex:outputLabel for="status" value="Status" />
+        </apex:outputPanel>
+        <apex:outputPanel layout="block" styleClass="form-col-input" rendered="{!isEdit}">
+            <apex:inputField id="status" value="{!ideaObj.Status}" styleClass="form-styled" onchange="showSubStatus(this);"/>
+        </apex:outputPanel>
+        <apex:outputPanel id="subStatusLabel" layout="block" styleClass="form-col-label" style="display:{!If(AND(isEdit, ideaObj.Status == 'Archive'), 'block', 'none')}">
+            <apex:outputLabel for="substatus" value="Sub Status" />
+        </apex:outputPanel>
+        <apex:outputPanel id="subStatusValue" layout="block" styleClass="form-col-input" style="display:{!If(AND(isEdit, ideaObj.Status == 'Archive'), 'block', 'none')}">
+            <apex:inputField id="substatus" value="{!ideaObj.Sub_Status__c}" styleClass="form-styled"/>
+        </apex:outputPanel>
+        <script type="text/javascript">
+            var isEdit = '{!isEdit}';
+            if(isEdit == 'true' && document.getElementById('{!$Component.formId.status}').selectedIndex == 3) {
+                document.getElementById('{!$Component.formId.subStatusValue}').style.display = 'block';
+                document.getElementById('{!$Component.formId.subStatusLabel}').style.display = 'block';
+            }
+        </script>
+        <!-- Submit Buttons -->
+        <apex:outputPanel layout="block" styleClass="form-col-submit">
+            <apex:commandLink action="{!save}" value="Post" title="Post" styleClass="butn btn-success btn-125w" style="padding-top:0px;background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);" />
+            &nbsp;&nbsp;<apex:commandLink action="{!cancel}" value="Cancel" title="Cancel" styleClass="butn btn-default btn-125w" style="padding-top:0px;background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);" />
+            <!--&nbsp;&nbsp;<apex:commandLink action="{https://c.na6.visual.force.com/apex/idealist}" value="Cancel" title="Cancel" styleClass="butn btn-default btn-125w" style="padding-top:0px;background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);" />-->
+        </apex:outputPanel>
+        
+        <!-- 
+        <table style="border-collapse: collapse;">
+            <tr>
+                <td class="form-col-label">
+                    <apex:outputLabel value="Categories"/>
+                </td>
+                <td class="form-col-input">
+                    
+                </td>
+            </tr>
+        </table>
+         -->
+    </apex:form>
+</apex:page>

@@ -1,0 +1,376 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Project Asset</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Project Assets</value>
+    </caseValues>
+    <fields>
+        <label><!-- Account Long ID --></label>
+        <name>Account_Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account State --></label>
+        <name>Account_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Account --></label>
+        <name>Account__c</name>
+        <relationshipLabel><!-- Project Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- ELA: License provided through enterprise licensing agreement between client and ESRI 
+
+Hosted: License maintained by Omega for our hosted solutions 
+
+OEM: License provided by Omega for client side deployment --></help>
+        <label><!-- ArcGIS Server Licensing Type --></label>
+        <name>ArcGIS_Server_Licensing_Type__c</name>
+        <picklistValues>
+            <masterLabel>ELA</masterLabel>
+            <translation><!-- ELA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hosted</masterLabel>
+            <translation><!-- Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>OEM</masterLabel>
+            <translation><!-- OEM --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Family --></label>
+        <name>Asset_Family__c</name>
+        <picklistValues>
+            <masterLabel>ESRI Software</masterLabel>
+            <translation><!-- ESRI Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omega Hosting</masterLabel>
+            <translation><!-- Omega Hosting --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omega Software</masterLabel>
+            <translation><!-- Omega Software --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Omega Solutions</masterLabel>
+            <translation><!-- Omega Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner Solutions</masterLabel>
+            <translation><!-- Partner Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party Solutions</masterLabel>
+            <translation><!-- Third Party Solutions --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Asset Status --></label>
+        <name>Asset_Status__c</name>
+        <picklistValues>
+            <masterLabel>Active</masterLabel>
+            <translation><!-- Active --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CSP - No Renewal</masterLabel>
+            <translation><!-- CSP - No Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ordered</masterLabel>
+            <translation><!-- Ordered --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Requested</masterLabel>
+            <translation><!-- Requested --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Shipped</masterLabel>
+            <translation><!-- Shipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Billing Contact --></label>
+        <name>Billing_Contact__c</name>
+        <relationshipLabel><!-- Project Assets (Billing Contact) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- CSP Start Date --></label>
+        <name>CSP_Start_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comissionable Sales Rep --></label>
+        <name>Comissionable_Sales_Rep__c</name>
+        <relationshipLabel><!-- Project Assets (Comissionable Sales Rep) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Contact --></label>
+        <name>Contact__c</name>
+        <relationshipLabel><!-- Project Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Payment Amount --></label>
+        <name>Final_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Final Payment Received --></label>
+        <name>Final_Payment_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Payment Amount --></label>
+        <name>First_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- First Payment Received --></label>
+        <name>First_Payment_Received__c</name>
+    </fields>
+    <fields>
+        <help><!-- Indicates whether this project belongs solely to Omega or is part of a TriTech project. The latter indicates that both billing and Dovico time entry will fall under the TriTech project. --></help>
+        <label><!-- Managed/billed under a TriTech Project --></label>
+        <name>Managed_billed_under_a_TriTech_Project__c</name>
+        <picklistValues>
+            <masterLabel>Separate Omega Project/Hosting/Support: billed/tracked individually rather than as part of a project under another TriTech product line</masterLabel>
+            <translation><!-- Separate Omega Project/Hosting/Support: billed/tracked individually rather than as part of a project under another TriTech product line --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech Project: tracked and billed as a TriTech CAD/RMS/Other project</masterLabel>
+            <translation><!-- TriTech Project: tracked and billed as a TriTech CAD/RMS/Other project --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Omega Project Team --></label>
+        <name>Omega_Project_Team__c</name>
+        <picklistValues>
+            <masterLabel>Assign Team</masterLabel>
+            <translation><!-- Assign Team --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Brandon Stam</masterLabel>
+            <translation><!-- Brandon Stam --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bruce Silva</masterLabel>
+            <translation><!-- Bruce Silva --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team A</masterLabel>
+            <translation><!-- Team A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team B</masterLabel>
+            <translation><!-- Team B --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team C</masterLabel>
+            <translation><!-- Team C --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team D</masterLabel>
+            <translation><!-- Team D --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team E</masterLabel>
+            <translation><!-- Team E --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Team S</masterLabel>
+            <translation><!-- Team S --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Omega Referral --></label>
+        <name>Omega_Referral__c</name>
+        <relationshipLabel><!-- Project Assets (Omega Referral) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Long ID --></label>
+        <name>Opportunity_Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Project Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- PO Number --></label>
+        <name>PO_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Part Number --></label>
+        <name>Part_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Status --></label>
+        <name>Payment_Status__c</name>
+        <picklistValues>
+            <masterLabel>CSP - No Renewal</masterLabel>
+            <translation><!-- CSP - No Renewal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Included</masterLabel>
+            <translation><!-- Included --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Invoiced</masterLabel>
+            <translation><!-- Invoiced --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Paid</masterLabel>
+            <translation><!-- Paid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Skipped</masterLabel>
+            <translation><!-- Skipped --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms (if not 50/40/10) --></label>
+        <name>Payment_Terms_if_not_50_40_10__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price --></label>
+        <name>Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Description --></label>
+        <name>Product_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name --></label>
+        <name>Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Asset Long ID --></label>
+        <name>Project_Asset_Long_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project --></label>
+        <name>Project__c</name>
+        <relationshipLabel><!-- Project Assets --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Projected # of Hours --></label>
+        <name>Projected_of_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Purchase Date --></label>
+        <name>Purchase_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Payment Amount --></label>
+        <name>Second_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Second Payment Received --></label>
+        <name>Second_Payment_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- Send Software --></label>
+        <name>Send_Software__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship Date --></label>
+        <name>Ship_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Shipping Method --></label>
+        <name>Shipping_Method__c</name>
+        <picklistValues>
+            <masterLabel>Fedex - Overnight</masterLabel>
+            <translation><!-- Fedex - Overnight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedex - Priority Overnight</masterLabel>
+            <translation><!-- Fedex - Priority Overnight --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fedex - Standard</masterLabel>
+            <translation><!-- Fedex - Standard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>USPS Priority</masterLabel>
+            <translation><!-- USPS Priority --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Shipping Tracking Number --></label>
+        <name>Shipping_Tracking_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- Software Version --></label>
+        <name>Software_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Payment Amount --></label>
+        <name>Third_Payment_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Payment Received --></label>
+        <name>Third_Payment_Received__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Customer Number --></label>
+        <name>TriTech_Customer_Number__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Sales Order # --></label>
+        <name>TriTech_Sales_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Usage End Date --></label>
+        <name>Usage_End_Date__c</name>
+    </fields>
+    <layouts>
+        <layout>Project Asset Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Payment Details --></label>
+            <section>Payment Details</section>
+        </sections>
+        <sections>
+            <label><!-- Sys Admin --></label>
+            <section>Sys Admin</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

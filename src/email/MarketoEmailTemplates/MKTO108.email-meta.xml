@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_Western-Massachusetts-Police-Chiefs-Annual-Tradeshow_Nov8.BoothInvite</name>
+    <style>none</style>
+    <subject>Stop by the TriTech Booth at the Western Massachusetts Police Chief’s Association Annual Tradeshow, November 8</subject>
+    <textOnly>Western Massachusetts Police Chief’s Association Annual Tradeshow
+November 8, 2011  |  Holyoke, MA
+
+Stop by and see us next week at the Western Massachusetts Police Chief’s Association Annual Tradeshow and visit with TriTech-Imc Solutions Client Account Manager, David Bell. 
+
+David Bell
+David.Bell@TriTech.com
+774-239-3722
+
+If you would like to pre-schedule a demonstration of our CAD, Mobile Data, Civil Process, Corrections or Records Management solutions, please call or email David Bell at 774.239.3722 or david.bell@tritech.com. 
+
+
+Enter to Win a Law Monopoly Game at the TriTech Booth
+
+
+Stop by and visit with us to see why TriTech is the fastest growing company in Public Safety and Medical Transport.
+
+Can&apos;t make the conference in East Holyoke next week? Please contact David Bell at 774.239.3722 or  david.bell@tritech.com 
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

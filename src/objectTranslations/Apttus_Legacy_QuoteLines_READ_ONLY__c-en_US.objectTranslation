@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Apttus Legacy QuoteLines - READ ONLY</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Apttus Legacy Quote Lines</value>
+    </caseValues>
+    <fields>
+        <label><!-- Adjusted Price --></label>
+        <name>AdjustedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- AdjustmentA mount --></label>
+        <name>AdjustmentAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Adjustment Type --></label>
+        <name>AdjustmentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Apttus Legacy Quote --></label>
+        <name>Apttus_Legacy_Quote__c</name>
+        <relationshipLabel><!-- Apttus Legacy Quote Lines --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Asset Id --></label>
+        <name>AssetId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Asset Line Item Id --></label>
+        <name>AssetLineItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Attribute Value Id --></label>
+        <name>AttributeValueId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Cost Override --></label>
+        <name>BaseCostOverride__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Cost --></label>
+        <name>BaseCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Extended Cost --></label>
+        <name>BaseExtendedCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Extended Price --></label>
+        <name>BaseExtendedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Price Method --></label>
+        <name>BasePriceMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Price Override --></label>
+        <name>BasePriceOverride__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Price --></label>
+        <name>BasePrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Product Id --></label>
+        <name>BaseProductId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Base Price 1 --></label>
+        <name>Base_Price_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- BillTo Account Id --></label>
+        <name>BillToAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Frequency --></label>
+        <name>BillingFrequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Plan Id --></label>
+        <name>BillingPlanId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Preference Id --></label>
+        <name>BillingPreferenceId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Billing Rule --></label>
+        <name>BillingRule__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Display Section --></label>
+        <name>CLDY_TemplateDisplaySection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Display Sub Section --></label>
+        <name>CLDY_TemplateDisplaySubsection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Product Category --></label>
+        <name>CLDY_TemplateProductCategory__c</name>
+    </fields>
+    <fields>
+        <label><!-- Temaplate Display Order --></label>
+        <name>CLDY_Template_Display_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Display Sequence --></label>
+        <name>CLDY_Template_Display_Sequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Section --></label>
+        <name>CLDY_Template_Section__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Sub Section --></label>
+        <name>CLDY_Template_Subsection__c</name>
+    </fields>
+    <fields>
+        <label><!-- Trigger Cloudely Workflow Rules --></label>
+        <name>CLDY_Trigger_Cloudely_Workflow_Rules__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charge Group Id --></label>
+        <name>ChargeGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Charge Type --></label>
+        <name>ChargeType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Hierarchy --></label>
+        <name>ClassificationHierarchy__c</name>
+    </fields>
+    <fields>
+        <label><!-- Classification Id --></label>
+        <name>ClassificationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Comments --></label>
+        <name>Comments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Commitment Quantity --></label>
+        <name>CommitmentQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configuration Id --></label>
+        <name>ConfigurationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Contract Numbers --></label>
+        <name>ContractNumbers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Cost --></label>
+        <name>Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Custom Total Cost --></label>
+        <name>Custom_Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Derived From Id --></label>
+        <name>DerivedFromId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Discount --></label>
+        <name>Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- End Date --></label>
+        <name>EndDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ext Net Price --></label>
+        <name>Ext_Net_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ext Price --></label>
+        <name>Ext_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Cost --></label>
+        <name>ExtendedCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Description --></label>
+        <name>ExtendedDescription__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Price --></label>
+        <name>ExtendedPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Extended Quantity --></label>
+        <name>ExtendedQuantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Flat Option Price --></label>
+        <name>FlatOptionPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Frequency --></label>
+        <name>Frequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Functional Area --></label>
+        <name>Functional_Area__c</name>
+    </fields>
+    <fields>
+        <label><!-- GM --></label>
+        <name>GM__c</name>
+    </fields>
+    <fields>
+        <label><!-- GSA Product Name --></label>
+        <name>GSA_Product_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Group Adjustment Percent --></label>
+        <name>GroupAdjustmentPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Guidance --></label>
+        <name>Guidance__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Attributes --></label>
+        <name>HasAttributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Options --></label>
+        <name>HasOptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Has Attributes --></label>
+        <name>Has_Attributes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hide Invoice Display --></label>
+        <name>HideInvoiceDisplay__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Asset Pricing --></label>
+        <name>IsAssetPricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Custom Pricing --></label>
+        <name>IsCustomPricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Option Rollup Line --></label>
+        <name>IsOptionRollupLine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Primary Line --></label>
+        <name>IsPrimaryLine__c</name>
+    </fields>
+    <fields>
+        <label><!-- IsPrimary Ramp Line --></label>
+        <name>IsPrimaryRampLine__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Usage Tier Modifiable --></label>
+        <name>IsUsageTierModifiable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Software Service Product --></label>
+        <name>Is_Software_Service_Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Item Sequence --></label>
+        <name>ItemSequence__c</name>
+    </fields>
+    <fields>
+        <label><!-- Legacy Quote Lines ID --></label>
+        <name>Legacy_Quote_Lines_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Number --></label>
+        <name>LineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Status --></label>
+        <name>LineStatus__c</name>
+    </fields>
+    <fields>
+        <label><!-- Line Type --></label>
+        <name>LineType__c</name>
+    </fields>
+    <fields>
+        <label><!-- List Price --></label>
+        <name>ListPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Location Id --></label>
+        <name>LocationId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maint Cost --></label>
+        <name>Maint_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Maintenance Amount --></label>
+        <name>Maintenance_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer 1 --></label>
+        <name>Manufacturer_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Manufacturer --></label>
+        <name>Manufacturer__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Adjustment Percent --></label>
+        <name>NetAdjustmentPercent__c</name>
+    </fields>
+    <fields>
+        <label><!-- Net Price --></label>
+        <name>NetPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Cost --></label>
+        <name>OptionCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Id --></label>
+        <name>OptionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Option Price --></label>
+        <name>OptionPrice__c</name>
+    </fields>
+    <fields>
+        <label><!-- Override Support Level --></label>
+        <name>OverrideSupportLevel__c</name>
+    </fields>
+    <fields>
+        <label><!-- Parent Bundle Number --></label>
+        <name>ParentBundleNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Term Id --></label>
+        <name>PaymentTermId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Adjustment Amount --></label>
+        <name>PriceAdjustmentAmount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Adjustment Type --></label>
+        <name>PriceAdjustmentType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Adjustment --></label>
+        <name>PriceAdjustment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Group --></label>
+        <name>PriceGroup__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Included In Bundle --></label>
+        <name>PriceIncludedInBundle__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price List Id --></label>
+        <name>PriceListId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price List Item Id --></label>
+        <name>PriceListItemId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Method --></label>
+        <name>PriceMethod__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Type --></label>
+        <name>PriceType__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Uom --></label>
+        <name>PriceUom__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price List 1.1 --></label>
+        <name>Price_List_1_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Date --></label>
+        <name>PricingDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Primary Line Number --></label>
+        <name>PrimaryLineNumber__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prood Category --></label>
+        <name>Prod_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prod Sub Type 1 --></label>
+        <name>Prod_Sub_Type1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prod Sub Type --></label>
+        <name>Prod_Sub_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prod Type 1 --></label>
+        <name>Prod_Type_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Prod Type --></label>
+        <name>Prod_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Option Id --></label>
+        <name>ProductOptionId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Category --></label>
+        <name>Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Code --></label>
+        <name>Product_Code__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Name 1 --></label>
+        <name>Product_Name_1__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product --></label>
+        <name>Product__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal --></label>
+        <name>Proposal__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 2 --></label>
+        <name>Quantity2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity 3 --></label>
+        <name>Quantity3__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quantity --></label>
+        <name>Quantity__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For Activation Date --></label>
+        <name>ReadyForActivationDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For Billing Date --></label>
+        <name>ReadyForBillingDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For Fulfillment Dte --></label>
+        <name>ReadyForFulfillmentDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ready For RevRec Date --></label>
+        <name>ReadyForRevRecDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- SIN --></label>
+        <name>SIN__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Discount --></label>
+        <name>Sales_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Order Category --></label>
+        <name>Sales_Order_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sales Tax 2 --></label>
+        <name>Sales_Tax_2__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selling Frequency --></label>
+        <name>SellingFrequency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Selling Term --></label>
+        <name>SellingTerm__c</name>
+    </fields>
+    <fields>
+        <label><!-- Service Date --></label>
+        <name>Service_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Ship To Account Id --></label>
+        <name>ShipToAccountId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Sort Order --></label>
+        <name>Sort_Order__c</name>
+    </fields>
+    <fields>
+        <label><!-- Start Date --></label>
+        <name>StartDate__c</name>
+    </fields>
+    <fields>
+        <label><!-- Summary Group Id --></label>
+        <name>SummaryGroupId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Support Type --></label>
+        <name>Support_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel Amount --></label>
+        <name>T_E_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Code Id --></label>
+        <name>TaxCodeId__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tax Inclusive --></label>
+        <name>TaxInclusive__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxable Item --></label>
+        <name>Taxable_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- Taxable --></label>
+        <name>Taxable__c</name>
+    </fields>
+    <fields>
+        <label><!-- Template Product Category --></label>
+        <name>Template_Product_Category__c</name>
+    </fields>
+    <fields>
+        <label><!-- Term --></label>
+        <name>Term__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Cost --></label>
+        <name>Total_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Discount --></label>
+        <name>Total_Discount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Discounted Price --></label>
+        <name>Total_Discounted_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total List Price --></label>
+        <name>Total_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Net Price --></label>
+        <name>Unit_Net_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Unit Price --></label>
+        <name>Unit_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Uom --></label>
+        <name>Uom__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Request GTA Connection</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Request GTA Connection</name>
+    <style>none</style>
+    <subject>{!Case.CaseNumber}  - {!Case.Subject}</subject>
+    <textOnly>Dear {!Case.Contact},
+
+I have been assigned your TriTech service request ticket #{!Case.CaseNumber}  - {!Case.Subject}.   I&apos;ll be happy to help you with this ticket.  I would like to remotely connect with you.  At your earliest convenience, please establish a GoToAssist session with me by selecting the following website:  http://www.gotoassist.com/ph/tritech1.  Once on the web page, enter your name, Agency, and select my name, {!Case.OwnerFullName}, from the representative list.
+
+If you are unable to connect or have questions, feel free to call me at 1-800-987-0911 opt 2.
+
+I look forward to working with you on this issue.
+
+Thank you in advance,
+
+{!Case.OwnerFullName}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

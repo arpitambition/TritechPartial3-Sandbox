@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_NationalSupportCenterReducingResolutionTimes.Email</name>
+    <style>none</style>
+    <subject>TriTech Press Release: TriTech’s National Support Center Reducing Customer Call Wait and Resolution Times</subject>
+    <textOnly>Press Release
+TriTech’s National Support Center Reducing Customer Call Wait and Resolution Times
+March 19, 2012
+DECORAH, IA (March 19, 2012) – TriTech Software Systems launched a National Support Center in 2011 to strengthen its service and support for customers. By establishing a centralized National Support Center, TriTech’s knowledgeable, cross-trained staff can handle peak periods and serve as a backup to product line support teams which ensure day-in and day-out uninterrupted support. The center monitors customer support metrics across product lines to quickly respond to customer needs. 
+
+TriTech’s  IMC clients were the first customer group brought under the new structure in late 2011. The sole goal was to elevate customer satisfaction, by reducing call wait and resolution times.   TriTech is pleased to announce that after three months, the Center has reduced the average time for call resolution by 68%.   The team has also reduced the average hold time to less than one minute. The teams of support professionals work hard to ensure proper, efficient handling of every call. “Aligning support through the National Support Center allows us to redefine customer service standards in Public Safety by improving customer service and employee productivity,” said Ms. Terri Barry, Vice President National Support Center.
+
+Partnering with – and listening to  – customers is a top priority at the National Support Center, as witnessed by Chief Paul Magee of the Rochester Police Department in Rochester, Massachusetts. “My department IT person was out injured and Christine worked through a difficult laptop swap out with exceptional customer service skills.” Another customer, Officer Timothy O&apos;Sullivan, also wrote in to express his gratitude: “Linda is nothing short of exceptional and did an outstanding job working with me to resolve the issues that we were having here at East Bridgewater Police Department. She went above and beyond....It makes me feel good to know as a customer that when we have a problem here at our department, an excellent service/support technician such as Linda is on the other end of the phone to be there to help.”
+
+TriTech has unified the best people and  products in public safety software under one company to deliver the most trusted and innovative enterprise-wide solutions in Law, Fire and EMS. Ms. Barry said, “Customers define a company’s reputation and we are committed to delivering the best customer service in public safety.”</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Early Bird Extended - VisiNet</name>
+    <style>none</style>
+    <subject>TriCON - Early Bird Registration Deadline Extended to August 15</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Early Bird Extended To August 15
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+Hello {{lead.First Name:default=Client}},
+
+By popular demand, we&apos;re extending our early-bird rate to August 15. We&apos;re giving you four extra weeks to push those approvals through the door. Join us for two-and-a-half exciting days of TriCON:  product announcements, industry education, training, networking...and YOU!  
+
+Additional resources to support the TriCON approval process:
+
+
+
+	- TriCON Justification Letter &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+	- Agenda Sneak Peek &lt;http://offers.tritech.com/rs/ortivusna/images/Agenda%20Sneak%20Peak_04242012_c.pdf&gt;
+
+	- Detail Agenda - COMING SOON!!
+
+
+
+
+See you in San Diego!
+
+ 
+
+ &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+Conference Details
+
+Registration: 
+ $695 - Early-Bird fee before August 15.
+
+
+Never been to TriCON?  You are eligible for a $50 discount.  Select the First Time Attendee fee of $645.  
+
+Part of a group of 4 or more or Consortium?  Receive an additional $50 discount off your registration fee.  Enter the code &quot;Group&quot; to receive the discount. 
+
+
+ 
+
+ &lt;http://www.cvent.com/d/vcqlkf/4W&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

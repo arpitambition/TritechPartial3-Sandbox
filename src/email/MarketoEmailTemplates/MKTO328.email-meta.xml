@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Changes to Microsoft SQL Server Licensing.Email</name>
+    <style>none</style>
+    <subject>TECHNICAL ADVISORY: Changes to Microsoft SQL Server Licensing</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Changes to Microsoft SQL Server Licensing
+Date:                 July 9th, 2012
+Advisory #:           GA12-011
+Subject:              Changes to Microsoft SQL Server Licensing
+Affected Versions:    All
+
+ PDF download of this email: Changes_Microsoft_SQL_Server_Licensing.pdf
+Microsoft recently announced changes to their SQL Server license model, which will take effect with the release of SQL Server 2012. These changes also affect the acquisition of previous SQL versions which will be considered downgrades. TriTech wants to ensure you are aware of these changes and have the information necessary to choose the model that is best for your environment. SQL Server licensing has changed from a per-processor license to per-core license for Enterprise Edition and either a per-core or a server plus CAL for Standard Edition. When purchasing SQL Server licenses in the future, customers are encouraged to count users/devices and decide if the total licensing costs are lower using the Server / CAL or the Per-Core licensing model.
+
+TriTech is continuously working to ensure our customers have the best solutions at the best value. As SQL Server 2012 will offer expanded virtualization rights, options and benefits to provide greater flexibility for customers deploying in virtual environments, TriTech is currently defining the options available to deploy our solutions in this manner. Additionally as new versions of server and workstation operating systems are introduced, we will update you with our plans to support compatibility with these versions.
+
+For questions regarding the new Microsoft License Model, TriTech recommends contacting your Microsoft Customer Support Representative.
+
+Any questions regarding this correspondence please contact your TriTech Account Representative.
+
+For additional information regarding SQL Server Licensing Model visit http://www.microsoft.com/sqlserver/en/us/editions.aspx
+
+Additional Resources
+If you have any questions regarding the information in this advisory, please contact TriTech Technical Services at 1-888-VisiCAD, email support@tritech.com, or visit https://myvisinet.tritech.com.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fall-Training.Email-Survey</name>
+    <style>none</style>
+    <subject>TriTech Software Fall Training - We Need Your Response</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Tritech Software Training:
+Please Respond with Your Input
+July 30, 2012
+Dear {{lead.First Name:default=Customer}},
+
+
+In response to the feedback TriTech received at the recent Spring User Group Meetings, we have been evaluating the options for a regional, multi-department training event. We have a tentative location, dates, and curriculum. We think this option would be very cost effective, and the curriculum will help you maximize the use of your TriTech software. 
+
+All we have right now is an idea; to move forward, TriTech needs to gage the user community’s level of commitment to support this type of event (please see details below). We have put together this survey and your response is critical to shaping how we proceed. We want to ensure we coordinate an event that you would be interested in attending.
+
+Please let us know what you think:
+https://survey.qualtrics.com/SE/?SID=SV_8xoYRRYI07oH8Q5 (estimated time to complete feedback - 3 minutes):
+
+Tentative Details
+Dates: October 22 and 23, 2012
+
+Registration Fee: Approximately $300 per person (Includes two days of training, breakfast, lunch, and an afternoon snack each day)
+
+Location: Doubletree by Hilton in Westborough, MA (Overnight rooms will be available at a government rate of $93.00)
+
+Sample Agenda: There would be multiple rooms and presentations going on at the same time. You would be able to pick the sessions you would like to attend. Each session would be from one to two hours in length. 
+
+Potential topics would include:
+
+
+- Time Off Tracking
+- Introduction to Data Dictionary Files
+- Implementing Citrix and Terminal Servers
+- Customizing Fire Permits, Inspections, Complaints
+- Overtime and Detail Allotments
+- Migrating from physical to virtual servers
+- Dispatch Analysis Reports
+- Police Case Management
+- Run Card Management
+- Property Management
+- Mobile Update Utility
+- Getting the most of the Detective (Investigative) module
+- Paging
+- Crime Analysis
+- Overtime and Detail Allotments
+- Getting the most out of your Police Records Software
+- Migrating from physical to virtual servers
+- Managing your dispatch console
+- Fire Equipment and Vehicle Maintenance
+- Security Administration
+- NFIRS Reporting
+- Payroll
+- Maintaining budgets and expense transactions
+- Mobile 101
+
+
+
+Thank you for your input!
+
+Phil Sisk
+VP Operations | North Grafton, MA
+TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

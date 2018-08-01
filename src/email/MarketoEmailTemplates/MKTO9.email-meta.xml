@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConferece_July_EMS</name>
+    <style>none</style>
+    <subject>TriCON:  ANSI Boot Camp Pre-Conference Workshop</subject>
+    <textOnly>Pre-Conference Workshop - ANSI Boot Camp
+September 13 - 16  l  Boston, Massachusetts
+
+Start the training early with TriCON&apos;s Pre-Conference Workshop - ANSI Boot Camp.  The pre-conference workshops are held on Tuesday, September 13 from 2 p.m. to 5 p.m. at an additional cost of $200.    
+
+ANSI Boot Camp - Pre-Conference Workshop 
+HIPAA Version 5010 is a new standard that must be implemented for all Healthcare Electronic Data Interchange (EDI) transactions by January 1, 2012. Beginning January 1, 2012, the claim files that are currently created in accordance with the ANSI 4010 standard will no longer be accepted. 
+
+Q: How is Sweet-Billing affected by the HIPAA 5010 standard? 
+A: There are three significant changes: 
+
+The instruction sets used to create electronic claims need to be changed to create claim files that comply with the new standard. (Sweet-Billing 5.7) 
+New functionality has been added to the Special Processing Utility to decode and print the new response files (999 and 277CA) that trading partners will return to communicate the status of submitted claim files. (Sweet-Billing 5.7) 
+A new Remittance Processing function is being created to accommodate the HIPAA 5010 Version of remittance files. (Sweet-Billing 5.8) 
+
+The ANSI Boot Camp will review the important ANSI codes and changes that were made and how you can achieve compliancy.  
+
+Register:  https://www.signup4.net/Public/ap.aspx?EID=TRIC17E
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

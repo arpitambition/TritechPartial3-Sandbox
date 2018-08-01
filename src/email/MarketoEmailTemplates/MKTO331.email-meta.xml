@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Version5 Training.Invitation - New Jersey</name>
+    <style>none</style>
+    <subject>Revised Date and Time:  VisiCAD 5.2 Regional Training in New Jersey (7/24)</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Complimentary Training:  Everything You Need to Know About VisiCAD 5.2
+
+Hello {{lead.First Name:default=Customer}},
+
+Did you miss TriCON last year?  Or maybe you came, but upgrading to VisiCAD 5.2 seemed too far away. Well, in mid-June VisiCAD 5.2 will be available and we want to get you ready to move forward. VisiCAD 5.2 is filled with significant enhancements to enable an agency’s personnel to be more efficient and productive such as Advisor, Internet Integration, VisiNet Configuration, and much more. &lt;http://offers.tritech.com/rs/ortivusna/images/VisiCAD Regional Training 5 2 PDF.pdf&gt; 
+
+We hope that you will join us and fellow VisiCAD users in this intimate environment for an in-depth training session discussing the functionality, set up and system planning for VisiCAD 5.2. We&apos;re coming to you, so come ready - ready to learn, ready to ask questions and ready to move to VisiCAD 5.2!
+
+Agenda:
+
+9:00 AM - 12:00 NOON
+ VisiCAD 5.2 Functionality and Demonstration
+
+12:00 NOON - 1:30 PM
+ Complimentary Lunch will be provided
+
+1:30 PM - 4:00 PM
+System Planning and Question and Answer Session with Technical Services
+
+Register here:  http://offers.tritech.com/Version5Training_Registration.html  &lt;http://offers.tritech.com/Version5Training_Registration.html&gt;
+
+**Note:  Training will focus solely on VisiCAD.  VisiNet Mobile will NOT be covered. 
+
+ 
+
+Questions?
+ Gladys Ferguson, Training Supervisor
+ TriTech Software Systems
+ (858) 799-7383
+
+Dates and Locations
+REVISED
+Dates and Locations (June/July)
+ July 24:  New Brunswick, NJ  (NEW DATE)
+
+
+Time:
+ 9:00 AM to 4:00 PM
+
+Bonus:
+ Light continental breakfast and lunch will be provided.
+
+Cost:
+Complimentary
+
+
+ &lt;http://offers.tritech.com/Version5Training_Registration.html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

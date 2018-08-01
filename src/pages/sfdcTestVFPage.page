@@ -1,0 +1,9 @@
+<apex:page standardController="ServiceContract" extensions="ServiceContractExtension" cache="false">
+  <apex:form id="form">
+    <apex:commandButton value="Create Service Contract" id="btnCreateTicket" action="{!createTicketFromServiceContract}" />
+    <script> var btnCreateTicket = document.getElementById("{!$Component.btnCreateTicket}"); </script>
+  </apex:form>
+  <script>
+    window.onload = new function() { btnCreateTicket.click(); };
+  </script>
+</apex:page>

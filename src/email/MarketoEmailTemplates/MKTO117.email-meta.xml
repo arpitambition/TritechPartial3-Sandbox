@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS-Webinars_Paper-to-ePCR_Nov10.LastChanceToRegister</name>
+    <style>none</style>
+    <subject>Last Chance to Register - Transitioning from Paper to Electronic Patient Care Reporting</subject>
+    <textOnly>Last Chance to Register 
+Complimentary Live Webinar: Transitioning from Paper to Electronic Patient Care Reporting
+
+Join us for a complimentary live webinar on Transitioning from Paper to Electronic Patient Care Reporting.
+
+This presentation will touch on the following aspects of transitioning from paper to electronic patient care reporting:
+
+-Benefits
+-Project Scope
+-Equipment
+-Hardware
+-Software
+-Training
+-Budget
+-Results
+
+DATE: November 10, 2011
+TIME: 1 PM Central l 2 PM Eastern  l  Noon Mountain  l  11 AM Pacific
+PRESENTER: Larry Cole 
+-Former Director of Finance and Corporate Compliance, Kanawha County Ambulance
+-26 Years as Paramedic
+-10 Years as Director of Finance
+-Fusion ePCR Project Manager
+
+REGISTER: http://offers.tritech.com/EMSWebinars_PapertoePCR_Nov10_Registration.html
+
+
+
+Questions?
+Cheri Lane, Marketing Communications Manager
+800-537-3927, ext. #6278
+cheri.lane@tritech.com
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

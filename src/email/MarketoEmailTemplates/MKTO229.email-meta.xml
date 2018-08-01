@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ImcSolutionsSystemManagerTraining_Spring2012.Reminder</name>
+    <style>none</style>
+    <subject>REMINDER: System Manager Training - Save Your Seat</subject>
+    <textOnly>REMINDER: Register Now - Seats Will Fill Up Soon
+
+System Manager Training
+-Date: April 20-FULL | May 18-FULL | June 1-FULL | June 29 | July 13 | August 3 | Add your name to a list for a future session
+
+
+What: Training for advanced TriTech users designated as primary/lead Imc Solutions “guru” for department or agency.
+
+Date: April 20-FULL | May 18-FULL | June 1-FULL | June 29 | July 13 | August 3 | Add your name to a list for a future session
+
+When: 9 am to 4 pm ET
+
+Description: Inter-departmental seminar which includes network and hardware issues, server and workstation maintenance relative to the TriTech software, backups, printers, updates, database analyzing, system logs, identifying error codes, security issues, laptops, mobiles, E911 Interface, case management, new feature processes, questions and answers.
+
+Training Location:
+TriTech Software Systems
+13 Centennial Drive
+North Grafton, MA 01536
+
+Cost: $250 per seat
+
+*Each class holds 12 seats, a new date may need to be added as the class fills up. Please check email often to see if a new date becomes available.
+
+*PLEASE NOTE: Your registration is NOT confirmed as booked until you receive an official quote from your TriTech representative and it is returned to us with all the proper signatures etc. 
+
+REGISTER: please copy and paste this link into a browser window: http://offers.tritech.com/SystemManagerTraining_Spring2012_RegistrationLandingPage.html
+
+Questions? Contact Coleen Storck 774-551-9100 | coleen.storck@tritech.com
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+ 
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when additional information is required to complete a help desk ticket</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Additional Info Needed Help Desk Ticket</name>
+    <style>none</style>
+    <subject>Additional Info Needed: SalesForce Helpdesk Ticket #{!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>In order to further assist you with your requested, we need some additional information.  Please see the notes below for information needed.
+
+Additional Information Required:
+
+{!SalesForce_Helpdesk__c.Additional_Information_Required__c}
+
+---------------------------------------------------------------------------------------
+
+{!SalesForce_Helpdesk__c.Link}
+
+Ticket Number: {!SalesForce_Helpdesk__c.Name}
+Request Type: {!SalesForce_Helpdesk__c.Request_Type__c}
+
+Ticket Details: {!SalesForce_Helpdesk__c.Request_Details__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

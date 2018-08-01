@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<StandardValueSet xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sorted>false</sorted>
+    <standardValue>
+        <fullName>Advertising</fullName>
+        <default>false</default>
+        <label>Advertising</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BBSI Contact</fullName>
+        <default>false</default>
+        <label>BBSI Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS - East</fullName>
+        <default>false</default>
+        <label>BDS - East</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BDS - West</fullName>
+        <default>false</default>
+        <label>BDS - West</label>
+    </standardValue>
+    <standardValue>
+        <fullName>BidPrime</fullName>
+        <default>false</default>
+        <label>BidPrime</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bid Subscription</fullName>
+        <default>false</default>
+        <label>Bid Subscription</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Bidsync</fullName>
+        <default>false</default>
+        <label>Bidsync</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Call Campaign</fullName>
+        <default>false</default>
+        <label>Call Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Capterra</fullName>
+        <default>false</default>
+        <label>Capterra</label>
+    </standardValue>
+    <standardValue>
+        <fullName>CJIS Group</fullName>
+        <default>false</default>
+        <label>CJIS Group</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Conference</fullName>
+        <default>false</default>
+        <label>Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Customer Request</fullName>
+        <default>false</default>
+        <label>Customer Request</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Demo</fullName>
+        <default>false</default>
+        <label>Demo</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Direct Mail</fullName>
+        <default>false</default>
+        <label>Direct Mail</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Email</fullName>
+        <default>false</default>
+        <label>Email</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Employee Referral</fullName>
+        <default>false</default>
+        <label>Employee Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer</fullName>
+        <default>false</default>
+        <label>Existing Customer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Existing Customer - Add on</fullName>
+        <default>false</default>
+        <label>Existing Customer - Add on</label>
+    </standardValue>
+    <standardValue>
+        <fullName>External Referral</fullName>
+        <default>false</default>
+        <label>External Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Find RFP</fullName>
+        <default>false</default>
+        <label>Find RFP</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Inside Gains – Call Campaign</fullName>
+        <default>false</default>
+        <label>Inside Gains – Call Campaign</label>
+    </standardValue>
+    <standardValue>
+        <fullName>LETG Contact</fullName>
+        <default>false</default>
+        <label>LETG Contact</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Mail-Other</fullName>
+        <default>false</default>
+        <label>Mail-Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>On-Site Visit</fullName>
+        <default>false</default>
+        <label>On-Site Visit</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Other</fullName>
+        <default>false</default>
+        <label>Other</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Partner</fullName>
+        <default>false</default>
+        <label>Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Promotion</fullName>
+        <default>false</default>
+        <label>Promotion</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Referral</fullName>
+        <default>false</default>
+        <label>Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Renewal Flyer</fullName>
+        <default>false</default>
+        <label>Renewal Flyer</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sales Call</fullName>
+        <default>false</default>
+        <label>Sales Call</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminar - Internal</fullName>
+        <default>false</default>
+        <label>Seminar - Internal</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Seminar - Partner</fullName>
+        <default>false</default>
+        <label>Seminar - Partner</label>
+    </standardValue>
+    <standardValue>
+        <fullName>SPAN List</fullName>
+        <default>false</default>
+        <label>SPAN List</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Sunset Letter</fullName>
+        <default>false</default>
+        <label>Sunset Letter</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show - National</fullName>
+        <default>false</default>
+        <label>Trade Show - National</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Trade Show - Regional</fullName>
+        <default>false</default>
+        <label>Trade Show - Regional</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Tritech EMS</fullName>
+        <default>false</default>
+        <label>Tritech EMS</label>
+    </standardValue>
+    <standardValue>
+        <fullName>TriTech Referral</fullName>
+        <default>false</default>
+        <label>TriTech Referral</label>
+    </standardValue>
+    <standardValue>
+        <fullName>User Conference</fullName>
+        <default>false</default>
+        <label>User Conference</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Webinar</fullName>
+        <default>false</default>
+        <label>Webinar</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Website</fullName>
+        <default>false</default>
+        <label>Website</label>
+    </standardValue>
+    <standardValue>
+        <fullName>Word of mouth</fullName>
+        <default>false</default>
+        <label>Word of mouth</label>
+    </standardValue>
+</StandardValueSet>

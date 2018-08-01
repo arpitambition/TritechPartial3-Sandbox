@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>false</available>
+    <description>Used for non-defect enhancement requests</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Round Table</name>
+    <style>freeForm</style>
+    <subject>TriTech Customer Service - Status update on ticket# {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Contact.Title} {!Contact.Name},
+
+TriTech is closing this ticket as it is a product enhancement request. Product enhancements and suggestions should be entered and discussed via the Round Table forum and any customer with a login may participate. You may also comment on enhancements and suggestions entered by other agencies. The Round Table can be accessed from the far right tab on the home screen after logging in to the TriTech Customer Service Center (aka support portal). At the RoundTable, customers can post ideas, as well as comment and vote (a thumbs up or down) on postings.
+
+
+AGENCY: {!Account.Name}
+CUSTOMER: {!Contact.Name}
+PRODUCT: {!Case.Product} {!Case.Reported_Major_Version_WMP__c}
+ISSUE SUMMARY: {!Case.Subject}
+
+
+We value you as a customer and we appreciate the work you do in serving the public safety needs of your community.
+
+Sincere Regards,
+
+{!Case.OwnerFirstName} {!Case.OwnerLastName}
+TriTech Customer Service
+800-987-0911 Option 2</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

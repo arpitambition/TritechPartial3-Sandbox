@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Fall-Training-Event.RegistrationThankYou</name>
+    <style>none</style>
+    <subject>TriTech Fall Training Summit - Thank you for your registration!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Fall 2012 Training Summit
+Thank you for your registration
+An official quote from TriTech will be sent and your registration will be completed once it is returned to us with all the proper signatures etc.
+
+We look forward to an educational and enjoyable two-day event covering the following - and more:
+
+
+
+
+	- In depth training - including System Administration Basics, Mobile System Administration, Customizing Fire Permits, Inspections, Complaints and Violations, NFIRS Entry, How to Build Comprehensive Records in Law RMS, Crime Analysis, CAD Analysis, Paging, and more!
+
+
+	- Networking - exclusive networking time with fellow users who share the same software and experiences. 
+
+
+	- Extraordinary savings - over 44 different education sessions as well as breakfast, lunch, and refreshments.
+Training Details
+
+Dates: 
+
+October 22 - 23, 2012
+
+Location:
+
+Doubletree by Hilton Hotel
+
+5400 Computer Drive
+
+Westborough, MA 01581
+
+Click here for map. &lt;http://goo.gl/maps/HvhXa&gt;
+
+Questions:
+
+David Bourbonniere
+
+(774) 551-9181
+
+david.bourbonniere@tritech.com &lt;mail%20to:%20david.bourbonniere@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

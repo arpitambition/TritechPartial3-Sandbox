@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2013.2 - Submit Session Ideas</name>
+    <style>none</style>
+    <subject>Submit Session Ideas for TriCON Annual Training</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Hello {{lead.First Name:default=Client}},
+
+TriCON Annual Training presents ideas and insight from some of the best minds in public safety -- YOU! We&apos;re looking for clients to present best practices using TriTech products, leadership insights, or general lessons learned in your agency.
+
+Don&apos;t want to present? We still want your input and ideas for informative session topics - TriCON is developed just for you and we want to make it as valuable and educational as possible.
+
+Help us develop a training program designed just for you and submit your session ideas for TriCON.  
+
+
+ &lt;mailto:tricon@tritech.com&gt;
+
+
+ 
+
+ 
+&quot;Like&quot; the TriCON Facebook Page &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt; for event photos and updates on 2013 TriCON Annual Training plans.
+Training Details
+Dates (9/29-10/2): 
+
+Make your travel plans to participate in all the sessions and networking events.
+
+Click here for the schedule &lt;http://www.tritech.com/news/tricon/tricon-agenda&gt;
+
+
+Location:
+
+Hilton San Diego Bayfront &lt;http://www.hiltonsandiegobayfront.com&gt;
+
+San Diego, CA 92101
+
+$199 / night discounted rate
+
+Registration:
+
+$695: Early bird registration (Before Aug. 1)
+
+Additional discounts available</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

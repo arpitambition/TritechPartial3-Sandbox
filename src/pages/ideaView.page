@@ -1,0 +1,128 @@
+<apex:page standardController="Idea" extensions="IdeaViewController" action="{!markIdeaRead}" standardStylesheets="false" tabStyle="RoundTable__tab" >
+	
+	<apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling2,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!customCssUrl}" />
+
+    <!-- prototype.js/effects.js/vote.js/base.js -->
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-1.10.2.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/jquery-migrate-1.2.1.min.js')}" />
+    <apex:includeScript value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/js/modernizr-2.6.2.min.js')}" />
+	
+	<style type="text/css">
+    	.header-img img {
+		    height: 220pt;
+		    margin: 0 0 20px;
+		    width: 100%;
+		}
+		
+		
+		.commentStatus {
+			background: url("../img/loading.gif") no-repeat scroll center center transparent;
+    		/*background-image: url("../img/loading-medium-fafafa.gif") no-repeat scroll center center transparent;*/
+		    height: 100%;
+		    margin: 0;
+		    min-height: 44px;
+		    overflow: hidden;
+		    padding: 0;
+		    display: none;
+		}
+		
+		#rt-idea-main {
+		    margin: 0;
+		    padding-bottom: 25px;
+		}
+    </style>
+    
+	<script type="text/javascript">
+		function showNewCommentPanel() {
+			document.getElementById('{!$Component.formId.newCommentPanel}').style.display = "block";
+			document.getElementById('{!$Component.formId.commentBody}').focus();
+		}
+		
+		function commentSortingSubmit() {
+			document.getElementById('{!$Component.formId.commentsPanel}').style.display = "none";
+			document.getElementById('{!$Component.formId.pageNavigationPanel}').style.display = "none";
+			document.getElementById('{!$Component.formId.commentPanelStatus}').style.display = "block";
+		}
+		
+		function commentSortingComplete() {
+			document.getElementById('{!$Component.formId.commentsPanel}').style.display = "block";
+			document.getElementById('{!$Component.formId.pageNavigationPanel}').style.display = "block";
+			document.getElementById('{!$Component.formId.commentPanelStatus}').style.display = "none";
+		}
+	</script>
+	<apex:pageMessages />
+	<apex:form id="formId" rendered="{!NOT(showError)}"> 
+		<div class="clearfix">
+			<div class="rt-head"><h2><apex:outputLink value="/apex/ideaList" styleClass="gray">TriTech RoundTable Home</apex:outputLink> • &nbsp;<apex:outputLink value="{!returnURL}" styleClass="gray">Back</apex:outputLink> • <span class="highlight">Idea Details</span></h2></div>
+			<div class="rt-actions">
+				<apex:commandLink value="Edit Idea" reRender="errorPanel" styleClass="butn btn-success" action="{!editIdea}" rendered="{!isAdminUser}" style="background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);"/>&nbsp;&nbsp;
+				<apex:commandLink value="Add a Comment" onclick="showNewCommentPanel();" reRender="errorPanel" styleClass="butn btn-success" rendered="{!showCommentLink}" style="background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);"/>&nbsp;&nbsp;
+				<apex:outputLink title="Post Your Idea" value="/apex/ideaPost" styleClass="butn btn-success" rendered="{!showNewPostLink}" style="background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);">Post Your Idea</apex:outputLink>
+			</div>
+		</div>
+		<div class="borderbox-gray clearfix">
+			<div id="rt-idea-wrapper">
+			<div id="rt-idea-main">
+		
+				<c:ideaViewDetails idea="{!idea}" howUserVoted="{!howUserVoted}" contactAccount="{!IF(idea.CreatedBy.Contact.Account.Name != null, idea.CreatedBy.Contact.Account.Name, idea.CreatedBy.CompanyName)}"/> 
+		
+			</div><!-- /rt-idea-content -->
+			</div><!-- /rt-idea-wrapper -->
+		</div>
+		<apex:outputPanel id="newCommentPanel" layout="block" styleClass="borderbox-gray clearfix" style="display:none; ">
+			<apex:outputPanel layout="block" style="padding-top:1%; padding-bottom:1%; padding-left:0.5%">
+				<h2>Add Your Comment</h2>
+			</apex:outputPanel>
+			<apex:outputPanel layout="block" style="margin-left:10%;">
+				<apex:inputTextArea id="commentBody" value="{!newComment.CommentBody}" cols="80" rows="10"/>
+			</apex:outputPanel>
+			<apex:outputPanel layout="block" style="margin-left:38%;padding-top:1%; padding-bottom:1%;">
+				<apex:commandLink value="Post Your Comment" action="{!saveComment}" styleClass="butn btn-success" style="background-color: #5BB75B; background-image: linear-gradient(to bottom, #62C462, #51A351); background-repeat: repeat-x; border-color: rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.1) rgba(0, 0, 0, 0.25); color: #FFFFFF; text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.25);"/>
+			</apex:outputPanel>
+		</apex:outputPanel>
+		<div class="rt-idea-comment-count">
+			Comments&nbsp;&nbsp;
+			<span class="red">{!round(idea.numComments, 0)}
+		</span>
+		<span style="padding-left:70%">
+			Sort By&nbsp;
+			<apex:selectList id="commentSort" value="{!commentSorting}" size="1">
+	            <apex:selectOption itemValue="old" itemLabel="Oldest First"/>
+	            <apex:selectOption itemValue="new" itemLabel="Newest First"/>
+	            <apex:actionSupport event="onchange" action="{!sortIdeaComments}" reRender="commentsPanel" onsubmit="commentSortingSubmit()" oncomplete="commentSortingComplete()"/>
+	        </apex:selectList>
+		</span>
+		</div>
+		
+		<apex:outputPanel id="commentsPanel" layout="block" styleClass="borderbox-gray clearfix">
+			<apex:repeat value="{!comments}" var="comment" rendered="{!idea.numComments > 0}" rows="{!MAX_NUMBER_OF_COMMENTS_PER_PAGE}" first="{!rowStart}">
+				<div class="rt-idea-comment">
+					<div style="margin-left:100px">
+						<c:IdeaCommentPicture commentCreatorId="{!comment.createdBy.Id}" />
+					</div>
+					<div style="margin-left: 175px; margin-top:-50px;">
+						<c:ideaUserLink userId="{!comment.createdBy.Id}" communityNickname="{!comment.createdBy.Name}" contactAccountName="{!IF(comment.CreatedBy.Contact.Account.Name != null, comment.CreatedBy.Contact.Account.Name, comment.CreatedBy.CompanyName)}"/>
+						<p><apex:outputText value="{!comment.commentBody}" escape="false"/></p>
+						<span class="meta"><c:ideaDateFormat comment="{!comment}" /></span>
+					</div>
+				</div>
+			</apex:repeat>
+		</apex:outputPanel>
+		<apex:outputPanel id="pageNavigationPanel" layout="block" style="text-align:right;padding-right:10pt;display:{!IF(comments.size > MAX_NUMBER_OF_COMMENTS_PER_PAGE, 'block','none')}">
+            <apex:actionstatus id="pagingStatus" dir="RTL"> 
+                <apex:facet name="start"> 
+                    <apex:image url="/img/loading.gif"/>
+                </apex:facet>
+            </apex:actionstatus>
+            <div style="white-space: nowrap;"><apex:commandLink value="<< Prev" action="{!gotoPreviousPage}" reRender="commentsPanel, pageNavigationPanel" rendered="{!previousButton}" status="pagingStatus"/>
+            &nbsp; {!pageShowing} &nbsp;
+            <apex:commandLink value="Next >>" action="{!gotoNextPage}" reRender="commentsPanel, pageNavigationPanel" rendered="{!nextButton}" status="pagingStatus"/></div>
+        </apex:outputPanel>
+		<apex:outputPanel id="commentPanelStatus" layout="block" styleClass="commentStatus">
+		
+		</apex:outputPanel>
+	</apex:form>
+</apex:page>

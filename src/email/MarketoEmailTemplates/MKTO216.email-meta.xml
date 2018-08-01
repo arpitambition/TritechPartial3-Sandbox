@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS Changes, Challenges and Opportunities under Healthcare Reform.Invitation</name>
+    <style>none</style>
+    <subject>Complimentary Live Webinar: EMS Changes, Challenges and Opportunities under Healthcare Reform – Speaker: Jay Fitch, PhD</subject>
+    <textOnly>EMS Changes, Challenges and Opportunities under Healthcare Reform
+Register for a Complimentary Live Webinar on April 26
+
+Webinar attendees receive a promotional code for $25 off their Pinnacle 2012 EMS Leadership Forum Registration
+
+Hello {{lead.First Name:default=EMS Professional}},
+
+EMS service models are changing. Some agencies are building a wall around their squad while others are building a bridge to the future. Whether career or volunteer, you need to know how healthcarere form will impact your service, what opportunities exist and how you can be ready to take advantage of the changes.
+
+Join Jay Fitch, PhD, of Fitch &amp; Associates and TriTech Product Manager, Dan Voss to discuss factors that will affect your future reimbursements, as well as other areas of your operations. As more agencies and providers demand more information on the quality of care, how will your service be prepared to meet those requests? What are your software providers doing to be prepared for the healthcare reform changes?
+
+
+REGISTER: http://offers.tritech.com/April26Webinar.html
+
+Thursday, April 26, 2012
+2:00PM ET l 1:00PM CT l Noon MT l 11:00AM PT
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

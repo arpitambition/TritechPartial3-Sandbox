@@ -1,0 +1,228 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DataCategoryGroup xmlns="http://soap.sforce.com/2006/04/metadata">
+    <active>true</active>
+    <dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Call Data Entry</label>
+                <name>Call_Data_Entry</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Codes</label>
+                <name>Codes_Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>EDI</label>
+                <name>Electronic_Claims</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Forms</label>
+                <name>Forms</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Import Export</label>
+                <name>Import_Export</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Installation</label>
+                <name>Installation_EMS_Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Patient Data Entry</label>
+                <name>Patient_Data_Entry</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Industry Regulations</label>
+                <name>Regulations_CMS_HIPPA</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reports</label>
+                <name>Reports_Knowledge_EMS</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Run Sheets</label>
+                <name>Run_Sheets</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Security</label>
+                <name>Security</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Setup</label>
+                <name>Setup</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Updates</label>
+                <name>Updates_Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Utilities</label>
+                <name>Utilities</name>
+            </dataCategory>
+            <label>Billing</label>
+            <name>Sweet_Billing_Station</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Data Entry</label>
+                <name>Data_Entry</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Data Link</label>
+                <name>Data_Link</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Deployment</label>
+                <name>Deployment</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Documents (PCR, ASF)</label>
+                <name>Documents_PCR_ASF</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Faxing</label>
+                <name>Faxing</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Files</label>
+                <name>Files</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Importing</label>
+                <name>Importing_Interfaces</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Interfaces</label>
+                <name>Interfaces</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Installation</label>
+                <name>Installation</name>
+            </dataCategory>
+            <dataCategory>
+                <label>QA Review</label>
+                <name>QA_Review</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Signatures</label>
+                <name>Signatures</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Updates</label>
+                <name>Updates</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Validation</label>
+                <name>Validation</name>
+            </dataCategory>
+            <label>ePCR</label>
+            <name>Fusion_ePCR_Client</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Authentication</label>
+                <name>Authentication</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Authorization</label>
+                <name>Authorization</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Employees</label>
+                <name>Employees</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Codes</label>
+                <name>Codes</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Configuration</label>
+                <name>Configuration</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Custom Fields</label>
+                <name>Custom_Fields</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Deployment</label>
+                <name>Deployment_Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Decision Support</label>
+                <name>Decision_Support</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Documents</label>
+                <name>Documents</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Installation</label>
+                <name>Installation_Knowledge</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Signature Types</label>
+                <name>Signature_Types</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Reports</label>
+                <name>Reports</name>
+            </dataCategory>
+            <label>ePCR Configuration Tool</label>
+            <name>Fusion_ePCR_Configuration_Tool</name>
+        </dataCategory>
+        <dataCategory>
+            <dataCategory>
+                <label>Defaults</label>
+                <name>Defaults</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Installation</label>
+                <name>Installation_Knowledge_EMS_Sweet</name>
+            </dataCategory>
+            <dataCategory>
+                <label>Logs</label>
+                <name>Logs</name>
+            </dataCategory>
+            <label>Interface Engine</label>
+            <name>Sweet_Interface_Engine</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Internal Procedures</label>
+            <name>Internal_Procedures</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Manuals/User Guides</label>
+            <name>Manuals_User_Guides</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Other</label>
+            <name>Other</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Product Announcements</label>
+            <name>Product_Announcements</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Respond CAD</label>
+            <name>VisiCAD_for_EMS</name>
+        </dataCategory>
+        <dataCategory>
+            <label>SweetCAD</label>
+            <name>SweetCAD</name>
+        </dataCategory>
+        <dataCategory>
+            <label>Technical Advisories</label>
+            <name>Technical_Advisories</name>
+        </dataCategory>
+        <dataCategory>
+            <label>TriCON/PTI/User Groups</label>
+            <name>TriCON_PTI_User_Groups</name>
+        </dataCategory>
+        <label>Respond Only Filter</label>
+        <name>All</name>
+    </dataCategory>
+    <label>Respond</label>
+    <objectUsage>
+        <object>KnowledgeArticleVersion</object>
+    </objectUsage>
+</DataCategoryGroup>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Feb-2013_Fire-Training.RegistrationThankYou</name>
+    <style>none</style>
+    <subject>TriTech&apos;s Perform (IMC) 2013 Fire Training Summit - Thank you for your registration!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+2013 Fire Training Summit
+Thank you for your registration
+
+
+An official quote from TriTech will be sent and your registration will be completed once it is returned to us with the proper signatures. Thank you!
+
+
+ 
+
+We look forward to an educational and enjoyable training. Please contact your respective Client Account Manager for questions. 
+
+David Bell
+ (774) 239-3722
+ david.bell@tritech.com &lt;mailto:david.bell@tritech.com&gt;
+
+Mark Baranowski
+ (978) 215-2270
+ mark.baranowski@tritech.com &lt;mailto:mark.baranowski@tritech.com&gt;
+Training Details
+
+DOWNLOAD AGENDA &lt;http://offers.tritech.com/rs/ortivusna/images/Invite_Feb13-14_2013_Training.pdf&gt;
+
+Dates: 
+ February 13-14, 2013
+
+Location:
+ Nashua Fire-Rescue
+177 Lake St
+Nashua, NH 03060
+ Click here for map &lt;https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;q=177+Lake+St+in+Nashua,+NH&amp;ie=UTF-8&amp;hq=&amp;hnear=0x89e3b0cb092b9575:0x5986479a7fd5d6a,177+Lake+St,+Nashua,+NH+03060&amp;gl=us&amp;ei=AJPcUPvUBszU0gGgpIH4Ag&amp;ved=0CDUQ8gEwAA&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

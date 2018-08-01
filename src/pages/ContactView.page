@@ -1,0 +1,89 @@
+<apex:page standardController="Contact" extensions="ContactViewController" action="{!autoRun}">
+<!-- 
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+-->
+	<style>
+		#bodyCell{
+			font-size:12px;
+		}
+		.bPageTitle .ptBody .pageType{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			color: #000000;
+			display: inline;
+		}
+		.mainTitle{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		.content{
+			line-height: 0.5;
+			padding-top: 5px;
+		}
+	</style>
+
+ <apex:detail iD="detailSection" subject="{!Contact.Id}" relatedList="true" title="true"/> 
+
+ <!-- 
+	<apex:sectionHeader title="Contact" subTitle="{!cont.Name}" printUrl="/{!cont.Id}/p?retURL=/apex/ContactView?id={!cont.Id}&sfdc.override=1"/>
+	<apex:form >
+		&nbsp;«&nbsp;<a href="/apex/ContactListView">Back to List: Contacts</a>
+		<apex:pageBlock title="Contact Detail" >
+			<apex:pageBlockButtons >
+				<apex:commandButton value="Edit" action="{!editContact}" />
+				<apex:commandButton value="Clone" action="{!cloneContact}" />
+			</apex:pageBlockButtons>
+			<apex:pageBlockSection >
+				<apex:outputField value="{!cont.Name}" />
+				<apex:outputField value="{!cont.CSC_Portal_Access_Request__c}" />
+				<apex:outputField value="{!cont.Title}" />
+				<apex:outputField value="{!cont.Primary_Contact_WMP__c}" />
+				<apex:outputField value="{!cont.Role_WMP__c}" />
+				<apex:outputField value="{!cont.After_Hours_Contact_WMP__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.Inactive_Contact__c}" />
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Contact Information" collapsible="false">
+				<apex:outputField value="{!cont.Phone}" />
+				<apex:outputField value="{!cont.Email}" />
+				<apex:outputField value="{!cont.MobilePhone}" />
+				<apex:outputField value="{!cont.Fax}" />
+				<apex:outputField value="{!cont.HomePhone}" />
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Address Information" collapsible="false">
+				<apex:pageBlockSectionItem >
+					<apex:outputLabel value="Primary Address" />
+					<div id="addr"></div>
+					<script>
+						var addrValue = '{!address}';
+						document.getElementById('addr').innerHTML = addrValue;
+					</script>
+				</apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.HasOptedOutOfEmail}" />
+			</apex:pageBlockSection>
+			<apex:pageBlockSection title="Opt in for Email Notification(s)" collapsible="false">
+				<apex:outputField value="{!cont.OptIn_Sales_Promos_Training__c}" />
+				<apex:outputField value="{!cont.OptIn_VisionCAD__c}" />
+				<apex:outputField value="{!cont.OptIn_VisionFBR__c}" />
+				<apex:outputField value="{!cont.OptIn_VisionFIRE__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.OptIn_VisionFORCE__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.OptIn_VisionINFORM__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.OptIn_VisionJAIL__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.OptIn_VisionLMS__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.OptIn_VisionMOBILE__c}" />
+				<apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+				<apex:outputField value="{!cont.OptIn_VisionRMS__c}" />
+			</apex:pageBlockSection>
+		</apex:pageBlock>
+	</apex:form>
+-->
+</apex:page>

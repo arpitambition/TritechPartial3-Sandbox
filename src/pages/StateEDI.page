@@ -1,0 +1,6 @@
+<apex:page controller="StateEDI" action="{!autoRun}">
+
+<iframe frameborder="0" width="100%" height="600px" src="https://myems.tritech.com/landing.asp?en={!encryptedString}" />
+
+
+</apex:page>

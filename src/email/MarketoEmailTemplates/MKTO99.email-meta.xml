@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>APCO2011-ReshapingFuture.APCO2011-ReshapingFuture.RYF2_GIS</name>
+    <style>none</style>
+    <subject>Reshaping CAD&apos;s Future with GIS</subject>
+    <textOnly>Reshaping Your Future with GIS
+
+Today, more communication centers are placing a greater importance on geographic information systems (GIS) for coordinating emergency response than ever before. Computer-aided dispatch and GIS technologies combine to optimize operations, manage resources and minimize response times. 
+
+TriTech’s VisiCAD provides a GIS-centric approach to computer-aided dispatch and emergency response through VisiCAD Geo, its integrated mapping component. There are several instances when the caller location, address and incident location are not the same which makes it difficult for responders. 
+
+According to Chris Shoemaker, Lead Communications Specialist for the City of Loveland, “The amount of information available in Geo is extremely important to our call-taking and dispatch operations. There have been many incidents in which we use Geo to receive the address of incident and the aerial imagery to direct units to the exact location of the incident. Geo has definitely helped us in efficiently coordinating our units for a better response time.” 
+
+Click here to download the case study&gt;&gt;
+
+Future of CAD Suggestions
+
+
+We thank everyone for participating in our ongoing &quot;Future of CAD&quot; promotional campaign.  Below are a few entries that we received: 
+ 
+- CAD will be integrated with video and text messaging related to standard 911 telephone calls. 
+ 
+- CAD will have the ability to take in the alternate media sources being received in Next-Gen and tie them all into a nice neat package for call reviews, QA, court needs, etc. The dispatcher needs to have the ability to relate these new media sources to a CAD incident. 
+ 
+- Full integration - a one-stop shop for everything the telecommunicator needs ;
+
+
+We received some great entries, so follow us on Facebook where we&apos;ll post other entries we&apos;ve received!
+
+
+
+
+
+ 
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

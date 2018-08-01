@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification for completed pricing request form</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Pricing Request Form - Complete</name>
+    <style>none</style>
+    <subject>COMPLETE Pricing Request: {!Pricing_Request_Form__c.OwnerFullName}/{!Pricing_Request_Form__c.Name}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

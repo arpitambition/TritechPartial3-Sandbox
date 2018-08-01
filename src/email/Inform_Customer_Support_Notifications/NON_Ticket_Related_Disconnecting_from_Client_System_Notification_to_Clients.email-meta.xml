@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used to send clients the notification that we have disconnected from their system - NO related ticket</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>NON-Ticket Related Disconnecting from Client System Notification to Clients</name>
+    <style>freeForm</style>
+    <subject>{!Account.Name} - {!User.Name} Disconnected from Client System</subject>
+    <textOnly>EVENT DETAILS:
+
+Event Name:  Disconnected from Client System
+
+Event Status:  Disconnected
+
+Event Owner:  {!User.Name}
+
+End Date:  {!Today}
+
+Event Description:</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

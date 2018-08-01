@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.2 week early bird deadline</name>
+    <style>none</style>
+    <subject>TriCON - There&apos;s still time to save</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Early-Bird Discount Extended To August 26
+TriTech&apos;s Annual User Conference  l  September 26 - 28, 2012
+Hello {{lead.First Name:default=Client}},
+
+Haven’t registered for TriCON 2012 yet? Act fast – you still have until August 26 to take advantage of the early-bird discount and hotel group rate.  
+ 
+ Make your plans now to hear from TriTech&apos;s leadership team, clients, and subject matter experts to find out how our solutions are helping to &quot;Break Barriers&quot; and improve operations.  
+
+Don&apos;t miss insightful presentations from your peers at REMSA (NV), Bucks County (PA), Bexar County Sheriff&apos;s Office (TX), Cedar Park (TX) and more. 
+
+Click here &lt;http://offers.tritech.com/rs/ortivusna/images/TriCON2012_Agenda_Public_08012012.pdf&gt; for a link to the latest detailed agenda.
+
+
+ 
+
+ 
+
+ &lt;http://offers.tritech.com/rs/ortivusna/images/TriTech_JustificationLetter.doc&gt;
+Conference Details
+
+Registration: 
+ $695 - Early-bird discount before August 26.  
+
+
+Part of a group of 4 or more?  Enter the discount code &quot;Group&quot; to receive an additional $50 discount.
+
+
+ &lt;http://www.cvent.com/d/vcqlkf/4W&gt;
+
+Hotel:  
+$199 per night - Hotel Group Rate cutoff August 26.
+
+ &lt;http://www.hilton.com/en/hi/groups/personalized/S/SANCCHH-TTSS-20120924/index.jhtml?WT.mc_id=POG&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

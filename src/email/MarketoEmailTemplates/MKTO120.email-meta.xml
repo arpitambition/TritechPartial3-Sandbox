@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Stratus Automated Uptime Layer.Invitation (Use this)</name>
+    <style>none</style>
+    <subject>Webinar:  Stratus Automated Uptime Layer</subject>
+    <textOnly> 
+ Webinar Invitation
+ 
+ Stratus Automated Uptime Layer
+ 
+Leveraging more than 30 years of technology innovations, Stratus&apos; Automated Uptime Layer for ftServer Systems creates an availability-supporting ecosystem that detects, isolates and resolves faults before they cause downtime. 
+
+Unique in the industry, this layer provides the reliability and fault-tolerant features for motherboards, processors, memory and I/O buses and devices. It also simplifies monitoring and management of the server and enables remote service and support. 
+
+
+Join us for a technical webinar to learn how the Automated Uptime Layer takes the complexity and uncertainty out of the monitoring and management of your most mission-critical applications. 
+
+DATE: 
+Thursday, November 17
+
+
+TIME: 
+10 AM Pacific  l  11 AM Mountain l Noon Central  l 1 PM Eastern
+
+
+
+PRESENTER: 
+Phil Riccio and Mike Everett, 
+Stratus Technnologies
+ 
+REGISTER:
+http://offers.tritech.com/StratusAutomatedUptimeLayer_Registration.html
+
+
+ 
+
+
+
+
+
+QUESTIONS?
+Jenny Clavero
+TriTech Marketing
+(858) 799-7362 
+jenny.clavero@tritech.com 
+
+
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+
+   
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

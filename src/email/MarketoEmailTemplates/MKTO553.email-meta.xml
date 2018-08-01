@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FwF.Follow-up</name>
+    <style>none</style>
+    <subject>LINK TO RECORDING:  Fix It With Felicia for Your Perform Software</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Fix It With Felicia
+Link to Today&apos;s Recording
+Today&apos;s topic: 6.1 Tips &amp; Tricks - Felicia demonstrated some of the new features in Version 6.1 and showed you how to prep your system for it.
+DATE: Every Second Thursday of the Month
+ TIME: 11:00 AM ET l 10:00 AM CT l 9:00 AM MT l 8:00 AM PT
+ PRESENTER: Felicia Donovan, TriTech Client Services
+INVITE OTHER PERFORM SOFTWARE USERS: 
+http://offers.tritech.com/FwF_Registration.html &lt;http://offers.tritech.com/FwF_Registration.html&gt;
+
+See You Next Month!
+WEBINAR RECORDING
+RECORDING LINK &lt;recordings.tritech.co/MA/Customer/FwF/03-14-13.wmv&gt;
+
+
+﻿</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

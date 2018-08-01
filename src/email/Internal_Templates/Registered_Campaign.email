@@ -1,0 +1,10 @@
+<b>Campaign:  {!Campaign.Name}</b><br><br>
+
+Start Date:  {!Campaign.StartDate}<br><br>
+
+End Date:  {!Campaign.EndDate}<br><br>
+
+Booth Reps:  {!Campaign.Booth_Reps__c}<br><br><br>
+
+
+<b><i>Click here to review the campaign:  {!Campaign.Link}</b></i>

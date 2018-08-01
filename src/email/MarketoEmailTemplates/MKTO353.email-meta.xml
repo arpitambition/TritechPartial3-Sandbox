@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>ePCR v6.2 Update.Email3</name>
+    <style>none</style>
+    <subject>TriTech.com ePCR v6.2.0 Update is Complete</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+SCHEDULED MAINTENANCE NOTICE
+ TriTech.com ePCR v6.2.0 Update is Complete
+
+Dear {{lead.First Name:default=TriTech.com ePCR Customer}},
+
+The TriTech.com ePCR update has completed. We sincerely apologize for the update taking longer than anticipated. With the update now complete, you may resume using your TriTech.com ePCR LAN Clients by visiting TriTech.com ePCR Site &lt;https://sweetonlinenew.ortivusna.com/Citrix/XenApp/auth/login.aspx&gt;, also you may resume Datalinking Responses from your TriTech.com ePCR Mobile Clients.
+
+For a complete list of the changes with the latest version of TriTech.com ePCR, please visit our release notes online by clicking here… &lt;http://www.tritechems.com/documents/Release%20Notes/Fusion%20ePCR%20Release%20Notes%206.2.0.pdf&gt;
+
+With the servers now being updated, the update will be pushed to your TriTech.com ePCR Mobile Clients. It is recommended that the update be applied as soon as it is available on your TriTech.com ePCR Mobile Clients.
+
+Read More Here &lt;http://www.tritechems.com/documents/TriTechcom_ePCR_Update-Complete-Notice_Aug9_2012.pdf&gt;
+ 
+Thank you for your patience.
+
+TriTech.com Product Team
+TriTech Software Systems | www.tritech.com
+Support: (563) 387-9338 | email: emssupport@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Missouri Tech Seminar (Clients).Invitation-Test</name>
+    <style>none</style>
+    <subject>Register:  Missouri Tech Seminar</subject>
+    <textOnly> 
+Join Us   
+Missouri Technology Seminar
+
+We hope that you will join us and fellow VisiCAD users at our Missouri Technology Seminar, where we will discuss the latest trends in technology and the upcoming release of VisiCAD and ProQA.  
+
+9 AM - 10 AM - Priority Dispatch      
+Discussion of new Paramount ProQA Release 
+
+10 AM - 3 PM - TriTech Software Systems 
+-System Architecture - Changes from 4.5 to 5.0 
+-VisiCAD and Virtualization for Reducing IT Costs - What you need to know 
+-Achieving Remote Connectivity - Citrix vs. ClearCube, two different solutions and requirements for success 
+-Sneak Peek - Discover the new functionality available in VisiCAD version 5.0
+
+Event Details:
+
+Date:
+Wednesday, December 7
+
+Time:
+9:00 AM - 3:00 PM
+ 
+Location:
+Lake St. Louis Fire Protection District - Station 1
+2533 Lake St.Louis Blvd.
+Lake St. Louis, MO  63367
+
+Cost:
+Complimentary (Continental breakfast and lunch included)
+
+Registration:  
+http://offers.tritech.com/MissouriTechSeminarClients_Registration.html 
+
+Questions?
+Sally Olson-Nelson, Client Account Manager
+Mobile: 727.688.7001
+Email:        sally.olson-nelson@tritech.com
+
+
+
+
+ 
+
+
+ 
+
+
+
+
+ 
+ 
+ 
+ 
+ 
+
+
+ 
+ 
+Share with Friends or visit www.tritech.com
+ 
+    
+
+ 
+ 
+ 
+
+
+ 
+ 
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000
+
+ 
+ 
+ 
+
+
+ 
+ 
+ 
+ 
+ </textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>TN TIBRS Advisory 3 29 13</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA13-001.PA13006</name>
+    <style>none</style>
+    <subject>PA13-006 InformRMS TN TIBRS</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Product Advisory
+PA13-006
+POSTED: 3-29-13
+
+
+ Dear {{lead.First Name:default=Client}},
+
+
+Attached please find our Product Advisory for the recent changes to TIBRS reporting. If there are any questions please do not hesitate to contact us at 1-800-756-8324
+
+Sincerely,
+
+Janice C. Kivett Manager Customer Service
+ TriTech Software Systems | www.tritech.com 
+ Direct: (910) 602-7363 | Mobile: (910) 352-5990 Support: (800) 756-8324
+
+PA13-006 &lt;http://offers.tritech.com/rs/tritech/images/TNTIBRSProductAnnouncement.pdf&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

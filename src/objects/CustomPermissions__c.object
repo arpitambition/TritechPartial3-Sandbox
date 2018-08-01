@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <customSettingsType>List</customSettingsType>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>IsCustomTab__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>IsCustomTab</label>
+        <trackTrending>false</trackTrending>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Product_Family__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Family</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profile_Id__c</fullName>
+        <description>Type the name of the profile here</description>
+        <externalId>false</externalId>
+        <label>Profile Id</label>
+        <length>255</length>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Tab_Setting__c</fullName>
+        <description>Use this field to set the Tab visibility bitwise in this order
+1 - Round Table
+2 - My Perform
+4 - Respond EMS
+8 - Feature Request</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Use this field to set the Tab visibility bitwise in this order
+1 - Round Table
+2 - My Perform
+4 - Respond EMS
+8 - Feature Request</inlineHelpText>
+        <label>Tab Setting</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackTrending>false</trackTrending>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <label>Custom Permissions</label>
+    <listViews>
+        <fullName>All_Plus_Some</fullName>
+        <columns>NAME</columns>
+        <columns>Product_Family__c</columns>
+        <columns>Tab_Setting__c</columns>
+        <columns>Profile_Id__c</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Plus Some</label>
+    </listViews>
+    <visibility>Public</visibility>
+</CustomObject>

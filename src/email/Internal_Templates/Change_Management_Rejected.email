@@ -1,0 +1,15 @@
+Hello,<br><br>
+
+The Admin Recommendation on the following request has been REJECTED.<br><br>
+
+<b>Original Requestor</b>: {!SalesForce_Helpdesk__c.OwnerFullName}
+<br>
+<b>Original Request Details</b>:<br>
+{!SalesForce_Helpdesk__c.Request_Details__c}
+<br>
+<br>
+<b>Admin Recommendation</b>:<br>
+{!SalesForce_Helpdesk__c.Admin_Recommendation__c}
+
+
+<I>To review the request detail and resubmit, click here: {!SalesForce_Helpdesk__c.Link}</I>

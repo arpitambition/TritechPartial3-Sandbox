@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Join the Fun</name>
+    <style>none</style>
+    <subject>TriCON - Join the fun in the San Diego sun</subject>
+    <textOnly>&lt;http://www.tritech.com/tricon&gt;
+
+
+
+
+
+
+ 
+Come to TriCON and meet like-minded individuals who share the same technology and experiences.  TriCON provides fun social networking opportunities to establish valuable connections with peers, TriTech staff and vendors  - all in America’s Finest City.  Bring your business cards and a great attitude for a week of fun.  And if you register by July 15, you&apos;ll get our best prices too!
+
+ &lt;http://www.tritech.com/tricon&gt;
+
+
+
+
+ 
+
+
+
+
+
+ &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt;   &lt;http://www.twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/company/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+
+
+
+
+
+
+
+
+
+  9477 Waples Street, Suite 100 l San Diego, California 92121 l www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

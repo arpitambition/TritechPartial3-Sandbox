@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PTI-2013_FallSummit.SaveTheDate</name>
+    <style>none</style>
+    <subject>SAVE THE DATE - OCTOBER 28-29, 2013: TriTech Fall 2013 Training Summit</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+SAVE THE DATE: PTI Fall 2013 Training Summit
+October 28 - 29, 2013  l  Westborough, MA
+A regional, multi-department training event with continuing
+
+education and networking. Last year’s event sold out quickly
+
+and space is limited.
+Training Details
+REGISTRATION OPENS NEXT MONTH!
+Dates:
+ October 28 - 29, 2013
+
+Cost:
+ $275.00 (Early-bird discount before 9/30/13)
+ $325.00 after 9/30/13
+ Or, buy three (3) and get the fourth (4) registration FREE!
+ Fee includes two full days of training, breakfast, lunch, and an
+ afternoon snack each day
+
+Questions?
+ David Bourbonniere | 978-215-2301
+ David.Bourbonniere@tritech.com &lt;mailto:David.Bourbonniere@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

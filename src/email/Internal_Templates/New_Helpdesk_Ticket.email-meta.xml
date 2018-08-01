@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when someone submitted a new helpdesk ticket.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>New Helpdesk Ticket</name>
+    <style>none</style>
+    <subject>New SalesForce Helpdesk Ticket Submitted: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>Please note that the following SalesForce Helpdesk Ticket has been submitted:
+
+{!SalesForce_Helpdesk__c.Link}
+
+Ticket Number: {!SalesForce_Helpdesk__c.Name}
+
+Submitted By: {!SalesForce_Helpdesk__c.OwnerFullName}
+
+Date Submitted: {!SalesForce_Helpdesk__c.Date_Submitted__c}
+
+Date Needed: {!SalesForce_Helpdesk__c.Date_Needed__c}
+
+Request Type: {!SalesForce_Helpdesk__c.Request_Type__c}
+
+Ticket Details: {!SalesForce_Helpdesk__c.Request_Details__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Sweet Billing Version 5.8 Preview.Invitation</name>
+    <style>none</style>
+    <subject>Complimentary Webinar - Sweet Billing Version 5.8 Preview</subject>
+    <textOnly>Complimentary Webinar   
+Sweet Billing Version 5.8 Preview  
+ 
+Join Product Manager Dan Voss for an advance preview of the new modules available in version 5.8, in addition to other enhancements yet to be released this year.
+
+ 
+DATE: October 21, 2011
+
+TIME: 1 PM Central l 2 PM Eastern  l  Noon Mountain  l  11 AM Pacific
+
+PRESENTER: Dan Voss, Product Manager
+
+REGISTER: http://offers.tritech.com/SweetBillingVersion5.8Preview_Registration.html 
+
+
+Questions?
+Cheri Lane, Marketing Communications Manager
+800-537-3927, ext. #6278
+cheri.lane@tritech.com
+
+
+ 
+Share with Friends or visit www.tritech.com    
+9860 Mesa Rim Road l San Diego, CA 92121 l PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>IACP 2011.Attended</name>
+    <style>none</style>
+    <subject>IACP Follow Up - Reshaping Your Future</subject>
+    <textOnly>IACP Follow Up
+Reshaping Your Future
+
+We are honored to have spent time with you at IACP!
+
+Conferences are a busy week and we greatly appreciate your visit with TriTech at the recent IACP Conference in Chicago.    
+
+With no end in sight to economic restrictions amidst continued demand for service, agencies have to reshape the way they manage information and  conduct operations. We’re providing flexible solutions and proposing  new models of operating to help clients reshape the way they manage  information to help them focus on what’s important – ensuring public  safety. 
+
+We encourage you to take a closer look at how we&apos;re helping our clients reshape their future. 
+
+Congratulations!
+Captain Jonathan Pardo of Madison Police Department in Connecticut is the lucky winner of iPad 2 drawing at IACP.  
+
+Literature Download
+Thank you for helping us &quot;Go Green&quot; at IACP.  Click the following links to download TriTech literature kits: 
+
+Reshaping the Future Flyer
+VisiNet Solutions 
+VisionAIR
+Imc Solutions
+
+
+Future of CAD Suggestions
+We received some great entries in our &quot;Future of CAD&quot; campaign, so follow us on Facebook where we&apos;ll post entries we&apos;ve received.  
+
+ 
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

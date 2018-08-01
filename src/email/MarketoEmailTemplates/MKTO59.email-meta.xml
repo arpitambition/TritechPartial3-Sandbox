@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_GolfOutting_Invite</name>
+    <style>none</style>
+    <subject>Register Deadline September 23! Imc Customer Golf Tourney</subject>
+    <textOnly>Register Deadline September 23!
+2011 TriTechs&apos; Imc Solutions - Customer Golf Tournament
+
+
+Dear {{lead.First Name:default=Customer}}, 
+
+
+The Imc Golf Tournament has been revived! We hope that you can join us for a fabulous day of golf, refreshments, contests and prizes. Space is limited - reserve your spot by clicking on the &quot;Register Now&quot; button below to start the registration process. All proceeds to benefit a local public safety charity.
+
+
+WHEN:       Wednesday, October 5, 2011
+
+WHERE:      Highfields Golf &amp; Country Club
+            150 Magill Drive (off Route 122)
+            Grafton, Massachusetts
+
+TIME:       11:00 AM  -  Registration Begins
+            Noon      -  Shotgun Start
+            5:00 PM   -  Dinner
+
+FORMAT:     Scramble
+
+COST:       $75.00 per person
+
+INCLUDES:   Greens Fees, Cart, Contests, Prizes &amp; Dinner
+
+DRESS CODE: Soft spikes required, collared shirts preferred; No blue jeans, tank tops, tee shirts or cut-offs at any time
+
+PAYMENT:    Check Payable to &quot;TriTech Software Systems&quot; and mail to: 
+            Information Management Corporation
+            Attn: David Bell
+            13 Centennial Dr.
+            North Grafton, MA 01536
+
+QUESTIONS?   Please Contact:
+             David Bell
+             PH: (774) 239-3722
+             Email: David.Bell@TriTech.com
+
+REGISTER:    http://offers.tritech.com/CustomerGolfTournament_100411_Registration.html
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

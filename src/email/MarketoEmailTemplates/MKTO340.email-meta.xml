@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Version5 Training.Reminder (Tomorrow) - CA</name>
+    <style>none</style>
+    <subject>Reminder: VisiCAD 5.2 Training Tomorrow (7/31)</subject>
+    <textOnly>STAY CONNECTED     &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+VisiCAD 5.2 Training
+Complimentary regional training - Tomorrow
+Hello {{lead.First Name:default=Sir/Madam}},
+ 
+ This is your confirmation that you are registered for the VisiCAD 5.2 Regional Training.  Another reminder email will be sent to you the day before training.  We look forward to seeing you.
+
+NOTE:  Times have changed from 9 AM to 4 PM.
+
+
+Date and Location:
+
+
+ 
+
+Tuesday, July 31
+TriTech Corporate Headquarters
+(new address)
+9477 Waples St, Suite 100
+San Diego, CA  92121
+Click here to view map &lt;http://g.co/maps/5cnku&gt;
+
+ 
+
+Agenda: 
+
+9:00 AM - 12:00 NOON
+ VisiCAD 5.2 Functionality and Demonstration
+
+12:00 NOON - 1:30 PM
+ Complimentary Lunch will be provided
+
+1:30 PM - 4:00 PM
+ System Planning and Question and Answer Session with Technical Services
+
+Bonus:
+ Continental breakfast and lunch will be provided.
+
+ 
+
+Question?
+ Gladys Ferguson, Training Supervisor
+ TriTech Software Systems
+ (858) 799-7383
+ gladys.ferguson@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,3179 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>Add</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Clone</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Edit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>List</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Tab</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>View</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>CLDY_Template_Display_Section__c</fullName>
+        <externalId>false</externalId>
+        <label>Template Display Section</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <label>Credit</label>
+                </value>
+                <value>
+                    <fullName>Custom Solution</fullName>
+                    <default>false</default>
+                    <label>Custom Solution</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Project Related Fee</fullName>
+                    <default>false</default>
+                    <label>Project Related Fee</label>
+                </value>
+                <value>
+                    <fullName>Recurring Fee</fullName>
+                    <default>false</default>
+                    <label>Recurring Fee</label>
+                </value>
+                <value>
+                    <fullName>Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Third Party Products or Services</fullName>
+                    <default>false</default>
+                    <label>Third Party Products or Services</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD System</fullName>
+                    <default>false</default>
+                    <label>Perform CAD System</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile System</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile System</label>
+                </value>
+                <value>
+                    <fullName>Perform Law Records System</fullName>
+                    <default>false</default>
+                    <label>Perform Law Records System</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire Records System</fullName>
+                    <default>false</default>
+                    <label>Perform Fire Records System</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System</label>
+                </value>
+                <value>
+                    <fullName>Perform Third Party Products and Services</fullName>
+                    <default>false</default>
+                    <label>Perform Third Party Products and Services</label>
+                </value>
+                <value>
+                    <fullName>Perform Project Related Fees</fullName>
+                    <default>false</default>
+                    <label>Perform Project Related Fees</label>
+                </value>
+                <value>
+                    <fullName>Perform Annual Maintenance</fullName>
+                    <default>false</default>
+                    <label>Perform Annual Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing</fullName>
+                    <default>false</default>
+                    <label>Respond Billing</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD</fullName>
+                    <default>false</default>
+                    <label>Respond CAD</label>
+                </value>
+                <value>
+                    <fullName>Respond ePCR</fullName>
+                    <default>false</default>
+                    <label>Respond ePCR</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com Billing</fullName>
+                    <default>false</default>
+                    <label>TriTech.com Billing</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com ePCR</fullName>
+                    <default>false</default>
+                    <label>TriTech.com ePCR</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CLDY_Template_Display_SubSection__c</fullName>
+        <description>This field is used to group together products that will be show in the same subsection in the quote template.</description>
+        <externalId>false</externalId>
+        <label>Template Display SubSection</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inform CAD Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Inform CAD Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Inform MOBILE Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Inform MOBILE Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Inform RMS Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Inform RMS Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Inform FBR Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Inform FBR Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Inform Jail Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Inform Jail Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Inform IQ Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Inform IQ Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>CAD Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>CAD Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Mobile Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>Mobile Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Fire Software License Fee</fullName>
+                    <default>false</default>
+                    <label>Fire Software License Fee</label>
+                </value>
+                <value>
+                    <fullName>Fire Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>Fire Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>911 Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>911 Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>RMS Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>RMS Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>FBR Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>FBR Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Jail Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>Jail Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>IQ Implementation Service Fee</fullName>
+                    <default>false</default>
+                    <label>IQ Implementation Service Fee</label>
+                </value>
+                <value>
+                    <fullName>Project Related Fee</fullName>
+                    <default>false</default>
+                    <label>Project Related Fee</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Software</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Software</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Services</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Services</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Software</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Software</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Services</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Services</label>
+                </value>
+                <value>
+                    <fullName>Perform Law Records System Software</fullName>
+                    <default>false</default>
+                    <label>Perform Law Records System Software</label>
+                </value>
+                <value>
+                    <fullName>Perform Law Records System Services</fullName>
+                    <default>false</default>
+                    <label>Perform Law Records System Services</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire Records System Software</fullName>
+                    <default>false</default>
+                    <label>Perform Fire Records System Software</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire Records System Services</fullName>
+                    <default>false</default>
+                    <label>Perform Fire Records System Services</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System Software</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System Software</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System Services</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System Services</label>
+                </value>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <label>Credit</label>
+                </value>
+                <value>
+                    <fullName>Custom Solution</fullName>
+                    <default>false</default>
+                    <label>Custom Solution</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Recurring Fee</fullName>
+                    <default>false</default>
+                    <label>Recurring Fee</label>
+                </value>
+                <value>
+                    <fullName>Third Party Products or Services</fullName>
+                    <default>false</default>
+                    <label>Third Party Products or Services</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>CLDY_Template_Product_Category__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <label>CLDY Template Product Category</label>
+        <referenceTo>CLDY_Template_Product_Category__c</referenceTo>
+        <relationshipLabel>Products</relationshipLabel>
+        <relationshipName>Products</relationshipName>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Charge_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Charge Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Item Price</fullName>
+                    <default>false</default>
+                    <label>Item Price</label>
+                </value>
+                <value>
+                    <fullName>Fixed Fee Service</fullName>
+                    <default>false</default>
+                    <label>Fixed Fee Service</label>
+                </value>
+                <value>
+                    <fullName>Custom</fullName>
+                    <default>false</default>
+                    <label>Custom</label>
+                </value>
+                <value>
+                    <fullName>Custom 3rd Party</fullName>
+                    <default>false</default>
+                    <label>Custom 3rd Party</label>
+                </value>
+                <value>
+                    <fullName>Custom Hardware</fullName>
+                    <default>false</default>
+                    <label>Custom Hardware</label>
+                </value>
+                <value>
+                    <fullName>Custom Integrated Solution</fullName>
+                    <default>false</default>
+                    <label>Custom Integrated Solution</label>
+                </value>
+                <value>
+                    <fullName>Custom Product Modification</fullName>
+                    <default>false</default>
+                    <label>Custom Product Modification</label>
+                </value>
+                <value>
+                    <fullName>Custom Recurring</fullName>
+                    <default>false</default>
+                    <label>Custom Recurring</label>
+                </value>
+                <value>
+                    <fullName>Custom Services</fullName>
+                    <default>false</default>
+                    <label>Custom Services</label>
+                </value>
+                <value>
+                    <fullName>Annual Subscription</fullName>
+                    <default>false</default>
+                    <label>Annual Subscription</label>
+                </value>
+                <value>
+                    <fullName>Semi-Annual Subscription</fullName>
+                    <default>false</default>
+                    <label>Semi-Annual Subscription</label>
+                </value>
+                <value>
+                    <fullName>Annual Support</fullName>
+                    <default>false</default>
+                    <label>Annual Support</label>
+                </value>
+                <value>
+                    <fullName>Perpetual License</fullName>
+                    <default>false</default>
+                    <label>Perpetual License</label>
+                </value>
+                <value>
+                    <fullName>Standard Price</fullName>
+                    <default>false</default>
+                    <label>Standard Price</label>
+                </value>
+                <value>
+                    <fullName>License Fee</fullName>
+                    <default>false</default>
+                    <label>License Fee</label>
+                </value>
+                <value>
+                    <fullName>Subscription Fee</fullName>
+                    <default>false</default>
+                    <label>Subscription Fee</label>
+                </value>
+                <value>
+                    <fullName>Implementation Fee</fullName>
+                    <default>false</default>
+                    <label>Implementation Fee</label>
+                </value>
+                <value>
+                    <fullName>Installation Fee</fullName>
+                    <default>false</default>
+                    <label>Installation Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance Fee</fullName>
+                    <default>false</default>
+                    <label>Maintenance Fee</label>
+                </value>
+                <value>
+                    <fullName>Adjustment</fullName>
+                    <default>false</default>
+                    <label>Adjustment</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Description</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>DisplayUrl</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Est_Travel_Calc_NON_Fixed__c</fullName>
+        <description>Estimated travel costs for this specific non-remote service</description>
+        <externalId>false</externalId>
+        <formula>((325.00* Travel_days_incl_travel_to_the_site__c * Num_of_staff_traveling_per_trip_incl_PM__c * Num_of_trips__c ) + ( Num_of_trips__c * 600.00))</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Estimated travel costs for non-remote service.  This is non-fixed travel calculations.  For fixed travel, add 30%.</inlineHelpText>
+        <label>Est Travel Calc (NON-Fixed)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>ExternalDataSourceId</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>ExternalId</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Family</fullName>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Frequency__c</fullName>
+        <externalId>false</externalId>
+        <label>Frequency</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hourly</fullName>
+                    <default>false</default>
+                    <label>Hourly</label>
+                </value>
+                <value>
+                    <fullName>Daily</fullName>
+                    <default>false</default>
+                    <label>Daily</label>
+                </value>
+                <value>
+                    <fullName>Monthly</fullName>
+                    <default>false</default>
+                    <label>Monthly</label>
+                </value>
+                <value>
+                    <fullName>Quarterly</fullName>
+                    <default>false</default>
+                    <label>Quarterly</label>
+                </value>
+                <value>
+                    <fullName>Half Yearly</fullName>
+                    <default>false</default>
+                    <label>Half Yearly</label>
+                </value>
+                <value>
+                    <fullName>Yearly</fullName>
+                    <default>false</default>
+                    <label>Yearly</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Functional_Area__c</fullName>
+        <externalId>false</externalId>
+        <label>Functional Area</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>3rd Party</fullName>
+                    <default>false</default>
+                    <label>3rd Party</label>
+                </value>
+                <value>
+                    <fullName>911</fullName>
+                    <default>false</default>
+                    <label>911</label>
+                </value>
+                <value>
+                    <fullName>Admin</fullName>
+                    <default>false</default>
+                    <label>Admin</label>
+                </value>
+                <value>
+                    <fullName>Browser</fullName>
+                    <default>false</default>
+                    <label>Browser</label>
+                </value>
+                <value>
+                    <fullName>CAD</fullName>
+                    <default>false</default>
+                    <label>CAD</label>
+                </value>
+                <value>
+                    <fullName>Civil</fullName>
+                    <default>false</default>
+                    <label>Civil</label>
+                </value>
+                <value>
+                    <fullName>Common</fullName>
+                    <default>false</default>
+                    <label>Common</label>
+                </value>
+                <value>
+                    <fullName>Data Vault</fullName>
+                    <default>false</default>
+                    <label>Data Vault</label>
+                </value>
+                <value>
+                    <fullName>Detective</fullName>
+                    <default>false</default>
+                    <label>Detective</label>
+                </value>
+                <value>
+                    <fullName>FBR</fullName>
+                    <default>false</default>
+                    <label>FBR</label>
+                </value>
+                <value>
+                    <fullName>Fire</fullName>
+                    <default>false</default>
+                    <label>Fire</label>
+                </value>
+                <value>
+                    <fullName>Fire RMS</fullName>
+                    <default>false</default>
+                    <label>Fire RMS</label>
+                </value>
+                <value>
+                    <fullName>Inform</fullName>
+                    <default>false</default>
+                    <label>Inform</label>
+                </value>
+                <value>
+                    <fullName>IQ</fullName>
+                    <default>false</default>
+                    <label>IQ</label>
+                </value>
+                <value>
+                    <fullName>Jail</fullName>
+                    <default>false</default>
+                    <label>Jail</label>
+                </value>
+                <value>
+                    <fullName>Law RMS</fullName>
+                    <default>false</default>
+                    <label>Law RMS</label>
+                </value>
+                <value>
+                    <fullName>LMS</fullName>
+                    <default>false</default>
+                    <label>LMS</label>
+                </value>
+                <value>
+                    <fullName>MNHS</fullName>
+                    <default>false</default>
+                    <label>MNHS</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>RMS</fullName>
+                    <default>false</default>
+                    <label>RMS</label>
+                </value>
+                <value>
+                    <fullName>System</fullName>
+                    <default>false</default>
+                    <label>System</label>
+                </value>
+                <value>
+                    <fullName>VisionAIR</fullName>
+                    <default>false</default>
+                    <label>VisionAIR</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing</fullName>
+                    <default>false</default>
+                    <label>Respond Billing</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD</fullName>
+                    <default>false</default>
+                    <label>Respond CAD</label>
+                </value>
+                <value>
+                    <fullName>Respond ePCR</fullName>
+                    <default>false</default>
+                    <label>Respond ePCR</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com Billing</fullName>
+                    <default>false</default>
+                    <label>TriTech.com Billing</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com ePCR</fullName>
+                    <default>false</default>
+                    <label>TriTech.com ePCR</label>
+                </value>
+                <value>
+                    <fullName>Tiburon</fullName>
+                    <default>false</default>
+                    <label>Tiburon</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>GSA_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>GSA Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>GSA_Discount_Applied__c</fullName>
+        <externalId>false</externalId>
+        <label>GSA Discount Applied</label>
+        <precision>5</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Percent</type>
+    </fields>
+    <fields>
+        <fullName>GSA_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>GSA List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>GSA_Part_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>GSA Part Number</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>GSA_Price_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if include in GSA Price Book</description>
+        <externalId>false</externalId>
+        <label>GSA Price Book</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GSA_Product_Description__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This product&apos;s description specifically designated for the GSA pricelist</inlineHelpText>
+        <label>GSA Product Description</label>
+        <length>32768</length>
+        <trackHistory>true</trackHistory>
+        <type>LongTextArea</type>
+        <visibleLines>3</visibleLines>
+    </fields>
+    <fields>
+        <fullName>GSA_Product_Name__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This product&apos;s name specifically designated for the GSA pricelist</inlineHelpText>
+        <label>GSA Product Name</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>GSA_Product__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>GSA Product</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>GuidedSelling__NeedsSync__c</fullName>
+        <deprecated>false</deprecated>
+        <description>A comparison formula to see if the product needs to be synced to the GuidedSelling database</description>
+        <externalId>false</externalId>
+        <formula>if(LastModifiedDate &gt; GuidedSelling__SyncDate__c || ISBLANK(GuidedSelling__SyncDate__c), 1, 0)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>NeedsSync</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>GuidedSelling__SyncDate__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Datestamp used by GuidedSelling to manage product synchronization</description>
+        <externalId>false</externalId>
+        <label>SyncDate</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>DateTime</type>
+    </fields>
+    <fields>
+        <fullName>Inform_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Inform Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Inform_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Inform List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Inform_Price_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if included in Inform Price Book</description>
+        <externalId>false</externalId>
+        <label>Inform Price Book</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>IsActive</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Is_Custom_Product__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Is Custom Product</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Item_Sub_type__c</fullName>
+        <externalId>false</externalId>
+        <label>Subtype</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Annual Subscription</fullName>
+                    <default>false</default>
+                    <label>Annual Subscription</label>
+                </value>
+                <value>
+                    <fullName>Client Interface License</fullName>
+                    <default>false</default>
+                    <label>Client Interface License</label>
+                </value>
+                <value>
+                    <fullName>Concurrent User License</fullName>
+                    <default>false</default>
+                    <label>Concurrent User License</label>
+                </value>
+                <value>
+                    <fullName>Data</fullName>
+                    <default>false</default>
+                    <label>Data</label>
+                </value>
+                <value>
+                    <fullName>Data Conversion</fullName>
+                    <default>false</default>
+                    <label>Data Conversion</label>
+                </value>
+                <value>
+                    <fullName>DBA</fullName>
+                    <default>false</default>
+                    <label>DBA</label>
+                </value>
+                <value>
+                    <fullName>Design</fullName>
+                    <default>false</default>
+                    <label>Design</label>
+                </value>
+                <value>
+                    <fullName>Documentation</fullName>
+                    <default>false</default>
+                    <label>Documentation</label>
+                </value>
+                <value>
+                    <fullName>Domain Controllers</fullName>
+                    <default>false</default>
+                    <label>Domain Controllers</label>
+                </value>
+                <value>
+                    <fullName>GIS</fullName>
+                    <default>false</default>
+                    <label>GIS</label>
+                </value>
+                <value>
+                    <fullName>Go Live Support</fullName>
+                    <default>false</default>
+                    <label>Go Live Support</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Implementation</fullName>
+                    <default>false</default>
+                    <label>Implementation</label>
+                </value>
+                <value>
+                    <fullName>Installation</fullName>
+                    <default>false</default>
+                    <label>Installation</label>
+                </value>
+                <value>
+                    <fullName>Integrated Solution</fullName>
+                    <default>false</default>
+                    <label>Integrated Solution</label>
+                </value>
+                <value>
+                    <fullName>Mapping</fullName>
+                    <default>false</default>
+                    <label>Mapping</label>
+                </value>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>PBX</fullName>
+                    <default>false</default>
+                    <label>PBX</label>
+                </value>
+                <value>
+                    <fullName>Per Agency License</fullName>
+                    <default>false</default>
+                    <label>Per Agency License</label>
+                </value>
+                <value>
+                    <fullName>Peripheral</fullName>
+                    <default>false</default>
+                    <label>Peripheral</label>
+                </value>
+                <value>
+                    <fullName>Per PSAP License</fullName>
+                    <default>false</default>
+                    <label>Per PSAP License</label>
+                </value>
+                <value>
+                    <fullName>Per Seat Software License</fullName>
+                    <default>false</default>
+                    <label>Per Seat Software License</label>
+                </value>
+                <value>
+                    <fullName>Per System Module</fullName>
+                    <default>false</default>
+                    <label>Per System Module</label>
+                </value>
+                <value>
+                    <fullName>Server</fullName>
+                    <default>false</default>
+                    <label>Server</label>
+                </value>
+                <value>
+                    <fullName>Server Interface License</fullName>
+                    <default>false</default>
+                    <label>Server Interface License</label>
+                </value>
+                <value>
+                    <fullName>Server Software License</fullName>
+                    <default>false</default>
+                    <label>Server Software License</label>
+                </value>
+                <value>
+                    <fullName>Service Subscription</fullName>
+                    <default>false</default>
+                    <label>Service Subscription</label>
+                </value>
+                <value>
+                    <fullName>Software Assurance</fullName>
+                    <default>false</default>
+                    <label>Software Assurance</label>
+                </value>
+                <value>
+                    <fullName>Software Support</fullName>
+                    <default>false</default>
+                    <label>Software Support</label>
+                </value>
+                <value>
+                    <fullName>Training</fullName>
+                    <default>false</default>
+                    <label>Training</label>
+                </value>
+                <value>
+                    <fullName>Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Training On-site</fullName>
+                    <default>false</default>
+                    <label>Training On-site</label>
+                </value>
+                <value>
+                    <fullName>Workstation</fullName>
+                    <default>false</default>
+                    <label>Workstation</label>
+                </value>
+                <value>
+                    <fullName>Travel</fullName>
+                    <default>false</default>
+                    <label>Travel</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Item_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Type</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Software Base</fullName>
+                    <default>false</default>
+                    <label>Software Base</label>
+                </value>
+                <value>
+                    <fullName>Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Software DR and Test/Training</fullName>
+                    <default>false</default>
+                    <label>Software DR and Test/Training</label>
+                </value>
+                <value>
+                    <fullName>Software Subscriptions</fullName>
+                    <default>false</default>
+                    <label>Software Subscriptions</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Item_Warranty_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Item Warranty Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>false</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Manufacturer_Part_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Manufacturer Part Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Manufacturer__c</fullName>
+        <externalId>false</externalId>
+        <label>Manufacturer</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Name</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Num_of_staff_traveling_per_trip_incl_PM__c</fullName>
+        <externalId>false</externalId>
+        <label># of staff traveling per trip incl PM</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Num_of_trips__c</fullName>
+        <externalId>false</externalId>
+        <label># of trips</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>OverrideSupportLevel__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>OverrideSupportLevel</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Parent_Part_Number__c</fullName>
+        <externalId>false</externalId>
+        <label>Parent Part Number</label>
+        <length>255</length>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Perform_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Perform Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Perform_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Perform List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Perform_Price_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <description>Check if include in the Perform Price Book</description>
+        <externalId>false</externalId>
+        <label>Perform Price Book</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Price_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Price Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>One Time</fullName>
+                    <default>false</default>
+                    <label>One Time</label>
+                </value>
+                <value>
+                    <fullName>Recurring</fullName>
+                    <default>false</default>
+                    <label>Recurring</label>
+                </value>
+                <value>
+                    <fullName>Usage</fullName>
+                    <default>false</default>
+                    <label>Usage</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Price_Uom__c</fullName>
+        <externalId>false</externalId>
+        <label>Price Uom</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Each</fullName>
+                    <default>false</default>
+                    <label>Each</label>
+                </value>
+                <value>
+                    <fullName>Hour</fullName>
+                    <default>false</default>
+                    <label>Hour</label>
+                </value>
+                <value>
+                    <fullName>Day</fullName>
+                    <default>false</default>
+                    <label>Day</label>
+                </value>
+                <value>
+                    <fullName>Month</fullName>
+                    <default>false</default>
+                    <label>Month</label>
+                </value>
+                <value>
+                    <fullName>Year</fullName>
+                    <default>false</default>
+                    <label>Year</label>
+                </value>
+                <value>
+                    <fullName>Quarter</fullName>
+                    <default>false</default>
+                    <label>Quarter</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>ProductCode</fullName>
+        <trackHistory>true</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Product_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Product ID</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Product_Status_WMP__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Status</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Selling</fullName>
+                    <default>false</default>
+                    <label>Selling</label>
+                </value>
+                <value>
+                    <fullName>Supported</fullName>
+                    <default>false</default>
+                    <label>Supported</label>
+                </value>
+                <value>
+                    <fullName>Unsupported</fullName>
+                    <default>false</default>
+                    <label>Unsupported</label>
+                </value>
+                <value>
+                    <fullName>Sunsetting</fullName>
+                    <default>false</default>
+                    <label>Sunsetting</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Product_Type__c</fullName>
+        <externalId>false</externalId>
+        <label>Product Type</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>911</fullName>
+                    <default>false</default>
+                    <label>911</label>
+                </value>
+                <value>
+                    <fullName>AVeL</fullName>
+                    <default>false</default>
+                    <label>AVeL</label>
+                </value>
+                <value>
+                    <fullName>Billing</fullName>
+                    <default>false</default>
+                    <label>Billing</label>
+                </value>
+                <value>
+                    <fullName>EMS CAD</fullName>
+                    <default>false</default>
+                    <label>EMS CAD</label>
+                </value>
+                <value>
+                    <fullName>ETI</fullName>
+                    <default>false</default>
+                    <label>ETI</label>
+                </value>
+                <value>
+                    <fullName>FDC</fullName>
+                    <default>false</default>
+                    <label>FDC</label>
+                </value>
+                <value>
+                    <fullName>Fusion ePCR</fullName>
+                    <default>false</default>
+                    <label>Fusion ePCR</label>
+                </value>
+                <value>
+                    <fullName>Fusion Online</fullName>
+                    <default>false</default>
+                    <label>Fusion Online</label>
+                </value>
+                <value>
+                    <fullName>IMC</fullName>
+                    <default>false</default>
+                    <label>IMC</label>
+                </value>
+                <value>
+                    <fullName>Impact</fullName>
+                    <default>false</default>
+                    <label>Impact</label>
+                </value>
+                <value>
+                    <fullName>Inform</fullName>
+                    <default>false</default>
+                    <label>Inform</label>
+                </value>
+                <value>
+                    <fullName>IQ</fullName>
+                    <default>false</default>
+                    <label>IQ</label>
+                </value>
+                <value>
+                    <fullName>Perform</fullName>
+                    <default>false</default>
+                    <label>Perform</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD</fullName>
+                    <default>false</default>
+                    <label>Respond CAD</label>
+                </value>
+                <value>
+                    <fullName>SBS</fullName>
+                    <default>false</default>
+                    <label>SBS</label>
+                </value>
+                <value>
+                    <fullName>Sweet-Online</fullName>
+                    <default>false</default>
+                    <label>Sweet-Online</label>
+                </value>
+                <value>
+                    <fullName>VisiNet</fullName>
+                    <default>false</default>
+                    <label>VisiNet</label>
+                </value>
+                <value>
+                    <fullName>VisionCAD</fullName>
+                    <default>false</default>
+                    <label>VisionCAD</label>
+                </value>
+                <value>
+                    <fullName>VisionCONNECT</fullName>
+                    <default>false</default>
+                    <label>VisionCONNECT</label>
+                </value>
+                <value>
+                    <fullName>VisionDASHBOARD</fullName>
+                    <default>false</default>
+                    <label>VisionDASHBOARD</label>
+                </value>
+                <value>
+                    <fullName>VisionDATAVAULT</fullName>
+                    <default>false</default>
+                    <label>VisionDATAVAULT</label>
+                </value>
+                <value>
+                    <fullName>VisionFBR</fullName>
+                    <default>false</default>
+                    <label>VisionFBR</label>
+                </value>
+                <value>
+                    <fullName>VisionFIRE</fullName>
+                    <default>false</default>
+                    <label>VisionFIRE</label>
+                </value>
+                <value>
+                    <fullName>VisionFORCE</fullName>
+                    <default>false</default>
+                    <label>VisionFORCE</label>
+                </value>
+                <value>
+                    <fullName>VisionGIS</fullName>
+                    <default>false</default>
+                    <label>VisionGIS</label>
+                </value>
+                <value>
+                    <fullName>VisionINFORM</fullName>
+                    <default>false</default>
+                    <label>VisionINFORM</label>
+                </value>
+                <value>
+                    <fullName>VisionJAIL</fullName>
+                    <default>false</default>
+                    <label>VisionJAIL</label>
+                </value>
+                <value>
+                    <fullName>VisionLMS</fullName>
+                    <default>false</default>
+                    <label>VisionLMS</label>
+                </value>
+                <value>
+                    <fullName>VisionMOBILE</fullName>
+                    <default>false</default>
+                    <label>VisionMOBILE</label>
+                </value>
+                <value>
+                    <fullName>VisionRMS</fullName>
+                    <default>false</default>
+                    <label>VisionRMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>QuantityUnitOfMeasure</fullName>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Rapid_Implementation_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Rapid Implementation Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Rapid_Implementation_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Rapid Implementation List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Rapid_Implementation_Price_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Rapid Implementation Price Book</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Respond_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Respond Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Respond_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Respond List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Respond_Price_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Respond Price Book</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>SIN__c</fullName>
+        <description>GSA Special Identification Numbers</description>
+        <externalId>false</externalId>
+        <inlineHelpText>GSA Special Identification Numbers</inlineHelpText>
+        <label>SIN</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>132-8 Hardware</fullName>
+                    <default>false</default>
+                    <label>132-8 Hardware</label>
+                </value>
+                <value>
+                    <fullName>132-12 HW Maintenance</fullName>
+                    <default>false</default>
+                    <label>132-12 HW Maintenance</label>
+                </value>
+                <value>
+                    <fullName>132-32 Subscription</fullName>
+                    <default>false</default>
+                    <label>132-32 Subscription</label>
+                </value>
+                <value>
+                    <fullName>132-33 SW License</fullName>
+                    <default>false</default>
+                    <label>132-33 SW License</label>
+                </value>
+                <value>
+                    <fullName>132-34 SW Maintenance</fullName>
+                    <default>false</default>
+                    <label>132-34 SW Maintenance</label>
+                </value>
+                <value>
+                    <fullName>132-50 Training</fullName>
+                    <default>false</default>
+                    <label>132-50 Training</label>
+                </value>
+                <value>
+                    <fullName>132-51 IT Professional Services</fullName>
+                    <default>false</default>
+                    <label>132-51 IT Professional Services</label>
+                </value>
+                <value>
+                    <fullName>Open Market Product</fullName>
+                    <default>false</default>
+                    <label>Open Market Product</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sales_Order_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sales Order Category</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Other</fullName>
+                    <default>false</default>
+                    <label>Other</label>
+                </value>
+                <value>
+                    <fullName>Other - 3rd Party Software</fullName>
+                    <default>false</default>
+                    <label>Other - 3rd Party Software</label>
+                </value>
+                <value>
+                    <fullName>Other - 3rd Party Support</fullName>
+                    <default>false</default>
+                    <label>Other - 3rd Party Support</label>
+                </value>
+                <value>
+                    <fullName>Other - Bonds &amp; L/C</fullName>
+                    <default>false</default>
+                    <label>Other - Bonds &amp; L/C</label>
+                </value>
+                <value>
+                    <fullName>Other - Data Conversion</fullName>
+                    <default>false</default>
+                    <label>Other - Data Conversion</label>
+                </value>
+                <value>
+                    <fullName>Other - Escrow</fullName>
+                    <default>false</default>
+                    <label>Other - Escrow</label>
+                </value>
+                <value>
+                    <fullName>Other - Hardware</fullName>
+                    <default>false</default>
+                    <label>Other - Hardware</label>
+                </value>
+                <value>
+                    <fullName>Other - Hardware Support</fullName>
+                    <default>false</default>
+                    <label>Other - Hardware Support</label>
+                </value>
+                <value>
+                    <fullName>Other - Sales Tax</fullName>
+                    <default>false</default>
+                    <label>Other - Sales Tax</label>
+                </value>
+                <value>
+                    <fullName>Other - Shipping</fullName>
+                    <default>false</default>
+                    <label>Other - Shipping</label>
+                </value>
+                <value>
+                    <fullName>Other - Software Maintenance</fullName>
+                    <default>false</default>
+                    <label>Other - Software Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Other - Subcontract</fullName>
+                    <default>false</default>
+                    <label>Other - Subcontract</label>
+                </value>
+                <value>
+                    <fullName>Other - Subcontract Support</fullName>
+                    <default>false</default>
+                    <label>Other - Subcontract Support</label>
+                </value>
+                <value>
+                    <fullName>Other - Subscriptions</fullName>
+                    <default>false</default>
+                    <label>Other - Subscriptions</label>
+                </value>
+                <value>
+                    <fullName>Other - System Integration</fullName>
+                    <default>false</default>
+                    <label>Other - System Integration</label>
+                </value>
+                <value>
+                    <fullName>Other - Travel</fullName>
+                    <default>false</default>
+                    <label>Other - Travel</label>
+                </value>
+                <value>
+                    <fullName>Other - TriCon Fees</fullName>
+                    <default>false</default>
+                    <label>Other - TriCon Fees</label>
+                </value>
+                <value>
+                    <fullName>Services - Integrated Solutions</fullName>
+                    <default>false</default>
+                    <label>Services - Integrated Solutions</label>
+                </value>
+                <value>
+                    <fullName>Services - Other Service Revenue</fullName>
+                    <default>false</default>
+                    <label>Services - Other Service Revenue</label>
+                </value>
+                <value>
+                    <fullName>Services - Project &amp; Installation</fullName>
+                    <default>false</default>
+                    <label>Services - Project &amp; Installation</label>
+                </value>
+                <value>
+                    <fullName>Services - Project Management</fullName>
+                    <default>false</default>
+                    <label>Services - Project Management</label>
+                </value>
+                <value>
+                    <fullName>Services - Services</fullName>
+                    <default>false</default>
+                    <label>Services - Services</label>
+                </value>
+                <value>
+                    <fullName>Services - Software Modification</fullName>
+                    <default>false</default>
+                    <label>Services - Software Modification</label>
+                </value>
+                <value>
+                    <fullName>Services - Training</fullName>
+                    <default>false</default>
+                    <label>Services - Training</label>
+                </value>
+                <value>
+                    <fullName>Software - Billing</fullName>
+                    <default>false</default>
+                    <label>Software - Billing</label>
+                </value>
+                <value>
+                    <fullName>Software - CAD</fullName>
+                    <default>false</default>
+                    <label>Software - CAD</label>
+                </value>
+                <value>
+                    <fullName>Software - Discount</fullName>
+                    <default>false</default>
+                    <label>Software - Discount</label>
+                </value>
+                <value>
+                    <fullName>Software - FBR</fullName>
+                    <default>false</default>
+                    <label>Software - FBR</label>
+                </value>
+                <value>
+                    <fullName>Software - Fire</fullName>
+                    <default>false</default>
+                    <label>Software - Fire</label>
+                </value>
+                <value>
+                    <fullName>Software - Fusion ePCR</fullName>
+                    <default>false</default>
+                    <label>Software - Fusion ePCR</label>
+                </value>
+                <value>
+                    <fullName>Software - Inform IQ Analytics</fullName>
+                    <default>false</default>
+                    <label>Software - Inform IQ Analytics</label>
+                </value>
+                <value>
+                    <fullName>Software - Interface</fullName>
+                    <default>false</default>
+                    <label>Software - Interface</label>
+                </value>
+                <value>
+                    <fullName>Software - Interface CAD/Mobile</fullName>
+                    <default>false</default>
+                    <label>Software - Interface CAD/Mobile</label>
+                </value>
+                <value>
+                    <fullName>Software - Interface RMS/FBR</fullName>
+                    <default>false</default>
+                    <label>Software - Interface RMS/FBR</label>
+                </value>
+                <value>
+                    <fullName>Software - Jail</fullName>
+                    <default>false</default>
+                    <label>Software - Jail</label>
+                </value>
+                <value>
+                    <fullName>Software - Mobile</fullName>
+                    <default>false</default>
+                    <label>Software - Mobile</label>
+                </value>
+                <value>
+                    <fullName>Software - RMS</fullName>
+                    <default>false</default>
+                    <label>Software - RMS</label>
+                </value>
+                <value>
+                    <fullName>Software - RMS Fire</fullName>
+                    <default>false</default>
+                    <label>Software - RMS Fire</label>
+                </value>
+                <value>
+                    <fullName>Software - RMS Police</fullName>
+                    <default>false</default>
+                    <label>Software - RMS Police</label>
+                </value>
+                <value>
+                    <fullName>Software - Telephony 911</fullName>
+                    <default>false</default>
+                    <label>Software - Telephony 911</label>
+                </value>
+                <value>
+                    <fullName>Subscriptions - TriTech.com Billing</fullName>
+                    <default>false</default>
+                    <label>Subscriptions - TriTech.com Billing</label>
+                </value>
+                <value>
+                    <fullName>Subscriptions - TriTech.com IQ</fullName>
+                    <default>false</default>
+                    <label>Subscriptions - TriTech.com IQ</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com IQ</fullName>
+                    <default>false</default>
+                    <label>TriTech.com IQ</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com IQ Project &amp; Installation</fullName>
+                    <default>false</default>
+                    <label>TriTech.com IQ Project &amp; Installation</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com IQ Training</fullName>
+                    <default>false</default>
+                    <label>TriTech.com IQ Training</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sellable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Sellable</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Shopping_Cart_Hierarchy__c</fullName>
+        <description>Picklist to determine the appropriate category hierarchy within the Apttus shopping cart function</description>
+        <externalId>false</externalId>
+        <label>Shopping Cart Hierarchy</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Alternate Environments</fullName>
+                    <default>false</default>
+                    <label>Alternate Environments</label>
+                </value>
+                <value>
+                    <fullName>CAD Software</fullName>
+                    <default>false</default>
+                    <label>CAD Software</label>
+                </value>
+                <value>
+                    <fullName>Custom Solution</fullName>
+                    <default>false</default>
+                    <label>Custom Solution</label>
+                </value>
+                <value>
+                    <fullName>Fire Records</fullName>
+                    <default>false</default>
+                    <label>Fire Records</label>
+                </value>
+                <value>
+                    <fullName>GeoComm</fullName>
+                    <default>false</default>
+                    <label>GeoComm</label>
+                </value>
+                <value>
+                    <fullName>Hardware</fullName>
+                    <default>false</default>
+                    <label>Hardware</label>
+                </value>
+                <value>
+                    <fullName>Implementation Services</fullName>
+                    <default>false</default>
+                    <label>Implementation Services</label>
+                </value>
+                <value>
+                    <fullName>Installation Services</fullName>
+                    <default>false</default>
+                    <label>Installation Services</label>
+                </value>
+                <value>
+                    <fullName>Mapping Services</fullName>
+                    <default>false</default>
+                    <label>Mapping Services</label>
+                </value>
+                <value>
+                    <fullName>MNHS</fullName>
+                    <default>false</default>
+                    <label>MNHS</label>
+                </value>
+                <value>
+                    <fullName>MNHS Services</fullName>
+                    <default>false</default>
+                    <label>MNHS Services</label>
+                </value>
+                <value>
+                    <fullName>Mobile Software</fullName>
+                    <default>false</default>
+                    <label>Mobile Software</label>
+                </value>
+                <value>
+                    <fullName>Project Management Services</fullName>
+                    <default>false</default>
+                    <label>Project Management Services</label>
+                </value>
+                <value>
+                    <fullName>Rehost Services</fullName>
+                    <default>false</default>
+                    <label>Rehost Services</label>
+                </value>
+                <value>
+                    <fullName>Reports</fullName>
+                    <default>false</default>
+                    <label>Reports</label>
+                </value>
+                <value>
+                    <fullName>Runsheet</fullName>
+                    <default>false</default>
+                    <label>Runsheet</label>
+                </value>
+                <value>
+                    <fullName>Services</fullName>
+                    <default>false</default>
+                    <label>Services</label>
+                </value>
+                <value>
+                    <fullName>Software</fullName>
+                    <default>false</default>
+                    <label>Software</label>
+                </value>
+                <value>
+                    <fullName>Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Software Base</fullName>
+                    <default>false</default>
+                    <label>Software Base</label>
+                </value>
+                <value>
+                    <fullName>Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Software Modification</fullName>
+                    <default>false</default>
+                    <label>Software Modification</label>
+                </value>
+                <value>
+                    <fullName>Software Subscriptions</fullName>
+                    <default>false</default>
+                    <label>Software Subscriptions</label>
+                </value>
+                <value>
+                    <fullName>Third Party Services</fullName>
+                    <default>false</default>
+                    <label>Third Party Services</label>
+                </value>
+                <value>
+                    <fullName>Third Party Software</fullName>
+                    <default>false</default>
+                    <label>Third Party Software</label>
+                </value>
+                <value>
+                    <fullName>Third Party Support</fullName>
+                    <default>false</default>
+                    <label>Third Party Support</label>
+                </value>
+                <value>
+                    <fullName>Training Services</fullName>
+                    <default>false</default>
+                    <label>Training Services</label>
+                </value>
+                <value>
+                    <fullName>VisionCAD Base</fullName>
+                    <default>false</default>
+                    <label>VisionCAD Base</label>
+                </value>
+                <value>
+                    <fullName>VisionCAD Interface</fullName>
+                    <default>false</default>
+                    <label>VisionCAD Interface</label>
+                </value>
+                <value>
+                    <fullName>VisionMOBILE Base</fullName>
+                    <default>false</default>
+                    <label>VisionMOBILE Base</label>
+                </value>
+                <value>
+                    <fullName>VisionMOBILE Interface</fullName>
+                    <default>false</default>
+                    <label>VisionMOBILE Interface</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>DN CAD</fullName>
+                    <default>false</default>
+                    <label>DN CAD</label>
+                </value>
+                <value>
+                    <fullName>DN Mobile</fullName>
+                    <default>false</default>
+                    <label>DN Mobile</label>
+                </value>
+                <value>
+                    <fullName>FRMS</fullName>
+                    <default>false</default>
+                    <label>FRMS</label>
+                </value>
+                <value>
+                    <fullName>TC CAD</fullName>
+                    <default>false</default>
+                    <label>TC CAD</label>
+                </value>
+                <value>
+                    <fullName>TC CAD WebQuery</fullName>
+                    <default>false</default>
+                    <label>TC CAD WebQuery</label>
+                </value>
+                <value>
+                    <fullName>TC Law Records</fullName>
+                    <default>false</default>
+                    <label>TC Law Records</label>
+                </value>
+                <value>
+                    <fullName>TC MobileCOM</fullName>
+                    <default>false</default>
+                    <label>TC MobileCOM</label>
+                </value>
+                <value>
+                    <fullName>TE RMS</fullName>
+                    <default>false</default>
+                    <label>TE RMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>StockKeepingUnit</fullName>
+        <trackHistory>false</trackHistory>
+    </fields>
+    <fields>
+        <fullName>Support_Level__c</fullName>
+        <description>8 x 5 = 18%
+24 x 7 = 22%
+24 x 7 (911) = 18%
+24 x 7 (Upgrade) = 25.88%
+Perform = 18%
+Pervasive = 25%
+IQ 8 x 5 = 20%
+24 x 7 &amp; 8 x 5 Tib = 18%</description>
+        <externalId>false</externalId>
+        <inlineHelpText>8 x 5 = 18%
+24 x 7 = 22%
+24 x 7 (911) = 18%
+24 x 7 (Upgrade) = 25.88%
+Perform = 18%
+Pervasive = 25%
+IQ 8 x 5 = 20%
+24 x 7 &amp; 8 x 5 Tib = 18%</inlineHelpText>
+        <label>Support Level</label>
+        <required>false</required>
+        <trackHistory>true</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>8 x 5</fullName>
+                    <default>false</default>
+                    <label>8 x 5</label>
+                </value>
+                <value>
+                    <fullName>24 x 7</fullName>
+                    <default>false</default>
+                    <label>24 x 7</label>
+                </value>
+                <value>
+                    <fullName>IQ 8 x 5</fullName>
+                    <default>false</default>
+                    <label>IQ 8 x 5</label>
+                </value>
+                <value>
+                    <fullName>Perform</fullName>
+                    <default>false</default>
+                    <label>Perform</label>
+                </value>
+                <value>
+                    <fullName>Pervasive</fullName>
+                    <default>false</default>
+                    <label>Pervasive</label>
+                </value>
+                <value>
+                    <fullName>24 x 7 (911)</fullName>
+                    <default>false</default>
+                    <label>24 x 7 (911)</label>
+                </value>
+                <value>
+                    <fullName>24 x 7 (Upgrade)</fullName>
+                    <default>false</default>
+                    <label>24 x 7 (Upgrade)</label>
+                </value>
+                <value>
+                    <fullName>8 X 5 Tib</fullName>
+                    <default>false</default>
+                    <label>8 X 5 Tib</label>
+                </value>
+                <value>
+                    <fullName>24 X 7 Tib</fullName>
+                    <default>false</default>
+                    <label>24 X 7 Tib</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Supportable__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Support Product</label>
+        <trackHistory>false</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <fields>
+        <fullName>Template_Product_Category_Does_Not_Match__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF (  CLDY_Template_Product_Category__r.Name = TEXT( Template_Product_Category__c), &apos;Match&apos;, &apos;Does Not Match&apos;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Template Product Category Does Not Match</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Template_Product_Category__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>Utilized for assistance in categorizing items on generation templates</inlineHelpText>
+        <label>Template Product Category</label>
+        <required>false</required>
+        <trackHistory>false</trackHistory>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>CAD Software Base</fullName>
+                    <default>false</default>
+                    <label>CAD Software Base</label>
+                </value>
+                <value>
+                    <fullName>CAD Software Ancillary Module</fullName>
+                    <default>false</default>
+                    <label>CAD Software Ancillary Module</label>
+                </value>
+                <value>
+                    <fullName>CAD Software Interface</fullName>
+                    <default>false</default>
+                    <label>CAD Software Interface</label>
+                </value>
+                <value>
+                    <fullName>CAD Alternate Environment</fullName>
+                    <default>false</default>
+                    <label>CAD Alternate Environment</label>
+                </value>
+                <value>
+                    <fullName>Fire Records Base</fullName>
+                    <default>false</default>
+                    <label>Fire Records Base</label>
+                </value>
+                <value>
+                    <fullName>Fire Records Service</fullName>
+                    <default>false</default>
+                    <label>Fire Records Service</label>
+                </value>
+                <value>
+                    <fullName>Mobile Software Base</fullName>
+                    <default>false</default>
+                    <label>Mobile Software Base</label>
+                </value>
+                <value>
+                    <fullName>Mobile Software Ancillary Module</fullName>
+                    <default>false</default>
+                    <label>Mobile Software Ancillary Module</label>
+                </value>
+                <value>
+                    <fullName>Mobile Software Interface</fullName>
+                    <default>false</default>
+                    <label>Mobile Software Interface</label>
+                </value>
+                <value>
+                    <fullName>Mobile Alternate Environment</fullName>
+                    <default>false</default>
+                    <label>Mobile Alternate Environment</label>
+                </value>
+                <value>
+                    <fullName>911 Software Base</fullName>
+                    <default>false</default>
+                    <label>911 Software Base</label>
+                </value>
+                <value>
+                    <fullName>911 Software Ancillary Module</fullName>
+                    <default>false</default>
+                    <label>911 Software Ancillary Module</label>
+                </value>
+                <value>
+                    <fullName>911 Software Interface</fullName>
+                    <default>false</default>
+                    <label>911 Software Interface</label>
+                </value>
+                <value>
+                    <fullName>911 Alternate Environment</fullName>
+                    <default>false</default>
+                    <label>911 Alternate Environment</label>
+                </value>
+                <value>
+                    <fullName>RMS Software Base</fullName>
+                    <default>false</default>
+                    <label>RMS Software Base</label>
+                </value>
+                <value>
+                    <fullName>RMS Software Ancillary Module</fullName>
+                    <default>false</default>
+                    <label>RMS Software Ancillary Module</label>
+                </value>
+                <value>
+                    <fullName>RMS Software Interface</fullName>
+                    <default>false</default>
+                    <label>RMS Software Interface</label>
+                </value>
+                <value>
+                    <fullName>RMS Alternate Environment</fullName>
+                    <default>false</default>
+                    <label>RMS Alternate Environment</label>
+                </value>
+                <value>
+                    <fullName>MNHS Software</fullName>
+                    <default>false</default>
+                    <label>MNHS Software</label>
+                </value>
+                <value>
+                    <fullName>FBR Software Base</fullName>
+                    <default>false</default>
+                    <label>FBR Software Base</label>
+                </value>
+                <value>
+                    <fullName>FBR Software Interface</fullName>
+                    <default>false</default>
+                    <label>FBR Software Interface</label>
+                </value>
+                <value>
+                    <fullName>Jail Software Base</fullName>
+                    <default>false</default>
+                    <label>Jail Software Base</label>
+                </value>
+                <value>
+                    <fullName>Jail Software Ancillary Module</fullName>
+                    <default>false</default>
+                    <label>Jail Software Ancillary Module</label>
+                </value>
+                <value>
+                    <fullName>Jail Software Interface</fullName>
+                    <default>false</default>
+                    <label>Jail Software Interface</label>
+                </value>
+                <value>
+                    <fullName>Jail Alternate Environment</fullName>
+                    <default>false</default>
+                    <label>Jail Alternate Environment</label>
+                </value>
+                <value>
+                    <fullName>IQ Software Base</fullName>
+                    <default>false</default>
+                    <label>IQ Software Base</label>
+                </value>
+                <value>
+                    <fullName>IQ Software Interface</fullName>
+                    <default>false</default>
+                    <label>IQ Software Interface</label>
+                </value>
+                <value>
+                    <fullName>CAD Installation Service</fullName>
+                    <default>false</default>
+                    <label>CAD Installation Service</label>
+                </value>
+                <value>
+                    <fullName>CAD Training Service</fullName>
+                    <default>false</default>
+                    <label>CAD Training Service</label>
+                </value>
+                <value>
+                    <fullName>CAD Implementation Service</fullName>
+                    <default>false</default>
+                    <label>CAD Implementation Service</label>
+                </value>
+                <value>
+                    <fullName>CAD Rehost Service</fullName>
+                    <default>false</default>
+                    <label>CAD Rehost Service</label>
+                </value>
+                <value>
+                    <fullName>CAD Mapping Service</fullName>
+                    <default>false</default>
+                    <label>CAD Mapping Service</label>
+                </value>
+                <value>
+                    <fullName>Mobile Installation Service</fullName>
+                    <default>false</default>
+                    <label>Mobile Installation Service</label>
+                </value>
+                <value>
+                    <fullName>Mobile Training Service</fullName>
+                    <default>false</default>
+                    <label>Mobile Training Service</label>
+                </value>
+                <value>
+                    <fullName>Mobile Implementation Service</fullName>
+                    <default>false</default>
+                    <label>Mobile Implementation Service</label>
+                </value>
+                <value>
+                    <fullName>Mobile Rehost Service</fullName>
+                    <default>false</default>
+                    <label>Mobile Rehost Service</label>
+                </value>
+                <value>
+                    <fullName>Mobile Mapping Service</fullName>
+                    <default>false</default>
+                    <label>Mobile Mapping Service</label>
+                </value>
+                <value>
+                    <fullName>911 Installation Service</fullName>
+                    <default>false</default>
+                    <label>911 Installation Service</label>
+                </value>
+                <value>
+                    <fullName>911 Training Service</fullName>
+                    <default>false</default>
+                    <label>911 Training Service</label>
+                </value>
+                <value>
+                    <fullName>911 Implementation Service</fullName>
+                    <default>false</default>
+                    <label>911 Implementation Service</label>
+                </value>
+                <value>
+                    <fullName>RMS Installation Service</fullName>
+                    <default>false</default>
+                    <label>RMS Installation Service</label>
+                </value>
+                <value>
+                    <fullName>RMS Training Service</fullName>
+                    <default>false</default>
+                    <label>RMS Training Service</label>
+                </value>
+                <value>
+                    <fullName>RMS Implementation Service</fullName>
+                    <default>false</default>
+                    <label>RMS Implementation Service</label>
+                </value>
+                <value>
+                    <fullName>RMS Mapping Service</fullName>
+                    <default>false</default>
+                    <label>RMS Mapping Service</label>
+                </value>
+                <value>
+                    <fullName>MNHS Service</fullName>
+                    <default>false</default>
+                    <label>MNHS Service</label>
+                </value>
+                <value>
+                    <fullName>LMS Service</fullName>
+                    <default>false</default>
+                    <label>LMS Service</label>
+                </value>
+                <value>
+                    <fullName>FBR Installation Service</fullName>
+                    <default>false</default>
+                    <label>FBR Installation Service</label>
+                </value>
+                <value>
+                    <fullName>FBR Training Service</fullName>
+                    <default>false</default>
+                    <label>FBR Training Service</label>
+                </value>
+                <value>
+                    <fullName>FBR Implementation Service</fullName>
+                    <default>false</default>
+                    <label>FBR Implementation Service</label>
+                </value>
+                <value>
+                    <fullName>Jail Installation Service</fullName>
+                    <default>false</default>
+                    <label>Jail Installation Service</label>
+                </value>
+                <value>
+                    <fullName>Jail Training Service</fullName>
+                    <default>false</default>
+                    <label>Jail Training Service</label>
+                </value>
+                <value>
+                    <fullName>Jail Implementation Service</fullName>
+                    <default>false</default>
+                    <label>Jail Implementation Service</label>
+                </value>
+                <value>
+                    <fullName>IQ Installation Service</fullName>
+                    <default>false</default>
+                    <label>IQ Installation Service</label>
+                </value>
+                <value>
+                    <fullName>IQ Training Service</fullName>
+                    <default>false</default>
+                    <label>IQ Training Service</label>
+                </value>
+                <value>
+                    <fullName>System Service</fullName>
+                    <default>false</default>
+                    <label>System Service</label>
+                </value>
+                <value>
+                    <fullName>Bond Fees</fullName>
+                    <default>false</default>
+                    <label>Bond Fees</label>
+                </value>
+                <value>
+                    <fullName>CAD Hardware</fullName>
+                    <default>false</default>
+                    <label>CAD Hardware</label>
+                </value>
+                <value>
+                    <fullName>Mobile Hardware</fullName>
+                    <default>false</default>
+                    <label>Mobile Hardware</label>
+                </value>
+                <value>
+                    <fullName>911 Hardware</fullName>
+                    <default>false</default>
+                    <label>911 Hardware</label>
+                </value>
+                <value>
+                    <fullName>RMS Hardware</fullName>
+                    <default>false</default>
+                    <label>RMS Hardware</label>
+                </value>
+                <value>
+                    <fullName>Jail Hardware</fullName>
+                    <default>false</default>
+                    <label>Jail Hardware</label>
+                </value>
+                <value>
+                    <fullName>FBR Hardware</fullName>
+                    <default>false</default>
+                    <label>FBR Hardware</label>
+                </value>
+                <value>
+                    <fullName>IQ Hardware</fullName>
+                    <default>false</default>
+                    <label>IQ Hardware</label>
+                </value>
+                <value>
+                    <fullName>Third Party Product or Service</fullName>
+                    <default>false</default>
+                    <label>Third Party Product or Service</label>
+                </value>
+                <value>
+                    <fullName>Recurring Fee</fullName>
+                    <default>false</default>
+                    <label>Recurring Fee</label>
+                </value>
+                <value>
+                    <fullName>Maintenance</fullName>
+                    <default>false</default>
+                    <label>Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Data Vault</fullName>
+                    <default>false</default>
+                    <label>Data Vault</label>
+                </value>
+                <value>
+                    <fullName>Custom Solution</fullName>
+                    <default>false</default>
+                    <label>Custom Solution</label>
+                </value>
+                <value>
+                    <fullName>Credit</fullName>
+                    <default>false</default>
+                    <label>Credit</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Admin System Software</fullName>
+                    <default>false</default>
+                    <label>Perform Admin System Software</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Software Base</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Software Base</label>
+                </value>
+                <value>
+                    <fullName>Perform CAD Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Perform CAD Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Perform Civil Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Civil Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Civil Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Civil Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Civil Software Base</fullName>
+                    <default>false</default>
+                    <label>Perform Civil Software Base</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Services Implementation</fullName>
+                    <default>false</default>
+                    <label>Perform Common Services Implementation</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Services Installation</fullName>
+                    <default>false</default>
+                    <label>Perform Common Services Installation</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform Common Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Common Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Common Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Services Travel</fullName>
+                    <default>false</default>
+                    <label>Perform Common Services Travel</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Perform Common Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Perform Common Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Perform Common Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Perform Detective Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Detective Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Detective Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Detective Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Detective Software Base</fullName>
+                    <default>false</default>
+                    <label>Perform Detective Software Base</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire RMS Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform Fire RMS Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire RMS Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Fire RMS Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire RMS Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Fire RMS Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Fire RMS Software Base</fullName>
+                    <default>false</default>
+                    <label>Perform Fire RMS Software Base</label>
+                </value>
+                <value>
+                    <fullName>Perform Jail Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Jail Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Jail Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Jail Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Jail Software Base</fullName>
+                    <default>false</default>
+                    <label>Perform Jail Software Base</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Services Installation</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Services Installation</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Software Base</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Software Base</label>
+                </value>
+                <value>
+                    <fullName>Perform Law RMS Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Perform Law RMS Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Services Training at TriTech</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Services Training at TriTech</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Services Training on Site</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Services Training on Site</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Perform Mobile Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Perform Mobile Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Perform Third Party Services Implementation</fullName>
+                    <default>false</default>
+                    <label>Perform Third Party Services Implementation</label>
+                </value>
+                <value>
+                    <fullName>Perform Third Party Services Other</fullName>
+                    <default>false</default>
+                    <label>Perform Third Party Services Other</label>
+                </value>
+                <value>
+                    <fullName>Perform Third Party Software</fullName>
+                    <default>false</default>
+                    <label>Perform Third Party Software</label>
+                </value>
+                <value>
+                    <fullName>Perform Annual Maintenance</fullName>
+                    <default>false</default>
+                    <label>Perform Annual Maintenance</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Custom Solution</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Custom Solution</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Implementation Services</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Implementation Services</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Reports</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Reports</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Services</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Services</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Software Base</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Software Base</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Third Party Services</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Third Party Services</label>
+                </value>
+                <value>
+                    <fullName>Respond Billing Training Services</fullName>
+                    <default>false</default>
+                    <label>Respond Billing Training Services</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Software</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Software</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Installation Services</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Installation Services</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Mapping Services</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Mapping Services</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Mobile Software</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Mobile Software</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>Respond CAD Third Party Software</fullName>
+                    <default>false</default>
+                    <label>Respond CAD Third Party Software</label>
+                </value>
+                <value>
+                    <fullName>Respond ePCR Runsheet</fullName>
+                    <default>false</default>
+                    <label>Respond ePCR Runsheet</label>
+                </value>
+                <value>
+                    <fullName>Respond ePCR Software Base</fullName>
+                    <default>false</default>
+                    <label>Respond ePCR Software Base</label>
+                </value>
+                <value>
+                    <fullName>Respond ePCR Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>Respond ePCR Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com Billing Reports</fullName>
+                    <default>false</default>
+                    <label>TriTech.com Billing Reports</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com Software Ancillary Modules</fullName>
+                    <default>false</default>
+                    <label>TriTech.com Software Ancillary Modules</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com Software Base</fullName>
+                    <default>false</default>
+                    <label>TriTech.com Software Base</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com Software Subscriptions</fullName>
+                    <default>false</default>
+                    <label>TriTech.com Software Subscriptions</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com ePCR Implementation Services</fullName>
+                    <default>false</default>
+                    <label>TriTech.com ePCR Implementation Services</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com ePCR Runsheet</fullName>
+                    <default>false</default>
+                    <label>TriTech.com ePCR Runsheet</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com ePCR Software Interfaces</fullName>
+                    <default>false</default>
+                    <label>TriTech.com ePCR Software Interfaces</label>
+                </value>
+                <value>
+                    <fullName>TriTech.com ePCR Software Subscriptions</fullName>
+                    <default>false</default>
+                    <label>TriTech.com ePCR Software Subscriptions</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Travel_days_incl_travel_to_the_site__c</fullName>
+        <externalId>false</externalId>
+        <label>Travel days (incl travel to the site)</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <trackHistory>false</trackHistory>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Zuercher_Cost__c</fullName>
+        <externalId>false</externalId>
+        <label>Zuercher Cost</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Zuercher_List_Price__c</fullName>
+        <externalId>false</externalId>
+        <label>Zuercher List Price</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>2</scale>
+        <trackHistory>true</trackHistory>
+        <type>Currency</type>
+    </fields>
+    <fields>
+        <fullName>Zuercher_Price_Book__c</fullName>
+        <defaultValue>false</defaultValue>
+        <externalId>false</externalId>
+        <label>Zuercher Price Book</label>
+        <trackHistory>true</trackHistory>
+        <type>Checkbox</type>
+    </fields>
+    <listViews>
+        <fullName>EMS_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Product_Status_WMP__c</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>EMS</value>
+        </filters>
+        <label>EMS Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>ETI_Support_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>ETI</value>
+        </filters>
+        <label>ETI Support Products</label>
+    </listViews>
+    <listViews>
+        <fullName>IMC_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Product_Status_WMP__c</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>IMC</value>
+        </filters>
+        <label>IMC Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Impact_Support_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>Impact</value>
+        </filters>
+        <label>Impact Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Inform_Support_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Product_Status_WMP__c</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>Inform</value>
+        </filters>
+        <filters>
+            <field>Supportable__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>PRODUCT2.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Inform Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Omega_Support_Products</fullName>
+        <booleanFilter>2 AND 3 AND (1 or 4)</booleanFilter>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Product_Status_WMP__c</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.NAME</field>
+            <operation>startsWith</operation>
+            <value>Omega</value>
+        </filters>
+        <filters>
+            <field>Supportable__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>PRODUCT2.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>IQ</value>
+        </filters>
+        <label>Omega Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Perform_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>Perform</value>
+        </filters>
+        <label>Perform Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Tiburon_Support_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>Tiburon</value>
+        </filters>
+        <filters>
+            <field>Functional_Area__c</field>
+            <operation>equals</operation>
+            <value>Tiburon</value>
+        </filters>
+        <filters>
+            <field>Supportable__c</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>Tiburon Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>VisiNet_Support_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>VisiNet</value>
+        </filters>
+        <label>VisiNet Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>VisionAIR_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>PRODUCT2.CUSTOMER_PRODUCT_ID</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Product_Status_WMP__c</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <columns>Supportable__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>VisionAIR</value>
+        </filters>
+        <label>VisionAIR Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>X911_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>Product_Type__c</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.ACTIVE</columns>
+        <columns>Product_Status_WMP__c</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>Product_Type__c</field>
+            <operation>equals</operation>
+            <value>911</value>
+        </filters>
+        <filters>
+            <field>PRODUCT2.ACTIVE</field>
+            <operation>equals</operation>
+            <value>1</value>
+        </filters>
+        <label>911 Support Products</label>
+        <sharedTo>
+            <group>VisiNetSupportTeam</group>
+        </sharedTo>
+    </listViews>
+    <listViews>
+        <fullName>Zuercher_Support_Products</fullName>
+        <columns>PRODUCT2.NAME</columns>
+        <columns>PRODUCT2.DESCRIPTION</columns>
+        <columns>PRODUCT2.FAMILY</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>PRODUCT2.FAMILY</field>
+            <operation>equals</operation>
+            <value>Zuercher</value>
+        </filters>
+        <label>Zuercher Support Products</label>
+        <sharedTo>
+            <allInternalUsers></allInternalUsers>
+        </sharedTo>
+    </listViews>
+    <searchLayouts>
+        <customTabListAdditionalFields>PRODUCT2.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.DESCRIPTION</customTabListAdditionalFields>
+        <customTabListAdditionalFields>PRODUCT2.FAMILY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Functional_Area__c</customTabListAdditionalFields>
+        <customTabListAdditionalFields>Item_Sub_type__c</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.NAME</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>PRODUCT2.FAMILY</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.NAME</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.DESCRIPTION</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>PRODUCT2.FAMILY</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.NAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.CUSTOMER_PRODUCT_ID</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.DESCRIPTION</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.FAMILY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>Functional_Area__c</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>PRODUCT2.ACTIVE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ReadWrite</sharingModel>
+</CustomObject>

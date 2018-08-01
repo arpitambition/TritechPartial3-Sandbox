@@ -1,0 +1,17 @@
+<apex:page standardController="ServiceContract" extensions="ServiceContractExtensionWO" cache="false" action="{!createTicketFromServiceContract}">
+
+  Click on the button to continue:
+  
+  <apex:form id="form">
+  
+    <apex:commandButton value="Create Work Order" id="btnCreateTicket" action="{!createTicketFromServiceContract}" />
+    
+    <script> 
+    	
+    	//var btnCreateTicket = document.getElementById("{!$Component.btnCreateTicket}"); 
+    
+    </script>
+  
+  </apex:form>
+
+</apex:page>

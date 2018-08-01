@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Notification to TriTech Requestor if Assigned To changes on CWI.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Notify Requestor if Assigned To is changed</name>
+    <style>none</style>
+    <subject>{!Write_In__c.Name} has been assigned to {!Write_In__c.Assigned_To__c}</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

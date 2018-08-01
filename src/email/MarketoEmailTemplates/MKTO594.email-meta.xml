@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2013SGTs.Invite</name>
+    <style>none</style>
+    <subject>Next Billing Software Group Training - Registration Deadline May 26</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Billing Software Group Training
+Registration Closes for Evergreen, CO on May 26
+Hello {{lead.First Name:default=Customer}},
+
+By maximizing the use of your billing software, you gain greater efficiencies and maximize your revenue. Our two-day Group Trainings are hosted at customer locations and typically involve 10-20 billing software users who share insights and workflow tips as they learn from an experienced TriTech trainer about the practical use of the billing program.
+
+ 
+
+These courses have been approved by the National Academy of Ambulance Coding (NAAC &lt;https://www.ambulancecoding.com/default.aspx&gt;) for 11.0 continuing education units. 
+
+ 
+
+SAMPLE TRAINING AGENDA: Download here &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt;
+
+
+ &lt;http://offers.tritech.com/2013SGTRegistration.html&gt;
+
+
+Questions?
+ Contact your TriTech Account Manager for more information.
+ sales@tritech.com
+ 800-537-3927
+
+Dates and Locations
+2013 Offerings
+June 25-26:  Evergreen, CO 
+Sept. 4-5: West Columbia, TX 
+Nov. 6-7: Shelton, CT
+
+
+TIME: 8:00 AM to 4:00 PM
+
+
+Costs: $500
+**TriTech retains the right to cancel training events 30 days prior to the event date if registrations are below the minimum required.**</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

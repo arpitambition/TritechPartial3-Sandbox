@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CSTF_Grant_Program-MA.Email</name>
+    <style>none</style>
+    <subject>TriTech Software and The Commonwealth Security Trust Fund Grant Program</subject>
+    <textOnly>TriTech Software Offers Solutions for the 
+Commonwealth Security Trust Fund (CSTF) Grant Program
+Dear {{lead.First Name:default=Customer}}, 
+TriTech Software’s Perform Records Management Software is the perfect solution to many of the applications covered under the Commonwealth Security Trust Fund (CSTF).  Modules such as Good Maps, Paging, Fingerprint Interface, and Gang Module are just a few of the modules that could “be used to support emergency response initiatives”.  
+
+For full details and the grant application, please click on the link http://www.mass.gov/eopss/funding-and-training/homeland-sec/grants/docs/ &lt;TriTech Software’s Perform Records Management Software is the perfect solution to many of the applications covered under the Commonwealth Security Trust Fund (CSTF). Modules such as Good Maps, Paging, Fingerprint Interface, and Gang Module are just a few of the modules that could “be used to support emergency response initiatives”. For full details and the grant application, please click on the link http://www.mass.gov/eopss/funding-and-training/homeland-sec/grants/docs/. If you need a budgetary quote for any of these modules or any other that is covered under this grant, please contact David Bell at david.bell@tritech.com or, for Barnstable, Bristol, and Plymouth Counties, Bob Ricci at Robert.ricci@tritech.com&gt;.  
+
+If you need a budgetary quote for any of these modules or any other that is covered under this grant, please contact David Bell at david.bell@tritech.com &lt;mailto:david.bell@tritech.com&gt; or, for Barnstable, Bristol, and Plymouth Counties, Bob Ricci at Robert.ricci@tritech.com &lt;mailto:Robert.ricci@tritech.com&gt;.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

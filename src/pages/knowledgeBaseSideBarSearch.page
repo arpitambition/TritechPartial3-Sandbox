@@ -1,0 +1,55 @@
+<apex:page showHeader="false" sidebar="false" standardStylesheets="true">
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/buttons.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/normalize.css')}" />
+    <apex:stylesheet value="{!URLFOR($Resource.Portal_Styling,'tritech_sandbox_v1_2013-08-30/css/styles2.css')}" />
+
+	<style>
+		#bodyCell{
+			font-size:12px;
+		}
+	</style>
+    <script>
+        function passKeyword(){
+            var ele = document.getElementById('searchKeyword');
+            if(ele.value != '' && ele.value != null){
+                window.parent.location.href = '/apex/PortalArticles?sfdc.tabName=01r80000000Q4Im&searchKeyword=' + ele.value;
+            }
+            else{
+                window.parent.location.href = '/apex/PortalArticles?sfdc.tabName=01r80000000Q4Im';
+            }
+        }
+        
+        //Check whether pressed key is Enter Key
+        function noenter(ev)  {
+            if (window.event && window.event.keyCode == 13 || ev.which == 13) {
+                passKeyword();
+                return false;
+             } else {
+                  return true;
+             }
+         }
+         
+         
+         
+         function setStyleProperties(){
+         	var s = parent.document.getElementsByName("search")==null?document.getElementsByName("search"):parent.document.getElementsByName("search");
+         	var b = document.getElementById('btnSearch');
+         	
+         	b.style.width = css(s[0], 'width'); 
+         	b.style.height = css(s[0], 'height'); 
+         	//Chrome, Safari
+         	b.style.font = css(s[0], 'font'); 
+         	//For Firefox
+         	b.style.fontSize = css(s[0], 'font-size');
+         }
+         
+         function css( element, property ) {
+    		return window.getComputedStyle( element, null ).getPropertyValue( property );
+		}
+    </script>
+    
+    <apex:form >
+        <input type="text" id="searchKeyword" style="width: 135px; margin-left: 1px; margin-right: 3px;margin-bottom:4px; font-size: 80%; vertical-align: middle;" maxlength="80" size="25"  onkeypress="return noenter(event);"/><br/>
+        <input type="button" class="btn btn-success" style="padding:2px; margin:4px;padding-top:1px;padding-bottom:1px;padding-left:3px;padding-right:3px;" id="btnSearch" value=" Go! " onclick="passKeyword();"/>
+    </apex:form>
+</apex:page>

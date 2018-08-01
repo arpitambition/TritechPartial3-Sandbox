@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used to send notification internally the InformRMS upgrade was completed.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>RMS Web Upgrade Completed - Internal</name>
+    <style>freeForm</style>
+    <subject>RMS Web Upgrade Completed - Internal</subject>
+    <textOnly>{!Case.Account} {!Case.Environment_Type__c} {!Case.Product} 
+Upgraded {!Case.Upgrade_Start_Version__c} to {!Case.Upgrade_End_Version__c}
+
+Agency Name: 
+{!Case.Account}
+
+Contact Names: 
+{!Case.Contact}
+{!Case.Upgrade_Contact__c}
+
+Work Completed:
+Inform RMS Client to Client Patches:
+RMS Integration
+Inform RMS Web [Upgrade Start Version] to [Upgrade End Version]
+Web Patches:
+InformRMS API ( [Upgrade End Version] / None
+Syncs Started / Completed
+
+Environment Type:
+{!Case.Environment_Type__c}
+
+Workstations/Clients Upgraded:
+(Yes, on Classic Server)
+(Yes, with customer over the phone)
+(n/a)
+
+Issues Encountered:
+
+Issues Outstanding:
+
+Classic Date and Time Started:
+
+Classic Date and Time Completed:
+
+Total Classic Server Duration:
+
+RMSWeb Date and Time Started:
+
+RMSWeb Date and Time Completed:
+
+Total Web Server Duration:
+
+Patch Install Duration:
+
+Total Downtime:
+
+Sales Order Number:
+N/A
+
+Work Order Link for Classic:
+
+Work Order Link for RMSWeb:
+
+Confirmation hardware/software records updated:  (must enter yes)
+Yes</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CAD+9-1-1.Email</name>
+    <style>none</style>
+    <subject>TriTech Introduces Revolutionary CAD+9-1-1 - The Infusion of CAD Intelligence to Reinvent the Emergency Call Workflow</subject>
+    <textOnly>Press Release
+TriTech Introduces Revolutionary CAD+9-1-1 - The Infusion of CAD Intelligence to Reinvent the Emergency Call Workflow 
+ 
+ Building upon TriTech’s proven computer aided dispatch platform utilized in some of the most innovative communication centers around the globe, TriTech’s CAD+9-1-1 leverages the power of CAD to promote NG9-1-1.
+ 
+ June 8, 2012
+SAN DIEGO, CA (June 8, 2012) – TriTech Software Systems proudly introduces CAD+9-1-1, a revolutionary solution designed to address the future challenges of Next Generation PSAPs, at the National Emergency Number Association (NENA) Conference in Long Beach, California. Building upon TriTech’s proven CAD technology and the acquisition of 911-Inc., CAD+9-1-1 is the convergence of 9-1-1 call processing with CAD’s inherent ability to take action through the real-time exchange of incoming and historical information – all in one solution. 
+
+“As the full scope and standards for Next Generation 9-1-1 continue to emerge, NG9-1-1 will require public safety agencies, personnel, and their software solutions to be able to interact with all forms of data,” says Darrin Reilly, Chief Operating Officer of TriTech Software Systems. “TriTech’s CAD+9-1-1 solution addresses the challenges of NG9-1-1 head-on through CAD’s ability to dynamically manage the entire incident life cycle and incorporate NG9-1-1 capabilities into a unified, seamless workflow.”
+
+TriTech’s CAD+9-1-1 workflow solution leverages the ability of CAD to be spatially aware. Incoming phone calls and SMS messages can now be triaged even before the call taker answers the phone. The system will provide users with immediate situational awareness about the potential that an incident is related to another call already in the system. This will allow call takers to proactively manage their workload and minimize call answer times by prioritizing more urgent calls to the top of the queue. By consolidating CAD and 9-1-1 events into a common user experience, call takers and dispatchers now have a 360 degree view for improved situational awareness of incoming and active calls through CAD’s robust database of location and phone number history, mapping capabilities, and response management.
+
+“As one of the first vendors to introduce an integrated mapping solution into its CAD system, TriTech continues to lead the way in bringing innovative solutions to the market,” continues Darrin. “Building upon our proven CAD platform currently utilized in some of the most complex and demanding communication centers around the globe, CAD+9-1-1 integrates the data awareness of CAD intelligence into the call taking process. By enabling emergency communications personnel to manage, prioritize, and interact with new types of data, including text messages and multimedia, and packaging it together in an easy-to-use format, TriTech is Next Generation now.”  
+
+TriTech will be providing demonstrations of CAD+9-1-1 at the National Emergency Number Association’s (NENA) annual conference (Booth number 813) in Long Beach, CA on June 11th and 12th.
+_______________
+
+About TriTech Software Systems
+ TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire or EMS.
+ 
+ TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting and billing.
+ 
+ For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

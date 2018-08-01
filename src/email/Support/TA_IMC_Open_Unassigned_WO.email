@@ -1,0 +1,8 @@
+An "Open" Work Order Ticket has been unassigned for the past two hours:
+
+Account: {!Account.Name} 
+Customer Number: {!Account.EMS_Customer_Number_WMP__c}
+Ticket Number: {!Case.CaseNumber} 
+Ticket Owner: {!CaseOwner.FullName} 
+
+Click on the link to access the ticket: {!Case.Link}

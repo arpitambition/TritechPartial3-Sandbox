@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.Agenda Now Available</name>
+    <style>none</style>
+    <subject>TriCON - Agenda Now Available</subject>
+    <textOnly>&lt;http://offers.tritech.com/rs/ortivusna/images/TriCON2012_Agenda_Public_07192012.xlsx&gt;
+
+
+
+
+
+
+ 
+ TriCON is the place to be:  Expert presentations, new product introductions, in-depth training and sunny San Diego. Get ready to connect, engage, and learn. View the online agenda to discover the keynote speakers, presentations, and social events available to you. 
+Click here &lt;http://offers.tritech.com/rs/ortivusna/images/TriCON2012_Agenda_Public_07192012.xlsx&gt; to download your special preview.  
+ &lt;http://www.tritech.com/tricon&gt;
+
+
+
+
+ 
+
+
+
+
+
+ &lt;http://www.facebook.com/pages/TriCON/217186504986544&gt;   &lt;http://www.twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/company/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+
+
+
+
+
+
+
+
+
+ 9477 Waples Street, Suite 100 l San Diego, California 92121 l www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

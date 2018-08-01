@@ -1,0 +1,19 @@
+Please process the necessary information and complete the {!Write_In__c.RecordType} Write-In for the following:
+
+Write-In Title: {!Write_In__c.Title__c}
+
+Agency: {!Write_In__c.Agency__c}
+State:  {!Write_In__c.Agency_State__c}
+Quote/Proposal #: {!Write_In__c.Name}
+Opportunity:  {!Write_In__c.Opportunity_Name__c}
+
+Requested By:  {!Write_In__c.TriTech_Requestor__c}
+Date Needed: {!Write_In__c.Needed_By_Date__c}
+Request Type:  {!Write_In__c.Request_Type__c}
+TriTech Products Involved:  {!Write_In__c.TriTech_Products_Involved__c}
+Expected User Experience:
+{!Write_In__c.Describe_the_Expected_User_Experience__c}
+
+When complete, please be sure to check the PRICE QUOTE COMPLETE box.
+
+Click this link to access the Write-In: {!Write_In__c.Link}

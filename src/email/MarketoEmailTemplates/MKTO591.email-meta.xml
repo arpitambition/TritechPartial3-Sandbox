@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTech.com IQ Demonstration.Starting Now</name>
+    <style>none</style>
+    <subject>STARTING NOW: TriTech.com IQ Product Demonstration</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+STARTING NOW
+ Discover the Power of TriTech.com IQ
+
+{{lead.First Name:default=Customer}} - Your TriTech.com IQ webinar is starting now.  
+
+
+Wendy and Charlie will be demonstrating TriTech.com IQ in just a few minutes.  
+
+Log on now so you don&apos;t miss a thing!  
+
+ 
+
+Trouble logging in?
+ Please Note: Everyone who has registered will receive a link to the recording of today&apos;s webinar.
+
+If you have trouble accessing the GoToWebinar program, please call 800-263-6317 to reach the GoToWebinar Support Team.
+WEBINAR DETAILS
+JOIN LINK: {{member.webinar url:default=URL}}
+ 
+ALTERNATE LOGIN: http://www.joinwebinar.com/fec/ &lt;http://www.joinwebinar.com/fec/&gt;
+ Webinar ID:  398758279
+DATE: Thursday, April 11
+ 
+ TIME: 2 PM ET l 1 PM CT l Noon MT l 11 AM PT
+ 
+ SPEAKERS: 
+ Wendy Gilbert, Director of Product Management
+Charlie Barry, Senior Product Manager
+
+ AUDIO: Listen through your computer speakers or dial in over the telephone to the number shown on your screen after login
+ 
+ Trouble logging in? Call 800-263-6317 to reach the GoToWebinar Support Team</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_CAMConnection_2011_August</name>
+    <style>none</style>
+    <subject>CAM Connection August Newsletter</subject>
+    <textOnly>August 2011 Edition
+ 
+Welcome to our re-vamped version of the TriTech Software Systems: CAM Connection for VisiNet Solutions. CAM stands for “Customer Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our VisiNet Solutions group. To keep current customers up-to-date with the most relevant information, we will be sending you this monthly newsletter. Feel free to let us know if you have suggestions on topics you would like to hear about.
+ 
+ 
+Products Highlights
+ 
+VisiCAD Rotation Provider
+Take a closer look at the new Rotation Provider Module available in VisiCAD 5.0.  Register for our Rotation Provider product demonstration webinar on Wednesday, August 24.
+ 
+ 
+Service Update
+Customer Service Roundtable at APCO
+ 
+Grab and Go with Greg Recordings Posted on MyVisiNet
+Grab and Go with Greg webinar series has developed quite a strong following of loyal participants. We invite you to join us each 2nd Monday of the month.  If you can&apos;t join us, we&apos;ve posted the past recordings on the MyVisiNet Customer Portal under Online Training.
+ 
+TriCON News
+
+Early Bird Registration Deadline Extended
+There&apos;s still time to register for the TriCON: TriTech’s Annual User Conference. You can take a closer look at what sessions, events, and meetings are being offered by previewing the detailed agenda which is now available online.
+ 
+Pre-Conference Workshop:  Build Your Own Ad Hoc Reports
+Sign up for TriCON pre-conference workshop designed to help you turn your rich VisiCAD data into easy-to-read, interactive reports through Crystal Reports.  This class will be taught by Kleere Technologies and is an addtional $200 cost.
+ 
+TriCON Goes Social
+We&apos;re going green and going social.  Stay connected with the latest updates and other TriCON attendees with the TriCON app, blog, facebook page and #tricon on twitter. 
+ 
+  
+Customer Feature
+ 
+ Dane County Public Safety Communications, Wisconsin
+
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

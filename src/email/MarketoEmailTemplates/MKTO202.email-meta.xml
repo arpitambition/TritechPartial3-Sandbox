@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_EMS_CustomerSatisfactionSurvey_March.EmailReminder</name>
+    <style>none</style>
+    <subject>We Need Your Input - Survey Closes March 28</subject>
+    <textOnly>No One Likes Surveys
+We Need Your Input - Survey Closes March 28
+Hello {{lead.First Name:default=EMS Professional}},
+ 
+A few days ago, we invited you to participate in our customer satisfaction survey. We’d like to remind you that the study is still open, and we would very much like to include your opinions. It should take less than 3 minutes of your time.
+
+TriTech realizes that no matter how good our products are, it is you – our customers – who define our reputation…and we’re committed to making it the best in the industry. 
+
+We would like to know how we are doing. This survey should take you less than 3 minutes, and will help us better serve you.
+
+Thank you
+
+Please take a few moments now to complete the survey by copying and pasting the link below into your browser:
+
+https://survey.qualtrics.com/SE/?SID=SV_4Nk9YM5h8VrZ5E8
+An iPAD3® will be sent to one lucky winner selected from all survey participants.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

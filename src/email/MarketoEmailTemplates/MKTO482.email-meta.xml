@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012-Q4_Vision_TB_CSS.Reminder2</name>
+    <style>none</style>
+    <subject>We Haven&apos;t Heard From You</subject>
+    <textOnly>We Haven&apos;t Heard From You Yet 
+Please Tell Us How We&apos;re Doing
+
+Hello {{lead.First Name:default=Valued Client}},
+
+
+We haven&apos;t heard from you yet and would appreciate a few minutes of your time to complete our Customer Satisfaction Survey. Your feedback matters and we count on it.
+
+Click here. &lt;https://survey.qualtrics.com/SE/?SID=SV_7ZN3rkNGHLEb9fT&gt;
+
+Thank you!
+TriTech Software Systems</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

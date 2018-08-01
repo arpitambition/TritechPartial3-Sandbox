@@ -1,0 +1,12 @@
+Account:  {!Case.Account}
+Customer Number:  {!Case.EMS_Customer_Number__c}
+
+Created By:  {!Case.CreatedBy}
+Created Date:  {!Case.CreatedDate}
+
+Subject:  {!Case.Subject}
+
+Anticipated Delivery Date: {!Case.Anticipated_Delivery_Date__c}
+
+
+Click here to review the new ticket:  {!Case.Link}

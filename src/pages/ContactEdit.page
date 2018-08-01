@@ -1,0 +1,93 @@
+<apex:page standardController="Contact" extensions="ContactEditController" action="{!autoRun}">
+
+	<style>
+		#bodyCell{
+			font-size:12px;
+		}
+		.bPageTitle .ptBody .pageType{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+			color: #000000;
+			display: inline;
+		}
+		.mainTitle{
+			font-family: Arial, Helvetica, sans-serif;
+			font-size: 14px;
+			font-weight: bold;
+		}
+		.content{
+			line-height: 0.5;
+			padding-top: 5px;
+		}
+	</style>
+    
+    <apex:sectionHeader title="Contact Edit" subTitle="{!contName}" />
+    <apex:form >
+        <apex:outputPanel id="errorPanel">
+            <apex:messages />
+        </apex:outputPanel>
+        <apex:pageBlock id="pb" title="Contact Detail" mode="edit">
+            <apex:pageBlockButtons >
+                <apex:commandButton value="Save" action="{!doSave}" reRender="errorPanel, pb"/>
+                <apex:commandButton value="Save & New" action="{!saveAndNew}" reRender="errorPanel, pb"/>
+                <apex:commandButton value="Cancel" action="{!cancel}" reRender="errorPanel, pb"/>
+            </apex:pageBlockButtons>
+            <apex:pageBlockSection >
+                <apex:pageBlockSectionItem >
+                    <apex:outputLabel value="First Name"/>
+                    <apex:outputPanel >
+                        <apex:inputField value="{!cont.Salutation}" />
+                        <apex:inputField value="{!cont.FirstName}" />
+                    </apex:outputPanel>
+                </apex:pageBlockSectionItem>
+                <apex:inputField value="{!cont.AccountId}" />
+                <apex:inputField value="{!cont.LastName}" />
+                <apex:inputField value="{!cont.CSC_Portal_Access_Request__c}" />
+                <apex:inputField value="{!cont.Title}" />
+                <apex:outputText value=""/>
+                <apex:inputField value="{!cont.Role_WMP__c}" />
+                <apex:outputText value=""/>
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Contact Information" collapsible="false">
+                <apex:inputField value="{!cont.Phone}" />
+                <apex:inputField value="{!cont.Email}" required="true"/>
+                <apex:inputField value="{!cont.OtherPhone}"/>
+                <apex:inputField value="{!cont.Fax}" />
+                <apex:inputField value="{!cont.MobilePhone}" />
+                <apex:outputText value=""/>
+                <apex:inputField value="{!cont.HomePhone}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Address Information" collapsible="false">
+                <apex:inputField value="{!cont.MailingStreet}" />
+                <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                <apex:inputField value="{!cont.MailingCity}" />
+                <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                <apex:inputField value="{!cont.MailingState}" />
+                <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                <apex:inputField value="{!cont.MailingPostalCode}" />
+                <apex:pageBlockSectionItem ></apex:pageBlockSectionItem>
+                <apex:inputField value="{!cont.MailingCountry}" />
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Contact Designation" collapsible="false">
+                <apex:inputField value="{!cont.Primary_Contact_WMP__c}" />
+                <apex:inputField value="{!cont.Inactive_Contact__c}" />
+                <apex:inputField value="{!cont.Primary_Support_Contact__c}" /> 
+                <apex:inputField value="{!cont.After_Hours_Contact_WMP__c}" />
+                <apex:inputField value="{!cont.Support_Contact__c}" />
+                <apex:inputField value="{!cont.IT_Contact__c}" /> 
+                <apex:inputField value="{!cont.NIBRS_Contact__c}" />
+                <apex:inputField value="{!cont.Executive_Contact__c}" /> 
+                <apex:inputField value="{!cont.Upgrade_Contact__c}" />
+                <apex:inputField value="{!cont.Newsletter_Contact__c}" />
+                <apex:inputField value="{!cont.GIS_Contact__c}" /> 
+                <apex:inputField value="{!cont.Marketing_Contact__c}" /> 
+            </apex:pageBlockSection>
+            <apex:pageBlockSection title="Communication Preferences" collapsible="false">
+                <apex:inputField value="{!cont.OptIn_Sales_Promos_Training__c}" />
+                <apex:inputField value="{!cont.HasOptedOutOfEmail}" />
+                <apex:inputField value="{!cont.Opt_In_IQ_Analytics__c}" />
+            </apex:pageBlockSection>
+        </apex:pageBlock>
+    </apex:form>
+</apex:page>

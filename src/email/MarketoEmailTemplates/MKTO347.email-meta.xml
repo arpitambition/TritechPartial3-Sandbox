@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-WA037_October16-17_2012.Confirmation</name>
+    <style>none</style>
+    <subject>REGISTRATION CONFIRMATION: Billing Software Group Training in Wenatchee WA, on October 16-17, 2012</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Registeration Confirmation
+Thank you for registering for Billing Software Group Training in Wenatchee WA, on October 16-17, 2012.
+Hello {{lead.First Name:default=Billing Customer}},
+ 
+ This is your confirmation email. A reminder will be sent later as the date gets closer.
+ 
+ If you selected credit card payment, a TriTech representative will contact you for your payment information.
+ 
+ If you have questions or if there is anything we can help with to make this a better experience for you, please contact us at:
+ 
+ Wayne Walker, LifeLine Ambulance
+ wwalker@eaglegroup.com &lt;mailto:wwalker@eaglegroup.com&gt;  |  509-422-6977
+ 
+ Brenda Taylor, TriTech Software Systems
+ Brenda.Taylor@tritech.com &lt;mailto:Brenda.Taylor@tritech.com&gt;  |  800-537-3927 ext 6233
+
+
+DATE:  October 16-17, 2012 (2 full days of training)
+
+HOSTS:  LifeLine Ambulance Inc. (Wenatchee, WA )
+Classroom Style (you are welcome to bring a laptop to follow along if you&apos;d like)
+
+TRAINING LOCATION: 
+ 501 North Wenatchee Ave. Wenatchee WA 98801
+
+SAMPLE AGENDA: Click here to download &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&gt;
+
+RECOMMENDED HOTEL:  
+Cedars Inn 
+80 Ninth Street NE|Esat Wenatchee WA, 98802
+Website: http://eastwenatcheecedarsinn.com
+Telephone:  509-886-8000
+Rate: $60.00 (2 Queen Beds Deluxe Non Smoking)
+(Ask for &quot;LifeLine / Eagle System&quot; for Group Rate before Sept. 14, 2012)
+
+
+
+ **Tritech retains the right to cancel this event 30 days prior if registrations are below the minimum required.**</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>EMS_CC_Oct11.EMS CC Oct11 Email</name>
+    <style>none</style>
+    <subject>Your EMS CAM Connection Newsletter - October 2011</subject>
+    <textOnly>October 2011 Edition
+ 
+Welcome to the October issue of your Client Account Manager (CAM) Connection from the EMS Solution&apos;s division of TriTech Sofware Systems. 
+ 
+Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Oct11_AlertUpdates.html)
+ 
+&gt; TriTech Acquires VisionAir
+
+&gt; TriCON 2011 – What did you miss?
+
+&gt; TriTech Vision for 2012 and Beyond (CEO Chris Maloney’s Customer Address at TriCON - VIDEO)
+ 
+&gt; Extended Support Hours  
+ 
+&gt; Customer Satisfaction Assurance - Survey Results 
+     
+
+
+Products &amp; Services (http://offers.tritech.com/EMS_CC_Oct11_ProductsServices.html)
+ 
+
+&gt; Sweet Billing Flex Report Generator 
+Learn about the Sweet Billing Flex Report Generator in this recorded webinar that took place on Thursday, September 29th. Larry Cole and Michele Duwe, from TriTech&apos;s EMS Solutions Sales Team, will walk you through a step-by-step demo of how to become a Power-Flex-Report-Generator-user! 
+
+&gt; TriTech Online Offerings - EMS.1com Interview 
+Hear more about the future of online applications from TriTech EMS Solution&apos;s Product Manager, Charlie Barry.
+ 
+&gt; New Stuff at EMS – TriCON Presentation by Terri Jirak-Barry, VP of Operations for EMS Solutions
+ 
+&gt; October Coffee With Kelly Topics
+ 
+
+
+Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Oct11_TechnicalSupportHotTopics.html)
+ 
+&gt; HIPAA 5010  Resource Center 
+
+&gt; Quick Tips From Your EMS Support Team
+ 
+ 
+ 
+
+Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Oct11_ClientGoLives.html)
+
+&gt; Thomas Pasquarelli, with Greater Amsterdam (NY) Volunteer Ambulance Corps, Shares Some Experiences with Fusion ePCR       
+       
+
+
+
+&gt; Main Page (http://offers.tritech.com/EMS_CC_Oct11_Main.html)
+
+&gt; Important Alerts &amp; Updates (http://offers.tritech.com/EMS_CC_Oct11_AlertUpdates.html)
+ 
+&gt; Products &amp; Services (http://offers.tritech.com/EMS_CC_Oct11_ProductsServices.html)
+
+&gt; Technical Support Hot Topics (http://offers.tritech.com/EMS_CC_Oct11_TechnicalSupportHotTopics.html)
+
+&gt; Client News &amp; Go Lives (http://offers.tritech.com/EMS_CC_Oct11_ClientGoLives.html)
+
+&gt; www.tritech.com (http://www.tritech.com)
+
+
+ 
+CAM CONTACTS
+Brenda Taylor
+800.537.3927 x6233
+brenda.taylor@tritech.com
+ 
+
+Michele Duwe
+800.537.3927 x6261
+michele.duwe@tritech.com 
+ 
+  
+   
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+www.youtube.com/user/tritechsoftware
+ 
+Share this message with your colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

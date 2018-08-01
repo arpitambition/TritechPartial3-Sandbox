@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Demo Request - Notificaitons</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Demo Request Notificaitons</name>
+    <style>freeForm</style>
+    <subject>Demo Request Notification: {!Demo_Request__c.Name}</subject>
+    <textOnly>Demo Request – Notifications
+
+Demo Request
+
+Details
+
+Demo Request Date
+
+{!Demo_Request__c.CreatedDate}
+
+Demo Request Number
+
+{!Demo_Request__c.Name}
+
+Demo Type
+
+{!Demo_Request__c.Demo_Type__c}
+
+Opportunity
+
+{!Demo_Request__c.Opportunity__c}
+
+Client/Organization Name
+
+{!Demo_Request__c.Client_Organization_Name__c}
+
+You can access the Demo Request changes here: {!Demo_Request__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

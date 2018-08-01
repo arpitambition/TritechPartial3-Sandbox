@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Software Download</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Software Downloads</value>
+    </caseValues>
+    <fields>
+        <label><!-- Content Type --></label>
+        <name>Content_Type__c</name>
+        <picklistValues>
+            <masterLabel>AVeL</masterLabel>
+            <translation><!-- AVeL --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing</masterLabel>
+            <translation><!-- Billing --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS CAD</masterLabel>
+            <translation><!-- EMS CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FDC</masterLabel>
+            <translation><!-- FDC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fusion Online</masterLabel>
+            <translation><!-- Fusion Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fusion ePCR</masterLabel>
+            <translation><!-- Fusion ePCR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IMC</masterLabel>
+            <translation><!-- IMC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SBS</masterLabel>
+            <translation><!-- SBS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sweet-Online</masterLabel>
+            <translation><!-- Sweet-Online --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisiNet</masterLabel>
+            <translation><!-- VisiNet --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Description --></label>
+        <name>Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <layouts>
+        <layout>Software Download Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

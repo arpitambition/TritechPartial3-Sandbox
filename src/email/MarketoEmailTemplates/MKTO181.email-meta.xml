@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Customer_Announcement-Maine-New-Image-Return.Email</name>
+    <style>none</style>
+    <subject>IMC Customer Announcement - State of Maine Implementing a New Image Return on May 1, 2012</subject>
+    <textOnly>Customer Annoucement
+Please Note:
+
+To All Maine Customers:
+
+The State of Maine will be implementing a new image return on May 1st, 2012. We have worked with the State to ensure this new return will be handled by our software. Those changes are available in Build 19.
+
+You must install this new build by May 1st in your station as well as each mobile or risk the possibility of the software crashing each time one of these images is returned.
+
+The latest version of Build 19 can be downloaded from the https://myimc.tritech.com &lt;https://myimc.tritech.com&quot; target=&quot;_blank&gt; website or you may request a DVD copy be mailed to you.
+ 
+
+Thank you for your attention to this announcement, 
+
+Bill Wheeler
+Client Services Tier 2 Technician - IMC | North Grafton, Massachusetts
+TriTech Software Systems| www.tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

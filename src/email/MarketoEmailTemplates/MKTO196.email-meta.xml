@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>SGT-IA007_April24-25_2012.Confirmation</name>
+    <style>none</style>
+    <subject>Confirmation: Sweet Software Group Training - Ankeny, IA</subject>
+    <textOnly>Confirmation: Sweet Software Group Training - Ankeny, IA   
+
+Thank you for registering the for Sweet Software Group Training in Ankeny, IA on April 24-25, 2012. This is your confirmation email. A reminder will be sent later as the date gets closer.
+
+If you selected credit card payment, a TriTech representative will contact you for your payment information. 
+
+If you have questions or if there is anything we can help with to make this a better experience for you, please contact us at: 
+
+Kathy Swanson, Ankeny Fire Department:
+(515) 365-6476 | kswanson@ankenyiowa.gov 
+ 
+Brenda Taylor, TriTech Sales Representative: (800) 537-3927 ext. 6233 |brenda.taylor@TriTech.com 
+
+
+**Tritech retains the right to cancel this event 30 days prior if registrations are below the minimum required.**
+
+
+TRAINING LOCATION: Ankeny Fire Station #1 (120 NW Ash Dr., Ankeny, IA  50023) 
+
+RECOMMENDED HOTEL:  
+Courtyard by Marriott
+(2405 Southeast Creekview Drive, Ankeny, IA 50021) | Phone: (515) 422-555 | $139-189 per night plus tax 
+
+AGENDA: Download Sample Training Agenda &lt;http://www.tritechems.com/documents/_UG/Sample_2-day_Group_Training_agenda.pdf&quot; target=&quot;_blank&gt; 
+
+ 
+ 
+
+Share with Friends or visit www.tritech.com &lt;http://www.tritech.com&gt;
+
+ &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&quot; target=&quot;_blank&quot;&gt;   &lt;ahref=&quot;http://www.youtube.com/user/TriTechSoftware&quot; target=&quot;_blank&gt;
+
+
+9860 Mesa Rim Road | San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

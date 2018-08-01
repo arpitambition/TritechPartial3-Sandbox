@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>CLDY_Error_Generating_Quote</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLDY_Error_Generating_Quote</shortDescription>
+        <value>The print functionality is currently unavailable. Please retry again in a minute.  If you continue to have issues please contact Jen Vansant.</value>
+    </labels>
+    <labels>
+        <fullName>CLDY_TimeoutMessage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CLDY_TimeoutMessage</shortDescription>
+        <value>It is taking longer than 90 seconds to generate the quote. Please check back in a few minutes.</value>
+    </labels>
+    <labels>
+        <fullName>GeneratingProposal</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>GeneratingProposal</shortDescription>
+        <value>Generating Proposal - Please wait...</value>
+    </labels>
+    <labels>
+        <fullName>KB_Page_Size</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>KB Page Size</shortDescription>
+        <value>50</value>
+    </labels>
+    <labels>
+        <fullName>LoadingPage</fullName>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>LoadingPage</shortDescription>
+        <value>Loading, please wait..</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Trigger Alert for defect ticket status changes</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TA - Internal Defect Ticket Status Update</name>
+    <style>none</style>
+    <subject>Defect Ticket Status Update Notification: Defect # {!Potential_Defect__c.Defect_Ticket_ID__c}</subject>
+    <textOnly>The following Defect Ticket status has been updated: 
+
+Defect Ticket #: {!Potential_Defect__c.Defect_Ticket_ID__c}
+Subject: {!Potential_Defect__c.Name}
+Defect Ticket Status: {!Potential_Defect__c.Ticket_Status__c}
+Updated:  {!Potential_Defect__c.LastModifiedDate}
+
+Originating Customer:
+Account: {!Potential_Defect__c.Original_Customer__c}
+Customer Number: {!Potential_Defect__c.CustomerNumberLookup__c}
+
+Click on the link to access the Defect Ticket:
+{!Potential_Defect__c.PotentialDefectURL__c}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

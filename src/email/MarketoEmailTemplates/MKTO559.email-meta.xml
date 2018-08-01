@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>PA13-007.Email</name>
+    <style>none</style>
+    <subject>PA13-007 - VisiNet Solutions 5.2.0 Patch 17 Release Notes</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Product Announcement
+PA13-007 – VisiNet Solutions 5.2.0 Patch 17 Release Notes
+POSTED: 03-14-13
+
+Dear Clients,
+
+The Product Announcement, PA13-007 - VisiNet Solutions 5.2.0 Patch 17 Release Notes &lt;https://na6.salesforce.com/articles/Release_Notes/Command-5-2-0-Patch-17-Release-Notes?popup=true&gt; has been posted to the Support site.
+
+You may access this release note by logging into the Salesforce site and search under Articles or by clicking on the link &lt;https://na6.salesforce.com/articles/Release_Notes/Command-5-2-0-Patch-17-Release-Notes?popup=true&gt; included on this e-mail.
+
+Sincerely,
+
+Shane Birch
+ Technical Support Supervisor – 911/Inform (VisiNet) | Decorah, IA
+ TriTech Software Systems | www.tritech.com &lt;tritech.com&gt;
+
+Support Website: Salesforce.com &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

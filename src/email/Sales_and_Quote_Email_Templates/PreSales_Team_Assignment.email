@@ -1,0 +1,7 @@
+You have been assigned to the RFP Team - CAD/Mobile/911 for the following opportunity:
+
+Account:  {!Opportunity.Account}
+
+Opportunity:  {!Opportunity.Name}
+
+View the opportunity here:  {!Opportunity.Link}

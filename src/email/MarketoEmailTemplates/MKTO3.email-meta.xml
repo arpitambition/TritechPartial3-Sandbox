@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Justify</description>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TSS_UserConference_June_All</name>
+    <style>none</style>
+    <subject>Justify Your Trip to TriCON</subject>
+    <textOnly>Justify Your Trip to TriCON
+
+September 13 - 16  l  Boston, Massachusetts
+
+In these budget conscious times, it is only natural for a manager to ask, “How can we justify spending money to participate in a conference when we are facing budget reductions?” The answer lies in the value of the conference’s content and the focused interaction it provides. Sometimes learning one new piece of information or gaining better understanding about only one process can justify the entire cost of attending TriCON. And making one professional contact can be worth much more. 
+
+
+To help your agency be part of this important educational event, we&apos;re providing you with an ROI / Justification Letter.
+
+
+&lt;insert download ROI Letter button&gt;
+
+
+ 
+
+
+
+
+TriCON 2011 Details
+
+
+ 
+ 
+Dates:
+Wednesday, September 14 - Friday, September 16
+ 
+Location:
+Boston Park Plaza Hotel and Towers in Boston, MA
+
+
+
+ 
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

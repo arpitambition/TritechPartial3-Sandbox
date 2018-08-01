@@ -1,0 +1,13 @@
+Please note that the following Marketing Request has been rejected:<br> <br> 
+
+{!SalesForce_Helpdesk__c.Link}<br> <br> 
+
+<b>Request Number:</b> {!SalesForce_Helpdesk__c.Name}<br> <br> 
+
+<b>Submitted By:</b> {!SalesForce_Helpdesk__c.OwnerFullName}<br> <br> 
+
+<b>Date Submitted:</b> {!SalesForce_Helpdesk__c.Date_Submitted__c}<br> <br> 
+
+<b>Rejected Reason:</b> {!SalesForce_Helpdesk__c.Manager_Comments__c}<br> <br> 
+
+If you have additional questions, please contact: {!SalesForce_Helpdesk__c.Assigned_To__c}

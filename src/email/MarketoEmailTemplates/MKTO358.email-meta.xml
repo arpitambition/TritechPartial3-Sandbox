@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>How to Get Your Crews to Document Effectively.Invite</name>
+    <style>none</style>
+    <subject>Webinar August 30: How to Get Your Crews to Document Effectively</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+How to Get Your Crews to Document Effectively
+
+Presenting: Doug Wolfberg of Page, Wolberg, and Wirth
+COMPLIMENTARY LIVE WEBINAR
+Approved for 1 NAAC CEU
+Please join us for the upcoming webinar on August 30, at 2 pm Eastern Time (1 pm CT | Noon MT | 11 am PT):
+One of the most-requested PWW presentations!
+Learn effective strategies for improving crew documentation – from implementing an effective chart review/QA process, to designing creative training approaches, to utilizing incentive and mentoring programs, and making the most out of electronic documentation solutions. This session will present real-world strategies to help solve this age-old problem.
+
+
+
+
+Presenting: Doug Wolfberg &lt;http://www.pwwemslaw.com/CMS/uploads/File/Staff%20Bios%20updated%204%206%202012/Doug%20Wolfberg%202012.pdf&gt; of Page, Wolfberg and Wirth  
+
+
+
+
+  
+
+
+
+ &lt;http://offers.tritech.com/August30Webinar.html&gt;
+
+If you are unable to view the Register button above, please copy and paste the following URL into any web browser: http://offers.tritech.com/August30Webinar.html</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

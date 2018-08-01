@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>This template is used when you need to send general ticket information to customers.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>General Customer Email Template</name>
+    <style>freeForm</style>
+    <subject>{!Account.Name} - {!Case.CaseNumber} -</subject>
+    <textOnly>Informational Email
+
+Client:  {!Case.Account}
+
+Ticket #:  {!Case.CaseNumber}
+
+Short Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

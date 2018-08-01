@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Demo Request notification to Solution Architect group</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Demo Request - Solution Architect Finals or Shortlist Demo Scheduling</name>
+    <style>freeForm</style>
+    <subject>Finals or Shortlist Demo Scheduling</subject>
+    <textOnly>Finals or Shortlist Demo Scheduling
+
+
+Demo Request Number
+{!Demo_Request__c.Name}
+
+Demo Type
+{!Demo_Request__c.Demo_Type__c}
+
+Opportunity
+{!Demo_Request__c.Opportunity__c}
+
+Client/Organization Name
+{!Demo_Request__c.Client_Organization_Name__c}
+
+Products to be Demo’d
+{!Demo_Request__c.Products_to_be_Demo_d__c}
+
+Link to Demo Request:  {!Demo_Request__c.Link}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

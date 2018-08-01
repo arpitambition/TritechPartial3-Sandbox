@@ -1,0 +1,708 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+    <actionOverrides>
+        <actionName>CancelEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>Delete</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>New</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <actionOverrides>
+        <actionName>SaveEdit</actionName>
+        <type>Default</type>
+    </actionOverrides>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <enableFeeds>false</enableFeeds>
+    <fields>
+        <fullName>Age__c</fullName>
+        <externalId>false</externalId>
+        <formula>Now () - CreatedDate</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>This is a custom formula field that calculates the number of days since an idea was submitted.</inlineHelpText>
+        <label>(# of Days)     Idea Age</label>
+        <precision>18</precision>
+        <required>false</required>
+        <scale>0</scale>
+        <type>Number</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Categories</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Inform</fullName>
+                    <default>false</default>
+                    <label>Inform</label>
+                </value>
+                <value>
+                    <fullName>Respond (EMS)</fullName>
+                    <default>false</default>
+                    <label>Respond (EMS)</label>
+                </value>
+                <value>
+                    <fullName>Perform</fullName>
+                    <default>false</default>
+                    <label>Perform</label>
+                </value>
+                <value>
+                    <fullName>Tiburon</fullName>
+                    <default>false</default>
+                    <label>Tiburon</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Company_Name__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE ( CreatedBy.Profile.UserType, &quot;Standard&quot;, $Organization.Name, CreatedBy.Contact.Account.Name )</formula>
+        <label>Company Name</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Department__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASE ( CreatedBy.Profile.UserType, &quot;Standard&quot;,  CreatedBy.Department,  CreatedBy.Contact.Department )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Department</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Email_Contact__c</fullName>
+        <description>Employee responsible for seeing the Idea through</description>
+        <externalId>false</externalId>
+        <label>Email Contact</label>
+        <required>false</required>
+        <type>Email</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>IdeasInAction__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>This is a place where the moderator can leave comments about this idea.</inlineHelpText>
+        <label>Update</label>
+        <required>false</required>
+        <type>TextArea</type>
+    </fields>
+    <fields>
+        <fullName>Long_ID__c</fullName>
+        <externalId>false</externalId>
+        <formula>CASESAFEID(Id)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Long ID</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Owner_Account_Company__c</fullName>
+        <externalId>false</externalId>
+        <formula>IF( TEXT(CreatedBy.UserType) &lt;&gt; &quot;Standard&quot;, IF( NOT( ISNULL( CreatedBy.ContactId ) ) ,  CreatedBy.Contact.Account.Name , &quot;&quot;),  CreatedBy.CompanyName )</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <label>Owner Account/Company</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Profile__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.Profile.Name</formula>
+        <label>Profile</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Project__c</fullName>
+        <deleteConstraint>SetNull</deleteConstraint>
+        <externalId>false</externalId>
+        <inlineHelpText>Have we turned this idea into a project?</inlineHelpText>
+        <label>Project</label>
+        <referenceTo>Ideas_Projects__c</referenceTo>
+        <relationshipLabel>Related Ideas</relationshipLabel>
+        <relationshipName>Related_Ideas</relationshipName>
+        <required>false</required>
+        <type>Lookup</type>
+    </fields>
+    <fields>
+        <fullName>Score__c</fullName>
+        <externalId>false</externalId>
+        <formula>IMAGE( CASE(   NumComments , 1, &quot;/img/samples/stars_100.gif&quot;, 2, &quot;/img/samples/stars_200.gif&quot;, 3, &quot;/img/samples/stars_300.gif&quot;, 4, &quot;/img/samples/stars_400.gif&quot;, 5, &quot;/img/samples/stars_500.gif&quot;, &quot;/img/samples/stars_000.gif&quot;), &quot;number of comments&quot;)</formula>
+        <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
+        <inlineHelpText>Number of stars is based on the number of comments added.</inlineHelpText>
+        <label>Score</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <fields>
+        <fullName>Status</fullName>
+        <type>Picklist</type>
+    </fields>
+    <fields>
+        <fullName>Status__c</fullName>
+        <externalId>false</externalId>
+        <inlineHelpText>What is the status of this idea?</inlineHelpText>
+        <label>Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Not Yet Reviewed</fullName>
+                    <default>true</default>
+                    <label>Not Yet Reviewed</label>
+                </value>
+                <value>
+                    <fullName>Under Consideration</fullName>
+                    <default>false</default>
+                    <label>Under Consideration</label>
+                </value>
+                <value>
+                    <fullName>Coming Soon</fullName>
+                    <default>false</default>
+                    <label>Coming Soon</label>
+                </value>
+                <value>
+                    <fullName>Delivered</fullName>
+                    <default>false</default>
+                    <label>Delivered</label>
+                </value>
+                <value>
+                    <fullName>Reviewed, But Not Feasible At this Time</fullName>
+                    <default>false</default>
+                    <label>Reviewed, But Not Feasible At this Time</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Category__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub-Category</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>911</fullName>
+                    <default>false</default>
+                    <label>911</label>
+                </value>
+                <value>
+                    <fullName>Administrative</fullName>
+                    <default>false</default>
+                    <label>Administrative</label>
+                </value>
+                <value>
+                    <fullName>Billing</fullName>
+                    <default>false</default>
+                    <label>Billing</label>
+                </value>
+                <value>
+                    <fullName>Browser</fullName>
+                    <default>false</default>
+                    <label>Browser</label>
+                </value>
+                <value>
+                    <fullName>CAD</fullName>
+                    <default>false</default>
+                    <label>CAD</label>
+                </value>
+                <value>
+                    <fullName>Civil</fullName>
+                    <default>false</default>
+                    <label>Civil</label>
+                </value>
+                <value>
+                    <fullName>DDF Queries</fullName>
+                    <default>false</default>
+                    <label>DDF Queries</label>
+                </value>
+                <value>
+                    <fullName>Detective</fullName>
+                    <default>false</default>
+                    <label>Detective</label>
+                </value>
+                <value>
+                    <fullName>ePCR</fullName>
+                    <default>false</default>
+                    <label>ePCR</label>
+                </value>
+                <value>
+                    <fullName>FBR</fullName>
+                    <default>false</default>
+                    <label>FBR</label>
+                </value>
+                <value>
+                    <fullName>Fire RMS</fullName>
+                    <default>false</default>
+                    <label>Fire RMS</label>
+                </value>
+                <value>
+                    <fullName>IQ and Analytics</fullName>
+                    <default>false</default>
+                    <label>IQ and Analytics</label>
+                </value>
+                <value>
+                    <fullName>Jail</fullName>
+                    <default>false</default>
+                    <label>Jail</label>
+                </value>
+                <value>
+                    <fullName>Law RMS</fullName>
+                    <default>false</default>
+                    <label>Law RMS</label>
+                </value>
+                <value>
+                    <fullName>Mobile</fullName>
+                    <default>false</default>
+                    <label>Mobile</label>
+                </value>
+                <value>
+                    <fullName>RMS</fullName>
+                    <default>false</default>
+                    <label>RMS</label>
+                </value>
+                <value>
+                    <fullName>RoundTable</fullName>
+                    <default>false</default>
+                    <label>RoundTable</label>
+                </value>
+                <value>
+                    <fullName>VisionCAD</fullName>
+                    <default>false</default>
+                    <label>VisionCAD</label>
+                </value>
+                <value>
+                    <fullName>VisionMobile</fullName>
+                    <default>false</default>
+                    <label>VisionMobile</label>
+                </value>
+                <value>
+                    <fullName>TC CAD/Mobile</fullName>
+                    <default>false</default>
+                    <label>TC CAD/Mobile</label>
+                </value>
+                <value>
+                    <fullName>TC RMS</fullName>
+                    <default>false</default>
+                    <label>TC RMS</label>
+                </value>
+                <value>
+                    <fullName>DN CAD/Mobile</fullName>
+                    <default>false</default>
+                    <label>DN CAD/Mobile</label>
+                </value>
+                <value>
+                    <fullName>TE RMS</fullName>
+                    <default>false</default>
+                    <label>TE RMS</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Sub_Status__c</fullName>
+        <externalId>false</externalId>
+        <label>Sub Status</label>
+        <required>false</required>
+        <type>Picklist</type>
+        <valueSet>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>In the Works</fullName>
+                    <default>false</default>
+                    <label>In the Works</label>
+                </value>
+                <value>
+                    <fullName>Released</fullName>
+                    <default>false</default>
+                    <label>Released</label>
+                </value>
+                <value>
+                    <fullName>Lack of Interest</fullName>
+                    <default>false</default>
+                    <label>Lack of Interest</label>
+                </value>
+                <value>
+                    <fullName>Closed</fullName>
+                    <default>false</default>
+                    <label>Closed</label>
+                </value>
+                <value>
+                    <fullName>Under Review</fullName>
+                    <default>false</default>
+                    <label>Under Review</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>Submitted_By__c</fullName>
+        <externalId>false</externalId>
+        <formula>CreatedBy.FirstName  &amp; &quot; &quot;&amp; CreatedBy.LastName</formula>
+        <label>Submitted By</label>
+        <required>false</required>
+        <type>Text</type>
+        <unique>false</unique>
+    </fields>
+    <listViews>
+        <fullName>All_Ideas</fullName>
+        <columns>Category__c</columns>
+        <columns>Sub_Category__c</columns>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>Owner_Account_Company__c</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <filterScope>Everything</filterScope>
+        <label>All Ideas</label>
+    </listViews>
+    <listViews>
+        <fullName>All_Ideas_Last_7_Days</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>COMMUNITY.NAME</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CREATED_DATE</field>
+            <operation>equals</operation>
+            <value>LAST_N_DAYS:7</value>
+        </filters>
+        <label>All Ideas - Last 7 Days</label>
+    </listViews>
+    <listViews>
+        <fullName>Inform_RoundTable_Ideas</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>Category__c</columns>
+        <columns>Sub_Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>Inform</value>
+        </filters>
+        <label>Inform RoundTable Ideas</label>
+    </listViews>
+    <listViews>
+        <fullName>Inform_RoundTable_Ideas1</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>Category__c</columns>
+        <columns>Sub_Category__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>Inform</value>
+        </filters>
+        <filters>
+            <field>Sub_Category__c</field>
+            <operation>equals</operation>
+            <value>IQ and Analytics</value>
+        </filters>
+        <label>Inform RoundTable Ideas</label>
+    </listViews>
+    <listViews>
+        <fullName>Perform_RoundTable_Ideas</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Sub_Status__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>IDEA.LAST_COMMENT_DATE</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>Perform</value>
+        </filters>
+        <label>Perform RoundTable Ideas</label>
+    </listViews>
+    <listViews>
+        <fullName>Respond_RoundTable_Ideas</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Sub_Status__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>Respond (EMS)</value>
+        </filters>
+        <filters>
+            <field>IDEA.STATUS</field>
+            <operation>notEqual</operation>
+            <value>Archive</value>
+        </filters>
+        <label>Respond RoundTable Ideas (Current)</label>
+    </listViews>
+    <listViews>
+        <fullName>Respond_RoundTable_Ideas_All</fullName>
+        <columns>IDEA.CREATED_DATE</columns>
+        <columns>IDEA.TITLE</columns>
+        <columns>IDEA.CREATED_BY_NICKNAME</columns>
+        <columns>VOTE_STATS.WEIGHTED_SUM</columns>
+        <columns>IDEA.NUM_COMMENTS</columns>
+        <columns>IDEA.STATUS</columns>
+        <columns>Sub_Status__c</columns>
+        <columns>IDEA.CATEGORIES</columns>
+        <columns>Company_Name__c</columns>
+        <filterScope>Everything</filterScope>
+        <filters>
+            <field>IDEA.CATEGORIES</field>
+            <operation>equals</operation>
+            <value>Respond (EMS)</value>
+        </filters>
+        <label>Respond RoundTable Ideas (All)</label>
+    </listViews>
+    <recordTypes>
+        <fullName>InternalIdeasIdeaRecordType</fullName>
+        <active>true</active>
+        <description>Record Type used to associate ideas with a specific community</description>
+        <label>Internal Ideas: Idea Record Type</label>
+        <picklistValues>
+            <picklist>Categories</picklist>
+            <values>
+                <fullName>Inform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respond %28EMS%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Category__c</picklist>
+            <values>
+                <fullName>Inform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Perform</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Respond %28EMS%29</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status</picklist>
+            <values>
+                <fullName>Archive</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Private</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Public</fullName>
+                <default>true</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Status__c</picklist>
+            <values>
+                <fullName>Coming Soon</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Delivered</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Not Yet Reviewed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Reviewed%2C But Not Feasible At this Time</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Consideration</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Category__c</picklist>
+            <values>
+                <fullName>911</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Administrative</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Billing</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Browser</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>CAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Civil</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>DDF Queries</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Detective</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>FBR</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Fire RMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>IQ and Analytics</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Jail</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Law RMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Mobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RMS</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>RoundTable</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VisionCAD</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>VisionMobile</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>ePCR</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>Sub_Status__c</picklist>
+            <values>
+                <fullName>Closed</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>In the Works</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Lack of Interest</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Released</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Under Review</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+    </recordTypes>
+    <searchLayouts>
+        <customTabListAdditionalFields>IDEA.TITLE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.BODY</customTabListAdditionalFields>
+        <customTabListAdditionalFields>COMMUNITY.NAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CREATED_DATE</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CREATED_BY_NICKNAME</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.NUM_COMMENTS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>VOTE.HAS_VOTED</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.CATEGORIES</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.STATUS</customTabListAdditionalFields>
+        <customTabListAdditionalFields>IDEA.LAST_COMMENT_DATE</customTabListAdditionalFields>
+        <lookupDialogsAdditionalFields>IDEA.TITLE</lookupDialogsAdditionalFields>
+        <lookupDialogsAdditionalFields>COMMUNITY.NAME</lookupDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>IDEA.TITLE</lookupPhoneDialogsAdditionalFields>
+        <lookupPhoneDialogsAdditionalFields>COMMUNITY.NAME</lookupPhoneDialogsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.TITLE</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.BODY</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.NUM_COMMENTS</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CREATED_BY_NICKNAME</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CATEGORIES</searchResultsAdditionalFields>
+        <searchResultsAdditionalFields>IDEA.CREATED_DATE</searchResultsAdditionalFields>
+    </searchLayouts>
+    <sharingModel>ControlledByParent</sharingModel>
+</CustomObject>

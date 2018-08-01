@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>FwF.Re-Register</name>
+    <style>none</style>
+    <subject>Please Re-Register for FIX IT WITH FELICIA - Monthly Customer Webinars for Perform Software</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Please Re-Register
+Monthly Customer Service Webinar Series
+Fix It With Felicia
+Every Second Thursday of the Month
+{{lead.First Name:default=Perform Customer}} -
+
+
+We&apos;re changing webinar platforms and are asking you to please re-register now for your complimentary, monthly training for the TriTech Perform (formerly IMC) software. The re-registration should take less than two minutes and will ensure you continue to receive email invites to the live monthly trainings, as well as links to the recordings if you miss the live event.
+These half-hour sessions will help you maximize your software skills and agency efficiency and effectiveness.
+
+Don’t miss the next session on &quot;Matris – PCR Submission and FAQs&quot;  – register now to make sure you’re signed up for the live monthly sessions where you can ask questions and get your specific questions answered.
+ &lt;http://offers.tritech.com/FwF_Registration.html&gt;
+
+If you cannot view the button above, please copy and paste this link into a browser window: http://offers.tritech.com/FwF_Registration.html
+
+
+For information about TriTech&apos;s Perform software, please contact us at sales@tritech.com &lt;mailto:sales@tritech.com&gt; or 508-839-6445.
+Training Information:
+Complimentary Monthly Customer Service Webinar Series
+Every Second Thursday of the Month
+11:00 AM Eastern | 10:00 AM Central | 9:00 AM Mountain | 8:00 AM Pacific
+
+All you need is an internet connection to join. Listen through your computer speakers, or dial in through a telephone. Every live session includes a question-answer session where you get your specific questions answered.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

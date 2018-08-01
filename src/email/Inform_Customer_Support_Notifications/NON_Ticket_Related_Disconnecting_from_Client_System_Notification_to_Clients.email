@@ -1,0 +1,105 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<!--[if gte mso 9]><xml>
+ <o:OfficeDocumentSettings>
+  <o:AllowPNG/>
+ </o:OfficeDocumentSettings>
+</xml><![endif]-->
+
+<div align="center">
+
+<table class="MsoNormalTable" style="width:100.0%;mso-cellspacing:0in;border:solid #333333 1.0pt;mso-border-alt:
+ solid #333333 .75pt;mso-yfti-tbllook:1184;mso-padding-alt:0in 0in 0in 0in" border="1" width="100%" cellpadding="0" cellspacing="0">
+ <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes;height:21.0pt">
+  <td style="border:none;background:#707BBE;padding:0in 0in 0in 7.5pt;
+  height:21.0pt">
+  <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+  normal"><b><span style="font-size:9.0pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+  mso-fareast-font-family:&quot;Times New Roman&quot;;color:white">Event Details</span></b><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+  &quot;Times New Roman&quot;"></span></p>
+  </td>
+ </tr>
+ <tr style="mso-yfti-irow:1;mso-yfti-lastrow:yes">
+  <td style="border:none;background:white;padding:7.5pt 7.5pt 7.5pt 7.5pt">
+  <table class="MsoNormalTable" style="width:100.0%;mso-cellspacing:.7pt;background:#CCCCCC;mso-yfti-tbllook:
+   1184;mso-padding-alt:2.25pt 2.25pt 2.25pt 2.25pt" border="0" width="100%" cellpadding="0" cellspacing="1">
+   <tbody><tr style="mso-yfti-irow:0;mso-yfti-firstrow:yes">
+    <td style="width:1.25in;background:#EBEBEB;padding:2.25pt 2.25pt 2.25pt 2.25pt" width="120">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    text-align:right;line-height:normal" align="right"><b><span style="font-size:8.5pt;
+    font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+    color:black">Event Name: </span></b><span style="font-size:12.0pt;
+    font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+    </td>
+    <td style="background:white;padding:2.25pt 2.25pt 2.25pt 2.25pt">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    line-height:normal"><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+    mso-fareast-font-family:&quot;Times New Roman&quot;;color:#333333">Disconnected from
+    Client System</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;
+    mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+    </td>
+   </tr>
+   <tr style="mso-yfti-irow:1">
+    <td style="width:1.25in;background:#EBEBEB;padding:2.25pt 2.25pt 2.25pt 2.25pt" width="120">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    text-align:right;line-height:normal" align="right"><b><span style="font-size:8.5pt;
+    font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+    color:black">Event Status:</span></b><span style="font-size:12.0pt;
+    font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+    </td>
+    <td style="background:white;padding:2.25pt 2.25pt 2.25pt 2.25pt">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    line-height:normal"><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+    mso-fareast-font-family:&quot;Times New Roman&quot;;color:#333333">Disconnected</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+    &quot;Times New Roman&quot;"></span></p>
+    </td>
+   </tr>
+   <tr style="mso-yfti-irow:2">
+    <td style="width:1.25in;background:#EBEBEB;padding:2.25pt 2.25pt 2.25pt 2.25pt" width="120">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    text-align:right;line-height:normal" align="right"><b><span style="font-size:8.5pt;
+    font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+    color:black">Event Owner: </span></b><span style="font-size:12.0pt;
+    font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+    </td>
+    <td style="background:white;padding:2.25pt 2.25pt 2.25pt 2.25pt">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    line-height:normal"><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+    mso-fareast-font-family:&quot;Times New Roman&quot;;color:#333333">{!User.Name}</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+    &quot;Times New Roman&quot;"></span></p>
+    </td>
+   </tr>
+   <tr style="mso-yfti-irow:3;mso-yfti-lastrow:yes">
+    <td style="width:1.25in;background:#EBEBEB;padding:2.25pt 2.25pt 2.25pt 2.25pt" width="120">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    text-align:right;line-height:normal" align="right"><b><span style="font-size:8.5pt;
+    font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;;
+    color:black">Start Date:</span></b><span style="font-size:12.0pt;
+    font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:&quot;Times New Roman&quot;"></span></p>
+    </td>
+    <td style="background:white;padding:2.25pt 2.25pt 2.25pt 2.25pt">
+    <p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;
+    line-height:normal"><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+    mso-fareast-font-family:&quot;Times New Roman&quot;;color:#333333">{!Today}</span><span style="font-size:12.0pt;font-family:&quot;Times New Roman&quot;,&quot;serif&quot;;mso-fareast-font-family:
+    &quot;Times New Roman&quot;"></span></p>
+    </td>
+   </tr>
+  </tbody></table>
+  </td>
+ </tr>
+</tbody></table>
+
+</div>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">&nbsp;</span></b></p>
+
+<p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><b><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black">Event Description:<span style="mso-spacerun:yes">&nbsp; <br></span></span></b></p><p class="MsoNormal" style="margin-bottom:0in;margin-bottom:.0001pt;line-height:
+normal"><br><b><span style="font-size:8.5pt;font-family:&quot;Tahoma&quot;,&quot;sans-serif&quot;;
+mso-fareast-font-family:&quot;Times New Roman&quot;;color:black"><span style="mso-spacerun:yes"></span></span></b></p>]]></td>
+</tr>
+</table>

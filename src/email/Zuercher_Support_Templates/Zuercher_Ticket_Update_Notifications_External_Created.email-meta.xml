@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for Zuercher support ticket notification for Ticket Creation (External)</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Zuercher_Letterhead</letterhead>
+    <name>Zuercher Ticket Update Notifications - Created</name>
+    <style>freeForm</style>
+    <subject>{!Case.CaseNumber} - {!Case.Subject}</subject>
+    <textOnly>({!Case.CaseNumber}) {!Case.Subject}
+
+
+Thank you for contacting Technical Support, the following ticket has been created to track progress on the issue / request:
+
+Ticket Number: {!Case.CaseNumber}
+
+Link to your ticket:  {!Case.Link}
+
+
+If your CAD is down or you need immediate assistance for a critical issue, please contact us via phone at 1-877-229-2205.  Please note that this email inbox is not monitored on weekends, holidays, or afterhours on weekdays (6:00 pm CST to 7:00 am CST)</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

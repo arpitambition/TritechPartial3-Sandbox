@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_VNS_PA12-004.Email</name>
+    <style>none</style>
+    <subject>PA12-004 - TriTech Disaster Recovery Software Solution Status</subject>
+    <textOnly>STAY CONNECTED        &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+Product Announcement
+PA12-004 - TriTech Disaster Recovery Software Solution Status
+POSTED: 05-18-12
+
+Dear Clients,
+
+Per Product Announcement PA11-008, TriTech informed all clients that EMC will be ending support for RepliStor in June 2013; and that we intended to start installation of the replacement software January 2012.  This product announcement is intended to provide an update on our progress toward implementation of the replacement solution.
+Please consult the full Announcement that is available at the MyVisiNet Support site under Documentation | Product Announcements | 2012.
+
+
+Sincerely,
+
+Tony Vardiman
+Technical Services Frontline Supervisor l VisiNet Solutions
+Direct: 858.799.7441 l Mobile: 619.816.7100
+Fax: 858.799.7010 l Support: 800.847.4223</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

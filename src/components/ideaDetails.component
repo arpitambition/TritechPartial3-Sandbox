@@ -1,0 +1,24 @@
+<apex:component allowDML="true" controller="IdeaDetailsController">
+    <apex:attribute name="idea" type="Idea" assignTo="{!conIdea}" required="true" description="The idea whose details are to be displayed (must include Id, Title, Body, NumComments, CreatedBy.Id, CreatedDate, Categories, and IsLocked)."/>
+    <apex:attribute name="howUserVoted" type="String" required="true" description="Identifies how the user voted on the idea. If Up, the user promoted the idea. If Down, the user demoted the idea.  If None, the user has not voted on the idea."/>
+    <apex:attribute name="isViewPage" type="Boolean" required="false" default="false" description="True if this detail will be displayed on the view page and not the list page."/>
+    <apex:attribute name="returnUrl" type="String" assignTo="{!returnUrlParam}" required="false" description="Provides the return url path from the current idea Detail page."/>
+    <apex:attribute name="rowStartInd" type="String" description="Row start index"/>
+    <apex:attribute name="contactAccount" type="String" description="Portal user associated account" />
+    
+    <div class="rt-idea" style="border-bottom: 1px solid #C4C4C4;">
+        <div class="rt-idea-vote">
+            <c:ideaVote idea="{!idea}" howUserVoted="{!howUserVoted}" rowStartIndex="{!rowStartInd}"/> 
+        </div>
+
+        <c:ideaUserLink userId="{!idea.createdBy.Id}" communityNickname="{!createdByCommunityNickname}" contactAccountName="{!contactAccount}"/><br/><br/>
+        <h3>
+            <ideas:detailOutputLink page="{!ideaViewPage}" ideaId="{!idea.id}">
+                {!idea.title}
+            </ideas:detailOutputLink>
+         </h3>
+        <p><apex:outputText value="{!idea.body}" escape="false"/></p>
+        <span class="meta"><c:ideaDateFormat idea="{!idea}"/> &nbsp;•&nbsp; <strong>{!round(idea.numComments, 0)} {!IF(idea.numComments == 1, 'Comment','Comments')}</strong> &nbsp;•&nbsp; <strong>{!IF(idea.Category__c == null, '',idea.Category__c)}</strong> &nbsp;•&nbsp; <strong>{!IF(idea.Sub_Category__c == null, '',idea.Sub_Category__c)}</strong></span>
+    </div>
+    
+</apex:component>

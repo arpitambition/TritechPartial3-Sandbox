@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>MassChiefs-April3-OpenHouse.OpenHouseInvite</name>
+    <style>none</style>
+    <subject>Join us for an Open House on April 3rd following the MassChiefs Tradeshow</subject>
+    <textOnly>STAY CONNECTED      &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;
+You&apos;re Invited to our Open House
+
+Hello {{lead.First Name:default=Valued Client}},
+
+After the MassChiefs tradeshow on April 3rd at the Best Western, we&apos;d like to invite you to swing by our new office for an Open House. Our new office is located  on the right as you leave the Best Western, across for the Hampton Inn; the map below shows how easy it is to get here. 
+
+Join us for a tour of our new training facility and office, enter our raffle, and enjoy snacks and beverages with our staff.
+
+Open House - April 3rd: 2:00 - 4:30 pm
+TriTech Software Systems
+313 Boston Post Road West, Suite 140
+Parking in back of the building
+
+For questions, contact David Bell at 774-239-3722 or  david.bell@tritech.com. &lt;mailto:david.bell@tritech.com&gt;
+
+
+
+Please stop by for a visit!
+David Bell | Client Account Manager 
+
+
+Dennis Noe | Regional Sales Manager
+
+
+
+Phil Sisk | National Director of Sales and Client Account Management</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

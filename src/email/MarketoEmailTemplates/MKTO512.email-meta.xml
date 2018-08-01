@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTalk_Q1_2011_Email1</name>
+    <style>none</style>
+    <subject>TriTalk First Quarter Newsletter,  Insight and News for Public Safety and Medical Transport Industries</subject>
+    <textOnly>Welcome to the 1st Quarter Issue of TriTalk, the quarterly e-newsletter for TriTech Software Systems.
+
+In this issue:
+
+-  Main Page (http://offers.tritech.com/TriTalk_2011_Q1_MainPage)
+ 
+-  Product &amp; Service Updates (http://offers.tritech.com/TriTalk_2011_Q1_ProductServiceUpdates)
+ 
+-  Technical Support &amp; Hot Topics (http://offers.tritech.com/TriTalk_2011_Q1_TechnicalSupportHotTopics)
+ 
+-  Featured Customers (http://offers.tritech.com/TriTalk_2011_Q1_CustomerFeature)
+ 
+-  Upcoming Events (http://offers.tritech.com/TriTalk_2011_Q1_UpcomingEvents)
+ 
+-  Company News (http://www.tritech.com/Media-Center/Press-Releases/2011.html)
+ 
+-  Visit www.TriTech.com (http://www.tritech.com/default.aspx)
+
+
+  
+Product and Service Updates (http://offers.tritech.com/TriTalk_2011_Q1_ProductServiceUpdates)
+
+VisiNet Solutions - Product Highlights
+VisiCAD Test / Training Server prevents system failures and maximizes training capabilities by providing a simulated environment to test new software, configurations and products prior to deployment on the production system. With Test/Training Server, IT and Operations departments will be able to comprehensively test and train personnel on new software or configuration changes to maximize system up-time and ensure data integrity. Read More...
+
+Imc Solutions - Product Highlights
+Latest Build of 17 / Regional User Groups are Back! / Integration with LInX
+Read More...
+ ﻿
+EMS Solutions - Product Highlights
+SAAsy / Fusion 6.1 / Electronic Claim Changes
+Read More...
+ ﻿
+
+Technical Support &amp; Hot Topics (http://offers.tritech.com/TriTalk_2011_Q1_TechnicalSupportHotTopics)
+ 
+VisiNet Solutions Tech Tips - Test Routability Using ESRI&apos;s MoNet
+Ever wonder why one unit was recommended over another? One way to diagnose a unit recommendation is to test routability of your street network. ESRI’s MoNet (Motion Network) is an application to test routing on a system without getting CAD involved. MoNet uses your base GIS files to test routability. It is a basic application that can be run on C: drive or thumb drive. 
+ 
+Imc Solutions Tech Tips - Q &amp; A
+Finalize Dispatch Log / Windows 7 / File Case Management / Security Rights for Address Tab in Checks
+ 
+EMS Soltuions Tech Tip - Q &amp; A
+Sweet Billing / Fusion ePCR / Sweet CAD
+ 
+ 
+Featured Customers (http://offers.tritech.com/TriTalk_2011_Q1_CustomerFeature)
+ 
+VisiNet Solutions Highlight - Harris County Emergency Corps 
+Located in Houston, Texas, Harris County Emergency Corps Communication Center uses VisiCAD and VisiNet Mobile to provides services to 14 Fire and EMS agencies. VisiCAD and VisiNet Mobile replaced an aging DOS-based platform which was unable to scale with their continued growth. Read More...   
+
+Imc Solutions Highlight - Multiple Agencies
+The Auburn Police Department is one agency among many in the state of Maine that uses the Imc Cross Agency module to access real-time information from other participating law department databases. “Tracking criminals across multi-county crime sprees can be difficult,” said Deputy Chief Jason Moen of the Auburn Police Department. Read More...
+ 
+EMS Highlight - Able EMS
+Able EMS, located in Wheelerburg, Ohio, was founded by a physician who recognized that the need for timely transportation of patients at the facility in which he worked was not being met. Consequently, he started the Able EMS in 2006 and the service has grown to 150 employees (as of 2010) working from seven different stations. The service covers six counties in Ohio, encompassing a population of around 1.9 million people. Read More...
+ 
+ 
+Upcoming Events (http://offers.tritech.com/TriTalk_2011_Q1_UpcomingEvents)
+ 
+-  Unveiling TriCON 2011: Fresh Ideas. New Perspectives
+
+-  Upcoming Webinars (Complimentary Live &amp; Recorded)
+ 
+-  Upcoming Tradeshows (May - July)
+
+-  Imc Solutions: User Group Meetings
+
+-  Imc Solutions: Law Tech Seminar (May 25, 2011)
+ 
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+ 
+        
+ 
+   
+     Auburn Police Department  l  Maine   
+      Able EMS  l  Wheelerburg, OH  
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

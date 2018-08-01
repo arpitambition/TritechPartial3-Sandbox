@@ -1,0 +1,298 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>RET Score</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>RET Score</value>
+    </caseValues>
+    <fields>
+        <label><!-- Ability to Meet Min Required References --></label>
+        <name>Ability_to_Meet_Min_Required_References__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Agencies Being Served is pulling from information on the associated opportunity --></help>
+        <label><!-- Agencies Being Served --></label>
+        <name>Agencies_Being_Served__c</name>
+    </fields>
+    <fields>
+        <label><!-- Approval Manager --></label>
+        <name>Approval_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Bid/No Bid (RET) Decision Date --></label>
+        <name>Bid_No_Bid_RET_Decision_Date__c</name>
+    </fields>
+    <fields>
+        <help><!-- Please review the Bid or No Bid recommendation with your sales director prior to submission. --></help>
+        <label><!-- Bid/No Bid Recommendation --></label>
+        <name>Bid_No_Bid_Recommendation__c</name>
+        <picklistValues>
+            <masterLabel>Bid</masterLabel>
+            <translation><!-- Bid --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Bid</masterLabel>
+            <translation><!-- No Bid --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- CAD Parent Total Sworn Officers --></label>
+        <name>CAD_Parent_Total_Sworn_Officers__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to complete the current RET Score and send the information to your Manager for approval --></help>
+        <label><!-- COMPLETE &amp; SEND TO MANAGER --></label>
+        <name>COMPLETE_SEND_TO_MANAGER__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitor Requirements included in RFP? --></label>
+        <name>Competitor_Requirements_included_in_RFP__c</name>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Consultant Name --></label>
+        <name>Consultant_Name__c</name>
+        <picklistValues>
+            <masterLabel>DeltaWRX</masterLabel>
+            <translation><!-- DeltaWRX --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Kimball</masterLabel>
+            <translation><!-- Kimball --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Mission Critical Partners</masterLabel>
+            <translation><!-- Mission Critical Partners --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RCC</masterLabel>
+            <translation><!-- RCC --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Winbourne</masterLabel>
+            <translation><!-- Winbourne --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Do we know how much is budgeted? is pulling from information on the associated opportunity --></help>
+        <label><!-- Do we know how much is budgeted? --></label>
+        <name>Do_we_know_how_much_is_budgeted__c</name>
+    </fields>
+    <fields>
+        <label><!-- Do we meet mandatory RFP Requirements? --></label>
+        <name>Do_we_meet_mandatory_RFP_Requirements__c</name>
+    </fields>
+    <fields>
+        <help><!-- Have we engaged the committee? is pulling from information on the associated opportunity --></help>
+        <label><!-- Have we engaged the committee? --></label>
+        <name>Have_we_engaged_the_committee__c</name>
+    </fields>
+    <fields>
+        <label><!-- How many on-site meetings have we had? --></label>
+        <name>How_many_on_site_meetings_have_we_had__c</name>
+    </fields>
+    <fields>
+        <help><!-- Identify Committee Members is pulling from information on the associated opportunity --></help>
+        <label><!-- Identify Committee Members --></label>
+        <name>Identify_Committee_Members__c</name>
+    </fields>
+    <fields>
+        <label><!-- If No Bid - Primary Reason --></label>
+        <name>If_No_Bid_Primary_Reason__c</name>
+        <picklistValues>
+            <masterLabel>Competitive Spec</masterLabel>
+            <translation><!-- Competitive Spec --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Compliancy</masterLabel>
+            <translation><!-- Compliancy --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fit</masterLabel>
+            <translation><!-- Fit --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Presales</masterLabel>
+            <translation><!-- Presales --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Level of compliancy with functional spec --></label>
+        <name>Level_of_compliancy_with_functional_spec__c</name>
+        <picklistValues>
+            <masterLabel>80%-90%</masterLabel>
+            <translation><!-- 80%-90% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>&gt;90%</masterLabel>
+            <translation><!-- &gt;90% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Less than 80%</masterLabel>
+            <translation><!-- Less than 80% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Manager approval is required to send email to the team. --></help>
+        <label><!-- MANAGER APPROVED --></label>
+        <name>MANAGER_APPROVED__c</name>
+    </fields>
+    <fields>
+        <label><!-- RET Approved By: --></label>
+        <name>Manager_Approved_Date_Time__c</name>
+    </fields>
+    <fields>
+        <label><!-- No Bid Explanation --></label>
+        <name>No_Bid_Explanation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Sworn Officers Band --></label>
+        <name>Number_of_Sworn_Officers_Band__c</name>
+    </fields>
+    <fields>
+        <label><!-- Number of Sworn Officers --></label>
+        <name>Number_of_Sworn_Officers__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- RET_Score --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Performed On-Site Demo --></label>
+        <name>Performed_On_Site_Demo__c</name>
+    </fields>
+    <fields>
+        <help><!-- Performed On-Site Discovery is pulling from information on the associated opportunity --></help>
+        <label><!-- Performed On-Site Discovery --></label>
+        <name>Performed_On_Site_Discovery__c</name>
+    </fields>
+    <fields>
+        <help><!-- Project Budget Total is pulling from information on the associated opportunity --></help>
+        <label><!-- Project Budget Total --></label>
+        <name>Project_Budget_Total__c</name>
+    </fields>
+    <fields>
+        <label><!-- Proposal Type --></label>
+        <name>Proposal_Type__c</name>
+        <picklistValues>
+            <masterLabel>Inform RFI</masterLabel>
+            <translation><!-- Inform RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform RFP</masterLabel>
+            <translation><!-- Inform RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform RFQ</masterLabel>
+            <translation><!-- Inform RFQ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher RFI</masterLabel>
+            <translation><!-- Zuercher RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher RFP</masterLabel>
+            <translation><!-- Zuercher RFP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Zuercher RFQ</masterLabel>
+            <translation><!-- Zuercher RFQ --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Qty of Local References is pulling from information on the associated opportunity --></help>
+        <label><!-- Qty of Local References --></label>
+        <name>Qty_of_Local_References__c</name>
+    </fields>
+    <fields>
+        <help><!-- Qty of Negative Local References is pulling from information on the associated opportunity --></help>
+        <label><!-- Qty of Negative Local References --></label>
+        <name>Qty_of_Negative_Local_References__c</name>
+    </fields>
+    <fields>
+        <label><!-- RET Score --></label>
+        <name>RET_Score__c</name>
+    </fields>
+    <fields>
+        <help><!-- Relationship Quality w/the Key contact? is pulling from information on the associated opportunity --></help>
+        <label><!-- Relationship Quality w/the Key contact? --></label>
+        <name>Relationship_Quality_w_the_Key_contact__c</name>
+    </fields>
+    <fields>
+        <help><!-- Service Population Tier is pulling from information on the associated opportunity&apos;s Account --></help>
+        <label><!-- Service Population Tier --></label>
+        <name>Service_Population_Tier__c</name>
+    </fields>
+    <fields>
+        <help><!-- Source of budget information is pulling from information on the associated opportunity --></help>
+        <label><!-- Source of budget information --></label>
+        <name>Source_of_budget_information__c</name>
+    </fields>
+    <fields>
+        <label><!-- Status --></label>
+        <name>Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved</masterLabel>
+            <translation><!-- Approved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Rejected</masterLabel>
+            <translation><!-- Rejected --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>RET Score Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please list the explanation why we are not bidding --></errorMessage>
+        <name>If_No_Bid_Require_the_No_Bid_Explanatio</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Please choose the primary reason we are not bidding --></errorMessage>
+        <name>Must_list_primary_reason_for_no_bid</name>
+    </validationRules>
+</CustomObjectTranslation>

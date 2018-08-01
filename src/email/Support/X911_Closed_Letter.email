@@ -1,0 +1,43 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p><font face="Times New Roman">
+
+D</font><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">ear {!Contact.FirstName},</font></span></p><p>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">It is the goal of TriTech
+to diagnose and resolve any issues, concerns, or questions that our clients have
+with our products as quickly and as thoroughly as possible. We kindly request
+your attention and response to the following issue:<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></font></span><font face="Times New Roman">
+</font></p><p><font face="Times New Roman"></font>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Your service request ticket
+#: {!Case.CaseNumber}<br></font></span><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Date received:<span style="mso-spacerun: yes;">&nbsp; </span>{!Case.CreatedDate}<br></font></span><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Identified problem:
+{!Case.Short_Issue_Summary_WMP__c}</font></span></p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">TriTech has provided a resolution on your issue and have made multiple attempts to confirm the issue referenced above has been resolved. </font></span></p><p>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">As of this time, there has
+not been a response from your agency regarding this issue.<span style="mso-spacerun: yes;">&nbsp;</span>Our company policy is to attempt to make
+contact at least 3 times&nbsp;prior to sending this
+notice.<span style="mso-spacerun: yes;">&nbsp;</span>It is entirely possible that
+your agency contact has been involved in other duties and has not been
+available to discuss or work with our Technical Support department to confirm ticket resolution.</font></span></p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">TriTech will be placing a
+‘Waiting’ status on the service request listed above. This issue will remain in
+the ‘Waiting’ status for an additional five (5) business days. If a response
+has not been received by your agency within that time frame, TriTech will
+proceed to&nbsp;Close the ticket. </font></span></p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Your call is important to
+us, and will remain in our call database as ‘Closed’, but we would be glad
+to create a new service request ticket if you decide that the issue has not been resolved. </font></span></p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"></span><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Please contact TriTech Technical
+Support at 1-800-987-0911, referencing the above ticket number, and we will
+gladly put you in contact with the Technical Support representative assigned to
+your call.<o:p></o:p></font></span><font face="Times New Roman">
+
+</font></p><p><font face="Times New Roman"></font>&nbsp;</p><p><font face="Times New Roman">
+
+</font><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">We value you as a client
+and we appreciate the work you do in serving the public safety needs of your
+community. We hope to hear from you shortly about this issue so that we can
+proceed with finding a resolution. <o:p></o:p></font></span><font face="Times New Roman">
+
+</font></p><p>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Sincere Regards,<o:p></o:p></font></span><font face="Times New Roman">
+
+</font><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><o:p><font face="Times New Roman">&nbsp;</font></o:p></span><font face="Times New Roman">
+
+</font></p><p>&nbsp;</p><p><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">Management<br></font></span><span style="font-size: 10pt; mso-bidi-font-family: Arial;"><font face="Times New Roman">TriTech Technical Support<o:p></o:p></font></span><font face="Times New Roman">
+
+</font></p>]]></td>
+</tr>
+</table>

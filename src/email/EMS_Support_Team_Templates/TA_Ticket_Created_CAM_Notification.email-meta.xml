@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Internal CAM alert trigger for notification of CS and WO Ticket status updates</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>TA - Ticket Created CAM Notification</name>
+    <style>freeForm</style>
+    <subject>CAM: {!Case.Account } - {!Case.CaseNumber} - Ticket Created</subject>
+    <textOnly>This is an internal ticket creation notification from TriTech Software Systems.
+
+
+Account Name:  {!Case.Account }
+
+Assigned CAM: {!Account.00N80000004aY3d}
+
+Ticket Details
+
+Ticket ID:  {!Case.CaseNumber}
+
+Click here to view the ticket: {!Case.Link}
+
+Subject:  {!Case.Subject}
+
+Issue Summary:  {!Case.Short_Issue_Summary_WMP__c}
+
+Issue Details:  {!Case.Description}
+
+Current Owner:  {!Case.OwnerFullName}
+
+Product:  {!Case.Product}
+
+Status:  {!Case.Status}
+
+Priority:  {!Case.Priority}</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

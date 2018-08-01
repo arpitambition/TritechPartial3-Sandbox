@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Snapshot</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Snapshots</value>
+    </caseValues>
+    <fields>
+        <label><!-- Actual Opportunity Value --></label>
+        <name>Actual_Opportunity_Value__c</name>
+    </fields>
+    <fields>
+        <label><!-- Client Type --></label>
+        <name>Client_Type__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Close Date --></label>
+        <name>Estimated_Close_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Estimated Opportunity Amount --></label>
+        <name>Estimated_Opportunity_Amount__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner --></label>
+        <name>Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Probability (%) --></label>
+        <name>Probability__c</name>
+    </fields>
+    <fields>
+        <label><!-- Required Products --></label>
+        <name>Required_Products__c</name>
+    </fields>
+    <fields>
+        <label><!-- Weighted Opportunity Value --></label>
+        <name>Weighted_Opportunity_Value__c</name>
+    </fields>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

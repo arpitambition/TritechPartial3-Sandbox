@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_CC_Dec11.VNS_CC_Dec11</name>
+    <style>none</style>
+    <subject>VisiNet CAM Connection - December Newsletter</subject>
+    <textOnly>          December 2011 Edition
+ Welcome to our monthly edition of TriTech Software Systems: CAM Connection for VisiNet Solutions. CAM stands for “Client Account Manager” and in an effort to bring you more customized and timely information, we have developed this publication exclusively for the customers of our VisiNet Solutions group.  Feel free to let us know if you have suggestions on topics you would like to hear about.
+ 
+       
+ Product Highlights
+
+ Geo:  Best Practices for Creating and Updating Your Maps 
+At TriCON 2011, Adam shared his best practices and tips for optimized and configuring county maps for dispatching.  He discussed exporting data into multiple SDE databases, update schema, implementation of third party Addresser software, layers, icons, compression of geo databases and more. Click here to watch the presentation and view the slides&gt;&gt;
+ 
+Recap of VisiNet Product Demonstration Recordings
+ Click here to view the demonstration recordings&gt;&gt;  
+ 
+    
+ Service Update
+     TriTech Software Systems Strengthens Customer Support with Center of Excellence
+ We are excited to announce the establishment of a Center of Excellence to strengthen our level of service and support offerings. Located at TriTech’s office in Decorah, Iowa, the TriTech National Support Center supplements the existing support infrastructure with additional resources and increased availability of support services. Click here to read the full press release and FAQs&gt;&gt;      Tech Tip – The importance of assigning a key or key-combination to the VisiCAD Toolbar
+  If VisiNet users work at different workstations, and those workstations have different monitor configurations, sometimes the VisiNet Toolbar window can get lost on ghost monitors. Click here to read directions on assigning a key&gt;&gt;    Grab and Go with Greg
+ The next Grab and Go with Greg session will be on Monday, December 12. Click here to view recordings and register&gt;&gt; 
+  Documentation Survey – Congratulations
+We want to thank everyone that participated in our recent VisiNet Solutions Documentation survey.  Your input is crucial in measuring our performance and in helping us to make our documentation more accessible and useful.  Congratulations to XXXX for winning the Kindle Fire raffle that was comprised of survey respondents. 
+ 
+  
+ TriCON News
+ 
+ TriCON Advisory Council
+ We will be re-starting a TriCON Advisory Council to help us in our planning activities and program development for TriCON. Click here and see how you can help&gt;&gt;
+ 
+   TriCON 2012
+We&apos;re happy to announce details for TriCON 2012 at the Hilton Bayfront Hotel in San Diego&apos;s Gaslamp Quarter.  Opened in 2008, the Hilton Bayfront is San Diego’s newest downtown hotel featuring a vibrant waterfront location just minutes from Gaslamp Quarter, San Diego Convention Center, and PETCO Park. Click here to read more about what to expect from TriCON 2012&gt;&gt; 
+ 
+   
+ Customer Feature
+ 
+ South Metro Fire Rescue
+ NBC’s Tom Costello reports on the use of cutting edge technology (VisiCAD and VisiNet Mobile) to help reduce response times in towns like South Metro Denver. Click here to watch the video clip from NBC&gt;&gt;  
+
+ 
+                
+ &gt; Main Page 
+ 
+ &gt; Product Highlights
+
+ &gt; Service Update
+
+ &gt; TriCON News
+
+ &gt; Customer Feature
+
+ &gt; www.tritech.com
+
+ 
+ CAM CONTACTS
+Ken Schulte
+ (858) 799-7316
+ ken.schulte@tritech.com
+ 
+ Sally Olson-Nelson
+ (858) 799-7358
+ sally.olson-nelson@tritech.com
+ 
+ 
+   
+ 
+ 
+ 
+ 
+   
+ 
+ 
+  
+ 
+ 
+   
+ 
+   
+ 
+   
+ 
+   
+  Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+ 
+           www.youtube.com/user/tritechsoftware
+ 
+                  Share this message with your colleagues or visit us at www.tritech.com
+             
+ This email was sent by TriTech Software Systems
+ 9860 Mesa Rim Road | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

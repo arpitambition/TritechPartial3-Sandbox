@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2012_CustomerGolfTournament.Reminder_July1</name>
+    <style>none</style>
+    <subject>Time to register for the TriTech Charity Golf Tourney on October 9th!</subject>
+    <textOnly>It&apos;s Time to Register
+Join us for the 2012 TriTech Charity Golf Tournament on October 9th
+Dear {{lead.First Name:default=Customer}}, 
+
+We hope that you can join us for a fabulous day of golf, refreshments, contests and prizes. The deadline is coming up so please reserve your spot by clicking on the &quot;Register Now&quot; button below.  
+
+If you have a foursome - that is great, but we will certainly pair you up with another group if you cannot field an entire team. This is your chance to multitask and do six things at once:
+1.    Have fun!
+2.    Meet with the management and sales team at Imc in a relaxed environment.  
+3.    Enjoy a nice day.
+4.    Pick up some golf swag.
+5.    Contests and prizes.
+6.    Support two outstanding organizations: Leary Foundation and C.O.P.S. 
+
+If you have any questions, please contact David Bell via email at david.bell@tritech.com or by phone at 774-239-3722. 
+
+Register here:
+&lt;http://offers.tritech.com/2012_CustomerGolfTournament_Registration.html&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

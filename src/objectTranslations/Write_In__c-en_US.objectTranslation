@@ -1,0 +1,2050 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Write-In</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Write-In</value>
+    </caseValues>
+    <fields>
+        <label><!-- Action Summary Documented and Attached --></label>
+        <name>Action_Summary_Documented_and_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Action Taken or Cancellation Reason --></label>
+        <name>Action_Taken_or_Cancellation_Reason__c</name>
+    </fields>
+    <fields>
+        <label><!-- Actual Opportunity Value --></label>
+        <name>Actual_Opportunity_Value__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checkbox to track which write-ins have been added to the quoting tool. --></help>
+        <label><!-- Added to Quote --></label>
+        <name>Added_to_Quote__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Hardware/System Required --></label>
+        <name>Additional_Hardware_System_Required__c</name>
+    </fields>
+    <fields>
+        <help><!-- If necessary, enter any additional information required to complete this CWI request.  These are internal notes back to the requestor. --></help>
+        <label><!-- Additional Information Required --></label>
+        <name>Additional_Information_Required__c</name>
+    </fields>
+    <fields>
+        <label><!-- Additional Notes --></label>
+        <name>Additional_Notes__c</name>
+    </fields>
+    <fields>
+        <help><!-- If closed: Date of Request to Completed date. If Open: Date of Request to Today --></help>
+        <label><!-- Age of Request --></label>
+        <name>Age_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Contact Name --></label>
+        <name>Agency_Contact_Name__c</name>
+        <relationshipLabel><!-- Write-In --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Agency Contact Phone --></label>
+        <name>Agency_Contact_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency State --></label>
+        <name>Agency_State__c</name>
+    </fields>
+    <fields>
+        <label><!-- Agency Type --></label>
+        <name>Agency_Type__c</name>
+        <picklistValues>
+            <masterLabel>911</masterLabel>
+            <translation><!-- 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Billing Services</masterLabel>
+            <translation><!-- Billing Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Business Partner</masterLabel>
+            <translation><!-- Business Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Channel Partner</masterLabel>
+            <translation><!-- Channel Partner --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>City</masterLabel>
+            <translation><!-- City --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>College/University</masterLabel>
+            <translation><!-- College/University --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Combination</masterLabel>
+            <translation><!-- Combination --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Corrections</masterLabel>
+            <translation><!-- Corrections --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>County</masterLabel>
+            <translation><!-- County --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DOT</masterLabel>
+            <translation><!-- DOT --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DPS</masterLabel>
+            <translation><!-- DPS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>EMS</masterLabel>
+            <translation><!-- EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Federal</masterLabel>
+            <translation><!-- Federal --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire</masterLabel>
+            <translation><!-- Fire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire/EMS</masterLabel>
+            <translation><!-- Fire/EMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hospital</masterLabel>
+            <translation><!-- Hospital --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail</masterLabel>
+            <translation><!-- Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Military</masterLabel>
+            <translation><!-- Military --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Agency</masterLabel>
+            <translation><!-- Multi-Agency --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Partner/Vendor</masterLabel>
+            <translation><!-- Partner/Vendor --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Police</masterLabel>
+            <translation><!-- Police --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Prison</masterLabel>
+            <translation><!-- Prison --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>School</masterLabel>
+            <translation><!-- School --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Sheriff</masterLabel>
+            <translation><!-- Sheriff --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>State</masterLabel>
+            <translation><!-- State --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Systems Integrator</masterLabel>
+            <translation><!-- Systems Integrator --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Agency --></label>
+        <name>Agency__c</name>
+    </fields>
+    <fields>
+        <label><!-- Any Pricing Assumptions --></label>
+        <name>Any_Pricing_Assumptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Are Product Modifications Required --></label>
+        <name>Are_Product_Modifications_Required__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Assigned To --></label>
+        <name>Assigned_To__c</name>
+        <relationshipLabel><!-- Write-In (Assigned To) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Assignment Complete --></label>
+        <name>Assignment_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Availability? --></label>
+        <name>Availability__c</name>
+        <picklistValues>
+            <masterLabel>99.9%</masterLabel>
+            <translation><!-- 99.9% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99.99%</masterLabel>
+            <translation><!-- 99.99% --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>99.999%</masterLabel>
+            <translation><!-- 99.999% --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- BA/PdM Analysis &amp; Design Hours --></label>
+        <name>BA_PdM_Analysis_Design_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- This box supports the contract capture process by identifying which final CWI&apos;s are included. It is checked by default on all CWI&apos;s. Unchecking the box excludes the CWI in the final contract, especially when the CWI is associated with an RFx. --></help>
+        <label><!-- CWI Deliverable --></label>
+        <name>CWI_Deliverable__c</name>
+    </fields>
+    <fields>
+        <label><!-- CWI Status --></label>
+        <name>CWI_Status__c</name>
+        <picklistValues>
+            <masterLabel>Approved - Assigned</masterLabel>
+            <translation><!-- Approved - Assigned --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Cancelled</masterLabel>
+            <translation><!-- Cancelled --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Complete</masterLabel>
+            <translation><!-- Complete --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Denied</masterLabel>
+            <translation><!-- Denied --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Draft</masterLabel>
+            <translation><!-- Draft --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>In Progress</masterLabel>
+            <translation><!-- In Progress --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Open</masterLabel>
+            <translation><!-- Open --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pending Additional Information</masterLabel>
+            <translation><!-- Pending Additional Information --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Submitted</masterLabel>
+            <translation><!-- Submitted --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Must be answered for all Tiburon CWI requests. If no, CWI will be denied. --></help>
+        <label><!-- Can be delivered prior to end of 2016? --></label>
+        <name>Can_be_delivered_prior_to_end_of_2016__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- 1-Simple export;TT format;single mod
+2-Export/import;TT format;defined interval w/o ext validation
+3-Data exchange w/o ext validation;trigger or event single mod
+4-External submission w/validation
+5-Mod complex w/some validation
+6-Complex exchange --></help>
+        <label><!-- Category Interface --></label>
+        <name>Category_Interface__c</name>
+        <picklistValues>
+            <masterLabel>Category 1</masterLabel>
+            <translation><!-- Category 1 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 2</masterLabel>
+            <translation><!-- Category 2 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 3</masterLabel>
+            <translation><!-- Category 3 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 4</masterLabel>
+            <translation><!-- Category 4 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 5</masterLabel>
+            <translation><!-- Category 5 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Category 6</masterLabel>
+            <translation><!-- Category 6 --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Completed By --></label>
+        <name>Completed_By__c</name>
+        <relationshipLabel><!-- Write-In (Completed By) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Completed Functional Matrix with Comment --></label>
+        <name>Completed_Functional_Matrix_with_Comment__c</name>
+    </fields>
+    <fields>
+        <label><!-- Configuration Request Form Attached? --></label>
+        <name>Configuration_Request_Form_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current RMS Production Svr OS Version --></label>
+        <name>Current_RMS_Production_Svr_OS_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current RMS Production Svr SQL Version --></label>
+        <name>Current_RMS_Production_Svr_SQL_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- Current VisionRMS Modules Used: --></label>
+        <name>Current_VisionRMS_Modules_Used__c</name>
+        <picklistValues>
+            <masterLabel>Arrest</masterLabel>
+            <translation><!-- Arrest --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Bicycle Registration</masterLabel>
+            <translation><!-- Bicycle Registration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Case Management</masterLabel>
+            <translation><!-- Case Management --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Citation</masterLabel>
+            <translation><!-- Citation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Civil</masterLabel>
+            <translation><!-- Civil --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custody</masterLabel>
+            <translation><!-- Custody --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DMV (Crash)</masterLabel>
+            <translation><!-- DMV (Crash) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Field Interview</masterLabel>
+            <translation><!-- Field Interview --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gun Permits</masterLabel>
+            <translation><!-- Gun Permits --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Incident</masterLabel>
+            <translation><!-- Incident --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Intelligence</masterLabel>
+            <translation><!-- Intelligence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Log</masterLabel>
+            <translation><!-- Log --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Pawn Ticket</masterLabel>
+            <translation><!-- Pawn Ticket --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Property and Evidence</masterLabel>
+            <translation><!-- Property and Evidence --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tow/Impound</masterLabel>
+            <translation><!-- Tow/Impound --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Warrants</masterLabel>
+            <translation><!-- Warrants --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Custom Engineering Services --></label>
+        <name>Custom_Engineering_Services__c</name>
+    </fields>
+    <fields>
+        <label><!-- Data Transfer Action --></label>
+        <name>Data_Transfer_Action__c</name>
+        <picklistValues>
+            <masterLabel>Real-Time</masterLabel>
+            <translation><!-- Real-Time --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Schedule/Batch</masterLabel>
+            <translation><!-- Schedule/Batch --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Trigger</masterLabel>
+            <translation><!-- Trigger --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Date Completed --></label>
+        <name>Date_Completed__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date Sent to Engineering --></label>
+        <name>Date_Sent_to_Engineering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Date of Request --></label>
+        <name>Date_of_Request__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe Objective of the Needed Support --></label>
+        <name>Describe_Objective_of_the_Needed_Support__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe any Special Requirements --></label>
+        <name>Describe_any_Special_Requirements__c</name>
+    </fields>
+    <fields>
+        <label><!-- Describe the Expected User Experience --></label>
+        <name>Describe_the_Expected_User_Experience__c</name>
+    </fields>
+    <fields>
+        <label><!-- Disaster Recovery? --></label>
+        <name>Disaster_Recovery__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Documentation &amp; Translation Hours --></label>
+        <name>Documentation_Translation_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Does Client Currently Use Barcoding? --></label>
+        <name>Does_Client_Currently_Use_Barcoding__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Client Currently Use GeoComm? --></label>
+        <name>Does_Client_Currently_Use_GeoComm__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Client Currently Use IQ? --></label>
+        <name>Does_Client_Currently_Use_IQ__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Client Currently Use VisionCAD? --></label>
+        <name>Does_Client_Currently_Use_VisionCAD__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Client Currently Use VisionFBR? --></label>
+        <name>Does_Client_Currently_Use_VisionFBR__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Client Currently Use VisionJAIL? --></label>
+        <name>Does_Client_Currently_Use_VisionJAIL__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Clients using VisionMobile &amp; VisionFBR: Verify if their state receives parsed DMV returns: CA, CT, FL, GA, IL, IN, MI, MN, NC, OH, PA, SC, TN, TX, VA, WI, WV
+If yes, they will be required to purchase services to implement TTMS to prevent data losses --></help>
+        <label><!-- Does Client Currently Use VisionMobile? --></label>
+        <name>Does_Client_Currently_Use_VisionMobile__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Does Client have Test/Training for RMS? --></label>
+        <name>Does_Client_have_Test_Training_for_RMS__c</name>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test</masterLabel>
+            <translation><!-- Test --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Test and Training</masterLabel>
+            <translation><!-- Test and Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Dummyrecordtouchfield --></label>
+        <name>Dummyrecordtouchfield__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email - Opportunity Owner Manager --></label>
+        <name>Email_Opportunity_Owner_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email - Opportunity Owner --></label>
+        <name>Email_Opportunity_Owner__c</name>
+    </fields>
+    <fields>
+        <label><!-- Email - Opportunity Pricing Manager --></label>
+        <name>Email_Opportunity_Pricing_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Engineering Hours --></label>
+        <name>Engineering_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- For CWIs involving FACTS/IMS and Copperfire: More than 120 hours exceeds the permissible effort cap. Reduce hours or deny CWI. --></help>
+        <label><!-- Exceeds Permissible Effort Cap --></label>
+        <name>Exceeds_Permissible_Effort_Cap__c</name>
+    </fields>
+    <fields>
+        <label><!-- GSA PM Cost --></label>
+        <name>GSA_PM_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- GSA PM List Price --></label>
+        <name>GSA_PM_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Grant Funded Interface? --></label>
+        <name>Grant_Funded_Interface__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Hardware Cost --></label>
+        <name>Hardware_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware Documentation Attached? --></label>
+        <name>Hardware_Documentation_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Hardware List Price --></label>
+        <name>Hardware_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- How many depts use VisionRMS today? --></label>
+        <name>How_many_depts_use_VisionRMS_today__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checking this box will ensure that this quote is protected by Nutanix through eGroup. --></help>
+        <label><!-- Hyperconverged Nutanix Quoted --></label>
+        <name>Hyperconverged_Nutanix_Quoted__c</name>
+    </fields>
+    <fields>
+        <label><!-- If client uses IQ, what version? --></label>
+        <name>If_client_uses_IQ_what_version__c</name>
+    </fields>
+    <fields>
+        <label><!-- If client uses VisionJAIL, what version? --></label>
+        <name>If_client_uses_VisionJAIL_what_version__c</name>
+    </fields>
+    <fields>
+        <label><!-- If not using NIBRS, planning to migrate? --></label>
+        <name>If_not_using_NIBRS_planning_to_migrate__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Inform PM Cost --></label>
+        <name>Inform_PM_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Inform PM List Price --></label>
+        <name>Inform_PM_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Interface Direction --></label>
+        <name>Interface_Direction__c</name>
+        <picklistValues>
+            <masterLabel>Bidirectional</masterLabel>
+            <translation><!-- Bidirectional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Import</masterLabel>
+            <translation><!-- Import --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Publish</masterLabel>
+            <translation><!-- Publish --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Internal Engineering Notes --></label>
+        <name>Internal_Engineering_Notes__c</name>
+    </fields>
+    <fields>
+        <label><!-- Is Client Currently Using NIBRS? --></label>
+        <name>Is_Client_Currently_Using_NIBRS__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Itemized List of RFP Exceptions --></label>
+        <name>Itemized_List_of_RFP_Exceptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Itemized Price Quotation --></label>
+        <name>Itemized_Price_Quotation__c</name>
+    </fields>
+    <fields>
+        <label><!-- Known Hardware Vendor Preference --></label>
+        <name>Known_Hardware_Vendor_Preference__c</name>
+        <picklistValues>
+            <masterLabel>Cisco</masterLabel>
+            <translation><!-- Cisco --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Dell</masterLabel>
+            <translation><!-- Dell --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>HP</masterLabel>
+            <translation><!-- HP --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IBM</masterLabel>
+            <translation><!-- IBM --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>None</masterLabel>
+            <translation><!-- None --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Nutanix</masterLabel>
+            <translation><!-- Nutanix --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Stratus</masterLabel>
+            <translation><!-- Stratus --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Is Multi-Jurisdiction or Multi-Agency Support required? --></help>
+        <label><!-- Multi-Jurisdiction/Agency Support? --></label>
+        <name>Multi_Jurisdiction_Agency_Support__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- When TriTech Product Involved = Multi-Product, you must select the applicable products --></help>
+        <label><!-- Multi-Products --></label>
+        <name>Multi_Products__c</name>
+        <picklistValues>
+            <masterLabel>CAD 2000/Unix CAD</masterLabel>
+            <translation><!-- CAD 2000/Unix CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copperfire</masterLabel>
+            <translation><!-- Copperfire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeView Dashboard</masterLabel>
+            <translation><!-- CrimeView Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crimemapping.com</masterLabel>
+            <translation><!-- Crimemapping.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DN CAD/Mobile</masterLabel>
+            <translation><!-- DN CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FACTS/IMS</masterLabel>
+            <translation><!-- FACTS/IMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireView Dashboard</masterLabel>
+            <translation><!-- FireView Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ Search</masterLabel>
+            <translation><!-- IQ Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform CAD</masterLabel>
+            <translation><!-- Inform CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform CAD Archive Server</masterLabel>
+            <translation><!-- Inform CAD Archive Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform FBR</masterLabel>
+            <translation><!-- Inform FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Jail</masterLabel>
+            <translation><!-- Inform Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Me</masterLabel>
+            <translation><!-- Inform Me --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Mobile</masterLabel>
+            <translation><!-- Inform Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform RMS Classic</masterLabel>
+            <translation><!-- Inform RMS Classic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS</masterLabel>
+            <translation><!-- Inform Web RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS - Hosted</masterLabel>
+            <translation><!-- Inform Web RMS - Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS GIS</masterLabel>
+            <translation><!-- Inform Web RMS GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS GIS - Hosted</masterLabel>
+            <translation><!-- Inform Web RMS GIS - Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS Reporting Server</masterLabel>
+            <translation><!-- Inform Web RMS Reporting Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS Reporting Server - Hosted</masterLabel>
+            <translation><!-- Inform Web RMS Reporting Server - Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsemapping.com</masterLabel>
+            <translation><!-- Responsemapping.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC CAD</masterLabel>
+            <translation><!-- TC CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC Mobile</masterLabel>
+            <translation><!-- TC Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC RMS</masterLabel>
+            <translation><!-- TC RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TTMS</masterLabel>
+            <translation><!-- TTMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech 911</masterLabel>
+            <translation><!-- TriTech 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionCAD</masterLabel>
+            <translation><!-- VisionCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionMOBILE</masterLabel>
+            <translation><!-- VisionMOBILE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Needed By Date --></label>
+        <name>Needed_By_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity ID --></label>
+        <name>Opportunity_ID__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Name --></label>
+        <name>Opportunity_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Owner Manager --></label>
+        <name>Opportunity_Owner_Manager__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Price Book --></label>
+        <name>Opportunity_Price_Book__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity Stage --></label>
+        <name>Opportunity_Stage__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Custom Write-Ins --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Other Hours --></label>
+        <name>Other_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- PMO Hours --></label>
+        <name>PMO_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- PM Duration (Months) --></label>
+        <name>PM_Duration_Months__c</name>
+    </fields>
+    <fields>
+        <label><!-- PM Percent Allocation --></label>
+        <name>PM_Percent_Allocation__c</name>
+    </fields>
+    <fields>
+        <help><!-- Checking this box triggers the email to the requestor that the quote is complete and the requestor can now add pricing to their associated quote, if applicable. --></help>
+        <label><!-- PRICE QUOTE COMPLETE --></label>
+        <name>PRICE_QUOTE_COMPLETE__c</name>
+    </fields>
+    <fields>
+        <label><!-- Payment Terms --></label>
+        <name>Payment_Terms__c</name>
+    </fields>
+    <fields>
+        <label><!-- Please list all departments: --></label>
+        <name>Please_list_all_departments__c</name>
+    </fields>
+    <fields>
+        <label><!-- Price Book Chosen --></label>
+        <name>Price_Book_Chosen__c</name>
+    </fields>
+    <fields>
+        <label><!-- Pricing Validity Period --></label>
+        <name>Pricing_Validity_Period__c</name>
+    </fields>
+    <fields>
+        <label><!-- Product Line --></label>
+        <name>Product_Line__c</name>
+        <picklistValues>
+            <masterLabel>DispatchNow</masterLabel>
+            <translation><!-- DispatchNow --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform</masterLabel>
+            <translation><!-- Inform --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Total Command</masterLabel>
+            <translation><!-- Total Command --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionAIR</masterLabel>
+            <translation><!-- VisionAIR --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Product and/or Service Descriptions --></label>
+        <name>Product_and_or_Service_Descriptions__c</name>
+    </fields>
+    <fields>
+        <label><!-- Quote Documented and Attached --></label>
+        <name>Quote_Documented_and_Attached__c</name>
+    </fields>
+    <fields>
+        <help><!-- Check this box to submit the write-in request to the appropriate internal team member for quoting. --></help>
+        <label><!-- REQUEST COMPLETE --></label>
+        <name>REQUEST_COMPLETE__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Name --></label>
+        <name>RFP_Name__c</name>
+    </fields>
+    <fields>
+        <label><!-- RFP Reference Section --></label>
+        <name>RFP_Reference_Section__c</name>
+    </fields>
+    <fields>
+        <help><!-- Associate CWI to another related CWI. --></help>
+        <label><!-- Related CWI --></label>
+        <name>Related_CWI__c</name>
+        <relationshipLabel><!-- Write-In (Related CWI) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Related Write-In --></label>
+        <name>Related_Write_In__c</name>
+        <relationshipLabel><!-- Write-In --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Request Type --></label>
+        <name>Request_Type__c</name>
+        <picklistValues>
+            <masterLabel>911 BOM Change</masterLabel>
+            <translation><!-- 911 BOM Change --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>911 Data Conversion</masterLabel>
+            <translation><!-- 911 Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Add-on</masterLabel>
+            <translation><!-- Add-on --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>BA</masterLabel>
+            <translation><!-- BA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD Data Conversion</masterLabel>
+            <translation><!-- CAD Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CAD GIS Data Conversion</masterLabel>
+            <translation><!-- CAD GIS Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client Call</masterLabel>
+            <translation><!-- Client Call --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Client On-Site</masterLabel>
+            <translation><!-- Client On-Site --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Contract Capture</masterLabel>
+            <translation><!-- Contract Capture --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Custom Interface</masterLabel>
+            <translation><!-- Custom Interface --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DBA</masterLabel>
+            <translation><!-- DBA --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DR</masterLabel>
+            <translation><!-- DR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Data Conversion</masterLabel>
+            <translation><!-- Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>GIS</masterLabel>
+            <translation><!-- GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hardware</masterLabel>
+            <translation><!-- Hardware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ Search Data Conversion</masterLabel>
+            <translation><!-- IQ Search Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation</masterLabel>
+            <translation><!-- Installation --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Installation - Hosted RMS</masterLabel>
+            <translation><!-- Installation - Hosted RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Integrated Solutions</masterLabel>
+            <translation><!-- Integrated Solutions --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Internal Technical Support</masterLabel>
+            <translation><!-- Internal Technical Support --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Jail Data Conversion</masterLabel>
+            <translation><!-- Jail Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Migration</masterLabel>
+            <translation><!-- Migration --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Product Modification</masterLabel>
+            <translation><!-- Product Modification --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Project Management Fees</masterLabel>
+            <translation><!-- Project Management Fees --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RFP/RFI</masterLabel>
+            <translation><!-- RFP/RFI --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>RMS Data Conversion</masterLabel>
+            <translation><!-- RMS Data Conversion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Re-Host</masterLabel>
+            <translation><!-- Re-Host --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Refresh</masterLabel>
+            <translation><!-- Refresh --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>SOW and/or Project Schedule</masterLabel>
+            <translation><!-- SOW and/or Project Schedule --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Security Questionnaire</masterLabel>
+            <translation><!-- Security Questionnaire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Services</masterLabel>
+            <translation><!-- Services --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>System Engineering</masterLabel>
+            <translation><!-- System Engineering --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Third Party</masterLabel>
+            <translation><!-- Third Party --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Tiburon Server/OS Upgrade</masterLabel>
+            <translation><!-- Tiburon Server/OS Upgrade --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Training</masterLabel>
+            <translation><!-- Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>UCR to NIBRS</masterLabel>
+            <translation><!-- UCR to NIBRS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Upgrade</masterLabel>
+            <translation><!-- Upgrade --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- Checkbox field for write-in reviewer to notate if the write-in has been reviewed but is not yet complete --></help>
+        <label><!-- Reviewed --></label>
+        <name>Reviewed__c</name>
+    </fields>
+    <fields>
+        <label><!-- SOW Language --></label>
+        <name>SOW_Language__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the internal staff member who should receive and complete this request. --></help>
+        <label><!-- Send Request To: --></label>
+        <name>Send_Request_To__c</name>
+        <relationshipLabel><!-- Write-In (Send Request To:) --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Send to Engineering --></label>
+        <name>Send_to_Engineering__c</name>
+    </fields>
+    <fields>
+        <label><!-- Services Recommended: --></label>
+        <name>Services_Recommended__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Services Write-In Cost --></label>
+        <name>Services_Write_In_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Project Services Write-In List Price --></label>
+        <name>Services_Write_In_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Special Considerations --></label>
+        <name>Special_Considerations__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter the system integration fee for this custom write-in if applicable. --></help>
+        <label><!-- System Integration Fee --></label>
+        <name>System_Integration_Fee__c</name>
+    </fields>
+    <fields>
+        <label><!-- TFS Work Item --></label>
+        <name>TFS_Work_Item__c</name>
+    </fields>
+    <fields>
+        <label><!-- TTRequestor --></label>
+        <name>TTRequestor__c</name>
+    </fields>
+    <fields>
+        <label><!-- Target Implementation Date --></label>
+        <name>Target_Implementation_Date__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Cancelled --></label>
+        <name>Task_Cancelled__c</name>
+    </fields>
+    <fields>
+        <label><!-- Task Complete --></label>
+        <name>Task_Complete__c</name>
+    </fields>
+    <fields>
+        <label><!-- Tech Hours --></label>
+        <name>Tech_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Testing/Training? --></label>
+        <name>Testing_Training__c</name>
+        <picklistValues>
+            <masterLabel>Combined Test/Training</masterLabel>
+            <translation><!-- Combined Test/Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>N/A</masterLabel>
+            <translation><!-- N/A --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Test/Training</masterLabel>
+            <translation><!-- No Test/Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Separate Test/Training</masterLabel>
+            <translation><!-- Separate Test/Training --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Third Party Contact Name --></label>
+        <name>Third_Party_Contact_Name__c</name>
+    </fields>
+    <fields>
+        <help><!-- Are Third Party Documentation Attached?  (API; sample files, etc.) --></help>
+        <label><!-- Third Party Documentation Attached? --></label>
+        <name>Third_Party_Documentation_Attached__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Email --></label>
+        <name>Third_Party_Email__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Phone --></label>
+        <name>Third_Party_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Vendor Identified? --></label>
+        <name>Third_Party_Vendor_Identified__c</name>
+    </fields>
+    <fields>
+        <label><!-- Third Party Vendor Product Version --></label>
+        <name>Third_Party_Vendor_Product_Version__c</name>
+    </fields>
+    <fields>
+        <help><!-- Enter third party vendor name --></help>
+        <label><!-- Third Party Vendor --></label>
+        <name>Third_Party_Vendor__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total Cost for the write-in estimate --></help>
+        <label><!-- Third Party Write-In Cost --></label>
+        <name>Third_Party_Write_In_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total List Price for the write-in estimate --></help>
+        <label><!-- Third Party Write-In List Price --></label>
+        <name>Third_Party_Write_In_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Title --></label>
+        <name>Title__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalISCost --></label>
+        <name>TotalISCost__c</name>
+    </fields>
+    <fields>
+        <label><!-- TotalISList --></label>
+        <name>TotalISList__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of quoted hours for custom DBA Services --></help>
+        <label><!-- Total DBA Hours --></label>
+        <name>Total_DBA_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto-calculated using the total number of DBA hours entered x $65/hour --></help>
+        <label><!-- Total DBA Services Cost --></label>
+        <name>Total_DBA_Services_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Auto-calculated using the total number of DBA hours entered x $175/hour --></help>
+        <label><!-- Total DBA Services List Price --></label>
+        <name>Total_DBA_Services_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Hours --></label>
+        <name>Total_Hours__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Integrated Solution Cost --></label>
+        <name>Total_Integrated_Solution_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Integrated Solution List Price --></label>
+        <name>Total_Integrated_Solution_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Product Modification Cost --></label>
+        <name>Total_Product_Modification_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Product Modification List Price --></label>
+        <name>Total_Product_Modification_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tiburon CWI Cost --></label>
+        <name>Total_Tiburon_CWI_Cost__c</name>
+    </fields>
+    <fields>
+        <label><!-- Total Tiburon CWI List Price --></label>
+        <name>Total_Tiburon_CWI_List_Price__c</name>
+    </fields>
+    <fields>
+        <label><!-- Training Hours --></label>
+        <name>Training_Hours__c</name>
+    </fields>
+    <fields>
+        <help><!-- Travel calculations must be entered with list and cost the same. --></help>
+        <label><!-- Travel List Price / Cost --></label>
+        <name>Travel_List_Price_Cost__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of staff traveling including PM --></help>
+        <label><!-- Travel - # of Staff Traveling --></label>
+        <name>Travel_of_Staff_Traveling__c</name>
+    </fields>
+    <fields>
+        <help><!-- Total number of travel days, including travel to site --></help>
+        <label><!-- Travel - # of Travel Days --></label>
+        <name>Travel_of_Travel_Days__c</name>
+    </fields>
+    <fields>
+        <label><!-- Travel - # of Trips --></label>
+        <name>Travel_of_Trips__c</name>
+    </fields>
+    <fields>
+        <help><!-- Product version currently installed or to be installed --></help>
+        <label><!-- TriTech Product Version --></label>
+        <name>TriTech_Product_Version__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Product Involved --></label>
+        <name>TriTech_Products_Involved__c</name>
+        <picklistValues>
+            <masterLabel>CAD 2000/Unix CAD</masterLabel>
+            <translation><!-- CAD 2000/Unix CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CJIS Cloud Storage</masterLabel>
+            <translation><!-- CJIS Cloud Storage --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Copperfire</masterLabel>
+            <translation><!-- Copperfire --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>CrimeView Dashboard</masterLabel>
+            <translation><!-- CrimeView Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Crimemapping.com</masterLabel>
+            <translation><!-- Crimemapping.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>DN CAD/Mobile</masterLabel>
+            <translation><!-- DN CAD/Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FACTS/IMS</masterLabel>
+            <translation><!-- FACTS/IMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Fire Records</masterLabel>
+            <translation><!-- Fire Records --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>FireView Dashboard</masterLabel>
+            <translation><!-- FireView Dashboard --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>IQ Search</masterLabel>
+            <translation><!-- IQ Search --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform CAD</masterLabel>
+            <translation><!-- Inform CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform CAD Archive Server</masterLabel>
+            <translation><!-- Inform CAD Archive Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform FBR</masterLabel>
+            <translation><!-- Inform FBR --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Jail</masterLabel>
+            <translation><!-- Inform Jail --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Me</masterLabel>
+            <translation><!-- Inform Me --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Mobile</masterLabel>
+            <translation><!-- Inform Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform RMS Classic</masterLabel>
+            <translation><!-- Inform RMS Classic --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS</masterLabel>
+            <translation><!-- Inform Web RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS - Hosted</masterLabel>
+            <translation><!-- Inform Web RMS - Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS GIS</masterLabel>
+            <translation><!-- Inform Web RMS GIS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS GIS - Hosted</masterLabel>
+            <translation><!-- Inform Web RMS GIS - Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS Reporting Server</masterLabel>
+            <translation><!-- Inform Web RMS Reporting Server --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inform Web RMS Reporting Server - Hosted</masterLabel>
+            <translation><!-- Inform Web RMS Reporting Server - Hosted --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Multi-Product</masterLabel>
+            <translation><!-- Multi-Product --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Other</masterLabel>
+            <translation><!-- Other --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Respond</masterLabel>
+            <translation><!-- Respond --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsemapping.com</masterLabel>
+            <translation><!-- Responsemapping.com --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC CAD</masterLabel>
+            <translation><!-- TC CAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC Mobile</masterLabel>
+            <translation><!-- TC Mobile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TC RMS</masterLabel>
+            <translation><!-- TC RMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TTMS</masterLabel>
+            <translation><!-- TTMS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>TriTech 911</masterLabel>
+            <translation><!-- TriTech 911 --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionCAD</masterLabel>
+            <translation><!-- VisionCAD --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VisionMOBILE</masterLabel>
+            <translation><!-- VisionMOBILE --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- TriTech Requestor Phone --></label>
+        <name>TriTech_Requestor_Phone__c</name>
+    </fields>
+    <fields>
+        <label><!-- TriTech Requestor --></label>
+        <name>TriTech_Requestor__c</name>
+        <relationshipLabel><!-- Write-In (TriTech Requestor) --></relationshipLabel>
+    </fields>
+    <fields>
+        <help><!-- Select &quot;Yes&quot; if the non-TriTech systems will send a trigger event to the Tritech system indication data is available for exchange. --></help>
+        <label><!-- Trigger Event --></label>
+        <name>Trigger_Event__c</name>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Virtualized? --></label>
+        <name>Virtualized__c</name>
+        <picklistValues>
+            <masterLabel>Acropolis</masterLabel>
+            <translation><!-- Acropolis --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Conventional</masterLabel>
+            <translation><!-- Conventional --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hyper-V (not supported)</masterLabel>
+            <translation><!-- Hyper-V (not supported) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No</masterLabel>
+            <translation><!-- No --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Unknown</masterLabel>
+            <translation><!-- Unknown --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VMware</masterLabel>
+            <translation><!-- VMware --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Yes</masterLabel>
+            <translation><!-- Yes --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Warranty/Maintenance Pricing --></label>
+        <name>Warranty_Maintenance_Pricing__c</name>
+    </fields>
+    <fields>
+        <label><!-- Write-In Description --></label>
+        <name>Write_In_Description__c</name>
+    </fields>
+    <fields>
+        <label><!-- 911 BOM Change Type --></label>
+        <name>X911_BOM_Change_Type__c</name>
+        <picklistValues>
+            <masterLabel>Major</masterLabel>
+            <translation><!-- Major --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Minor</masterLabel>
+            <translation><!-- Minor --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <help><!-- This box should be checked if this request is a Zuercher opportunity or project estimate. --></help>
+        <label><!-- Zuercher Project --></label>
+        <name>Zuercher_Project__c</name>
+    </fields>
+    <fields>
+        <label><!-- # of Users --></label>
+        <name>of_Users__c</name>
+    </fields>
+    <layouts>
+        <layout>Hardware Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  HARDWARE SOLUTION - - - -  --></label>
+            <section>---- HARDWARE SOLUTION ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation --></label>
+            <section>Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- FDD Documentation --></label>
+            <section>FDD Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- Requestor Info --></label>
+            <section>Requestor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Inform Web RMS Upgrade Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  OPERATIONS - - - -  --></label>
+            <section>---- OPERATIONS ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR:  RMS Web Migration Checklist - - - -  --></label>
+            <section>---- REQUESTOR:  RMS Web Migration Checklist ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Integrated Solutions Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Requestor Info --></label>
+            <section>Requestor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Reviewed or Additional Info Needed --></label>
+            <section>Reviewed or Additional Info Needed</section>
+        </sections>
+        <sections>
+            <label><!-- WORK ESTIMATE (IN HOURS) --></label>
+            <section>WORK ESTIMATE (IN HOURS)</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Product Modification Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Requestor Info --></label>
+            <section>Requestor Info</section>
+        </sections>
+        <sections>
+            <label><!-- WORK ESTIMATE (IN HOURS) --></label>
+            <section>WORK ESTIMATE (IN HOURS)</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Project Services Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- FDD Documentation --></label>
+            <section>FDD Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Requestor Info --></label>
+            <section>Requestor Info</section>
+        </sections>
+        <sections>
+            <label><!-- SERVICES WRITE-IN --></label>
+            <section>SERVICES WRITE-IN</section>
+        </sections>
+        <sections>
+            <label><!-- Services --></label>
+            <section>Services</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Solution Architect - Assistance Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - RESOLUTION - - - --></label>
+            <section>--- RESOLUTION ---</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR - - - -  --></label>
+            <section>---- REQUESTOR ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Solution Architect - Interfaces Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  SOLUTION ARCHITECT Section - - - -  --></label>
+            <section>---- SOLUTION ARCHITECT Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- FDD Documentation --></label>
+            <section>FDD Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- New Section --></label>
+            <section>New Section</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Third Party Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Documentation --></label>
+            <section>Documentation</section>
+        </sections>
+        <sections>
+            <label><!-- THIRD PARTY SOLUTION --></label>
+            <section>THIRD PARTY SOLUTION</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tiburon Integrated Solutions Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Requestor Info --></label>
+            <section>Requestor Info</section>
+        </sections>
+        <sections>
+            <label><!-- Reviewed or Additional Info Needed --></label>
+            <section>Reviewed or Additional Info Needed</section>
+        </sections>
+        <sections>
+            <label><!-- WORK ESTIMATE (IN HOURS) --></label>
+            <section>WORK ESTIMATE (IN HOURS)</section>
+        </sections>
+        <sections>
+            <label><!-- Work Estimate Description --></label>
+            <section>Work Estimate Description</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>Tiburon Project Services Write-In Layout</layout>
+        <sections>
+            <label><!-- - - - -  ASSIGNED - - - -  --></label>
+            <section>---- ASSIGNED ----</section>
+        </sections>
+        <sections>
+            <label><!-- - - - -  REQUESTOR Section - - - -  --></label>
+            <section>---- REQUESTOR Section ----</section>
+        </sections>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+        <sections>
+            <label><!-- Description --></label>
+            <section>Description</section>
+        </sections>
+        <sections>
+            <label><!-- Requestor Info --></label>
+            <section>Requestor Info</section>
+        </sections>
+        <sections>
+            <label><!-- SERVICES WORK ESTIMATE (IN HOURS) --></label>
+            <section>SERVICES WORK ESTIMATE (IN HOURS)</section>
+        </sections>
+        <sections>
+            <label><!-- Services --></label>
+            <section>Services</section>
+        </sections>
+    </layouts>
+    <recordTypes>
+        <label><!-- Hardware --></label>
+        <name>Hardware</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Inform Web RMS Upgrade --></label>
+        <name>Inform_Web_RMS_Upgrade</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Integrated Solution --></label>
+        <name>Integrated_Solution</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Product Modification --></label>
+        <name>Product_Modification</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Project Services --></label>
+        <name>Project_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Solution Architect - Assistance Requests --></label>
+        <name>Solution_Architect_Assistance_Requests</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Solution Architect - Interfaces --></label>
+        <name>Solution_Architect_Interfaces</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tiburon Custom Product --></label>
+        <name>Tiburon_Integrated_Solution</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- Tiburon Services --></label>
+        <name>Tiburon_Project_Services</name>
+    </recordTypes>
+    <recordTypes>
+        <label><!-- 3rd Party --></label>
+        <name>X3rd_Party</name>
+    </recordTypes>
+    <startsWith>Consonant</startsWith>
+    <validationRules>
+        <errorMessage><!-- Please choose only one Request Type. --></errorMessage>
+        <name>Choose_one_Request_Type</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Completed By must be entered when the CWI is complete --></errorMessage>
+        <name>Completed_By_Must_Be_Completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For 911 BOM Changes, you must choose the type. --></errorMessage>
+        <name>HW_911_BOM_Type_must_be_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If client currently uses VisionJAIL, please specify the version. --></errorMessage>
+        <name>If_Client_Use_VisionJAIL_Specify_Version</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- If client currently uses IQ, please specify the version. --></errorMessage>
+        <name>If_Client_Uses_IQ_Specify_Version</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The Multi-Products field must be completed when &quot;Multi-Product&quot; is selected as the TriTech Product Involved. --></errorMessage>
+        <name>Multi_Products_field_must_be_completed</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type not available for product selected. --></errorMessage>
+        <name>Request_Type_not_available_InformBA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type not available for product selected. --></errorMessage>
+        <name>Request_Type_not_available_InformDBA</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type not available for product selected. --></errorMessage>
+        <name>Request_Type_not_available_InformGIS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type not available for product selected. --></errorMessage>
+        <name>Request_Type_not_available_InformSysEng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type not available for product selected. --></errorMessage>
+        <name>Request_Type_not_available_TCGIS</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Request Type not available for product selected. --></errorMessage>
+        <name>Request_Type_not_available_TCSysEng</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!--  For FACTS/IMS or Copperfire requests, the total hours included exceed the permissible effort cap (120 hours) for these products. Reduce hours or CWI will be denied automatically. --></errorMessage>
+        <name>Tib_CWI_120</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- For TE RMS, FACTS/IMS and Copperfire Custom Interface requests, you must answer whether the interface can be delivered prior to the end of 2016.  Note:  If the answer is no, the CWI will automatically be denied. --></errorMessage>
+        <name>Tiburon_Int_Solutions_Can_Be_Delivered</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- Tiburon Version Upgrades are no longer supported for TC RMS, DN CAD/Mobile, TE RMS, FACTS/IMS, or Copperfire.  Change the request type, the product involved in the request, or cancel the CWI. --></errorMessage>
+        <name>Tiburon_Project_Services_Version_Upgrade</name>
+    </validationRules>
+    <validationRules>
+        <errorMessage><!-- The TriTech Product Version field must be completed and cannot contain text. --></errorMessage>
+        <name>TriTech_Product_Version_Must_Be_Complete</name>
+    </validationRules>
+    <webLinks>
+        <label><!-- Custom_Interface_CAD_Category_4_FDD --></label>
+        <name>Custom_Interface_CAD_Category_4_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_CAD_Category_5_FDD --></label>
+        <name>Custom_Interface_CAD_Category_5_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_CAD_Category_6_FDD --></label>
+        <name>Custom_Interface_CAD_Category_6_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_Category_1_FDD --></label>
+        <name>Custom_Interface_Category_1_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_Category_2_FDD --></label>
+        <name>Custom_Interface_Category_2_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_Category_3_FDD --></label>
+        <name>Custom_Interface_Category_3_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_Category_4_FDD --></label>
+        <name>Custom_Interface_Category_4_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_Category_5_FDD --></label>
+        <name>Custom_Interface_Category_5_FDD</name>
+    </webLinks>
+    <webLinks>
+        <label><!-- Custom_Interface_Category_6_FDD --></label>
+        <name>Custom_Interface_Category_6_FDD</name>
+    </webLinks>
+</CustomObjectTranslation>

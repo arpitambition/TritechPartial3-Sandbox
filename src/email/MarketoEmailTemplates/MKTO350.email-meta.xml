@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q3_2012_CA.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 3rd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Third Quarterly TriTech Customer Newsletter.
+
+In the last issue &lt;http://offers.tritech.com/TriTechNews_Q2_2012_CA_Main.html&gt;, we highlighted a new logo, a multi-city customer VisiCAD 5.2 training, a new brand name, the TriCON annual conference agenda sneak peak, industry news and webinars, and client go-lives.
+
+In this edition, you will find important updates on products, documentation, technology, monthly customer service webinars, the tritech.com website, and TriCON. I encourage you to take a few minutes to review this information, and I’ll start off with a couple timely and important topics.
+
+I know that some of you were able to view the exciting new CAD user interface changes we unveiled at the NENA conference in Long Beach, CA. I encourage you to come see our team at the APCO Conference in Minneapolis, MN (August 19-21) where we will be demonstrating this new approach to CAD workflow. We will be doing a deep dive on this new approach to CAD call-taking and dispatch at TriCON and would love to have you there to review and provide feedback on this new functionality. 
+
+We also encourage all customers to be a part of this year’s TriTech Annual Users Conference (TriCON &lt;http://www.tritech.com/tricon&gt;) in San Diego on September 26-28. We’d love to visit with you in person about the exciting evolution happening with your software and work with you on developing the best use of it to accomplish your organizational goals. Please make sure to finalize your plans for APCO and TriCON soon.
+
+Thank you for the opportunity to serve as your public safety technology provider.
+
+ 
+
+ Michael D. Nabors, Senior VP of Operations
+ TriTech Software Systems
+
+
+
+
+
+ 
+ From the desk of Mark Hamilton, Senior Product Manager
+ Read about current software releases, system planning documents, and disaster recovery/backup server technology.
+[READ MORE]
+
+
+ 
+
+Top 10 Reasons to Attend TriCON
+
+Don&apos;t wait any longer! Save money and register by August 15th to take advantage of the early-bird discount. While there may be many more than 10 reasons to attend TriCON, here&apos;s some of the top ones...
+[TOP 10] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_CA_NewsandEvents.html&gt;
+
+
+
+
+ Regional Training: VisiCAD 5.2 Links to Training Documents
+Thank you to all our clients who attended the recent VisiCAD 5.2 Training seminars. Please reveiw this follow up information.
+[TRAINING DOCUMENTS]
+
+
+Monthly Customer Service Webinar Series
+Register now to make sure you’re signed up for the live monthly product educational sessions - ask questions and get your specific questions answered.
+[WEBINAR DATES]
+
+
+See Us at APCO and IACP 
+There is a revolution going on that you will want to be a part of! Stop by and learn more at APCO or IACP. 
+[FIND OUT MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_CA_NewsandEvents.html&gt; 
+
+
+
+Tritech.com - Newly Designed Website – Coming Soon!
+TriTech Software Systems will be unveiling their newly designed website this month. A fresh, crisp design with simplified navigation and TriTech&apos;s complete product offerings, aligned under four new product suites...
+[LEARN MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_CA_NewsandEvents.html&gt;
+
+Upcoming Holiday Closings
+View our holiday schedule.
+[VIEW HERE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_NC_Support.html&gt;
+&gt; Main
+
+ &gt; Products
+
+ &gt; Support
+
+ &gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q3_2012_CA_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call Toll Free
+(800) 847-4223
+
+
+
+
+To Access the Client Login
+
+
+ &lt;https://myvisinet.tritech.com/&gt;
+
+
+
+ACCOUNT MANAGERS
+ 
+
+Ken Schulte
+(858) 799-7316
+ken.schulte@tritech.com
+
+Sally Olson-Nelson
+(858) 799-7358
+sally.olson-nelson@tritech.com
+
+
+
+
+
+**Early bird registration has been extended to August 15th. Register Today!
+
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

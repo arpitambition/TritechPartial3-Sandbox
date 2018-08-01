@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>CwK.Reminder-30Min</name>
+    <style>none</style>
+    <subject>REMINDER - STARTING IN 30 MINUTES: Coffee With Kelly - Billing</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Coffee with Kelly - Billing
+REMINDER: Starting in 30 Minutes!
+Reminder: your Coffee with Kelly - Webinar starts in 30 minutes! We&apos;ll be discussing &quot;Dangers of Single Print&quot;
+
+
+Don&apos;t miss out on this month&apos;s tips for your Respond Billing or TriTech.com Billing software.
+DATE: Every Second Tuesday of the Month
+ TIME: 11:30 AM ET l 10:30 AM CT l 9:30 AM MT l 8:30 AM PT
+ PRESENTER: Kelly Wachal - TriTech Supervisor of Customer Service and Education
+AUDIO: Listen through your computer speakers or dial in over the telephone to the number shown on your screen after login
+ 
+
+ See you online!
+WEBINAR DETAILS
+JOIN LINK:
+
+{{member.webinar url:default=URL}}
+Questions?
+Contact: Cheri Lane, Marketing Communication Manager
+563-387-4858 |  cheri.lane@tritech.com &lt;mailto:cheri.lane@tritech.com&gt;
+
+
+﻿</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

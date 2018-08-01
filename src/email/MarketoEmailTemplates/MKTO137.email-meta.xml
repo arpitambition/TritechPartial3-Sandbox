@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VNS_DocumentationSurvey)_112011_Reminder(Fun)</name>
+    <style>none</style>
+    <subject>Are the VisiNet User and Admin Guides helpful?</subject>
+    <textOnly>DEADLINE EXTENDED - November 23, 2011
+VisiNet Solutions Documentation Survey
+
+Dear {{lead.First Name:default=Customer}},
+
+What do you think of our VisiNet User and Admin Guides - are they helpful?  Do you want us to incorporate more use case examples or see more online tutorials?  This is your chance to tell us what we can do to make our documentation more useful.  
+
+Please click this link (http://www.surveymonkey.com/s/2011-VisiNetDocumentation)  to complete a quick 5-minute documentation survey.  Thank you in advance for taking the time to provide us with your candid input. The survey will close Wednesday, November 23.  
+
+
+
+Sincerely,
+
+Yvonne Stringer
+Quality Assurance Manager
+TriTech Software Systems | VisiNet Solutions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+
+
+
+   
+
+
+
+This email was sent by TriTech Software Systems
+
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,22 @@
+<apex:component controller="IdeaVoteController" allowDml="true">
+    <apex:attribute name="idea" type="Idea" assignTo="{!conIdea}" required="true" description="The Idea object to vote on." />
+    <apex:attribute name="howUserVoted" type="String" assignTo="{!currentUserVoteType}" required="true" description="Identifies how the user voted on the idea. If Up, the user promoted the idea. If Down, the user demoted the idea.  If None, the user has not voted on the idea." />
+    <apex:attribute name="rerender" description="The area(s) of the page that are to be refreshed upon the action invocation." type="String"/>
+    <apex:attribute name="rowStartIndex" type="String" assignTo="{!curRowStart}" description="Current paging row start" />
+	
+	<apex:actionRegion renderRegionOnly="true" >
+		<apex:image id="theImage" value="{!profilePictureLink}" width="50" height="50"/><br style="display:{!IF(profilePictureLink = '','none', 'block')}"/>
+    	<strong style="display:{!IF(userHasNotVoted,'block', 'none')}">VOTE</strong><!-- <br style="display:{!IF(userHasNotVoted,'block', 'none')}"/> -->{!voteTotal} points<br/>
+        <apex:commandLink rendered="{!AND(userHasNotVoted, showVoteLink)}" styleClass="icon-vote icon-vote-up" reRender="ideaListOutputPanel" action="{!createVote}" title="Vote Up">
+            <apex:param name="firstParam" assignTo="{!newVoteType}" value="Up" />
+            <apex:param name="secondParam" assignTo="{!voteIdeaId}" value="{!idea.id}" />
+        </apex:commandLink>
+        <apex:commandLink rendered="{!AND(userHasNotVoted, showVoteLink)}" styleClass="icon-vote icon-vote-down" reRender="ideaListOutputPanel" action="{!createVote}" title="Vote Down">
+            <apex:param name="firstParam" assignTo="{!newVoteType}" value="Down" />
+            <apex:param name="secondParam" assignTo="{!voteIdeaId}" value="{!idea.id}" />
+        </apex:commandLink>
+        <apex:outputPanel rendered="{!NOT(userHasNotVoted)}" styleClass="{!IF(currentUserVoteType = 'Up', 'icon-vote icon-vote-up active', 'icon-vote icon-vote-down active')}" style="margin: 5px 21px; cursor:default;" ></apex:outputPanel>
+        
+        
+    </apex:actionRegion>
+</apex:component>

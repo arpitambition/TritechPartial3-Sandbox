@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q2_2012_MA.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 2nd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Second Quarterly TriTech Customer Newsletter.
+
+ Since we have been TriTech, more than 135 agencies have joined the IMC software user base. Our registration count for the Spring 2012 User Groups is the largest we’ve ever had and the System Admin training sessions have sold out in record time. In the past we made some mistakes with the quality of our build and release process. We have made lots of changes internally and I have confidence that Build 19 will go a long way toward restoring your confidence in the product. We are driven to provide our customers with the best software and top notch customer service. It is a very exciting time to work with this company and I appreciate the opportunity to serve as your public safety technology provider.
+
+Check out a couple of our User Group Training photos:
+
+ 
+
+
+
+ 
+
+ Phil Sisk, VP of Operations
+ TriTech Software Systems 
+
+
+ 
+
+ 
+
+
+
+New Product Line Name and Website
+ Along with a new TriTech logo, within the next couple months, customers will also start seeing a new product line name. 
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Products.html&gt;
+
+
+
+
+
+
+Introducing the New Google Map Interface
+Check out the highlights.
+[VIEW HERE]
+
+
+ 
+
+New TriTech Paging Module
+
+The new TriTech Paging module adds flexibility to your agency that typical paging systems lack… at a fraction of the cost of a dedicated paging system.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Products.html&gt;
+
+
+
+
+
+
+TriTech&apos;s National Support Center Reducing Customer Call Wait and Resolution Times
+TriTech is pleased to announce that after three months, the Center has reduced the average time for call resolution by 68%. The team has also reduced the average hold time to less than one minute.
+ [READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Support.html&gt; 
+
+
+
+
+
+ 
+
+Tech Tips 
+Get the latest technical tips.
+[LEARN MORE] &lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Support.html&gt;
+&gt; Main Page
+&lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Main.html&gt;
+
+ &gt; Products
+&lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Products.html&gt;
+
+ &gt; Support
+&lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Support.html&gt;
+
+ &gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call Toll Free
+(800) 788-0015
+
+
+
+To Access the Client Login
+
+
+ &lt;https://myimc.tritech.com/&gt;
+
+
+
+ACCOUNT MANAGERS
+ 
+
+David Bell
+(508) 839-6445 x104
+david.bell@tritech.com
+
+Mark Baranowski
+(508) 839-6445 x180
+mark.baranowski@tritech.com
+
+Bob Ricci
+(508) 839-6445 x115
+bob.ricci@tritech.com
+
+
+We&apos;ve moved our San Diego Corporate Office. Please note our new address:
+9477 Waples Street, Suite 100
+San Diego, California 92121
+(858) 799-7000
+
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+ &lt;http://www.youtube.com/user/tritechsoftware&gt;
+ Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

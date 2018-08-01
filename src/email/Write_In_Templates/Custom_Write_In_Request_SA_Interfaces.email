@@ -1,0 +1,14 @@
+Please review and complete the necessary information for the following request:
+
+Write-In # {!Write_In__c.Name}
+Title: {!Write_In__c.Title__c}
+Agency: {!Write_In__c.Agency__c}
+Opportunity: {!Write_In__c.Opportunity__c}
+
+Price Book: {!Write_In__c.Price_Book_Chosen__c}
+
+Write-In Description: {!Write_In__c.Write_In_Description__c}
+
+When complete, please be sure to check the Assignment Complete box.
+
+Click this link to access the Write-In: {!Write_In__c.Link}

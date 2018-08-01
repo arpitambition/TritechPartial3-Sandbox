@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Quote Follow Up</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Newsletter_Banner</letterhead>
+    <name>Quote Follow Up Email</name>
+    <style>freeForm</style>
+    <subject>{INSERT PRODUCT NAME} Quote Follow Up</subject>
+    <textOnly>Dear {INSERT CONTACT NAME}
+ 
+Our quote for {INSERT QUOTE/PRODUCT NAME} was submitted to you some time ago.  I appreciate the opportunity to present this proposal to you for your review and consideration.  
+ 
+Because it has been {INSERT TIME SINCE SUBMISSION} days have passed since the proposal was submitted and we have not heard back from you, I am writing to determine the status of the proposal.  Attached is a copy of the quote for review.  
+ 
+I would happy to arrange for product demonstrations or client references information to help you evaluate your decision.  Looking forward to your reply and hope that we have the opportunity to provide {INSERT QUOTE/PRODUCT NAME} to you in the near future.  
+ 
+Regards,
+ 
+ 
+ </textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

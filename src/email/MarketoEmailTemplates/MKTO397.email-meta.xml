@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriCON 2012.PCS Mobile</name>
+    <style>none</style>
+    <subject>Join Us For The PCS Mobile Pit Stop on Wednesday Evening!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Join Us for The PCS Mobile Pit Stop on Wednesday Evening!
+Wednesday, September 26 from 8:00 PM - 11:00 PM
+Hello {{lead.First Name:default=TriCON Attendee}},
+
+Come by and visit with the PCS Mobile and the In Motion team and enjoy a cocktail on us along with some late-night munchies. What a great way to enjoy the San Diego Gaslamp District!
+ 
+ Register in advance for your complimentary drink coupon and treasure key. We&apos;ll have it waiting at our booth on Wednesday. &lt;http://www.pcsmobile.com/Tricon2012/PCSMobilePitStop.aspx&gt; While enjoying your beverage during the event, try your luck at opening our Treasure Chest. There’s a $50 Gift Card inside and if your key works, you can take it home with you!
+ 
+ The PCS Mobile team supports your mobility by providing products and services to ensure your TriTech Software is working effectively in a field application. We specialize in mobile voice, video, and data products. See some of our newest solutions during TriCon 2012 – BOOTH #30. How do you find us? Look for the booth with the orange safety cones!
+
+
+EVENT DETAILS
+See You There!
+Date:
+
+Wednesday, Sept. 26, 2012
+
+
+
+Time:
+
+8:00 PM - 11:00 PM
+
+
+
+Where:
+
+BarleyMash
+
+600 5th Avenue
+
+San Diego, CA 92101
+
+
+
+Directions:     
+
+Walk north on 5th Avenue, it will be on your left hand side on the corner of 5th and Market  (appx 5 min walk)
+
+REGISTER NOW: http://www.pcsmobile.com/Tricon2012/PCSMobilePitStop.aspx</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

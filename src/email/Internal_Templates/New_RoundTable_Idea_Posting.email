@@ -1,0 +1,10 @@
+A new RoundTable post has been made for <B>{!Idea.Category__c} / {!Idea.Sub_Category__c}</B>:<BR><BR>
+
+<B>{!Idea.Title}</B><BR>
+{!Idea.Body}<BR><BR>
+
+Posted by:  {!Idea.CreatedBy}<BR>
+Agency:  {!User.CompanyName}<BR>
+Created date:  {!Idea.CreatedDate}<BR><BR>
+
+You can review the post here:  {!Idea.Link}

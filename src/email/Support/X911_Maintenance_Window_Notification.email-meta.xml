@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>911 Maintenance Window Notification</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>911 Maintenance Window Notification</name>
+    <style>freeForm</style>
+    <subject>911 Maintenance Window Notification</subject>
+    <textOnly>Dear {!Case.Contact},
+
+
+TriTech is needing a maintenance window to complete work needed for ticket {!Case.CaseNumber}.
+
+
+Issue Description: 
+
+
+Proposed Solution: 
+
+
+Downtime Needed: 
+
+
+Downtime Impact: 
+
+
+Rollback Plan: 
+
+
+Please contact technician {!Case.OwnerFullName} to coordinate this maintenance window that is needed.
+
+Thank you,
+
+TriTech Technical Support Team
+
+800-987-0911 Option 3
+
+inform911support@tritech.com</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

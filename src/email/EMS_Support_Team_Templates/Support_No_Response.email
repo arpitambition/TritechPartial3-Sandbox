@@ -1,0 +1,19 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana,Helvetica,Sans-Serif></FONT>&nbsp;</P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana,Helvetica,Sans-Serif>Hi {!Contact.FirstName},</FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal>&nbsp;</P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana,Helvetica,Sans-Serif>We have tried calling you concerning your call into technical support on&nbsp;[ENTER DATE].&nbsp; Do you still need assistance?</FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana></FONT>&nbsp;</P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana>If so, please call or fax us and let us know.&nbsp; </FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana></FONT>&nbsp;</P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana>I will close this ticket if we do not get a response back by the end of today.</FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal>&nbsp;</P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p><FONT face=Verdana,Helvetica,Sans-Serif>&nbsp;</FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana,Helvetica,Sans-Serif>TriTech EMS Support Team</FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana,Helvetica,Sans-Serif><A href="mailto:emssupport@tritech.com">emssupport@tritech.com</A></FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana>Phone: 563-387-9338</FONT></P>
+<P style="MARGIN: 0in 0in 0pt" class=MsoNormal><FONT face=Verdana>Fax:&nbsp; 563-387-9335</FONT></P>]]></td>
+</tr>
+</table>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email to send to customers who are not registered yet.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>TriCON 2017: Not Registered Yet</name>
+    <style>none</style>
+    <subject>Coming to TriCON 2017?</subject>
+    <type>text</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

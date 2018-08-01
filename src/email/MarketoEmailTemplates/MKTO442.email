@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd"><html><head>
+<meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+<title>TriTech</title>
+</head>
+<body ><table cellspacing="0" cellpadding="0" border="0" style="width:100%; background-color:rgb(255, 255, 255); " ><tbody ><tr ><td valign="top" align="center" style="vertical-align:top; padding:10px; " ><img width="660" height="100" border="0" align="middle" src="http://offers.tritech.com/rs/ortivusna/images/TSS_Logo_Banner_660x165.png" alt="TriTech Software Systems"><table cellspacing="0" cellpadding="0" border="0" style="width:660px; text-align:left; " ><tbody ><tr ><td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 41px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td style="background-color:rgb(223, 31, 38); vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td><img width="13" height="28" src="https://app.marketo.com/images/public-site/email/cornerNW-white.png" alt=""><br></td>
+<td style="vertical-align:middle; text-align:right; color:rgb(255, 255, 255); font-family:Tahoma,Helvetica; font-size:12px; line-height:17px; width:100%; " ><div class="mktEditable" id="volume_title" ><strong><span style="font-size: 12px;">STAY CONNECTED</span> <a href="http://www.facebook.com/pages/Tritech-Software-Systems/89416081839" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Facebook.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://twitter.com/tritechsoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/Twitter.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://www.linkedin.com/companies/tritech-software-systems" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/LinkedIn.jpg" alt="" width="16" height="16"></a>&nbsp; <a href="http://www.youtube.com/user/TriTechSoftware" target="_blank"><img src="http://offers.tritech.com/rs/ortivusna/images/youtube-logo.jpg" alt="" width="23" height="16"></a><br></strong></div>
+</td>
+<td><img width="12" height="28" src="https://app.marketo.com/images/public-site/email/cornerNE-white.png" alt=""><br></td>
+</tr>
+</tbody>
+</table>
+</td>
+<td rowspan="2">
+<table cellspacing="0" cellpadding="0" border="0" style="width: 40px;">
+<tbody>
+<tr>
+<td></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr ><td style="vertical-align:top; " ><table width="100%" cellspacing="0" cellpadding="0" border="0" ><tbody ><tr ><td style="background-color:rgb(240, 240, 240); color:rgb(69, 85, 95); font-family:Tahoma,Helvetica; font-size:12px; line-height:18px; vertical-align:top; padding:20px; " ><div style="color:rgb(223, 31, 38); font-size:23px; font-weight:bold; line-height:26px; " ><div class="mktEditable" id="main_title" ><span style="font-size: 28px;"><span style="color: #df1f26;">Client Announcement</span><br></span></div>
+</div>
+<div style="color:rgb(130, 130, 130); font-size:14px; font-weight:bold; line-height:21px; " ><div id="intro_title" class="mktEditable" >November 1, 2012</div>
+</div>
+<br>
+<div id="main_text" class="mktEditable" ><p>Dear Customer,</p>
+<p>TriTech&rsquo;s Perform software does not automatically adjust for Daylight Savings Time. Although your department may synchronize your workstations to time servers, this still will not resolve the issue of a call starting at one time and having to be closed at a time prior to the start time or an officer arriving an hour after the call was dispatched due to a daylight savings time change.</p>
+<p><br>
+<strong>Spring Ahead</strong><br>
+In the Spring, if a call comes in at 0157 and the call was dispatched at 0158, it is possible the officer may arrive at 0303 because of the time change.</p>
+<p><br>
+<strong>Fall Back</strong><br>
+In the Fall, it is possible for a call to come in at 0157, be dispatched at 0158, but the officer may arrive at 0103 because of the time change. If you have started a call when the clock falls back an hour, the software will issue a warning similar to &ldquo;The dispatched time must be after the time the call was received.&rdquo;</p>
+<p><br>
+<strong>ALT+F Workaround</strong><br>
+The workaround to these situations is to use the ALT keyboard shortcuts to Dispatch, Arrive and Clear units and manually enter their times.<br>
+Alt-F3: Dispatch<br>
+Alt-F4: Arrive<br>
+Alt-F5: Clear<br>
+<br>
+You will want to use these shortcuts and manually enter a time. Once all units are cleared from the call and it is closed, the dispatcher can go to the Response tab of the closed call and edit the response times to indicate the accurate times if they are not correct.</p>
+<p><br>
+TriTech recommends you make a note in your call narrative that the call times were changed due to Daylight Savings Time in case a question arises in the future.<br>
+<br>
+Sincerely,<br>
+<br>
+Ellen Manning<br>
+<span style="color: #58595b; font-size: 9pt; font-family: 'Helvetica','sans-serif';">Technical Support Supervisor &ndash; Perform (IMC)</span><br>
+TriTech Software Systems| www.tritech.com</p>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+<tr>
+<td colspan="3" style="vertical-align: top;">
+<table width="100%" cellspacing="0" cellpadding="0" border="0">
+<tbody>
+<tr>
+<td style="color: rgb(69, 85, 95); font-family: Tahoma,Helvetica; font-size: 11px; line-height: 16px; vertical-align: top; text-align: center;"><img width="660" height="99" alt="" src="https://app.marketo.com/images/public-site/email/bottomShadow.png"><br>
+<b>TriTech Software Systems</b> 9477 Waples Street, Suite 100, San Diego, CA 92121 <a href="mailto:info@tritech.com">info@tritech.com</a></td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+</tr>
+</tbody>
+</table>
+<br></body>
+</html>

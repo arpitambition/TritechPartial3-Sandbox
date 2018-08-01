@@ -1,0 +1,208 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObjectTranslation xmlns="http://soap.sforce.com/2006/04/metadata">
+    <caseValues>
+        <plural>false</plural>
+        <value>Buyer Roles</value>
+    </caseValues>
+    <caseValues>
+        <plural>true</plural>
+        <value>Buyer Roles</value>
+    </caseValues>
+    <fields>
+        <label><!-- Biases/Hot Button --></label>
+        <name>Biases_Hot_Button__c</name>
+    </fields>
+    <fields>
+        <label><!-- Competitive Status --></label>
+        <name>CompetitiveStatus__c</name>
+        <picklistValues>
+            <masterLabel>C+</masterLabel>
+            <translation><!-- C+ --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C-</masterLabel>
+            <translation><!-- C- --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>C=</masterLabel>
+            <translation><!-- C= --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>VOC</masterLabel>
+            <translation><!-- VOC --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Decision Criteria --></label>
+        <name>Decision_Criteria__c</name>
+    </fields>
+    <fields>
+        <label><!-- Opportunity --></label>
+        <name>Opportunity__c</name>
+        <relationshipLabel><!-- Buyer Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Person --></label>
+        <name>Person__c</name>
+        <relationshipLabel><!-- Buyer Roles --></relationshipLabel>
+    </fields>
+    <fields>
+        <label><!-- Power --></label>
+        <name>Power__c</name>
+        <picklistValues>
+            <masterLabel>Gets Job Done – Political (5)</masterLabel>
+            <translation><!-- Gets Job Done – Political (5) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Makes Recommendations (3)</masterLabel>
+            <translation><!-- Makes Recommendations (3) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>May Not Be Heard (2)</masterLabel>
+            <translation><!-- May Not Be Heard (2) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>No Power (0)</masterLabel>
+            <translation><!-- No Power (0) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Usually Gets What S/He Wants (4)</masterLabel>
+            <translation><!-- Usually Gets What S/He Wants (4) --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Very Little Power (1)</masterLabel>
+            <translation><!-- Very Little Power (1) --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Preferences --></label>
+        <name>Preferences__c</name>
+        <picklistValues>
+            <masterLabel>Dislikes TTS</masterLabel>
+            <translation><!-- Dislikes TTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Hostile</masterLabel>
+            <translation><!-- Hostile --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Huge Fan of TTS</masterLabel>
+            <translation><!-- Huge Fan of TTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Likes TTS</masterLabel>
+            <translation><!-- Likes TTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Neutral</masterLabel>
+            <translation><!-- Neutral --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outspoken against TTS</masterLabel>
+            <translation><!-- Outspoken against TTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Outspoken in favor of TTS</masterLabel>
+            <translation><!-- Outspoken in favor of TTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strongly Opposed to TTS</masterLabel>
+            <translation><!-- Strongly Opposed to TTS --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Strongly Supports TTS</masterLabel>
+            <translation><!-- Strongly Supports TTS --></translation>
+        </picklistValues>
+    </fields>
+    <fields>
+        <label><!-- Role --></label>
+        <name>Role__c</name>
+        <picklistValues>
+            <masterLabel>Champion</masterLabel>
+            <translation><!-- Champion --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Coach</masterLabel>
+            <translation><!-- Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Decision Maker</masterLabel>
+            <translation><!-- Decision Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Evaluation Committee Member</masterLabel>
+            <translation><!-- Evaluation Committee Member --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Everyday User</masterLabel>
+            <translation><!-- Everyday User --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Gate Keeper</masterLabel>
+            <translation><!-- Gate Keeper --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Influencer</masterLabel>
+            <translation><!-- Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Inside Coach</masterLabel>
+            <translation><!-- Inside Coach --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Introduction Maker</masterLabel>
+            <translation><!-- Introduction Maker --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Not Involved</masterLabel>
+            <translation><!-- Not Involved --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Obstructionist</masterLabel>
+            <translation><!-- Obstructionist --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Participant</masterLabel>
+            <translation><!-- Participant --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Political Influencer</masterLabel>
+            <translation><!-- Political Influencer --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Recommender</masterLabel>
+            <translation><!-- Recommender --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Responsible for Money</masterLabel>
+            <translation><!-- Responsible for Money --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Signature on Agreement</masterLabel>
+            <translation><!-- Signature on Agreement --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Technical Evaluator</masterLabel>
+            <translation><!-- Technical Evaluator --></translation>
+        </picklistValues>
+        <picklistValues>
+            <masterLabel>Ultimate Decision Maker</masterLabel>
+            <translation><!-- Ultimate Decision Maker --></translation>
+        </picklistValues>
+    </fields>
+    <layouts>
+        <layout>Buyer Roles Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <layouts>
+        <layout>New Person Role Layout</layout>
+        <sections>
+            <label><!-- Custom Links --></label>
+            <section>Custom Links</section>
+        </sections>
+    </layouts>
+    <startsWith>Consonant</startsWith>
+</CustomObjectTranslation>

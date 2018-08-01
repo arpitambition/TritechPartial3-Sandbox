@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Spring-2013_UserGroups.Reminder_May7_Lincoln-NH</name>
+    <style>none</style>
+    <subject>REMINDER - TriTech&apos;s 2013 Perform Spring User Group</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+2013 Perform Spring User Groups
+REMINDER
+Hi {{lead.First Name:default=Customer}},
+
+Just sending a reminder about the following User Group Meeting that you are registered for:
+
+Name: {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}
+Attendee #1: {{lead.Contact 1:default=edit me}}
+Attendee #2: {{lead.Contact 2:default=edit me}}
+Attendee #3: {{lead.Contact 3:default=edit me}}
+Attendee #4: {{lead.Contact 4:default=edit me}} 
+ Service 
+Name: {{company.Company Name:default=edit me}}
+
+Registered for: Lincoln, NH PD 
+User Group
+Date: Tuesday, May 7, 2013
+Time: 9 AM to 3 PM
+Address: 148 
+Main Street, Lincoln  NH
+
+If you need to make any changes or cancel your reservation, please contact your Client Account Manager, Mark Baranowski. 
+
+Mark Baranowski
+(978) 215-2270
+mark.baranowski@tritech.com &lt;mailto:mark.baranowski@tritech.com&gt;
+
+
+We look forward to seeing you soon!
+User Group Agenda
+9 AM - 3 PM
+Perform Product Suite – features available in Version 6.1 and what’s coming in Version 6.2
+Perform Support Team – Customer Service Center (new support portal) 
+Sales Programs – product promotions and activities
+Update on the Perform Training Institute – Upcoming Regional Classes and the Fall Training Summit
+On-site lunch (complimentary)
+Complimentary Security Training – a TriTech Software Trainer will 
+provide training on how to manage security rights within the Perform software. You will learn how to manage individual and group rights as well as additional security settings such as challenge questions, strong passwords, and user account lock outs.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Spring-2013_UserGroups.Registration-Confirmation_May9_Augusta-ME</name>
+    <style>none</style>
+    <subject>TriTech&apos;s 2013 Perform Spring User Groups - Thank you for your registration!</subject>
+    <textOnly>STAY CONNECTED   &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+2013 Perform Spring User Groups
+Thank you for your registration
+Hi {{lead.First Name:default=Customer}},
+
+Thank you for registering for the following 2013 Perform User Group Meeting - please review the information below:
+
+Name: {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}
+Attendee #1: {{lead.Contact 1:default=edit me}}
+Attendee #2: {{lead.Contact 2:default=edit me}}
+Attendee #3: {{lead.Contact 3:default=edit me}}
+Attendee #4: {{lead.Contact 4:default=edit me}} 
+ Service Name: {{company.Company Name:default=edit me}}
+
+Registered for: Maine State Police User Group
+Date: Thursday, May 9, 2013
+Time: 9 AM to 3 PM
+Address: 45 Commerce Drive, Suite 1, Augusta  ME &lt;https://maps.google.com/maps?oe=utf-8&amp;client=firefox-a&amp;channel=fflb&amp;q=45+Commerce+Drive,+Suite+1,+Augusta++ME&amp;ie=UTF-8&amp;hq=&amp;hnear=0x4cb202469549ec01:0x3483fbd3b79457a5,Commerce+Dr,+Augusta,+ME+04330&amp;gl=us&amp;ei=k61JUaSuK8fD4APtyoHgAg&amp;ved=0CDMQ8gEwAA&gt;
+Available Seats: 60 Total 
+
+If you need to make any changes or 
+cancel your reservation, please contact your Client Account Manager, Mark Baranowski. 
+
+Mark Baranowski
+(978) 215-2270
+mark.baranowski@tritech.com &lt;mailto:mark.baranowski@tritech.com&gt;
+
+
+We look forward to seeing you soon!
+User Group Agenda
+9 AM - 3 PM
+Perform Product Suite – features available in Version 6.1 and what’s coming in Version 6.2
+Perform Support Team – Customer Service Center (new support portal) 
+Sales Programs – product promotions and activities
+Update on the Perform Training Institute – Upcoming Regional Classes and the Fall Training Summit
+On-site lunch (complimentary)
+Complimentary Security Training – a TriTech Software Trainer will provide training on how to manage 
+security rights within the Perform software. You will learn how to manage individual and group rights as well as additional security settings such as challenge questions, strong passwords, and user account lock outs.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

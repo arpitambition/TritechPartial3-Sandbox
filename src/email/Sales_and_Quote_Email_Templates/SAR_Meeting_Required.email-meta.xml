@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Template used for SAR Meeting Required notifications when &quot;SAR Meeting Required&quot; is checked in an opportunity</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>SAR Meeting Required</name>
+    <style>none</style>
+    <subject>SAR Meeting Required: {!Opportunity.Name}</subject>
+    <textOnly>The &quot;SAR Meeting Required&quot; field has been checked on the following Opportunity:
+
+Opportunity: {!Opportunity.Name}
+
+Account:  {!Opportunity.Account}
+Opportunity Owner:  {!Opportunity.OwnerFullName}
+
+Please setup the SAR meeting with any applicable attendees.  You can review the opportunity here:
+{!Opportunity.Link}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

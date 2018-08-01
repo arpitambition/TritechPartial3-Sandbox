@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TriTechNews_Q3_2012_MA.Email</name>
+    <style>none</style>
+    <subject>TriTech News - 3rd Quarter Newsletter</subject>
+    <textOnly>In This Issue
+
+
+
+Welcome to the Third Quarterly TriTech Customer Newsletter.
+
+In the last issue &lt;http://offers.tritech.com/TriTechNews_Q2_2012_MA_Main.html&gt; we highlighted a new logo, a new paging module, a new brand name, the new Google Maps™ Interface, industry news/webinars, and client go-lives. In this edition, you will find important product updates, product support notices, monthly customer service webinars, information about the new tritech.com website to be unveiled this month, and more.
+Summer in New England is a great time of year. This summer has been a good one for TriTech and the Perform Product line (formerly known as Imc)
+
+Since the last newsletter, we have completed the Regional User Group Meetings. This Spring, attendance was up with 314 customers at 11 locations. That represents a significant increase over the previous year.
+
+As many of you are aware, the lease in our current office expires in the fall. We have been exploring the options for either renewing at the current location or selecting another facility in this general area. We will not be leaving New England.
+
+Build 19 is in general availability and has been well received. We are in the middle of our Pre-Release process for the 6.0 release. As part of the process, we have 14 customers testing the new software in a live environment. Once the pre-release testing is complete, we will move into limited availability and then on to General Availability. Following this process has dramatically improved the software quality.  Be sure and check out the exciting new features that will be available in the 6.0 Release, including the integration with Google Maps.
+
+Thank you for the opportunity to serve as your public safety technology provider.
+
+
+
+ 
+
+ Phil Sisk, VP of Operations
+ TriTech Software Systems 
+
+
+ 
+
+ 
+
+
+TriTech Introduces Google Maps into Public Safety Software Suite
+The Google Maps Interface provides quick, accurate information to dispatch and field personnel.
+Read more and watch a short demo.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_Products.html&gt;
+
+
+
+
+2012 TriTech Charity Golf Tournament
+We hope that you can join us for a fabulous day of golf, refreshments, contests and prizes. Space is limited - reserve your spot now. 
+[READ MORE]
+
+ 
+
+
+Tritech.com - Newly Designed Website – Coming Soon!
+TriTech Software Systems will be unveiling their newly designed website this month, which is located at the same tritech.com address. You&apos;ll find a fresh, crisp design and simplified access to the information you&apos;re looking for.
+[READ MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_NewsandEvents.html&gt;
+
+
+
+TriTech&apos;s Product Support Notices:
+Learn about restraining order changes in MA; Resetting Population Totals in the Jail Module, &quot;Error 3000&quot; related to network disconnects; New Hampshire Customers - Complaint Form changes; and more.
+[LEARN MORE] &lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_Support.html&gt;
+&gt; Main Page
+&lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_Main.html&gt;
+
+&gt; Products
+&lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_Products.html&gt;
+
+&gt; Support
+&lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_Support.html&gt;
+
+&gt; News and Events &lt;http://offers.tritech.com/TriTechNews_Q3_2012_MA_NewsandEvents.html&gt;
+
+
+
+
+
+
+Need Support?
+
+Call Toll Free
+(800) 788-0015
+
+
+
+To Access the Client Login
+
+
+&lt;https://myimc.tritech.com/&gt;
+
+
+
+ACCOUNT MANAGERS
+
+
+David Bell
+(508) 839-6445 x104
+david.bell@tritech.com
+
+Mark Baranowski
+(508) 839-6445 x180
+mark.baranowski@tritech.com
+
+Bob Ricci
+(508) 839-6445 x115
+bob.ricci@tritech.com
+
+
+
+Don&apos;t forget to check us out on YouTube.com to see videos of customer testimonials, news and recordings!
+
+
+
+
+&lt;http://www.youtube.com/user/tritechsoftware&gt;
+Click Here
+Share this message with your colleagues or visit us at www.tritech.com
+ &lt;http://www.facebook.com/pages/TriTech-Software-Systems/89416081839&gt; 
+
+
+
+
+
+
+
+
+ This email was sent by TriTech Software Systems
+ 9477 Waples Street, Suite 100 | San Diego | CA | 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

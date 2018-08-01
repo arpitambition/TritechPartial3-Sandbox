@@ -1,0 +1,256 @@
+<table height="400" width="550" cellpadding="5" border="0" cellspacing="5" >
+<tr height="400" valign="top" >
+<td style=" color:#000000; font-size:12pt; background-color:#FFFFFF; font-family:arial; bLabel:main; bEditID:r3st1;" tEditID="c1r1" locked="0" aEditID="c1r1" >
+<![CDATA[<p><font face="Times New Roman">
+
+{!Contact.FirstName}{!Contact.LastName};</font></p><p>&nbsp;</p><p>&nbsp;</p><p><font face="Times New Roman"></font>&nbsp;</p><p><font face="Times New Roman"></font>&nbsp;</p><p style="margin: 0in 0in 10pt; text-align: center;" class="MsoNormal" align="center"><u><font face="Calibri">Client Pre Upgrade
+Checklist<?xml:namespace prefix = o ns = "urn:schemas-microsoft-com:office:office" /><o:p></o:p></font></u></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt;" class="MsoNormal"><font face="Calibri">Below is a list of what are the client’s responsibilities
+for upgrading the VisiCAD system. If any of these items are not completed it
+could cause either a delay or cancellation of the upgrade. <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt;" class="MsoNormal"><font face="Calibri"><u>All Upgrades</u><o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt;" class="MsoNormal"><font face="Calibri"><span style="mso-tab-count: 1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Prior
+to the Day of the Upgrade<o:p></o:p></u></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1in; text-indent: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo2;" class="MsoListParagraphCxSpFirst"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">1.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Review the release notes for the version
+upgrading to and verify that the hardware and software requirements have been
+met (RAM, OS and SQL Versions). <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1in; text-indent: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo2;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">2.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Most upgrades require prerequisites to be
+installed on the workstations and servers. Please see the grid below for what
+versions need what prerequisite CDs.<span style="mso-spacerun: yes;">&nbsp;
+</span>These must be completed prior to the morning of the upgrade. <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 0.75in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 0.75in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><table style="margin: auto auto auto 0.75in; border: currentColor; border-collapse: collapse; mso-border-alt: solid windowtext .5pt; mso-yfti-tbllook: 1184; mso-padding-alt: 0in 5.4pt 0in 5.4pt;" class="MsoTableGrid" border="1" cellSpacing="0" cellPadding="0"><font face="Times New Roman">
+ </font><tbody><tr style="height: 29.2pt; mso-yfti-irow: 0; mso-yfti-firstrow: yes;"><font face="Times New Roman">
+  </font><td style="padding: 0in 5.4pt; border: 1pt solid windowtext; width: 106.1pt; height: 29.2pt; background-color: transparent; mso-border-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight: normal;"><font face="Calibri">Upgrading
+  From<o:p></o:p></font></b></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 1pt 1pt 1pt 0px; border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; height: 29.2pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight: normal;"><font face="Calibri">Upgrading
+  To<o:p></o:p></font></b></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 1pt 1pt 1pt 0px; border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; height: 29.2pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><b style="mso-bidi-font-weight: normal;"><font face="Calibri">Pre
+  Req Needed<o:p></o:p></font></b></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 1pt 1pt 1pt 0px; border-style: solid solid solid none; border-color: windowtext windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; height: 29.2pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><b style="mso-bidi-font-weight: normal;"><font face="Calibri">Which
+  CD? <o:p></o:p></font></b></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 1;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.2.3<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">4.3.8<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">Consult the Release notes for what Pre
+  Reqs to install<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 2;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.3.8<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">4.4.6<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">Consult the Release notes for what Pre
+  Reqs to install<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 3;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.4.6 <o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">4.5.8-4.5.10<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">4.5.8<span style="mso-spacerun: yes;">&nbsp;
+  </span>Pre Req CD<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 4;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.5.1-4.5.6<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">4.5.8-4.5.10<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">4.5.8 Pre Req CD<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 5;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.5.8-4.5.9<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">4.5.9-4.5.10<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">No<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 6;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.5.9-4.5.10<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">5.1.2<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">5.1.2 Pre Req CD<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 7;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">4.5.10 <o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">5.2<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">5.2 Pre Req CD<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 8;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">5.0.2 – 5.1.1 <o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">5.1.2<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpLast"><font face="Calibri">5.1.2 Pre Req CD<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+ </font><tr style="mso-yfti-irow: 9; mso-yfti-lastrow: yes;"><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt; border-style: none solid solid; border-color: rgb(0, 0, 0) windowtext windowtext; padding: 0in 5.4pt; width: 106.1pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="141"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><font face="Calibri">5.0.2 – 5.1.2<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 106.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="142"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">5.2<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 63.15pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="84"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt; line-height: normal; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><font face="Calibri">Yes<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+  </font><td style="border-width: 0px 1pt 1pt 0px; border-style: none solid solid none; border-color: rgb(0, 0, 0) windowtext windowtext rgb(0, 0, 0); padding: 0in 5.4pt; width: 149.4pt; background-color: transparent; mso-border-alt: solid windowtext .5pt; mso-border-left-alt: solid windowtext .5pt; mso-border-top-alt: solid windowtext .5pt;" vAlign="top" width="199"><font face="Times New Roman">
+  </font><p style="margin: 0in 0in 0pt 0.25in; line-height: normal; text-indent: -0.25in; mso-add-space: auto; mso-list: l2 level2 lfo3;" class="MsoListParagraphCxSpLast"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">5.2</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;
+  </span></span></span><font face="Calibri">Pre Req CD<o:p></o:p></font></p><font face="Times New Roman">
+  </font></td><font face="Times New Roman">
+ </font></tr><font face="Times New Roman">
+</font></tbody></table><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 0.75in; mso-add-space: auto;" class="MsoListParagraphCxSpFirst"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt 1in; text-indent: -0.25in; mso-add-space: auto; mso-list: l1 level1 lfo2;" class="MsoListParagraphCxSpLast"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">3.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Mobile server must have enough drive space to
+back up the entire Mobile directory (...\Program Files\TriTech Software
+Systems\VisiNet Mobile ).<span style="mso-spacerun: yes;">&nbsp; </span>This includes
+the mdf and ldf files. <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt 0.5in;" class="MsoNormal"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt;" class="MsoNormal"><font face="Calibri"><span style="mso-tab-count: 1;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; </span><u>Day
+of Upgrade<o:p></o:p></u></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1;" class="MsoListParagraphCxSpFirst"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">1.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Verify backup of DB and file structure has been
+completed prior to the upgrade engineer performing the upgrade. <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">2.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">If custom replication is installed – remove
+prior to the upgrade. This can be reinstalled post upgrade.<span style="mso-spacerun: yes;">&nbsp; </span><o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 0.5in;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">3.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Reports running against the reporting and
+production servers should be suspended for the duration of the upgrade as this
+will conflict with what the upgrade engineer is trying to do and cause a delay
+in the upgrade. <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">4.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Copy contents of Upgrade DVDs to all applicable
+servers. <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.75in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level2 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">a.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Production Server <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.75in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level2 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">b.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Reporting Servers if replication is installed
+(this includes all legs of replication but does not include any custom
+replication servers).<o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.75in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level2 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">c.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">Mobile Servers<o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.75in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1;" class="MsoListParagraphCxSpMiddle"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">5.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">All Mobile upgrades including patches require
+the Mobile server to be offline (Mobile Down), approximately 1 hour per mobile
+server; may vary depending of database size (30 minutes for patches). <o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 0pt 1.25in; mso-add-space: auto;" class="MsoListParagraphCxSpMiddle"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt 1.25in; text-indent: -0.25in; mso-add-space: auto; mso-list: l0 level1 lfo1;" class="MsoListParagraphCxSpLast"><span style="mso-bidi-font-family: Calibri; mso-bidi-theme-font: minor-latin;"><span style="mso-list: Ignore;"><font face="Calibri">6.</font><span style='font: 7pt/normal "Times New Roman"; font-size-adjust: none; font-stretch: normal;'>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+</span></span></span><font face="Calibri">If Mobile servers exist in Disaster Recovery
+environment, a separate installation appointment needs to be scheduled. DR
+Mobile upgrades require split brain.<span style="mso-spacerun: yes;">&nbsp; </span><o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt;" class="MsoNormal"><font face="Calibri"><span style="mso-spacerun: yes;">&nbsp; </span><o:p></o:p></font></p><font face="Times New Roman">
+
+</font><p style="margin: 0in 0in 10pt 1.25in; mso-add-space: auto;" class="MsoListParagraph"><o:p><font face="Calibri">&nbsp;</font></o:p></p><font face="Times New Roman">
+
+</font>]]></td>
+</tr>
+</table>

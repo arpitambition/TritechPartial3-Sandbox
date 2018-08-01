@@ -1,0 +1,16 @@
+Dear {!Contact.Name},
+<br/><br/>
+We have delivered a fix for the issue described below, so your ticket will be closed at this time. Please contact Customer Service if you feel this issue has not been resolved to your satisfaction.
+<br/><br/>
+AGENCY: {!Account.Name} <br/>
+CUSTOMER: {!Contact.Name} <br/>
+REPORTED ON PRODUCT VERSION: {!Case.Product} {!Case.Reported_Major_Version_WMP__c} <br/>
+ISSUE SUMMARY: {!Case.Subject}
+<br/><br/>
+We value you as a customer and we appreciate the work you do in serving the public safety needs of your community. Please let us know if we may be of further assistance. 
+<br/><br/>
+Sincere Regards,
+<br/>
+Management<br/>
+TriTech Customer Service <br/>
+1-800-987-0911, option 2 <br/>

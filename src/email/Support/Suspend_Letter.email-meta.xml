@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Sends a letter to the customer when you don&apos;t get contact from the customer.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>Zuercher_Letterhead</letterhead>
+    <name>IMC Suspend Letter</name>
+    <style>freeForm</style>
+    <subject>Ticket {!Case.CaseNumber}</subject>
+    <textOnly>Dear {!Contact.FirstName},
+
+It is the goal of Zuercher to diagnose and resolve any issues, concerns, or questions that our clients have with our products as quickly and as thoroughly as possible. We kindly request your attention and response to the following issue:
+
+Your service request ticket #: {!Case.CaseNumber}
+Date received: {!Case.CreatedDate}
+Identified problem: {!Case.Short_Issue_Summary_WMP__c}
+
+Zuercher has made multiple attempts to contact you in an effort to resolve the issue referenced above.
+
+As of this time, there has not been a response from your agency regarding this issue. Our company policy is to attempt to make contact at least 3 times prior to sending this notice. It is entirely possible that your agency contact has been involved in other duties and has not been available to discuss or work with our Technical Support department to examine the issue.
+
+Zuercher will be placing a ‘Waiting’ status on the service request listed above. This issue will remain in the ‘Waiting’ status for an additional five (5) business days. If a response has not been received by your agency within that time frame, Zuercher will proceed to Suspend the ticket. If upon receiving this notification, your agency has decided that the issue does not need to be addressed, please respond to this email and the ticket will be closed. Your call is important to us, and will remain in our call database as ‘Suspended’, but we would be glad to create a new service request ticket if you decide that the issue needs to be addressed.
+
+Please contact IMC Technical Support at 1-800-987-0911 option 4, referencing the above ticket number, and we will gladly put you in contact with the Technical Support representative assigned to your call.
+
+We value you as a client and we appreciate the work you do in serving the public safety needs of your community. We hope to hear from you shortly about this issue so that we can proceed with finding a resolution.
+
+Sincere Regards,
+
+Management
+IMC Technical Support</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

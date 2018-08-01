@@ -1,0 +1,12 @@
+Notification, This Account has been marked ‘Inactive’.
+
+Account: {!Account.Name}
+
+
+Customer Number: {!Account.EMS_Customer_Number_WMP__c}
+Date Inactivated: {!Account.Last_Modified_Actions__c}
+Product Family:  {!Account.Product_Family_WMP__c}
+Inactive Service Contracts: {!Account.Inactive_Contract_Types__c}
+
+To view this account click here:
+{!Account.Link}

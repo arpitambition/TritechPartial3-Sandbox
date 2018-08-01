@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>UserGroups_2012.Confirmation-Grafton-MA_April-30</name>
+    <style>none</style>
+    <subject>CONFIRMATION: User Group Meeting | Grafton, MA on April 30</subject>
+    <textOnly>2012 User Group Meeting Confirmation
+Monday - April 30, 2012 | Grafton PD | Grafton, MA
+Hi {{lead.First Name:default=Customer}},
+
+Thank you for registering for the following 2012 User Group Meeting - please review the information below:
+
+Name: {{lead.First Name:default=edit me}} {{lead.Last Name:default=edit me}}
+Attendee #2: {{lead.Contact 1:default=edit me}}
+Attendee #3: {{lead.Contact 2:default=edit me}}
+Attendee #4: {{lead.Contact 3:default=edit me}}
+Attendee #5: {{lead.Contact 4:default=edit me}} 
+ Service Name: {{company.Company Name:default=edit me}}
+ 
+Registered for: Grafton, MA User Group
+Date: Monday, April 30, 2012
+Time: 9:00 AM to Noon
+Address: Grafton PD, 26 Providence Rd, Grafton MA 01519 
+Available Seats: 35 Total
+ 
+We look forward to seeing you there!
+QUESTIONS?
+If you have questions that you&apos;d like to submit now for discussion at the respective user group meeting that you&apos;ve registered for, please send them to:
+Cheri Lane
+Marketing Communications Manager
+cheri.lane@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

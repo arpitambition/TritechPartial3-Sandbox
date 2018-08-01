@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Web-based EMS Software_0313.Attended</name>
+    <style>none</style>
+    <subject>Thanks for Attending Our Webinar: Is Web-Based EMS Software the Way of the Future?</subject>
+    <textOnly>Thanks for Your Interest
+Is Web-Based EMS Software the Way of the Future?
+
+Thank you {{lead.First Name:default=EMS Professional}} for your interest in our webinar: Is Web-Based EMS Software the Way of the Future? 
+
+We hope you find the information useful and would love to hear additional ideas on topics that you would be interested in hearing. Simply email cheri.lane@tritech.com with your ideas.            
+You can access the recording and presentation slides from the webinar using these links: 
+
+ Recorded Link: 
+http://tritech.ilinc.com/join/thwcrhj
+
+ Presentation Slides: 
+http://www.tritechems.com/documents/March13Webinar.pdf
+
+You may also be interested in viewing this EMS1.com interview on web-based software: http://www.youtube.com/watch?v=-CdXqYEvP00
+
+Want to see more? Check out other  educational webinars here: http://www.tritechems.com/TriTech-University/Webinars.asp
+
+Thank you,
+TriTech Software Systems
+
+
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

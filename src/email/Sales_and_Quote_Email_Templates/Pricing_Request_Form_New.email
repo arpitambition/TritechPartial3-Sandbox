@@ -1,0 +1,10 @@
+Please process the necessary information and complete the pricing request form for the following:
+
+Pricing Request #: {!Pricing_Request_Form__c.Name}
+Requested By:  {!Pricing_Request_Form__c.OwnerFullName}
+
+Agency: {!Pricing_Request_Form__c.Account__c}
+Date of Request:  {!Pricing_Request_Form__c.Date_of_Request__c}
+Needed by Date:  {!Pricing_Request_Form__c.Needed_by_Date__c}
+
+Click this link to access the pricing request information: {!Pricing_Request_Form__c.Link}

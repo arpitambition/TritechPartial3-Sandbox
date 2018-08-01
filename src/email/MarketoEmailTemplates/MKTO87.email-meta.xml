@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_EMS_OnDemandMarketSurveyResults_Oct13.EmailBlast</name>
+    <style>none</style>
+    <subject>The EMS Marketing Research Survey Results You Requested</subject>
+    <textOnly>October 14, 2011   
+
+Thank You for Participating! 
+Here are the Results you Requested... 
+
+
+Thank you for taking our recent EMS Market Research survey. You requested a copy of the results and it is our pleasure to share those with you. 
+
+Please download the results here (copy and paste into a browser window): http://www.tritechems.com/documents/TriTech_MarketSurvey_Summary_Oct2011.pdf
+
+
+TriTech Software Systems
+
+
+
+
+Share with Friends or visit www.tritech.com
+9860 Mesa Rim Road l San Diego, CA 92121 | PH: 858.799.7000</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

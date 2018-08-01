@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Use this template to confirm that a product enhancement request was received</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <letterhead>TriTech_Letterhead</letterhead>
+    <name>Enhancement Request Confirmation Response</name>
+    <style>freeForm</style>
+    <subject>Enhancement Request Received</subject>
+    <textOnly>Thank you for your email. We appreciate the input of our customers who understand the ‘front line’ needs of our EMS software. We will send your suggestion(s) to our product management and our Customer Advisory Board, who evaluate and determine the future development of our EMS software. 
+ 
+Again, thank you for your time and thought in the advancement of our EMS software.
+ 
+TriTech EMS Support Team</textOnly>
+    <type>html</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

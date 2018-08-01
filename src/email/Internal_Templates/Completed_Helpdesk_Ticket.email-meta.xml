@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>Email that is sent when a helpdesk ticket is completed.</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Completed Helpdesk Ticket</name>
+    <style>none</style>
+    <subject>SalesForce Helpdesk Ticket Completed: {!SalesForce_Helpdesk__c.Name}</subject>
+    <textOnly>Please note that the following SalesForce Helpdesk Ticket has been completed:
+
+Completion Notes: {!SalesForce_Helpdesk__c.Resolution_Notes_to_User__c}
+
+---------------------------------------------------------------------------------------
+
+{!SalesForce_Helpdesk__c.Link}
+
+Ticket Number: {!SalesForce_Helpdesk__c.Name}
+
+Submitted By: {!SalesForce_Helpdesk__c.OwnerFullName}
+Date Submitted: {!SalesForce_Helpdesk__c.Date_Submitted__c}
+Date Completed: {!SalesForce_Helpdesk__c.Date_Completed__c}
+
+Original Request Details: {!SalesForce_Helpdesk__c.Request_Details__c}
+
+If you have additional questions, please contact the SalesForce Helpdesk at x7911 or via email at SalesForceHelpdesk@tritech.com.  Thanks!</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>MD_EMSToday_0301.Invitation</name>
+    <style>none</style>
+    <subject>Going to EMS Today? Stop by and visit us at Booth #3512</subject>
+    <textOnly>2012 EMS Today
+Booth #3512  |  March 1-3  |  Baltimore, MD
+
+
+
+Hello {{lead.First Name:default=EMS Professional}},
+ 
+Stop by and see us at the 2012 EMS Today conference, booth #3512, and meet Regional Sales Manager, Larry Cole, Product Manager, Charlie Barry and Product Specialist, James Howard.
+
+Schedule a demonstration to view our Sweet Billing, Fusion ePCR or VisiCAD solutions. We have options for online or installed applications.
+
+SCHEDULE A PRODUCT DEMO AT EMS TODAY: http://offers.tritech.com/MD_EMSToday_0301_RegisterforDemo.html 
+
+
+Can&apos;t make the conference? That&apos;s okay. Call us at 800.537.3927
+
+
+ADDITIONAL INFORMATION
+Need NAAC credits? http://www.tritechems.com/TriTech-University/Webinars.asp
+Find out more about all the NAAC-Certified Webinar Recordings we offer to help your office improve their knowledge and skills, and get their CEUs!
+
+EMS industry experts predict that in the future, integrated, web-based EMS solutions will become the industry standard. TriTech offers these solutions NOW - read more here: http://www.tritechems.com/Products/online.asp 
+
+
+
+
+
+TriTech Software Systems 9860 Mesa Rim Road, San Diego, CA 92121 info@tritech.com</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

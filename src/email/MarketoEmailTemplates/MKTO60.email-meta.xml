@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>VisionAIR Announcement.Customer Announcement</name>
+    <style>none</style>
+    <subject>BREAKING NEWS: TriTech Software Systems Merges with VisionAIR Inc.</subject>
+    <textOnly>Monday, September 19, 2011
+
+TriTech Software Systems Merges
+with VisionAIR Inc.
+
+
+Dear Customer, 
+
+We are excited to announce that TriTech has acquired VisionAIR. The new partnership adds a substantial mid-market customer base, new products to the TriTech suite, and an exceptional management team and employee base who share our mission and a continued focus on the public safety marketplace. The resulting company will be the largest public safety software company in North America with more than 300 employees and over 2,500 installations. 
+
+Well known industry experts Mike Lyons, Gary Bunyard, and Scott McDonald will continue in their roles running the business and furthering the work they’ve done to create great products and an excellent reputation for high quality customer service. 
+
+Together, this partnership strengthens our expanding market presence among mid-sized agencies by adding more than 500 customers to the TriTech user community. VisionAIR will also help us collectively work towards delivering better solutions and superior services to all TriTech clients – regardless of the agency’s size or type of service. We can now truly support any agency of any size or type. 
+
+
+Why the Partnership?
+
+The combined company is larger with more resources and capabilities than before. More resources over a broader base will allow us to make larger investments in research and development, implementation, and customer service. 
+
+The VisionAIR Executive Management team also brings impressive experience and thought leadership. VisionAIR’s President and CEO, Mike Lyons, has more than 15 years of public safety experience and is currently Vice President of the IJIS Board of Directors and serves on the Executive Committee of that organization. Gary Bunyard has been a public safety industry leader in sales and executive management for over 20 years. For more than 10 years, Scott McDonald’s vision and leadership in public safety automation and detailed knowledge of the current and future client technology needs was instrumental in the successful introduction of advanced next generation platforms at VisionAIR and with other leading public safety organizations. 
+
+The VisionAIR installed base and product suite are firmly rooted in the mid-market (Tier 2) and do not overlap with TriTech’s other product lines. This means existing VisiNet and Imc products will not be affected by this merger. We are excited to find ways to expand the reach of complementary products into the customer base, but to be clear the VisionAIR products will not obsolete any installed TriTech products.
+
+For details on the partnership, visit http://www.tritech.com/index.php?option=com_k2&amp;view=item&amp;id=398. If you have any questions or concerns, feel free to contact your Client Account Manager. 
+
+To read the press release, visit:  http://www.tritech.com/index.php?option=com_k2&amp;view=item&amp;id=398
+
+
+
+Best regards, 
+Chris Maloney
+President and CEO
+TriTech Software Systems
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  l  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

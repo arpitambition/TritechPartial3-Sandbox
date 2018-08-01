@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>TA13-004.020212</name>
+    <style>none</style>
+    <subject>TA13-004 - Critical information regarding Microsoft hotfix rollup and ArcGIS</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;   &lt;http://twitter.com/tritechsoftware&gt;   &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;   &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+Technical Advisory
+TA13-004 - Critical information regarding Microsoft hotfix rollup and ArcGIS
+POSTED: 04-29-13
+
+
+ Dear Clients,
+
+If you have applied Microsoft hotfix roll-up KB 2775511 &lt;http://autobahn.esri.com/esri/etrack.aspx?DSN=b9ca57b2fbe8cb42458807853387983f6a0f6be5ccdab113&amp;FORMID=40d1deb2ef07213490f70d8f652ed1a8&amp;AUDID=217889fb4e6179c5014872e28113df3b&amp;EMAILID=915ca8eb2542e31d4cb846c44c1e416e49c0fb426f3b73b1&amp;DECODE=1&amp;INTID=57fa4c9b3b897ae137b24f8b95cfa6ae&amp;URL=http://support.microsoft.com/kb/2775511&gt; and created file geodatabases on a shared network location from a Windows 7 SP1 or a Windows 2008 R2 SP1 machine, your file geodatabases are unusable. You will see an error message referencing the item type when you create new datasets or items in a file geodatabase.
+
+For example, the following message will appear when creating a new feature class: 
+
+&quot;Failed to create feature class.
+ The item was not found. [ItemType:
+ {70737809-852C-4A03-9E22-2CECEA5B9BFA}]&quot; 
+
+Cause
+ This issue is still under investigation.
+
+Workaround
+ Esri is working on a patch to mitigate this issue. There are currently several workarounds. 
+
+See Esri Knowledge Base article 41119 &lt;http://autobahn.esri.com/esri/etrack.aspx?DSN=b9ca57b2fbe8cb42458807853387983f6a0f6be5ccdab113&amp;FORMID=40d1deb2ef07213490f70d8f652ed1a8&amp;AUDID=217889fb4e6179c5014872e28113df3b&amp;EMAILID=915ca8eb2542e31d4cb846c44c1e416e49c0fb426f3b73b1&amp;DECODE=1&amp;INTID=57fa4c9b3b897ae137b24f8b95cfa6ae&amp;URL=http://support.esri.com/en/knowledgebase/techarticles/detail/41119/?WT.mc_id=EmailCampaign15945&gt; for further information and updates.
+
+Sincerely,
+
+Shane Birch
+ Technical Support Supervisor - Inform Solutions | Decorah, IA
+ Direct: (563) 387.4813 l Mobile: (563) 419.8766
+ Fax: (563) 387.9335 l Support: (800) 847.4223
+
+Support Website: Salesforce.com &lt;https://na6.salesforce.com/secur/login_portal.jsp?orgId=00D80000000arem&amp;portalId=06080000000QwMW&amp;mkt_tok=3RkMMJWWfF9wsRow5%2FmYJoDpwmWGd5mht7VzDtPj1OY6hB0sJrmJK1TtuMFUGpsqOP2MCBYVEJg%3D&gt;
+
+Read Full Article l Email Feedback &lt;mailto:support@tritech.com?subject=VisiNet%20Solutions%20Tech%20Tips%20-%20Feedback&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>OnlineServerMigration.Email6</name>
+    <style>none</style>
+    <subject>REMINDER: SCHEDULED MAINTENANCE NOTICE – TriTech.com Billing</subject>
+    <textOnly>STAY CONNECTED  &lt;http://www.facebook.com/pages/Tritech-Software-Systems/89416081839&gt;  &lt;http://twitter.com/tritechsoftware&gt;  &lt;http://www.linkedin.com/companies/tritech-software-systems&gt;  &lt;http://www.youtube.com/user/TriTechSoftware&gt;
+REMINDER: SCHEDULED MAINTENANCE NOTICE
+ TriTech.com Billing (formally Sweet-Online Billing) Server Migration
+
+Dear {{lead.First Name:default=TriTech.com Billing Customer}},
+
+On Sunday, October 7 at 12AM CDT (1AM EDT, 10PM PDT), TriTech will be performing scheduled maintenance on the TriTech.com Servers. This maintenance will result in access to TriTech.com Billing being unavailable. This maintenance is scheduled to be completed by Monday, October 8 at 6AM CDT (7AM EDT, 4AM PDT).
+
+On Monday, October 8 when access to TriTech.com Billing is available, please use the NEW web address online.tritech.com &lt;https://online.tritech.com/&gt; to connect to your TriTech.com Billing system. 
+
+Please be sure to communicate the NEW (online.tritech.com) &lt;https://online.tritech.com/&gt; web address to any staff member who accesses TriTech.com Billing, as of Sunday, October 7 at 12AM CDT (1AM EDT, 10PM PDT), the web address they currently use will no longer be available.
+
+Read more information on connection instructions here &lt;http://www.tritechems.com/documents/TritechCitrixOnlineCloudCustomerLoginInstructions.pdf&gt;
+.
+In the event you are unable to connect to your TriTech.com Billing System or if you have questions please contact your Client Account Manager or TriTech Support Services.
+
+TriTech.com Product Team
+TriTech Software Systems | www.tritech.com
+Support: (563) 387-9338 | email: emssupport@tritech.com &lt;mailto:emssupport@tritech.com&gt;</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

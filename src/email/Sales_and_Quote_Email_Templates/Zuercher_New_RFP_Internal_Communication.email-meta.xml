@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <description>New RFP Internal Communication for Zuercher competitive opportunities</description>
+    <encodingKey>ISO-8859-1</encodingKey>
+    <name>Zuercher New RFP Internal Communication</name>
+    <style>none</style>
+    <subject>RFP Go/No Go Discussion for {!Opportunity.Bill_To_State__c}: {!Opportunity.Account}</subject>
+    <textOnly>The following RFP is ready for a go/no-go discussion.  Please reply to this group with your thoughts on if Zuercher should bid on this RFP.  Below are the details and link to the Opportunity in Salesforce:
+
+Opportunity: {!Opportunity.Name}.
+
+Other Agencies:  {!Opportunity.Z_Other_Agencies__c}
+
+Due Date:  {!Opportunity.Z_Due_Date__c}
+
+Summary: {!Opportunity.Z_Summary__c}
+
+Number of Sworn Officers: {!Opportunity.Number_of_Sworn_Officers__c}
+
+CAD Dispatcher/Call Taker Seats: {!Opportunity.CAD_Dispatcher_Call_Taker_Seats__c}
+
+Jail Beds: {!Opportunity.Jail_Beds__c}
+
+Core State: {!Opportunity.Z_Core_State__c}
+
+(AE) # of visits: {!Opportunity.Z_AE_of_visits__c}
+
+(AE) Have they seen the product? {!Opportunity.Z_AE_Have_they_seen_the_product__c}
+
+(AE) Who are the decision makers? {!Opportunity.Z_AE_Who_are_the_decision_makers__c}
+
+(AE) is it a ZT spec? {!Opportunity.AE_is_it_a_ZT_Spec__c}
+
+(AE) What are our win themes? {!Opportunity.Z_AE_What_are_our_win_themes__c}
+
+Are there product gaps? {!Opportunity.Z_Are_there_product_gaps__c}
+
+State-Specific things needed? {!Opportunity.Z_State_Specific_things_needed__c}
+
+Content creation notes: {!Opportunity.Z_Content_creation_notes__c}
+
+Meet reference requirements? {!Opportunity.Z_Meet_reference_requirements__c}
+
+Do we have to be on state contract? {!Opportunity.Z_Do_we_have_to_be_on_state_contract__c}
+
+RFP timeline concerns: {!Opportunity.Z_RFP_timeline_concerns__c}
+
+Project timeline concerns: {!Opportunity.Z_Project_timeline_concerns__c}
+
+Contract concerns: {!Opportunity.Z_Contract_concerns__c}
+
+
+You can review the Opportunity here: {!Opportunity.Link}
+
+Thanks,
+
+{!User.FirstName} {!User.LastName}
+{!User.Title}
+Zuercher Technologies | www.zuerchertech.com
+Phone: {!User.Phone}</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

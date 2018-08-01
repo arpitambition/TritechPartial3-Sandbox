@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SharingRules xmlns="http://soap.sforce.com/2006/04/metadata">
+    <sharingOwnerRules>
+        <fullName>CA_Opps_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Opps sharing for Mistiza and Martha Chavez</description>
+        <label>CA Opps Team</label>
+        <sharedTo>
+            <group>CA_Opps_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>CA_Opps_Team</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+    <sharingOwnerRules>
+        <fullName>Great_Lakes_Opps_Team</fullName>
+        <accessLevel>Edit</accessLevel>
+        <description>Opps sharing for Brenda Taylor and Sara Wise-Martinez</description>
+        <label>Great Lakes Opps Team</label>
+        <sharedTo>
+            <group>Great_Lakes_Opps_Team</group>
+        </sharedTo>
+        <sharedFrom>
+            <group>Great_Lakes_Opps_Team</group>
+        </sharedFrom>
+    </sharingOwnerRules>
+</SharingRules>

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>2011_Imc_SupportRenewalPaymentPolicyNotification.Email2</name>
+    <style>none</style>
+    <subject>Imc Solutions Support Renewal Payment Policy Notification</subject>
+    <textOnly>November 16, 2011
+Imc Solutions Support Renewal Payment Policy Notification
+
+
+Dear Imc Solutions Client,
+
+We are writing to notify you of a clarification in Imc Solutions’ support renewal payment policy, which will be effective beginning January 1, 2012. 
+
+In the past, we have experienced delays in the payments of the support renewal invoices which  we believe have been caused, at least in part, by payment terms that were not clearly stated. Support renewal payments have always been due on the date the support plan renews. However, in the past our invoices have stated that the payment terms were “Net 30” and, although they were sent out 2-3 weeks prior to the renewal date, the invoices were dated on the renewal date. To clarify the payment terms, for plans renewing in January 2012, our invoice payment terms will be stated as “Due upon Receipt.&quot;
+
+In order to assist you with the timely processing of your payment during the upcoming year we will be mailing support renewal invoices 45 days in advance of your department’s renewal date. The invoice will still be dated on the support renewal date (which is usually also the beginning of your new fiscal year) instead of the date the invoice was mailed. For example, if your support renewal date is Jan. 1, 2012, we will send an invoice dated Jan. 1, 2012 on Nov. 15, 2011.
+
+Although the invoice  payment terms are “due upon receipt,” we will provide a 30-day grace period from the invoice date, during which you will be able to pay the invoice before we contact you regarding the status of the payment. If we have not received your payment by the end of the 30 day grace period, we will notify you, by mail, of our intent to terminate your support and maintenance plan within 30 days, unless we receive your payment. If we have not received your payment by the end of that second 30-day period (60 days from the renewal date), your Imc Solutions support and maintenance plan will be terminated. Once terminated, the support and maintenance plan may be reinstated upon payment in-full of the annual support fee plus a reinstatement fee of 15% on the annual fee.
+
+If the current billing cycle conflicts with the beginning of your fiscal year we can accommodate a change in the annual support billing date to align these periods. If this is your situation, please contact me via phone or email to discuss a solution.
+
+Imc Solutions is very proud of the skills and capabilities of our Technical Services Department. In order to provide you, our customer, with the best services possible, we must be able to ensure that all resources are available to them. Your timely payment of the Software Support and Maintenance Fee assures our continued levels of excellent service and support.
+
+If you have any questions or require any additional information, please contact:
+Michele Maynard
+774.551.9113 
+michele.maynard@tritech.com
+
+
+Sincerely,
+
+Michele Maynard
+Assistant Treasurer
+
+
+
+
+
+
+
+
+Share this message with colleagues or visit us at www.tritech.com
+   
+This email was sent by TriTech Software Systems
+9860 Mesa Rim Road  |  San Diego, CA 92121</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>

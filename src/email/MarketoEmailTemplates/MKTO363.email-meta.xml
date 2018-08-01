@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<EmailTemplate xmlns="http://soap.sforce.com/2006/04/metadata">
+    <available>true</available>
+    <encodingKey>UTF-8</encodingKey>
+    <name>Inform Public Safety Suite Debuts at the APCO.Email</name>
+    <style>none</style>
+    <subject>TriTech Software Systems’ Inform Public Safety Suite Debuts at the APCO International Conference</subject>
+    <textOnly>Press Release
+TriTech Software Systems’ Inform Public Safety Suite Debuts at the APCO International Conference
+ 
+ TriTech’s Inform Solutions provide an integrated workflow throughout its 9-1-1, Computer Aided Dispatch (CAD), Mobile Data, Field Reporting, Records and Jail Management, and Business Intelligence applications
+ 
+ August 17, 2012
+SAN DIEGO, CA (August 17, 2012) – TriTech Software Systems &lt;http://www.tritech.com/&gt; (TriTech) proudly debuts the Inform Public Safety Suite® at the APCO International Conference and Expo &lt;http://apco2012.org/&gt; in Minneapolis, Minnesota. Built on proven technology utilized in over 2,500 agencies worldwide, Inform automates the flow of information to each user throughout the enterprise-wide system so that data is available when and where it is needed for information-led decision making. TriTech’s Inform Public Safety Suite includes Inform 9-1-1, Inform Computer Aided Dispatch, Inform Mobile, Inform Field Based Reporting, Inform Records Management Systems, Inform Jail, and Inform IQ data warehouse and business intelligence. 
+
+“TriTech has invested in research and development and is very proud to introduce a product line that will revolutionize the public safety workflow,” said Chris McAllister, Vice President of Product Management and Marketing for TriTech Software Systems. “The Inform Public Safety Suite is the evolution of TriTech’s proven solutions culminating in a Next Generation Public Safety Workflow that maximizes real-time access to data for immediate reuse by every user of the system, whether in dispatch, in the field, or in the station.”
+
+Automating the flow of information to each user is the primary goal of the Inform Public Safety Suite. Information flows from the initial 9-1-1 call and incident creation, to coordinating response between dispatch and the field, to incident close for records and jail management, and reporting and analytics for intelligence-driven response and operations. The Inform product line utilizes workflow components to ensure that even data entered into CAD can be reused when booking someone into jail. A report entered by an officer in the field can be automatically copied to a detective even prior to being available in RMS. Overarching all applications, is the ability to aggregate the information from all users with the Inform IQ solution. The data warehouse and tool sets in IQ were built specifically for the needs of public safety searching, reporting, and analysis - the final step in the public safety workflow.
+ 
+TriTech will debut the next generation workflow across The Public Safety Suite at the 78th Annual APCO Conference in Minneapolis, Minnesota in Booth #513.
+_______________
+
+About TriTech Software Systems
+ TriTech Software Systems has been developing innovative solutions for public safety for more than 20 years. The company provides products and services to address any size and type agency with an end-to-end product suite to meet the needs of any agency – police, fire, or EMS.
+ 
+ TriTech Software Systems’ sole focus is public safety software. The company’s experienced team of more than 350 industry experts each contribute, on average, more than a decade of industry experience. TriTech has delivered the most trusted public safety software for over two decades and continues to lead the market with innovative, enterprise-wide solutions for call-taking, dispatch, records management, jail management, analytics and intelligence, field-based reporting, patient care reporting, and billing.
+ 
+ For the best end-to-end integrated solution with unparalleled workflow to serve any size and type of agency, join the 2,500+ agency installations serving over 200 million citizens across 7 countries who rely on one company – TriTech Software Systems.</textOnly>
+    <type>custom</type>
+    <uiType>Aloha</uiType>
+</EmailTemplate>
